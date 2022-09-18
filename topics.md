@@ -1595,6 +1595,7 @@
 
 ## others 
 
+- [kubernetes-sigs/metrics-server](https://github.com/kubernetes-sigs/metrics-server) - Scalable and efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 - [jobilla/laravel-cloud-native-utilities](https://github.com/jobilla/laravel-cloud-native-utilities) - 
 - [SurajMazar/chess](https://github.com/SurajMazar/chess) - Chess game
 - [SurajMazar/_assist](https://github.com/SurajMazar/_assist) - Node cli
