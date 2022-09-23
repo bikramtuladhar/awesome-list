@@ -99,7 +99,7 @@
 - [Nitrux/maui-shell](https://github.com/Nitrux/maui-shell) - Maui Shell is a convergent shell for desktops, tablets, and phones.
 - [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
 - [ggerganov/wave-share](https://github.com/ggerganov/wave-share) - Serverless, peer-to-peer, local file sharing through sound
-- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed for developers to easily build cross-platform and high-performance awesome apps. 👏
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform and high-performance awesome apps. 👏
 - [emilengler/sysget](https://github.com/emilengler/sysget) - One package manager to rule them all
 - [MisterTea/EternalTerminal](https://github.com/MisterTea/EternalTerminal) - Re-Connectable secure remote shell
 - [canonical/multipass](https://github.com/canonical/multipass) - Multipass orchestrates virtual Ubuntu instances
