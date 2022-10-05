@@ -555,6 +555,7 @@
 
 - [devtron-labs/devtron](https://github.com/devtron-labs/devtron) - Tool integration platform for Kubernetes
 - [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
+- [vmware-tanzu/kubeapps](https://github.com/vmware-tanzu/kubeapps) - A web-based UI for deploying and managing applications in Kubernetes clusters
 - [deployphp/deployer](https://github.com/deployphp/deployer) - The PHP deployment tool with support for popular frameworks out of the box
 - [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Install and manage your server like a pro! With Cipi you don’t need to be a Sys Admin to deploy and manage websites and PHP applications powered by cloud VPS.
 - [caprover/caprover](https://github.com/caprover/caprover) - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids
@@ -987,7 +988,9 @@
 - [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
 - [pktharindu/nova-permissions](https://github.com/pktharindu/nova-permissions) - Add Permissions based authorization for your Nova installation via User-based Roles and Permissions. Roles are defined in the database whereas Permissions are defined in the code base.
 - [ira-design/ira-illustrations](https://github.com/ira-design/ira-illustrations) - Build your own amazing illustrations
+- [ethyca/fides](https://github.com/ethyca/fides) - Privacy as Code for your CI and runtime environment
 - [simple-login/app](https://github.com/simple-login/app) - The SimpleLogin back-end
+- [mattermost/focalboard](https://github.com/mattermost/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
 - [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Turn your audience into a business. Publishing, memberships, subscriptions and newsletters.
 - [Unleash/unleash](https://github.com/Unleash/unleash) - Unleash is the open source feature toggle service.
 - [itsnitinr/driwwwle](https://github.com/itsnitinr/driwwwle) - The social network for developers. Discover creative websites and build a community.
@@ -1262,6 +1265,7 @@
 - [beneath-hq/beneath](https://github.com/beneath-hq/beneath) - Beneath is a serverless real-time data platform ⚡️
 - [porter-dev/porter](https://github.com/porter-dev/porter) - Kubernetes powered PaaS that runs in your own cloud.
 - [netdata/netdata](https://github.com/netdata/netdata) - Real-time performance monitoring, done right! https://www.netdata.cloud
+- [vmware-tanzu/kubeapps](https://github.com/vmware-tanzu/kubeapps) - A web-based UI for deploying and managing applications in Kubernetes clusters
 - [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes sources :ship::tada:
 - [spacecloud-io/space-cloud](https://github.com/spacecloud-io/space-cloud) - Open source Firebase + Heroku to develop, scale and secure serverless apps on Kubernetes
 - [lensapp/lens](https://github.com/lensapp/lens) - Lens - The way the world runs Kubernetes
@@ -1801,7 +1805,6 @@
 - [outl1ne/nova-multiselect-field](https://github.com/outl1ne/nova-multiselect-field) - A Laravel Nova package that adds a multiselect to Nova's arsenal of fields.
 - [ochinchina/supervisord](https://github.com/ochinchina/supervisord) - a go-lang supervisor implementation
 - [hotwired/turbo](https://github.com/hotwired/turbo) - The speed of a single-page web application without having to write any JavaScript
-- [vmware-tanzu/kubeapps](https://github.com/vmware-tanzu/kubeapps) - A web-based UI for deploying and managing applications in Kubernetes clusters
 - [StydeNet/enlighten](https://github.com/StydeNet/enlighten) - Enlighten your APIs with auto-generated documentation
 - [darlinghq/darling](https://github.com/darlinghq/darling) - Darwin/macOS emulation layer for Linux
 - [chojnicki/video-platforms-parser](https://github.com/chojnicki/video-platforms-parser) - Easy to use grabber for video info, screens and more from YouTube and other platforms.
