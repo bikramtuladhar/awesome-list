@@ -697,6 +697,7 @@
 
 ## Python 
 
+- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - In-Database Machine Learning
 - [davidepedrazzi/CleanMyMacX](https://github.com/davidepedrazzi/CleanMyMacX) - Unlock all CleanMyMac X's features for free!
 - [cdk8s-team/cdk8s](https://github.com/cdk8s-team/cdk8s) - Define Kubernetes native apps and abstractions using object-oriented programming
 - [DonDebonair/slack-machine](https://github.com/DonDebonair/slack-machine) - A simple, yet powerful and extendable Slack bot
