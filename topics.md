@@ -1732,6 +1732,7 @@
 
 ## others 
 
+- [p8952/bocker](https://github.com/p8952/bocker) - Docker implemented in around 100 lines of bash
 - [teamhanko/hanko](https://github.com/teamhanko/hanko) - A passkey-first approach to authentication that takes you on the journey beyond passwords. For better security, conversion rates, and happier users.
 - [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
 - [supabase-community/postgres-wasm](https://github.com/supabase-community/postgres-wasm) - A PostgresQL server in your browser
