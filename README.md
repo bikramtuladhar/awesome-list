@@ -123,6 +123,7 @@
 ## Dockerfile 
 
 - [jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles) - Various Dockerfiles I use on the desktop and on servers.
+- [ethibox/awesome-stacks](https://github.com/ethibox/awesome-stacks) - Deploy 90+ open-source web apps with one Docker command
 - [melehin/graphql-engine-arm64](https://github.com/melehin/graphql-engine-arm64) - Dockerfile for hasura/graphql-engine to run on arm64/aarch64 (tested on Nvidia Jetson Nano, Rpi4, Apple M1).
 - [bitnami/bitnami-docker-php-fpm](https://github.com/bitnami/bitnami-docker-php-fpm) - Bitnami Docker Image for PHP-FPM
 - [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.1 & Nginx 1.22 on Alpine Linux
@@ -461,7 +462,6 @@
 - [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know about
 - [HomeEnterpriseInc/Home-Setup-Pub](https://github.com/HomeEnterpriseInc/Home-Setup-Pub) - 
 - [n6ai/flowrift](https://github.com/n6ai/flowrift) - Beautifully designed Tailwind CSS UI blocks.
-- [ethibox/awesome-stacks](https://github.com/ethibox/awesome-stacks) - Deploy 90+ open-source web apps with one Docker command
 - [yudax42/vue-upload-drop-images](https://github.com/yudax42/vue-upload-drop-images) - 🖼️ Drag-and-drop image upload component for Vue
 - [LaravelDaily/Laravel-Roadmap-Learning-Path](https://github.com/LaravelDaily/Laravel-Roadmap-Learning-Path) - 
 - [Avik-Jain/100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code) - 100 Days of ML Coding
@@ -811,6 +811,7 @@
 
 ## Shell 
 
+- [p8952/bocker](https://github.com/p8952/bocker) - Docker implemented in around 100 lines of bash
 - [supabase-community/postgres-wasm](https://github.com/supabase-community/postgres-wasm) - A PostgresQL server in your browser
 - [fabianlee/kustomize-overlays-with-reload](https://github.com/fabianlee/kustomize-overlays-with-reload) - 
 - [getumbrel/umbrel](https://github.com/getumbrel/umbrel) - A beautiful personal server OS for self-hosting. Install on a Raspberry Pi 4, Ubuntu/Debian homeserver, or a VPS.
