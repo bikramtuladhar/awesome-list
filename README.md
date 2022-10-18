@@ -256,7 +256,7 @@
 ## HCL 
 
 - [natelandau/ansible-homelab-config](https://github.com/natelandau/ansible-homelab-config) - Ansible scripts to configure my homelab using Consul, Nomad, Docker, Traefik, and more...
-- [joatmon08/hashicorp-stack-demoapp](https://github.com/joatmon08/hashicorp-stack-demoapp) - HashiCorp Cloud Platform (Vault/Consul), Consul-Terraform-Sync, & Boundary + Kubernetes
+- [joatmon08/hashicorp-stack-demoapp](https://github.com/joatmon08/hashicorp-stack-demoapp) - HashiCorp Cloud Platform (Vault/Consul), Consul-Terraform-Sync, & Boundary with Datadog and Kubernetes
 - [groovemonkey/tutorialinux-hashistack](https://github.com/groovemonkey/tutorialinux-hashistack) - A hands-on learning project for consul, using Terraform
 - [gogococo/nomad-autoscaler-demos](https://github.com/gogococo/nomad-autoscaler-demos) - A set of demos for the Nomad Autoscaler (https://github.com/hashicorp/nomad-autoscaler)
 - [hashicorp/nomad-guides](https://github.com/hashicorp/nomad-guides) - Example usage of HashiCorp Nomad
