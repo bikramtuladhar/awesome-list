@@ -99,7 +99,7 @@
 - [Nitrux/maui-shell](https://github.com/Nitrux/maui-shell) - Maui Shell is a convergent shell for desktops, tablets, and phones.
 - [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
 - [ggerganov/wave-share](https://github.com/ggerganov/wave-share) - Serverless, peer-to-peer, local file sharing through sound
-- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform and high-performance awesome apps. 👏
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
 - [emilengler/sysget](https://github.com/emilengler/sysget) - One package manager to rule them all
 - [MisterTea/EternalTerminal](https://github.com/MisterTea/EternalTerminal) - Re-Connectable secure remote shell
 - [canonical/multipass](https://github.com/canonical/multipass) - Multipass orchestrates virtual Ubuntu instances
@@ -302,7 +302,7 @@
 - [SimCoderYoutube/WhatsAppClone](https://github.com/SimCoderYoutube/WhatsAppClone) - 
 - [ongres/stackgres](https://github.com/ongres/stackgres) - StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there.
 - [gaia-app/gaia](https://github.com/gaia-app/gaia) - Gaia is a Terraform 🌍 UI for your modules, and self-service infrastructure 👨‍💻
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster
+- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
 - [traccar/traccar](https://github.com/traccar/traccar) - Traccar GPS Tracking System
 - [MCMrARM/revolution-irc](https://github.com/MCMrARM/revolution-irc) - A modern Android IRC client. #revolutionirc on Libera.chat
 - [coding-blocks/DigitalOceanApp](https://github.com/coding-blocks/DigitalOceanApp) - Admin Console for Digital Ocean
@@ -327,7 +327,7 @@
 - [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) - Web Extension for Firefox/Chrome/MS Edge and CLI tool to save a faithful copy of an entire web page in a single HTML file
 - [AMAI-GmbH/AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) - Roadmap to becoming an Artificial Intelligence Expert in 2022
 - [leaningtech/webvm](https://github.com/leaningtech/webvm) - Virtual Machine for the Web
-- [Budibase/budibase](https://github.com/Budibase/budibase) - Low code platform for creating internal apps, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform you
+- [Budibase/budibase](https://github.com/Budibase/budibase) - Low code platform for creating internal tools, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform yo
 - [artf/grapesjs](https://github.com/artf/grapesjs) - Free and Open source Web Builder Framework. Next generation tool for building templates without coding
 - [mani-barathi/unsplash-clone](https://github.com/mani-barathi/unsplash-clone) - Unsplash Clone Built with React and Unsplash API
 - [junip/react-unsplash](https://github.com/junip/react-unsplash) - A Unsplash Cloned Photo Search App  made with React
