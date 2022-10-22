@@ -212,7 +212,7 @@
 - [adi1090x/termux-desktop](https://github.com/adi1090x/termux-desktop) - Setup A Beautiful Desktop/GUI In Termux
 - [ziozzang/android-kernel-builder-docker](https://github.com/ziozzang/android-kernel-builder-docker) - Dockerized Android Kernel build Environments. for Android PIE(with gcc/clang)
 - [MCMrARM/revolution-irc](https://github.com/MCMrARM/revolution-irc) - A modern Android IRC client. #revolutionirc on Libera.chat
-- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform and high-performance awesome apps. 👏
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
 - [unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps) - :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy!
 - [coding-blocks/DigitalOceanApp](https://github.com/coding-blocks/DigitalOceanApp) - Admin Console for Digital Ocean
 - [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
@@ -469,7 +469,7 @@
 - [GauravDawra/Beast](https://github.com/GauravDawra/Beast) - A build system built for speed and power
 - [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
 - [leaningtech/webvm](https://github.com/leaningtech/webvm) - Virtual Machine for the Web
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster
+- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
 - [google/startup-os](https://github.com/google/startup-os) - Working examples of Google's Open Source stack and deployment to the cloud.
 
 ## cryptocurrency 
@@ -540,7 +540,7 @@
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 - [Clivern/Peanut](https://github.com/Clivern/Peanut) - 🐺 Deploy Databases and Services Easily for Development and Testing Pipelines.
 - [encoredev/encore](https://github.com/encoredev/encore) - Encore is the Backend Development Engine helping developers escape the maze of complexity.
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster
+- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, offline-first, reactive database for JavaScript Applications
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data
@@ -813,7 +813,7 @@
 - [vitejs/vite](https://github.com/vitejs/vite) - Next generation frontend tooling. It's fast!
 - [papercups-io/papercups](https://github.com/papercups-io/papercups) - Open-source live customer chat
 - [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
-- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform and high-performance awesome apps. 👏
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
 - [vuejs/vue](https://github.com/vuejs/vue) - 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 
 ## game-development 
@@ -1045,7 +1045,7 @@
 - [zricethezav/gitleaks](https://github.com/zricethezav/gitleaks) - Protect and discover secrets using Gitleaks 🔑
 - [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) - 🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.
 - [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster
+- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, offline-first, reactive database for JavaScript Applications
 - [VulcanJS/vulcan-next](https://github.com/VulcanJS/vulcan-next) - The Next starter for GraphQL developers
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
@@ -1068,6 +1068,7 @@
 - [alias-rahil/handwritten.js](https://github.com/alias-rahil/handwritten.js) - Convert typed text to realistic handwriting!
 - [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) - A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
 - [traccar/traccar](https://github.com/traccar/traccar) - Traccar GPS Tracking System
+- [supabase/supabase](https://github.com/supabase/supabase) - The open source Firebase alternative. Follow to stay updated about our public Beta.
 - [bastienwirtz/homer](https://github.com/bastienwirtz/homer) - A very simple static homepage for your server.
 - [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
 - [tenancy/multi-tenant](https://github.com/tenancy/multi-tenant) - Run multiple websites using the same Laravel installation while keeping tenant specific data separated for fully independent multi-domain setups, previously github.com/hyn/multi-tenant
@@ -1138,7 +1139,7 @@
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - Secure Backend Server for Web, Mobile & Flutter Developers 🚀 AKA the 100% open-source Firebase alternative.
 - [nikitavoloboev/my-mac-os](https://github.com/nikitavoloboev/my-mac-os) - List of applications and tools that make my macOS experience even more amazing
 - [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
-- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform and high-performance awesome apps. 👏
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
 - [unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps) - :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy!
 
 ## iot 
@@ -1146,7 +1147,7 @@
 - [collabnix/kubetools](https://github.com/collabnix/kubetools) - Kubetools - Curated List of Kubernetes Tools
 - [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Home Cloud system.
 - [seashell/drago](https://github.com/seashell/drago) - ☁️ Securely connect anything with WireGuard® and manage all your networks from a single place.
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster
+- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
 - [netdata/netdata](https://github.com/netdata/netdata) - Real-time performance monitoring, done right! https://www.netdata.cloud
 
 ## ipfs 
@@ -1160,7 +1161,7 @@
 - [Netflix/conductor](https://github.com/Netflix/conductor) - Conductor is a microservices orchestration engine.
 - [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API.
 - [ongres/stackgres](https://github.com/ongres/stackgres) - StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there.
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster
+- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
 - [traccar/traccar](https://github.com/traccar/traccar) - Traccar GPS Tracking System
 - [google/startup-os](https://github.com/google/startup-os) - Working examples of Google's Open Source stack and deployment to the cloud.
 - [microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk) - Bot Framework provides the most comprehensive experience for building conversation applications.
@@ -1565,7 +1566,7 @@
 
 - [xemle/home-gallery](https://github.com/xemle/home-gallery) - Self-hosted open-source web gallery to view your photos and videos featuring mobile-friendly, tagging and AI powered image discovery
 - [konstaui/konsta](https://github.com/konstaui/konsta) - Mobile UI components made with Tailwind CSS
-- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform and high-performance awesome apps. 👏
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
 
 ## mongodb 
 
@@ -1594,7 +1595,6 @@
 - [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) - A fancy self-hosted monitoring tool
 - [sodadata/soda-core](https://github.com/sodadata/soda-core) - Data reliability tools for SQL- and Spark-accessible data
 - [opstrace/opstrace](https://github.com/opstrace/opstrace) - The Open Source Observability Distribution
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster
 - [gao-sun/eul](https://github.com/gao-sun/eul) - 🖥️ macOS status monitoring app written in SwiftUI.
 - [netdata/netdata](https://github.com/netdata/netdata) - Real-time performance monitoring, done right! https://www.netdata.cloud
 - [arachnys/cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
@@ -1781,7 +1781,7 @@
 - [sentry-kubernetes/charts](https://github.com/sentry-kubernetes/charts) - Easily deploy Sentry on your Kubernetes Cluster
 - [alex/what-happens-when](https://github.com/alex/what-happens-when) - An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
 - [fly-apps/live_beats](https://github.com/fly-apps/live_beats) - 
-- [Budibase/budibase](https://github.com/Budibase/budibase) - Low code platform for creating internal apps, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform you
+- [Budibase/budibase](https://github.com/Budibase/budibase) - Low code platform for creating internal tools, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform yo
 - [formidablae/formidablae](https://github.com/formidablae/formidablae) - My profile's README.md
 - [Benjacho/belongs-to-many-field-nova](https://github.com/Benjacho/belongs-to-many-field-nova) - Belongs To Many field Laravel nova to represent many to many relationship in field.
 - [whitecube/nova-page](https://github.com/whitecube/nova-page) - Static pages content management for Laravel Nova
@@ -2089,7 +2089,7 @@
 - [ongres/stackgres](https://github.com/ongres/stackgres) - StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there.
 - [reactive-tech/kubegres](https://github.com/reactive-tech/kubegres) - Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup.
 - [encoredev/encore](https://github.com/encoredev/encore) - Encore is the Backend Development Engine helping developers escape the maze of complexity.
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster
+- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
 - [Bearer/Pizzly](https://github.com/Bearer/Pizzly) - The simplest, fastest way to integrate your app with an OAuth API
@@ -2239,7 +2239,7 @@
 - [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
 - [Bearer/Pizzly](https://github.com/Bearer/Pizzly) - The simplest, fastest way to integrate your app with an OAuth API
 - [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) - A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
-- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform and high-performance awesome apps. 👏
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
 - [unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps) - :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy!
 - [pterodactyl/panel](https://github.com/pterodactyl/panel) - Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while ex
 - [blocks/blocks](https://github.com/blocks/blocks) - A JSX-based page builder for creating beautiful websites without writing code
@@ -2414,7 +2414,7 @@
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 - [supabase/pg_graphql](https://github.com/supabase/pg_graphql) - GraphQL support for PostgreSQL
 - [beneath-hq/beneath](https://github.com/beneath-hq/beneath) - Beneath is a serverless real-time data platform ⚡️
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster
+- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
 - [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [danielme85/laravel-log-to-db](https://github.com/danielme85/laravel-log-to-db) - Custom Laravel and Lumen 5.6+ Log channel handler that can store log events to SQL or MongoDB databases.  Uses Laravel/Monolog native logging functionality.
@@ -2579,7 +2579,7 @@
 - [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace.
 - [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
-- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform and high-performance awesome apps. 👏
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
 - [wells/airflix](https://github.com/wells/airflix) - 🍿 An AirPlay friendly web interface to stream your movies and TV shows from a home server.
 - [jcc/blog](https://github.com/jcc/blog) - :star2: PJ Blog is an open source blog built with Laravel and Vue.js.
 - [devfake/flox](https://github.com/devfake/flox) - Self Hosted Movie, Series and Anime Watch List
@@ -2612,7 +2612,7 @@
 - [prasadgujar/low-level-design-primer](https://github.com/prasadgujar/low-level-design-primer) - Dedicated Resources for the Low-Level System Design. Learn how to design and implement large-scale systems. Prep for the system design interview.
 - [beefsack/webify](https://github.com/beefsack/webify) - Turn shell commands into web services
 - [stealjs/steal](https://github.com/stealjs/steal) - Gets JavaScript
-- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform and high-performance awesome apps. 👏
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
 - [range-of-motion/budget](https://github.com/range-of-motion/budget) - Get a grip on your finances.
 - [slimkit/plus](https://github.com/slimkit/plus) - 💝The Plus (ThinkSNS+) is a powerful, easy-to-develop social system built with Laravel.
 
