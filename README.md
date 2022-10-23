@@ -311,7 +311,6 @@
 
 ## JavaScript 
 
-- [tizz98/vue-nl2br](https://github.com/tizz98/vue-nl2br) - A vue component that turns new lines into line breaks.
 - [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app
 - [google/zx](https://github.com/google/zx) - A tool for writing better scripts
 - [SurajMazar/_assist](https://github.com/SurajMazar/_assist) - Node cli
