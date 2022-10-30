@@ -19,6 +19,7 @@
 - [Erlang](#erlang)
 - [F#](#f#)
 - [Go](#go)
+- [Groovy](#groovy)
 - [HCL](#hcl)
 - [HTML](#html)
 - [Haskell](#haskell)
@@ -149,6 +150,7 @@
 
 ## Go 
 
+- [answerdev/answer](https://github.com/answerdev/answer) - An open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
 - [gobuffalo/buffalo](https://github.com/gobuffalo/buffalo) - Rapid Web Development w/ Go
 - [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
 - [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) - A beautiful CLI dashboard for GitHub 🚀
@@ -266,6 +268,10 @@
 - [muesli/gitomatic](https://github.com/muesli/gitomatic) - A tool to monitor git repositories and automatically pull & push changes
 - [google/cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
 - [joohoi/acme-dns](https://github.com/joohoi/acme-dns) - Limited DNS server with RESTful HTTP API to handle ACME DNS challenges easily and securely.
+
+## Groovy 
+
+- [bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources) - DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 
 ## HCL 
 
@@ -721,6 +727,7 @@
 
 ## Python 
 
+- [bumble-tech/private-detector](https://github.com/bumble-tech/private-detector) - Bumble's Private Detector - a pretrained model for detecting lewd images
 - [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
 - [flyteorg/flyte](https://github.com/flyteorg/flyte) - Kubernetes-native workflow automation platform for complex, mission-critical data and ML processes at scale. It has been battle-tested at Lyft, Spotify, Freenome, and others and is truly open-source.
 - [localstack/localstack](https://github.com/localstack/localstack) - 💻  A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!
@@ -804,6 +811,7 @@
 
 ## Rust 
 
+- [vercel/turbo](https://github.com/vercel/turbo) - Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turborepo and Turbopack.
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web
 - [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
 - [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
