@@ -1834,6 +1834,8 @@
 
 ## others 
 
+- [thevahidal/soul](https://github.com/thevahidal/soul) - A SQLite RESTful server
+- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Ballerine is an open-source infrastructure for user identity and risk management
 - [trevorjay/Jerrica](https://github.com/trevorjay/Jerrica) - Jerrica is a small, bare bones, 100% scheduled, web audio native, MOD player designed to be embedded in Javascript games
 - [TiagoSantos81/libregrammar](https://github.com/TiagoSantos81/libregrammar) - Repo to count commit history. Main repo is https://github.com/TiagoSantos81/languagetool/commits/master
 - [capri-js/capri](https://github.com/capri-js/capri) - Build static sites with interactive islands
