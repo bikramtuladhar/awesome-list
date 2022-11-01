@@ -44,6 +44,7 @@
 - [Shell](#shell)
 - [Smarty](#smarty)
 - [Starlark](#starlark)
+- [Svelte](#svelte)
 - [Swift](#swift)
 - [TeX](#tex)
 - [TypeScript](#typescript)
@@ -332,6 +333,7 @@
 
 ## JavaScript 
 
+- [thevahidal/soul](https://github.com/thevahidal/soul) - A SQLite RESTful server
 - [trevorjay/Jerrica](https://github.com/trevorjay/Jerrica) - Jerrica is a small, bare bones, 100% scheduled, web audio native, MOD player designed to be embedded in Javascript games
 - [fastify/fastify](https://github.com/fastify/fastify) - Fast and low overhead web framework, for Node.js
 - [richardanaya/wasm-service](https://github.com/richardanaya/wasm-service) - HTMX, WebAssembly, Rust, ServiceWorkers
@@ -905,6 +907,10 @@
 ## Starlark 
 
 - [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) - 🥑  Language focused docker images, minus the operating system.
+
+## Svelte 
+
+- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Ballerine is an open-source infrastructure for user identity and risk management
 
 ## Swift 
 
