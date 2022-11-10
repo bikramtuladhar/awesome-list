@@ -44,7 +44,6 @@
 - [Shell](#shell)
 - [Smarty](#smarty)
 - [Starlark](#starlark)
-- [Svelte](#svelte)
 - [Swift](#swift)
 - [TeX](#tex)
 - [TypeScript](#typescript)
@@ -910,10 +909,6 @@
 
 - [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) - 🥑  Language focused docker images, minus the operating system.
 
-## Svelte 
-
-- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Ballerine is an open-source infrastructure for user identity and risk management
-
 ## Swift 
 
 - [utmapp/UTM](https://github.com/utmapp/UTM) - Virtual machines for iOS and macOS
@@ -931,6 +926,7 @@
 
 ## TypeScript 
 
+- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Ballerine is an open-source infrastructure for user identity and risk management
 - [eritislami/evobot](https://github.com/eritislami/evobot) - 🤖 EvoBot is a Discord Music Bot built with discord.js & uses Command Handler from discordjs.guide
 - [capri-js/capri](https://github.com/capri-js/capri) - Build static sites with interactive islands
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
