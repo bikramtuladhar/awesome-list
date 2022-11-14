@@ -633,7 +633,7 @@
 - [run-x/opta](https://github.com/run-x/opta) - The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
 - [alexellis/k3sup](https://github.com/alexellis/k3sup) - bootstrap K3s over SSH in &lt; 60s 🚀
 - [Unleash/unleash](https://github.com/Unleash/unleash) - Unleash is the open source feature toggle service.
-- [learning-zone/devops-basics](https://github.com/learning-zone/devops-basics) - DevOps Interview Questions
+- [learning-zone/docker-and-kubernetes-basics](https://github.com/learning-zone/docker-and-kubernetes-basics) - Docker and Kubernetes Basics
 - [khuedoan/homelab](https://github.com/khuedoan/homelab) - Modern self-hosting infrastructure, fully automated from empty disk to operating services with a single command.
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 - [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - This repository is my documenting repository for learning the world of DevOps. I started this journey on the 1st January 2022 and I plan to run to March 31st for a complete 90-day romp on spending an 
@@ -691,7 +691,7 @@
 - [Just5KY/SkyPi](https://github.com/Just5KY/SkyPi) - selfhosting on a budget
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) - Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.
 - [papercups-io/papercups](https://github.com/papercups-io/papercups) - Open-source live customer chat
-- [learning-zone/devops-basics](https://github.com/learning-zone/devops-basics) - DevOps Interview Questions
+- [learning-zone/docker-and-kubernetes-basics](https://github.com/learning-zone/docker-and-kubernetes-basics) - Docker and Kubernetes Basics
 - [Devinterview-io/docker-interview-questions](https://github.com/Devinterview-io/docker-interview-questions) - 🟣 Docker Interview Questions Answered to help you get ready for your next Design Patterns & System Architecture interview.
 - [khuedoan/homelab](https://github.com/khuedoan/homelab) - Modern self-hosting infrastructure, fully automated from empty disk to operating services with a single command.
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
@@ -1377,7 +1377,7 @@
 - [k3s-io/k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes
 - [alexellis/k3sup](https://github.com/alexellis/k3sup) - bootstrap K3s over SSH in &lt; 60s 🚀
 - [jina-ai/jina](https://github.com/jina-ai/jina) - 🔮 Build cross-modal and multimodal applications on the cloud · Neural Search · Creative AI · Cloud Native · MLOps
-- [learning-zone/devops-basics](https://github.com/learning-zone/devops-basics) - DevOps Interview Questions
+- [learning-zone/docker-and-kubernetes-basics](https://github.com/learning-zone/docker-and-kubernetes-basics) - Docker and Kubernetes Basics
 - [khuedoan/homelab](https://github.com/khuedoan/homelab) - Modern self-hosting infrastructure, fully automated from empty disk to operating services with a single command.
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 - [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - This repository is my documenting repository for learning the world of DevOps. I started this journey on the 1st January 2022 and I plan to run to March 31st for a complete 90-day romp on spending an 
