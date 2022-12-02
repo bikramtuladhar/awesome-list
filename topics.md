@@ -1176,7 +1176,7 @@
 - [laravel-zero/laravel-zero](https://github.com/laravel-zero/laravel-zero) - A PHP framework for console artisans
 - [monicahq/monica](https://github.com/monicahq/monica) - Personal CRM. Remember everything about your friends, family and business relationships.
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) - Laravel Debugbar (Integrates PHP Debug Bar)
-- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - Self hosted project management and collaboration tool powered by TALL stack
+- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - https://github.com/Hasnayeen/legacy-goodwork
 - [barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf) - A DOMPDF Wrapper for Laravel
 - [jsdecena/laracom](https://github.com/jsdecena/laracom) - Laravel FREE E-Commerce Software
 - [realodix/urlhub](https://github.com/realodix/urlhub) - ✂️ URL shortener web application based on the Laravel PHP Framework.
@@ -1495,7 +1495,7 @@
 - [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) - Clockwork - php dev tools in your browser - server-side component
 - [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel) - 🚀 Supercharged Excel exports and imports in Laravel
 - [austintoddj/canvas](https://github.com/austintoddj/canvas) - A Laravel publishing platform
-- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - Self hosted project management and collaboration tool powered by TALL stack
+- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - https://github.com/Hasnayeen/legacy-goodwork
 - [barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf) - A DOMPDF Wrapper for Laravel
 - [cloudcreativity/laravel-json-api](https://github.com/cloudcreativity/laravel-json-api) - JSON API (jsonapi.org) package for Laravel applications.
 - [code16/sharp](https://github.com/code16/sharp) - Laravel 8+ Content management framework
@@ -2160,7 +2160,7 @@
 - [marketplacekit/marketplacekit](https://github.com/marketplacekit/marketplacekit) - A platform to create an online marketplace
 - [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) - Clockwork - php dev tools in your browser - server-side component
 - [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel) - 🚀 Supercharged Excel exports and imports in Laravel
-- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - Self hosted project management and collaboration tool powered by TALL stack
+- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - https://github.com/Hasnayeen/legacy-goodwork
 - [cloudcreativity/laravel-json-api](https://github.com/cloudcreativity/laravel-json-api) - JSON API (jsonapi.org) package for Laravel applications.
 - [code16/sharp](https://github.com/code16/sharp) - Laravel 8+ Content management framework
 - [stefanzweifel/screeenly](https://github.com/stefanzweifel/screeenly) - 📸  Screenshot as a Service
@@ -2252,7 +2252,7 @@
 ## project-management 
 
 - [mattermost/focalboard](https://github.com/mattermost/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
-- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - Self hosted project management and collaboration tool powered by TALL stack
+- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - https://github.com/Hasnayeen/legacy-goodwork
 - [lxerxa/actionview](https://github.com/lxerxa/actionview) - An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.
 - [opf/openproject](https://github.com/opf/openproject) - OpenProject is the leading open source project management software.
 
