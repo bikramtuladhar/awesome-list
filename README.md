@@ -52,7 +52,7 @@
 
 ## Assembly 
 
-- [hackclub/some-assembly-required](https://github.com/hackclub/some-assembly-required) - 📘 An approachable introduction to Assembly, the result of our months-long quest to understand the language.
+- [hackclub/some-assembly-required](https://github.com/hackclub/some-assembly-required) - An approachable introduction to Assembly
 
 ## Batchfile 
 
@@ -523,7 +523,6 @@
 - [fpereiro/backendlore](https://github.com/fpereiro/backendlore) - How I write backends
 - [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
 - [unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps) - :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy!
-- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - https://github.com/Hasnayeen/legacy-goodwork
 - [anaibol/awesome-serverless](https://github.com/anaibol/awesome-serverless) - :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
 
 ## PHP 
@@ -847,6 +846,7 @@
 - [jameslittle230/stork](https://github.com/jameslittle230/stork) - 🔎 Impossibly fast web search, made for static sites.
 - [bottlerocket-os/bottlerocket](https://github.com/bottlerocket-os/bottlerocket) - An operating system designed for hosting containers
 - [TimeToogo/tunshell](https://github.com/TimeToogo/tunshell) - Remote shell into ephemeral environments 🐚 🦀
+- [Hasnayeen/goodwork](https://github.com/Hasnayeen/goodwork) - https://github.com/Hasnayeen/legacy-goodwork
 - [iced-rs/iced](https://github.com/iced-rs/iced) - A cross-platform GUI library for Rust, inspired by Elm
 
 ## SCSS 
