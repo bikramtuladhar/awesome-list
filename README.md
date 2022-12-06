@@ -750,7 +750,7 @@
 - [run-x/opta](https://github.com/run-x/opta) - The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
 - [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) - The easiest way to coordinate your dataflow
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
-- [jina-ai/jina](https://github.com/jina-ai/jina) - 🔮 The most advanced MLOps platform for multimodal AI on the cloud · Neural Search · Creative AI · Cloud Native
+- [jina-ai/jina](https://github.com/jina-ai/jina) - 🔮 Build multimodal AI services via cloud native technologies · Neural Search · Generative AI · Cloud Native
 - [ethyca/fides](https://github.com/ethyca/fides) - Privacy as Code for your CI and runtime environment
 - [simple-login/app](https://github.com/simple-login/app) - The SimpleLogin back-end
 - [openreplay/openreplay](https://github.com/openreplay/openreplay) - :tv: OpenReplay is developer-friendly, open-source session replay.
