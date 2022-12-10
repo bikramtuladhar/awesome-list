@@ -227,7 +227,7 @@
 - [micro/micro](https://github.com/micro/micro) - An API first development platform
 - [seashell/drago](https://github.com/seashell/drago) - ☁️ Securely connect anything with WireGuard® and manage all your networks from a single place.
 - [planetscale/vitess](https://github.com/planetscale/vitess) - Vitess is a database clustering system for horizontal scaling of MySQL.
-- [encoredev/encore](https://github.com/encoredev/encore) - Encore is the Backend Development Engine helping developers escape the maze of complexity.
+- [encoredev/encore](https://github.com/encoredev/encore) - Encore is the Backend Development Platform that lets you escape cloud complexity by logically declaring infrastructure needs directly in application code.
 - [adamlouis/squirrelbyte](https://github.com/adamlouis/squirrelbyte) - a tool for gathering & exploring data
 - [commitdev/zero](https://github.com/commitdev/zero) - Allow startup developers to ship to production on day 1
 - [beneath-hq/beneath](https://github.com/beneath-hq/beneath) - Beneath is a serverless real-time data platform ⚡️
