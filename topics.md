@@ -1331,7 +1331,7 @@
 - [alyssaxuu/flowy](https://github.com/alyssaxuu/flowy) - The minimal javascript library to create flowcharts ✨
 - [sinclairzx81/zero](https://github.com/sinclairzx81/zero) - A 3D renderer written in JavaScript and rendered to the terminal.
 - [QuickCorp/QCObjects](https://github.com/QuickCorp/QCObjects) - Full Stack Javascript Framework for Modern Software Development
-- [xwiki-labs/cryptpad](https://github.com/xwiki-labs/cryptpad) - Collaboration suite, end-to-end encrypted and open-source.
+- [xwiki-labs/cryptpad](https://github.com/xwiki-labs/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source.
 - [node-red/node-red](https://github.com/node-red/node-red) - Low-code programming for event-driven applications
 - [microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk) - Bot Framework provides the most comprehensive experience for building conversation applications.
 - [vuejs/vue](https://github.com/vuejs/vue) - 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
