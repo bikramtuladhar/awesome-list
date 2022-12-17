@@ -1885,7 +1885,7 @@
 - [SurajMazar/chess](https://github.com/SurajMazar/chess) - Chess game
 - [SurajMazar/_assist](https://github.com/SurajMazar/_assist) - Node cli
 - [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design) - Learn how to design systems at scale and prepare for system design interviews
-- [moyix/fauxpilot](https://github.com/moyix/fauxpilot) - FauxPilot - an open-source GitHub Copilot server
+- [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) - FauxPilot - an open-source GitHub Copilot server
 - [jorgef/engineeringladders](https://github.com/jorgef/engineeringladders) - A framework for Engineering Managers
 - [shoshanimayan/AR-wall-hanger](https://github.com/shoshanimayan/AR-wall-hanger) - Unity AR app for simulating what different images will look like hanging off walls
 - [yk9331/Unity_IKEAPlace](https://github.com/yk9331/Unity_IKEAPlace) - &lt;Remake&gt; A pratice project of remakeing Ikea place iOS app. The UI layout is design for iPad. Using Unity and ARKit plugin.
@@ -2740,7 +2740,6 @@
 ## vim 
 
 - [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
-- [Onelinerhub/onelinerhub](https://github.com/Onelinerhub/onelinerhub) - 2.5k code solutions with clear explanation @ onelinerhub.com
 
 ## vue 
 
