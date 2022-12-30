@@ -1066,6 +1066,7 @@
 
 ## google-cloud 
 
+- [rowyio/rowy](https://github.com/rowyio/rowy) - Rowy is an open-source low-code platform. Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.
 - [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes sources :ship::tada:
 
 ## gradle 
@@ -1878,6 +1879,8 @@
 
 ## others 
 
+- [dreamncn/ParallelsDesktopCrack](https://github.com/dreamncn/ParallelsDesktopCrack) - 
+- [ChatGPT-Hackers/ChatGPT-API-server](https://github.com/ChatGPT-Hackers/ChatGPT-API-server) - API server for ChatGPT
 - [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) - CodeGeeX: An Open Multilingual Code Generation Model
 - [JhumanJ/OpnForm](https://github.com/JhumanJ/OpnForm) - Simple and open-source form builder
 - [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - Copilot for your terminal
