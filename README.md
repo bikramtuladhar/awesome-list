@@ -942,7 +942,7 @@
 - [nut-tree/nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node
 - [antfu/ni](https://github.com/antfu/ni) - 💡 Use the right package manager
 - [rowyio/rowy](https://github.com/rowyio/rowy) - Rowy is an open-source low-code platform. Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.
-- [honojs/hono](https://github.com/honojs/hono) - Ultrafast web framework for Cloudflare Workers, Deno, and Bun. Fast, but not only fast.
+- [honojs/hono](https://github.com/honojs/hono) - Ultrafast web framework for Cloudflare Workers, Deno, Bun, and Node.js. Fast, but not only fast.
 - [soketi/soketi](https://github.com/soketi/soketi) - Just another simple, fast, and resilient open-source WebSockets server. 📣
 - [ts-safeql/safeql](https://github.com/ts-safeql/safeql) - Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL.
 - [vercel/satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
