@@ -446,7 +446,6 @@
 - [hardeepmehta/webrtc-rooms](https://github.com/hardeepmehta/webrtc-rooms) - A simple room based webrtc application for audio-video sharing
 - [t9tio/cloudquery](https://github.com/t9tio/cloudquery) - Turn any website to API by several clicks (serverless and support SPA!)
 - [grocy/grocy](https://github.com/grocy/grocy) - ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - A list of Free Software network services and web applications which can be hosted on your own servers
 - [charlesBochet/cropchat](https://github.com/charlesBochet/cropchat) - Progressive Web Application made with VueJS
 - [artzub/GitHubVisualizer](https://github.com/artzub/GitHubVisualizer) - Visualization the history of repository changes based on data from GitHub
 
@@ -473,6 +472,7 @@
 
 - [nanovms/ops-documentation](https://github.com/nanovms/ops-documentation) - Documentation for NanoVMs OPS
 - [chialab/docker-php](https://github.com/chialab/docker-php) - 🧰 Adding common PHP extensions to some of the official PHP Docker images.
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - A list of Free Software network services and web applications which can be hosted on your own servers
 
 ## Markdown 
 
