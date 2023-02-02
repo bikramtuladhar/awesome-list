@@ -281,7 +281,7 @@
 - [encoredev/encore](https://github.com/encoredev/encore) - Encore is the end-to-end Backend Development Platform that lets you escape cloud complexity.
 - [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
 - [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
-- [NangoHQ/nango](https://github.com/NangoHQ/nango) - The simplest, fastest way to integrate your app with an OAuth API
+- [NangoHQ/nango](https://github.com/NangoHQ/nango) - Get OAuth tokens for APIs - fast & secure.
 - [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [DigitalOceanPHP/Client](https://github.com/DigitalOceanPHP/Client) - DigitalOcean API v2 client for PHP
@@ -465,7 +465,7 @@
 
 - [chubin/cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is an open-source, end-to-end encrypted tool to sync secrets and configs across your team and infrastructure.
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
 - [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
 - [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) - A beautiful CLI dashboard for GitHub 🚀
@@ -1199,7 +1199,7 @@
 - [chialab/docker-php](https://github.com/chialab/docker-php) - 🧰 Adding common PHP extensions to some of the official PHP Docker images.
 - [tighten/takeout](https://github.com/tighten/takeout) - Docker-based development-only dependency manager. macOS, Linux, and WSL2-only and installs via PHP's Composer... for now.
 - [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
-- [NangoHQ/nango](https://github.com/NangoHQ/nango) - The simplest, fastest way to integrate your app with an OAuth API
+- [NangoHQ/nango](https://github.com/NangoHQ/nango) - Get OAuth tokens for APIs - fast & secure.
 - [archivy/archivy](https://github.com/archivy/archivy) - Archivy is a self-hostable knowledge repository that allows you to learn and retain information in your own personal and extensible wiki.
 - [alias-rahil/handwritten.js](https://github.com/alias-rahil/handwritten.js) - Convert typed text to realistic handwriting!
 - [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) - A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
@@ -1211,7 +1211,7 @@
 - [HDInnovations/UNIT3D-Community-Edition](https://github.com/HDInnovations/UNIT3D-Community-Edition) - 🚀 A Next Generation Private Torrent Tracker (Community Edition)
 - [laravel-zero/laravel-zero](https://github.com/laravel-zero/laravel-zero) - A PHP framework for console artisans
 - [monicahq/monica](https://github.com/monicahq/monica) - Personal CRM. Remember everything about your friends, family and business relationships.
-- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) - Laravel Debugbar (Integrates PHP Debug Bar)
+- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) - Debugbar for Laravel (Integrates PHP Debug Bar)
 - [barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf) - A DOMPDF Wrapper for Laravel
 - [jsdecena/laracom](https://github.com/jsdecena/laracom) - Laravel FREE E-Commerce Software
 - [realodix/urlhub](https://github.com/realodix/urlhub) - ✂️ URL shortener web application based on the Laravel PHP Framework.
@@ -1359,7 +1359,7 @@
 - [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) - 24 Lessons, 12 Weeks, Get Started as a Web Developer
 - [microsoft/playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
 - [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
-- [NangoHQ/nango](https://github.com/NangoHQ/nango) - The simplest, fastest way to integrate your app with an OAuth API
+- [NangoHQ/nango](https://github.com/NangoHQ/nango) - Get OAuth tokens for APIs - fast & secure.
 - [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) - A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [stealjs/steal](https://github.com/stealjs/steal) - Gets JavaScript
@@ -1488,7 +1488,7 @@
 - [coderello/laravel-nova-lang](https://github.com/coderello/laravel-nova-lang) - 🌌 Language files for Laravel Nova translated into 40+ languages. Feel free to submit your language or update an existing one!
 - [RTippin/messenger](https://github.com/RTippin/messenger) - Laravel messenger. A full messenger suite for your new / existing laravel app! Private and group threads between multiple models, with real-time messaging, reactions, attachments, calling, chat bots, 
 - [eminiarts/nova-tabs](https://github.com/eminiarts/nova-tabs) - Laravel Nova Tabs Package
-- [tonysm/turbo-laravel](https://github.com/tonysm/turbo-laravel) - This package gives you a set of conventions to make the most out of Hotwire in Laravel.
+- [hotwired-laravel/turbo-laravel](https://github.com/hotwired-laravel/turbo-laravel) - This package gives you a set of conventions to make the most out of Hotwire in Laravel.
 - [hammerstonedev/airdrop](https://github.com/hammerstonedev/airdrop) - A Laravel package to speed up deployment by skipping asset compilation whenever possible.
 - [KABBOUCHI/nova-impersonate](https://github.com/KABBOUCHI/nova-impersonate) - A Laravel Nova field allows you to authenticate as your users.
 - [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) - A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem
@@ -1525,7 +1525,7 @@
 - [monicahq/monica](https://github.com/monicahq/monica) - Personal CRM. Remember everything about your friends, family and business relationships.
 - [Attendize/Attendize](https://github.com/Attendize/Attendize) - Attendize is an open-source ticket selling and event management platform built on Laravel.
 - [laravel/socialite](https://github.com/laravel/socialite) - Laravel wrapper around OAuth 1 & OAuth 2 libraries.
-- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) - Laravel Debugbar (Integrates PHP Debug Bar)
+- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) - Debugbar for Laravel (Integrates PHP Debug Bar)
 - [spatie/laravel-backup](https://github.com/spatie/laravel-backup) - A package to backup your Laravel app
 - [Intervention/image](https://github.com/Intervention/image) - PHP Image Manipulation
 - [babenkoivan/scout-elasticsearch-driver](https://github.com/babenkoivan/scout-elasticsearch-driver) - This package offers advanced functionality for searching and filtering data in Elasticsearch.
@@ -1635,7 +1635,7 @@
 ## linux 
 
 - [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) - DevOps Roadmap for 2022. with learning resources
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
 - [Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide) - DevOps Guide - Development to Production all configurations with basic notes to debug efficiently.
 - [bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources) - DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 - [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app
@@ -1690,7 +1690,7 @@
 ## macos 
 
 - [below/HelloSilicon](https://github.com/below/HelloSilicon) - An introduction to ARM64 assembly on Apple Silicon Macs
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
 - [utmapp/UTM](https://github.com/utmapp/UTM) - Virtual machines for iOS and macOS
 - [GauravDawra/Beast](https://github.com/GauravDawra/Beast) - A build system built for speed and power
 - [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
@@ -1855,7 +1855,7 @@
 - [gofiber/fiber](https://github.com/gofiber/fiber) - ⚡️ Express inspired web framework written in Go
 - [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) - A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
 - [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
-- [NangoHQ/nango](https://github.com/NangoHQ/nango) - The simplest, fastest way to integrate your app with an OAuth API
+- [NangoHQ/nango](https://github.com/NangoHQ/nango) - Get OAuth tokens for APIs - fast & secure.
 - [silverwind/droppy](https://github.com/silverwind/droppy) - **ARCHIVED** Self-hosted file storage
 - [andreimargeloiu/Hospital-management-nodejs](https://github.com/andreimargeloiu/Hospital-management-nodejs) - NodeJS web app for managing patients and planning their distribution across hospital’s rooms.
 - [HospitalRun/hospitalrun-server](https://github.com/HospitalRun/hospitalrun-server) - Backend for HospitalRun
@@ -1917,6 +1917,7 @@
 
 ## others 
 
+- [jmforsythe/Git-Heat-Map](https://github.com/jmforsythe/Git-Heat-Map) - 
 - [scastiel/github-business-card](https://github.com/scastiel/github-business-card) - 
 - [solidjs/solid-start](https://github.com/solidjs/solid-start) - SolidStart, the Solid app framework
 - [facebook/sapling](https://github.com/facebook/sapling) - A Scalable, User-Friendly Source Control System.
@@ -2308,7 +2309,7 @@
 - [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
-- [NangoHQ/nango](https://github.com/NangoHQ/nango) - The simplest, fastest way to integrate your app with an OAuth API
+- [NangoHQ/nango](https://github.com/NangoHQ/nango) - Get OAuth tokens for APIs - fast & secure.
 - [prodrigestivill/docker-postgres-backup-local](https://github.com/prodrigestivill/docker-postgres-backup-local) - Backup PostgresSQL to local filesystem with periodic backups and rotate backups.
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [supabase/supabase](https://github.com/supabase/supabase) - The open source Firebase alternative. Follow to stay updated about our public Beta.
@@ -2467,7 +2468,7 @@
 - [tinacms/tinacms](https://github.com/tinacms/tinacms) - A headless CMS for Markdown
 - [porter-dev/porter](https://github.com/porter-dev/porter) - Kubernetes powered PaaS that runs in your own cloud.
 - [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
-- [NangoHQ/nango](https://github.com/NangoHQ/nango) - The simplest, fastest way to integrate your app with an OAuth API
+- [NangoHQ/nango](https://github.com/NangoHQ/nango) - Get OAuth tokens for APIs - fast & secure.
 - [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) - A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
 - [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
 - [unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps) - :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy!
@@ -2725,9 +2726,10 @@
 
 ## terminal 
 
+- [fathyb/carbonyl](https://github.com/fathyb/carbonyl) - Chromium running inside your terminal
 - [sibprogrammer/xq](https://github.com/sibprogrammer/xq) - Command-line XML and HTML beautifier and content extractor
 - [chubin/cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
 - [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
 - [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) - A beautiful CLI dashboard for GitHub 🚀
 - [dhruvkb/pls](https://github.com/dhruvkb/pls) - `pls` is a prettier and powerful `ls` for the pros.
@@ -2809,7 +2811,7 @@
 - [tinacms/tinacms](https://github.com/tinacms/tinacms) - A headless CMS for Markdown
 - [pavlobu/deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer
 - [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
-- [NangoHQ/nango](https://github.com/NangoHQ/nango) - The simplest, fastest way to integrate your app with an OAuth API
+- [NangoHQ/nango](https://github.com/NangoHQ/nango) - Get OAuth tokens for APIs - fast & secure.
 - [bernaferrari/FigmaToCode](https://github.com/bernaferrari/FigmaToCode) - Generate responsive pages and apps on HTML, Tailwind, Flutter and SwiftUI.
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [pterodactyl/panel](https://github.com/pterodactyl/panel) - Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while ex
@@ -2912,7 +2914,7 @@
 
 ## windows 
 
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 The unified clipboard: easy, breezy, and beautiful.
 - [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 - [xemle/home-gallery](https://github.com/xemle/home-gallery) - Self-hosted open-source web gallery to view your photos and videos featuring mobile-friendly, tagging and AI powered image discovery
 - [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - A Windows and Office activator using HWID / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.
