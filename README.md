@@ -289,7 +289,6 @@
 
 ## HCL 
 
-- [natelandau/ansible-homelab-config](https://github.com/natelandau/ansible-homelab-config) - Ansible scripts to configure my homelab using Consul, Nomad, Docker, Traefik, and more...
 - [joatmon08/hashicorp-stack-demoapp](https://github.com/joatmon08/hashicorp-stack-demoapp) - HashiCorp Cloud Platform (Vault/Consul), Consul-Terraform-Sync, & Boundary with Datadog and Kubernetes
 - [groovemonkey/tutorialinux-hashistack](https://github.com/groovemonkey/tutorialinux-hashistack) - A hands-on learning project for consul, using Terraform
 - [gogococo/nomad-autoscaler-demos](https://github.com/gogococo/nomad-autoscaler-demos) - A set of demos for the Nomad Autoscaler (https://github.com/hashicorp/nomad-autoscaler)
@@ -898,6 +897,7 @@
 - [getumbrel/umbrel](https://github.com/getumbrel/umbrel) - A beautiful personal/home server OS for self-hosting with an app store. Install on a Raspberry Pi 4, any Ubuntu/Debian system, or a VPS.
 - [titzer/virgil](https://github.com/titzer/virgil) - A fast and lightweight native programming language
 - [dougcalobrisi/nested-github-runners-action](https://github.com/dougcalobrisi/nested-github-runners-action) - GitHub Action to run multiple self-hosted runners in a hosted GitHub Runner
+- [natelandau/ansible-homelab-config](https://github.com/natelandau/ansible-homelab-config) - Ansible scripts to configure my homelab using Consul, Nomad, Docker, Traefik, and more...
 - [tuanpham-dev/termux-ubuntu](https://github.com/tuanpham-dev/termux-ubuntu) - This helps you install Ubuntu 20 + XFCE4 desktop on Termux with ease.
 - [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - I am using this repository to document my journey learning about DevOps. I began this process on January 1, 2022, and plan to continue until March 31. I will be dedicating one hour each day, including
 - [MFDGaming/ubuntu-in-termux](https://github.com/MFDGaming/ubuntu-in-termux) - This is a script by which you can install Ubuntu in your termux application without a rooted device
