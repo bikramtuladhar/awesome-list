@@ -169,6 +169,7 @@
 - [statistics](#statistics)
 - [storybook](#storybook)
 - [support](#support)
+- [svelte](#svelte)
 - [swift](#swift)
 - [swiftui](#swiftui)
 - [symfony](#symfony)
@@ -2697,6 +2698,14 @@
 
 - [BadChoice/handesk](https://github.com/BadChoice/handesk) - A Powerful Laravel Help Desk and Lead Management App
 - [freescout-helpdesk/freescout](https://github.com/freescout-helpdesk/freescout) - FreeScout — Free self-hosted help desk & shared mailbox (Zendesk / Help Scout alternative)
+
+## svelte 
+
+- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Ballerine is an open-source infrastructure for user identity, KYC, and risk management
+- [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
+- [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) - Write components once, run everywhere. Compiles to Vue, React, Solid, Angular, Svelte, and more.
+- [konstaui/konsta](https://github.com/konstaui/konsta) - Mobile UI components made with Tailwind CSS
+- [bernaferrari/FigmaToCode](https://github.com/bernaferrari/FigmaToCode) - Generate responsive pages and apps on HTML, Tailwind, Flutter and SwiftUI.
 
 ## swift 
 
