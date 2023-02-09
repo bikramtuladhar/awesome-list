@@ -2148,7 +2148,7 @@
 - [infostreams/db](https://github.com/infostreams/db) - Version control for databases: save, restore, and archive snapshots of your database from the command line
 - [klutchell/balena-pihole-aarch64](https://github.com/klutchell/balena-pihole-aarch64) - aarch64 balenaCloud stack for Pi-hole® https://pi-hole.net/
 - [ivanlori/Vuemmerce](https://github.com/ivanlori/Vuemmerce) - Responsive ecommerce template built with Vue.js and Nuxt.js
-- [rash0/Vue-Ecom](https://github.com/rash0/Vue-Ecom) - 🛍️ A Full Vue StoreFront open Source Templet.
+- [rash0/Vue-Ecom](https://github.com/rash0/Vue-Ecom) - 🛍️ A Full Vue StoreFront Templet.
 - [emilengler/sysget](https://github.com/emilengler/sysget) - One package manager to rule them all
 - [pshihn/sockly](https://github.com/pshihn/sockly) - 
 - [whitecube/nova-flexible-content](https://github.com/whitecube/nova-flexible-content) - Flexible Content & Repeater Fields for Laravel Nova
@@ -2795,7 +2795,7 @@
 ## typescript 
 
 - [mojolicious/mojo.js](https://github.com/mojolicious/mojo.js) - :unicorn: The Mojolicious real-time web framework for Node.js
-- [xiaoxian521/vue-pure-admin](https://github.com/xiaoxian521/vue-pure-admin) - 🔥 ✨✨ ✨ Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+- [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) - 🔥 ✨✨ ✨ Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
 - [vercel/turbo](https://github.com/vercel/turbo) - Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
 - [rowyio/rowy](https://github.com/rowyio/rowy) - Rowy is an open-source low-code platform. Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.
