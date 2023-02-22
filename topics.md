@@ -1690,7 +1690,7 @@
 
 - [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
-- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Ballerine is an open-source infrastructure for user identity, KYC, and risk management
+- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Open-Source Rules & Workflow Engine for User Identity and Risk Decisioning
 - [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) - List of Computer Science courses with video lectures.
 - [flyteorg/flyte](https://github.com/flyteorg/flyte) - Kubernetes-native workflow automation platform for complex, mission-critical data and ML processes at scale. It has been battle-tested at Lyft, Spotify, Freenome, and others and is truly open-source.
 - [whylabs/whylogs](https://github.com/whylabs/whylogs) - The open standard for data logging
@@ -1992,7 +1992,7 @@
 - [janikgar/boundary-chart](https://github.com/janikgar/boundary-chart) - Helm chart for Hashicorp Boundary
 - [google/wireit](https://github.com/google/wireit) - Wireit upgrades your npm/pnpm/yarn scripts to make them smarter and more efficient.
 - [actualbudget/actual](https://github.com/actualbudget/actual) - A local-first personal finance system
-- [markmead/hyperui](https://github.com/markmead/hyperui) - 🚀 [FREE] Tailwind CSS components for marketing, e-commerce and application UI with optional support for Alpine JS, RTL and dark mode
+- [markmead/hyperui](https://github.com/markmead/hyperui) - Free Tailwind CSS components for application UI, ecommerce and marketing with support for dark mode, RTL and Alpine JS 🚀
 - [gregordr/ImageStore](https://github.com/gregordr/ImageStore) - Open source google photos alternative!
 - [quru/qis](https://github.com/quru/qis) - Dynamic image server for web and print
 - [GriffinJohnston/uiball-loaders](https://github.com/GriffinJohnston/uiball-loaders) - Modern, tree-shakeable loaders & spinners for React. Made with CSS, HTML and a splash of SVG. https://uiball.com/loaders
@@ -2718,7 +2718,7 @@
 
 ## svelte 
 
-- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Ballerine is an open-source infrastructure for user identity, KYC, and risk management
+- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Open-Source Rules & Workflow Engine for User Identity and Risk Decisioning
 - [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 - [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) - Write components once, run everywhere. Compiles to Vue, React, Solid, Angular, Svelte, and more.
 - [konstaui/konsta](https://github.com/konstaui/konsta) - Mobile UI components made with Tailwind CSS
