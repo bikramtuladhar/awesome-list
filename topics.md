@@ -269,7 +269,7 @@
 
 ## api 
 
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 Save time and effort the easy way.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Save time and effort the easy way. Cut, copy, and paste anything, anywhere, all from the terminal! 😄
 - [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
 - [gocopper/copper](https://github.com/gocopper/copper) - 🚀‏‏‎    ‎‏‏‎‏‏‎‎‎‎‎‎Copper is a Go toolkit complete with everything you need to build web apps.
 - [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - Serverless API Gateway for GraphQL, REST, gRPC, Kafka and more with a focus on API Composition & Integration.
@@ -478,7 +478,7 @@
 
 - [chubin/cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is an open-source, end-to-end encrypted tool to sync secrets and configs across your team and infrastructure.
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 Save time and effort the easy way.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Save time and effort the easy way. Cut, copy, and paste anything, anywhere, all from the terminal! 😄
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
 - [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
 - [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) - A beautiful CLI dashboard for GitHub 🚀
@@ -542,7 +542,7 @@
 
 ## cpp 
 
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 Save time and effort the easy way.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Save time and effort the easy way. Cut, copy, and paste anything, anywhere, all from the terminal! 😄
 - [e-dant/watcher](https://github.com/e-dant/watcher) - Filesystem watcher. Works anywhere. Simple, efficient and friendly.
 - [GauravDawra/Beast](https://github.com/GauravDawra/Beast) - A build system built for speed and power
 - [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
@@ -1656,7 +1656,7 @@
 
 - [danielealbano/cachegrand](https://github.com/danielealbano/cachegrand) - cachegrand - a modern OSS Key-Value store built for today's hardware
 - [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) - DevOps Roadmap for 2023. with learning resources
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 Save time and effort the easy way.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Save time and effort the easy way. Cut, copy, and paste anything, anywhere, all from the terminal! 😄
 - [Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide) - DevOps Guide - Development to Production all configurations with basic notes to debug efficiently.
 - [bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources) - DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 - [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app
@@ -1712,7 +1712,7 @@
 ## macos 
 
 - [below/HelloSilicon](https://github.com/below/HelloSilicon) - An introduction to ARM64 assembly on Apple Silicon Macs
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 Save time and effort the easy way.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Save time and effort the easy way. Cut, copy, and paste anything, anywhere, all from the terminal! 😄
 - [utmapp/UTM](https://github.com/utmapp/UTM) - Virtual machines for iOS and macOS
 - [GauravDawra/Beast](https://github.com/GauravDawra/Beast) - A build system built for speed and power
 - [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
@@ -1873,6 +1873,7 @@
 - [novuhq/novu](https://github.com/novuhq/novu) - The open-source notification infrastructure with fully functional embedded notification center
 - [nvm-sh/nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
 - [piku/piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
+- [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) - Dev environments. In your web app.
 - [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace.
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, offline-first, reactive database for JavaScript Applications https://rxdb.info/
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
@@ -2066,7 +2067,6 @@
 - [avriq/signature-pdf](https://github.com/avriq/signature-pdf) - Drag and drop to add digital signature to pdf documents
 - [govCMS/GovCMS](https://github.com/govCMS/GovCMS) - Current Drupal9 release of the main GovCMS distribution, with releases mirrored at https://www.drupal.org/project/govcms
 - [geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi) - Raspberry Pi config for all things Internet.
-- [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) - 
 - [planetscale/vitess](https://github.com/planetscale/vitess) - Vitess is a database clustering system for horizontal scaling of MySQL.
 - [adamlouis/squirrelbyte](https://github.com/adamlouis/squirrelbyte) - a tool for gathering & exploring data
 - [commitdev/zero](https://github.com/commitdev/zero) - Allow startup developers to ship to production on day 1
@@ -2765,7 +2765,7 @@
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl) - Chromium running inside your terminal
 - [sibprogrammer/xq](https://github.com/sibprogrammer/xq) - Command-line XML and HTML beautifier and content extractor
 - [chubin/cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 Save time and effort the easy way.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Save time and effort the easy way. Cut, copy, and paste anything, anywhere, all from the terminal! 😄
 - [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
 - [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) - A beautiful CLI dashboard for GitHub 🚀
 - [dhruvkb/pls](https://github.com/dhruvkb/pls) - `pls` is a prettier and powerful `ls` for the pros.
@@ -2951,7 +2951,7 @@
 
 ## windows 
 
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Cut, copy, and paste anything, anywhere, all from the terminal! 😄 Save time and effort the easy way.
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Save time and effort the easy way. Cut, copy, and paste anything, anywhere, all from the terminal! 😄
 - [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 - [xemle/home-gallery](https://github.com/xemle/home-gallery) - Self-hosted open-source web gallery to view your photos and videos featuring mobile-friendly, tagging and AI powered image discovery
 - [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - A Windows and Office activator using HWID / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.
