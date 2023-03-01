@@ -830,6 +830,7 @@
 
 ## Ruby 
 
+- [mrsked/mrsk](https://github.com/mrsked/mrsk) - Deploy web apps anywhere.
 - [DannyBen/bashly](https://github.com/DannyBen/bashly) - Bash command line framework and CLI generator
 - [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
 - [postalserver/postal](https://github.com/postalserver/postal) - ✉️ A fully featured open source mail delivery platform for incoming & outgoing e-mail
