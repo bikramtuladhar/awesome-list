@@ -310,7 +310,6 @@
 - [Miksus/rocketry](https://github.com/Miksus/rocketry) - Modern scheduling library for Python
 - [frain-dev/convoy](https://github.com/frain-dev/convoy) - Open Source Webhooks Gateway; For both incoming & outgoing events.
 - [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) - The easiest way to coordinate your dataflow
-- [alexellis/k3sup](https://github.com/alexellis/k3sup) - bootstrap K3s over SSH in &lt; 60s 🚀
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) - Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.
 - [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
 - [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API.
@@ -1944,6 +1943,7 @@
 
 ## others 
 
+- [mrsked/mrsk](https://github.com/mrsked/mrsk) - Deploy web apps anywhere.
 - [schibsted/WAAS](https://github.com/schibsted/WAAS) - Whisper as a Service (GUI and API for OpenAI Whisper)
 - [drifting-in-space/driftdb](https://github.com/drifting-in-space/driftdb) - A real-time data backend for browser-based applications.
 - [scastiel/github-business-card](https://github.com/scastiel/github-business-card) - 
@@ -2492,7 +2492,6 @@
 - [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) - 🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.
 - [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
 - [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace.
-- [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, offline-first, reactive database for JavaScript Applications https://rxdb.info/
 - [tinacms/tinacms](https://github.com/tinacms/tinacms) - A headless CMS for Markdown
 - [porter-dev/porter](https://github.com/porter-dev/porter) - Kubernetes powered PaaS that runs in your own cloud.
 - [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
