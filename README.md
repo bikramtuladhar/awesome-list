@@ -325,6 +325,7 @@
 
 ## Haskell 
 
+- [dustin/gopro](https://github.com/dustin/gopro) - Tools for making the most out of GoPro Plus.
 - [digitallyinduced/ihp](https://github.com/digitallyinduced/ihp) - 🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 
