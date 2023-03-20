@@ -101,7 +101,7 @@
 ## C++ 
 
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Save time and effort the 𝗲𝗮𝘀𝘆 way. Cut, copy, and paste anything, anytime, anywhere! Say adiós to ugly aliases and one-liners. 😄
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - :rocket: Save time and effort the 𝗲𝗮𝘀𝘆 way! Cut, copy, and paste anything, anytime, anywhere. 😄
 - [logicalclocks/rondb](https://github.com/logicalclocks/rondb) - This is RonDB, a distribution of NDB Cluster developed and used by Hopsworks AB. It also contains development branches of RonDB.
 - [aristocratos/btop](https://github.com/aristocratos/btop) - A monitor of resources
 - [e-dant/watcher](https://github.com/e-dant/watcher) - Filesystem watcher. Works anywhere. Simple, efficient and friendly.
