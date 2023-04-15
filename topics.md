@@ -634,6 +634,7 @@
 
 ## data-visualization 
 
+- [nomic-ai/deepscatter](https://github.com/nomic-ai/deepscatter) - Zoomable, animated scatterplots in the browser that scales over a billion points
 - [f5/unovis](https://github.com/f5/unovis) - Modular data visualization framework for React, Angular, Svelte, and vanilla TypeScript or JavaScript
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [apache/superset](https://github.com/apache/superset) - Apache Superset is a Data Visualization and Data Exploration Platform
@@ -945,7 +946,7 @@
 - [Miksus/rocketry](https://github.com/Miksus/rocketry) - Modern scheduling library for Python
 - [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗
 - [neomjs/neo](https://github.com/neomjs/neo) - The application worker driven frontend framework
-- [BuilderIO/qwik](https://github.com/BuilderIO/qwik) - The HTML-first framework. Instant apps of any size with ~ 1kb JS
+- [BuilderIO/qwik](https://github.com/BuilderIO/qwik) - Instant-loading web apps, without effort
 - [YaoApp/yao](https://github.com/YaoApp/yao) - :rocket: A performance app engine to create web services and applications in minutes.Suitable for AI, IoT, Industrial Internet, Connected Vehicles, DevOps, Energy, Finance and many other use-cases.
 - [zotonic/zotonic](https://github.com/zotonic/zotonic) - Zotonic - The Erlang Web Framework & CMS
 - [jina-ai/jina](https://github.com/jina-ai/jina) - 🔮 Build multimodal AI services via cloud native technologies
@@ -1398,7 +1399,7 @@
 - [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a framework for cloud-native apps and infrastructure from code. It takes care of infrastructure and config without limiting your language or cloud, so you can spend your time writing applica
 - [Ninroot/nacre](https://github.com/Ninroot/nacre) - Intuitive Shell
 - [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) - Extensible low-code framework for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, etc and build apps using drag and drop application builder. Bu
-- [BuilderIO/qwik](https://github.com/BuilderIO/qwik) - The HTML-first framework. Instant apps of any size with ~ 1kb JS
+- [BuilderIO/qwik](https://github.com/BuilderIO/qwik) - Instant-loading web apps, without effort
 - [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) - Web Extension and CLI tool for saving a faithful copy of an entire web page in a single HTML file
 - [Netflix/conductor](https://github.com/Netflix/conductor) - Conductor is a microservices orchestration engine.
 - [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Turn your audience into a business. Publishing, memberships, subscriptions and newsletters.
@@ -1990,6 +1991,7 @@
 - [bevyengine/bevy](https://github.com/bevyengine/bevy) - A refreshingly simple data-driven game engine built in Rust
 - [xemle/home-gallery](https://github.com/xemle/home-gallery) - Self-hosted open-source web gallery to view your photos and videos featuring mobile-friendly, tagging and AI powered image discovery
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+- [Budibase/budibase](https://github.com/Budibase/budibase) - Low code platform for creating internal tools, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform yo
 - [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
 - [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
 - [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz is an open-source APM. It helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performanc
@@ -2096,7 +2098,6 @@
 - [sentry-kubernetes/charts](https://github.com/sentry-kubernetes/charts) - Easily deploy Sentry on your Kubernetes Cluster
 - [alex/what-happens-when](https://github.com/alex/what-happens-when) - An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
 - [fly-apps/live_beats](https://github.com/fly-apps/live_beats) - 
-- [Budibase/budibase](https://github.com/Budibase/budibase) - Low code platform for creating internal tools, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform yo
 - [formidablae/formidablae](https://github.com/formidablae/formidablae) - My profile's README.md
 - [Benjacho/belongs-to-many-field-nova](https://github.com/Benjacho/belongs-to-many-field-nova) - Belongs To Many field Laravel nova to represent many to many relationship in field.
 - [whitecube/nova-page](https://github.com/whitecube/nova-page) - Static pages content management for Laravel Nova
@@ -3043,7 +3044,7 @@
 - [gocopper/copper](https://github.com/gocopper/copper) - 🚀‏‏‎    ‎‏‏‎‏‏‎‎‎‎‎‎Copper is a Go toolkit complete with everything you need to build web apps.
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
 - [amplication/amplication](https://github.com/amplication/amplication) - Auto-generating TypeScript, GraphQL, REST API, and Node.js, accelerating your full-stack development 🚀
-- [BuilderIO/qwik](https://github.com/BuilderIO/qwik) - The HTML-first framework. Instant apps of any size with ~ 1kb JS
+- [BuilderIO/qwik](https://github.com/BuilderIO/qwik) - Instant-loading web apps, without effort
 - [zotonic/zotonic](https://github.com/zotonic/zotonic) - Zotonic - The Erlang Web Framework & CMS
 - [Hanziness/FocusTide](https://github.com/Hanziness/FocusTide) - Modern and customizable productivity timer app that runs in your browser.
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - Secure Backend Server for Web, Mobile & Flutter Developers 🚀 AKA the 100% open-source Firebase alternative.
