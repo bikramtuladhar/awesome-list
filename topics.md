@@ -281,7 +281,7 @@
 
 ## api 
 
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
 - [gocopper/copper](https://github.com/gocopper/copper) - 🚀‏‏‎    ‎‏‏‎‏‏‎‎‎‎‎‎Copper is a Go toolkit complete with everything you need to build web apps.
 - [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - WunderGraph is a Backend for Frontend Framework to optimize frontend, fullstack and backend developer workflows through API Composition.
@@ -415,7 +415,7 @@
 ## bash 
 
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources) - DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 - [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - A blazing fast cross platform/shell prompt renderer
 - [wfxr/forgit](https://github.com/wfxr/forgit) - :zzz: A utility tool powered by fzf for using git interactively.
@@ -497,7 +497,7 @@
 
 - [chubin/cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is an open-source, end-to-end encrypted platform to sync secrets and configs across your team and infrastructure.
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
 - [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
 - [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) - A beautiful CLI dashboard for GitHub 🚀
@@ -561,7 +561,7 @@
 
 ## cpp 
 
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [e-dant/watcher](https://github.com/e-dant/watcher) - Filesystem watcher. Works anywhere. Simple, efficient and friendly.
 - [GauravDawra/Beast](https://github.com/GauravDawra/Beast) - A build system built for speed and power
 - [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
@@ -629,7 +629,7 @@
 
 ## data-structures 
 
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [oramasearch/orama](https://github.com/oramasearch/orama) - 🌌  Fast, in-memory, typo-tolerant, full-text search engine written in TypeScript.
 - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
@@ -907,7 +907,7 @@
 
 ## firebase 
 
-- [rowyio/rowy](https://github.com/rowyio/rowy) - Rowy is an open-source low-code platform. Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.
+- [rowyio/rowy](https://github.com/rowyio/rowy) - Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.
 - [alfirmanpahlepi/handform](https://github.com/alfirmanpahlepi/handform) - google forms clone
 - [mani-barathi/Google-Photos-Clone](https://github.com/mani-barathi/Google-Photos-Clone) - Google Photos Clone Built with React🚀 and Firebase🔥
 - [wobsoriano/vue-keep](https://github.com/wobsoriano/vue-keep) - Google Keep clone with Vue, Typescript and Firestore
@@ -1164,7 +1164,7 @@
 
 ## google-cloud 
 
-- [rowyio/rowy](https://github.com/rowyio/rowy) - Rowy is an open-source low-code platform. Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.
+- [rowyio/rowy](https://github.com/rowyio/rowy) - Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.
 - [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes sources :ship::tada:
 
 ## gradle 
@@ -1712,7 +1712,7 @@
 
 ## library 
 
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [jorisschellekens/borb](https://github.com/jorisschellekens/borb) - borb is a library for reading, creating and manipulating PDF files in python.
 - [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
 
@@ -1721,7 +1721,7 @@
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
 - [danielealbano/cachegrand](https://github.com/danielealbano/cachegrand) - cachegrand - a modern OSS Key-Value store built for today's hardware
 - [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) - DevOps Roadmap for 2023. with learning resources
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide) - DevOps Guide - Development to Production all configurations with basic notes to debug efficiently.
 - [bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources) - DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 - [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app
@@ -1786,7 +1786,7 @@
 
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
 - [below/HelloSilicon](https://github.com/below/HelloSilicon) - An introduction to ARM64 assembly on Apple Silicon Macs
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [utmapp/UTM](https://github.com/utmapp/UTM) - Virtual machines for iOS and macOS
 - [GauravDawra/Beast](https://github.com/GauravDawra/Beast) - A build system built for speed and power
 - [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
@@ -2561,7 +2561,7 @@
 - [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
 - [answerdev/answer](https://github.com/answerdev/answer) - An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.
 - [digitallyinduced/thin-backend](https://github.com/digitallyinduced/thin-backend) - 🔥 Thin Backend is a Blazing Fast, Universal Web App Backend for Making Realtime Single Page Apps
-- [rowyio/rowy](https://github.com/rowyio/rowy) - Rowy is an open-source low-code platform. Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.
+- [rowyio/rowy](https://github.com/rowyio/rowy) - Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.
 - [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 - [formkit/auto-animate](https://github.com/formkit/auto-animate) - A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
 - [trpc/trpc](https://github.com/trpc/trpc) - 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
@@ -2751,7 +2751,7 @@
 
 ## shell 
 
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
 - [direnv/direnv](https://github.com/direnv/direnv) - unclutter your .profile
 - [google/zx](https://github.com/google/zx) - A tool for writing better scripts
@@ -2870,7 +2870,7 @@
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl) - Chromium running inside your terminal
 - [sibprogrammer/xq](https://github.com/sibprogrammer/xq) - Command-line XML and HTML beautifier and content extractor
 - [chubin/cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
 - [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) - A beautiful CLI dashboard for GitHub 🚀
 - [dhruvkb/pls](https://github.com/dhruvkb/pls) - `pls` is a prettier and powerful `ls` for the pros.
@@ -2927,7 +2927,7 @@
 - [vercel/turbo](https://github.com/vercel/turbo) - Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.
 - [eritislami/evobot](https://github.com/eritislami/evobot) - 🤖 EvoBot is a Discord Music Bot built with TypeScript + Discord.js, includes Docker builds & localization in 20+ languages
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
-- [rowyio/rowy](https://github.com/rowyio/rowy) - Rowy is an open-source low-code platform. Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.
+- [rowyio/rowy](https://github.com/rowyio/rowy) - Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.
 - [honojs/hono](https://github.com/honojs/hono) - Ultrafast web framework for the Edges
 - [ts-safeql/safeql](https://github.com/ts-safeql/safeql) - Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL.
 - [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - WunderGraph is a Backend for Frontend Framework to optimize frontend, fullstack and backend developer workflows through API Composition.
@@ -2965,7 +2965,7 @@
 ## ubuntu 
 
 - [open-pdf-sign/open-pdf-sign-configurator](https://github.com/open-pdf-sign/open-pdf-sign-configurator) - A configurator to install open-pdf-sign on a webserver and sign all PDFs on the fly
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [tuanpham-dev/termux-ubuntu](https://github.com/tuanpham-dev/termux-ubuntu) - This helps you install Ubuntu 20 + XFCE4 desktop on Termux with ease.
 - [Onelinerhub/onelinerhub](https://github.com/Onelinerhub/onelinerhub) - 2.5k code solutions with clear explanation @ onelinerhub.com
 - [piku/piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
@@ -3092,7 +3092,7 @@
 ## windows 
 
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚘𝚞𝚜𝚕𝚢 easy :rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 Remember 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... The external brain that makes your life 𝚛𝚒𝚍𝚘𝚗𝚔𝚞𝚕𝚒𝚌𝚒𝚘𝚞𝚜𝚕𝚢 easy :rocket:
 - [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 - [xemle/home-gallery](https://github.com/xemle/home-gallery) - Self-hosted open-source web gallery to view your photos and videos featuring mobile-friendly, tagging and AI powered image discovery
 - [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - A Windows and Office activator using HWID / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.
