@@ -1813,7 +1813,7 @@
 - [logseq/logseq](https://github.com/logseq/logseq) - A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: http://trello.com/b/8txSM12G/roadmap
 - [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) - 🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.
 - [maaslalani/slides](https://github.com/maaslalani/slides) - Terminal based presentation tool
-- [tinacms/tinacms](https://github.com/tinacms/tinacms) - A headless CMS for Markdown
+- [tinacms/tinacms](https://github.com/tinacms/tinacms) - The Markdown CMS
 - [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
 
 ## mastodon 
@@ -1914,7 +1914,7 @@
 - [vercel/platforms](https://github.com/vercel/platforms) - A template for site builders and low-code tools.
 - [vercel/commerce](https://github.com/vercel/commerce) - Next.js Commerce
 - [VulcanJS/vulcan-next](https://github.com/VulcanJS/vulcan-next) - The Next starter for GraphQL developers
-- [tinacms/tinacms](https://github.com/tinacms/tinacms) - A headless CMS for Markdown
+- [tinacms/tinacms](https://github.com/tinacms/tinacms) - The Markdown CMS
 
 ## nlp 
 
@@ -2602,7 +2602,7 @@
 - [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) - 🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.
 - [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
 - [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. 
-- [tinacms/tinacms](https://github.com/tinacms/tinacms) - A headless CMS for Markdown
+- [tinacms/tinacms](https://github.com/tinacms/tinacms) - The Markdown CMS
 - [porter-dev/porter](https://github.com/porter-dev/porter) - Kubernetes powered PaaS that runs in your own cloud.
 - [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
 - [NangoHQ/nango](https://github.com/NangoHQ/nango) - Get OAuth tokens for APIs - fast & secure.
@@ -2962,7 +2962,7 @@
 - [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. 
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
-- [tinacms/tinacms](https://github.com/tinacms/tinacms) - A headless CMS for Markdown
+- [tinacms/tinacms](https://github.com/tinacms/tinacms) - The Markdown CMS
 - [pavlobu/deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer
 - [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
 - [NangoHQ/nango](https://github.com/NangoHQ/nango) - Get OAuth tokens for APIs - fast & secure.
