@@ -861,7 +861,7 @@
 
 ## Rust 
 
-- [rustformers/llama-rs](https://github.com/rustformers/llama-rs) - Run LLaMA inference on CPU, with Rust 🦀🚀🦙
+- [rustformers/llm](https://github.com/rustformers/llm) - Run inference for Large Language Models on CPU, with Rust 🦀🚀🦙
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl) - Chromium running inside your terminal
 - [facebook/sapling](https://github.com/facebook/sapling) - A Scalable, User-Friendly Source Control System.
 - [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) - An open-source, cloud-native, distributed time-series database with PromQL/SQL/Python supported.
