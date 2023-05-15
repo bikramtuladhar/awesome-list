@@ -6,7 +6,6 @@
 ## Contents
 
 - [Assembly](#assembly)
-- [Astro](#astro)
 - [Batchfile](#batchfile)
 - [Blade](#blade)
 - [C](#c)
@@ -56,10 +55,6 @@
 - [below/HelloSilicon](https://github.com/below/HelloSilicon) - An introduction to ARM64 assembly on Apple Silicon Macs
 - [hackclub/some-assembly-required](https://github.com/hackclub/some-assembly-required) - An approachable introduction to Assembly
 
-## Astro 
-
-- [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) - Interactive roadmaps, guides and other educational content to help developers grow in their careers.
-
 ## Batchfile 
 
 - [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - A Windows and Office activator using HWID / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.
@@ -106,7 +101,7 @@
 - [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) - Tesseract Open Source OCR Engine (main repository)
 - [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) - gpt4all: an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
-- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 𝘙𝘦𝘮𝘦𝘮𝘣𝘦𝘳 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... Your new, ridonkuliciously cool clipboard manager:rocket:
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎 𝘙𝘦𝘮𝘦𝘮𝘣𝘦𝘳 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨, 𝘢𝘯𝘺𝘵𝘪𝘮𝘦, 𝘢𝘯𝘺𝘸𝘩𝘦𝘳𝘦... Your new, ridonkuliciously smart clipboard manager:rocket:
 - [logicalclocks/rondb](https://github.com/logicalclocks/rondb) - This is RonDB, a distribution of NDB Cluster developed and used by Hopsworks AB. It also contains development branches of RonDB.
 - [aristocratos/btop](https://github.com/aristocratos/btop) - A monitor of resources
 - [e-dant/watcher](https://github.com/e-dant/watcher) - Filesystem watcher. Works anywhere. Simple, efficient and friendly.
@@ -362,6 +357,7 @@
 
 - [WordPress/wordpress-playground](https://github.com/WordPress/wordpress-playground) - Run WordPress in the browser via WebAssembly PHP
 - [HeyPuter/kv.js](https://github.com/HeyPuter/kv.js) - Advanced in-memory caching module for JavaScript.
+- [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) - Bringing large-language models and chat to web browsers. Everything runs inside the browser with no server support.
 - [mpociot/llamero](https://github.com/mpociot/llamero) - A GUI application to easily try out Facebook's LLaMA models.
 - [schibsted/WAAS](https://github.com/schibsted/WAAS) - Whisper as a Service (GUI and API with queuing for OpenAI Whisper)
 - [jmforsythe/Git-Heat-Map](https://github.com/jmforsythe/Git-Heat-Map) - Visualise a git repository by diff activity
@@ -772,14 +768,13 @@
 
 - [harelba/q](https://github.com/harelba/q) - q - Run SQL directly on delimited files and multi-file sqlite databases
 - [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) - An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Model for All.
-- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Build your own virtual developer. e2b lets you build & deploy specialized AI agents that build software for you based on your instructions.
+- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Vercel for AI agents. We help developers to build, deploy, and monitor AI agents.  Focusing on specialized AI agents that build software for you - your personal software developers.
 - [emcf/engshell](https://github.com/emcf/engshell) - An English-language shell for any OS, powered by LLMs
 - [jdagdelen/hyperDB](https://github.com/jdagdelen/hyperDB) - A hyper-fast local vector database for use with LLM Agents. Now accepting SAFEs at $135M cap.
 - [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) - PyTorch code and models for the DINOv2 self-supervised learning method.
 - [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Python framework for AI workflows and pipelines with chain of thought reasoning, external tools, and memory.
 - [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder) - Home of StarCoder: fine-tuning & inference!
 - [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
-- [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) - Bringing large-language models and chat to web browsers. Everything runs inside the browser with no server support.
 - [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - An experimental open-source attempt to make GPT-4 fully autonomous.
 - [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large languages. Release repo for Vicuna and FastChat-T5.
 - [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) - 🌸 Run 100B+ language models at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
@@ -808,7 +803,7 @@
 - [Miksus/rocketry](https://github.com/Miksus/rocketry) - Modern scheduling library for Python
 - [kuprel/min-dalle](https://github.com/kuprel/min-dalle) - min(DALL·E) is a fast, minimal port of DALL·E Mini to PyTorch
 - [samwillis/tetra](https://github.com/samwillis/tetra) - Tetra - A full stack component framework for Django using Alpine.js
-- [permitio/opal](https://github.com/permitio/opal) - Policy and data administration, distribution, and real-time updates on top of Open Policy Agent
+- [permitio/opal](https://github.com/permitio/opal) - Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...)
 - [pyscript/pyscript](https://github.com/pyscript/pyscript) - Home Page: https://pyscript.net  Examples: https://pyscript.net/examples
 - [LibrePhotos/librephotos](https://github.com/LibrePhotos/librephotos) - A self-hosted open source photo management service. This is the repository of the backend.
 - [quru/qis](https://github.com/quru/qis) - Dynamic image server for web and print
@@ -1042,7 +1037,7 @@
 - [nut-tree/nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node
 - [antfu/ni](https://github.com/antfu/ni) - 💡 Use the right package manager
 - [rowyio/rowy](https://github.com/rowyio/rowy) - Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.
-- [teamhanko/hanko](https://github.com/teamhanko/hanko) - Drop-in auth and user management for the passkey era.
+- [teamhanko/hanko](https://github.com/teamhanko/hanko) - Authentication and user management for the passkey era.
 - [honojs/hono](https://github.com/honojs/hono) - Ultrafast web framework for the Edges
 - [soketi/soketi](https://github.com/soketi/soketi) - Just another simple, fast, and resilient open-source WebSockets server. 📣
 - [ts-safeql/safeql](https://github.com/ts-safeql/safeql) - Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL.
@@ -1088,6 +1083,7 @@
 - [vercel/platforms](https://github.com/vercel/platforms) - A template for site builders and low-code tools.
 - [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) - Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more.
 - [rrweb-io/rrweb](https://github.com/rrweb-io/rrweb) - record and replay the web
+- [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) - Interactive roadmaps, guides and other educational content to help developers grow in their careers.
 - [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Framework to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API.
 - [rematch/rematch](https://github.com/rematch/rematch) - The Redux Framework
 - [jovotech/jovo-framework](https://github.com/jovotech/jovo-framework) - 🔈 The React for Voice and Chat: Build Apps for Alexa, Google Assistant, Messenger, Instagram, the Web, and more
@@ -1156,7 +1152,7 @@
 - [Hoogkamer/vue-org-chart](https://github.com/Hoogkamer/vue-org-chart) - Manage and publish your interactive organization chart (orgchart), 100% free and no install required: just copy a folder to any location
 - [JayeshLab/vue-crypto-dashboard](https://github.com/JayeshLab/vue-crypto-dashboard) - Cryptocurrency Dashboard made with Vue
 - [ivanlori/Vuemmerce](https://github.com/ivanlori/Vuemmerce) - Responsive ecommerce template built with Vue.js and Nuxt.js
-- [rash0/Vue-Ecom](https://github.com/rash0/Vue-Ecom) - 🛍️ A Full Vue StoreFront Templet.
+- [rash0/Vue-Ecom](https://github.com/rash0/Vue-Ecom) - ✨ Full StoreFront built with Nuxt.js 3✨
 - [larecipe/larecipe-swagger](https://github.com/larecipe/larecipe-swagger) - Live API Testing Inside Your Documentation
 
 ## WebAssembly 
