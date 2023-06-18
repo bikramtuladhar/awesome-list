@@ -470,6 +470,7 @@
 ## Jupyter Notebook 
 
 - [Stability-AI/StableLM](https://github.com/Stability-AI/StableLM) - StableLM: Stability AI Language Models
+- [greshake/llm-security](https://github.com/greshake/llm-security) - New ways of breaking app-integrated LLMs
 - [whylabs/whylogs](https://github.com/whylabs/whylogs) - The open standard for data logging
 - [bloc97/Anime4K](https://github.com/bloc97/Anime4K) - A High-Quality Real Time Upscaler for Anime Video
 
@@ -782,7 +783,6 @@
 - [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) - 🌸 Run 100B+ language models at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
 - [Sanster/lama-cleaner](https://github.com/Sanster/lama-cleaner) - Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.
 - [openai/whisper](https://github.com/openai/whisper) - Robust Speech Recognition via Large-Scale Weak Supervision
-- [greshake/llm-security](https://github.com/greshake/llm-security) - New ways of breaking app-integrated LLMs
 - [tonybeltramelli/pix2code](https://github.com/tonybeltramelli/pix2code) - pix2code: Generating Code from a Graphical User Interface Screenshot
 - [facebookresearch/llama](https://github.com/facebookresearch/llama) - Inference code for LLaMA models
 - [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
@@ -1060,7 +1060,7 @@
 - [mantinedev/mantine](https://github.com/mantinedev/mantine) - A fully featured React components library
 - [javascriptdata/danfojs](https://github.com/javascriptdata/danfojs) - Danfo.js is an open source, JavaScript library providing high performance, intuitive, and easy to use data structures for manipulating and processing structured data.
 - [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - 👽 Open source API development ecosystem - https://hoppscotch.io
-- [amplication/amplication](https://github.com/amplication/amplication) - Amplication is a flexible open-source Node.js app development platform. It helps you build production-ready Node.js backend without wasting time on repetitive coding.
+- [amplication/amplication](https://github.com/amplication/amplication) - 🔥🔥🔥 Open-source backend development platform. Build production-ready services without wasting time on repetitive coding.
 - [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) - Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.
 - [Ninroot/nacre](https://github.com/Ninroot/nacre) - Intuitive Shell
 - [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) - A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins.
