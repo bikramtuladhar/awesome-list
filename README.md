@@ -1165,7 +1165,7 @@
 - [Hoogkamer/vue-org-chart](https://github.com/Hoogkamer/vue-org-chart) - Manage and publish your interactive organization chart (orgchart), 100% free and no install required: just copy a folder to any location
 - [JayeshLab/vue-crypto-dashboard](https://github.com/JayeshLab/vue-crypto-dashboard) - Cryptocurrency Dashboard made with Vue
 - [ivanlori/Vuemmerce](https://github.com/ivanlori/Vuemmerce) - Responsive ecommerce template built with Vue.js and Nuxt.js
-- [rash0/Vue-Ecom](https://github.com/rash0/Vue-Ecom) - ✨ Full StoreFront built with Nuxt.js 3✨
+- [rash0/Vue-Ecom](https://github.com/rash0/Vue-Ecom) - ✨ Full StoreFront built with Nuxt 3 + Pinia 2✨
 - [larecipe/larecipe-swagger](https://github.com/larecipe/larecipe-swagger) - Live API Testing Inside Your Documentation
 
 ## Zig 
