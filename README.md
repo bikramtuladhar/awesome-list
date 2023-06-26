@@ -884,6 +884,7 @@
 
 ## Rust 
 
+- [openobserve/openobserve](https://github.com/openobserve/openobserve) - 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces).
 - [quickwit-oss/whichlang](https://github.com/quickwit-oss/whichlang) - A blazingly fast and lightweight language detection library for Rust
 - [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl) - Hurl, run and test HTTP requests with plain text.
 - [tonarino/innernet](https://github.com/tonarino/innernet) - A private network system that uses WireGuard under the hood.
@@ -915,7 +916,7 @@
 - [ellie/atuin](https://github.com/ellie/atuin) - 🐢 Magical shell history
 - [Zaplib/zaplib](https://github.com/Zaplib/zaplib) - ⚡ Zaplib is an open-source library for speeding up web applications using Rust and WebAssembly.
 - [railwayapp/nixpacks](https://github.com/railwayapp/nixpacks) - App source + Nix packages + Docker = Image
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - 🚀SQL stream processing with Postgres-like experience. 🪄More than a modern alternative to Apache Flink.
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - 🚀 SQL stream processing with Postgres-like experience. 🪄 10X faster and more cost-efficient than Apache Flink.
 - [rubrikinc/wachy](https://github.com/rubrikinc/wachy) - A UI for eBPF-based performance debugging
 - [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
 - [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax 🟥🟩
@@ -1074,7 +1075,7 @@
 - [Ninroot/nacre](https://github.com/Ninroot/nacre) - Intuitive Shell
 - [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) - A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins.
 - [growthbook/growthbook](https://github.com/growthbook/growthbook) - Open Source Feature Flagging and A/B Testing Platform
-- [BuilderIO/qwik](https://github.com/BuilderIO/qwik) - Nightly Build artifacts for https://github.com/BuilderIO/qwik
+- [BuilderIO/qwik](https://github.com/BuilderIO/qwik) - Instant-loading web apps, without effort
 - [ashutosh1919/react-awesome-shapes](https://github.com/ashutosh1919/react-awesome-shapes) - 🌀 Insert Awesome Shapes into Your React Site with Ease.
 - [vitejs/vite](https://github.com/vitejs/vite) - Next generation frontend tooling. It's fast!
 - [Budibase/budibase](https://github.com/Budibase/budibase) - Low code platform for creating internal tools, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform yo
