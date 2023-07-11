@@ -1029,7 +1029,7 @@
 - [calcom/cal.com](https://github.com/calcom/cal.com) - Scheduling infrastructure for absolutely everyone.
 - [lukevella/rallly](https://github.com/lukevella/rallly) - Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier.
 - [Sh4yy/cloudflare-email](https://github.com/Sh4yy/cloudflare-email) - This is a simple proxy server that can be used for sending free transactional emails through Cloudflare workers.
-- [aralroca/default-composer](https://github.com/aralroca/default-composer) - A tiny (~300B) JavaScript library that allows you to set default values for nested objects
+- [aralroca/default-composer](https://github.com/aralroca/default-composer) - A tiny (~500B) JavaScript library that allows you to set default values for nested objects
 - [algolia/autocomplete](https://github.com/algolia/autocomplete) - 🔮 Fast and full-featured autocomplete library
 - [kubero-dev/kubero](https://github.com/kubero-dev/kubero) - A free and self-hosted Heroku PaaS alternative for Kubernetes that implements GitOps
 - [fern-api/fern](https://github.com/fern-api/fern) - Generate SDKs (client libraries) for your API
