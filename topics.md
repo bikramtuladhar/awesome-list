@@ -214,7 +214,7 @@
 ## ai 
 
 - [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Developer-first AgentOps platform - deploy, test, and monitor AI agents
-- [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Python framework for AI workflows and pipelines with chain of thought reasoning, external tools, and memory.
+- [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Python framework for AI workflows and pipelines with chain of thought reasoning, external tools, and memory. Griptape is an enterprise grade alternative to LangChain.
 - [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - An experimental open-source attempt to make GPT-4 fully autonomous.
 - [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit) - Auto-generate impressive commits with AI in 1 second 🤯🔫
 - [mpociot/llamero](https://github.com/mpociot/llamero) - A GUI application to easily try out Facebook's LLaMA models.
@@ -258,7 +258,7 @@
 - [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app
 - [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) - A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins.
 - [tuanpham-dev/termux-ubuntu](https://github.com/tuanpham-dev/termux-ubuntu) - This helps you install Ubuntu 20 + XFCE4 desktop on Termux with ease.
-- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - an open source note taking and to-do application with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - the secure note taking and to-do app with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
 - [konstaui/konsta](https://github.com/konstaui/konsta) - Mobile UI components made with Tailwind CSS
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - Build Fast. Scale Big. All in One Place.
 - [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
@@ -889,7 +889,7 @@
 ## education 
 
 - [hedyorg/hedy](https://github.com/hedyorg/hedy) - Hedy is a gradual programming language to teach children programming. Gradual languages use different language levels, where each level adds new concepts and syntactic complexity. At the end of the He
-- [taybenlor/runno](https://github.com/taybenlor/runno) - Browser-based code runner that can be embedded as an iframe or used as a library.
+- [taybenlor/runno](https://github.com/taybenlor/runno) - Browser-based runtime for programming languages and WASI binaries.
 - [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all
 - [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Freely available programming books
 - [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) - 24 Lessons, 12 Weeks, Get Started as a Web Developer
@@ -897,7 +897,7 @@
 ## electron 
 
 - [nut-tree/nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node
-- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - an open source note taking and to-do application with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - the secure note taking and to-do app with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
 - [dblens/app](https://github.com/dblens/app) - Database explorer for Mac, Windows & Linux
 - [pavlobu/deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer. ⭐️ Star to support our work!
 - [microsoft/playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
@@ -1469,7 +1469,7 @@
 - [Netflix/conductor](https://github.com/Netflix/conductor) - Conductor is a microservices orchestration engine.
 - [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Turn your audience into a business. Publishing, memberships, subscriptions and newsletters.
 - [papercups-io/papercups](https://github.com/papercups-io/papercups) - Open-source live customer chat
-- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - an open source note taking and to-do application with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - the secure note taking and to-do app with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
 - [openreplay/openreplay](https://github.com/openreplay/openreplay) - :tv: OpenReplay is developer-friendly, self-hosted session replay.
 - [DustinBrett/daedalOS](https://github.com/DustinBrett/daedalOS) - Desktop environment in the browser
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
@@ -1995,7 +1995,7 @@
 ## nlp 
 
 - [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - Data-Centric FinGPT.  Open-source for open finance!  Revolutionize 🔥    We'll soon release the trained model.
-- [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Python framework for AI workflows and pipelines with chain of thought reasoning, external tools, and memory.
+- [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Python framework for AI workflows and pipelines with chain of thought reasoning, external tools, and memory. Griptape is an enterprise grade alternative to LangChain.
 - [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - MindsDB is a Server for Artificial Intelligence Logic. Enabling developers to ship to production AI powered projects (from the latest LLMs, vector operations, state of the art time-series forecasting 
 
 ## node 
@@ -2031,7 +2031,7 @@
 - [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) - Low-code platform for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, Google sheets, OpenAI, etc and build apps using drag and drop application 
 - [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Turn your audience into a business. Publishing, memberships, subscriptions and newsletters.
 - [Sandermoen/instaclone](https://github.com/Sandermoen/instaclone) - An instagram clone created with the MERN stack
-- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - an open source note taking and to-do application with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - the secure note taking and to-do app with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
 - [itsnitinr/driwwwle](https://github.com/itsnitinr/driwwwle) - The social network for developers. Discover creative websites and build a community.
 - [ericellb/React-Discord-Clone](https://github.com/ericellb/React-Discord-Clone) - Discord Clone using React, Node, Express, Socket-IO and Mysql
 - [benawad/dogehouse](https://github.com/benawad/dogehouse) - Taking voice conversations to the moon 🚀
@@ -2223,7 +2223,7 @@
 - [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
 - [mani-barathi/unsplash-clone](https://github.com/mani-barathi/unsplash-clone) - Unsplash Clone Built with React and Unsplash API
 - [super-easy-forms/super-easy-forms](https://github.com/super-easy-forms/super-easy-forms) - The easiest way to generate forms  for your static site
-- [bundit/kord-app](https://github.com/bundit/kord-app) - Spotify, Soundcloud, and YouTube all in one website!
+- [bundit/kord](https://github.com/bundit/kord) - Spotify, Soundcloud, and YouTube all in one website!
 - [NickMandylas/start-a-conversation](https://github.com/NickMandylas/start-a-conversation) - A service that randomly matches users in a one-on-one phone conversion, where they can chat anonymously.
 - [reck1ess/next-realworld-example-app](https://github.com/reck1ess/next-realworld-example-app) - Exemplary real world application built with Next.js + SWR
 - [diazabdulm/rumbbble](https://github.com/diazabdulm/rumbbble) - Dribbble Clone built with MongoDB, ExpressJS, React, and Node Technologies. See demo at https://rb.gy/psll7v
@@ -2589,7 +2589,7 @@
 - [harelba/q](https://github.com/harelba/q) - q - Run SQL directly on delimited files and multi-file sqlite databases
 - [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Developer-first AgentOps platform - deploy, test, and monitor AI agents
 - [moonrepo/moon](https://github.com/moonrepo/moon) - A task runner and repo management tool for the web ecosystem, written in Rust.
-- [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Python framework for AI workflows and pipelines with chain of thought reasoning, external tools, and memory.
+- [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Python framework for AI workflows and pipelines with chain of thought reasoning, external tools, and memory. Griptape is an enterprise grade alternative to LangChain.
 - [mitsuhiko/rye](https://github.com/mitsuhiko/rye) - An Experimental Package Management Solution for Python
 - [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
 - [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - An experimental open-source attempt to make GPT-4 fully autonomous.
@@ -2735,7 +2735,7 @@
 
 ## react-native 
 
-- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - an open source note taking and to-do application with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - the secure note taking and to-do app with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
 - [fariasmateuss/tindev](https://github.com/fariasmateuss/tindev) - 🔥 Tindev it's app like a Tinder, but for Developers.
 - [rematch/rematch](https://github.com/rematch/rematch) - The Redux Framework
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, offline-first, reactive Database for JavaScript Applications https://rxdb.info/
