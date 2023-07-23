@@ -578,6 +578,7 @@
 
 ## PHP 
 
+- [livewire/livewire](https://github.com/livewire/livewire) - A full-stack framework for Laravel that takes the pain out of building dynamic UIs.
 - [amphp/amp](https://github.com/amphp/amp) - A non-blocking concurrency framework for PHP applications. 🐘
 - [calebporzio/sushi](https://github.com/calebporzio/sushi) - Eloquent's missing "array" driver.
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source & self-hostable Heroku / Netlify alternative.
@@ -785,6 +786,7 @@
 
 ## Python 
 
+- [jmisilo/clip-gpt-captioning](https://github.com/jmisilo/clip-gpt-captioning) - CLIPxGPT Captioner is Image Captioning Model based on OpenAI's CLIP and GPT-2.
 - [prometheus-community/ansible](https://github.com/prometheus-community/ansible) - Ansible Collection for Prometheus
 - [StackStorm/st2](https://github.com/StackStorm/st2) - StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs. Includes rules engine, workflow, 160 i
 - [p0n1/epub_to_audiobook](https://github.com/p0n1/epub_to_audiobook) - EPUB to audiobook converter with Azure TTS, optimized for Audiobookshelf
@@ -800,7 +802,7 @@
 - [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder) - Home of StarCoder: fine-tuning & inference!
 - [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
 - [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - An experimental open-source attempt to make GPT-4 fully autonomous.
-- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and FastChat-T5.
+- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.
 - [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) - 🌸 Run large language models at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
 - [Sanster/lama-cleaner](https://github.com/Sanster/lama-cleaner) - Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.
 - [openai/whisper](https://github.com/openai/whisper) - Robust Speech Recognition via Large-Scale Weak Supervision
@@ -821,7 +823,6 @@
 - [cdk8s-team/cdk8s](https://github.com/cdk8s-team/cdk8s) - Define Kubernetes native apps and abstractions using object-oriented programming
 - [DonDebonair/slack-machine](https://github.com/DonDebonair/slack-machine) - A simple, yet powerful and extendable Slack bot
 - [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server
-- [dhruvkb/pls](https://github.com/dhruvkb/pls) - `pls` is a prettier and powerful `ls` for the pros.
 - [Miksus/rocketry](https://github.com/Miksus/rocketry) - Modern scheduling library for Python
 - [kuprel/min-dalle](https://github.com/kuprel/min-dalle) - min(DALL·E) is a fast, minimal port of DALL·E Mini to PyTorch
 - [samwillis/tetra](https://github.com/samwillis/tetra) - Tetra - A full stack component framework for Django using Alpine.js
@@ -920,6 +921,7 @@
 - [bevyengine/bevy](https://github.com/bevyengine/bevy) - A refreshingly simple data-driven game engine built in Rust
 - [krtab/agnos](https://github.com/krtab/agnos) - Obtain (wildcard) certificates from let's encrypt using dns-01 without the need for API access to your DNS provider.
 - [cloudwego/volo](https://github.com/cloudwego/volo) - Rust RPC framework with high-performance and strong-extensibility for building micro-services.
+- [dhruvkb/pls](https://github.com/dhruvkb/pls) - `pls` is a prettier and powerful `ls` for the pros.
 - [CeresDB/ceresdb](https://github.com/CeresDB/ceresdb) - CeresDB is a high-performance, distributed, cloud native time-series database.
 - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, branching, and bottomless storage.
 - [stepchowfun/toast](https://github.com/stepchowfun/toast) - Containerize your development and continuous integration environments. 🥂
