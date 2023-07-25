@@ -72,6 +72,7 @@
 
 ## C 
 
+- [ggerganov/ggml](https://github.com/ggerganov/ggml) - Tensor library for machine learning
 - [neondatabase/pg_embedding](https://github.com/neondatabase/pg_embedding) - Hierarchical Navigable Small World (HNSW) algorithm for vector similarity search in PostgreSQL
 - [curl/trurl](https://github.com/curl/trurl) - trurl is a command line tool for URL parsing and manipulation.
 - [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) - Port of OpenAI's Whisper model in C/C++
@@ -163,6 +164,7 @@
 
 ## Go 
 
+- [openmeterio/openmeter](https://github.com/openmeterio/openmeter) - Accurate and real-time usage metering for AI, DevOps, billing and analytics.
 - [diggerhq/digger](https://github.com/diggerhq/digger) - Digger is an open source alternative to Terraform Cloud & Terraform Enterprise. Digger allows you to run Terraform plan/apply in your existing CI pipeline ⚡️
 - [tigrisdata/tigris](https://github.com/tigrisdata/tigris) - Tigris is an Open Source Serverless NoSQL Database and Search Platform.
 - [aws/eks-anywhere](https://github.com/aws/eks-anywhere) - Run Amazon EKS on your own infrastructure 🚀
@@ -788,6 +790,8 @@
 
 ## Python 
 
+- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
+- [vllm-project/vllm](https://github.com/vllm-project/vllm) - A high-throughput and memory-efficient inference and serving engine for LLMs
 - [jmisilo/clip-gpt-captioning](https://github.com/jmisilo/clip-gpt-captioning) - CLIPxGPT Captioner is Image Captioning Model based on OpenAI's CLIP and GPT-2.
 - [prometheus-community/ansible](https://github.com/prometheus-community/ansible) - Ansible Collection for Prometheus
 - [StackStorm/st2](https://github.com/StackStorm/st2) - StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs. Includes rules engine, workflow, 160 i
@@ -897,6 +901,9 @@
 
 ## Rust 
 
+- [lancedb/lance](https://github.com/lancedb/lance) - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckD
+- [samwho/spacer](https://github.com/samwho/spacer) - CLI tool to insert spacers when command output stops
+- [mycelial/mycelite](https://github.com/mycelial/mycelite) - Mycelite is a SQLite extension that allows you to synchronize changes from one instance of SQLite to another.
 - [qdrant/qdrant](https://github.com/qdrant/qdrant) - Qdrant - Vector Database for the next generation of AI applications. Also available in the cloud https://cloud.qdrant.io/
 - [openobserve/openobserve](https://github.com/openobserve/openobserve) - 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces).
 - [quickwit-oss/whichlang](https://github.com/quickwit-oss/whichlang) - A blazingly fast and lightweight language detection library for Rust
@@ -1035,6 +1042,7 @@
 
 ## TypeScript 
 
+- [toeverything/blocksuite](https://github.com/toeverything/blocksuite) - 📝 The editor framework for the web.
 - [livecycle/preevy](https://github.com/livecycle/preevy) - Quickly deploy preview environments to the cloud!
 - [poteboy/kuma-ui](https://github.com/poteboy/kuma-ui) - 🐻‍❄️ A Headless, Utility-First, and Zero-Runtime UI Component Library ✨
 - [calcom/cal.com](https://github.com/calcom/cal.com) - Scheduling infrastructure for absolutely everyone.
