@@ -688,7 +688,7 @@
 - [AbuseIO/AbuseIO](https://github.com/AbuseIO/AbuseIO) - AbuseIO is a toolkit to receive, process, correlate and notify about abuse reports received by network operators, typically hosting and access providers.
 - [wells/airflix](https://github.com/wells/airflix) - 🍿 An AirPlay friendly web interface to stream your movies and TV shows from a home server.
 - [botman/botman](https://github.com/botman/botman) - A framework agnostic PHP library to build chat bots
-- [CachetHQ/Cachet](https://github.com/CachetHQ/Cachet) - The open-source status page system 🚦
+- [cachethq/cachet](https://github.com/cachethq/cachet) - The open-source status page system 🚦
 - [clarkeash/doorman](https://github.com/clarkeash/doorman) - Limit access to your Laravel applications by using invite codes
 - [nahid/talk](https://github.com/nahid/talk) - Talk is a real-time users messaging and chatting system for Laravel.
 - [laravel-zero/laravel-zero](https://github.com/laravel-zero/laravel-zero) - A PHP framework for console artisans
@@ -934,7 +934,7 @@
 - [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) - Multiplayer at the speed of light
 - [supabase/postgres_lsp](https://github.com/supabase/postgres_lsp) - A Language Server for Postgres
 - [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
-- [grafbase/grafbase](https://github.com/grafbase/grafbase) - Instant GraphQL APIs
+- [grafbase/grafbase](https://github.com/grafbase/grafbase) - The unified data layer
 - [awslabs/mountpoint-s3](https://github.com/awslabs/mountpoint-s3) - A simple, high-throughput file client for mounting an Amazon S3 bucket as a local file system.
 - [lancedb/lance](https://github.com/lancedb/lance) - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckD
 - [samwho/spacer](https://github.com/samwho/spacer) - CLI tool to insert spacers when command output stops
