@@ -131,7 +131,7 @@
 ## CSS 
 
 - [rowyio/feedbackfin](https://github.com/rowyio/feedbackfin) - Open-source widget to collect feedback anywhere on your website. Lightweight and tiny. That’s it.
-- [Just5KY/SkyPi](https://github.com/Just5KY/SkyPi) - selfhosting on a budget
+- [just5ky/SkyPi](https://github.com/just5ky/SkyPi) - selfhosting on a budget
 - [csswizardry/ct](https://github.com/csswizardry/ct) - Let’s take a look inside your &lt;head&gt;…
 - [avriq/signature-pdf](https://github.com/avriq/signature-pdf) - Drag and drop to add image signature to pdf documents
 - [adi1090x/termux-desktop](https://github.com/adi1090x/termux-desktop) - Setup A Beautiful Desktop/GUI In Termux
