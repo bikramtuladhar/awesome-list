@@ -406,7 +406,6 @@
 - [Rohan-Jalil/golang-vs-php-vs-node-vs-python](https://github.com/Rohan-Jalil/golang-vs-php-vs-node-vs-python) - Benchmarking Computational power and File I/O between Golang vs PHP vs Node.JS vs Python
 - [heysphere/node-vs-go](https://github.com/heysphere/node-vs-go) - demo
 - [gokhanmeteerturk/HeadwindHTML](https://github.com/gokhanmeteerturk/HeadwindHTML) - Create HTML from CSS! A modern javascript library you'd expect Facebook to invent. Slowly build modern websites without ever leaving your CSS, with HeadwindHTML
-- [actualbudget/actual](https://github.com/actualbudget/actual) - A local-first personal finance app
 - [xemle/home-gallery](https://github.com/xemle/home-gallery) - Self-hosted open-source web gallery to view your photos and videos featuring mobile-friendly, tagging and AI powered image discovery
 - [facebook/lexical](https://github.com/facebook/lexical) - Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance.
 - [neomjs/neo](https://github.com/neomjs/neo) - The application worker driven frontend framework
@@ -1084,14 +1083,14 @@
 
 - [steven-tey/novel](https://github.com/steven-tey/novel) - Notion-style WYSIWYG editor with AI-powered autocompletion.
 - [mui/mui-toolpad](https://github.com/mui/mui-toolpad) - MUI Toolpad: Low-code admin builder. Open-source and powered by MUI.
-- [sourcegraph/cody](https://github.com/sourcegraph/cody) - Code AI with codebase context
+- [sourcegraph/cody](https://github.com/sourcegraph/cody) - AI that knows your entire codebase
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.
 - [stepci/garph](https://github.com/stepci/garph) - Fullstack GraphQL Framework for TypeScript
 - [nextui-org/tailwind-variants](https://github.com/nextui-org/tailwind-variants) - 🦄 Tailwindcss first-class variant API
 - [langgenius/dify](https://github.com/langgenius/dify) - One API for plugins and datasets, one interface for prompt engineering and visual operation, all for creating powerful AI applications.
 - [vue-vine/vue-vine](https://github.com/vue-vine/vue-vine) - Another style of writing Vue components.
 - [microsoft/TypeChat](https://github.com/microsoft/TypeChat) - TypeChat is a library that makes it easy to build natural language interfaces using types.
-- [toeverything/blocksuite](https://github.com/toeverything/blocksuite) - 📝 The editor framework for the web.
+- [toeverything/blocksuite](https://github.com/toeverything/blocksuite) - 🍬 The infra for building collaborative editors
 - [livecycle/preevy](https://github.com/livecycle/preevy) - Quickly deploy preview environments to the cloud!
 - [kuma-ui/kuma-ui](https://github.com/kuma-ui/kuma-ui) - 🐻‍❄️ A Headless, Utility-First, and Zero-Runtime UI Component Library ✨
 - [calcom/cal.com](https://github.com/calcom/cal.com) - Scheduling infrastructure for absolutely everyone.
@@ -1142,6 +1141,7 @@
 - [trpc/trpc](https://github.com/trpc/trpc) - 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
 - [chakra-ui/zag](https://github.com/chakra-ui/zag) - Finite state machines for building accessible design systems and UI components.
 - [google/wireit](https://github.com/google/wireit) - Wireit upgrades your npm/pnpm/yarn scripts to make them smarter and more efficient.
+- [actualbudget/actual](https://github.com/actualbudget/actual) - A local-first personal finance app
 - [ruilisi/fortune-sheet](https://github.com/ruilisi/fortune-sheet) - A drop-in javascript spreadsheet library that provides rich features like Excel and Google Sheets
 - [gregordr/ImageStore](https://github.com/gregordr/ImageStore) - Open source google photos alternative!
 - [photoview/photoview](https://github.com/photoview/photoview) - Photo gallery for self-hosted personal servers
