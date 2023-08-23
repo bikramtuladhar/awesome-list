@@ -420,7 +420,7 @@
 - [localstack/localstack](https://github.com/localstack/localstack) - 💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
 - [opencost/opencost](https://github.com/opencost/opencost) - Cross-cloud cost allocation models for Kubernetes workloads
 - [turbot/steampipe](https://github.com/turbot/steampipe) - Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required.
-- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a framework for cloud-native apps and infrastructure from code. It takes care of infrastructure and config without limiting your language or cloud, so you can spend your time writing applica
+- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
 - [run-x/opta](https://github.com/run-x/opta) - The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 - [encoredev/encore](https://github.com/encoredev/encore) - Encore is the end-to-end Backend Development Platform that lets you escape cloud complexity.
@@ -437,7 +437,7 @@
 - [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) - Prowler is an Open Source Security tool for AWS, Azure and GCP to perform Cloud Security best practices assessments, audits, incident response, compliance, continuous monitoring, hardening and forensi
 - [opencost/opencost](https://github.com/opencost/opencost) - Cross-cloud cost allocation models for Kubernetes workloads
 - [turbot/steampipe](https://github.com/turbot/steampipe) - Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required.
-- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a framework for cloud-native apps and infrastructure from code. It takes care of infrastructure and config without limiting your language or cloud, so you can spend your time writing applica
+- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
 - [run-x/opta](https://github.com/run-x/opta) - The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 - [encoredev/encore](https://github.com/encoredev/encore) - Encore is the end-to-end Backend Development Platform that lets you escape cloud complexity.
@@ -1162,7 +1162,7 @@
 - [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗
 - [infrahq/infra](https://github.com/infrahq/infra) - Infra provides authentication and access management to servers and Kubernetes clusters.
 - [miniscruff/changie](https://github.com/miniscruff/changie) - Automated changelog tool for preparing releases with lots of customization options
-- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a framework for cloud-native apps and infrastructure from code. It takes care of infrastructure and config without limiting your language or cloud, so you can spend your time writing applica
+- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
 - [kadeessh/kadeessh](https://github.com/kadeessh/kadeessh) - Caddy-SSH is a general-purpose, extensible, modular, memory-safe SSH server built in Go
 - [YaoApp/yao](https://github.com/YaoApp/yao) - :rocket: A performance app engine to create web services and applications in minutes.Suitable for AI, IoT, Industrial Internet, Connected Vehicles, DevOps, Energy, Finance and many other use-cases.
 - [hashicorp/vault](https://github.com/hashicorp/vault) - A tool for secrets management, encryption as a service, and privileged access management
@@ -1229,7 +1229,7 @@
 - [infrahq/infra](https://github.com/infrahq/infra) - Infra provides authentication and access management to servers and Kubernetes clusters.
 - [miniscruff/changie](https://github.com/miniscruff/changie) - Automated changelog tool for preparing releases with lots of customization options
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App for the Decentralized Web 🌈💎✨
-- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a framework for cloud-native apps and infrastructure from code. It takes care of infrastructure and config without limiting your language or cloud, so you can spend your time writing applica
+- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
 - [frain-dev/convoy](https://github.com/frain-dev/convoy) - Open Source Webhooks Gateway; For both incoming & outgoing events.
 - [milvus-io/milvus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications
 - [YaoApp/yao](https://github.com/YaoApp/yao) - :rocket: A performance app engine to create web services and applications in minutes.Suitable for AI, IoT, Industrial Internet, Connected Vehicles, DevOps, Energy, Finance and many other use-cases.
@@ -1523,7 +1523,7 @@
 - [javascriptdata/danfojs](https://github.com/javascriptdata/danfojs) - Danfo.js is an open source, JavaScript library providing high performance, intuitive, and easy to use data structures for manipulating and processing structured data.
 - [amplication/amplication](https://github.com/amplication/amplication) - 🔥🔥🔥 Open-source backend development platform. Build production-ready services without wasting time on repetitive coding.
 - [neomjs/neo](https://github.com/neomjs/neo) - The application worker driven frontend framework
-- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a framework for cloud-native apps and infrastructure from code. It takes care of infrastructure and config without limiting your language or cloud, so you can spend your time writing applica
+- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
 - [Ninroot/nacre](https://github.com/Ninroot/nacre) - Intuitive Shell
 - [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) - Low-code platform for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, Google sheets, OpenAI, etc and build apps using drag and drop application 
 - [BuilderIO/qwik](https://github.com/BuilderIO/qwik) - Instant-loading web apps, without effort
@@ -2084,7 +2084,7 @@
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
 - [nut-tree/nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node
 - [oramasearch/orama](https://github.com/oramasearch/orama) - 🌌  Fast, in-memory, typo-tolerant, full-text and vector search engine written in TypeScript.
-- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a framework for cloud-native apps and infrastructure from code. It takes care of infrastructure and config without limiting your language or cloud, so you can spend your time writing applica
+- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) - Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.
 - [nvm-sh/nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
 - [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. 
@@ -2247,7 +2247,7 @@
 - [sergiodxa/remix-utils](https://github.com/sergiodxa/remix-utils) - A set of utility functions and types to use with Remix.run
 - [facebookresearch/llama](https://github.com/facebookresearch/llama) - Inference code for LLaMA models
 - [ServiceWeaver/weaver](https://github.com/ServiceWeaver/weaver) - Programming framework for writing and deploying cloud applications.
-- [mrsked/mrsk](https://github.com/mrsked/mrsk) - Deploy web apps anywhere.
+- [basecamp/kamal](https://github.com/basecamp/kamal) - Deploy web apps anywhere.
 - [schibsted/WAAS](https://github.com/schibsted/WAAS) - Whisper as a Service (GUI and API with queuing for OpenAI Whisper)
 - [drifting-in-space/driftdb](https://github.com/drifting-in-space/driftdb) - A real-time data backend for browser-based applications.
 - [scastiel/github-business-card](https://github.com/scastiel/github-business-card) - 
@@ -3033,7 +3033,7 @@
 - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, branching, and bottomless storage.
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
 - [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - The distributed streaming database: SQL stream processing with Postgres-like experience 🪄. 10X faster and more cost-efficient than Apache Flink 🚀.
-- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a framework for cloud-native apps and infrastructure from code. It takes care of infrastructure and config without limiting your language or cloud, so you can spend your time writing applica
+- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
 - [dapr/dapr](https://github.com/dapr/dapr) - Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.
 - [encoredev/encore](https://github.com/encoredev/encore) - Encore is the end-to-end Backend Development Platform that lets you escape cloud complexity.
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - Build Fast. Scale Big. All in One Place. Cloud is now available in public beta. 🌩
