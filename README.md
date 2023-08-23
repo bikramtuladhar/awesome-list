@@ -231,7 +231,7 @@
 - [infrahq/infra](https://github.com/infrahq/infra) - Infra provides authentication and access management to servers and Kubernetes clusters.
 - [miniscruff/changie](https://github.com/miniscruff/changie) - Automated changelog tool for preparing releases with lots of customization options
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App for the Decentralized Web 🌈💎✨
-- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a framework for cloud-native apps and infrastructure from code. It takes care of infrastructure and config without limiting your language or cloud, so you can spend your time writing applica
+- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
 - [dagger/dagger](https://github.com/dagger/dagger) - A programmable CI/CD engine that runs your pipelines in containers
 - [okteto/okteto](https://github.com/okteto/okteto) - Develop your applications directly in your Kubernetes Cluster
 - [kadeessh/kadeessh](https://github.com/kadeessh/kadeessh) - Caddy-SSH is a general-purpose, extensible, modular, memory-safe SSH server built in Go
@@ -522,7 +522,6 @@
 - [nanovms/ops-documentation](https://github.com/nanovms/ops-documentation) - Documentation for NanoVMs OPS
 - [wodby/docker4php](https://github.com/wodby/docker4php) - Docker-based PHP stack
 - [chialab/docker-php](https://github.com/chialab/docker-php) - 🧰 Adding common PHP extensions to some of the official PHP Docker images.
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - A list of Free Software network services and web applications which can be hosted on your own servers
 
 ## Markdown 
 
@@ -574,6 +573,7 @@
 - [n6ai/flowrift](https://github.com/n6ai/flowrift) - Beautifully designed Tailwind CSS UI blocks.
 - [yudax42/vue-upload-drop-images](https://github.com/yudax42/vue-upload-drop-images) - 🖼️ Drag-and-drop image upload component for Vue
 - [LaravelDaily/Laravel-Roadmap-Learning-Path](https://github.com/LaravelDaily/Laravel-Roadmap-Learning-Path) - 
+- [kha7iq/selfhosted](https://github.com/kha7iq/selfhosted) - Selfhosted services docker-compose manifests
 - [Avik-Jain/100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code) - 100 Days of ML Coding
 - [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) - Dev environments. In your web app.
 - [nodes-io/nodes-io](https://github.com/nodes-io/nodes-io) - A new way to create with code.
@@ -601,6 +601,7 @@
 - [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
 - [unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps) - :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy!
 - [anaibol/awesome-serverless](https://github.com/anaibol/awesome-serverless) - :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - A list of Free Software network services and web applications which can be hosted on your own servers
 
 ## PHP 
 
@@ -922,7 +923,7 @@
 ## Ruby 
 
 - [shayonj/pg_easy_replicate](https://github.com/shayonj/pg_easy_replicate) - Easily setup logical replication and switchover to new database with minimal downtime
-- [mrsked/mrsk](https://github.com/mrsked/mrsk) - Deploy web apps anywhere.
+- [basecamp/kamal](https://github.com/basecamp/kamal) - Deploy web apps anywhere.
 - [DannyBen/bashly](https://github.com/DannyBen/bashly) - Bash command line framework and CLI generator
 - [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
 - [postalserver/postal](https://github.com/postalserver/postal) - ✉️ A fully featured open source mail delivery platform for incoming & outgoing e-mail
@@ -1020,7 +1021,6 @@
 - [Makeshift/Marauder](https://github.com/Makeshift/Marauder) - A fully dockerized Media downloading solution utilising Google Drive as an unlimited disk backend
 - [nvm-sh/nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
 - [bohanyang/debi](https://github.com/bohanyang/debi) - Reinstall your VPS to minimal Debian
-- [kha7iq/selfhosted](https://github.com/kha7iq/selfhosted) - Selfhosted services docker-compose manifests
 - [crunchprank/dig-dug](https://github.com/crunchprank/dig-dug) - Mass / Batch domain dig to .CSV bash script
 - [marco-lancini/offensive-infrastructure](https://github.com/marco-lancini/offensive-infrastructure) - Offensive Infrastructure with Modern Technologies
 - [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) - 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources
