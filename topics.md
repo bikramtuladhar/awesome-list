@@ -218,7 +218,7 @@
 - [georgia-tech-db/evadb](https://github.com/georgia-tech-db/evadb) - Bring AI inside your Database System & build AI-powered apps
 - [langgenius/dify](https://github.com/langgenius/dify) - One API for plugins and datasets, one interface for prompt engineering and visual operation, all for creating powerful AI applications.
 - [microsoft/TypeChat](https://github.com/microsoft/TypeChat) - TypeChat is a library that makes it easy to build natural language interfaces using types.
-- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Monorepo for E2B - Cloud Operating System for AI Agents
+- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Cloud OS for AI Agents
 - [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Python framework for AI workflows and pipelines with chain of thought reasoning, tools, and memory. Griptape is an enterprise grade alternative to LangChain.
 - [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - An experimental open-source attempt to make GPT-4 fully autonomous.
 - [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit) - Auto-generate impressive commits with AI in 1 second 🤯🔫
@@ -1502,7 +1502,7 @@
 - [naptha/tesseract.js](https://github.com/naptha/tesseract.js) - Pure Javascript OCR for more than 100 Languages 📖🎉🖥
 - [neuroneural/brainchop](https://github.com/neuroneural/brainchop) - Brainchop: In-browser 3D MRI rendering and segmentation
 - [aralroca/default-composer](https://github.com/aralroca/default-composer) - A tiny (~500B) JavaScript library that allows you to set default values for nested objects
-- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Monorepo for E2B - Cloud Operating System for AI Agents
+- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Cloud OS for AI Agents
 - [michael/editable-website](https://github.com/michael/editable-website) - A SvelteKit template for building CMS-free editable websites
 - [moonrepo/moon](https://github.com/moonrepo/moon) - A task runner and repo management tool for the web ecosystem, written in Rust.
 - [HeyPuter/kv.js](https://github.com/HeyPuter/kv.js) - Advanced in-memory caching module for JavaScript.
@@ -2055,7 +2055,7 @@
 - [steven-tey/novel](https://github.com/steven-tey/novel) - Notion-style WYSIWYG editor with AI-powered autocompletion.
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.
 - [calcom/cal.com](https://github.com/calcom/cal.com) - Scheduling infrastructure for absolutely everyone.
-- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Monorepo for E2B - Cloud Operating System for AI Agents
+- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Cloud OS for AI Agents
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source & self-hostable Heroku / Netlify alternative.
 - [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
 - [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) - ✨ Trigger.dev is an open-source platform to create long-running jobs directly in your Next.js project, with features like API integrations, webhooks, scheduling and delays.
@@ -2701,7 +2701,7 @@
 - [StackStorm/st2](https://github.com/StackStorm/st2) - StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs. Includes rules engine, workflow, 160 i
 - [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps) - A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.
 - [harelba/q](https://github.com/harelba/q) - q - Run SQL directly on delimited files and multi-file sqlite databases
-- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Monorepo for E2B - Cloud Operating System for AI Agents
+- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Cloud OS for AI Agents
 - [moonrepo/moon](https://github.com/moonrepo/moon) - A task runner and repo management tool for the web ecosystem, written in Rust.
 - [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Python framework for AI workflows and pipelines with chain of thought reasoning, tools, and memory. Griptape is an enterprise grade alternative to LangChain.
 - [mitsuhiko/rye](https://github.com/mitsuhiko/rye) - An Experimental Package Management Solution for Python
@@ -2805,7 +2805,7 @@
 - [mui/mui-toolpad](https://github.com/mui/mui-toolpad) - MUI Toolpad: Low-code admin builder. Open-source and powered by MUI.
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.
 - [kuma-ui/kuma-ui](https://github.com/kuma-ui/kuma-ui) - 🐻‍❄️ A Headless, Utility-First, and Zero-Runtime UI Component Library ✨
-- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Monorepo for E2B - Cloud Operating System for AI Agents
+- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Cloud OS for AI Agents
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is an open-source, end-to-end encrypted platform for secret management: sync secrets across your team/infrastructure and prevent secret leaks.
 - [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
 - [answerdev/answer](https://github.com/answerdev/answer) - A Q&A platform software for teams at any scales. Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer.
@@ -3073,7 +3073,7 @@
 
 ## software 
 
-- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Monorepo for E2B - Cloud Operating System for AI Agents
+- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Cloud OS for AI Agents
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
 - [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) -  Now we have become very big, Different from the original idea. Collect premium software in various categories.
 
@@ -3239,7 +3239,7 @@
 - [stepci/garph](https://github.com/stepci/garph) - Fullstack GraphQL Framework for TypeScript
 - [calcom/cal.com](https://github.com/calcom/cal.com) - Scheduling infrastructure for absolutely everyone.
 - [aralroca/default-composer](https://github.com/aralroca/default-composer) - A tiny (~500B) JavaScript library that allows you to set default values for nested objects
-- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Monorepo for E2B - Cloud Operating System for AI Agents
+- [e2b-dev/e2b](https://github.com/e2b-dev/e2b) - Cloud OS for AI Agents
 - [moonrepo/moon](https://github.com/moonrepo/moon) - A task runner and repo management tool for the web ecosystem, written in Rust.
 - [mojolicious/mojo.js](https://github.com/mojolicious/mojo.js) - :unicorn: The Mojolicious real-time web framework for Node.js
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is an open-source, end-to-end encrypted platform for secret management: sync secrets across your team/infrastructure and prevent secret leaks.
