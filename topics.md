@@ -652,7 +652,7 @@
 
 ## data 
 
-- [paradedb/retake](https://github.com/paradedb/retake) - Open-Source Hybrid Search for Postgres
+- [paradedb/paradedb](https://github.com/paradedb/paradedb) - PostgreSQL for Search
 - [artie-labs/transfer](https://github.com/artie-labs/transfer) - Real-time data replication from OLTP to OLAP dbs
 - [tigrisdata/tigris](https://github.com/tigrisdata/tigris) - Tigris is an Open Source Serverless NoSQL Database and Search Platform.
 - [flyteorg/flyte](https://github.com/flyteorg/flyte) - Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.
@@ -757,7 +757,7 @@
 ## deno 
 
 - [moonrepo/moon](https://github.com/moonrepo/moon) - A task runner and repo management tool for the web ecosystem, written in Rust.
-- [honojs/hono](https://github.com/honojs/hono) - Ultrafast web framework for the Edges
+- [honojs/hono](https://github.com/honojs/hono) - Lightweight, Ultrafast, Web Standards
 - [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
 - [supabase/supabase](https://github.com/supabase/supabase) - The open source Firebase alternative. Follow to stay updated about our public Beta.
 
@@ -2153,7 +2153,7 @@
 - [seanmorris/php-wasm](https://github.com/seanmorris/php-wasm) - PHP in Browser, powered by WebAssembly. Original Project by Oraoto, ES6 & Clang Upgrades by Sean Morris.
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
 - [antfu/ni](https://github.com/antfu/ni) - 💡 Use the right package manager
-- [honojs/hono](https://github.com/honojs/hono) - Ultrafast web framework for the Edges
+- [honojs/hono](https://github.com/honojs/hono) - Lightweight, Ultrafast, Web Standards
 
 ## numpy 
 
@@ -2623,7 +2623,7 @@
 ## postgresql 
 
 - [pgaudit/pgaudit](https://github.com/pgaudit/pgaudit) - PostgreSQL Audit Extension
-- [paradedb/retake](https://github.com/paradedb/retake) - Open-Source Hybrid Search for Postgres
+- [paradedb/paradedb](https://github.com/paradedb/paradedb) - PostgreSQL for Search
 - [shayonj/pg_easy_replicate](https://github.com/shayonj/pg_easy_replicate) - Easily setup logical replication and switchover to new database with minimal downtime
 - [PeerDB-io/peerdb](https://github.com/PeerDB-io/peerdb) - Postgres first ETL/ELT, enabling 10x faster data movement in and out of Postgres 🐘 🚀
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.
@@ -2694,7 +2694,7 @@
 
 ## python 
 
-- [paradedb/retake](https://github.com/paradedb/retake) - Open-Source Hybrid Search for Postgres
+- [paradedb/paradedb](https://github.com/paradedb/paradedb) - PostgreSQL for Search
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.
 - [Fizzadar/pyinfra](https://github.com/Fizzadar/pyinfra) - pyinfra automates infrastructure super fast at massive scale. It can be used for ad-hoc command execution, service deployment, configuration management and more.
 - [langgenius/dify](https://github.com/langgenius/dify) - One API for plugins and datasets, one interface for prompt engineering and visual operation, all for creating powerful AI applications.
@@ -3251,7 +3251,7 @@
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
 - [rowyio/rowy](https://github.com/rowyio/rowy) - Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.
 - [teamhanko/hanko](https://github.com/teamhanko/hanko) - Authentication and user management for the passkey era
-- [honojs/hono](https://github.com/honojs/hono) - Ultrafast web framework for the Edges
+- [honojs/hono](https://github.com/honojs/hono) - Lightweight, Ultrafast, Web Standards
 - [ts-safeql/safeql](https://github.com/ts-safeql/safeql) - Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL.
 - [oramasearch/orama](https://github.com/oramasearch/orama) - 🌌  Fast, in-memory, typo-tolerant, full-text and vector search engine written in TypeScript.
 - [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - WunderGraph is a Backend for Frontend Framework to optimize frontend, fullstack and backend developer workflows through API Composition.
