@@ -681,7 +681,7 @@
 - [systemsdk/docker-nginx-php-laravel](https://github.com/systemsdk/docker-nginx-php-laravel) - Docker environment required to run Laravel (based on official php and mysql docker hub repositories)
 - [astralapp/astral](https://github.com/astralapp/astral) - Organize Your GitHub Stars With Ease
 - [canvasowl/ribbbon](https://github.com/canvasowl/ribbbon) - A project management system for artisans.
-- [agorakit/agorakit](https://github.com/agorakit/agorakit) - Organization tool for citizen's collectives
+- [agorakit/agorakit](https://github.com/agorakit/agorakit) - Organization tool for collectives
 - [ppshobi/tech-detector](https://github.com/ppshobi/tech-detector) - A web app for detecting backend technologies used in a web app, Based on wappalyzer node module
 - [jeremykenedy/laravel-exception-notifier](https://github.com/jeremykenedy/laravel-exception-notifier) - Laravel Exception Notifier will send an email of the error along with the stack trace to the chosen recipients. This Package includes all necessary traits, views, configs, and Mailers for email notifi
 - [rashidlaasri/LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller) - A web installer for Laravel
@@ -879,7 +879,7 @@
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
 - [jina-ai/jina](https://github.com/jina-ai/jina) - ☁️ Build multimodal AI applications with cloud-native stack
 - [ethyca/fides](https://github.com/ethyca/fides) - The Privacy Engineering & Compliance Framework
-- [simple-login/app](https://github.com/simple-login/app) - The SimpleLogin back-end
+- [simple-login/app](https://github.com/simple-login/app) - The SimpleLogin back-end and web app
 - [hedyorg/hedy](https://github.com/hedyorg/hedy) - Hedy is a gradual programming language to teach children programming. Gradual languages use different language levels, where each level adds new concepts and syntactic complexity. At the end of the He
 - [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
@@ -942,7 +942,7 @@
 - [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) - Multiplayer at the speed of light
 - [supabase/postgres_lsp](https://github.com/supabase/postgres_lsp) - A Language Server for Postgres
 - [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
-- [grafbase/grafbase](https://github.com/grafbase/grafbase) - The unified data layer
+- [grafbase/grafbase](https://github.com/grafbase/grafbase) - The API platform for developers
 - [PeerDB-io/peerdb](https://github.com/PeerDB-io/peerdb) - Postgres first ETL/ELT, enabling 10x faster data movement in and out of Postgres 🐘 🚀
 - [awslabs/mountpoint-s3](https://github.com/awslabs/mountpoint-s3) - A simple, high-throughput file client for mounting an Amazon S3 bucket as a local file system.
 - [lancedb/lance](https://github.com/lancedb/lance) - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckD
