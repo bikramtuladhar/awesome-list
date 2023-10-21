@@ -523,6 +523,7 @@
 ## MDX 
 
 - [weaveworks/weave-gitops](https://github.com/weaveworks/weave-gitops) - Weave GitOps provides insights into your application deployments, and makes continuous delivery with GitOps easier to adopt and scale across your teams.
+- [medusajs/medusa](https://github.com/medusajs/medusa) - Building blocks for digital commerce
 
 ## Makefile 
 
@@ -1193,7 +1194,6 @@
 - [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Platform to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API.
 - [rematch/rematch](https://github.com/rematch/rematch) - The Redux Framework
 - [jovotech/jovo-framework](https://github.com/jovotech/jovo-framework) - 🔈 The React for Voice and Chat: Build Apps for Alexa, Google Assistant, Messenger, Instagram, the Web, and more
-- [medusajs/medusa](https://github.com/medusajs/medusa) - Building blocks for digital commerce
 - [novuhq/novu](https://github.com/novuhq/novu) - 🔥 The open-source notification infrastructure with fully functional embedded notification center 🚀🚀🚀
 - [oslabs-beta/navigate](https://github.com/oslabs-beta/navigate) - A Kubernetes cluster visualizer for DevOps engineers - network policies, aggregated scheduler logs, deployments and pods before your cluster is running!
 - [dblens/app](https://github.com/dblens/app) - Database explorer for Mac, Windows & Linux
