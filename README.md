@@ -171,6 +171,7 @@
 
 ## Go 
 
+- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps
 - [kubefirst/kubefirst](https://github.com/kubefirst/kubefirst) - The Kubefirst Open Source Platform
 - [cloudnative-pg/cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg) - CloudNativePG is a Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster with a primary/standby architecture, using native streaming replication
 - [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
@@ -527,6 +528,7 @@
 
 ## Makefile 
 
+- [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - A curated list of amazingly awesome open-source sysadmin resources.
 - [nanovms/ops-documentation](https://github.com/nanovms/ops-documentation) - Documentation for NanoVMs OPS
 - [wodby/docker4php](https://github.com/wodby/docker4php) - Docker-based PHP stack
 - [chialab/docker-php](https://github.com/chialab/docker-php) - 🧰 Adding common PHP extensions to some of the official PHP Docker images.
@@ -692,7 +694,7 @@
 - [PHPJunior/laravel-2c2p](https://github.com/PHPJunior/laravel-2c2p) - Laravel 2C2P package
 - [DevlessTeam/DV-PHP-CORE](https://github.com/DevlessTeam/DV-PHP-CORE) - Devless is a ready-made back-end for development of web or mobile applications. It is fully open source under the permissive Apache v2 license. This means that you can develop your front end without w
 - [tenancy/multi-tenant](https://github.com/tenancy/multi-tenant) - Run multiple websites using the same Laravel installation while keeping tenant specific data separated for fully independent multi-domain setups, previously github.com/hyn/multi-tenant
-- [HDInnovations/UNIT3D-Community-Edition](https://github.com/HDInnovations/UNIT3D-Community-Edition) - 🚀 A Next Generation Private Torrent Tracker (Community Edition)
+- [HDInnovations/UNIT3D-Community-Edition](https://github.com/HDInnovations/UNIT3D-Community-Edition) - Private Torrent Tracker Built With Laravel, Livewire and AlpineJS.
 - [ambulatorium/ambulatory](https://github.com/ambulatorium/ambulatory) - An experiment project for outpatient care platform.
 - [shihjay2/nosh2](https://github.com/shihjay2/nosh2) - NOSH ChartingSystem is an electronic health record system designed exclusively for doctors and patients. This is a new mobile-friendly version that is now based off of the Laravel PHP framework and jQ
 - [timegridio/timegrid](https://github.com/timegridio/timegrid) - Free, open-source, online appointments platform based on Laravel PHP Framework.
@@ -826,6 +828,7 @@
 
 ## Python 
 
+- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged version of paperless: scan, index and archive all your physical documents
 - [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) - Dev tool that writes scalable apps from scratch while the developer oversees the implementation
 - [mckinsey/vizro](https://github.com/mckinsey/vizro) - Vizro is a toolkit for creating modular data visualization applications.
 - [eschluntz/compress](https://github.com/eschluntz/compress) - Text compression for generating keyboard expansions
