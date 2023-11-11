@@ -531,7 +531,7 @@
 - [steven-tey/novel](https://github.com/steven-tey/novel) - Notion-style WYSIWYG editor with AI-powered autocompletion.
 - [ShishirPatil/gorilla](https://github.com/ShishirPatil/gorilla) - Gorilla: An API store for LLMs
 - [georgia-tech-db/evadb](https://github.com/georgia-tech-db/evadb) - Database system for AI-powered apps
-- [p0n1/epub_to_audiobook](https://github.com/p0n1/epub_to_audiobook) - EPUB to audiobook converter with Azure TTS, optimized for Audiobookshelf
+- [p0n1/epub_to_audiobook](https://github.com/p0n1/epub_to_audiobook) - EPUB to audiobook converter, optimized for Audiobookshelf
 - [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - Data-Centric FinGPT.  Open-source for open finance!  Revolutionize 🔥    We release the trained model on HuggingFace.
 - [openai/openai-cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API
 - [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) - An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All.
@@ -610,7 +610,7 @@
 
 ## compiler 
 
-- [web-infra-dev/oxc](https://github.com/web-infra-dev/oxc) - ⚓ A suite of high-performance tools for JavaScript and TypeScript written in Rust.
+- [oxc-project/oxc](https://github.com/oxc-project/oxc) - ⚓ A suite of high-performance tools for JavaScript and TypeScript written in Rust.
 - [titzer/virgil](https://github.com/titzer/virgil) - A fast and lightweight native programming language
 - [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) - Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more.
 - [sveltejs/svelte](https://github.com/sveltejs/svelte) - Cybernetically enhanced web apps
@@ -1578,7 +1578,7 @@
 
 ## javascript 
 
-- [web-infra-dev/oxc](https://github.com/web-infra-dev/oxc) - ⚓ A suite of high-performance tools for JavaScript and TypeScript written in Rust.
+- [oxc-project/oxc](https://github.com/oxc-project/oxc) - ⚓ A suite of high-performance tools for JavaScript and TypeScript written in Rust.
 - [keyval-dev/odigos](https://github.com/keyval-dev/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
 - [retracedhq/retraced](https://github.com/retracedhq/retraced) - 🔥 A fully open source audit logs service and embeddable UI easily deployed to your own Kubernetes cluster. Brought to you by replicated.com and boxyhq.com  🚀
 - [artilleryio/artillery](https://github.com/artilleryio/artillery) - Load testing at cloud-scale, as easy as 1-2-3. Serverless & distributed out-of-the-box. Never fail to scale!
@@ -3030,7 +3030,7 @@
 
 ## rust 
 
-- [web-infra-dev/oxc](https://github.com/web-infra-dev/oxc) - ⚓ A suite of high-performance tools for JavaScript and TypeScript written in Rust.
+- [oxc-project/oxc](https://github.com/oxc-project/oxc) - ⚓ A suite of high-performance tools for JavaScript and TypeScript written in Rust.
 - [burn-rs/burn](https://github.com/burn-rs/burn) - Burn - A Flexible and Comprehensive Deep Learning Framework in Rust
 - [build-trust/ockam](https://github.com/build-trust/ockam) - Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
 - [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
@@ -3361,7 +3361,7 @@
 
 ## typescript 
 
-- [web-infra-dev/oxc](https://github.com/web-infra-dev/oxc) - ⚓ A suite of high-performance tools for JavaScript and TypeScript written in Rust.
+- [oxc-project/oxc](https://github.com/oxc-project/oxc) - ⚓ A suite of high-performance tools for JavaScript and TypeScript written in Rust.
 - [retracedhq/retraced](https://github.com/retracedhq/retraced) - 🔥 A fully open source audit logs service and embeddable UI easily deployed to your own Kubernetes cluster. Brought to you by replicated.com and boxyhq.com  🚀
 - [boxyhq/saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - 🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀
 - [flipt-io/flipt](https://github.com/flipt-io/flipt) - An open source, self-hosted feature flag solution
@@ -3375,7 +3375,7 @@
 - [moonrepo/moon](https://github.com/moonrepo/moon) - A task runner and repo management tool for the web ecosystem, written in Rust.
 - [mojolicious/mojo.js](https://github.com/mojolicious/mojo.js) - :unicorn: The Mojolicious real-time web framework for Node.js
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is the open-source secret management platform: Sync secrets across your team/infrastructure and prevent secret leaks.
-- [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) - 🔥 ✨✨ ✨ Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+- [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) - 🔥 ✨✨ ✨ Vue3+Vite5+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
 - [apache/incubator-answer](https://github.com/apache/incubator-answer) - A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Answer.
 - [vercel/turbo](https://github.com/vercel/turbo) - Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.
 - [eritislami/evobot](https://github.com/eritislami/evobot) - 🤖 EvoBot is a Discord Music Bot built with TypeScript + Discord.js, includes Docker builds & localization in 20+ languages
