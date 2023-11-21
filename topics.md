@@ -1768,7 +1768,7 @@
 
 - [coderello/laravel-nova-lang](https://github.com/coderello/laravel-nova-lang) - 🌌 Language files for Laravel Nova translated into 40+ languages. Feel free to submit your language or update an existing one!
 - [unicodeveloper/laravel-identify](https://github.com/unicodeveloper/laravel-identify) - :package: :iphone:  Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems
-- [Laravel-Lang/lang](https://github.com/Laravel-Lang/lang) - List of 78 languages for Laravel Framework, Laravel Jetstream, Laravel Fortify, Laravel Breeze, Laravel Cashier, Laravel Nova, Laravel Spark and Laravel UI.
+- [Laravel-Lang/lang](https://github.com/Laravel-Lang/lang) - List of 79 languages for Laravel Framework, Laravel Jetstream, Laravel Fortify, Laravel Breeze, Laravel Cashier, Laravel Nova, Laravel Spark and Laravel UI.
 
 ## laravel 
 
@@ -1917,7 +1917,7 @@
 - [laravel/framework](https://github.com/laravel/framework) - The Laravel Framework.
 - [spatie/laravel-view-models](https://github.com/spatie/laravel-view-models) - View models in Laravel
 - [laravel/telescope](https://github.com/laravel/telescope) - An elegant debug assistant for the Laravel framework.
-- [Laravel-Lang/lang](https://github.com/Laravel-Lang/lang) - List of 78 languages for Laravel Framework, Laravel Jetstream, Laravel Fortify, Laravel Breeze, Laravel Cashier, Laravel Nova, Laravel Spark and Laravel UI.
+- [Laravel-Lang/lang](https://github.com/Laravel-Lang/lang) - List of 79 languages for Laravel Framework, Laravel Jetstream, Laravel Fortify, Laravel Breeze, Laravel Cashier, Laravel Nova, Laravel Spark and Laravel UI.
 - [Vuedo/vuedo](https://github.com/Vuedo/vuedo) - Vuedo is a blog platform, built with Laravel and Vue.js.
 - [laravel/laravel](https://github.com/laravel/laravel) - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.
 
