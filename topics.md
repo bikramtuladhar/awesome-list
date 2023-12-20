@@ -757,7 +757,7 @@
 - [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - A lightning-fast search API that fits effortlessly into your apps, websites, and workflow
 - [digitallyinduced/thin-backend](https://github.com/digitallyinduced/thin-backend) - 🔥 Thin Backend is a Blazing Fast, Universal Web App Backend for Making Realtime Single Page Apps
 - [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - MindsDB connects AI models to real time data
-- [CeresDB/horaedb](https://github.com/CeresDB/horaedb) - HoraeDB is a high-performance, distributed, cloud native time-series database.
+- [apache/incubator-horaedb](https://github.com/apache/incubator-horaedb) - HoraeDB is a high-performance, distributed, cloud native time-series database.
 - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, branching, and bottomless storage.
 - [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - The streaming database: redefining stream processing 🌊. PostgreSQL-compatible, highly performant, scalable, elastic, and reliable ☁️.
 - [orioledb/orioledb](https://github.com/orioledb/orioledb) - OrioleDB – building a modern cloud-native storage engine (... and solving some PostgreSQL wicked problems)  🇺🇦
@@ -877,7 +877,6 @@
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.
 - [samwillis/tetra](https://github.com/samwillis/tetra) - Tetra - A full stack component framework for Django using Alpine.js
 - [LibrePhotos/librephotos](https://github.com/LibrePhotos/librephotos) - A self-hosted open source photo management service. This is the repository of the backend.
-- [saleor/saleor](https://github.com/saleor/saleor) - Saleor Core: the high performance, composable, headless commerce API.
 - [arachnys/cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 - [unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps) - :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy!
 - [graphite-project/graphite-web](https://github.com/graphite-project/graphite-web) - A highly scalable real-time graphing system
@@ -2324,7 +2323,7 @@
 - [laravel/folio](https://github.com/laravel/folio) - Page based routing for Laravel.
 - [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
 - [mycelial/mycelite](https://github.com/mycelial/mycelite) - Mycelite is a SQLite extension that allows you to synchronize changes from one instance of SQLite to another.
-- [toeverything/blocksuite](https://github.com/toeverything/blocksuite) - 🎨 BlockSuite provides the toolkit for composing collaborative editing applications.
+- [toeverything/blocksuite](https://github.com/toeverything/blocksuite) - 🧩 BlockSuite provides the toolkit for composing collaborative editing applications.
 - [robgon-art/open-clip](https://github.com/robgon-art/open-clip) - Test out OpenCLIP for Image Search and Automatic Captioning
 - [livewire/livewire](https://github.com/livewire/livewire) - A full-stack framework for Laravel that takes the pain out of building dynamic UIs.
 - [prometheus-community/ansible](https://github.com/prometheus-community/ansible) - Ansible Collection for Prometheus
@@ -3069,7 +3068,7 @@
 - [bevyengine/bevy](https://github.com/bevyengine/bevy) - A refreshingly simple data-driven game engine built in Rust
 - [cloudwego/volo](https://github.com/cloudwego/volo) - Rust RPC framework with high-performance and strong-extensibility for building micro-services.
 - [pls-rs/pls](https://github.com/pls-rs/pls) - `pls` is a prettier and powerful `ls(1)` for the pros.
-- [CeresDB/horaedb](https://github.com/CeresDB/horaedb) - HoraeDB is a high-performance, distributed, cloud native time-series database.
+- [apache/incubator-horaedb](https://github.com/apache/incubator-horaedb) - HoraeDB is a high-performance, distributed, cloud native time-series database.
 - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, branching, and bottomless storage.
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
@@ -3238,7 +3237,7 @@
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web
 - [dalibo/pg_activity](https://github.com/dalibo/pg_activity) - pg_activity is a top like application for PostgreSQL server activity monitoring.
 - [ts-safeql/safeql](https://github.com/ts-safeql/safeql) - Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL.
-- [CeresDB/horaedb](https://github.com/CeresDB/horaedb) - HoraeDB is a high-performance, distributed, cloud native time-series database.
+- [apache/incubator-horaedb](https://github.com/apache/incubator-horaedb) - HoraeDB is a high-performance, distributed, cloud native time-series database.
 - [turbot/steampipe](https://github.com/turbot/steampipe) - Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required.
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
 - [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - The streaming database: redefining stream processing 🌊. PostgreSQL-compatible, highly performant, scalable, elastic, and reliable ☁️.
