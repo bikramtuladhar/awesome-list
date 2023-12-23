@@ -51,7 +51,6 @@
 - [TypeScript](#typescript)
 - [Vue](#vue)
 - [YAML](#yaml)
-- [Zig](#zig)
 
 ## Assembly 
 
@@ -78,6 +77,7 @@
 - [RedisLabs/redisraft](https://github.com/RedisLabs/redisraft) - A Redis Module that make it possible to create a consistent Raft cluster from multiple Redis instances.
 - [ggerganov/ggml](https://github.com/ggerganov/ggml) - Tensor library for machine learning
 - [neondatabase/pg_embedding](https://github.com/neondatabase/pg_embedding) - Hierarchical Navigable Small World (HNSW) algorithm for vector similarity search in PostgreSQL
+- [zigzap/zap](https://github.com/zigzap/zap) - blazingly fast backends in zig
 - [curl/trurl](https://github.com/curl/trurl) - trurl is a command line tool for URL parsing and manipulation.
 - [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) - Port of OpenAI's Whisper model in C/C++
 - [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) - Port of Facebook's LLaMA model in C/C++
@@ -510,6 +510,7 @@
 
 ## Jupyter Notebook 
 
+- [suno-ai/bark](https://github.com/suno-ai/bark) - 🔊 Text-Prompted Generative Audio Model
 - [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) - 
 - [guidance-ai/guidance](https://github.com/guidance-ai/guidance) - A guidance language for controlling large language models.
 - [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) - An open source implementation of CLIP.
@@ -1285,10 +1286,6 @@
 ## YAML 
 
 - [k3s-io/k3s-ansible](https://github.com/k3s-io/k3s-ansible) - 
-
-## Zig 
-
-- [zigzap/zap](https://github.com/zigzap/zap) - blazingly fast backends in zig
 
 
 ## License
