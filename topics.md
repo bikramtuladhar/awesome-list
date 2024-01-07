@@ -2323,7 +2323,7 @@
 - [laravel/folio](https://github.com/laravel/folio) - Page based routing for Laravel.
 - [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
 - [mycelial/mycelite](https://github.com/mycelial/mycelite) - Mycelite is a SQLite extension that allows you to synchronize changes from one instance of SQLite to another.
-- [toeverything/blocksuite](https://github.com/toeverything/blocksuite) - 🧩 BlockSuite is a framework for building editor(s)
+- [toeverything/blocksuite](https://github.com/toeverything/blocksuite) - 🧩 BlockSuite is a framework for building collaborative editors and applications.
 - [robgon-art/open-clip](https://github.com/robgon-art/open-clip) - Test out OpenCLIP for Image Search and Automatic Captioning
 - [livewire/livewire](https://github.com/livewire/livewire) - A full-stack framework for Laravel that takes the pain out of building dynamic UIs.
 - [prometheus-community/ansible](https://github.com/prometheus-community/ansible) - Ansible Collection for Prometheus
