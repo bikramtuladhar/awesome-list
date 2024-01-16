@@ -560,6 +560,7 @@
 
 ## cli 
 
+- [dimo414/task-mon](https://github.com/dimo414/task-mon) - CLI to execute commands and log results to healthchecks.io
 - [Everduin94/better-commits](https://github.com/Everduin94/better-commits) - A CLI for creating better commits following the conventional commit guidelines. Written with Typescript | ZOD | Clack
 - [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
 - [samwho/spacer](https://github.com/samwho/spacer) - CLI tool to insert spacers when command output stops
@@ -742,6 +743,7 @@
 
 ## database 
 
+- [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync) - SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge.
 - [AmrDeveloper/GQL](https://github.com/AmrDeveloper/GQL) - Git Query language is a SQL like language to perform queries on .git files with supports of most of SQL features such as grouping, ordering and aggregations functions
 - [cloudnative-pg/cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg) - CloudNativePG is a Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster with a primary/standby architecture, using native streaming replication
@@ -802,6 +804,7 @@
 
 ## deno 
 
+- [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [moonrepo/moon](https://github.com/moonrepo/moon) - A task runner and repo management tool for the web ecosystem, written in Rust.
 - [honojs/hono](https://github.com/honojs/hono) - Fast, Lightweight, Web-standards
 - [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
@@ -831,7 +834,7 @@
 - [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - A curated list of amazingly awesome open-source sysadmin resources.
 - [cloudnative-pg/cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg) - CloudNativePG is a Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster with a primary/standby architecture, using native streaming replication
 - [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
-- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GRPC powered, GitOps enabled, CloudNative feature management solution
+- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GitOps enabled, CloudNative feature management solution
 - [StackStorm/st2](https://github.com/StackStorm/st2) - StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs. Includes rules engine, workflow, 160 i
 - [livecycle/preevy](https://github.com/livecycle/preevy) - Quickly deploy preview environments to the cloud!
 - [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) - DevOps Roadmap for 2024. with learning resources
@@ -944,7 +947,7 @@
 - [pacoogle/laravel-lumen-docker](https://github.com/pacoogle/laravel-lumen-docker) - Lumen platform dockerization
 - [wodby/docker4php](https://github.com/wodby/docker4php) - Docker-based PHP stack
 - [Cyber-Duck/php-fpm-laravel](https://github.com/Cyber-Duck/php-fpm-laravel) - Docker image for a php-fpm container crafted to run Laravel based applications.
-- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.2 & Nginx 1.24 on Alpine Linux
+- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.3 & Nginx 1.24 on Alpine Linux
 - [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
 - [chialab/docker-php](https://github.com/chialab/docker-php) - 🧰 Adding common PHP extensions to some of the official PHP Docker images.
 - [wodby/mariadb](https://github.com/wodby/mariadb) - MariaDB docker container image
@@ -1048,6 +1051,7 @@
 
 ## firebase 
 
+- [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [rowyio/rowy](https://github.com/rowyio/rowy) - Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.
 - [alfirmanpahlepi/google-form-clone](https://github.com/alfirmanpahlepi/google-form-clone) - google forms clone
 - [mani-barathi/Google-Photos-Clone](https://github.com/mani-barathi/Google-Photos-Clone) - Google Photos Clone Built with React🚀 and Firebase🔥
@@ -1196,7 +1200,7 @@
 - [F1bonacc1/process-compose](https://github.com/F1bonacc1/process-compose) - Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.
 - [keyval-dev/odigos](https://github.com/keyval-dev/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
 - [cerbos/cerbos](https://github.com/cerbos/cerbos) - Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policie
-- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GRPC powered, GitOps enabled, CloudNative feature management solution
+- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GitOps enabled, CloudNative feature management solution
 - [coder/coder](https://github.com/coder/coder) - Provision remote development environments via Terraform
 - [tigrisdata-archive/tigris](https://github.com/tigrisdata-archive/tigris) - Tigris is an Open Source Serverless NoSQL Database and Search Platform.
 - [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) - A PDF processor written in Go.
@@ -1256,7 +1260,7 @@
 - [cerbos/cerbos](https://github.com/cerbos/cerbos) - Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policie
 - [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps
 - [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
-- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GRPC powered, GitOps enabled, CloudNative feature management solution
+- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GitOps enabled, CloudNative feature management solution
 - [coder/coder](https://github.com/coder/coder) - Provision remote development environments via Terraform
 - [artie-labs/transfer](https://github.com/artie-labs/transfer) - Database replication platform that leverages change data capture. Stream production data from databases to your data warehouse (Snowflake, BigQuery, Redshift) in real-time.
 - [openmeterio/openmeter](https://github.com/openmeterio/openmeter) - Cloud Metering for AI, Billing and FinOps. Collect and aggregate millions of usage events in real-time.
@@ -2101,6 +2105,7 @@
 
 ## monitoring 
 
+- [dimo414/task-mon](https://github.com/dimo414/task-mon) - CLI to execute commands and log results to healthchecks.io
 - [keyval-dev/odigos](https://github.com/keyval-dev/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
 - [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors.
 - [openobserve/openobserve](https://github.com/openobserve/openobserve) - 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay).
@@ -2161,6 +2166,7 @@
 
 ## nextjs 
 
+- [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
 - [boxyhq/saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - 🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀
 - [steven-tey/novel](https://github.com/steven-tey/novel) - Notion-style WYSIWYG editor with AI-powered autocompletion.
@@ -2314,6 +2320,7 @@
 
 ## others 
 
+- [bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon) - CLI to execute commands and log results to healthchecks.io
 - [unjs/nitro](https://github.com/unjs/nitro) - Create, build and deploy universal web servers. The open engine powering Nuxt and open to everyone.
 - [apple/ml-ferret](https://github.com/apple/ml-ferret) - 
 - [suno-ai/bark](https://github.com/suno-ai/bark) - 🔊 Text-Prompted Generative Audio Model
@@ -2667,7 +2674,7 @@
 - [spatie/nova-translatable](https://github.com/spatie/nova-translatable) - Making Nova fields translatable
 - [wodby/docker4php](https://github.com/wodby/docker4php) - Docker-based PHP stack
 - [Cyber-Duck/php-fpm-laravel](https://github.com/Cyber-Duck/php-fpm-laravel) - Docker image for a php-fpm container crafted to run Laravel based applications.
-- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.2 & Nginx 1.24 on Alpine Linux
+- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.3 & Nginx 1.24 on Alpine Linux
 - [hyperf/hyperf](https://github.com/hyperf/hyperf) - 🚀 A coroutine framework that focuses on hyperspeed and flexibility. Building microservice or middleware with ease.
 - [GaneshKhadka/Employee-management-system-in-laravel](https://github.com/GaneshKhadka/Employee-management-system-in-laravel) - Employee management system.This is a project based on laravel framework.You can fork it and can download or clone it.
 - [chialab/docker-php](https://github.com/chialab/docker-php) - 🧰 Adding common PHP extensions to some of the official PHP Docker images.
@@ -2825,6 +2832,7 @@
 
 ## pwa 
 
+- [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - 👽 Open source API development ecosystem - https://hoppscotch.io
 - [Hanziness/FocusTide](https://github.com/Hanziness/FocusTide) - Modern and customizable productivity timer app that runs in your browser.
 - [awes-io/awes-io](https://github.com/awes-io/awes-io) - Awes.io // boilerplate based on Vue, Nuxt, TailwindCSS plus Laravel as a backend. 🤟
@@ -2944,9 +2952,10 @@
 
 ## react 
 
+- [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
 - [boxyhq/saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - 🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀
-- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GRPC powered, GitOps enabled, CloudNative feature management solution
+- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GitOps enabled, CloudNative feature management solution
 - [mui/mui-toolpad](https://github.com/mui/mui-toolpad) - Toolpad: Low-code admin builder. Open-source and powered by MUI.
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear and Asana Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.
 - [kuma-ui/kuma-ui](https://github.com/kuma-ui/kuma-ui) - 🐻‍❄️ A Headless, Utility-First, and Zero-Runtime UI Component Library ✨
@@ -3273,6 +3282,7 @@
 
 ## sqlite 
 
+- [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync) - SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge.
 - [harelba/q](https://github.com/harelba/q) - q - Run SQL directly on delimited files and multi-file sqlite databases
 - [michael/editable-website](https://github.com/michael/editable-website) - A SvelteKit template for building CMS-free editable websites
@@ -3412,7 +3422,7 @@
 - [oxc-project/oxc](https://github.com/oxc-project/oxc) - ⚓ A collection of JavaScript tools written in Rust.
 - [retracedhq/retraced](https://github.com/retracedhq/retraced) - 🔥 A fully open source audit logs service and embeddable UI easily deployed to your own Kubernetes cluster. Brought to you by replicated.com and boxyhq.com  🚀
 - [boxyhq/saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - 🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀
-- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GRPC powered, GitOps enabled, CloudNative feature management solution
+- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GitOps enabled, CloudNative feature management solution
 - [mui/mui-toolpad](https://github.com/mui/mui-toolpad) - Toolpad: Low-code admin builder. Open-source and powered by MUI.
 - [artilleryio/artillery](https://github.com/artilleryio/artillery) - Load testing at cloud-scale. Serverless & distributed out-of-the-box. Test anything - web apps, HTTP APIs, GraphQL, Socket.io, WebSocket and more. Use any Node.js module. Never fail to scale!
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear and Asana Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.
