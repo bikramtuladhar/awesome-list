@@ -153,7 +153,7 @@
 - [jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles) - Various Dockerfiles I use on the desktop and on servers.
 - [ethibox/awesome-stacks](https://github.com/ethibox/awesome-stacks) - Deploy 110+ open-source web apps with one Docker command
 - [melehin/graphql-engine-arm64](https://github.com/melehin/graphql-engine-arm64) - Dockerfile for hasura/graphql-engine to run on arm64/aarch64 (tested on Nvidia Jetson Nano, Rpi4, Apple M1).
-- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.2 & Nginx 1.24 on Alpine Linux
+- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.3 & Nginx 1.24 on Alpine Linux
 - [linuxserver-archive/docker-openvpn-as](https://github.com/linuxserver-archive/docker-openvpn-as) - DEPRECATED
 - [klutchell/balena-pihole-aarch64](https://github.com/klutchell/balena-pihole-aarch64) - aarch64 balenaCloud stack for Pi-hole® https://pi-hole.net/
 
@@ -182,7 +182,7 @@
 - [kubefirst/kubefirst](https://github.com/kubefirst/kubefirst) - The Kubefirst Open Source Platform
 - [cloudnative-pg/cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg) - CloudNativePG is a Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster with a primary/standby architecture, using native streaming replication
 - [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
-- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GRPC powered, GitOps enabled, CloudNative feature management solution
+- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GitOps enabled, CloudNative feature management solution
 - [earthly/earthly](https://github.com/earthly/earthly) - Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby.
 - [PeerDB-io/peerdb](https://github.com/PeerDB-io/peerdb) - Fast, Simple and a cost effective way to replicate data from Postgres to Data Warehouses, Queues and Storage
 - [coder/coder](https://github.com/coder/coder) - Provision remote development environments via Terraform
@@ -630,6 +630,7 @@
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source & self-hostable Heroku / Netlify / Vercel alternative.
 - [seanmorris/php-wasm](https://github.com/seanmorris/php-wasm) - PHP in Browser, powered by WebAssembly. Original Project by Oraoto, ES6 & Clang Upgrades by Sean Morris.
 - [stevebauman/location](https://github.com/stevebauman/location) - Detect a users location by their IP Address.
+- [JhumanJ/OpnForm](https://github.com/JhumanJ/OpnForm) - Beautiful Open-Source Form Builder
 - [rectorphp/rector](https://github.com/rectorphp/rector) - Instant Upgrades and Automated Refactoring of any PHP 5.3+ code
 - [laravel-workflow/laravel-workflow](https://github.com/laravel-workflow/laravel-workflow) - Durable workflow engine that allows users to track job status, orchestrate microservices and write long running persistent distributed workflows in PHP powered by Laravel Queues. Inspired by Temporal 
 - [jobilla/laravel-cloud-native-utilities](https://github.com/jobilla/laravel-cloud-native-utilities) - 
@@ -959,6 +960,8 @@
 
 ## Rust 
 
+- [dimo414/task-mon](https://github.com/dimo414/task-mon) - CLI to execute commands and log results to healthchecks.io
+- [bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon) - CLI to execute commands and log results to healthchecks.io
 - [orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync) - SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge.
 - [AmrDeveloper/GQL](https://github.com/AmrDeveloper/GQL) - Git Query language is a SQL like language to perform queries on .git files with supports of most of SQL features such as grouping, ordering and aggregations functions
 - [oxc-project/oxc](https://github.com/oxc-project/oxc) - ⚓ A collection of JavaScript tools written in Rust.
@@ -1115,6 +1118,7 @@
 
 ## TypeScript 
 
+- [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [unjs/nitro](https://github.com/unjs/nitro) - Create, build and deploy universal web servers. The open engine powering Nuxt and open to everyone.
 - [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
 - [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
@@ -1266,7 +1270,6 @@
 
 ## Vue 
 
-- [JhumanJ/OpnForm](https://github.com/JhumanJ/OpnForm) - Beautiful Open-Source Form Builder
 - [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) - 🔥 全面ESM+Vue3+Vite+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
 - [getumbrel/umbrel](https://github.com/getumbrel/umbrel) - A beautiful home server OS for self-hosting with an app store. Buy a pre-built Umbrel Home with umbrelOS, or install on a Raspberry Pi 4, any Ubuntu/Debian system, or a VPS.
 - [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) - Collection of handy online tools for developers, with great UX.
