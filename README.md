@@ -392,7 +392,7 @@
 
 ## JavaScript 
 
-- [Everduin94/better-commits](https://github.com/Everduin94/better-commits) - A CLI for creating better commits following the conventional commit guidelines. Written with Typescript | ZOD | Clack
+- [Everduin94/better-commits](https://github.com/Everduin94/better-commits) - A CLI for creating better commits following the conventional commits specification
 - [wasmerio/winterjs](https://github.com/wasmerio/winterjs) - Winter is coming... ❄️
 - [ErickWendel/processing-large-reports-in-the-browser](https://github.com/ErickWendel/processing-large-reports-in-the-browser) - Examples from my video about processing large reports in the browser without any backend
 - [artilleryio/artillery](https://github.com/artilleryio/artillery) - Load testing at cloud-scale. Serverless & distributed out-of-the-box. Test anything - web apps, HTTP APIs, GraphQL, Socket.io, WebSocket and more. Use any Node.js module. Never fail to scale!
@@ -427,7 +427,7 @@
 - [neomjs/neo](https://github.com/neomjs/neo) - The application worker driven frontend framework
 - [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) - Low-code platform for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, Google sheets, OpenAI, etc and build apps using drag and drop application 
 - [opensumi/ide-startup](https://github.com/opensumi/ide-startup) - Quick starter for OpenSumi Web
-- [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) - Web Extension and CLI tool for saving a faithful copy of a complete web page in a single HTML file
+- [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) - Web Extension for saving a faithful copy of a complete web page in a single HTML file
 - [AMAI-GmbH/AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) - Roadmap to becoming an Artificial Intelligence Expert in 2022
 - [mani-barathi/unsplash-clone](https://github.com/mani-barathi/unsplash-clone) - Unsplash Clone Built with React and Unsplash API
 - [junip/react-unsplash](https://github.com/junip/react-unsplash) - A Unsplash Cloned Photo Search App  made with React
