@@ -863,7 +863,7 @@
 - [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) - An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All.
 - [emcf/engshell](https://github.com/emcf/engshell) - An English-language shell for any OS, powered by LLMs
 - [jdagdelen/hyperDB](https://github.com/jdagdelen/hyperDB) - A hyper-fast local vector database for use with LLM Agents. Now accepting SAFEs at $135M cap.
-- [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory. Griptape is an enterprise grade alternative to LangChain.
+- [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory.
 - [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder) - Home of StarCoder: fine-tuning & inference!
 - [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
 - [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.
