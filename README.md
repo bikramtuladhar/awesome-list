@@ -173,6 +173,7 @@
 
 ## Go 
 
+- [microsoft/retina](https://github.com/microsoft/retina) - eBPF distributed networking observability tool for Kubernetes
 - [google/gvisor](https://github.com/google/gvisor) - Application Kernel for Containers
 - [F1bonacc1/process-compose](https://github.com/F1bonacc1/process-compose) - Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.
 - [dolthub/doltgresql](https://github.com/dolthub/doltgresql) - DoltgreSQL - Version Controlled PostgreSQL
@@ -1202,7 +1203,7 @@
 - [ts-safeql/safeql](https://github.com/ts-safeql/safeql) - Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL.
 - [vercel/satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
 - [garden-io/garden](https://github.com/garden-io/garden) - Automation for Kubernetes development and testing. Spin up production-like environments for development, testing, and CI on demand. Use the same configuration and workflows at every step of the proces
-- [getumbrel/umbrel](https://github.com/getumbrel/umbrel) - A beautiful home server OS for self-hosting with an app store. Buy a pre-built Umbrel Home with umbrelOS, or install on a Raspberry Pi 4, any Ubuntu/Debian system, or a VPS.
+- [getumbrel/umbrel](https://github.com/getumbrel/umbrel) - A beautiful home server OS for self-hosting with an app store. Buy a pre-built Umbrel Home with umbrelOS, or install on a Raspberry Pi 4, Pi 5, any Ubuntu/Debian system, or a VPS.
 - [SurajMazar/chess](https://github.com/SurajMazar/chess) - Chess game
 - [askorama/orama](https://github.com/askorama/orama) - 🌌  Fast, dependency-free, full-text and vector search engine with typo tolerance, filters, facets, stemming, and more. Works with any JavaScript runtime, browser, server, service!
 - [ar-nelson/spartan-schema](https://github.com/ar-nelson/spartan-schema) - Ultra-minimal JSON schemas with Typescript inference
