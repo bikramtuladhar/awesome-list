@@ -173,6 +173,7 @@
 
 ## Go 
 
+- [k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) - Giving Kubernetes Superpowers to everyone
 - [mercari/tortoise](https://github.com/mercari/tortoise) - Tortoise: Shell-Shockingly-Good Kubernetes Autoscaling
 - [microsoft/retina](https://github.com/microsoft/retina) - eBPF distributed networking observability tool for Kubernetes
 - [google/gvisor](https://github.com/google/gvisor) - Application Kernel for Containers
