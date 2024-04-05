@@ -362,7 +362,6 @@
 - [alpinejs/alpine](https://github.com/alpinejs/alpine) - A rugged, minimal framework for composing JavaScript behavior in your markup.
 - [lubusIN/laravel-decomposer](https://github.com/lubusIN/laravel-decomposer) - ⚙️ A Laravel package to decompose your installed packages, their dependencies, your app & server environment
 - [startupengine/startupengine](https://github.com/startupengine/startupengine) - An open-source platform for startups with integrated CMS, analytics, and A/B testing.
-- [cryptpad/cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source.
 - [Igglybuff/awesome-piracy](https://github.com/Igglybuff/awesome-piracy) - A curated list of awesome warez and piracy links
 
 ## Haskell 
@@ -496,6 +495,7 @@
 - [graphite-project/graphite-web](https://github.com/graphite-project/graphite-web) - A highly scalable real-time graphing system
 - [webpack/webpack-cli](https://github.com/webpack/webpack-cli) - Webpack's Command Line Interface
 - [muety/http2-serverpush-proxy](https://github.com/muety/http2-serverpush-proxy) - A simple standalone reverse proxy that automatically enables server-push for assets related to a HTTP response.
+- [cryptpad/cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source.
 - [node-red/node-red](https://github.com/node-red/node-red) - Low-code programming for event-driven applications
 - [TMAers/hubot-dialogflow](https://github.com/TMAers/hubot-dialogflow) - Add smartness and conversational UX to Hubot with dialogflow.com as back-end
 - [microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk) - Bot Framework provides the most comprehensive experience for building conversation applications.
