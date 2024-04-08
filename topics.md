@@ -138,6 +138,7 @@
 - [music](#music)
 - [mysql](#mysql)
 - [natural-language-processing](#natural-language-processing)
+- [nestjs](#nestjs)
 - [neural-network](#neural-network)
 - [nextjs](#nextjs)
 - [nlp](#nlp)
@@ -362,6 +363,7 @@
 
 ## artificial-intelligence 
 
+- [spiceai/spiceai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize, accelerate, and query data tables sourced from any database, data warehouse, or data lake.
 - [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - A framework for fast development and deployment of production-ready RAG pipelines.
 - [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit) - Auto-generate impressive commits with AI in 1 second 🤯🔫
@@ -715,6 +717,7 @@
 
 ## data 
 
+- [spiceai/spiceai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize, accelerate, and query data tables sourced from any database, data warehouse, or data lake.
 - [meltano/meltano](https://github.com/meltano/meltano) - Meltano: the declarative code-first data integration engine that powers your wildest data and ML-powered product ideas. Say goodbye to writing, maintaining, and scaling your own API integrations.
 - [tigrisdata-archive/tigris](https://github.com/tigrisdata-archive/tigris) - Tigris is an Open Source Serverless NoSQL Database and Search Platform.
 - [flyteorg/flyte](https://github.com/flyteorg/flyte) - Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.
@@ -1233,6 +1236,7 @@
 
 ## go 
 
+- [pg-sharding/spqr](https://github.com/pg-sharding/spqr) - Stateless Postgres Query Router.
 - [F1bonacc1/process-compose](https://github.com/F1bonacc1/process-compose) - Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.
 - [keyval-dev/odigos](https://github.com/keyval-dev/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
 - [cerbos/cerbos](https://github.com/cerbos/cerbos) - Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policie
@@ -2074,6 +2078,7 @@
 
 ## machine-learning 
 
+- [spiceai/spiceai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize, accelerate, and query data tables sourced from any database, data warehouse, or data lake.
 - [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - A framework for fast development and deployment of production-ready RAG pipelines.
 - [google/mediapipe](https://github.com/google/mediapipe) - Cross-platform, customizable ML solutions for live and streaming media.
 - [llmware-ai/llmware](https://github.com/llmware-ai/llmware) - Providing enterprise-grade LLM-based development framework, tools, and fine-tuned models.
@@ -2240,6 +2245,14 @@
 
 - [quickwit-oss/whichlang](https://github.com/quickwit-oss/whichlang) - A blazingly fast and lightweight language detection library for Rust
 
+## nestjs 
+
+- [immich-app/immich](https://github.com/immich-app/immich) - High performance self-hosted photo and video management solution.
+- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
+- [amplication/amplication](https://github.com/amplication/amplication) - 🔥🔥🔥 Open-source backend development platform. Build production-ready services without wasting time on repetitive coding.
+- [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) - Low-code platform for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, Google sheets, OpenAI, etc and build apps using drag and drop application 
+- [sentrionic/Valkyrie](https://github.com/sentrionic/Valkyrie) - A Fullstack Discord Clone using React and Go.
+
 ## neural-network 
 
 - [tracel-ai/burn](https://github.com/tracel-ai/burn) - Burn is a new comprehensive dynamic Deep Learning Framework built using Rust with extreme flexibility, compute efficiency and portability as its primary goals.
@@ -2404,6 +2417,7 @@
 
 ## others 
 
+- [charmbracelet/freeze](https://github.com/charmbracelet/freeze) - Generate images of code and terminal output 📸
 - [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin) - 🐚 OpenDevin: Code Less, Make More
 - [lapce/lapdev](https://github.com/lapce/lapdev) - Self-Hosted Remote Dev Environment
 - [electric-sql/pglite](https://github.com/electric-sql/pglite) - Lightweight Postgres packaged as WASM into a TypeScript library for the browser, Node.js, Bun and Deno
@@ -2852,6 +2866,7 @@
 
 ## postgresql 
 
+- [pg-sharding/spqr](https://github.com/pg-sharding/spqr) - Stateless Postgres Query Router.
 - [bruin-data/ingestr](https://github.com/bruin-data/ingestr) - ingestr is a CLI tool to copy data between any databases with a single command seamlessly.
 - [readysettech/readyset](https://github.com/readysettech/readyset) - Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the 
 - [dolthub/doltgresql](https://github.com/dolthub/doltgresql) - DoltgreSQL - Version Controlled PostgreSQL
@@ -3359,6 +3374,7 @@
 
 ## sql 
 
+- [spiceai/spiceai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize, accelerate, and query data tables sourced from any database, data warehouse, or data lake.
 - [readysettech/readyset](https://github.com/readysettech/readyset) - Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the 
 - [orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync) - SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge.
 - [AmrDeveloper/GQL](https://github.com/AmrDeveloper/GQL) - Git Query language is a SQL like language to perform queries on .git files with supports of most of SQL features such as grouping, ordering and aggregations functions
@@ -3399,6 +3415,7 @@
 - [michael/editable-website](https://github.com/michael/editable-website) - A SvelteKit template for building CMS-free editable websites
 - [thevahidal/soul](https://github.com/thevahidal/soul) - 🕉 A SQLite REST and realtime server
 - [turbot/steampipe](https://github.com/turbot/steampipe) - Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required.
+- [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, local first, reactive Database for JavaScript Applications https://rxdb.info/
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
