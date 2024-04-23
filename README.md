@@ -177,6 +177,7 @@
 ## Go 
 
 - [elastic/otel-profiling-agent](https://github.com/elastic/otel-profiling-agent) - The production-scale datacenter profiler (C/C++, Go, Rust, Python, Java, NodeJS, PHP, Ruby, Perl, ...)
+- [hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet) - A distributed, fault-tolerant task queue
 - [nalgeon/redka](https://github.com/nalgeon/redka) - Redis re-implemented with SQLite
 - [charmbracelet/freeze](https://github.com/charmbracelet/freeze) - Generate images of code and terminal output 📸
 - [pg-sharding/spqr](https://github.com/pg-sharding/spqr) - Stateless Postgres Query Router.
@@ -633,6 +634,7 @@
 
 ## PHP 
 
+- [matomo-org/device-detector](https://github.com/matomo-org/device-detector) - The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
 - [tempestphp/tempest-framework](https://github.com/tempestphp/tempest-framework) - The PHP framework that gets out of your way 🌊
 - [laravel-shift/blueprint](https://github.com/laravel-shift/blueprint) - A code generation tool for Laravel developers.
 - [jcarlosroldan/oink](https://github.com/jcarlosroldan/oink) - 🐽 oink.php is a single-file PHP library to easily build APIs
@@ -854,7 +856,7 @@
 
 ## Python 
 
-- [hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet) - A distributed, fault-tolerant task queue
+- [amalshaji/portr](https://github.com/amalshaji/portr) - Open source ngrok alternative designed for teams
 - [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin) - 🐚 OpenDevin: Code Less, Make More
 - [philz1337x/clarity-upscaler](https://github.com/philz1337x/clarity-upscaler) - Clarity AI | AI Image Upscaler & Enhancer - free and open-source Magnific Alternative
 - [PostHog/posthog](https://github.com/PostHog/posthog) - 🦔 PostHog provides open-source product analytics, session recording, feature flagging and A/B testing that you can self-host.
@@ -1127,7 +1129,6 @@
 
 ## Svelte 
 
-- [amalshaji/portr](https://github.com/amalshaji/portr) - Open source ngrok alternative designed for teams
 - [nilskj/editable-website](https://github.com/nilskj/editable-website) - A SvelteKit template for building CMS-free editable websites
 - [michael/editable-website](https://github.com/michael/editable-website) - A SvelteKit template for building CMS-free editable websites
 - [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - The UI toolkit for Svelte and Tailwind.
