@@ -226,7 +226,7 @@
 - [anchore/grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems
 - [lindell/multi-gitter](https://github.com/lindell/multi-gitter) - Update multiple repositories in with one command
 - [direnv/direnv](https://github.com/direnv/direnv) - unclutter your .profile
-- [teamhanko/hanko](https://github.com/teamhanko/hanko) - An open source Authentication and User Management platform for B2B and B2C.
+- [teamhanko/hanko](https://github.com/teamhanko/hanko) - Open Source Authentication and User Management Platform with Passkey Superpowers.
 - [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
 - [danvergara/dblab](https://github.com/danvergara/dblab) - The database client every command line junkie deserves.
 - [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) - 🤯 High-performance PHP application server, process manager written in Go and powered with plugins
@@ -857,6 +857,7 @@
 
 ## Python 
 
+- [databonsai/databonsai](https://github.com/databonsai/databonsai) - clean & curate your data with LLMs.
 - [charliermarsh/whisper.cpp-cli](https://github.com/charliermarsh/whisper.cpp-cli) - Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux.
 - [openai/openai-security-bots](https://github.com/openai/openai-security-bots) - 
 - [amalshaji/portr](https://github.com/amalshaji/portr) - Open source ngrok alternative designed for teams
