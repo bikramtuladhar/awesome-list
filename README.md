@@ -36,6 +36,7 @@
 - [PHP](#php)
 - [PLpgSQL](#plpgsql)
 - [Perl](#perl)
+- [PowerShell](#powershell)
 - [Python](#python)
 - [QML](#qml)
 - [Ruby](#ruby)
@@ -853,6 +854,10 @@
 ## Perl 
 
 - [newsnowlabs/dockside](https://github.com/newsnowlabs/dockside) - Dockside is a tool for provisioning lightweight access-controlled IDEs, staging environments and sandboxes - aka 'devtainers' - on local machine, on-premises raw metal or VM, or in the cloud
+
+## PowerShell 
+
+- [securityjoes/MasterParser](https://github.com/securityjoes/MasterParser) - MasterParser is a powerful DFIR tool designed for analyzing and parsing Linux logs
 
 ## Python 
 
