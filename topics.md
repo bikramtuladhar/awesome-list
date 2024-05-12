@@ -2484,6 +2484,8 @@
 
 ## others 
 
+- [tembo-io/pgmq](https://github.com/tembo-io/pgmq) - A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.
+- [dillondesilva/codehelium](https://github.com/dillondesilva/codehelium) - An editor component that compiles, executes and returns the outputs of any user-written code via Pyodide/Emscripten/Webassembly.
 - [octoherd/octoherd](https://github.com/octoherd/octoherd) - Manage multiple repository updates all at once.
 - [nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc) - InstructDoc: A Dataset for Zero-Shot Generalization of Visual Document Understanding with Instructions (AAAI2024)
 - [databonsai/databonsai](https://github.com/databonsai/databonsai) - clean & curate your data with LLMs.
@@ -2502,7 +2504,7 @@
 - [cfahlgren1/natural-sql](https://github.com/cfahlgren1/natural-sql) - A series of top performing Text to SQL LLMs
 - [wxt-dev/wxt](https://github.com/wxt-dev/wxt) - ⚡ Next-gen Web Extension Framework
 - [AccessKit/accesskit](https://github.com/AccessKit/accesskit) - UI accessibility infrastructure across platforms and programming languages
-- [tembo-io/tembo](https://github.com/tembo-io/tembo) - Monorepo for Tembo Operator, Tembo Stacks, and Tembo CLI
+- [tembo-io/tembo](https://github.com/tembo-io/tembo) - Goodbye Database Sprawl, Hello Postgres.
 - [bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon) - CLI to execute commands and log results to healthchecks.io
 - [unjs/nitro](https://github.com/unjs/nitro) - Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.
 - [apple/ml-ferret](https://github.com/apple/ml-ferret) - 
