@@ -406,7 +406,7 @@
 - [dillondesilva/codehelium](https://github.com/dillondesilva/codehelium) - An editor component that compiles, executes and returns the outputs of any user-written code via Pyodide/Emscripten/Webassembly.
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database design tool and SQL generator.
-- [stackframe-projects/pgmock](https://github.com/stackframe-projects/pgmock) - In-memory Postgres for unit/E2E tests
+- [stack-auth/pgmock](https://github.com/stack-auth/pgmock) - In-memory Postgres for unit/E2E tests
 - [Kalabasa/htmz](https://github.com/Kalabasa/htmz) - html with targeted manipulation zones
 - [Everduin94/better-commits](https://github.com/Everduin94/better-commits) - A CLI for creating better commits following the conventional commits specification
 - [wasmerio/winterjs](https://github.com/wasmerio/winterjs) - Winter is coming... ❄️
