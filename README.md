@@ -636,6 +636,7 @@
 
 ## PHP 
 
+- [sandip-jobin/magika-file-validator](https://github.com/sandip-jobin/magika-file-validator) - 
 - [matomo-org/device-detector](https://github.com/matomo-org/device-detector) - The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
 - [tempestphp/tempest-framework](https://github.com/tempestphp/tempest-framework) - The PHP framework that gets out of your way 🌊
 - [laravel-shift/blueprint](https://github.com/laravel-shift/blueprint) - A code generation tool for Laravel developers.
@@ -863,6 +864,7 @@
 
 ## Python 
 
+- [zakkg3/ClusterSecret](https://github.com/zakkg3/ClusterSecret) - Kubernetes ClusterSecret operator.
 - [McGill-NLP/webllama](https://github.com/McGill-NLP/webllama) - Llama-3 agents that can browse the web by following instructions and talking to you
 - [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) - Open Source framework for voice and multimodal conversational AI
 - [nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc) - InstructDoc: A Dataset for Zero-Shot Generalization of Visual Document Understanding with Instructions (AAAI2024)
@@ -1173,6 +1175,7 @@
 
 ## TypeScript 
 
+- [activepieces/activepieces](https://github.com/activepieces/activepieces) - Your friendliest open source all-in-one automation tool ✨ Workflow automation tool 100+ integration / Enterprise automation tool / Zapier Alternative
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
 - [inkdrop-org/inkdrop-visualizer](https://github.com/inkdrop-org/inkdrop-visualizer) - Visualizes your Terraform
 - [teableio/teable](https://github.com/teableio/teable) - ✨ The Next Gen Airtable Alternative: No-Code Postgres
