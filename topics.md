@@ -607,7 +607,7 @@
 - [livecycle/preevy](https://github.com/livecycle/preevy) - Quickly deploy preview environments to the cloud!
 - [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl) - Hurl, run and test HTTP requests with plain text.
 - [harelba/q](https://github.com/harelba/q) - q - Run SQL directly on delimited files and multi-file sqlite databases
-- [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - The UI toolkit for Svelte and Tailwind.
+- [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - A complete design system and component solution, built on Tailwind.
 - [sibprogrammer/xq](https://github.com/sibprogrammer/xq) - Command-line XML and HTML beautifier and content extractor
 - [chubin/cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is the open-source secret management platform: Sync secrets across your team/infrastructure and prevent secret leaks.
@@ -2345,6 +2345,7 @@
 - [langgenius/dify](https://github.com/langgenius/dify) - Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you q
 - [calcom/cal.com](https://github.com/calcom/cal.com) - Scheduling infrastructure for absolutely everyone.
 - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Secure cloud runtime for AI apps & AI agents. Fully open-source.
+- [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - A complete design system and component solution, built on Tailwind.
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source & self-hostable Heroku / Netlify / Vercel alternative.
 - [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
 - [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) - Trigger.dev is the open source background jobs platform for TypeScript.
@@ -2852,6 +2853,7 @@
 
 ## php 
 
+- [qossmic/deptrac](https://github.com/qossmic/deptrac) - Keep your architecture clean.
 - [matomo-org/device-detector](https://github.com/matomo-org/device-detector) - The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
 - [tempestphp/tempest-framework](https://github.com/tempestphp/tempest-framework) - The PHP framework that gets out of your way 🌊
 - [lunarphp/lunar](https://github.com/lunarphp/lunar) - An open-source package that brings the power of modern headless e-commerce functionality to Laravel.
@@ -3181,6 +3183,7 @@
 - [kuma-ui/kuma-ui](https://github.com/kuma-ui/kuma-ui) - 🐻‍❄️ A Headless, Utility-First, and Zero-Runtime UI Component Library ✨
 - [getlago/lago](https://github.com/getlago/lago) - Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics
 - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Secure cloud runtime for AI apps & AI agents. Fully open-source.
+- [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - A complete design system and component solution, built on Tailwind.
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is the open-source secret management platform: Sync secrets across your team/infrastructure and prevent secret leaks.
 - [f5/unovis](https://github.com/f5/unovis) - Modular data visualization framework for React, Angular, Svelte, Vue, and vanilla TypeScript or JavaScript
 - [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
@@ -3558,7 +3561,7 @@
 - [amalshaji/portr](https://github.com/amalshaji/portr) - Open source ngrok alternative designed for teams
 - [immich-app/immich](https://github.com/immich-app/immich) - High performance self-hosted photo and video management solution.
 - [michael/editable-website](https://github.com/michael/editable-website) - A SvelteKit template for building CMS-free editable websites
-- [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - The UI toolkit for Svelte and Tailwind.
+- [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - A complete design system and component solution, built on Tailwind.
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source & self-hostable Heroku / Netlify / Vercel alternative.
 - [f5/unovis](https://github.com/f5/unovis) - Modular data visualization framework for React, Angular, Svelte, Vue, and vanilla TypeScript or JavaScript
 - [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Open-source infrastructure and data orchestration platform for risk decisioning
