@@ -177,6 +177,7 @@
 
 ## Go 
 
+- [eraser-dev/eraser](https://github.com/eraser-dev/eraser) - 🧹 Cleaning up images from Kubernetes nodes
 - [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) - Deliver Go binaries as fast and easily as possible
 - [glanceapp/glance](https://github.com/glanceapp/glance) - A self-hosted dashboard that puts all your feeds in one place
 - [kaytu-io/kaytu](https://github.com/kaytu-io/kaytu) - The Kaytu CLI improves the efficiency of cloud workloads by analyzing historical usage and providing tailored recommendations, such as changing instance sizes. This ensures you only pay for the resour
@@ -876,7 +877,7 @@
 - [databonsai/databonsai](https://github.com/databonsai/databonsai) - clean & curate your data with LLMs.
 - [charliermarsh/whisper.cpp-cli](https://github.com/charliermarsh/whisper.cpp-cli) - Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux.
 - [openai/openai-security-bots](https://github.com/openai/openai-security-bots) - 
-- [amalshaji/portr](https://github.com/amalshaji/portr) - Open source ngrok alternative designed for teams
+- [amalshaji/portr](https://github.com/amalshaji/portr) - Open source ngrok alternative designed for teams. Tunnel http, tcp or websocket connections.
 - [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin) - 🐚 OpenDevin: Code Less, Make More
 - [philz1337x/clarity-upscaler](https://github.com/philz1337x/clarity-upscaler) - Clarity AI | AI Image Upscaler & Enhancer - free and open-source Magnific Alternative
 - [PostHog/posthog](https://github.com/PostHog/posthog) - 🦔 PostHog provides open-source product analytics, session recording, feature flagging and A/B testing that you can self-host.
@@ -1226,7 +1227,7 @@
 - [nat/openplayground](https://github.com/nat/openplayground) - An LLM playground you can run on your laptop
 - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Secure cloud runtime for AI apps & AI agents. Fully open-source.
 - [kyang6/llmparser](https://github.com/kyang6/llmparser) - Classify and extract structured data with LLMs
-- [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) - Bringing large-language models and chat to web browsers. Everything runs inside the browser with no server support.
+- [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) - High-performance In-browser LLM Inference Engine
 - [nomic-ai/deepscatter](https://github.com/nomic-ai/deepscatter) - Zoomable, animated scatterplots in the browser that scales over a billion points
 - [ektogamat/camera-webgi](https://github.com/ektogamat/camera-webgi) - A template for buildind scrollable landing pages with Gsap, ScrollTrigger and webgi engine in typescript using parcel bundler.
 - [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
