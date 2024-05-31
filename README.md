@@ -182,7 +182,7 @@
 - [eraser-dev/eraser](https://github.com/eraser-dev/eraser) - 🧹 Cleaning up images from Kubernetes nodes
 - [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) - Deliver Go binaries as fast and easily as possible
 - [glanceapp/glance](https://github.com/glanceapp/glance) - A self-hosted dashboard that puts all your feeds in one place
-- [kaytu-io/kaytu](https://github.com/kaytu-io/kaytu) - The Kaytu CLI improves the efficiency of cloud workloads by analyzing historical usage and providing tailored recommendations, such as changing instance sizes. This ensures you only pay for the resour
+- [kaytu-io/kaytu](https://github.com/kaytu-io/kaytu) - Kaytu's AI platform boosts cloud efficiency by analyzing historical usage and delivering intelligent recommendations—such as optimizing instance sizes—that maintain reliability. Pay for what you need,
 - [elastic/otel-profiling-agent](https://github.com/elastic/otel-profiling-agent) - The production-scale datacenter profiler (C/C++, Go, Rust, Python, Java, NodeJS, PHP, Ruby, Perl, ...)
 - [hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet) - A distributed, fault-tolerant task queue
 - [nalgeon/redka](https://github.com/nalgeon/redka) - Redis re-implemented with SQLite
@@ -872,7 +872,7 @@
 ## Python 
 
 - [lavague-ai/LaVague](https://github.com/lavague-ai/LaVague) - Large Action Model framework to develop AI Web Agents
-- [ChrisBuilds/terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects) - Visual effects applied to text in the terminal.
+- [ChrisBuilds/terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects) - TerminalTextEffects (TTE) is a terminal visual effects engine.
 - [tobymao/sqlglot](https://github.com/tobymao/sqlglot) - Python SQL Parser and Transpiler
 - [Dataherald/dataherald](https://github.com/Dataherald/dataherald) - Interact with your SQL database, Natural Language to SQL using LLMs
 - [Codium-ai/cover-agent](https://github.com/Codium-ai/cover-agent) - CodiumAI Cover-Agent: An AI-Powered Tool for Automated Test Generation and Code Coverage Enhancement! 💻🤖🧪🐞
@@ -1106,6 +1106,7 @@
 
 ## Shell 
 
+- [kiwicopple/serverless-postgres](https://github.com/kiwicopple/serverless-postgres) - 
 - [tteck/Proxmox](https://github.com/tteck/Proxmox) - Proxmox VE Helper-Scripts
 - [serversideup/spin](https://github.com/serversideup/spin) - 🚀 Replicate your production environment locally using Docker. Just run "spin up". It's really that easy.
 - [Fadi002/unshackle](https://github.com/Fadi002/unshackle) - Open-source tool to bypass windows and linux passwords from bootable usb
