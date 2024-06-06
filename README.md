@@ -177,6 +177,8 @@
 
 ## Go 
 
+- [edgelesssys/constellation](https://github.com/edgelesssys/constellation) - Constellation is the first Confidential Kubernetes. Constellation shields entire Kubernetes clusters from the (cloud) infrastructure using confidential computing.
+- [xataio/pgroll](https://github.com/xataio/pgroll) - PostgreSQL zero-downtime migrations made easy
 - [karlkfi/kubexit](https://github.com/karlkfi/kubexit) - Command supervisor for coordinated Kubernetes pod container termination.
 - [nocalhost/nocalhost](https://github.com/nocalhost/nocalhost) - Nocalhost is Cloud Native Dev Environment.
 - [daytonaio/daytona](https://github.com/daytonaio/daytona) - The Open Source Dev Environment Manager.
@@ -360,7 +362,7 @@
 
 - [chrispsn/mesh-spreadsheet](https://github.com/chrispsn/mesh-spreadsheet) - A data and code editor that feels like a spreadsheet.
 - [wandb/openui](https://github.com/wandb/openui) - OpenUI let's you describe UI using your imagination, then see it rendered live.
-- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - The framework for fast development and deployment of RAG systems.
+- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - Build and deploy a fully-featured, observable user-facing RAG backend in minutes.
 - [sailboatui/sailboatui](https://github.com/sailboatui/sailboatui) - Sailboat UI is a modern UI component library for Tailwind CSS
 - [Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide) - DevOps Guide - Development to Production all configurations with basic notes to debug efficiently.
 - [IonicaBizau/git-stats](https://github.com/IonicaBizau/git-stats) - 🍀 Local git statistics including GitHub-like contributions calendars.
@@ -1201,6 +1203,7 @@
 
 ## TypeScript 
 
+- [SawyerHood/tlbrowse](https://github.com/SawyerHood/tlbrowse) - Generate imagined websites on an infinite canvas
 - [mnfst/manifest](https://github.com/mnfst/manifest) - Effortless backends ✨
 - [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui) - A hybrid command-line/UI development experience for cloud-native development
 - [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Rate limiting, bot protection, email verification & attack defense for Node.js, Next.js, Bun & SvelteKit.
