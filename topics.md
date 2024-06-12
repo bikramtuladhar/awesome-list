@@ -386,7 +386,7 @@
 
 - [spiceai/spiceai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize, accelerate, and query datasets from any database, data warehouse, or data lake.
 - [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin) - 🐚 OpenDevin: Code Less, Make More
-- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - Build and deploy a fully-featured, observable, user-facing RAG backend in minutes.
+- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - The ultimate open-source RAG framework
 - [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit) - Auto-generate impressive commits with AI in 1 second 🤯🔫
 - [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - The platform for customizing AI from enterprise data
@@ -666,6 +666,7 @@
 
 ## code-quality 
 
+- [topcodersonline-solutions/betterscan-ce](https://github.com/topcodersonline-solutions/betterscan-ce) - Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners + OpenAI GPT with One Report (Code, IaC) - Betterscan Community Edition (CE)
 - [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) - Continuous Inspection
 
 ## coding 
@@ -851,7 +852,7 @@
 
 ## deep-learning 
 
-- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - Build and deploy a fully-featured, observable, user-facing RAG backend in minutes.
+- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - The ultimate open-source RAG framework
 - [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) - Cross-platform, customizable ML solutions for live and streaming media.
 - [google/magika](https://github.com/google/magika) - Detect file content types with deep learning
 - [tracel-ai/burn](https://github.com/tracel-ai/burn) - Burn is a new comprehensive dynamic Deep Learning Framework built using Rust with extreme flexibility, compute efficiency and portability as its primary goals.
@@ -903,6 +904,7 @@
 
 ## devops 
 
+- [topcodersonline-solutions/betterscan-ce](https://github.com/topcodersonline-solutions/betterscan-ce) - Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners + OpenAI GPT with One Report (Code, IaC) - Betterscan Community Edition (CE)
 - [jiacai2050/shellgpt](https://github.com/jiacai2050/shellgpt) - Chat with LLM in your terminal, be it shell generator, story teller, linux-terminal, etc.
 - [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
@@ -2157,7 +2159,7 @@
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
 - [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin) - 🐚 OpenDevin: Code Less, Make More
 - [microsoft/aici](https://github.com/microsoft/aici) - AICI: Prompts as (Wasm) Programs
-- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - Build and deploy a fully-featured, observable, user-facing RAG backend in minutes.
+- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - The ultimate open-source RAG framework
 - [llmware-ai/llmware](https://github.com/llmware-ai/llmware) - Unified framework for building enterprise RAG pipelines with small, specialized models
 - [tracel-ai/burn](https://github.com/tracel-ai/burn) - Burn is a new comprehensive dynamic Deep Learning Framework built using Rust with extreme flexibility, compute efficiency and portability as its primary goals.
 - [ShishirPatil/gorilla](https://github.com/ShishirPatil/gorilla) - Gorilla: An API store for LLMs
@@ -2213,7 +2215,7 @@
 ## machine-learning 
 
 - [spiceai/spiceai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize, accelerate, and query datasets from any database, data warehouse, or data lake.
-- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - Build and deploy a fully-featured, observable, user-facing RAG backend in minutes.
+- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - The ultimate open-source RAG framework
 - [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) - Cross-platform, customizable ML solutions for live and streaming media.
 - [tracel-ai/burn](https://github.com/tracel-ai/burn) - Burn is a new comprehensive dynamic Deep Learning Framework built using Rust with extreme flexibility, compute efficiency and portability as its primary goals.
 - [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged version of paperless: scan, index and archive all your physical documents
@@ -2564,6 +2566,7 @@
 
 ## others 
 
+- [dabochen/spreadsheet-is-all-you-need](https://github.com/dabochen/spreadsheet-is-all-you-need) - A nanoGPT pipeline packed in a spreadsheet
 - [basecamp/omakub](https://github.com/basecamp/omakub) - Opinionated Ubuntu Setup
 - [HKUDS/XRec](https://github.com/HKUDS/XRec) - "XRec: Large Language Models for Explainable Recommendation"
 - [apilylabs/ophiuchi-desktop](https://github.com/apilylabs/ophiuchi-desktop) - A local https proxy server using docker as backend
@@ -2572,7 +2575,7 @@
 - [karlkfi/kubexit](https://github.com/karlkfi/kubexit) - Command supervisor for coordinated Kubernetes pod container termination.
 - [daytonaio/daytona](https://github.com/daytonaio/daytona) - The Open Source Dev Environment Manager.
 - [kiwicopple/serverless-postgres](https://github.com/kiwicopple/serverless-postgres) - 
-- [ChrisBuilds/terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects) - TerminalTextEffects (TTE) is a terminal visual effects engine.
+- [ChrisBuilds/terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects) - TerminalTextEffects (TTE) is a terminal visual effects engine, application, and Python library.
 - [Stengo/DeskPad](https://github.com/Stengo/DeskPad) - A virtual monitor for screen sharing
 - [sandip-jobin/magika-file-validator](https://github.com/sandip-jobin/magika-file-validator) - 
 - [zakkg3/ClusterSecret](https://github.com/zakkg3/ClusterSecret) - Kubernetes ClusterSecret operator.
