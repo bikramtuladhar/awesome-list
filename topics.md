@@ -234,6 +234,7 @@
 
 ## ai 
 
+- [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
 - [guinmoon/llmfarm_core.swift](https://github.com/guinmoon/llmfarm_core.swift) - Swift library to work with llama and other large language models.
 - [guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm) - llama and other  large language models on iOS and MacOS offline using GGML library.
 - [SawyerHood/tlbrowse](https://github.com/SawyerHood/tlbrowse) - Generate imagined websites on an infinite canvas
@@ -614,6 +615,7 @@
 
 ## cli 
 
+- [restatedev/restate](https://github.com/restatedev/restate) - Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD.
 - [reorx/httpstat](https://github.com/reorx/httpstat) - curl statistics made simple
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui) - A hybrid command-line/UI development experience for cloud-native development
@@ -2252,6 +2254,7 @@
 
 ## macos 
 
+- [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
 - [guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm) - llama and other  large language models on iOS and MacOS offline using GGML library.
 - [argmaxinc/WhisperKit](https://github.com/argmaxinc/WhisperKit) - On-device Inference of Whisper Speech Recognition Models for Apple Silicon
 - [cirruslabs/tart](https://github.com/cirruslabs/tart) - macOS and Linux VMs on Apple Silicon to use in CI and other automations
@@ -2535,6 +2538,7 @@
 
 ## open-source 
 
+- [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
 - [openkoda/openkoda](https://github.com/openkoda/openkoda) - Open source business application platform for fast development
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open source data anonymization and synthetic data orchestration for developers. Create high fidelity synthetic data and sync it across your environments.
 - [amalshaji/portr](https://github.com/amalshaji/portr) - Open source ngrok alternative designed for teams. Tunnel http, tcp or websocket connections.
@@ -2572,6 +2576,7 @@
 
 ## others 
 
+- [jackyzha0/quartz](https://github.com/jackyzha0/quartz) - 🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites
 - [hcengineering/huly-selfhost](https://github.com/hcengineering/huly-selfhost) - Huly for Self Hosting
 - [dabochen/spreadsheet-is-all-you-need](https://github.com/dabochen/spreadsheet-is-all-you-need) - A nanoGPT pipeline packed in a spreadsheet
 - [basecamp/omakub](https://github.com/basecamp/omakub) - Opinionated Ubuntu Setup
@@ -3103,6 +3108,8 @@
 
 ## privacy 
 
+- [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
+- [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
 - [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
 - [complexorganizations/wireguard-manager](https://github.com/complexorganizations/wireguard-manager) - ✔️ WireGuard-Manager is an innovative tool designed to streamline the deployment and management of WireGuard VPNs. Emphasizing user-friendliness and security, it simplifies the complexities of VPN con
@@ -3134,6 +3141,7 @@
 
 ## pwa 
 
+- [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
 - [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)
 - [Hanziness/FocusTide](https://github.com/Hanziness/FocusTide) - Modern and customizable productivity timer app that runs in your browser.
@@ -3141,6 +3149,7 @@
 
 ## python 
 
+- [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
 - [reorx/httpstat](https://github.com/reorx/httpstat) - curl statistics made simple
 - [tobymao/sqlglot](https://github.com/tobymao/sqlglot) - Python SQL Parser and Transpiler
 - [reworkd/tarsier](https://github.com/reworkd/tarsier) - Vision utilities for web interaction agents 👀
@@ -3265,6 +3274,7 @@
 
 ## react 
 
+- [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open source data anonymization and synthetic data orchestration for developers. Create high fidelity synthetic data and sync it across your environments.
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database design tool and SQL generator.
@@ -3484,6 +3494,7 @@
 
 ## self-hosted 
 
+- [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
 - [0x2E/fusion](https://github.com/0x2E/fusion) - A lightweight, self-hosted friendly RSS aggregator and reader
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open source data anonymization and synthetic data orchestration for developers. Create high fidelity synthetic data and sync it across your environments.
 - [activepieces/activepieces](https://github.com/activepieces/activepieces) - Your friendliest open source all-in-one automation tool ✨ Workflow automation tool 100+ integration / Enterprise automation tool / Zapier Alternative
@@ -3534,6 +3545,7 @@
 
 ## serverless 
 
+- [restatedev/restate](https://github.com/restatedev/restate) - Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD.
 - [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Rate limiting, bot protection, email verification & attack defense for Node.js, Next.js, Bun & SvelteKit.
 - [grafbase/grafbase](https://github.com/grafbase/grafbase) - The future of APIs
 - [artilleryio/artillery](https://github.com/artilleryio/artillery) - The complete load testing platform. Everything you need for production-grade load tests. Serverless & distributed. Load test with Playwright. Load test HTTP APIs, GraphQL, WebSocket, and more. Use any
@@ -4002,6 +4014,7 @@
 
 ## windows 
 
+- [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
 - [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
 - [Fadi002/unshackle](https://github.com/Fadi002/unshackle) - Open-source tool to bypass windows and linux passwords from bootable usb
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
