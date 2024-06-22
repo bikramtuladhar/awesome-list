@@ -198,7 +198,7 @@
 - [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) - Deliver Go binaries as fast and easily as possible
 - [glanceapp/glance](https://github.com/glanceapp/glance) - A self-hosted dashboard that puts all your feeds in one place
 - [kaytu-io/kaytu](https://github.com/kaytu-io/kaytu) - Kaytu's AI platform boosts cloud efficiency by analyzing historical usage and delivering intelligent recommendations—such as optimizing instance sizes—that maintain reliability. Pay for what you need,
-- [elastic/otel-profiling-agent](https://github.com/elastic/otel-profiling-agent) - The production-scale datacenter profiler (C/C++, Go, Rust, Python, Java, NodeJS, PHP, Ruby, Perl, ...)
+- [elastic/otel-profiling-agent](https://github.com/elastic/otel-profiling-agent) - The production-scale datacenter profiler (C/C++, Go, Rust, Python, Java, NodeJS, .NET, PHP, Ruby, Perl, ...)
 - [hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet) - A distributed, fault-tolerant task queue
 - [nalgeon/redka](https://github.com/nalgeon/redka) - Redis re-implemented with SQLite
 - [charmbracelet/freeze](https://github.com/charmbracelet/freeze) - Generate images of code and terminal output 📸
@@ -371,7 +371,6 @@
 
 - [chrispsn/mesh-spreadsheet](https://github.com/chrispsn/mesh-spreadsheet) - A data and code editor that feels like a spreadsheet.
 - [wandb/openui](https://github.com/wandb/openui) - OpenUI let's you describe UI using your imagination, then see it rendered live.
-- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - R2R is an open source RAG engine with a RESTful API. Features include hybrid search, GraphRAG, multimodal RAG, observability and analytics, and more.
 - [sailboatui/sailboatui](https://github.com/sailboatui/sailboatui) - Sailboat UI is a modern UI component library for Tailwind CSS
 - [Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide) - DevOps Guide - Development to Production all configurations with basic notes to debug efficiently.
 - [IonicaBizau/git-stats](https://github.com/IonicaBizau/git-stats) - 🍀 Local git statistics including GitHub-like contributions calendars.
@@ -921,6 +920,7 @@
 - [PostHog/posthog](https://github.com/PostHog/posthog) - 🦔 PostHog provides open-source product analytics, session recording, feature flagging and A/B testing that you can self-host.
 - [litestar-org/litestar](https://github.com/litestar-org/litestar) - Production-ready, Light, Flexible and Extensible ASGI API framework | Effortlessly Build Performant APIs
 - [bruin-data/ingestr](https://github.com/bruin-data/ingestr) - ingestr is a CLI tool to copy data between any databases with a single command seamlessly.
+- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - R2R is an open source answer engine with a RESTful API. Powered by RAG, features include hybrid search, graph / multimodal RAG, and more.
 - [google/magika](https://github.com/google/magika) - Detect file content types with deep learning
 - [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) - A natural language interface for computers
 - [apple/ml-ferret](https://github.com/apple/ml-ferret) - 
@@ -1048,6 +1048,7 @@
 ## Rust 
 
 - [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
+- [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, DuckDB]
 - [letmutex/htmd](https://github.com/letmutex/htmd) - A turndown.js inspired HTML to Markdown converter for Rust
 - [restatedev/restate](https://github.com/restatedev/restate) - Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD.
 - [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
@@ -1236,7 +1237,6 @@
 
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
 - [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) - Omnivore is a complete, open source read-it-later solution for people who like reading.
-- [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL]
 - [jackyzha0/quartz](https://github.com/jackyzha0/quartz) - 🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites
 - [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
 - [apilylabs/ophiuchi-desktop](https://github.com/apilylabs/ophiuchi-desktop) - A local https proxy server using docker as backend
