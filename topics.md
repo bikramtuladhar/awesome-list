@@ -1963,6 +1963,7 @@
 
 ## laravel 
 
+- [tighten/tlint](https://github.com/tighten/tlint) - Tighten linter for Laravel conventions.
 - [serversideup/spin](https://github.com/serversideup/spin) - 🚀 Replicate your production environment locally using Docker. Just run "spin up". It's really that easy.
 - [lunarphp/lunar](https://github.com/lunarphp/lunar) - An open-source package that brings the power of modern headless e-commerce functionality to Laravel.
 - [NativePHP/laravel](https://github.com/NativePHP/laravel) - Laravel wrapper for the NativePHP framework
@@ -2086,7 +2087,7 @@
 - [kyranb/Footprints](https://github.com/kyranb/Footprints) - :feet: A simple registration attribution tracking solution for Laravel (UTM Parameters and Referrers)
 - [aungwinthant/apilogger](https://github.com/aungwinthant/apilogger) - Small laravel package for viewing api logs which can be used in debugging.
 - [shweshi/OpenGraph](https://github.com/shweshi/OpenGraph) - A Laravel package to fetch Open Graph data of a website.
-- [bavix/laravel-wallet](https://github.com/bavix/laravel-wallet) - Easy work with virtual wallet
+- [bavix/laravel-wallet](https://github.com/bavix/laravel-wallet) - It's easy to work with a virtual wallet
 - [scrnhq/laravel-bakery](https://github.com/scrnhq/laravel-bakery) - 🍞🧑‍🍳 An on-the-fly GraphQL Schema generator from Eloquent models for Laravel.
 - [antonioribeiro/version](https://github.com/antonioribeiro/version) - Laravel App versioning
 - [ulearnpro/ulearn](https://github.com/ulearnpro/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
@@ -2969,6 +2970,7 @@
 
 ## php 
 
+- [tighten/tlint](https://github.com/tighten/tlint) - Tighten linter for Laravel conventions.
 - [qossmic/deptrac](https://github.com/qossmic/deptrac) - Keep your architecture clean.
 - [matomo-org/device-detector](https://github.com/matomo-org/device-detector) - The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
 - [tempestphp/tempest-framework](https://github.com/tempestphp/tempest-framework) - The PHP framework that gets out of your way 🌊
@@ -3049,7 +3051,7 @@
 - [neoighodaro/laravel-early-access](https://github.com/neoighodaro/laravel-early-access) - This package makes it easy to add early access mode to your existing application.
 - [slimkit/plus](https://github.com/slimkit/plus) - 💝The Plus (ThinkSNS+) is a powerful, easy-to-develop social system built with Laravel.
 - [urlhum/UrlHum](https://github.com/urlhum/UrlHum) - The modern, privacy-aware URL Shortener built in PHP.
-- [bavix/laravel-wallet](https://github.com/bavix/laravel-wallet) - Easy work with virtual wallet
+- [bavix/laravel-wallet](https://github.com/bavix/laravel-wallet) - It's easy to work with a virtual wallet
 - [scrnhq/laravel-bakery](https://github.com/scrnhq/laravel-bakery) - 🍞🧑‍🍳 An on-the-fly GraphQL Schema generator from Eloquent models for Laravel.
 - [antonioribeiro/version](https://github.com/antonioribeiro/version) - Laravel App versioning
 - [aman00323/email-checker](https://github.com/aman00323/email-checker) - Provides email verification on the go.
