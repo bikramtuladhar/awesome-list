@@ -259,7 +259,7 @@
 - [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit) - Auto-generate impressive commits with AI in 1 second 🤯🔫
 - [mpociot/llamero](https://github.com/mpociot/llamero) - A GUI application to easily try out Facebook's LLaMA models.
-- [rustformers/llm](https://github.com/rustformers/llm) - An ecosystem of Rust libraries for working with large language models
+- [rustformers/llm](https://github.com/rustformers/llm) - [Unmaintained, see README] An ecosystem of Rust libraries for working with large language models
 - [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
 - [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - The platform for building AI from enterprise data
 - [DonDebonair/slack-machine](https://github.com/DonDebonair/slack-machine) - A simple, yet powerful and extendable Slack bot
@@ -296,7 +296,7 @@
 - [openreplay/openreplay](https://github.com/openreplay/openreplay) - Session replay and analytics tool you can self-host. Ideal for reproducing issues, co-browsing with users and optimizing your product.
 - [BuilderIO/partytown](https://github.com/BuilderIO/partytown) - Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉
 - [beneath-hq/beneath](https://github.com/beneath-hq/beneath) - Beneath is a serverless real-time data platform ⚡️
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
+- [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is an open source time-series database for fast ingest and SQL queries
 - [almarklein/mypaas](https://github.com/almarklein/mypaas) - Run your own PaaS using Docker, Traefik, and great analytics
 - [mikebronner/laravel-mixpanel](https://github.com/mikebronner/laravel-mixpanel) - Intuitive drop-in analytics.
 - [kyranb/Footprints](https://github.com/kyranb/Footprints) - :feet: A simple registration attribution tracking solution for Laravel (UTM Parameters and Referrers)
@@ -722,7 +722,7 @@
 - [GauravDawra/Beast](https://github.com/GauravDawra/Beast) - A build system built for speed and power
 - [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
 - [leaningtech/webvm](https://github.com/leaningtech/webvm) - Virtual Machine for the Web
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
+- [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is an open source time-series database for fast ingest and SQL queries
 - [google/startup-os](https://github.com/google/startup-os) - Working examples of Google's Open Source stack and deployment to the cloud.
 
 ## cryptocurrency 
@@ -846,7 +846,7 @@
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 - [Clivern/Peanut](https://github.com/Clivern/Peanut) - 🐺 Deploy Databases and Services Easily for Development and Testing Pipelines.
 - [encoredev/encore](https://github.com/encoredev/encore) - Encore is the Backend Development Platform purpose-built to help you create event-driven and distributed systems.
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
+- [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is an open source time-series database for fast ingest and SQL queries
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, local first, reactive Database for JavaScript Applications https://rxdb.info/
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data
@@ -1595,7 +1595,7 @@
 - [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) - PrestaShop is the universal open-source software platform to build your e-commerce solution.
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) - Protect and discover secrets using Gitleaks 🔑
 - [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) - 🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
+- [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is an open source time-series database for fast ingest and SQL queries
 - [VulcanJS/vulcan-next](https://github.com/VulcanJS/vulcan-next) - The Next starter for GraphQL developers
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
 - [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
@@ -1717,7 +1717,7 @@
 - [collabnix/kubetools](https://github.com/collabnix/kubetools) - Kubetools - Curated List of Kubernetes Tools
 - [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
 - [seashell/drago](https://github.com/seashell/drago) - ☁️ Securely connect anything with WireGuard® and manage all your networks from a single place.
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
+- [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is an open source time-series database for fast ingest and SQL queries
 
 ## ipfs 
 
@@ -1734,7 +1734,7 @@
 - [Netflix/conductor](https://github.com/Netflix/conductor) - Conductor is a microservices orchestration engine.
 - [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.
 - [ongres/stackgres](https://github.com/ongres/stackgres) - StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there.
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
+- [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is an open source time-series database for fast ingest and SQL queries
 - [traccar/traccar](https://github.com/traccar/traccar) - Traccar GPS Tracking System
 - [google/startup-os](https://github.com/google/startup-os) - Working examples of Google's Open Source stack and deployment to the cloud.
 - [microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk) - Bot Framework provides the most comprehensive experience for building conversation applications.
@@ -2195,7 +2195,7 @@
 - [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory.
 - [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) - High-performance In-browser LLM Inference Engine
 - [mpociot/llamero](https://github.com/mpociot/llamero) - A GUI application to easily try out Facebook's LLaMA models.
-- [rustformers/llm](https://github.com/rustformers/llm) - An ecosystem of Rust libraries for working with large language models
+- [rustformers/llm](https://github.com/rustformers/llm) - [Unmaintained, see README] An ecosystem of Rust libraries for working with large language models
 - [flyteorg/flyte](https://github.com/flyteorg/flyte) - Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.
 - [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - The platform for building AI from enterprise data
 - [milvus-io/milvus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications
@@ -2962,7 +2962,7 @@
 
 ## pentesting 
 
-- [kac89/vulnrepo](https://github.com/kac89/vulnrepo) - VULNRΞPO - Free vulnerability report generator and repository, end-to-end encrypted! Templates of issues, CWE, CVE, MITRE ATT&CK, PCI DSS, issues import Nmap/Nessus/Burp/OpenVAS/Bugcrowd/Trivy, Jira e
+- [kac89/vulnrepo](https://github.com/kac89/vulnrepo) - VULNRΞPO - Free vulnerability report generator and repository, end-to-end encrypted! Templates of issues, CWE, CVE, MITRE ATT&CK, PCI DSS, import Nmap/Nessus/Burp/OpenVAS/Bugcrowd/Trivy, Jira export, 
 - [jassics/security-study-plan](https://github.com/jassics/security-study-plan) - Complete Practical Study Plan to become a successful cybersecurity engineer based on roles like Pentest, AppSec, Cloud Security, DevSecOps and so on...
 - [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
 - [marco-lancini/offensive-infrastructure](https://github.com/marco-lancini/offensive-infrastructure) - Offensive Infrastructure with Modern Technologies
@@ -3120,7 +3120,7 @@
 - [ongres/stackgres](https://github.com/ongres/stackgres) - StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there.
 - [reactive-tech/kubegres](https://github.com/reactive-tech/kubegres) - Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup.
 - [encoredev/encore](https://github.com/encoredev/encore) - Encore is the Backend Development Platform purpose-built to help you create event-driven and distributed systems.
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
+- [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is an open source time-series database for fast ingest and SQL queries
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
 - [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platform everyone needs!
@@ -3449,7 +3449,7 @@
 - [lancedb/lance](https://github.com/lancedb/lance) - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckD
 - [openobserve/openobserve](https://github.com/openobserve/openobserve) - 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay).
 - [moonrepo/moon](https://github.com/moonrepo/moon) - A build system and monorepo management tool for the web ecosystem, written in Rust.
-- [rustformers/llm](https://github.com/rustformers/llm) - An ecosystem of Rust libraries for working with large language models
+- [rustformers/llm](https://github.com/rustformers/llm) - [Unmaintained, see README] An ecosystem of Rust libraries for working with large language models
 - [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) - An open-source, cloud-native, distributed time-series database with PromQL/SQL/Python supported. Available on GreptimeCloud.
 - [richardanaya/wasm-service](https://github.com/richardanaya/wasm-service) - HTMX, WebAssembly, Rust, ServiceWorkers
 - [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
@@ -3497,7 +3497,7 @@
 - [build-trust/ockam](https://github.com/build-trust/ockam) - Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
 - [cerbos/cerbos](https://github.com/cerbos/cerbos) - Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policie
 - [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps
-- [kac89/vulnrepo](https://github.com/kac89/vulnrepo) - VULNRΞPO - Free vulnerability report generator and repository, end-to-end encrypted! Templates of issues, CWE, CVE, MITRE ATT&CK, PCI DSS, issues import Nmap/Nessus/Burp/OpenVAS/Bugcrowd/Trivy, Jira e
+- [kac89/vulnrepo](https://github.com/kac89/vulnrepo) - VULNRΞPO - Free vulnerability report generator and repository, end-to-end encrypted! Templates of issues, CWE, CVE, MITRE ATT&CK, PCI DSS, import Nmap/Nessus/Burp/OpenVAS/Bugcrowd/Trivy, Jira export, 
 - [eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT) - AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents
 - [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is the open-source secret management platform: Sync secrets across your team/infrastructure, prevent secret leaks, and manage internal PKI
@@ -3671,7 +3671,7 @@
 - [supabase/pg_graphql](https://github.com/supabase/pg_graphql) - GraphQL support for PostgreSQL
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 - [beneath-hq/beneath](https://github.com/beneath-hq/beneath) - Beneath is a serverless real-time data platform ⚡️
-- [questdb/questdb](https://github.com/questdb/questdb) - An open source time-series database for fast ingest and SQL queries
+- [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is an open source time-series database for fast ingest and SQL queries
 - [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [danielme85/laravel-log-to-db](https://github.com/danielme85/laravel-log-to-db) - Custom Laravel and Lumen 5.6+ Log channel handler that can store log events to SQL or MongoDB databases.  Uses Laravel/Monolog native logging functionality.
