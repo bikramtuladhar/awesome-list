@@ -982,6 +982,7 @@
 
 ## docker 
 
+- [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
 - [nicolaka/netshoot](https://github.com/nicolaka/netshoot) - a Docker + Kubernetes network trouble-shooting swiss-army container
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [telepresenceio/telepresence](https://github.com/telepresenceio/telepresence) - Local development against a remote Kubernetes or OpenShift cluster
@@ -1378,6 +1379,7 @@
 
 ## golang 
 
+- [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
 - [yorukot/superfile](https://github.com/yorukot/superfile) - Pretty fancy and modern terminal file manager
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
 - [sosedoff/pgweb](https://github.com/sosedoff/pgweb) - Cross-platform client for PostgreSQL databases
@@ -2599,6 +2601,7 @@
 
 ## others 
 
+- [poundifdef/SmoothMQ](https://github.com/poundifdef/SmoothMQ) - A drop-in replacement for SQS designed for great developer experience and efficiency.
 - [nus-apr/auto-code-rover](https://github.com/nus-apr/auto-code-rover) - A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 30.67% tasks (pass@1) in SWE-bench lite with each task costs less than $0.7.
 - [karpathy/LLM101n](https://github.com/karpathy/LLM101n) - LLM101n: Let's build a Storyteller
 - [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) - Omnivore is a complete, open source read-it-later solution for people who like reading.
@@ -3582,6 +3585,7 @@
 
 ## server 
 
+- [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
 - [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
@@ -3615,6 +3619,7 @@
 
 ## shell 
 
+- [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [jiacai2050/shellgpt](https://github.com/jiacai2050/shellgpt) - Chat with LLM in your terminal, be it shell generator, story teller, linux-terminal, etc.
 - [orf/gping](https://github.com/orf/gping) - Ping, but with a graph
@@ -3775,6 +3780,7 @@
 
 ## telegram 
 
+- [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
 - [muety/tg-chat-classification](https://github.com/muety/tg-chat-classification) - Naive-Bayes based classification of Telegram chat messages.
 
 ## tensorflow 
