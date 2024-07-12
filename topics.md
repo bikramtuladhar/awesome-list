@@ -832,7 +832,7 @@
 
 ## database 
 
-- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen database explorer - Postgres, MySQL, SQLite, MongoDB, & Redis
+- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen database explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB & Elastic Search
 - [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
 - [cozodb/cozo](https://github.com/cozodb/cozo) - A transactional, relational-graph-vector database that uses Datalog for query. The hippocampus for AI!
 - [Dataherald/dataherald](https://github.com/Dataherald/dataherald) - Interact with your SQL database, Natural Language to SQL using LLMs
@@ -1130,7 +1130,7 @@
 
 ## electron 
 
-- [onlook-dev/studio](https://github.com/onlook-dev/studio) - The power of Webflow for your React app
+- [onlook-dev/studio](https://github.com/onlook-dev/studio) - The power of Webflow for your React app – Onlook is an open source, local-first Webflow alternative. Design directly in your live webpage and publish your changes to code.
 - [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui) - A hybrid command-line/UI development experience for cloud-native development
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
 - [nut-tree/nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node
@@ -1558,7 +1558,6 @@
 - [blenderskool/blaze](https://github.com/blenderskool/blaze) - ⚡ File sharing progressive web app built using WebTorrent and WebSockets
 - [qdrant/qdrant](https://github.com/qdrant/qdrant) - Qdrant - High-performance, massive-scale Vector Database for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
 - [kubero-dev/kubero](https://github.com/kubero-dev/kubero) - A free and self-hosted Heroku / Netlify / Vercel alternative for Kubernetes
-- [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
 - [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) - Tesseract Open Source OCR Engine (main repository)
 - [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎🏖️🐬 Your new, 𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart clipboard manager
 - [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
@@ -2348,7 +2347,7 @@
 
 ## mongodb 
 
-- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen database explorer - Postgres, MySQL, SQLite, MongoDB, & Redis
+- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen database explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB & Elastic Search
 - [hudy9x/namviek](https://github.com/hudy9x/namviek) - The open-source project manager for tiny teams
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
 - [tigrisdata-archive/tigris](https://github.com/tigrisdata-archive/tigris) - Tigris is an Open Source Serverless NoSQL Database and Search Platform.
@@ -2402,7 +2401,7 @@
 
 ## mysql 
 
-- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen database explorer - Postgres, MySQL, SQLite, MongoDB, & Redis
+- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen database explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB & Elastic Search
 - [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) - Headless TypeScript ORM with a head. Runs on Node, Bun and Deno. Lives on the Edge and yes, it's a JavaScript ORM too 😅
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
 - [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, DuckDB, ClickHouse]
@@ -2952,7 +2951,7 @@
 - [anaibol/awesome-serverless](https://github.com/anaibol/awesome-serverless) - :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
 - [infostreams/db](https://github.com/infostreams/db) - Version control for databases: save, restore, and archive snapshots of your database from the command line
 - [klutchell/balena-pihole-aarch64](https://github.com/klutchell/balena-pihole-aarch64) - aarch64 balenaCloud stack for Pi-hole® https://pi-hole.net/
-- [emilengler/sysget](https://github.com/emilengler/sysget) - One package manager to rule them all
+- [cvengler/sysget](https://github.com/cvengler/sysget) - One package manager to rule them all
 - [pshihn/sockly](https://github.com/pshihn/sockly) - 
 - [whitecube/nova-flexible-content](https://github.com/whitecube/nova-flexible-content) - Flexible Content & Repeater Fields for Laravel Nova
 - [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) - An open source reinforcement learning framework for training, evaluating, and deploying robust trading agents.
@@ -3124,7 +3123,7 @@
 ## postgresql 
 
 - [event-driven-io/Pongo](https://github.com/event-driven-io/Pongo) - Pongo - Mongo but on Postgres and with strong consistency benefits
-- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen database explorer - Postgres, MySQL, SQLite, MongoDB, & Redis
+- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen database explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB & Elastic Search
 - [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) - Headless TypeScript ORM with a head. Runs on Node, Bun and Deno. Lives on the Edge and yes, it's a JavaScript ORM too 😅
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
 - [sosedoff/pgweb](https://github.com/sosedoff/pgweb) - Cross-platform client for PostgreSQL databases
@@ -3360,7 +3359,7 @@
 
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, AI-first alternative to Jira, Linear
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
-- [onlook-dev/studio](https://github.com/onlook-dev/studio) - The power of Webflow for your React app
+- [onlook-dev/studio](https://github.com/onlook-dev/studio) - The power of Webflow for your React app – Onlook is an open source, local-first Webflow alternative. Design directly in your live webpage and publish your changes to code.
 - [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open source data anonymization and synthetic data orchestration for developers. Create high fidelity synthetic data and sync it across your environments.
@@ -3914,7 +3913,7 @@
 
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, AI-first alternative to Jira, Linear
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
-- [onlook-dev/studio](https://github.com/onlook-dev/studio) - The power of Webflow for your React app
+- [onlook-dev/studio](https://github.com/onlook-dev/studio) - The power of Webflow for your React app – Onlook is an open source, local-first Webflow alternative. Design directly in your live webpage and publish your changes to code.
 - [event-driven-io/Pongo](https://github.com/event-driven-io/Pongo) - Pongo - Mongo but on Postgres and with strong consistency benefits
 - [Dhravya/supermemory](https://github.com/Dhravya/supermemory) - Build your own second brain with supermemory. It's a ChatGPT for your bookmarks. Import tweets or save websites and content using the chrome extension.
 - [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) - Headless TypeScript ORM with a head. Runs on Node, Bun and Deno. Lives on the Edge and yes, it's a JavaScript ORM too 😅
