@@ -1071,7 +1071,7 @@
 - [pacoogle/laravel-lumen-docker](https://github.com/pacoogle/laravel-lumen-docker) - Lumen platform dockerization
 - [wodby/docker4php](https://github.com/wodby/docker4php) - Docker-based PHP stack
 - [Cyber-Duck/php-fpm-laravel](https://github.com/Cyber-Duck/php-fpm-laravel) - Docker image for a php-fpm container crafted to run Laravel based applications.
-- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.3 & Nginx 1.24 on Alpine Linux
+- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.3 & Nginx 1.26 on Alpine Linux
 - [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
 - [chialab/docker-php](https://github.com/chialab/docker-php) - 🧰 Adding common PHP extensions to some of the official PHP Docker images.
 - [wodby/mariadb](https://github.com/wodby/mariadb) - MariaDB docker container image
@@ -3045,7 +3045,7 @@
 - [spatie/nova-translatable](https://github.com/spatie/nova-translatable) - Making Nova fields translatable
 - [wodby/docker4php](https://github.com/wodby/docker4php) - Docker-based PHP stack
 - [Cyber-Duck/php-fpm-laravel](https://github.com/Cyber-Duck/php-fpm-laravel) - Docker image for a php-fpm container crafted to run Laravel based applications.
-- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.3 & Nginx 1.24 on Alpine Linux
+- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.3 & Nginx 1.26 on Alpine Linux
 - [hyperf/hyperf](https://github.com/hyperf/hyperf) - 🚀 A coroutine framework that focuses on hyperspeed and flexibility. Building microservice or middleware with ease.
 - [GaneshKhadka/Employee-management-system-in-laravel](https://github.com/GaneshKhadka/Employee-management-system-in-laravel) - Employee management system.This is a project based on laravel framework.You can fork it and can download or clone it.
 - [chialab/docker-php](https://github.com/chialab/docker-php) - 🧰 Adding common PHP extensions to some of the official PHP Docker images.
