@@ -596,6 +596,7 @@
 
 ## Others 
 
+- [openebs/openebs](https://github.com/openebs/openebs) - Most popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes.
 - [karpathy/LLM101n](https://github.com/karpathy/LLM101n) - LLM101n: Let's build a Storyteller
 - [deepseek-ai/DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2) - DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence
 - [dabochen/spreadsheet-is-all-you-need](https://github.com/dabochen/spreadsheet-is-all-you-need) - A nanoGPT pipeline packed in a spreadsheet
@@ -897,6 +898,7 @@
 
 ## Python 
 
+- [randombk/llm2sh](https://github.com/randombk/llm2sh) - Ask GPT to run a command
 - [exo-explore/exo](https://github.com/exo-explore/exo) - Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
 - [apify/crawlee-python](https://github.com/apify/crawlee-python) - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works
 - [JianghaiSCU/LightenDiffusion](https://github.com/JianghaiSCU/LightenDiffusion) - Official pytorch implementation for "LightenDiffusion: Unsupervised Low-Light Image Enhancement with Latent-Retinex Diffusion Models"
@@ -1254,6 +1256,7 @@
 
 ## TypeScript 
 
+- [tone-row/flowchart-fun](https://github.com/tone-row/flowchart-fun) - Easily generate flowcharts and diagrams from text ⿻
 - [aieditor-team/AiEditor](https://github.com/aieditor-team/AiEditor) - AiEditor is a next-generation rich text editor for AI.
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, AI-first alternative to Jira, Linear
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
@@ -1319,7 +1322,7 @@
 - [fern-api/fern](https://github.com/fern-api/fern) - Input OpenAPI. Output SDKs and Docs.
 - [hocus-dev/hocus](https://github.com/hocus-dev/hocus) - 🪄 Spin up ready-to-code, disposable dev environments on your own servers. Self-hosted alternative to Gitpod and Github Codespaces.
 - [nat/openplayground](https://github.com/nat/openplayground) - An LLM playground you can run on your laptop
-- [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Secure cloud runtime for AI apps & AI agents. Fully open-source.
+- [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Secure open source cloud runtime for AI apps & AI agents
 - [kyang6/llmparser](https://github.com/kyang6/llmparser) - Classify and extract structured data with LLMs
 - [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) - High-performance In-browser LLM Inference Engine
 - [nomic-ai/deepscatter](https://github.com/nomic-ai/deepscatter) - Zoomable, animated scatterplots in the browser that scales over a billion points
