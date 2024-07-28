@@ -430,6 +430,7 @@
 
 ## JavaScript 
 
+- [chartbrew/chartbrew](https://github.com/chartbrew/chartbrew) - Open-source web platform used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more  📈📊
 - [serkan-ozal/leanser](https://github.com/serkan-ozal/leanser) - AWS Lambda Cleaner - Cleanup resources on AWS Lambda container shutdown (timeout and/or spin-down)
 - [mafintosh/why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node is running but you don't know why? why-is-node-running is here to help you.
 - [onlook-dev/studio](https://github.com/onlook-dev/studio) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
@@ -450,7 +451,7 @@
 - [neuroneural/brainchop](https://github.com/neuroneural/brainchop) - Brainchop: In-browser 3D MRI rendering and segmentation
 - [WordPress/wordpress-playground](https://github.com/WordPress/wordpress-playground) - Run WordPress in the browser via WebAssembly PHP
 - [HeyPuter/kv.js](https://github.com/HeyPuter/kv.js) - ⚡️ Advanced in-memory caching for JavaScript.
-- [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit) - Auto-generate impressive commits with AI in 1 second 🤯🔫
+- [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit) - Generate awesome commits with AI in 1 second 🤯🔫
 - [mpociot/llamero](https://github.com/mpociot/llamero) - A GUI application to easily try out Facebook's LLaMA models.
 - [schibsted/WAAS](https://github.com/schibsted/WAAS) - Whisper as a Service (GUI and API with queuing for OpenAI Whisper)
 - [jmforsythe/Git-Heat-Map](https://github.com/jmforsythe/Git-Heat-Map) - Visualise a git repository by diff activity
@@ -559,6 +560,7 @@
 
 ## Jupyter Notebook 
 
+- [ManuelBerrueta/FlowAnalyzer](https://github.com/ManuelBerrueta/FlowAnalyzer) - FlowAnalyzer is a tool to help in testing and analyzing OAuth 2.0 Flows, including OpenID Connect (OIDC).
 - [iyaja/llama-fs](https://github.com/iyaja/llama-fs) - A self-organizing file system with llama 3
 - [reworkd/tarsier](https://github.com/reworkd/tarsier) - Vision utilities for web interaction agents 👀
 - [cfahlgren1/natural-sql](https://github.com/cfahlgren1/natural-sql) - A series of top performing Text to SQL LLMs
@@ -903,6 +905,8 @@
 
 ## Python 
 
+- [aydinnyunus/gpt4-captcha-bypass](https://github.com/aydinnyunus/gpt4-captcha-bypass) - Captcha Bypass using GPT4-o
+- [modularml/stack-pr](https://github.com/modularml/stack-pr) - A tool for working with stacked PRs on github.
 - [sinaatalay/rendercv](https://github.com/sinaatalay/rendercv) - A LaTeX CV/Resume Framework
 - [randombk/llm2sh](https://github.com/randombk/llm2sh) - Ask GPT to run a command
 - [exo-explore/exo](https://github.com/exo-explore/exo) - Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
@@ -1070,6 +1074,7 @@
 
 ## Rust 
 
+- [tellerops/teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
 - [tailcallhq/tailcall](https://github.com/tailcallhq/tailcall) - High Performance GraphQL Runtime
 - [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
 - [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, DuckDB, ClickHouse]
@@ -1230,7 +1235,6 @@
 
 ## Svelte 
 
-- [hcengineering/platform](https://github.com/hcengineering/platform) - Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)
 - [0x2E/fusion](https://github.com/0x2E/fusion) - A lightweight, self-hosted friendly RSS aggregator and reader
 - [nilskj/editable-website](https://github.com/nilskj/editable-website) - A SvelteKit template for building CMS-free editable websites
 - [michael/editable-website](https://github.com/michael/editable-website) - A SvelteKit template for building CMS-free editable websites
@@ -1283,6 +1287,7 @@
 - [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) - Omnivore is a complete, open source read-it-later solution for people who like reading.
 - [jackyzha0/quartz](https://github.com/jackyzha0/quartz) - 🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites
 - [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
+- [hcengineering/platform](https://github.com/hcengineering/platform) - Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)
 - [apilylabs/ophiuchi-desktop](https://github.com/apilylabs/ophiuchi-desktop) - A local https proxy server using docker as backend
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
 - [SawyerHood/tlbrowse](https://github.com/SawyerHood/tlbrowse) - Generate imagined websites on an infinite canvas
