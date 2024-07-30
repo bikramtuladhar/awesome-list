@@ -943,6 +943,7 @@
 
 ## devops 
 
+- [patched-codes/patchwork](https://github.com/patched-codes/patchwork) - Automate development gruntwork like code reviews, patching and documentation with LLM workflows.
 - [openebs/openebs](https://github.com/openebs/openebs) - Most popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes.
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
 - [KusionStack/kusion](https://github.com/KusionStack/kusion) - Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP).
@@ -1416,6 +1417,7 @@
 
 ## golang 
 
+- [fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl) - Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
 - [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
 - [yorukot/superfile](https://github.com/yorukot/superfile) - Pretty fancy and modern terminal file manager
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
@@ -2668,6 +2670,8 @@
 
 ## others 
 
+- [cloudflare/pint](https://github.com/cloudflare/pint) - Prometheus rule linter/validator
+- [opslane/opslane](https://github.com/opslane/opslane) - Reducing alert fatigue for on-call engineers
 - [aydinnyunus/gpt4-captcha-bypass](https://github.com/aydinnyunus/gpt4-captcha-bypass) - Captcha Bypass using GPT4-o
 - [modularml/stack-pr](https://github.com/modularml/stack-pr) - A tool for working with stacked PRs on github.
 - [step-security/harden-runner](https://github.com/step-security/harden-runner) - Network egress filtering and runtime security for GitHub-hosted and self-hosted runners
