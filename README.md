@@ -180,6 +180,8 @@
 
 ## Go 
 
+- [fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl) - Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
+- [cloudflare/pint](https://github.com/cloudflare/pint) - Prometheus rule linter/validator
 - [fluxcd/image-automation-controller](https://github.com/fluxcd/image-automation-controller) - GitOps Toolkit controller that patches container image tags in Git
 - [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
 - [poundifdef/smoothmq](https://github.com/poundifdef/smoothmq) - An improved drop-in replacement for SQS
@@ -905,6 +907,8 @@
 
 ## Python 
 
+- [opslane/opslane](https://github.com/opslane/opslane) - Reducing alert fatigue for on-call engineers
+- [patched-codes/patchwork](https://github.com/patched-codes/patchwork) - Automate development gruntwork like code reviews, patching and documentation with LLM workflows.
 - [aydinnyunus/gpt4-captcha-bypass](https://github.com/aydinnyunus/gpt4-captcha-bypass) - Captcha Bypass using GPT4-o
 - [modularml/stack-pr](https://github.com/modularml/stack-pr) - A tool for working with stacked PRs on github.
 - [sinaatalay/rendercv](https://github.com/sinaatalay/rendercv) - A LaTeX CV/Resume Framework
