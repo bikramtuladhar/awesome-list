@@ -1127,7 +1127,7 @@
 - [rustformers/llm](https://github.com/rustformers/llm) - [Unmaintained, see README] An ecosystem of Rust libraries for working with large language models
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl) - Chromium running inside your terminal
 - [facebook/sapling](https://github.com/facebook/sapling) - A Scalable, User-Friendly Source Control System.
-- [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) - An Open-Source, Cloud-Native, Unified Time Series Database for Metrics, Logs and Events with SQL/PromQL supported. Available on GreptimeCloud.
+- [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) - An open-source, cloud-native, unified time series database for metrics, logs and events with SQL/PromQL supported. Available on GreptimeCloud.
 - [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - Copilot for your terminal
 - [google/forma](https://github.com/google/forma) - An efficient vector-graphics renderer
 - [vercel/turbo](https://github.com/vercel/turbo) - Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.
