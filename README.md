@@ -28,6 +28,7 @@
 - [Jinja](#jinja)
 - [Jupyter Notebook](#jupyter-notebook)
 - [Kotlin](#kotlin)
+- [Lua](#lua)
 - [MDX](#mdx)
 - [Makefile](#makefile)
 - [Markdown](#markdown)
@@ -181,6 +182,9 @@
 
 ## Go 
 
+- [cgzirim/seek-tune](https://github.com/cgzirim/seek-tune) - An implementation of Shazam's song matching algorithm.
+- [miekg/gitopper](https://github.com/miekg/gitopper) - Gitops for non-Kubernetes folks
+- [cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops) - Developer Friendly Kubernetes 👁️
 - [facundoolano/ngtop](https://github.com/facundoolano/ngtop) - Request analytics from the nginx access logs
 - [fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl) - Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
 - [cloudflare/pint](https://github.com/cloudflare/pint) - Prometheus rule linter/validator
@@ -437,7 +441,6 @@
 - [chartbrew/chartbrew](https://github.com/chartbrew/chartbrew) - Open-source web platform used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more  📈📊
 - [serkan-ozal/leanser](https://github.com/serkan-ozal/leanser) - AWS Lambda Cleaner - Cleanup resources on AWS Lambda container shutdown (timeout and/or spin-down)
 - [mafintosh/why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node is running but you don't know why? why-is-node-running is here to help you.
-- [onlook-dev/studio](https://github.com/onlook-dev/studio) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
 - [xenova/transformers.js](https://github.com/xenova/transformers.js) - State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!
 - [dillondesilva/codehelium](https://github.com/dillondesilva/codehelium) - An editor component that compiles, executes and returns the outputs of any user-written code via Pyodide/Emscripten/Webassembly.
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
@@ -584,6 +587,10 @@
 
 - [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
 
+## Lua 
+
+- [davidgiven/wordgrinder](https://github.com/davidgiven/wordgrinder) - A word processor which gets the hell out of your way and lets you get some work done.
+
 ## MDX 
 
 - [openai/openai-cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API
@@ -610,6 +617,7 @@
 
 ## Others 
 
+- [SummitRoute/aws_breaking_changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code
 - [openebs/openebs](https://github.com/openebs/openebs) - Most popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes.
 - [karpathy/LLM101n](https://github.com/karpathy/LLM101n) - LLM101n: Let's build a Storyteller
 - [deepseek-ai/DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2) - DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence
@@ -1286,6 +1294,7 @@
 - [aieditor-team/AiEditor](https://github.com/aieditor-team/AiEditor) - AiEditor is a next-generation rich text editor for AI.
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, AI-first alternative to Jira, Linear
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
+- [onlook-dev/studio](https://github.com/onlook-dev/studio) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
 - [event-driven-io/Pongo](https://github.com/event-driven-io/Pongo) - Pongo - Mongo but on Postgres and with strong consistency benefits
 - [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen database explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB & Elastic Search
 - [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) - 🏓  The open-source synthetic monitoring platform  🏓
