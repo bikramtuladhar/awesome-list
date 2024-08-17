@@ -445,6 +445,7 @@
 
 ## JavaScript 
 
+- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) - Langflow is a low-code app builder for RAG and multi-agent AI applications. It’s Python-based and agnostic to any model, API, or database.
 - [j9t/obsohtml](https://github.com/j9t/obsohtml) - Detection of obsolete and proprietary HTML elements and attributes
 - [chartbrew/chartbrew](https://github.com/chartbrew/chartbrew) - Open-source web platform used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more  📈📊
 - [serkan-ozal/leanser](https://github.com/serkan-ozal/leanser) - AWS Lambda Cleaner - Cleanup resources on AWS Lambda container shutdown (timeout and/or spin-down)
@@ -539,6 +540,7 @@
 - [HospitalRun/hospitalrun-server](https://github.com/HospitalRun/hospitalrun-server) - Backend for HospitalRun
 - [Doptor-zz/Doptor](https://github.com/Doptor-zz/Doptor) - DOPTOR CMS & EMS : Enterprise level Pre-integrated Business Application Platform.
 - [goodnesskay/LARAVEL-PDF-VIEWER](https://github.com/goodnesskay/LARAVEL-PDF-VIEWER) - A Laravel Package for viewing PDF files or documents on the web without leaving your Web Application
+- [jesse-ai/jesse](https://github.com/jesse-ai/jesse) - An advanced crypto trading bot written in Python
 - [FlorianWeigang/shrizzer](https://github.com/FlorianWeigang/shrizzer) - The free, registration less, anonymously link timeline you ever waited for.
 - [ctf0/Laravel-Media-Manager](https://github.com/ctf0/Laravel-Media-Manager) - A "Vuejs & Laravel" Media Manager With Tons of Features
 - [larsjanssen6/underconstruction](https://github.com/larsjanssen6/underconstruction) - This Laravel 8 package makes it possible for you to set your website in "Under Construction" mode. Only users with the correct 4 (or more) digit code can access your site. :fire:  :boom: :fire:
@@ -931,6 +933,7 @@
 
 ## Python 
 
+- [intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl) - IntelOwl: manage your Threat Intelligence at scale
 - [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) - DSPy: The framework for programming—not prompting—foundation models
 - [huggingface/parler-tts](https://github.com/huggingface/parler-tts) - Inference and training library for high-quality TTS models.
 - [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) - MiniCPM-V 2.6: A GPT-4V Level MLLM for Single Image, Multi Image and Video on Your Phone
@@ -1079,7 +1082,6 @@
 - [malwaredllc/byob](https://github.com/malwaredllc/byob) - An open-source post-exploitation framework for students, researchers and developers.
 - [cedricbonhomme/newspipe](https://github.com/cedricbonhomme/newspipe) - A web news aggregator.
 - [socialpoint-labs/sheetfu](https://github.com/socialpoint-labs/sheetfu) - Python library to interact with Google Sheets V4 API
-- [jesse-ai/jesse](https://github.com/jesse-ai/jesse) - An advanced crypto trading bot written in Python
 - [mistio/mist-ce](https://github.com/mistio/mist-ce) - Mist is an open source, multicloud management platform
 - [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) - An open source reinforcement learning framework for training, evaluating, and deploying robust trading agents.
 - [quantopian/zipline](https://github.com/quantopian/zipline) - Zipline, a Pythonic Algorithmic Trading Library
