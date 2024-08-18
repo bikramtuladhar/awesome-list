@@ -108,6 +108,7 @@
 - [html-css-javascript](#html-css-javascript)
 - [html5](#html5)
 - [http](#http)
+- [https](#https)
 - [icon-font](#icon-font)
 - [ios](#ios)
 - [iot](#iot)
@@ -306,7 +307,7 @@
 - [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) - An open-source, cloud-native, unified time series database for metrics, logs and events with SQL/PromQL supported. Available on GreptimeCloud.
 - [whylabs/whylogs](https://github.com/whylabs/whylogs) - An open-source data logging library for machine learning models and data pipelines. 📚 Provides visibility into data quality & model performance over time. 🛡️ Supports privacy-preserving data collectio
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Continuous SQL for event streams, database CDC, and time series. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified stream
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - SQL stream processing for event-driven workloads. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified streaming and batch p
 - [growthbook/growthbook](https://github.com/growthbook/growthbook) - Open Source Feature Flagging and A/B Testing Platform
 - [openreplay/openreplay](https://github.com/openreplay/openreplay) - Session replay and analytics tool you can self-host. Ideal for reproducing issues, co-browsing with users and optimizing your product.
 - [BuilderIO/partytown](https://github.com/BuilderIO/partytown) - Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉
@@ -550,6 +551,7 @@
 
 ## bash 
 
+- [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
@@ -650,6 +652,7 @@
 
 ## cli 
 
+- [d3witt/viking](https://github.com/d3witt/viking) - Simple way to manage your remote machines and SSH keys
 - [vitonsky/arrival-time](https://github.com/vitonsky/arrival-time) - Simple and powerful progress time estimation (ETA) for JavaScript
 - [facundoolano/ngtop](https://github.com/facundoolano/ngtop) - Request analytics from the nginx access logs
 - [yorukot/superfile](https://github.com/yorukot/superfile) - Pretty fancy and modern terminal file manager
@@ -884,7 +887,7 @@
 - [apache/horaedb](https://github.com/apache/horaedb) - Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database.
 - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
 - [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Continuous SQL for event streams, database CDC, and time series. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified stream
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - SQL stream processing for event-driven workloads. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified streaming and batch p
 - [orioledb/orioledb](https://github.com/orioledb/orioledb) - OrioleDB – building a modern cloud-native storage engine (... and solving some PostgreSQL wicked problems)  🇺🇦
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 - [Clivern/Peanut](https://github.com/Clivern/Peanut) - 🐺 Deploy Databases and Services Easily for Development and Testing Pipelines.
@@ -935,6 +938,7 @@
 
 ## deployment 
 
+- [d3witt/viking](https://github.com/d3witt/viking) - Simple way to manage your remote machines and SSH keys
 - [cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops) - Developer Friendly Kubernetes 👁️
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
 - [StackStorm/st2](https://github.com/StackStorm/st2) - StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs. Includes rules engine, workflow, 160 i
@@ -956,6 +960,7 @@
 
 ## devops 
 
+- [kurtosis-tech/kardinal](https://github.com/kurtosis-tech/kardinal) - Kardinal is the lightest-weight way to spin up dev and test environments in Kubernetes. Deploy the absolute minimum resources necessary and implement dev, test, and QA all in one cluster.
 - [semaphoreui/semaphore](https://github.com/semaphoreui/semaphore) - Modern UI for Ansible, Terraform, OpenTofu, Bash, Pulumi.
 - [cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops) - Developer Friendly Kubernetes 👁️
 - [patched-codes/patchwork](https://github.com/patched-codes/patchwork) - Automate development gruntwork like code reviews, patching and documentation with LLM workflows.
@@ -1760,6 +1765,10 @@
 - [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 
+## https 
+
+- [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) - ⚙️ NGINX config generator on steroids 💉
+
 ## icon-font 
 
 - [coreui/coreui-icons](https://github.com/coreui/coreui-icons) - CoreUI Free Icons -  Premium designed free icon set with marks in SVG, Webfont and raster formats
@@ -1935,6 +1944,7 @@
 
 ## kubernetes 
 
+- [kurtosis-tech/kardinal](https://github.com/kurtosis-tech/kardinal) - Kardinal is the lightest-weight way to spin up dev and test environments in Kubernetes. Deploy the absolute minimum resources necessary and implement dev, test, and QA all in one cluster.
 - [antongisli/maas-baremetal-k8s-tutorial](https://github.com/antongisli/maas-baremetal-k8s-tutorial) - Step by step tutorial for bare metal K8s on a single machine
 - [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager) - Kubernetes cloud controller manager for Proxmox
 - [cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops) - Developer Friendly Kubernetes 👁️
@@ -3260,7 +3270,7 @@
 - [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - WunderGraph is a Backend for Frontend Framework to optimize frontend, fullstack and backend developer workflows through API Composition.
 - [turbot/steampipe](https://github.com/turbot/steampipe) - Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required.
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Continuous SQL for event streams, database CDC, and time series. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified stream
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - SQL stream processing for event-driven workloads. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified streaming and batch p
 - [orioledb/orioledb](https://github.com/orioledb/orioledb) - OrioleDB – building a modern cloud-native storage engine (... and solving some PostgreSQL wicked problems)  🇺🇦
 - [fabianlindfors/reshape](https://github.com/fabianlindfors/reshape) - An easy-to-use, zero-downtime schema migration tool for Postgres
 - [benawad/dogehouse](https://github.com/benawad/dogehouse) - Taking voice conversations to the moon 🚀
@@ -3639,7 +3649,7 @@
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
 - [railwayapp/nixpacks](https://github.com/railwayapp/nixpacks) - App source + Nix packages + Docker = Image
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Continuous SQL for event streams, database CDC, and time series. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified stream
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - SQL stream processing for event-driven workloads. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified streaming and batch p
 - [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
 - [LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production) - Code for "Zero To Production In Rust", a book on API development using Rust.
 - [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
@@ -3775,7 +3785,7 @@
 - [knative/docs](https://github.com/knative/docs) - User documentation for Knative components.
 - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Continuous SQL for event streams, database CDC, and time series. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified stream
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - SQL stream processing for event-driven workloads. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified streaming and batch p
 - [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
 - [dapr/dapr](https://github.com/dapr/dapr) - Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.
 - [encoredev/encore](https://github.com/encoredev/encore) - The Backend Development Platform for building distributed systems with automated infrastructure.
@@ -3789,6 +3799,7 @@
 
 ## shell 
 
+- [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
 - [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [jiacai2050/shellgpt](https://github.com/jiacai2050/shellgpt) - Chat with LLM in your terminal, be it shell generator, story teller, linux-terminal, etc.
@@ -3851,7 +3862,7 @@
 - [apache/horaedb](https://github.com/apache/horaedb) - Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database.
 - [turbot/steampipe](https://github.com/turbot/steampipe) - Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required.
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Continuous SQL for event streams, database CDC, and time series. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified stream
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - SQL stream processing for event-driven workloads. Perform streaming analytics, or build event-driven applications, real-time ETL pipelines, and feature stores in minutes. Unified streaming and batch p
 - [mikeroyal/Oracle-Cloud-Guide](https://github.com/mikeroyal/Oracle-Cloud-Guide) - Oracle Cloud Infrastructure Guide
 - [orioledb/orioledb](https://github.com/orioledb/orioledb) - OrioleDB – building a modern cloud-native storage engine (... and solving some PostgreSQL wicked problems)  🇺🇦
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
