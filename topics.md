@@ -31,6 +31,7 @@
 - [bugbounty](#bugbounty)
 - [c](#c)
 - [c-plus-plus](#c-plus-plus)
+- [chatbot](#chatbot)
 - [chatgpt](#chatgpt)
 - [chrome](#chrome)
 - [chrome-extension](#chrome-extension)
@@ -629,6 +630,18 @@
 - [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) - Cross-platform, customizable ML solutions for live and streaming media.
 - [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
 
+## chatbot 
+
+- [nlkitai/nlux](https://github.com/nlkitai/nlux) - The 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 Conversational AI JavaScript Library 💬 — UI for any LLM, supporting LangChain / HuggingFace / Vercel AI, and more 🧡 React, Next.js, and plain JavaScript ⭐️
+- [jiacai2050/shellgpt](https://github.com/jiacai2050/shellgpt) - Chat with LLM in your terminal, be it shell generator, story teller, linux-terminal, etc.
+- [langgenius/dify](https://github.com/langgenius/dify) - Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you q
+- [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) - 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
+- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - The platform for building AI from enterprise data
+- [DonDebonair/slack-machine](https://github.com/DonDebonair/slack-machine) - A simple, yet powerful and extendable Slack bot
+- [DopplerHQ/awesome-bots](https://github.com/DopplerHQ/awesome-bots) - The most awesome list about bots ⭐️🤖
+- [botman/botman](https://github.com/botman/botman) - A framework agnostic PHP library to build chat bots
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon is your open-source personal assistant.
+
 ## chatgpt 
 
 - [mem0ai/mem0](https://github.com/mem0ai/mem0) - The memory layer for Personalized AI
@@ -800,6 +813,7 @@
 
 ## css 
 
+- [morris/vanilla-prime](https://github.com/morris/vanilla-prime) - A simpler, more sustainable way of web development
 - [nextui-org/tailwind-variants](https://github.com/nextui-org/tailwind-variants) - 🦄 Tailwindcss first-class variant API
 - [sailboatui/sailboatui](https://github.com/sailboatui/sailboatui) - Sailboat UI is a modern UI component library for Tailwind CSS
 - [vercel/satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
@@ -874,7 +888,7 @@
 - [mckinsey/vizro](https://github.com/mckinsey/vizro) - Vizro is a toolkit for creating modular data visualization applications.
 - [nomic-ai/deepscatter](https://github.com/nomic-ai/deepscatter) - Zoomable, animated scatterplots in the browser that scales over a billion points
 - [f5/unovis](https://github.com/f5/unovis) - Modular data visualization framework for React, Angular, Svelte, Vue, and vanilla TypeScript or JavaScript
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [apache/superset](https://github.com/apache/superset) - Apache Superset is a Data Visualization and Data Exploration Platform
 - [artzub/GitHubVisualizer](https://github.com/artzub/GitHubVisualizer) - Visualization the history of repository changes based on data from GitHub
@@ -922,7 +936,7 @@
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, local first, reactive Database for JavaScript Applications https://rxdb.info/
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [spacecloud-io/space-cloud](https://github.com/spacecloud-io/space-cloud) - Open source Firebase + Heroku to develop, scale and secure serverless apps on Kubernetes
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [supabase/supabase](https://github.com/supabase/supabase) - The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
@@ -1034,7 +1048,7 @@
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - bootstrap HashiCorp Consul, Nomad, or Vault over SSH &lt; 1 minute
 - [containrrr/watchtower](https://github.com/containrrr/watchtower) - A process for automating Docker container base image updates.
 - [porter-dev/porter-archive](https://github.com/porter-dev/porter-archive) - Kubernetes powered PaaS that runs in your own cloud.
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [lensapp/lens](https://github.com/lensapp/lens) - Lens - The way the world runs Kubernetes
 - [arachnys/cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 - [ms-jpq/simple-traefik-dash](https://github.com/ms-jpq/simple-traefik-dash) - Zero conf service dashboard for Traefik v2 Ingress Controller
@@ -1140,7 +1154,7 @@
 - [wodby/mariadb](https://github.com/wodby/mariadb) - MariaDB docker container image
 - [webdevops/Dockerfile](https://github.com/webdevops/Dockerfile) - :package: Dockerfiles from WebDevOps for PHP, Apache and Nginx
 - [porter-dev/porter-archive](https://github.com/porter-dev/porter-archive) - Kubernetes powered PaaS that runs in your own cloud.
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes sources :ship::tada:
 - [tighten/takeout](https://github.com/tighten/takeout) - Docker-based development-only dependency manager. macOS, Linux, and WSL2-only and installs via PHP's Composer... for now.
 - [almarklein/mypaas](https://github.com/almarklein/mypaas) - Run your own PaaS using Docker, Traefik, and great analytics
@@ -1535,7 +1549,7 @@
 - [frain-dev/convoy](https://github.com/frain-dev/convoy) - The Cloud Native Webhooks Gateway
 - [milvus-io/milvus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications
 - [YaoApp/yao](https://github.com/YaoApp/yao) - :rocket: A performance app engine to create web services and applications in minutes.Suitable for AI, IoT, Industrial Internet, Connected Vehicles, DevOps, Energy, Finance and many other use-cases.
-- [mattermost/focalboard](https://github.com/mattermost/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
+- [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
 - [anselm94/googlekeepclone](https://github.com/anselm94/googlekeepclone) - A clone of Google Keep with its original Material Design aesthetics
 - [gravitational/teleport](https://github.com/gravitational/teleport) - The easiest, and most secure way to access and protect all of your infrastructure.
 - [zincsearch/zincsearch](https://github.com/zincsearch/zincsearch) - ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
@@ -1620,6 +1634,7 @@
 
 ## hacktoberfest 
 
+- [secureCodeBox/secureCodeBox](https://github.com/secureCodeBox/secureCodeBox) - secureCodeBox (SCB) - continuous secure delivery out of the box
 - [pglombardo/PasswordPusher](https://github.com/pglombardo/PasswordPusher) - 🔐   Securely share sensitive information with automatic expiration & deletion after a set number of views or duration.  Track who, what and when with full audit logs.
 - [intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl) - IntelOwl: manage your Threat Intelligence at scale
 - [eraser-dev/eraser](https://github.com/eraser-dev/eraser) - 🧹 Cleaning up images from Kubernetes nodes
@@ -1673,7 +1688,7 @@
 - [ira-design/ira-illustrations](https://github.com/ira-design/ira-illustrations) - Build your own amazing illustrations
 - [ethyca/fides](https://github.com/ethyca/fides) - The Privacy Engineering & Compliance Framework
 - [simple-login/app](https://github.com/simple-login/app) - The SimpleLogin back-end and web app
-- [mattermost/focalboard](https://github.com/mattermost/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
+- [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
 - [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Independent technology for modern publishing, memberships, subscriptions and newsletters.
 - [Unleash/unleash](https://github.com/Unleash/unleash) - Open-source feature management solution built for developers.
 - [itsnitinr/driwwwle](https://github.com/itsnitinr/driwwwle) - The social network for developers. Discover creative websites and build a community.
@@ -1765,6 +1780,7 @@
 
 ## html 
 
+- [morris/vanilla-prime](https://github.com/morris/vanilla-prime) - A simpler, more sustainable way of web development
 - [Kalabasa/htmz](https://github.com/Kalabasa/htmz) - html with targeted manipulation zones
 - [sailboatui/sailboatui](https://github.com/sailboatui/sailboatui) - Sailboat UI is a modern UI component library for Tailwind CSS
 - [sibprogrammer/xq](https://github.com/sibprogrammer/xq) - Command-line XML and HTML beautifier and content extractor
@@ -1854,6 +1870,7 @@
 
 ## javascript 
 
+- [morris/vanilla-prime](https://github.com/morris/vanilla-prime) - A simpler, more sustainable way of web development
 - [dahlia/logtape](https://github.com/dahlia/logtape) - Simple logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions
 - [beholdr/maska](https://github.com/beholdr/maska) - Simple zero-dependency input mask for Vue, Svelte, Alpine.js and vanilla JS.
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
@@ -1981,6 +1998,7 @@
 
 ## kubernetes 
 
+- [secureCodeBox/secureCodeBox](https://github.com/secureCodeBox/secureCodeBox) - secureCodeBox (SCB) - continuous secure delivery out of the box
 - [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) - YugabyteDB - the cloud native distributed SQL database for mission-critical applications.
 - [kurtosis-tech/kardinal](https://github.com/kurtosis-tech/kardinal) - Kardinal is the lightest-weight way to spin up dev and test environments in Kubernetes. Deploy the absolute minimum resources necessary and implement dev, test, and QA all in one cluster.
 - [antongisli/maas-baremetal-k8s-tutorial](https://github.com/antongisli/maas-baremetal-k8s-tutorial) - Step by step tutorial for bare metal K8s on a single machine
@@ -2069,7 +2087,7 @@
 - [beneath-hq/beneath](https://github.com/beneath-hq/beneath) - Beneath is a serverless real-time data platform ⚡️
 - [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
 - [porter-dev/porter-archive](https://github.com/porter-dev/porter-archive) - Kubernetes powered PaaS that runs in your own cloud.
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [vmware-tanzu/kubeapps](https://github.com/vmware-tanzu/kubeapps) - A web-based UI for deploying and managing applications in Kubernetes clusters
 - [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes sources :ship::tada:
 - [aquasecurity/tracee](https://github.com/aquasecurity/tracee) - Linux Runtime Security and Forensics using eBPF
@@ -2287,7 +2305,7 @@
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - bootstrap HashiCorp Consul, Nomad, or Vault over SSH &lt; 1 minute
 - [githubixx/ansible-role-wireguard](https://github.com/githubixx/ansible-role-wireguard) - Ansible role for installing WireGuard VPN. Supports Ubuntu, Debian, Archlinx, Fedora and CentOS.
 - [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [complexorganizations/wireguard-manager](https://github.com/complexorganizations/wireguard-manager) - ✔️ WireGuard-Manager is an innovative tool designed to streamline the deployment and management of WireGuard VPNs. Emphasizing user-friendliness and security, it simplifies the complexities of VPN con
 - [adi1090x/termux-desktop](https://github.com/adi1090x/termux-desktop) - Setup A Beautiful Desktop/GUI In Termux
 - [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) - A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
@@ -2402,7 +2420,7 @@
 - [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all
 - [ThoughtfulDev/EagleEye](https://github.com/ThoughtfulDev/EagleEye) - Stalk your Friends. Find their Instagram, FB and Twitter Profiles using Image Recognition and Reverse Image Search.
 - [Avik-Jain/100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code) - 100 Days of ML Coding
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes sources :ship::tada:
 - [muety/tg-chat-classification](https://github.com/muety/tg-chat-classification) - Naive-Bayes based classification of Telegram chat messages.
 - [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - Deepfakes Software For All
@@ -2475,7 +2493,7 @@
 - [fariasmateuss/tindev](https://github.com/fariasmateuss/tindev) - 🔥 Tindev it's app like a Tinder, but for Developers.
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) - 30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace.  These videos may 
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.
 - [spacecloud-io/space-cloud](https://github.com/spacecloud-io/space-cloud) - Open source Firebase + Heroku to develop, scale and secure serverless apps on Kubernetes
 - [danielme85/laravel-log-to-db](https://github.com/danielme85/laravel-log-to-db) - Custom Laravel and Lumen 5.6+ Log channel handler that can store log events to SQL or MongoDB databases.  Uses Laravel/Monolog native logging functionality.
@@ -2508,7 +2526,7 @@
 - [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open sour
 - [opstrace/opstrace](https://github.com/opstrace/opstrace) - The Open Source Observability Distribution
 - [gao-sun/eul](https://github.com/gao-sun/eul) - 🖥️ macOS status monitoring app written in SwiftUI.
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [arachnys/cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 - [mistio/mist-ce](https://github.com/mistio/mist-ce) - Mist is an open source, multicloud management platform
 - [laravel/telescope](https://github.com/laravel/telescope) - An elegant debug assistant for the Laravel framework.
@@ -2542,7 +2560,7 @@
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
 - [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data
 - [pacoogle/laravel-lumen-docker](https://github.com/pacoogle/laravel-lumen-docker) - Lumen platform dockerization
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [tighten/takeout](https://github.com/tighten/takeout) - Docker-based development-only dependency manager. macOS, Linux, and WSL2-only and installs via PHP's Composer... for now.
 - [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable and developer-first.
 - [spacecloud-io/space-cloud](https://github.com/spacecloud-io/space-cloud) - Open source Firebase + Heroku to develop, scale and secure serverless apps on Kubernetes
@@ -2765,6 +2783,7 @@
 
 ## others 
 
+- [metz-sh/simulacrum](https://github.com/metz-sh/simulacrum) - Code-playground to visualise complex engineering flows.
 - [pdomdev/pdom](https://github.com/pdomdev/pdom) - Multithreaded DOM is possible.
 - [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile) - Distribute and run LLMs with a single file.
 - [HKUDS/EasyRec](https://github.com/HKUDS/EasyRec) - "EasyRec: Simple yet Effective Language Model for Recommendation"
@@ -3343,7 +3362,7 @@
 - [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is an open source time-series database for fast ingest and SQL queries
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 - [prodrigestivill/docker-postgres-backup-local](https://github.com/prodrigestivill/docker-postgres-backup-local) - Backup PostgresSQL to local filesystem with periodic backups and rotate backups.
 - [directus/directus](https://github.com/directus/directus) - The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
 - [supabase/supabase](https://github.com/supabase/supabase) - The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
@@ -3379,7 +3398,7 @@
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, AI-first alternative to Jira, Linear
 - [hcengineering/platform](https://github.com/hcengineering/platform) - Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.
-- [mattermost/focalboard](https://github.com/mattermost/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
+- [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
 - [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Bring projects, wikis, and teams together with AI. AppFlowy is an AI collaborative workspace where you achieve more without losing control of your data. The best open source alternative to Notion.
 - [Hasnayeen/invobook](https://github.com/Hasnayeen/invobook) - Self-hosted app for Time Tracking, Invoice Generation, Project & Client Management, built with Laravel & Filament.
 - [lxerxa/actionview](https://github.com/lxerxa/actionview) - An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.
@@ -3534,7 +3553,7 @@
 - [piku/piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - bootstrap HashiCorp Consul, Nomad, or Vault over SSH &lt; 1 minute
 - [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) - 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources
-- [netdata/netdata](https://github.com/netdata/netdata) - The open-source observability platfrom everyone needs!
+- [netdata/netdata](https://github.com/netdata/netdata) - Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!
 
 ## react 
 
@@ -3745,6 +3764,7 @@
 
 ## security 
 
+- [secureCodeBox/secureCodeBox](https://github.com/secureCodeBox/secureCodeBox) - secureCodeBox (SCB) - continuous secure delivery out of the box
 - [pglombardo/PasswordPusher](https://github.com/pglombardo/PasswordPusher) - 🔐   Securely share sensitive information with automatic expiration & deletion after a set number of views or duration.  Track who, what and when with full audit logs.
 - [shivasurya/code-pathfinder](https://github.com/shivasurya/code-pathfinder) - Code Pathfinder, the open-source alternative to CodeQL. Designed for precise flow analysis and advanced structural search, it identifies vulnerabilities in source code.
 - [rfc-st/humble](https://github.com/rfc-st/humble) - A humble, and 𝗳𝗮𝘀𝘁, security-oriented HTTP headers analyzer.
