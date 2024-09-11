@@ -190,6 +190,7 @@
 
 ## Go 
 
+- [sqlc-dev/sqlc](https://github.com/sqlc-dev/sqlc) - Generate type-safe code from SQL
 - [coder/wush](https://github.com/coder/wush) - simplest & fastest way to transfer files between computers via WireGuard
 - [codesenberg/bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool written in Go
 - [clastix/kamaji](https://github.com/clastix/kamaji) - Kamaji is the Hosted Control Plane Manager for Kubernetes.
@@ -654,6 +655,7 @@
 
 ## Others 
 
+- [open-llm-initiative/open-message-format](https://github.com/open-llm-initiative/open-message-format) - OMF is a compact, user-friendly specification that defines a lightweight API contract between client and server for building conversational agents, and defines a standard schema for the "messages" obj
 - [ALEEEHU/Awesome-Text2X-Resources](https://github.com/ALEEEHU/Awesome-Text2X-Resources) - This is an open collection of state-of-the-art (SOTA), novel Text to X (X can be everything) methods (papers, codes and datasets).
 - [alsyundawy/Microsoft-Office-For-MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS) - Installer & Activited Microsoft Office For MacOS
 - [SummitRoute/aws_breaking_changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code
@@ -958,6 +960,8 @@
 
 ## Python 
 
+- [dailenson/One-DM](https://github.com/dailenson/One-DM) - Official Code for ECCV 2024 paper — One-Shot Diffusion Mimicker for Handwritten Text Generation
+- [phuang1024/Starst3r](https://github.com/phuang1024/Starst3r) - Fast 3D reconstruction framework using Mast3r.
 - [AuvaLab/itext2kg](https://github.com/AuvaLab/itext2kg) - Incremental Knowledge Graphs Constructor Using Large Language Models
 - [madisonmay/docai](https://github.com/madisonmay/docai) - Structured information extraction from documents
 - [feizc/FluxMusic](https://github.com/feizc/FluxMusic) - Text-to-Music Generation with Rectified Flow Transformers
@@ -1355,6 +1359,7 @@
 
 ## TypeScript 
 
+- [gabrielpetersson/fast-grid](https://github.com/gabrielpetersson/fast-grid) - World's most performant DOM-based web table.
 - [dubinc/dub](https://github.com/dubinc/dub) - Open-source link management infrastructure. Loved by modern marketing teams like Vercel, Raycast, and Perplexity.
 - [Scthe/nanite-webgpu](https://github.com/Scthe/nanite-webgpu) - UE5's Nanite implementation using WebGPU. Includes the meshlet LOD hierarchy, software rasterizer and billboard impostors. Culling on both per-instance and per-meshlet basis.
 - [RamiAwar/dataline](https://github.com/RamiAwar/dataline) - Chat with your data - AI data analysis and visualization on CSV, Postgres, MySQL, Snowflake, SQLite...
