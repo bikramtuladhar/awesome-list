@@ -2859,7 +2859,7 @@
 - [gabrielpetersson/fast-grid](https://github.com/gabrielpetersson/fast-grid) - World's most performant DOM-based web table.
 - [ALEEEHU/Awesome-Text2X-Resources](https://github.com/ALEEEHU/Awesome-Text2X-Resources) - This is an open collection of state-of-the-art (SOTA), novel Text to X (X can be everything) methods (papers, codes and datasets).
 - [AuvaLab/itext2kg](https://github.com/AuvaLab/itext2kg) - Incremental Knowledge Graphs Constructor Using Large Language Models
-- [madisonmay/docai](https://github.com/madisonmay/docai) - Structured information extraction from documents
+- [PragmaticMachineLearning/docai](https://github.com/PragmaticMachineLearning/docai) - Structured information extraction from documents
 - [feizc/FluxMusic](https://github.com/feizc/FluxMusic) - Text-to-Music Generation with Rectified Flow Transformers
 - [DaveBben/esp32-llm](https://github.com/DaveBben/esp32-llm) - Running a LLM on the ESP32
 - [mbecker20/komodo](https://github.com/mbecker20/komodo) - 🦎 a tool to build and deploy software on many servers 🦎
