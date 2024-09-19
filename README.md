@@ -1162,6 +1162,7 @@
 
 ## Rust 
 
+- [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 - [grampelberg/kty](https://github.com/grampelberg/kty) - The terminal for Kubernetes
 - [mbecker20/komodo](https://github.com/mbecker20/komodo) - 🦎 a tool to build and deploy software on many servers 🦎
 - [buffdb/buffdb](https://github.com/buffdb/buffdb) - Embedded storage built for multiplexing. Smart machines don't need to read JSON, they only need protocol buffers. The world's first MODMS (Machine-Oriented Database Management System), built to suppor
@@ -1379,7 +1380,7 @@
 - [morris/vanilla-prime](https://github.com/morris/vanilla-prime) - A simpler, more sustainable way of web development
 - [srcbookdev/srcbook](https://github.com/srcbookdev/srcbook) - TypeScript notebook for rapid prototyping
 - [dahlia/logtape](https://github.com/dahlia/logtape) - Simple logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions
-- [chartdb/chartdb](https://github.com/chartdb/chartdb) - Free and Open-source database diagrams editor, visualize and design your DB with a single query.
+- [chartdb/chartdb](https://github.com/chartdb/chartdb) - Free and open-source database diagrams editor, visualize and design your DB with a single query.
 - [kurtosis-tech/kardinal](https://github.com/kurtosis-tech/kardinal) - Kardinal is the lightest-weight way to spin up dev and test environments in Kubernetes. Deploy the absolute minimum resources necessary and implement dev, test, and QA all in one cluster.
 - [formkit/formkit](https://github.com/formkit/formkit) - Vue Forms ⚡️ Supercharged
 - [TrafficGuard/sophia](https://github.com/TrafficGuard/sophia) - TypeScript AI agent platform with Autonomous agents, Software developer agents, AI code review agents and more
