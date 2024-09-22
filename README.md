@@ -190,6 +190,7 @@
 
 ## Go 
 
+- [siderolabs/omni](https://github.com/siderolabs/omni) - SaaS-simple deployment of Kubernetes - on your own hardware.
 - [MightyMoud/sidekick](https://github.com/MightyMoud/sidekick) - Bare metal to production ready in mins; your own fly server on your VPS.
 - [openshieldai/openshield](https://github.com/openshieldai/openshield) - OpenShield is a new generation security layer for AI models
 - [sqlc-dev/sqlc](https://github.com/sqlc-dev/sqlc) - Generate type-safe code from SQL
@@ -507,7 +508,7 @@
 - [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app
 - [knative/docs](https://github.com/knative/docs) - User documentation for Knative components.
 - [cdk8s-team/cdk8s](https://github.com/cdk8s-team/cdk8s) - Define Kubernetes native apps and abstractions using object-oriented programming
-- [google/zx](https://github.com/google/zx) - A tool for writing better scripts
+- [google/zx](https://github.com/google/zx) - 🔥🔥🔥 A tool for writing better scripts 🔥🔥🔥
 - [SurajMazar/_assist](https://github.com/SurajMazar/_assist) - Node cli
 - [danielbh/node-worker-threads-vs-goroutines](https://github.com/danielbh/node-worker-threads-vs-goroutines) - an evaluation of go vs node for concurrency.
 - [Rohan-Jalil/golang-vs-php-vs-node-vs-python](https://github.com/Rohan-Jalil/golang-vs-php-vs-node-vs-python) - Benchmarking Computational power and File I/O between Golang vs PHP vs Node.JS vs Python
@@ -1284,7 +1285,7 @@
 - [serversideup/spin](https://github.com/serversideup/spin) - 🚀 Replicate your production environment locally using Docker. Just run "spin up". It's really that easy.
 - [Fadi002/unshackle](https://github.com/Fadi002/unshackle) - Open-source tool to bypass windows and linux passwords from bootable usb
 - [calcom/docker](https://github.com/calcom/docker) - The Docker configuration for Cal.com is an effort powered by people within the community. Cal.com, Inc. does not provide official support for Docker, but we will accept fixes and documentation. Use at
-- [orbstack/orbstack](https://github.com/orbstack/orbstack) - Fast, light, simple Docker containers & Linux machines for macOS
+- [orbstack/orbstack](https://github.com/orbstack/orbstack) - Fast, light, simple Docker containers & Linux machines
 - [getlago/lago](https://github.com/getlago/lago) - Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics
 - [Wowu/docker-rollout](https://github.com/Wowu/docker-rollout) - 🚀 Zero Downtime Deployment for Docker Compose
 - [Bhupesh-V/ugit](https://github.com/Bhupesh-V/ugit) - 🚨️ ugit helps undo git commands. Your damage control git buddy. Undo from 20+ git scenarios.
