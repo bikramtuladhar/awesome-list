@@ -193,7 +193,7 @@
 
 ## Go 
 
-- [DiceDB/dice](https://github.com/DiceDB/dice) - DiceDB is an in-memory, real-time, and reactive database with Redis and SQL support optimized for modern hardware and building real-time applications.
+- [DiceDB/dice](https://github.com/DiceDB/dice) - DiceDB is a redis-compliant, in-memory, real-time, and reactive database optimized for modern hardware and building and scaling truly real-time applications.
 - [atlassian/escalator](https://github.com/atlassian/escalator) - Escalator is a batch or job optimized horizontal autoscaler for Kubernetes
 - [mikestefanello/pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit in Go
 - [basecamp/kamal-proxy](https://github.com/basecamp/kamal-proxy) - Lightweight proxy server for Kamal
@@ -270,7 +270,7 @@
 - [coder/coder](https://github.com/coder/coder) - Provision remote development environments via Terraform
 - [loft-sh/devpod](https://github.com/loft-sh/devpod) - Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker.
 - [paypal/junodb](https://github.com/paypal/junodb) - JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale.
-- [artie-labs/transfer](https://github.com/artie-labs/transfer) - Database replication platform that leverages change data capture. Stream production data from databases to your data warehouse (Snowflake, BigQuery, Redshift) in real-time.
+- [artie-labs/transfer](https://github.com/artie-labs/transfer) - Database replication platform that leverages change data capture. Stream production data from databases to your data warehouse (Snowflake, BigQuery, Redshift, Databricks) in real-time.
 - [openmeterio/openmeter](https://github.com/openmeterio/openmeter) - Cloud Metering for AI, Billing and FinOps. Collect and aggregate millions of usage events in real-time.
 - [diggerhq/digger](https://github.com/diggerhq/digger) - Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline ⚡️
 - [tigrisdata-archive/tigris](https://github.com/tigrisdata-archive/tigris) - Tigris is an Open Source Serverless NoSQL Database and Search Platform.
@@ -453,7 +453,7 @@
 
 ## Java 
 
-- [kestra-io/kestra](https://github.com/kestra-io/kestra) - :zap: Open-source workflow automation platform. Orchestrate any language using YAML, hundreds of integrations. Alternative to Airflow, Zapier, RunDeck, Camunda, ...
+- [kestra-io/kestra](https://github.com/kestra-io/kestra) - :zap: Open-source workflow automation platform. Orchestrate any language using YAML, hundreds of integrations. Alternative to Airflow, n8n, RunDeck, Camunda, Jenkins...
 - [syncliteio/SyncLite](https://github.com/syncliteio/SyncLite) - SyncLite : Build Anything Sync Anywhere
 - [AutoMQ/automq](https://github.com/AutoMQ/automq) - AutoMQ is a cloud-first alternative to Kafka by decoupling durability to S3 and EBS. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency.
 - [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version ongoing
@@ -619,7 +619,6 @@
 
 ## Jupyter Notebook 
 
-- [dleemiller/WordLlama](https://github.com/dleemiller/WordLlama) - Things you can do with the token embeddings of an LLM
 - [xnought/vae-explainer](https://github.com/xnought/vae-explainer) - Interactive Variational Autoencoder (VAE)
 - [ManuelBerrueta/FlowAnalyzer](https://github.com/ManuelBerrueta/FlowAnalyzer) - FlowAnalyzer is a tool to help in testing and analyzing OAuth 2.0 Flows, including OpenID Connect (OIDC).
 - [iyaja/llama-fs](https://github.com/iyaja/llama-fs) - A self-organizing file system with llama 3
@@ -992,6 +991,7 @@
 - [Aider-AI/aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 - [Ravi-Teja-konda/Surveillance_Video_Summarizer](https://github.com/Ravi-Teja-konda/Surveillance_Video_Summarizer) - VLM driven tool that processes surveillance videos, extracts frames, and generates insightful annotations using a fine-tuned Florence-2 Vision-Language Model. Includes a Gradio-based interface for que
 - [ryota-komatsu/speaker_disentangled_hubert](https://github.com/ryota-komatsu/speaker_disentangled_hubert) - Official repository of the IEEE SLT 2024 paper "Self-Supervised Syllable Discovery Based on Speaker-Disentangled HuBERT"
+- [dleemiller/WordLlama](https://github.com/dleemiller/WordLlama) - Things you can do with the token embeddings of an LLM
 - [yanghb22-fdu/Hi3D-Official](https://github.com/yanghb22-fdu/Hi3D-Official) - [MM24] Official codes and datasets for ACM MM24 paper "Hi3D: Pursuing High-Resolution Image-to-3D Generation with Video Diffusion Models".
 - [MadcowD/ell](https://github.com/MadcowD/ell) - A language model programming library.
 - [dailenson/One-DM](https://github.com/dailenson/One-DM) - Official Code for ECCV 2024 paper — One-Shot Diffusion Mimicker for Handwritten Text Generation
