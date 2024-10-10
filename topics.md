@@ -935,7 +935,7 @@
 
 ## database 
 
-- [DiceDB/dice](https://github.com/DiceDB/dice) - DiceDB is a redis-compliant, in-memory, real-time, and reactive database optimized for modern hardware and building and scaling truly real-time applications.
+- [DiceDB/dice](https://github.com/DiceDB/dice) - DiceDB is a redis-compliant, in-memory, real-time, and reactive database optimized for modern hardware and for building and scaling truly real-time applications.
 - [julien040/anyquery](https://github.com/julien040/anyquery) - Query anything (JSON, CSV, GitHub, Airtable, etc.) with SQL and visualize your data with any MySQL-compatible BI tool.
 - [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) - YugabyteDB - the cloud native distributed SQL database for mission-critical applications.
 - [chartdb/chartdb](https://github.com/chartdb/chartdb) - Free and open-source database diagrams editor, visualize and design your DB with a single query.
@@ -1542,7 +1542,7 @@
 
 ## golang 
 
-- [DiceDB/dice](https://github.com/DiceDB/dice) - DiceDB is a redis-compliant, in-memory, real-time, and reactive database optimized for modern hardware and building and scaling truly real-time applications.
+- [DiceDB/dice](https://github.com/DiceDB/dice) - DiceDB is a redis-compliant, in-memory, real-time, and reactive database optimized for modern hardware and for building and scaling truly real-time applications.
 - [atlassian/escalator](https://github.com/atlassian/escalator) - Escalator is a batch or job optimized horizontal autoscaler for Kubernetes
 - [mikestefanello/pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit in Go
 - [openshieldai/openshield](https://github.com/openshieldai/openshield) - OpenShield is a new generation security layer for AI models
@@ -1696,7 +1696,7 @@
 
 ## hacktoberfest 
 
-- [DiceDB/dice](https://github.com/DiceDB/dice) - DiceDB is a redis-compliant, in-memory, real-time, and reactive database optimized for modern hardware and building and scaling truly real-time applications.
+- [DiceDB/dice](https://github.com/DiceDB/dice) - DiceDB is a redis-compliant, in-memory, real-time, and reactive database optimized for modern hardware and for building and scaling truly real-time applications.
 - [pulkitsharma07/OnlyHumans-Proxy](https://github.com/pulkitsharma07/OnlyHumans-Proxy) - An experimental AntiBot, AntiCrawl reverse proxy for serving simple static content.
 - [kestra-io/kestra](https://github.com/kestra-io/kestra) - :zap: Workflow Automation Platform. Orchestrate & Schedule code in any language, run anywhere, 500+ plugins. Alternative to Zapier, Rundeck, Camunda, Airflow...
 - [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) - Proxy server to bypass Cloudflare protection
@@ -1728,6 +1728,7 @@
 - [scratchdata/scratchdata](https://github.com/scratchdata/scratchdata) - Scratch is a swiss army knife for big data.
 - [boxyhq/saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - 🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀
 - [konstructio/kubefirst](https://github.com/konstructio/kubefirst) - The Kubefirst Open Source Platform
+- [mckinsey/vizro](https://github.com/mckinsey/vizro) - Vizro is a toolkit for creating modular data visualization applications.
 - [shayonj/pg_easy_replicate](https://github.com/shayonj/pg_easy_replicate) - Easily setup logical replication and switchover to new database with minimal downtime
 - [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GitOps enabled, CloudNative feature management solution
 - [earthly/earthly](https://github.com/earthly/earthly) - Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby.
@@ -2982,7 +2983,7 @@
 - [mbecker20/komodo](https://github.com/mbecker20/komodo) - 🦎 a tool to build and deploy software on many servers 🦎
 - [Scthe/nanite-webgpu](https://github.com/Scthe/nanite-webgpu) - UE5's Nanite implementation using WebGPU. Includes the meshlet LOD hierarchy, software rasterizer and billboard impostors. Culling on both per-instance and per-meshlet basis.
 - [anthropics/anthropic-quickstarts](https://github.com/anthropics/anthropic-quickstarts) - A collection of projects designed to help developers quickly get started with building deployable applications using the Anthropic API
-- [saoudrizwan/claude-dev](https://github.com/saoudrizwan/claude-dev) - Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, and more with your permission every step of the way.
+- [clinebot/cline](https://github.com/clinebot/cline) - Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, and more with your permission every step of the way.
 - [gnmyt/Nexterm](https://github.com/gnmyt/Nexterm) - The open source server management software for SSH, VNC & RDP
 - [syncliteio/SyncLite](https://github.com/syncliteio/SyncLite) - SyncLite : Build Anything Sync Anywhere
 - [buffdb/buffdb](https://github.com/buffdb/buffdb) - Embedded storage built for multiplexing. Smart machines don't need to read JSON, they only need protocol buffers. The world's first MODMS (Machine-Oriented Database Management System), built to suppor
