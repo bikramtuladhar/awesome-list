@@ -1043,7 +1043,7 @@
 
 ## design 
 
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Figma for React. Design directly in your live React site and publish your changes to code.
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
 - [ira-design/ira-illustrations](https://github.com/ira-design/ira-illustrations) - Build your own amazing illustrations
 - [prasadgujar/low-level-design-primer](https://github.com/prasadgujar/low-level-design-primer) - Dedicated Resources for the Low-Level System Design. Learn how to design and implement large-scale systems. Prep for the system design interview.
@@ -1263,7 +1263,7 @@
 ## electron 
 
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Figma for React. Design directly in your live React site and publish your changes to code.
 - [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui) - A hybrid command-line/UI development experience for cloud-native development
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
 - [nut-tree/nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node
@@ -1394,7 +1394,7 @@
 ## frontend 
 
 - [vitonsky/arrival-time](https://github.com/vitonsky/arrival-time) - Simple and powerful progress time estimation (ETA) for JavaScript
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Figma for React. Design directly in your live React site and publish your changes to code.
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
 - [blenderskool/blaze](https://github.com/blenderskool/blaze) - ⚡ File sharing progressive web app built using WebTorrent and WebSockets
 - [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) - Collection of handy online tools for developers, with great UX.
@@ -1720,12 +1720,13 @@
 - [patched-codes/patchwork](https://github.com/patched-codes/patchwork) - Automate code reviews, patching and documentation with self-hosted LLM workflows.
 - [mfts/papermark](https://github.com/mfts/papermark) - Papermark is the open-source DocSend alternative with built-in analytics and custom domains.
 - [apify/crawlee-python](https://github.com/apify/crawlee-python) - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Figma for React. Design directly in your live React site and publish your changes to code.
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
 - [KusionStack/kusion](https://github.com/KusionStack/kusion) - Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP).
 - [xataio/pgroll](https://github.com/xataio/pgroll) - PostgreSQL zero-downtime migrations made easy
 - [mnfst/manifest](https://github.com/mnfst/manifest) - A Backend so simple that it fits in a YAML file ✨
 - [daytonaio/daytona](https://github.com/daytonaio/daytona) - The Open Source Dev Environment Manager.
+- [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open source data anonymization and synthetic data orchestration for developers. Create high fidelity synthetic data and sync it across your environments.
 - [eraser-dev/eraser](https://github.com/eraser-dev/eraser) - 🧹 Cleaning up images from Kubernetes nodes
 - [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) - Deliver Go binaries as fast and easily as possible
 - [tembo-io/pgmq](https://github.com/tembo-io/pgmq) - A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.
@@ -1992,7 +1993,7 @@
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
 - [nlkitai/nlux](https://github.com/nlkitai/nlux) - The 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 Conversational AI JavaScript Library 💬 — UI for any LLM, supporting LangChain / HuggingFace / Vercel AI, and more 🧡 React, Next.js, and plain JavaScript ⭐️
 - [xenova/transformers.js](https://github.com/xenova/transformers.js) - State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!
-- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Rate limiting, bot protection, email verification & attack defense for Node.js, Next.js, Bun & SvelteKit.
+- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, SvelteKit, NestJS.
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database diagram editor and SQL generator.
 - [PostHog/posthog](https://github.com/PostHog/posthog) - 🦔 PostHog provides open-source product analytics, session recording, feature flagging and A/B testing that you can self-host.
@@ -2496,7 +2497,7 @@
 ## low-code 
 
 - [kestra-io/kestra](https://github.com/kestra-io/kestra) - :zap: Workflow Automation Platform. Orchestrate & Schedule code in any language, run anywhere, 500+ plugins. Alternative to Zapier, Rundeck, Camunda, Airflow...
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Figma for React. Design directly in your live React site and publish your changes to code.
 - [activepieces/activepieces](https://github.com/activepieces/activepieces) - Your friendliest open source AI automation tool ✨ Workflow automation tool 200+ integration / Enterprise automation tool / Zapier Alternative
 - [teableio/teable](https://github.com/teableio/teable) - ✨ The Next Gen Airtable Alternative: No-Code Postgres
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) - Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.
@@ -2744,10 +2745,10 @@
 - [dubinc/dub](https://github.com/dubinc/dub) - Open-source link management infrastructure. Loved by modern marketing teams like Vercel, Raycast, and Perplexity.
 - [shuding/nextra](https://github.com/shuding/nextra) - Simple, powerful and flexible site generation framework with everything you love from Next.js.
 - [mfts/papermark](https://github.com/mfts/papermark) - Papermark is the open-source DocSend alternative with built-in analytics and custom domains.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Figma for React. Design directly in your live React site and publish your changes to code.
 - [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) - 🏓  The open-source synthetic monitoring platform  🏓
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) - Build your own second brain with supermemory. It's a ChatGPT for your bookmarks. Import tweets or save websites and content using the chrome extension.
-- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Rate limiting, bot protection, email verification & attack defense for Node.js, Next.js, Bun & SvelteKit.
+- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, SvelteKit, NestJS.
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open source data anonymization and synthetic data orchestration for developers. Create high fidelity synthetic data and sync it across your environments.
 - [phospho-app/phospho](https://github.com/phospho-app/phospho) - Text analytics for LLM apps. Cluster messages to detect use cases, outliers, power users. Detect intents and run evals with LLM (OpenAI, MistralAI, Ollama, etc.)
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
@@ -2809,7 +2810,7 @@
 - [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) - Headless TypeScript ORM with a head. Runs on Node, Bun and Deno. Lives on the Edge and yes, it's a JavaScript ORM too 😅
 - [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
-- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Rate limiting, bot protection, email verification & attack defense for Node.js, Next.js, Bun & SvelteKit.
+- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, SvelteKit, NestJS.
 - [hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet) - A distributed, fault-tolerant task queue
 - [immich-app/immich](https://github.com/immich-app/immich) - High performance self-hosted photo and video management solution.
 - [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) - A natural language interface for computers
@@ -2822,7 +2823,7 @@
 - [facebook/memlab](https://github.com/facebook/memlab) - A framework for finding JavaScript memory leaks and analyzing heap snapshots
 - [mojolicious/mojo.js](https://github.com/mojolicious/mojo.js) - :unicorn: The Mojolicious real-time web framework for Node.js
 - [Infisical/infisical](https://github.com/Infisical/infisical) - ♾ Infisical is the open-source secret management platform: Sync secrets across your team/infrastructure, prevent secret leaks, and manage internal PKI
-- [thevahidal/soul](https://github.com/thevahidal/soul) - 🕉 Soul | A automatic SQLite RESTful  and realtime API server | Build CRUD APIs in seconds!
+- [thevahidal/soul](https://github.com/thevahidal/soul) - 🕉 Soul | Automatic SQLite RESTful  and realtime API server | Build CRUD APIs in seconds!
 - [fastify/fastify](https://github.com/fastify/fastify) - Fast and low overhead web framework, for Node.js
 - [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
 - [e-dant/watcher](https://github.com/e-dant/watcher) - Filesystem watcher. Works anywhere. Simple, efficient and friendly.
@@ -2964,6 +2965,7 @@
 
 ## others 
 
+- [splitbrain/clipscreen](https://github.com/splitbrain/clipscreen) - Mirror a portion of your screen to a virtual monitor for easier screen sharing.
 - [elijah-potter/harper](https://github.com/elijah-potter/harper) - The Grammar Checker for Developers
 - [openai/swarm](https://github.com/openai/swarm) - Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
 - [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) - Terraform Provider for Proxmox
@@ -3793,7 +3795,7 @@
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, dev-first alternative to Jira, Linear
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
 - [incidentalhq/incidental](https://github.com/incidentalhq/incidental) - An opensource incident management platform integrating with Slack.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Figma for React. Design directly in your live React site and publish your changes to code.
 - [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open source data anonymization and synthetic data orchestration for developers. Create high fidelity synthetic data and sync it across your environments.
@@ -4016,7 +4018,7 @@
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
 - [Legit-Labs/legitify](https://github.com/Legit-Labs/legitify) - Detect and remediate misconfigurations and security risks across all your GitHub and GitLab assets
 - [Ostorlab/oxo](https://github.com/Ostorlab/oxo) - OXO is a security scanning orchestrator for the modern age.
-- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Rate limiting, bot protection, email verification & attack defense for Node.js, Next.js, Bun & SvelteKit.
+- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, SvelteKit, NestJS.
 - [securityjoes/MasterParser](https://github.com/securityjoes/MasterParser) - MasterParser is a powerful DFIR tool designed for analyzing and parsing Linux logs
 - [build-trust/ockam](https://github.com/build-trust/ockam) - Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
 - [cerbos/cerbos](https://github.com/cerbos/cerbos) - Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policie
@@ -4113,7 +4115,7 @@
 - [serverless/aws-ai-stack](https://github.com/serverless/aws-ai-stack) - AWS AI Stack – A ready-to-use, full-stack boilerplate project for building serverless AI applications on AWS
 - [AutoMQ/automq](https://github.com/AutoMQ/automq) - AutoMQ is a cloud-first alternative to Kafka by decoupling durability to S3 and EBS. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency.
 - [restatedev/restate](https://github.com/restatedev/restate) - Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD.
-- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Rate limiting, bot protection, email verification & attack defense for Node.js, Next.js, Bun & SvelteKit.
+- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, SvelteKit, NestJS.
 - [artilleryio/artillery](https://github.com/artilleryio/artillery) - The complete load testing platform. Everything you need for production-grade load tests. Serverless & distributed. Load test with Playwright. Load test HTTP APIs, GraphQL, WebSocket, and more. Use any
 - [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) - Trigger.dev is the open source background jobs platform.
 - [microfeed/microfeed](https://github.com/microfeed/microfeed) - a lightweight cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.
@@ -4241,7 +4243,7 @@
 - [orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync) - SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge.
 - [harelba/q](https://github.com/harelba/q) - q - Run SQL directly on delimited files and multi-file sqlite databases
 - [michael/editable-website](https://github.com/michael/editable-website) - A SvelteKit template for building CMS-free editable websites
-- [thevahidal/soul](https://github.com/thevahidal/soul) - 🕉 Soul | A automatic SQLite RESTful  and realtime API server | Build CRUD APIs in seconds!
+- [thevahidal/soul](https://github.com/thevahidal/soul) - 🕉 Soul | Automatic SQLite RESTful  and realtime API server | Build CRUD APIs in seconds!
 - [turbot/steampipe](https://github.com/turbot/steampipe) - Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required.
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, local first, reactive Database for JavaScript Applications https://rxdb.info/
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
@@ -4314,7 +4316,7 @@
 
 - [dubinc/dub](https://github.com/dubinc/dub) - Open-source link management infrastructure. Loved by modern marketing teams like Vercel, Raycast, and Perplexity.
 - [mfts/papermark](https://github.com/mfts/papermark) - Papermark is the open-source DocSend alternative with built-in analytics and custom domains.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Figma for React. Design directly in your live React site and publish your changes to code.
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) - Build your own second brain with supermemory. It's a ChatGPT for your bookmarks. Import tweets or save websites and content using the chrome extension.
 - [wandb/openui](https://github.com/wandb/openui) - OpenUI let's you describe UI using your imagination, then see it rendered live.
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database diagram editor and SQL generator.
@@ -4442,13 +4444,13 @@
 - [mfts/papermark](https://github.com/mfts/papermark) - Papermark is the open-source DocSend alternative with built-in analytics and custom domains.
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, dev-first alternative to Jira, Linear
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Webflow alternative. Design directly in your live React site and publish your changes to code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The open source, local-first Figma for React. Design directly in your live React site and publish your changes to code.
 - [event-driven-io/Pongo](https://github.com/event-driven-io/Pongo) - Pongo - Mongo but on Postgres and with strong consistency benefits
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) - Build your own second brain with supermemory. It's a ChatGPT for your bookmarks. Import tweets or save websites and content using the chrome extension.
 - [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) - Headless TypeScript ORM with a head. Runs on Node, Bun and Deno. Lives on the Edge and yes, it's a JavaScript ORM too 😅
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
 - [SawyerHood/tlbrowse](https://github.com/SawyerHood/tlbrowse) - Generate imagined websites on an infinite canvas
-- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Rate limiting, bot protection, email verification & attack defense for Node.js, Next.js, Bun & SvelteKit.
+- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, SvelteKit, NestJS.
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open source data anonymization and synthetic data orchestration for developers. Create high fidelity synthetic data and sync it across your environments.
 - [activepieces/activepieces](https://github.com/activepieces/activepieces) - Your friendliest open source AI automation tool ✨ Workflow automation tool 200+ integration / Enterprise automation tool / Zapier Alternative
 - [phospho-app/phospho](https://github.com/phospho-app/phospho) - Text analytics for LLM apps. Cluster messages to detect use cases, outliers, power users. Detect intents and run evals with LLM (OpenAI, MistralAI, Ollama, etc.)
