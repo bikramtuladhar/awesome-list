@@ -433,7 +433,6 @@
 - [markmead/hyperui](https://github.com/markmead/hyperui) - Free Tailwind CSS components for application UI, ecommerce and marketing with support for dark mode, RTL and Alpine JS 🚀
 - [re-data/re-data](https://github.com/re-data/re-data) - re_data - fix data issues before your users & CEO would discover them 😊
 - [ira-design/ira-illustrations](https://github.com/ira-design/ira-illustrations) - Build your own amazing illustrations
-- [leaningtech/webvm](https://github.com/leaningtech/webvm) - Virtual Machine for the Web
 - [learning-zone/docker-and-kubernetes-basics](https://github.com/learning-zone/docker-and-kubernetes-basics) - Docker and Kubernetes Basics
 - [subspacecloud/subspace](https://github.com/subspacecloud/subspace) - A simple WireGuard VPN server GUI
 - [smaranjitghose/awesome-portfolio-websites](https://github.com/smaranjitghose/awesome-portfolio-websites) - A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged websit
@@ -497,7 +496,7 @@
 - [chartbrew/chartbrew](https://github.com/chartbrew/chartbrew) - Open-source web platform used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more  📈📊
 - [serkan-ozal/leanser](https://github.com/serkan-ozal/leanser) - AWS Lambda Cleaner - Cleanup resources on AWS Lambda container shutdown (timeout and/or spin-down)
 - [mafintosh/why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node is running but you don't know why? why-is-node-running is here to help you.
-- [xenova/transformers.js](https://github.com/xenova/transformers.js) - State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!
+- [huggingface/transformers.js](https://github.com/huggingface/transformers.js) - State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!
 - [dillondesilva/codehelium](https://github.com/dillondesilva/codehelium) - An editor component that compiles, executes and returns the outputs of any user-written code via Pyodide/Emscripten/Webassembly.
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database diagram editor and SQL generator.
@@ -1063,7 +1062,7 @@
 - [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) - Open Source framework for voice and multimodal conversational AI
 - [nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc) - InstructDoc: A Dataset for Zero-Shot Generalization of Visual Document Understanding with Instructions (AAAI2024)
 - [phospho-app/phospho](https://github.com/phospho-app/phospho) - Text analytics for LLM apps. Cluster messages to detect use cases, outliers, power users. Detect intents and run evals with LLM (OpenAI, MistralAI, Ollama, etc.)
-- [databonsai/databonsai](https://github.com/databonsai/databonsai) - clean & curate your data with LLMs.
+- [alvin-r/databonsai](https://github.com/alvin-r/databonsai) - clean & curate your data with LLMs.
 - [charliermarsh/whisper.cpp-cli](https://github.com/charliermarsh/whisper.cpp-cli) - Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux.
 - [openai/openai-security-bots](https://github.com/openai/openai-security-bots) - 
 - [amalshaji/portr](https://github.com/amalshaji/portr) - Open source ngrok alternative designed for teams. Tunnel http, tcp or websocket connections.
@@ -1374,6 +1373,7 @@
 - [nilskj/editable-website](https://github.com/nilskj/editable-website) - A SvelteKit template for building CMS-free editable websites
 - [michael/editable-website](https://github.com/michael/editable-website) - A SvelteKit template for building CMS-free editable websites
 - [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - A complete design system and component solution, built on Tailwind.
+- [leaningtech/webvm](https://github.com/leaningtech/webvm) - Virtual Machine for the Web
 
 ## Swift 
 
@@ -1406,6 +1406,7 @@
 
 ## TypeScript 
 
+- [DefGuard/defguard](https://github.com/DefGuard/defguard) - The only _real_ 2FA MFA WireGuard Enterprise VPN with build-in SSO, hardware keys management and more!
 - [brisa-build/brisa](https://github.com/brisa-build/brisa) - The Web Platform Framework.
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
 - [percona/everest](https://github.com/percona/everest) - Percona Everest is a cloud-native database platform to deploy and manage enterprise-grade PostgreSQL, MongoDB and MySQL database clusters.
@@ -1418,7 +1419,7 @@
 - [loggerhead/json4u](https://github.com/loggerhead/json4u) - 
 - [haystackeditor/haystack-editor](https://github.com/haystackeditor/haystack-editor) - 
 - [yournextstore/yournextstore](https://github.com/yournextstore/yournextstore) - Modern Commerce with Next.js and Stripe as the backend.
-- [gabrielpetersson/fast-grid](https://github.com/gabrielpetersson/fast-grid) - World's most performant DOM-based web table.
+- [gabrielpetersson/fast-grid](https://github.com/gabrielpetersson/fast-grid) - World's most performant DOM-based web table. Try it! fast-grid.vercel.app/
 - [dubinc/dub](https://github.com/dubinc/dub) - Open-source link management infrastructure. Loved by modern marketing teams like Vercel, Raycast, and Perplexity.
 - [Scthe/nanite-webgpu](https://github.com/Scthe/nanite-webgpu) - UE5's Nanite implementation using WebGPU. Includes the meshlet LOD hierarchy, software rasterizer and billboard impostors. Culling on both per-instance and per-meshlet basis.
 - [RamiAwar/dataline](https://github.com/RamiAwar/dataline) - Chat with your data - AI data analysis and visualization on CSV, Postgres, MySQL, Snowflake, SQLite...
