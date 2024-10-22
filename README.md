@@ -117,6 +117,7 @@
 
 ## C++ 
 
+- [microsoft/BitNet](https://github.com/microsoft/BitNet) - Official inference framework for 1-bit LLMs
 - [splitbrain/clipscreen](https://github.com/splitbrain/clipscreen) - Mirror a portion of your screen to a virtual monitor for easier screen sharing.
 - [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile) - Distribute and run LLMs with a single file.
 - [AnswerDotAI/gpu.cpp](https://github.com/AnswerDotAI/gpu.cpp) - A lightweight library for portable low-level GPU computation using WebGPU.
@@ -988,6 +989,8 @@
 
 ## Python 
 
+- [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) - Implementation of F5-TTS in MLX
+- [yoheinakajima/ditto](https://github.com/yoheinakajima/ditto) - the simplest self-building coding agent
 - [VikParuchuri/tabled](https://github.com/VikParuchuri/tabled) - Detect and extract tables to markdown and csv
 - [praetorian-inc/gato](https://github.com/praetorian-inc/gato) - GitHub Actions Pipeline Enumeration and Attack Tool
 - [vectra-ai-research/Halberd](https://github.com/vectra-ai-research/Halberd) - Halberd : Multi-Cloud Security Testing Tool to execute a comprehensive array of attack techniques across multiple surfaces via a simple web interface.
@@ -1197,6 +1200,7 @@
 
 ## Rust 
 
+- [microsoft/openvmm](https://github.com/microsoft/openvmm) - Home of OpenVMM and OpenHCL.
 - [elijah-potter/harper](https://github.com/elijah-potter/harper) - The Grammar Checker for Developers
 - [achristmascarl/rainfrog](https://github.com/achristmascarl/rainfrog) - 🐸 a database management tui for postgres
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
