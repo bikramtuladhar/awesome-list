@@ -195,6 +195,7 @@
 
 ## Go 
 
+- [yarlson/ftl](https://github.com/yarlson/ftl) - 🚀 FTL is a powerful deployment tool that simplifies the process of setting up servers and deploying applications.
 - [bitbomdev/minefield](https://github.com/bitbomdev/minefield) - Graphing SBOM's Fast.
 - [Melkeydev/go-blueprint](https://github.com/Melkeydev/go-blueprint) - Go-blueprint allows users to spin up a quick Go project using a popular framework
 - [cerberauth/vulnapi](https://github.com/cerberauth/vulnapi) - API Security Vulnerability Scanner designed to help you secure your APIs.
@@ -487,7 +488,6 @@
 ## JavaScript 
 
 - [urin/vscode-web-visual-editor](https://github.com/urin/vscode-web-visual-editor) - Edit HTML files visually.
-- [MingSun-Tse/LightAvatar-TensorFlow](https://github.com/MingSun-Tse/LightAvatar-TensorFlow) - TensorFlow code for our ECCV'24 Workshop paper "LightAvatar: Efficient Head Avatar as Dynamic NeLF"
 - [sindresorhus/nano-spawn](https://github.com/sindresorhus/nano-spawn) - Tiny process execution for humans — a better child_process
 - [muze-nl/jaqt](https://github.com/muze-nl/jaqt) - GraphQL-style Array.select() and Array.where() for javascript
 - [serverless/aws-ai-stack](https://github.com/serverless/aws-ai-stack) - AWS AI Stack – A ready-to-use, full-stack boilerplate project for building serverless AI applications on AWS
@@ -991,6 +991,7 @@
 
 ## Python 
 
+- [protectai/vulnhuntr](https://github.com/protectai/vulnhuntr) - Zero shot vulnerability discovery using LLMs
 - [usefulsensors/moonshine](https://github.com/usefulsensors/moonshine) - Fast and accurate automatic speech recognition (ASR) for edge devices
 - [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) - Implementation of F5-TTS in MLX
 - [yoheinakajima/ditto](https://github.com/yoheinakajima/ditto) - the simplest self-building coding agent
@@ -1000,6 +1001,7 @@
 - [openai/swarm](https://github.com/openai/swarm) - Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
 - [PaperMtn/slack-watchman](https://github.com/PaperMtn/slack-watchman) - Slack enumeration and exposed secrets detection tool
 - [NexaAI/nexa-sdk](https://github.com/NexaAI/nexa-sdk) - Nexa SDK is a comprehensive toolkit for supporting ONNX and GGML models. It supports text generation, image generation, vision-language models (VLM), auto-speech-recognition (ASR), and text-to-speech 
+- [MingSun-Tse/LightAvatar-TensorFlow](https://github.com/MingSun-Tse/LightAvatar-TensorFlow) - TensorFlow code for our ECCV'24 Workshop paper "LightAvatar: Efficient Head Avatar as Dynamic NeLF"
 - [taylorai/aiq](https://github.com/taylorai/aiq) - ai for jq
 - [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) - Proxy server to bypass Cloudflare protection
 - [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) - Brand new TTS solution
@@ -1309,6 +1311,7 @@
 
 ## Shell 
 
+- [e-m-b-a/emba](https://github.com/e-m-b-a/emba) - EMBA - The firmware security analyzer
 - [antongisli/maas-baremetal-k8s-tutorial](https://github.com/antongisli/maas-baremetal-k8s-tutorial) - Step by step tutorial for bare metal K8s on a single machine
 - [nicolaka/netshoot](https://github.com/nicolaka/netshoot) - a Docker + Kubernetes network trouble-shooting swiss-army container
 - [GaiaNet-AI/gaianet-node](https://github.com/GaiaNet-AI/gaianet-node) - Install and run your own AI agent service
