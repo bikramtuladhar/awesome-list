@@ -1533,7 +1533,7 @@
 - [cheeselemon/ophiuchi-desktop](https://github.com/cheeselemon/ophiuchi-desktop) - A local https proxy server manager using docker
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
 - [SawyerHood/tlbrowse](https://github.com/SawyerHood/tlbrowse) - Generate imagined websites on an infinite canvas
-- [mnfst/manifest](https://github.com/mnfst/manifest) - The 1-file Headless CMS. ⭐ to support the project !
+- [mnfst/manifest](https://github.com/mnfst/manifest) - The 1-file micro-backend. ⭐ to support the project !
 - [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui) - A hybrid command-line/UI development experience for cloud-native development
 - [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, Remix, SvelteKit, NestJS.
 - [ragapp/ragapp](https://github.com/ragapp/ragapp) - The easiest way to use Agentic RAG in any enterprise
@@ -1646,7 +1646,7 @@
 - [NickMandylas/start-a-conversation](https://github.com/NickMandylas/start-a-conversation) - A service that randomly matches users in a one-on-one phone conversion, where they can chat anonymously.
 - [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
 - [reck1ess/next-realworld-example-app](https://github.com/reck1ess/next-realworld-example-app) - Exemplary real world application built with Next.js + SWR
-- [Unleash/unleash](https://github.com/Unleash/unleash) - Open-source feature management solution built for developers.
+- [Unleash/unleash](https://github.com/Unleash/unleash) - Open-source feature management platform
 - [alfirmanpahlepi/google-form-clone](https://github.com/alfirmanpahlepi/google-form-clone) - google forms clone
 - [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.
 - [ericellb/React-Discord-Clone](https://github.com/ericellb/React-Discord-Clone) - Discord Clone using React, Node, Express, Socket-IO and Mysql
