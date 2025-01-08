@@ -173,7 +173,7 @@
 ## Dart 
 
 - [fzyzcjy/flutter_smooth](https://github.com/fzyzcjy/flutter_smooth) - Achieve ~60 FPS, no matter how heavy the tree is to build/layout
-- [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Bring projects, wikis, and teams together with AI. AppFlowy is an AI collaborative workspace where you achieve more without losing control of your data. The best open source alternative to Notion.
+- [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
 
 ## Dockerfile 
 
@@ -239,7 +239,7 @@
 - [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
 - [d3witt/viking](https://github.com/d3witt/viking) - Simple way to manage your remote machines and SSH keys
 - [kurtosis-tech/kardinal](https://github.com/kurtosis-tech/kardinal) - Kardinal is the lightest-weight way to spin up dev and test environments in Kubernetes. Deploy the absolute minimum resources necessary and implement dev, test, and QA all in one cluster.
-- [shivasurya/code-pathfinder](https://github.com/shivasurya/code-pathfinder) - Code Pathfinder, the open-source alternative to GitHub CodeQL. Built for advanced structural search, derive insights, find vulnerabilities in code.
+- [shivasurya/code-pathfinder](https://github.com/shivasurya/code-pathfinder) - Code Pathfinder, the open-source alternative to GitHub CodeQL built with GoLang. Built for advanced structural search, derive insights, find vulnerabilities in code.
 - [semaphoreui/semaphore](https://github.com/semaphoreui/semaphore) - Modern UI and powerful API for Ansible, Terraform, OpenTofu, PowerShell and other DevOps tools.
 - [GreenmaskIO/greenmask](https://github.com/GreenmaskIO/greenmask) - PostgreSQL database anonymization and synthetic data generation tool
 - [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager) - Kubernetes cloud controller manager for Proxmox
@@ -309,7 +309,7 @@
 - [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) - The API traffic analyzer for Kubernetes providing real-time K8s protocol-level visibility, capturing and monitoring all traffic and payloads going in, out and across containers, pods, nodes and cluste
 - [acheong08/ChatGPT-API-server](https://github.com/acheong08/ChatGPT-API-server) - API server for ChatGPT
 - [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) - Open Source realtime backend in 1 file
-- [apache/incubator-answer](https://github.com/apache/incubator-answer) - A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
+- [apache/answer](https://github.com/apache/answer) - A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
 - [flyteorg/flyte](https://github.com/flyteorg/flyte) - Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.
 - [gobuffalo/buffalo](https://github.com/gobuffalo/buffalo) - Rapid Web Development w/ Go
 - [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
@@ -1183,7 +1183,7 @@
 - [localstack/localstack](https://github.com/localstack/localstack) - 💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
 - [edgedb/edgedb](https://github.com/edgedb/edgedb) - A graph-relational database with declarative schema, built-in migration system, and a next-generation query language
 - [dalibo/pg_activity](https://github.com/dalibo/pg_activity) - pg_activity is a top like application for PostgreSQL server activity monitoring.
-- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - Platform for building AI that can learn and answer questions over federated data.
+- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - AGI's query engine - Platform for building AI that can learn and answer questions over federated data.
 - [DonDebonair/slack-machine](https://github.com/DonDebonair/slack-machine) - A simple, yet powerful and extendable Slack bot
 - [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server
 - [Miksus/rocketry](https://github.com/Miksus/rocketry) - Modern scheduling library for Python
@@ -1286,7 +1286,7 @@
 - [wasmi-labs/wasmi](https://github.com/wasmi-labs/wasmi) - WebAssembly (Wasm) interpreter.
 - [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) - Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
 - [awslabs/coldsnap](https://github.com/awslabs/coldsnap) - A command line interface for Amazon EBS snapshots
-- [spiceai/spiceai](https://github.com/spiceai/spiceai) - A data query and AI-inference compute engine written in Rust using Apache Arrow and DataFusion for secure, fast, agentic AI applications.
+- [spiceai/spiceai](https://github.com/spiceai/spiceai) - A portable SQL query and AI compute engine, written in Rust, for data-driven apps and agents.
 - [lapce/lapdev](https://github.com/lapce/lapdev) - Self-Hosted Remote Dev Environment
 - [microsoft/aici](https://github.com/microsoft/aici) - AICI: Prompts as (Wasm) Programs
 - [cloudflare/pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services.
@@ -1479,7 +1479,7 @@
 - [reltadev/github-assistant](https://github.com/reltadev/github-assistant) - Explore GitHub repositories with natural language questions
 - [mastra-ai/mastra](https://github.com/mastra-ai/mastra) - The TypeScript AI framework.
 - [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) - An open-source, cross-platform terminal for seamless workflows
-- [Canner/WrenAI](https://github.com/Canner/WrenAI) - 🚀 An open-source SQL AI (Text-to-SQL) Agent that empowers data, product teams to chat with their data. 🤘
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - 🤖 Open-source AI Agent that empowers data, product teams to chat with their data to generate Text-to-SQL, charts, spreadsheets, reports, and BI. 📈📊📋🧑‍💻
 - [stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy) - Prompt, run, edit, and deploy full-stack web applications using any LLM you want!
 - [ant-design/x](https://github.com/ant-design/x) - Craft AI-driven interfaces effortlessly 🤖
 - [callstackincubator/cali](https://github.com/callstackincubator/cali) - AI agent for building React Native apps
@@ -1598,7 +1598,7 @@
 - [Sh4yy/cloudflare-email](https://github.com/Sh4yy/cloudflare-email) - This is a simple proxy server that can be used for sending free transactional emails through Cloudflare workers.
 - [aralroca/default-composer](https://github.com/aralroca/default-composer) - A tiny (~500B) JavaScript library that allows you to set default values for nested objects
 - [algolia/autocomplete](https://github.com/algolia/autocomplete) - 🔮 Fast and full-featured autocomplete library
-- [kubero-dev/kubero](https://github.com/kubero-dev/kubero) - A free and self-hosted PaaS alternative to Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes
+- [kubero-dev/kubero](https://github.com/kubero-dev/kubero) - A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes
 - [fern-api/fern](https://github.com/fern-api/fern) - Input OpenAPI. Output SDKs and Docs.
 - [hocus-dev/hocus](https://github.com/hocus-dev/hocus) - 🪄 Spin up ready-to-code, disposable dev environments on your own servers. Self-hosted alternative to Gitpod and Github Codespaces.
 - [nat/openplayground](https://github.com/nat/openplayground) - An LLM playground you can run on your laptop
@@ -1651,7 +1651,7 @@
 - [mantinedev/mantine](https://github.com/mantinedev/mantine) - A fully featured React components library
 - [javascriptdata/danfojs](https://github.com/javascriptdata/danfojs) - Danfo.js is an open source, JavaScript library providing high performance, intuitive, and easy to use data structures for manipulating and processing structured data.
 - [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)
-- [amplication/amplication](https://github.com/amplication/amplication) - 🔥🔥🔥 The Only Production-Ready AI-Powered Backend Code Generation
+- [amplication/amplication](https://github.com/amplication/amplication) - Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, si
 - [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) - Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.
 - [Ninroot/nacre](https://github.com/Ninroot/nacre) - Intuitive Shell
 - [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) - A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins.
@@ -1707,7 +1707,7 @@
 - [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
 - [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
 - [NangoHQ/nango](https://github.com/NangoHQ/nango) - A single API for all your integrations.
-- [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.
+- [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.
 - [bernaferrari/FigmaToCode](https://github.com/bernaferrari/FigmaToCode) - Generate responsive pages and apps on HTML, Tailwind, Flutter and SwiftUI.
 - [homebridge/homebridge](https://github.com/homebridge/homebridge) - HomeKit support for the impatient.
 - [puncoz-official/nepali-datepicker-reactjs](https://github.com/puncoz-official/nepali-datepicker-reactjs) - Nepali Datepicker (Bikram Sambat) as a ReactJS component
