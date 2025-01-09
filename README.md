@@ -466,7 +466,7 @@
 - [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Freely available programming books
 - [GaneshKhadka/Employee-management-system-in-laravel](https://github.com/GaneshKhadka/Employee-management-system-in-laravel) - Employee management system.This is a project based on laravel framework.You can fork it and can download or clone it.
 - [shakthisachintha/Hospital-Management-System-Laravel](https://github.com/shakthisachintha/Hospital-Management-System-Laravel) - Hospital Management System Laravel
-- [UnderMybrella/EternalJukebox](https://github.com/UnderMybrella/EternalJukebox) - The internal workings for the Eternal Jukebox, a rehosting of the Infinite Jukebox
+- [EternalBox/EternalJukebox](https://github.com/EternalBox/EternalJukebox) - The internal workings for the Eternal Jukebox, a rehosting of the Infinite Jukebox
 - [abhivaikar/howtheytest](https://github.com/abhivaikar/howtheytest) - A collection of public resources about how software companies test their software
 - [alpinejs/alpine](https://github.com/alpinejs/alpine) - A rugged, minimal framework for composing JavaScript behavior in your markup.
 - [lubusIN/laravel-decomposer](https://github.com/lubusIN/laravel-decomposer) - ⚙️ A Laravel package to decompose your installed packages, their dependencies, your app & server environment
@@ -846,7 +846,7 @@
 - [outl1ne/nova-settings](https://github.com/outl1ne/nova-settings) - A Laravel Nova tool for editing custom settings using native Nova fields.
 - [humanmade/S3-Uploads](https://github.com/humanmade/S3-Uploads) - The WordPress Plugin to Store Uploads on Amazon S3
 - [pacoogle/laravel-lumen-docker](https://github.com/pacoogle/laravel-lumen-docker) - Lumen platform dockerization
-- [lakasir/lakasir](https://github.com/lakasir/lakasir) - POS open-source, simplicity is all you need just need something simple
+- [lakasir/lakasir](https://github.com/lakasir/lakasir) - POS open-source, simple things just need simple solutions
 - [spatie/nova-translatable](https://github.com/spatie/nova-translatable) - Making Nova fields translatable
 - [outl1ne/nova-translatable](https://github.com/outl1ne/nova-translatable) - A Laravel Nova package that allows you to make any input field translatable.
 - [hyperf/hyperf](https://github.com/hyperf/hyperf) - 🚀 A coroutine framework that focuses on hyperspeed and flexibility. Building microservice or middleware with ease.
@@ -1286,7 +1286,7 @@
 - [wasmi-labs/wasmi](https://github.com/wasmi-labs/wasmi) - WebAssembly (Wasm) interpreter.
 - [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) - Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
 - [awslabs/coldsnap](https://github.com/awslabs/coldsnap) - A command line interface for Amazon EBS snapshots
-- [spiceai/spiceai](https://github.com/spiceai/spiceai) - A portable SQL query and AI compute engine, written in Rust, for data-driven apps and agents.
+- [spiceai/spiceai](https://github.com/spiceai/spiceai) - A portable SQL query and AI compute engine, written in Rust, for data-grounded apps and agents.
 - [lapce/lapdev](https://github.com/lapce/lapdev) - Self-Hosted Remote Dev Environment
 - [microsoft/aici](https://github.com/microsoft/aici) - AICI: Prompts as (Wasm) Programs
 - [cloudflare/pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services.
