@@ -140,7 +140,7 @@
 - [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) - Tesseract Open Source OCR Engine (main repository)
 - [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) - GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.
 - [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) - Port of OpenAI's Whisper model in C/C++
-- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
 - [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎🏖️🐬 Your new, 𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart clipboard manager
 - [logicalclocks/rondb](https://github.com/logicalclocks/rondb) - This is RonDB, a distribution of NDB Cluster developed and used by Hopsworks AB. It also contains development branches of RonDB.
@@ -182,7 +182,7 @@
 ## Dockerfile 
 
 - [jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles) - Various Dockerfiles I use on the desktop and on servers.
-- [ethibox/awesome-stacks](https://github.com/ethibox/awesome-stacks) - Deploy 120+ open-source web apps with one Docker command
+- [ethibox/awesome-stacks](https://github.com/ethibox/awesome-stacks) - Deploy 150+ open-source web apps with one Docker command
 - [melehin/graphql-engine-arm64](https://github.com/melehin/graphql-engine-arm64) - Dockerfile for hasura/graphql-engine to run on arm64/aarch64 (tested on Nvidia Jetson Nano, Rpi4, Apple M1).
 - [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.4 & Nginx 1.26 on Alpine Linux
 - [linuxserver-archive/docker-openvpn-as](https://github.com/linuxserver-archive/docker-openvpn-as) - DEPRECATED
@@ -525,10 +525,10 @@
 - [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) - API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites
 - [usebruno/bruno](https://github.com/usebruno/bruno) - Opensource IDE For Exploring and Testing Api's (lightweight alternative to postman/insomnia)
 - [thepersonalaicompany/amurex](https://github.com/thepersonalaicompany/amurex) - World's first AI meeting copilot
-- [steel-dev/steel-browser](https://github.com/steel-dev/steel-browser) - 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser instance that lets you automate the web without worrying about infrastructure.
 - [bluewave-labs/Checkmate](https://github.com/bluewave-labs/Checkmate) - Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations.
 - [vltpkg/vsr](https://github.com/vltpkg/vsr) - a minimal npm-compatible package registry
 - [automatisch/automatisch](https://github.com/automatisch/automatisch) - The open source Zapier alternative. Build workflow automation without spending time and money.
+- [DocumindHQ/documind](https://github.com/DocumindHQ/documind) - Open-source platform for extracting structured data from documents using AI.
 - [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - Docker container for managing Nginx proxy hosts with a simple, powerful interface
 - [urin/vscode-web-visual-editor](https://github.com/urin/vscode-web-visual-editor) - Edit HTML files visually.
 - [sindresorhus/nano-spawn](https://github.com/sindresorhus/nano-spawn) - Tiny process execution for humans — a better child_process
@@ -661,7 +661,6 @@
 
 ## Jinja 
 
-- [Vonng/pigsty](https://github.com/Vonng/pigsty) - Free RDS for PostgreSQL —— Pigsty
 - [netbootxyz/netboot.xyz](https://github.com/netbootxyz/netboot.xyz) - Your favorite operating systems in one place.  A network-based bootable operating system installer based on iPXE.
 - [ahembree/ansible-hms-docker](https://github.com/ahembree/ansible-hms-docker) - Ansible playbook for automated home media server setup
 - [amritb/poor-mans-vpn](https://github.com/amritb/poor-mans-vpn) - An ansible playbook to set up wireguard server.
@@ -680,7 +679,6 @@
 - [google-gemini/cookbook](https://github.com/google-gemini/cookbook) - Examples and guides for using the Gemini API
 - [xnought/vae-explainer](https://github.com/xnought/vae-explainer) - Interactive Variational Autoencoder (VAE)
 - [ManuelBerrueta/FlowAnalyzer](https://github.com/ManuelBerrueta/FlowAnalyzer) - FlowAnalyzer is a tool to help in testing and analyzing OAuth 2.0 Flows, including OpenID Connect (OIDC).
-- [iyaja/llama-fs](https://github.com/iyaja/llama-fs) - A self-organizing file system with llama 3
 - [reworkd/tarsier](https://github.com/reworkd/tarsier) - Vision utilities for web interaction agents 👀
 - [cfahlgren1/natural-sql](https://github.com/cfahlgren1/natural-sql) - A series of top performing Text to SQL LLMs
 - [WhisperSpeech/WhisperSpeech](https://github.com/WhisperSpeech/WhisperSpeech) - An Open Source text-to-speech system built by inverting Whisper.
@@ -830,7 +828,7 @@
 - [imliam/cpx](https://github.com/imliam/cpx) - Run any command from any composer package, even if it's not installed in your project.
 - [vitodeploy/vito](https://github.com/vitodeploy/vito) - Free and Self-Hosted  Server Management Tool
 - [tighten/tlint](https://github.com/tighten/tlint) - Tighten linter for Laravel conventions.
-- [qossmic/deptrac](https://github.com/qossmic/deptrac) - Keep your architecture clean.
+- [deptrac/deptrac](https://github.com/deptrac/deptrac) - Keep your architecture clean.
 - [sandip-jobin/magika-file-validator](https://github.com/sandip-jobin/magika-file-validator) - 
 - [matomo-org/device-detector](https://github.com/matomo-org/device-detector) - The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
 - [tempestphp/tempest-framework](https://github.com/tempestphp/tempest-framework) - The PHP framework that gets out of your way 🌊
@@ -1316,7 +1314,7 @@
 - [tellerops/teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
 - [tailcallhq/tailcall](https://github.com/tailcallhq/tailcall) - High Performance GraphQL Runtime
 - [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
-- [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, DuckDB, ClickHouse]
+- [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, DuckDB, ClickHouse, Microsoft SQL Server]
 - [letmutex/htmd](https://github.com/letmutex/htmd) - A turndown.js inspired HTML to Markdown converter for Rust
 - [restatedev/restate](https://github.com/restatedev/restate) - Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD.
 - [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
@@ -1411,6 +1409,7 @@
 
 - [cloudposse/geodesic](https://github.com/cloudposse/geodesic) - 🚀 Geodesic is a DevOps Linux Toolbox in Docker
 - [e-m-b-a/emba](https://github.com/e-m-b-a/emba) - EMBA - The firmware security analyzer
+- [Vonng/pigsty](https://github.com/Vonng/pigsty) - Free RDS for PostgreSQL —— Pigsty
 - [antongisli/maas-baremetal-k8s-tutorial](https://github.com/antongisli/maas-baremetal-k8s-tutorial) - Step by step tutorial for bare metal K8s on a single machine
 - [nicolaka/netshoot](https://github.com/nicolaka/netshoot) - a Docker + Kubernetes network trouble-shooting swiss-army container
 - [GaiaNet-AI/gaianet-node](https://github.com/GaiaNet-AI/gaianet-node) - Install and run your own AI agent service
@@ -1531,12 +1530,12 @@
 - [ant-design/x](https://github.com/ant-design/x) - Craft AI-driven interfaces effortlessly 🤖
 - [callstackincubator/cali](https://github.com/callstackincubator/cali) - AI agent for building React Native apps
 - [tonghohin/screen-sharing](https://github.com/tonghohin/screen-sharing) - Share your screen with one simple room code. No downloads or sign-ups required.
+- [steel-dev/steel-browser](https://github.com/steel-dev/steel-browser) - 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser instance that lets you automate the web without worrying about infrastructure.
 - [browserbase/stagehand](https://github.com/browserbase/stagehand) - An AI web browsing framework focused on simplicity and extensibility.
 - [outerbase/studio](https://github.com/outerbase/studio) - A lightweight Database GUI in your browser. It supports connecting to Postgres, MySQL, and SQLite.
 - [my-badges/my-badges](https://github.com/my-badges/my-badges) - Google's Moma Badges for GitHub
 - [fireproof-storage/fireproof](https://github.com/fireproof-storage/fireproof) - Realtime database, runs anywhere. Install Fireproof in your front-end app or edge function, and sync data via any backend.
 - [haydenbleasel/next-forge](https://github.com/haydenbleasel/next-forge) - Production-grade Turborepo template for Next.js apps.
-- [DocumindHQ/documind](https://github.com/DocumindHQ/documind) - Open-source platform for extracting structured data from documents using AI.
 - [molvqingtai/WebChat](https://github.com/molvqingtai/WebChat) - 💬 Chat with anyone on any website.
 - [mlc-ai/web-llm-chat](https://github.com/mlc-ai/web-llm-chat) - Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations.
 - [varse-io/varse](https://github.com/varse-io/varse) - A fast application config manager
@@ -1599,6 +1598,7 @@
 - [hcengineering/platform](https://github.com/hcengineering/platform) - Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)
 - [cheeselemon/ophiuchi-desktop](https://github.com/cheeselemon/ophiuchi-desktop) - A local https proxy server manager using docker
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
+- [iyaja/llama-fs](https://github.com/iyaja/llama-fs) - A self-organizing file system with llama 3
 - [SawyerHood/tlbrowse](https://github.com/SawyerHood/tlbrowse) - Generate imagined websites on an infinite canvas
 - [mnfst/manifest](https://github.com/mnfst/manifest) - The 1-file micro-backend. ⭐ to support the project !
 - [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui) - A hybrid command-line/UI development experience for cloud-native development
@@ -1719,7 +1719,7 @@
 - [ericellb/React-Discord-Clone](https://github.com/ericellb/React-Discord-Clone) - Discord Clone using React, Node, Express, Socket-IO and Mysql
 - [benawad/dogehouse](https://github.com/benawad/dogehouse) - Taking voice conversations to the moon 🚀
 - [shubhsk88/realbnb-frontend](https://github.com/shubhsk88/realbnb-frontend) - 
-- [openreplay/openreplay](https://github.com/openreplay/openreplay) - Session replay and product analytics you can self-host. Ideal for reproducing issues, co-browsing with users and optimizing your product.
+- [openreplay/openreplay](https://github.com/openreplay/openreplay) - Session replay, cobrowsing and product analytics you can self-host. Ideal for reproducing issues and iterating on your product.
 - [vercel/platforms](https://github.com/vercel/platforms) - A full-stack Next.js app with multi-tenancy and custom domain support. Built with Next.js App Router and the Vercel Domains API.
 - [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) - Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more.
 - [taybenlor/runno](https://github.com/taybenlor/runno) - Sandboxed runtime for programming languages and WASI binaries. Works in the browser or on your server.
@@ -1747,7 +1747,7 @@
 - [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
 - [tinacms/tinacms](https://github.com/tinacms/tinacms) - A fully open-source headless CMS that supports Markdown and Visual Editing
 - [gridaco/grida](https://github.com/gridaco/grida) - Build anything with ⚡️ Supabase
-- [appwrite/appwrite](https://github.com/appwrite/appwrite) - Your backend, minus the hassle.
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - Build like a team of hundreds_
 - [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
 - [pavlobu/deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer. ⭐️ Star to support our work!
 - [porter-dev/porter-archive](https://github.com/porter-dev/porter-archive) - Kubernetes powered PaaS that runs in your own cloud.
@@ -1763,6 +1763,7 @@
 - [supabase/supabase](https://github.com/supabase/supabase) - The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
 - [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) - Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
 - [coreui/coreui-icons](https://github.com/coreui/coreui-icons) - CoreUI Free Icons -  Premium designed free icon set with marks in SVG, Webfont and raster formats
+- [tmdh/laravel-kit](https://github.com/tmdh/laravel-kit) - A desktop Laravel admin panel app
 - [avored/laravel-ecommerce](https://github.com/avored/laravel-ecommerce) - AvoRed an Open Source Laravel Shopping Cart
 - [pshihn/sockly](https://github.com/pshihn/sockly) - 
 - [sinclairzx81/zero](https://github.com/sinclairzx81/zero) - A 3D renderer written in JavaScript and rendered to the terminal.
@@ -1783,7 +1784,6 @@
 - [InfinetyEs/Nova-Filemanager](https://github.com/InfinetyEs/Nova-Filemanager) - A Filemanager tool for Laravel Nova
 - [wobsoriano/vue-keep](https://github.com/wobsoriano/vue-keep) - Google Keep clone with Vue, Typescript and Firestore
 - [bastienwirtz/homer](https://github.com/bastienwirtz/homer) - A very simple static homepage for your server.
-- [tmdh/laravel-kit](https://github.com/tmdh/laravel-kit) - A desktop Laravel admin panel app
 - [themsaid/wink](https://github.com/themsaid/wink) - A Laravel-based publishing platform
 - [lesspod/lesspod-2.0](https://github.com/lesspod/lesspod-2.0) - Serverless CMS (Currently In Development)
 - [64robots/nova-fields](https://github.com/64robots/nova-fields) - A collection of customizable Nova Fields.
