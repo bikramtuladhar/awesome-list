@@ -3589,7 +3589,7 @@
 - [creativeorange/gravatar](https://github.com/creativeorange/gravatar) - A Laravel Gravatar package for retrieving gravatar image URLs or checking the existance of an image.
 - [msurguy/Honeypot](https://github.com/msurguy/Honeypot) - Simple spam prevention package for Laravel applications
 - [albertcht/invisible-recaptcha](https://github.com/albertcht/invisible-recaptcha) - An invisible reCAPTCHA package for Laravel, Lumen, CI or native PHP.
-- [ladybirdweb/agora-invoicing-community](https://github.com/ladybirdweb/agora-invoicing-community) - Agora Open source SaaS billing system for software companies
+- [ladybirdweb/faveo-invoicing-community](https://github.com/ladybirdweb/faveo-invoicing-community) - Faveo Invoicing Open source SaaS billing system for software companies
 - [jeremykenedy/laravel2step](https://github.com/jeremykenedy/laravel2step) - Laravel 2-Step verification is a package to add 2-Step user authentication to any Laravel project easily. It is configurable and customizable. It uses notifications to send the user an email with a 4-
 - [VentureCraft/revisionable](https://github.com/VentureCraft/revisionable) - Easily create a revision history for any laravel model
 - [jamesmills/laravel-timezone](https://github.com/jamesmills/laravel-timezone) - Enable user Timezones in your application.
