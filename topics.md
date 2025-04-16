@@ -3688,7 +3688,7 @@
 - [profglavcho/mt6735-kernel-3.10.61](https://github.com/profglavcho/mt6735-kernel-3.10.61) - 
 - [ampache/ampache](https://github.com/ampache/ampache) - A web based audio/video streaming application and file manager allowing you to access your music & videos from anywhere, using almost any internet enabled device.
 - [joohoi/acme-dns](https://github.com/joohoi/acme-dns) - Limited DNS server with RESTful HTTP API to handle ACME DNS challenges easily and securely.
-- [snipe/snipe-it](https://github.com/snipe/snipe-it) - A free open source IT asset/license management system
+- [grokability/snipe-it](https://github.com/grokability/snipe-it) - A free open source IT asset/license management system
 - [frictionlessdata/tableschema-php](https://github.com/frictionlessdata/tableschema-php) - A php library for working with Table Schema.
 - [younginnovations/aidstream](https://github.com/younginnovations/aidstream) - AidStream is a platform for small and medium size NGOs to publish their aid data in IATI standard.
 - [charlesBochet/cropchat](https://github.com/charlesBochet/cropchat) - Progressive Web Application made with VueJS
@@ -4135,6 +4135,7 @@
 
 ## react 
 
+- [kern/filepizza](https://github.com/kern/filepizza) - :pizza: Peer-to-peer file transfers in your browser
 - [goatplatform/goatdb](https://github.com/goatplatform/goatdb) - An Embedded, Distributed, Document DB
 - [CapSoftware/Cap](https://github.com/CapSoftware/Cap) - Open source Loom alternative. Beautiful, shareable screen recordings.
 - [aidenybai/react-scan](https://github.com/aidenybai/react-scan) - Scan for React performance issues and eliminate slow renders in your app
