@@ -328,7 +328,7 @@
 - [artie-labs/transfer](https://github.com/artie-labs/transfer) - Database replication platform that leverages change data capture. Stream production data from databases to your data warehouse (Snowflake, BigQuery, Redshift, Databricks) in real-time.
 - [openmeterio/openmeter](https://github.com/openmeterio/openmeter) - Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.
 - [diggerhq/digger](https://github.com/diggerhq/digger) - Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline ⚡️
-- [tigrisdata-archive/tigris](https://github.com/tigrisdata-archive/tigris) - Tigris is an Open Source Serverless NoSQL Database and Search Platform.
+- [tigrisdata-archive/tigris](https://github.com/tigrisdata-archive/tigris) - Tigris is a globally distributed, multi-cloud object storage service with built-in support for the S3 API. It uses Dynamic Data Placement and Access-Based Rebalancing to deliver low-latency access wor
 - [getlago/lago](https://github.com/getlago/lago) - Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics
 - [aws/eks-anywhere](https://github.com/aws/eks-anywhere) - Run Amazon EKS on your own infrastructure 🚀
 - [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) - A PDF processor written in Go.
@@ -681,7 +681,7 @@
 ## Jinja 
 
 - [netbootxyz/netboot.xyz](https://github.com/netbootxyz/netboot.xyz) - Your favorite operating systems in one place.  A network-based bootable operating system installer based on iPXE.
-- [ahembree/ansible-hms-docker](https://github.com/ahembree/ansible-hms-docker) - Ansible playbook for automated home media server setup
+- [ahembree/ansible-hms-docker](https://github.com/ahembree/ansible-hms-docker) - Ansible playbook for an orchestrated Home Media Server deployment
 - [amritb/poor-mans-vpn](https://github.com/amritb/poor-mans-vpn) - An ansible playbook to set up wireguard server.
 - [geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi) - Raspberry Pi config for all things Internet.
 - [githubixx/ansible-role-wireguard](https://github.com/githubixx/ansible-role-wireguard) - Ansible role for installing WireGuard VPN. Supports Ubuntu, Debian, Archlinx, Fedora and CentOS.
@@ -1156,7 +1156,7 @@
 - [patched-codes/patchwork](https://github.com/patched-codes/patchwork) - Agentic AI framework for enterprise workflow automation.
 - [aydinnyunus/gpt4-captcha-bypass](https://github.com/aydinnyunus/gpt4-captcha-bypass) - Captcha Bypass using GPT4-o
 - [modular/stack-pr](https://github.com/modular/stack-pr) - A tool for working with stacked PRs on github.
-- [rendercv/rendercv](https://github.com/rendercv/rendercv) - The engine of the RenderCV App
+- [rendercv/rendercv](https://github.com/rendercv/rendercv) - Version-control CVs/resumes as source code
 - [randombk/llm2sh](https://github.com/randombk/llm2sh) - Ask GPT to run a command
 - [exo-explore/exo](https://github.com/exo-explore/exo) - Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
 - [apify/crawlee-python](https://github.com/apify/crawlee-python) - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works
@@ -1330,7 +1330,7 @@
 - [drogus/jawsm](https://github.com/drogus/jawsm) - JavaScript to WASM compiler
 - [microsoft/openvmm](https://github.com/microsoft/openvmm) - Home of OpenVMM and OpenHCL.
 - [Automattic/harper](https://github.com/Automattic/harper) - Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
-- [achristmascarl/rainfrog](https://github.com/achristmascarl/rainfrog) - 🐸 a database management tui for postgres
+- [achristmascarl/rainfrog](https://github.com/achristmascarl/rainfrog) - 🐸 a database management tui
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 - [grampelberg/kty](https://github.com/grampelberg/kty) - The terminal for Kubernetes
 - [moghtech/komodo](https://github.com/moghtech/komodo) - 🦎 a tool to build and deploy software on many servers 🦎
