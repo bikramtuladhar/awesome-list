@@ -1144,7 +1144,7 @@
 
 ## design 
 
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - Skeleton is an adaptive design system powered by Tailwind CSS.
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
 - [ira-design/ira-illustrations](https://github.com/ira-design/ira-illustrations) - Build your own amazing illustrations
@@ -1267,7 +1267,7 @@
 - [google/gvisor](https://github.com/google/gvisor) - Application Kernel for Containers
 - [serversideup/spin](https://github.com/serversideup/spin) - 🚀 Replicate your production environment locally using Docker. Just run "spin up". It's really that easy.
 - [F1bonacc1/process-compose](https://github.com/F1bonacc1/process-compose) - Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.
-- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps
+- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
 - [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet.
 - [loft-sh/devpod](https://github.com/loft-sh/devpod) - Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker.
@@ -1530,7 +1530,7 @@
 
 - [goatplatform/goatdb](https://github.com/goatplatform/goatdb) - An Embedded, Distributed, Document DB
 - [vitonsky/arrival-time](https://github.com/vitonsky/arrival-time) - Simple and powerful progress time estimation (ETA) for JavaScript
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
 - [blenderskool/blaze](https://github.com/blenderskool/blaze) - ⚡ File sharing progressive web app built using WebTorrent and WebSockets
 - [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) - Collection of handy online tools for developers, with great UX.
@@ -1736,7 +1736,7 @@
 - [amalshaji/portr](https://github.com/amalshaji/portr) - Expose local http, tcp or websocket connections to the public internet
 - [F1bonacc1/process-compose](https://github.com/F1bonacc1/process-compose) - Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.
 - [cerbos/cerbos](https://github.com/cerbos/cerbos) - Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policie
-- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps
+- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
 - [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
 - [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, GitOps enabled, CloudNative feature management solution
 - [coder/coder](https://github.com/coder/coder) - Provision remote development environments via Terraform
@@ -1896,7 +1896,7 @@
 - [patched-codes/patchwork](https://github.com/patched-codes/patchwork) - Agentic AI framework for enterprise workflow automation.
 - [mfts/papermark](https://github.com/mfts/papermark) - Papermark is the open-source DocSend alternative with built-in analytics and custom domains.
 - [apify/crawlee-python](https://github.com/apify/crawlee-python) - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
 - [KusionStack/kusion](https://github.com/KusionStack/kusion) - Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP).
 - [xataio/pgroll](https://github.com/xataio/pgroll) - PostgreSQL zero-downtime migrations made easy
@@ -2326,7 +2326,7 @@
 - [odigos-io/odigos](https://github.com/odigos-io/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
 - [retracedhq/retraced](https://github.com/retracedhq/retraced) - 🔥 A fully open source audit logs service and embeddable UI easily deployed to your own Kubernetes cluster. Brought to you by replicated.com and boxyhq.com  🚀
 - [cerbos/cerbos](https://github.com/cerbos/cerbos) - Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policie
-- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps
+- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
 - [konstructio/kubefirst](https://github.com/konstructio/kubefirst) - The Kubefirst Open Source Platform
 - [cloudnative-pg/cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg) - CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoin
 - [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by Clickhouse and OpenTelemetry.
@@ -2699,7 +2699,7 @@
 - [goatplatform/goatdb](https://github.com/goatplatform/goatdb) - An Embedded, Distributed, Document DB
 - [automatisch/automatisch](https://github.com/automatisch/automatisch) - The open source Zapier alternative. Build workflow automation without spending time and money.
 - [kestra-io/kestra](https://github.com/kestra-io/kestra) - :zap: Workflow Automation Platform. Orchestrate & Schedule code in any language, run anywhere, 600+ plugins. Alternative to Airflow, n8n, Rundeck, VMware vRA, Zapier ...
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [teableio/teable](https://github.com/teableio/teable) - ✨ The Next Gen Airtable Alternative: No-Code Postgres
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - [mui/toolpad](https://github.com/mui/toolpad) - Toolpad: Full stack components and low-code builder for dashboards and internal apps.
@@ -2967,7 +2967,7 @@
 - [dubinc/dub](https://github.com/dubinc/dub) - The modern link attribution platform. Loved by world-class marketing teams like Twilio, Buffer, Framer, Perplexity, Vercel, and more.
 - [shuding/nextra](https://github.com/shuding/nextra) - Simple, powerful and flexible site generation framework with everything you love from Next.js.
 - [mfts/papermark](https://github.com/mfts/papermark) - Papermark is the open-source DocSend alternative with built-in analytics and custom domains.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) - 🏓  The open-source synthetic monitoring platform  🏓
 - [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, Remix, SvelteKit, NestJS.
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open Source Data Security Platform for Developers to Monitor and Detect PII, Anonymize Production Data and Sync it across environments.
@@ -3010,7 +3010,7 @@
 ## no-code 
 
 - [automatisch/automatisch](https://github.com/automatisch/automatisch) - The open source Zapier alternative. Build workflow automation without spending time and money.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [teableio/teable](https://github.com/teableio/teable) - ✨ The Next Gen Airtable Alternative: No-Code Postgres
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - [langgenius/dify](https://github.com/langgenius/dify) - Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you q
@@ -4146,7 +4146,7 @@
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, dev-first alternative to Jira, Linear
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
 - [incidentalhq/incidental](https://github.com/incidentalhq/incidental) - An opensource incident management platform integrating with Slack.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database diagram editor and SQL generator.
@@ -4399,7 +4399,7 @@
 - [opengovern/opensecurity](https://github.com/opengovern/opensecurity) - opensecurity: open-source security and compliance. See and secure your cloud, containers, code, networks, deployments, devices. Define your rules, get precise checks, fix gaps fast. Streamlined audits
 - [build-trust/ockam](https://github.com/build-trust/ockam) - Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
 - [cerbos/cerbos](https://github.com/cerbos/cerbos) - Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policie
-- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps
+- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
 - [kac89/vulnrepo](https://github.com/kac89/vulnrepo) - VULNRΞPO - Free vulnerability report generator and repository, end-to-end encrypted! Templates of issues, CWE,CVE,MITRE ATT&CK,PCI DSS, import Nmap/Nessus/Burp/OpenVAS/Bugcrowd/Trivy, Jira export, TXT
 - [eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT) - AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents
 - [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
@@ -4750,7 +4750,7 @@
 - [haydenbleasel/next-forge](https://github.com/haydenbleasel/next-forge) - Production-grade Turborepo template for Next.js apps.
 - [dubinc/dub](https://github.com/dubinc/dub) - The modern link attribution platform. Loved by world-class marketing teams like Twilio, Buffer, Framer, Perplexity, Vercel, and more.
 - [mfts/papermark](https://github.com/mfts/papermark) - Papermark is the open-source DocSend alternative with built-in analytics and custom domains.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) - Build your own second brain with supermemory. It's a ChatGPT for your bookmarks. Import tweets or save websites and content using the chrome extension.
 - [wandb/openui](https://github.com/wandb/openui) - OpenUI let's you describe UI using your imagination, then see it rendered live.
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database diagram editor and SQL generator.
@@ -4911,7 +4911,7 @@
 - [mfts/papermark](https://github.com/mfts/papermark) - Papermark is the open-source DocSend alternative with built-in analytics and custom domains.
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, dev-first alternative to Jira, Linear
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [event-driven-io/Pongo](https://github.com/event-driven-io/Pongo) - Pongo - Mongo but on Postgres and with strong consistency benefits
 - [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen data explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB, Elastic Search, and Clickhouse with Chat interface
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) - Build your own second brain with supermemory. It's a ChatGPT for your bookmarks. Import tweets or save websites and content using the chrome extension.
@@ -4999,7 +4999,7 @@
 ## ui 
 
 - [StacDev/stac](https://github.com/StacDev/stac) - Stac (formerly Mirai) is a Server-Driven UI (SDUI) framework for Flutter, enabling you to create stunning, cross-platform applications dynamically with JSON. Build and update your app's UI in real-tim
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - Open source vibe coding app
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
 - [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui) - A hybrid command-line/UI development experience for cloud-native development
 - [FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar) - A highly customizable macOS status bar replacement
 - [sailboatui/sailboatui](https://github.com/sailboatui/sailboatui) - Sailboat UI is a modern UI component library for Tailwind CSS
