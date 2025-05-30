@@ -76,7 +76,6 @@
 - [lubusIN/laravel-decomposer](https://github.com/lubusIN/laravel-decomposer) - ⚙️ A Laravel package to decompose your installed packages, their dependencies, your app & server environment
 - [snowfire/Beautymail](https://github.com/snowfire/Beautymail) - Send beautiful HTML emails with Laravel
 - [Jimmy-JS/laravel-report-generator](https://github.com/Jimmy-JS/laravel-report-generator) - Rapidly Generate Simple Pdf, CSV, & Excel Report Package on Laravel
-- [lubusIN/laravel-gymie](https://github.com/lubusIN/laravel-gymie) - 👨‍💻 Gym & Club Management System https://gymie.in
 - [Qoraiche/laravel-mail-editor](https://github.com/Qoraiche/laravel-mail-editor) - MailEclipse :zap: Laravel Mail Editor
 - [grocy/grocy](https://github.com/grocy/grocy) - ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home
 - [laravel/laravel](https://github.com/laravel/laravel) - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.
@@ -978,6 +977,7 @@
 - [range-of-motion/budget](https://github.com/range-of-motion/budget) - Get a grip on your finances.
 - [realodix/urlhub](https://github.com/realodix/urlhub) - ✂️ URL shortener web application based on the Laravel PHP Framework.
 - [imanghafoori1/laravel-MasterPass](https://github.com/imanghafoori1/laravel-MasterPass) - Helps you securely setup a master password and login into user accounts with it.
+- [lubusIN/laravel-gymie](https://github.com/lubusIN/laravel-gymie) - 👨‍💻 Gym & Club Management System https://gymie.in
 - [beyondcode/laravel-websockets](https://github.com/beyondcode/laravel-websockets) - Websockets for Laravel. Done right.
 - [vkovic/laravel-custom-casts](https://github.com/vkovic/laravel-custom-casts) - Make your own custom cast type for Laravel model attributes
 - [albertcht/invisible-recaptcha](https://github.com/albertcht/invisible-recaptcha) - An invisible reCAPTCHA package for Laravel, Lumen, CI or native PHP.
@@ -1170,6 +1170,7 @@
 - [Ostorlab/oxo](https://github.com/Ostorlab/oxo) - OXO is a security scanning orchestrator for the modern age.
 - [HKUDS/XRec](https://github.com/HKUDS/XRec) - [EMNLP'2024] "XRec: Large Language Models for Explainable Recommendation"
 - [jiacai2050/shellgpt](https://github.com/jiacai2050/shellgpt) - Chat with LLM in your terminal, be it shell generator, story teller, linux-terminal, etc.
+- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
 - [lavague-ai/LaVague](https://github.com/lavague-ai/LaVague) - Large Action Model framework to develop AI Web Agents
 - [ChrisBuilds/terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects) - TerminalTextEffects (TTE) is a terminal visual effects engine, application, and Python library.
 - [tobymao/sqlglot](https://github.com/tobymao/sqlglot) - Python SQL Parser and Transpiler
@@ -1615,7 +1616,7 @@
 - [aieditor-team/AiEditor](https://github.com/aieditor-team/AiEditor) - AiEditor is a next-generation rich text editor for AI.
 - [tegonhq/tegon](https://github.com/tegonhq/tegon) - Tegon is an open-source, dev-first alternative to Jira, Linear
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Open-Source Visual Vibecoding Editor – Visually build, style, and edit your React App with AI
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Cursor for Designers • An Open-Source Visual Vibecoding Editor • Visually build, style, and edit your React App with AI
 - [event-driven-io/Pongo](https://github.com/event-driven-io/Pongo) - Pongo - Mongo but on Postgres and with strong consistency benefits
 - [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen data explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB, Elastic Search, and Clickhouse with Chat interface
 - [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) - 🏓  The open-source synthetic monitoring platform  🏓
@@ -1633,7 +1634,6 @@
 - [SawyerHood/tlbrowse](https://github.com/SawyerHood/tlbrowse) - Generate imagined websites on an infinite canvas
 - [mnfst/manifest](https://github.com/mnfst/manifest) - 🦚 The 1-file backend.
 - [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui) - A hybrid command-line/UI development experience for cloud-native development
-- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
 - [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, Remix, SvelteKit, NestJS.
 - [ragapp/ragapp](https://github.com/ragapp/ragapp) - The easiest way to use Agentic RAG in any enterprise
 - [wandb/openui](https://github.com/wandb/openui) - OpenUI let's you describe UI using your imagination, then see it rendered live.
