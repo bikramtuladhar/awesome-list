@@ -1133,7 +1133,7 @@
 - [Storia-AI/sage](https://github.com/Storia-AI/sage) - Chat with any codebase in under two minutes | Fully local or via third-party APIs
 - [OWASP/Nettacker](https://github.com/OWASP/Nettacker) - Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management
 - [HKUDS/EasyRec](https://github.com/HKUDS/EasyRec) - "EasyRec: Simple yet Effective Language Model for Recommendation"
-- [katanaml/sparrow](https://github.com/katanaml/sparrow) - Data processing and instruction calling with ML, LLM and Vision LLM
+- [katanaml/sparrow](https://github.com/katanaml/sparrow) - Structured data extraction and instruction calling with ML, LLM and Vision LLM
 - [fanqiwan/FuseAI](https://github.com/fanqiwan/FuseAI) - FuseAI Project
 - [mem0ai/mem0](https://github.com/mem0ai/mem0) - Memory for AI Agents; Announcing OpenMemory MCP - local and secure memory management.
 - [langflow-ai/langflow](https://github.com/langflow-ai/langflow) - Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
@@ -1299,7 +1299,7 @@
 
 ## Ruby 
 
-- [ubicloud/ubicloud](https://github.com/ubicloud/ubicloud) - Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services in public beta.
+- [ubicloud/ubicloud](https://github.com/ubicloud/ubicloud) - Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services.
 - [pglombardo/PasswordPusher](https://github.com/pglombardo/PasswordPusher) - 🔐   Securely share sensitive information with automatic expiration & deletion after a set number of views or duration.  Track who, what and when with full audit logs.
 - [DomT4/homebrew-autoupdate](https://github.com/DomT4/homebrew-autoupdate) - :tropical_drink: An easy, convenient way to automatically update Homebrew.
 - [rails/solid_queue](https://github.com/rails/solid_queue) - Database-backed Active Job backend
@@ -1332,7 +1332,7 @@
 - [beac0n/ruroco](https://github.com/beac0n/ruroco) - Ruroco is a tool that lets you execute commands on a server by sending UDP packets. The commands are configured on the server side, so the client does not define what is going to be executed, it only 
 - [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
 - [hsfzxjy/handwriter.ttf](https://github.com/hsfzxjy/handwriter.ttf) - Handwriting synthesis with Harfbuzz WASM.
-- [supabase/etl](https://github.com/supabase/etl) - Build Postgres replication apps in Rust
+- [supabase/etl](https://github.com/supabase/etl) - Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines.
 - [tellerops/teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
 - [tailcallhq/tailcall](https://github.com/tailcallhq/tailcall) - High Performance GraphQL Runtime
 - [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
@@ -1351,7 +1351,7 @@
 - [readysettech/readyset](https://github.com/readysettech/readyset) - Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the 
 - [orf/gping](https://github.com/orf/gping) - Ping, but with a graph
 - [AccessKit/accesskit](https://github.com/AccessKit/accesskit) - Accessibility infrastructure for UI toolkits
-- [tembo-io/tembo](https://github.com/tembo-io/tembo) - Goodbye Database Sprawl, Hello Postgres.
+- [tembo/tembo](https://github.com/tembo/tembo) - Goodbye Database Sprawl, Hello Postgres.
 - [dimo414/task-mon](https://github.com/dimo414/task-mon) - CLI to execute commands and log results to healthchecks.io
 - [bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon) - CLI to execute commands and log results to healthchecks.io
 - [orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync) - SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge.
@@ -1540,7 +1540,7 @@
 - [goatplatform/goatdb](https://github.com/goatplatform/goatdb) - An Embedded, Distributed, Document DB
 - [jetkvm/kvm](https://github.com/jetkvm/kvm) - JetKVM - Control any computer remotely
 - [SouthBridgeAI/diagen](https://github.com/SouthBridgeAI/diagen) - 
-- [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) - A GUI Agent application based on UI-TARS(Vision-Language Model) that allows you to control your computer using natural language.
+- [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) - The Open All-in-One Multimodal AI Agent Stack connecting Cutting-edge AI Models and Agent Infra.
 - [n4ze3m/page-assist](https://github.com/n4ze3m/page-assist) - Use your locally running AI models to assist you in your web browsing
 - [earthstar-project/earthstar](https://github.com/earthstar-project/earthstar) - Storage for private, distributed, offline-first applications.
 - [CapSoftware/Cap](https://github.com/CapSoftware/Cap) - Open source Loom alternative. Beautiful, shareable screen recordings.
