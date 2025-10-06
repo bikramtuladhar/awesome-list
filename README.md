@@ -248,7 +248,7 @@
 - [cerberauth/vulnapi](https://github.com/cerberauth/vulnapi) - API Security Vulnerability Scanner designed to help you secure your APIs.
 - [netbirdio/netbird](https://github.com/netbirdio/netbird) - Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
 - [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) - Terraform / OpenTofu Provider for Proxmox VE
-- [NexaAI/nexa-sdk](https://github.com/NexaAI/nexa-sdk) - Run the latest LLMs and VLMs across GPU, NPU, and CPU with bindings for Python, Android Java, and iOS Swift, getting up and running quickly with OpenAI gpt-oss, Gemma 3, Qwen3, and more.
+- [NexaAI/nexa-sdk](https://github.com/NexaAI/nexa-sdk) - Run the latest LLMs and VLMs across GPU, NPU, and CPU with PC (Python/C++) & mobile (Android & iOS) support, running quickly with OpenAI gpt-oss, Granite4, Qwen3VL, Gemma 3n and more.
 - [DiceDB/dice](https://github.com/DiceDB/dice) - DiceDB is an open-source, fast, reactive, in-memory database optimized for modern hardware.
 - [atlassian/escalator](https://github.com/atlassian/escalator) - Escalator is a batch or job optimized horizontal autoscaler for Kubernetes
 - [mikestefanello/pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit and admin panel in Go
@@ -510,7 +510,7 @@
 ## Java 
 
 - [dylibso/chicory](https://github.com/dylibso/chicory) - Native JVM WebAssembly runtime
-- [kestra-io/kestra](https://github.com/kestra-io/kestra) - Orchestrate everything — from scripts to data, infra, AI, and business — as code, with UI and AI Copilot. Simple. Fast. Scalable.
+- [kestra-io/kestra](https://github.com/kestra-io/kestra) - Orchestrate everything - from scripts to data, infra, AI, and business - as code, with UI and AI Copilot. Simple. Fast. Scalable.
 - [syncliteio/SyncLite](https://github.com/syncliteio/SyncLite) - SyncLite : Build Anything Sync Anywhere
 - [AutoMQ/automq](https://github.com/AutoMQ/automq) - AutoMQ is a diskless Kafka® on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability.
 - [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version in translation
@@ -553,10 +553,10 @@
 - [muze-nl/jaqt](https://github.com/muze-nl/jaqt) - GraphQL-style Array.select() and Array.where() for javascript
 - [serverless/aws-ai-stack](https://github.com/serverless/aws-ai-stack) - AWS AI Stack – A ready-to-use, full-stack boilerplate project for building serverless AI applications on AWS
 - [gnmyt/Nexterm](https://github.com/gnmyt/Nexterm) - The open source server management software for SSH, VNC & RDP
-- [HeyPuter/puter](https://github.com/HeyPuter/puter) - 🌐 The Internet OS! Free, Open-Source, and Self-Hostable.
+- [HeyPuter/puter](https://github.com/HeyPuter/puter) - 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.
 - [secureCodeBox/secureCodeBox](https://github.com/secureCodeBox/secureCodeBox) - secureCodeBox (SCB) - continuous secure delivery out of the box
 - [j9t/obsohtml](https://github.com/j9t/obsohtml) - Detection of obsolete and proprietary HTML elements and attributes
-- [shivasurya/code-pathfinder](https://github.com/shivasurya/code-pathfinder) - Code Pathfinder, the open-source alternative to GitHub CodeQL built with GoLang. Built for advanced structural search, derive insights, find vulnerabilities in code.
+- [shivasurya/code-pathfinder](https://github.com/shivasurya/code-pathfinder) - An open-source security suite aiming to combine structural code analysis with AI-powered vulnerability detection. Built for advanced structural search, derive insights, find vulnerabilities in code.
 - [chartbrew/chartbrew](https://github.com/chartbrew/chartbrew) - Open-source web platform used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more  📈📊
 - [serkan-ozal/leanser](https://github.com/serkan-ozal/leanser) - AWS Lambda Cleaner - Cleanup resources on AWS Lambda container shutdown (timeout and/or spin-down)
 - [mafintosh/why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node is running but you don't know why? why-is-node-running is here to help you.
@@ -1088,7 +1088,7 @@
 - [nabla-c0d3/sslyze](https://github.com/nabla-c0d3/sslyze) - Fast and powerful SSL/TLS scanning library.
 - [Stability-AI/stable-virtual-camera](https://github.com/Stability-AI/stable-virtual-camera) - Stable Virtual Camera: Generative View Synthesis with Diffusion Models
 - [deepseek-ai/smallpond](https://github.com/deepseek-ai/smallpond) - A lightweight data processing framework built on DuckDB and 3FS.
-- [deepseek-ai/DualPipe](https://github.com/deepseek-ai/DualPipe) - A bidirectional pipeline parallelism algorithm for computation-communication overlap in V3/R1 training.
+- [deepseek-ai/DualPipe](https://github.com/deepseek-ai/DualPipe) - A bidirectional pipeline parallelism algorithm for computation-communication overlap in DeepSeek V3/R1 training.
 - [allenai/olmocr](https://github.com/allenai/olmocr) - Toolkit for linearizing PDFs for LLM datasets/training
 - [bytedance/UI-TARS](https://github.com/bytedance/UI-TARS) - 
 - [sharingan-no-kakashi/orange-intelligence](https://github.com/sharingan-no-kakashi/orange-intelligence) - Orange intelligence
@@ -1157,7 +1157,7 @@
 - [pytorch/torchchat](https://github.com/pytorch/torchchat) - Run PyTorch LLMs locally on servers, desktop and mobile
 - [opslane/opslane](https://github.com/opslane/opslane) - Making on-call suck less for engineers
 - [patched-codes/patchwork](https://github.com/patched-codes/patchwork) - Agentic AI framework for enterprise workflow automation.
-- [aydinnyunus/gpt4-captcha-bypass](https://github.com/aydinnyunus/gpt4-captcha-bypass) - Captcha Bypass using GPT4-o
+- [aydinnyunus/ai-captcha-bypass](https://github.com/aydinnyunus/ai-captcha-bypass) - AI Captcha Bypass
 - [modular/stack-pr](https://github.com/modular/stack-pr) - A tool for working with stacked PRs on github.
 - [rendercv/rendercv](https://github.com/rendercv/rendercv) - Version-control CVs/resumes as source code
 - [randombk/llm2sh](https://github.com/randombk/llm2sh) - Ask GPT to run a command
@@ -1247,7 +1247,7 @@
 - [localstack/localstack](https://github.com/localstack/localstack) - 💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
 - [geldata/gel](https://github.com/geldata/gel) - Gel supercharges Postgres with a modern data model, graph queries, Auth & AI solutions, and much more.
 - [dalibo/pg_activity](https://github.com/dalibo/pg_activity) - pg_activity is a top like application for PostgreSQL server activity monitoring.
-- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - AI Analytics Engine that can answer questions over large scale data. - The only MCP Server you'll ever need
+- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - AI Analytics and Knowledge Engine for RAG over large-scale, heterogeneous data. - The only MCP Server you'll ever need
 - [DonDebonair/slack-machine](https://github.com/DonDebonair/slack-machine) - A simple, yet powerful and extendable Slack bot
 - [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server
 - [Miksus/rocketry](https://github.com/Miksus/rocketry) - Modern scheduling library for Python
