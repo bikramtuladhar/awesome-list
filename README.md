@@ -839,6 +839,7 @@
 
 ## PHP 
 
+- [guanguans/laravel-soar](https://github.com/guanguans/laravel-soar) - SQL optimizer and rewriter for laravel. - laravel 的 SQL 优化器和重写器。
 - [Cockpit-HQ/Cockpit](https://github.com/Cockpit-HQ/Cockpit) - Cockpit Core - Content Platform
 - [maxkhim/laravel-storage-dedupler](https://github.com/maxkhim/laravel-storage-dedupler) - Laravel Package Prevents File Duplication
 - [laravel/boost](https://github.com/laravel/boost) - Laravel-focused MCP server for augmenting your AI powered local development experience.
