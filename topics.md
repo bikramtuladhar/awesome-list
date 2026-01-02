@@ -392,7 +392,7 @@
 
 ## algorithm 
 
-- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version in translation
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现
 - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
 
@@ -404,7 +404,7 @@
 
 ## algorithms 
 
-- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version in translation
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现
 - [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) - List of Computer Science courses with video lectures.
 - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
@@ -1141,7 +1141,7 @@
 - [Netflix/maestro](https://github.com/Netflix/maestro) - Maestro: Netflix’s Workflow Orchestrator
 - [Desbordante/desbordante-core](https://github.com/Desbordante/desbordante-core) - Desbordante is a high-performance data profiler that is capable of discovering many different patterns in data using various algorithms. It also allows to run data cleaning scenarios using these algor
 - [meltano/meltano](https://github.com/meltano/meltano) - Meltano: the declarative code-first data integration engine that powers your wildest data and ML-powered product ideas. Say goodbye to writing, maintaining, and scaling your own API integrations.
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Streaming data platform. Real-time stream processing, low-latency serving, and Iceberg table management.
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Event streaming platform for agents, apps, and analytics. Continuously ingest, transform, and serve event data in real time, at scale.
 - [growthbook/growthbook](https://github.com/growthbook/growthbook) - Open Source Feature Flagging and A/B Testing Platform
 - [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) - Prefect is a workflow orchestration framework for building resilient data pipelines in Python.
 - [beneath-hq/beneath](https://github.com/beneath-hq/beneath) - Beneath is a serverless real-time data platform ⚡️
@@ -1168,7 +1168,7 @@
 ## data-structures 
 
 - [TomWright/dasel](https://github.com/TomWright/dasel) - Select, put and delete data from JSON, TOML, YAML, XML, INI, HCL and CSV files with a single tool. Also available as a go mod.
-- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version in translation
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现
 - [oramasearch/orama](https://github.com/oramasearch/orama) - 🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.
 - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
@@ -1203,7 +1203,7 @@
 - [dcgadmin/pg_sqltxplain](https://github.com/dcgadmin/pg_sqltxplain) - pg_sqltxplain - Simplifying PostgreSQL Execution Plan Analysis by curating underlying stats in a single html report.
 - [GreenmaskIO/greenmask](https://github.com/GreenmaskIO/greenmask) - Database anonymization and synthetic data generation tool
 - [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen data explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB, Elastic Search, and Clickhouse with Chat interface
-- [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
+- [teodevgroup/teo](https://github.com/teodevgroup/teo) - High performance ORM for Rust.
 - [cozodb/cozo](https://github.com/cozodb/cozo) - A transactional, relational-graph-vector database that uses Datalog for query. The hippocampus for AI!
 - [Dataherald/dataherald](https://github.com/Dataherald/dataherald) - Interact with your SQL database, Natural Language to SQL using LLMs
 - [teableio/teable](https://github.com/teableio/teable) - ✨ The Next Gen Airtable Alternative: No-Code Postgres
@@ -1228,7 +1228,7 @@
 - [digitallyinduced/thin-backend](https://github.com/digitallyinduced/thin-backend) - 🔥 Thin Backend is a Blazing Fast, Universal Web App Backend for Making Realtime Single Page Apps
 - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
 - [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Streaming data platform. Real-time stream processing, low-latency serving, and Iceberg table management.
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Event streaming platform for agents, apps, and analytics. Continuously ingest, transform, and serve event data in real time, at scale.
 - [orioledb/orioledb](https://github.com/orioledb/orioledb) - OrioleDB – building a modern cloud-native storage engine (... and solving some PostgreSQL wicked problems)
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 - [Clivern/Peanut](https://github.com/Clivern/Peanut) - 🐺 Deploy Databases and Services Easily for Development and Testing Pipelines.
@@ -1371,7 +1371,7 @@
 
 - [databasus/databasus](https://github.com/databasus/databasus) - Databases backup tool (PostgreSQL, MySQL, MongoDB)
 - [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) - A Kubernetes web UI that is fully-featured, user-friendly and extensible
-- [bypirob/airo](https://github.com/bypirob/airo) - Deploy your projects from local to production (self-hosted).
+- [bypirob/airo](https://github.com/bypirob/airo) - Deploy your projects from local to your production VPS.
 - [cloudposse/geodesic](https://github.com/cloudposse/geodesic) - 🚀 Geodesic is a DevOps Linux Toolbox in Docker
 - [yarlson/ftl](https://github.com/yarlson/ftl) - FTL: faster than light deployment
 - [kestra-io/kestra](https://github.com/kestra-io/kestra) - Event Driven Orchestration & Scheduling Platform for Mission Critical Applications
@@ -1574,7 +1574,7 @@
 
 ## education 
 
-- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version in translation
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现
 - [ls1intum/Artemis](https://github.com/ls1intum/Artemis) - Artemis - Interactive Learning with Automated Feedback
 - [hedyorg/hedy](https://github.com/hedyorg/hedy) - Hedy is a gradual programming language to teach children programming. Gradual languages use different language levels, where each level adds new concepts and syntactic complexity. At the end of the He
 - [taybenlor/runno](https://github.com/taybenlor/runno) - Sandboxed runtime for programming languages and WASI binaries. Works in the browser, on your server, or via MCP.
@@ -2291,7 +2291,7 @@
 - [codesenberg/bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool written in Go
 - [tsenart/vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool and library. It's over 9000!
 - [rfc-st/humble](https://github.com/rfc-st/humble) - A humble, and 𝗳𝗮𝘀𝘁, security-oriented HTTP headers analyzer.
-- [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
+- [teodevgroup/teo](https://github.com/teodevgroup/teo) - High performance ORM for Rust.
 - [reorx/httpstat](https://github.com/reorx/httpstat) - curl statistics made simple
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [amalshaji/portr](https://github.com/amalshaji/portr) - Expose local http, tcp or websocket connections to the public internet
@@ -3320,7 +3320,6 @@
 - [chartbrew/chartbrew](https://github.com/chartbrew/chartbrew) - Open-source web platform used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more  📈📊
 - [event-driven-io/Pongo](https://github.com/event-driven-io/Pongo) - Pongo - Mongo but on Postgres and with strong consistency benefits
 - [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) - ORM
-- [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
 - [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
 - [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JS SDKs. Bot detection, rate limiting, email validation, attack protection, data redaction for Node.js, Next.js, Deno, Bun, Remix, SvelteKit, NestJS.
 - [hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet) - 🪓 Run Background Tasks at Scale
@@ -4181,7 +4180,7 @@
 - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
 - [turbot/steampipe](https://github.com/turbot/steampipe) - Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required.
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊 Cube Core is open-source semantic layer and LookML alternative for AI, BI and embedded analytics
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Streaming data platform. Real-time stream processing, low-latency serving, and Iceberg table management.
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Event streaming platform for agents, apps, and analytics. Continuously ingest, transform, and serve event data in real time, at scale.
 - [orioledb/orioledb](https://github.com/orioledb/orioledb) - OrioleDB – building a modern cloud-native storage engine (... and solving some PostgreSQL wicked problems)
 - [fabianlindfors/reshape](https://github.com/fabianlindfors/reshape) - An easy-to-use, zero-downtime schema migration tool for Postgres
 - [benawad/dogehouse](https://github.com/benawad/dogehouse) - Taking voice conversations to the moon 🚀
@@ -4238,7 +4237,7 @@
 
 ## programming 
 
-- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version in translation
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch.
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
 - [hedyorg/hedy](https://github.com/hedyorg/hedy) - Hedy is a gradual programming language to teach children programming. Gradual languages use different language levels, where each level adds new concepts and syntactic complexity. At the end of the He
@@ -4296,7 +4295,6 @@
 - [apify/crawlee-python](https://github.com/apify/crawlee-python) - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works
 - [MattKeeley/Spoofy](https://github.com/MattKeeley/Spoofy) - Spoofy is a program that checks if a list of domains can be spoofed based on SPF and DMARC records.
 - [nnsee/fileless-elf-exec](https://github.com/nnsee/fileless-elf-exec) - Execute ELF files without dropping them on disk
-- [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
 - [NVIDIA/warp](https://github.com/NVIDIA/warp) - A Python framework for accelerated simulation, data generation and spatial computing.
 - [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
 - [reorx/httpstat](https://github.com/reorx/httpstat) - curl statistics made simple
@@ -4627,7 +4625,7 @@
 - [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
 - [supabase/etl](https://github.com/supabase/etl) - Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines.
 - [tellerops/teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
-- [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
+- [teodevgroup/teo](https://github.com/teodevgroup/teo) - High performance ORM for Rust.
 - [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB, Microsoft SQL Server]
 - [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
 - [wasmi-labs/wasmi](https://github.com/wasmi-labs/wasmi) - Efficient and versatile WebAssembly interpreter for embedded systems.
@@ -4657,7 +4655,7 @@
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊 Cube Core is open-source semantic layer and LookML alternative for AI, BI and embedded analytics
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
 - [railwayapp/nixpacks](https://github.com/railwayapp/nixpacks) - App source + Nix packages + Docker = Image
-- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Streaming data platform. Real-time stream processing, low-latency serving, and Iceberg table management.
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Event streaming platform for agents, apps, and analytics. Continuously ingest, transform, and serve event data in real time, at scale.
 - [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
 - [LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production) - Code for "Zero To Production In Rust", a book on API development using Rust.
 - [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
@@ -4785,7 +4783,7 @@
 ## self-hosted 
 
 - [databasus/databasus](https://github.com/databasus/databasus) - Databases backup tool (PostgreSQL, MySQL, MongoDB)
-- [bypirob/airo](https://github.com/bypirob/airo) - Deploy your projects from local to production (self-hosted).
+- [bypirob/airo](https://github.com/bypirob/airo) - Deploy your projects from local to your production VPS.
 - [pocket-id/pocket-id](https://github.com/pocket-id/pocket-id) - A simple and easy-to-use OIDC provider that allows users to authenticate with their passkeys to your services.
 - [solidtime-io/solidtime](https://github.com/solidtime-io/solidtime) - Modern open-source time-tracking app
 - [vinceanalytics/vince](https://github.com/vinceanalytics/vince) - Self Hosted Alternative To Google Analytics
@@ -4842,7 +4840,6 @@
 - [vitodeploy/vito](https://github.com/vitodeploy/vito) - Free and Self-Hosted  Server Management Tool
 - [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) - Proxy server to bypass Cloudflare protection
 - [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
-- [teodevgroup/teo](https://github.com/teodevgroup/teo) - Schema-driven web server framework.
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
