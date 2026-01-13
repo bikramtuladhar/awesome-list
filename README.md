@@ -956,7 +956,7 @@
 - [monicahq/monica](https://github.com/monicahq/monica) - Personal CRM. Remember everything about your friends, family and business relationships.
 - [Attendize/Attendize](https://github.com/Attendize/Attendize) - Attendize is an open-source ticket selling and event management platform built on Laravel.
 - [laravel/socialite](https://github.com/laravel/socialite) - Laravel wrapper around OAuth 1 & OAuth 2 libraries.
-- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) - Debugbar for Laravel (Integrates PHP Debug Bar)
+- [fruitcake/laravel-debugbar](https://github.com/fruitcake/laravel-debugbar) - Debugbar for Laravel (Integrates PHP Debug Bar)
 - [spatie/laravel-backup](https://github.com/spatie/laravel-backup) - A package to backup your Laravel app
 - [johnturingan/laravel-fly-view](https://github.com/johnturingan/laravel-fly-view) - Is an Extension of Laravel View Class which compiles String Template on the fly. It automatically detects changes on your string template and recompiles it if needed.
 - [Intervention/image](https://github.com/Intervention/image) - PHP Image Processing
