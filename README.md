@@ -19,6 +19,7 @@
 - [Erlang](#erlang)
 - [F#](#f#)
 - [Go](#go)
+- [Go Template](#go-template)
 - [Groovy](#groovy)
 - [HCL](#hcl)
 - [HTML](#html)
@@ -297,7 +298,7 @@
 - [helmfile/helmfile](https://github.com/helmfile/helmfile) - Declaratively deploy your Kubernetes manifests, Kustomize configs, and Charts as Helm releases. Generate all-in-one manifests for use with ArgoCD.
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [0x2E/fusion](https://github.com/0x2E/fusion) - A lightweight, self-hosted friendly RSS reader
-- [edgelesssys/constellation](https://github.com/edgelesssys/constellation) - Constellation is the first Confidential Kubernetes. Constellation shields entire Kubernetes clusters from the (cloud) infrastructure using confidential computing.
+- [edgelesssys/constellation](https://github.com/edgelesssys/constellation) - Constellation is a Kubernetes distribution for confidential computing, securing entire clusters on untrusted infrastructure.  Constellation is in maintenance mode. New development continues in Contras
 - [xataio/pgroll](https://github.com/xataio/pgroll) - PostgreSQL zero-downtime migrations made easy
 - [karlkfi/kubexit](https://github.com/karlkfi/kubexit) - Command supervisor for coordinated Kubernetes pod container termination.
 - [nocalhost/nocalhost](https://github.com/nocalhost/nocalhost) - Nocalhost is Cloud Native Dev Environment.
@@ -459,6 +460,10 @@
 - [muesli/gitomatic](https://github.com/muesli/gitomatic) - A tool to monitor git repositories and automatically pull & push changes
 - [google/cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
 - [joohoi/acme-dns](https://github.com/joohoi/acme-dns) - Limited DNS server with RESTful HTTP API to handle ACME DNS challenges easily and securely.
+
+## Go Template 
+
+- [eyelevelai/groundx-on-prem](https://github.com/eyelevelai/groundx-on-prem) - A Kubernetes deployable instance of GroundX  for document parsing, storage, and search.
 
 ## Groovy 
 
@@ -1054,7 +1059,7 @@
 - [rinvex/laravel-bookings](https://github.com/rinvex/laravel-bookings) - ⚠️ [ABANDONED] Rinvex Bookable is a generic resource booking system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, accompanied by powerful u
 - [whitecube/nova-flexible-content](https://github.com/whitecube/nova-flexible-content) - Flexible Content & Repeater Fields for Laravel Nova
 - [AzuraCast/AzuraCast](https://github.com/AzuraCast/AzuraCast) - A self-hosted web radio management suite, including turnkey installer tools for the full radio software stack and a modern, easy-to-use web app to manage your stations.
-- [laravel/framework](https://github.com/laravel/framework) - The Laravel Framework.
+- [laravel/framework](https://github.com/laravel/framework) - Laravel is a web application framework with expressive, elegant syntax.
 - [Rudloff/alltube](https://github.com/Rudloff/alltube) - Web GUI for youtube-dl
 - [nikaia/translation-sheet](https://github.com/nikaia/translation-sheet) - Translating Laravel languages files using a Google Spreadsheet.
 - [Xethron/migrations-generator](https://github.com/Xethron/migrations-generator) - Laravel Migrations Generator: Automatically generate your migrations from an existing database schema.
@@ -1083,6 +1088,7 @@
 
 ## Python 
 
+- [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts) - A TTS that fits in your CPU (and pocket)
 - [originalankur/maptoposter](https://github.com/originalankur/maptoposter) - Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.
 - [antoniorodr/cronboard](https://github.com/antoniorodr/cronboard) - A terminal-based dashboard for managing cron jobs locally and on servers.
 - [TaoishTechy/PazuzuCore](https://github.com/TaoishTechy/PazuzuCore) - Axiom based dev
@@ -1217,7 +1223,6 @@
 - [georgia-tech-db/evadb](https://github.com/georgia-tech-db/evadb) - Database system for AI-powered apps
 - [r2d4/openlm](https://github.com/r2d4/openlm) - OpenAI-compatible Python client that can call any LLM
 - [smol-ai/developer](https://github.com/smol-ai/developer) - the first library to let you embed a developer agent in your own app!
-- [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development.
 - [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
 - [vllm-project/vllm](https://github.com/vllm-project/vllm) - A high-throughput and memory-efficient inference and serving engine for LLMs
 - [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) - An open source implementation of CLIP.
@@ -1352,7 +1357,7 @@
 - [supabase/etl](https://github.com/supabase/etl) - Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines.
 - [tellerops/teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
 - [tailcallhq/tailcall](https://github.com/tailcallhq/tailcall) - High Performance GraphQL Runtime
-- [teodevgroup/teo](https://github.com/teodevgroup/teo) - High performance ORM for Rust.
+- [teodevgroup/teo](https://github.com/teodevgroup/teo) - High performance ergonomic ORM for Rust.
 - [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB, Microsoft SQL Server]
 - [letmutex/htmd](https://github.com/letmutex/htmd) - A turndown.js inspired HTML to Markdown converter for Rust
 - [restatedev/restate](https://github.com/restatedev/restate) - Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD.
@@ -1506,7 +1511,6 @@
 
 ## Smarty 
 
-- [eyelevelai/groundx-on-prem](https://github.com/eyelevelai/groundx-on-prem) - A Kubernetes deployable instance of GroundX  for document parsing, storage, and search.
 - [janikgar/boundary-chart](https://github.com/janikgar/boundary-chart) - Helm chart for Hashicorp Boundary
 
 ## Starlark 
@@ -1570,7 +1574,7 @@
 - [sarimabbas/authortrail](https://github.com/sarimabbas/authortrail) - See all the files you have ever touched in a Git repo
 - [withastro/starlight](https://github.com/withastro/starlight) - 🌟 Build beautiful, accessible, high-performance documentation websites with Astro
 - [reltadev/github-assistant](https://github.com/reltadev/github-assistant) - Explore GitHub repositories with natural language questions
-- [xpf0000/FlyEnv](https://github.com/xpf0000/FlyEnv) - All-In-One Full-Stack Environment Management Tool. Help developers quickly set up a local development environment. Core Modules: Ollama, DeepSeek, Apache, Nginx, Caddy, Tomcat. MySQL, MariaDB, Postgre
+- [xpf0000/FlyEnv](https://github.com/xpf0000/FlyEnv) - ⚡️ Lightweight Native Full-Stack Environment Management Tool for Windows, macOS & Linux. Run local server, PHP, Node.js, Python & Databases without Docker. The faster, modular alternative to XAMPP
 - [mastra-ai/mastra](https://github.com/mastra-ai/mastra) - From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.
 - [Canner/WrenAI](https://github.com/Canner/WrenAI) - ⚡️ GenBI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds.
 - [stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy) - Prompt, run, edit, and deploy full-stack web applications using any LLM you want!
@@ -1604,7 +1608,7 @@
 - [TahaSh/swapy](https://github.com/TahaSh/swapy) - ✨ A framework-agnostic tool that converts any layout into a drag-to-swap one with just a few lines of code https://swapy.tahazsh.com/
 - [loggerhead/json4u](https://github.com/loggerhead/json4u) - 
 - [haystackeditor/haystack-editor](https://github.com/haystackeditor/haystack-editor) - 
-- [yournextstore/yournextstore](https://github.com/yournextstore/yournextstore) - Your Next Store: Modern Commerce with Next.js and Stripe.
+- [yournextstore/yournextstore](https://github.com/yournextstore/yournextstore) - Open-Source Next.js commerce. Stripe-native, ultra fast page loads, typed APIs. Built for AI development (Claude, Codex,   Cursor).
 - [gabrielpetersson/fast-grid](https://github.com/gabrielpetersson/fast-grid) - World's most performant DOM-based web table. Try it! fast-grid.vercel.app/
 - [dubinc/dub](https://github.com/dubinc/dub) - The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more.
 - [Scthe/nanite-webgpu](https://github.com/Scthe/nanite-webgpu) - UE5's Nanite implementation using WebGPU. Includes the meshlet LOD hierarchy, software rasterizer and billboard impostors. Culling on both per-instance and per-meshlet basis.
@@ -1668,7 +1672,7 @@
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - [immich-app/immich](https://github.com/immich-app/immich) - High performance self-hosted photo and video management solution.
 - [wxt-dev/wxt](https://github.com/wxt-dev/wxt) - ⚡ Next-gen Web Extension Framework
-- [tembo/tembo](https://github.com/tembo/tembo) - one cli, all the coding agents
+- [tembo/tembo](https://github.com/tembo/tembo) - 
 - [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
 - [nitrojs/nitro](https://github.com/nitrojs/nitro) - Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.
 - [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
@@ -1685,6 +1689,7 @@
 - [makeplane/plane](https://github.com/makeplane/plane) - 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
 - [stepci/garph](https://github.com/stepci/garph) - Fullstack GraphQL Framework for TypeScript
 - [heroui-inc/tailwind-variants](https://github.com/heroui-inc/tailwind-variants) - 🦄 Tailwindcss first-class variant API
+- [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development.
 - [vue-vine/vue-vine](https://github.com/vue-vine/vue-vine) - Another style of writing Vue components.
 - [microsoft/TypeChat](https://github.com/microsoft/TypeChat) - TypeChat is a library that makes it easy to build natural language interfaces using types.
 - [toeverything/blocksuite](https://github.com/toeverything/blocksuite) - 🧩 Content editing tech stack for the web - BlockSuite is a toolkit for building editors and collaborative applications.
@@ -1795,7 +1800,7 @@
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, local first, reactive Database for JavaScript Applications https://rxdb.info/
 - [VulcanJS/vulcan-next](https://github.com/VulcanJS/vulcan-next) - The Next starter for GraphQL developers
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
-- [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
+- [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative
 - [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
 - [tinacms/tinacms](https://github.com/tinacms/tinacms) - A fully open-source headless CMS that supports Markdown and Visual Editing
 - [gridaco/grida](https://github.com/gridaco/grida) - Grida — Ambitious 2D Graphics Editor for the Web
