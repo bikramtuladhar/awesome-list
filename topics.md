@@ -821,7 +821,6 @@
 - [julien040/anyquery](https://github.com/julien040/anyquery) - Query anything (GitHub, Notion, +40 more) with SQL and let LLMs (ChatGPT, Claude) connect to using MCP
 - [mem0ai/mem0](https://github.com/mem0ai/mem0) - Universal memory layer for AI Agents
 - [langflow-ai/langflow](https://github.com/langflow-ai/langflow) - Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen data explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB, Elastic Search, and Clickhouse with Chat interface
 - [nlkitai/nlux](https://github.com/nlkitai/nlux) - The 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 Conversational AI JavaScript Library 💬 — UI for any LLM, supporting LangChain / HuggingFace / Vercel AI, and more 🧡 React, Next.js, and plain JavaScript ⭐️
 - [jiacai2050/shellgpt](https://github.com/jiacai2050/shellgpt) - Chat with LLM in your terminal, be it shell generator, story teller, linux-terminal, etc.
 - [mnfst/manifest](https://github.com/mnfst/manifest) - A shadcn/ui library for building ChatGPT Apps
@@ -1188,6 +1187,7 @@
 - [RamiAwar/dataline](https://github.com/RamiAwar/dataline) - Chat with your data - AI data analysis and visualization on CSV, Postgres, MySQL, Snowflake, SQLite...
 - [julien040/anyquery](https://github.com/julien040/anyquery) - Query anything (GitHub, Notion, +40 more) with SQL and let LLMs (ChatGPT, Claude) connect to using MCP
 - [chartbrew/chartbrew](https://github.com/chartbrew/chartbrew) - Open-source web platform used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more  📈📊
+- [clidey/whodb](https://github.com/clidey/whodb) - A lightweight next-gen data explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB, Elastic Search, and Clickhouse with Chat interface
 - [mckinsey/vizro](https://github.com/mckinsey/vizro) - Vizro is a low-code toolkit for building high-quality data visualization apps.
 - [nomic-ai/deepscatter](https://github.com/nomic-ai/deepscatter) - Zoomable, animated scatterplots in the browser that scales over a billion points
 - [f5/unovis](https://github.com/f5/unovis) - Modular data visualization framework for React, Angular, Svelte, Vue, and vanilla TypeScript or JavaScript
@@ -1425,6 +1425,7 @@
 - [xxh/xxh](https://github.com/xxh/xxh) - 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on.
 - [devspace-sh/devspace](https://github.com/devspace-sh/devspace) - DevSpace - The Fastest Developer Tool for Kubernetes ⚡ Automate your deployment workflow with DevSpace and develop software directly inside Kubernetes.
 - [kubesphere/kubesphere](https://github.com/kubesphere/kubesphere) - The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️
+- [ethibox/awesome-stacks](https://github.com/ethibox/awesome-stacks) - Deploy 150+ open-source web apps with one Docker command
 - [Clivern/Peanut](https://github.com/Clivern/Peanut) - 🐺 Deploy Databases and Services Easily for Development and Testing Pipelines.
 - [marco-lancini/offensive-infrastructure](https://github.com/marco-lancini/offensive-infrastructure) - Offensive Infrastructure with Modern Technologies
 - [encoredev/encore](https://github.com/encoredev/encore) - Open source framework for building robust type-safe distributed systems with declarative infrastructure
@@ -3539,6 +3540,7 @@
 
 ## others 
 
+- [NVIDIA/personaplex](https://github.com/NVIDIA/personaplex) - PersonaPlex code.
 - [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts) - A TTS that fits in your CPU (and pocket)
 - [sudofox/shell-mommy](https://github.com/sudofox/shell-mommy) - Mommy is here for you on the command line ~ ❤️
 - [jhuckaby/performa](https://github.com/jhuckaby/performa) - A multi-server monitoring system with a web based UI.
