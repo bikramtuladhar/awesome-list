@@ -2680,7 +2680,7 @@
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.
 - [stevebauman/location](https://github.com/stevebauman/location) - Retrieve a visitor's location from their IP address.
 - [OpnForm/OpnForm](https://github.com/OpnForm/OpnForm) - Beautiful Open-Source Form Builder
-- [durable-workflow/waterline](https://github.com/durable-workflow/waterline) - An elegant UI for monitoring Laravel Workflows.
+- [durable-workflow/waterline](https://github.com/durable-workflow/waterline) - An elegant UI for monitoring workflows.
 - [durable-workflow/workflow](https://github.com/durable-workflow/workflow) - Durable workflow engine that allows users to track job status, orchestrate microservices and write long running persistent distributed workflows in PHP powered by Laravel Queues. Inspired by Temporal 
 - [spatie/laravel-varnish](https://github.com/spatie/laravel-varnish) - Making Varnish and Laravel play nice together
 - [hasinhayder/hydra](https://github.com/hasinhayder/hydra) - Hydra is a zero-config API boilerplate with Laravel 10x + Laravel Sanctum that comes with an excellent user and role management API out of the box
@@ -3543,6 +3543,7 @@
 
 ## others 
 
+- [9001/copyparty](https://github.com/9001/copyparty) - Portable file server with accelerated resumable uploads, dedup, WebDAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file
 - [NVIDIA/personaplex](https://github.com/NVIDIA/personaplex) - PersonaPlex code.
 - [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts) - A TTS that fits in your CPU (and pocket)
 - [sudofox/shell-mommy](https://github.com/sudofox/shell-mommy) - Mommy is here for you on the command line ~ ❤️
@@ -3662,7 +3663,7 @@
 - [huggingface/parler-tts](https://github.com/huggingface/parler-tts) - Inference and training library for high-quality TTS models.
 - [pgsty/pigsty](https://github.com/pgsty/pigsty) - Free & OSS PostgreSQL RDS / DBaaS, Self-Host PG like a Pro
 - [alsyundawy/Microsoft-Office-For-MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS) - Installer & Activited Microsoft Office For MacOS
-- [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) - MiniCPM-V 4.5: A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone
+- [OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o) - MiniCPM-o 4.5: A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Mulitmodal Live Streaminig on Your Phone
 - [useplunk/plunk](https://github.com/useplunk/plunk) - The Open-Source Email Platform
 - [davidgiven/wordgrinder](https://github.com/davidgiven/wordgrinder) - A word processor which gets the hell out of your way and lets you get some work done.
 - [SummitRoute/aws_breaking_changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code
@@ -4064,7 +4065,7 @@
 - [seanmorris/php-wasm](https://github.com/seanmorris/php-wasm) - PHP in Browser, powered by WebAssembly.
 - [stevebauman/location](https://github.com/stevebauman/location) - Retrieve a visitor's location from their IP address.
 - [rectorphp/rector](https://github.com/rectorphp/rector) - Instant Upgrades and Automated Refactoring of any PHP 5.3+ code
-- [durable-workflow/waterline](https://github.com/durable-workflow/waterline) - An elegant UI for monitoring Laravel Workflows.
+- [durable-workflow/waterline](https://github.com/durable-workflow/waterline) - An elegant UI for monitoring workflows.
 - [durable-workflow/workflow](https://github.com/durable-workflow/workflow) - Durable workflow engine that allows users to track job status, orchestrate microservices and write long running persistent distributed workflows in PHP powered by Laravel Queues. Inspired by Temporal 
 - [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) - 🤯 High-performance PHP application server, process manager written in Go and powered with plugins
 - [spatie/laravel-varnish](https://github.com/spatie/laravel-varnish) - Making Varnish and Laravel play nice together
@@ -4629,7 +4630,6 @@
 - [scalar/scalar](https://github.com/scalar/scalar) - Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern Rest API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 - [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
 - [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia
-- [YaoApp/yao](https://github.com/YaoApp/yao) - ✨ Yao is an open-source engine for autonomous agents — event-driven, proactive, and self-scheduling.
 - [seashell/drago](https://github.com/seashell/drago) - ☁️ Securely connect anything with WireGuard® and manage all your networks from a single place.
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative
 - [gofiber/fiber](https://github.com/gofiber/fiber) - ⚡️ Express inspired web framework written in Go
