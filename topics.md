@@ -1201,7 +1201,7 @@
 - [xpf0000/FlyEnv](https://github.com/xpf0000/FlyEnv) - Lightweight Native Full-Stack Environment Management GUI Tool for Windows, macOS & Linux. Run Apache/Nginx/Caddy/Tomcat/PHP/Node.js/Bun/Deno/Python/Java/Go/Ruby/Perl/Rust/Erlang/MySQL/PostgreSQL/Maria
 - [pawelsalawa/sqlitestudio](https://github.com/pawelsalawa/sqlitestudio) - A free, open source, multi-platform SQLite database manager.
 - [fireproof-storage/fireproof](https://github.com/fireproof-storage/fireproof) - The vibe coding database runs in the browser, fits in the context window, and syncs anywhere.
-- [dicedb/dicedb](https://github.com/dicedb/dicedb) - DiceDB is an open-source, fast, reactive, in-memory database optimized for modern hardware.
+- [dicedb/dicedb](https://github.com/dicedb/dicedb) - Open-source, low-latency key/value engine built on Valkey with hierarchical storage tiers.
 - [julien040/anyquery](https://github.com/julien040/anyquery) - Query anything (GitHub, Notion, +40 more) with SQL and let LLMs (ChatGPT, Claude) connect to using MCP
 - [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) - YugabyteDB - the cloud native distributed SQL database for mission-critical applications.
 - [chartdb/chartdb](https://github.com/chartdb/chartdb) - Database diagrams editor that allows you to visualize and design your DB with a single query.
@@ -1933,7 +1933,6 @@
 - [go-chi/chi](https://github.com/go-chi/chi) - lightweight, idiomatic and composable router for building Go HTTP services
 - [yarlson/ftl](https://github.com/yarlson/ftl) - FTL: faster than light deployment
 - [netbirdio/netbird](https://github.com/netbirdio/netbird) - Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
-- [dicedb/dicedb](https://github.com/dicedb/dicedb) - DiceDB is an open-source, fast, reactive, in-memory database optimized for modern hardware.
 - [atlassian/escalator](https://github.com/atlassian/escalator) - Escalator is a batch or job optimized horizontal autoscaler for Kubernetes
 - [mikestefanello/pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit and admin panel in Go
 - [openshieldai/openshield](https://github.com/openshieldai/openshield) - OpenShield is a new generation security layer for AI models
@@ -2115,7 +2114,6 @@
 - [danielgtaylor/huma](https://github.com/danielgtaylor/huma) - Huma REST/HTTP API Framework for Golang with OpenAPI 3.1
 - [flatcar/Flatcar](https://github.com/flatcar/Flatcar) - Flatcar project repository for issue tracking, project documentation, etc.
 - [brisa-build/brisa](https://github.com/brisa-build/brisa) - The Web Platform Framework.
-- [dicedb/dicedb](https://github.com/dicedb/dicedb) - DiceDB is an open-source, fast, reactive, in-memory database optimized for modern hardware.
 - [pulkitsharma07/OnlyHumans-Proxy](https://github.com/pulkitsharma07/OnlyHumans-Proxy) - An experimental AntiBot, AntiCrawl reverse proxy for serving simple static content.
 - [kestra-io/kestra](https://github.com/kestra-io/kestra) - Event Driven Orchestration & Scheduling Platform for Mission Critical Applications
 - [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) - Proxy server to bypass Cloudflare protection
@@ -3411,6 +3409,7 @@
 ## nosql 
 
 - [Cockpit-HQ/Cockpit](https://github.com/Cockpit-HQ/Cockpit) - Cockpit Core - Content Platform
+- [dicedb/dicedb](https://github.com/dicedb/dicedb) - Open-source, low-latency key/value engine built on Valkey with hierarchical storage tiers.
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web
 - [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - A fast, local first, reactive Database for JavaScript Applications https://rxdb.info/
