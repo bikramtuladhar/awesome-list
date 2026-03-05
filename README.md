@@ -218,6 +218,7 @@
 
 ## Go 
 
+- [aquasecurity/trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 - [lxc/incus-os](https://github.com/lxc/incus-os) - Immutable Linux OS to run Incus
 - [databasus/databasus](https://github.com/databasus/databasus) - Databases backup tool (PostgreSQL, MySQL, MongoDB)
 - [TheYahya/enola](https://github.com/TheYahya/enola) - This is Sherlock's sister, Modern shiny CLI tool written with Golang to help you: 🔎 Hunt down social media accounts by username across social networks
@@ -1175,7 +1176,7 @@
 - [patched-codes/patchwork](https://github.com/patched-codes/patchwork) - Agentic AI framework for enterprise workflow automation.
 - [aydinnyunus/ai-captcha-bypass](https://github.com/aydinnyunus/ai-captcha-bypass) - AI Captcha Bypass
 - [modular/stack-pr](https://github.com/modular/stack-pr) - A tool for working with stacked PRs on github.
-- [rendercv/rendercv](https://github.com/rendercv/rendercv) - CV/resume generator for academics and engineers, YAML to PDF
+- [rendercv/rendercv](https://github.com/rendercv/rendercv) - Resume builder for academics and engineers
 - [randombk/llm2sh](https://github.com/randombk/llm2sh) - Ask GPT to run a command
 - [exo-explore/exo](https://github.com/exo-explore/exo) - Run frontier AI locally.
 - [apify/crawlee-python](https://github.com/apify/crawlee-python) - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works
@@ -1559,6 +1560,7 @@
 
 ## TypeScript 
 
+- [superset-sh/superset](https://github.com/superset-sh/superset) - IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine
 - [vercel-labs/json-render](https://github.com/vercel-labs/json-render) - The Generative UI framework
 - [johannesjo/parallel-code](https://github.com/johannesjo/parallel-code) - Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree
 - [IgorShadurin/app.yumcut.com](https://github.com/IgorShadurin/app.yumcut.com) - YumCut - free AI video generator to turn a prompt into ready vertical videos for TikTok, Reels and YouTube Shorts. Auto script, scenes, voiceover, subtitles and watermark. Built with Next.js. Local-fi
