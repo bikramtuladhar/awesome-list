@@ -540,7 +540,7 @@
 - [encoredev/encore](https://github.com/encoredev/encore) - Open source framework for building robust type-safe distributed systems with declarative infrastructure
 - [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
 - [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
-- [NangoHQ/nango](https://github.com/NangoHQ/nango) - API access for agents & apps.
+- [NangoHQ/nango](https://github.com/NangoHQ/nango) - Build product integrations with AI.
 - [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.
 - [directus/directus](https://github.com/directus/directus) - The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
 - [DigitalOceanPHP/Client](https://github.com/DigitalOceanPHP/Client) - DigitalOcean API v2 client for PHP
@@ -3707,7 +3707,7 @@
 - [iyaja/llama-fs](https://github.com/iyaja/llama-fs) - A self-organizing file system with llama 3
 - [chrispsn/mesh-spreadsheet](https://github.com/chrispsn/mesh-spreadsheet) - A data and code editor that feels like a spreadsheet.
 - [karlkfi/kubexit](https://github.com/karlkfi/kubexit) - Command supervisor for coordinated Kubernetes pod container termination.
-- [mnfst/manifest](https://github.com/mnfst/manifest) - Smart LLM Routing for OpenClaw. Cut Costs up to 70%
+- [mnfst/manifest](https://github.com/mnfst/manifest) - Smart LLM Routing for OpenClaw. Cut Costs up to 70% 🦞🦚
 - [kiwicopple/serverless-postgres](https://github.com/kiwicopple/serverless-postgres) - 
 - [ChrisBuilds/terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects) - TerminalTextEffects (TTE) is a terminal visual effects engine, application, and Python library.
 - [Stengo/DeskPad](https://github.com/Stengo/DeskPad) - A virtual monitor for screen sharing
