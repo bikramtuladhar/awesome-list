@@ -1043,7 +1043,7 @@
 - [lxerxa/actionview](https://github.com/lxerxa/actionview) - An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.
 - [antonioribeiro/version](https://github.com/antonioribeiro/version) - Laravel App versioning
 - [aman00323/email-checker](https://github.com/aman00323/email-checker) - Provides email verification on the go.
-- [ulearnpro/ulearn](https://github.com/ulearnpro/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
+- [safytech/ulearn](https://github.com/safytech/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
 - [AsgardCms/Platform](https://github.com/AsgardCms/Platform) - A modular multilingual CMS built with Laravel 5.
 - [ConsoleTVs/Invoices](https://github.com/ConsoleTVs/Invoices) - Generate PDF invoices for your customers in laravel
 - [TypiCMS/Base](https://github.com/TypiCMS/Base) - Multilingual CMS built with Laravel.
@@ -1509,7 +1509,7 @@
 - [PeachFlame/cPanel-fixperms](https://github.com/PeachFlame/cPanel-fixperms) - A script to fix permissions & ownership, on files & directories, for cPanel accounts.
 - [aristocratos/bashtop](https://github.com/aristocratos/bashtop) - Linux/OSX/FreeBSD resource monitor
 - [mandiant/ioc-scanner-CVE-2019-19781](https://github.com/mandiant/ioc-scanner-CVE-2019-19781) - Indicator of Compromise Scanner for CVE-2019-19781
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 - [DevinY/dlaravel](https://github.com/DevinY/dlaravel) - Laravel and Docker
 - [infostreams/db](https://github.com/infostreams/db) - Version control for databases: save, restore, and archive snapshots of your database from the command line
 - [dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible) - 📖 A collection of pure bash alternatives to external processes.
