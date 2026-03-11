@@ -688,7 +688,7 @@
 - [encoredev/encore](https://github.com/encoredev/encore) - Open source framework for building robust type-safe distributed systems with declarative infrastructure
 - [snyk/driftctl](https://github.com/snyk/driftctl) - Detect, track and alert on infrastructure drift
 - [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes sources :ship::tada:
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 - [mistio/mist-ce](https://github.com/mistio/mist-ce) - Mist is an open source, multicloud management platform
 - [caprover/caprover](https://github.com/caprover/caprover) - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids
 
@@ -962,7 +962,7 @@
 - [encoredev/encore](https://github.com/encoredev/encore) - Open source framework for building robust type-safe distributed systems with declarative infrastructure
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - bootstrap HashiCorp Consul, Nomad, or Vault over SSH &lt; 1 minute
 - [minio/minio](https://github.com/minio/minio) - MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 - [mistio/mist-ce](https://github.com/mistio/mist-ce) - Mist is an open source, multicloud management platform
 - [anaibol/awesome-serverless](https://github.com/anaibol/awesome-serverless) - :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
 - [canonical/multipass](https://github.com/canonical/multipass) - Multipass orchestrates virtual Ubuntu instances
@@ -1311,7 +1311,7 @@
 - [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
 - [vmware-tanzu/kubeapps](https://github.com/vmware-tanzu/kubeapps) - A web-based UI for deploying and managing applications in Kubernetes clusters
 - [deployphp/deployer](https://github.com/deployphp/deployer) - The PHP deployment tool with support for popular frameworks out of the box
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 - [caprover/caprover](https://github.com/caprover/caprover) - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids
 
 ## design 
@@ -1440,7 +1440,7 @@
 - [ms-jpq/simple-traefik-dash](https://github.com/ms-jpq/simple-traefik-dash) - Zero conf service dashboard for Traefik v2 Ingress Controller
 - [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
 - [spatie/laravel-backup](https://github.com/spatie/laravel-backup) - A package to backup your Laravel app
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 - [mistio/mist-ce](https://github.com/mistio/mist-ce) - Mist is an open source, multicloud management platform
 
 ## discord 
@@ -2810,7 +2810,7 @@
 - [bavix/laravel-wallet](https://github.com/bavix/laravel-wallet) - It's easy to work with a virtual wallet
 - [scrnhq/laravel-bakery](https://github.com/scrnhq/laravel-bakery) - 🍞🧑‍🍳 An on-the-fly GraphQL Schema generator from Eloquent models for Laravel.
 - [antonioribeiro/version](https://github.com/antonioribeiro/version) - Laravel App versioning
-- [ulearnpro/ulearn](https://github.com/ulearnpro/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
+- [safytech/ulearn](https://github.com/safytech/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
 - [AsgardCms/Platform](https://github.com/AsgardCms/Platform) - A modular multilingual CMS built with Laravel 5.
 - [ConsoleTVs/Invoices](https://github.com/ConsoleTVs/Invoices) - Generate PDF invoices for your customers in laravel
 - [TypiCMS/Base](https://github.com/TypiCMS/Base) - Multilingual CMS built with Laravel.
@@ -2822,7 +2822,7 @@
 - [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) - FreeScout — Free self-hosted help desk & shared mailbox (Zendesk / Help Scout alternative)
 - [LavaLite/cms](https://github.com/LavaLite/cms) - Multilingual PHP CMS built with Laravel  and bootstrap
 - [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) - A source-available invoice, quote, project and time-tracking app built with Laravel
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 - [DevinY/dlaravel](https://github.com/DevinY/dlaravel) - Laravel and Docker
 - [area17/twill](https://github.com/area17/twill) - Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible. Chat with us on Discord at https://discord.gg/cnWk
 - [rinvex/laravel-bookings](https://github.com/rinvex/laravel-bookings) - ⚠️ [ABANDONED] Rinvex Bookable is a generic resource booking system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, accompanied by powerful u
@@ -2899,7 +2899,7 @@
 - [Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term) - A good looking terminal emulator which mimics the old cathode display...
 - [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
 - [openemr/openemr](https://github.com/openemr/openemr) - The most popular open source electronic health records and medical practice management solution.
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 - [canonical/multipass](https://github.com/canonical/multipass) - Multipass orchestrates virtual Ubuntu instances
 - [termux/termux-packages](https://github.com/termux/termux-packages) - A package build system for Termux.
 
@@ -3500,9 +3500,9 @@
 - [jcc/blog](https://github.com/jcc/blog) - :star2: PJ Blog is an open source blog built with Laravel and Vue.js.
 - [jsdecena/laracom](https://github.com/jsdecena/laracom) - Laravel FREE E-Commerce Software
 - [avored/laravel-ecommerce](https://github.com/avored/laravel-ecommerce) - AvoRed an Open Source Laravel Shopping Cart
-- [ulearnpro/ulearn](https://github.com/ulearnpro/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
+- [safytech/ulearn](https://github.com/safytech/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
 - [bagisto/bagisto](https://github.com/bagisto/bagisto) - Free and open source laravel eCommerce platform
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 
 ## openai 
 
@@ -4163,7 +4163,7 @@
 - [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) - FreeScout — Free self-hosted help desk & shared mailbox (Zendesk / Help Scout alternative)
 - [LavaLite/cms](https://github.com/LavaLite/cms) - Multilingual PHP CMS built with Laravel  and bootstrap
 - [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) - A source-available invoice, quote, project and time-tracking app built with Laravel
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 - [pagekit/pagekit](https://github.com/pagekit/pagekit) - Pagekit CMS
 - [rinvex/laravel-bookings](https://github.com/rinvex/laravel-bookings) - ⚠️ [ABANDONED] Rinvex Bookable is a generic resource booking system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, accompanied by powerful u
 - [caprover/caprover](https://github.com/caprover/caprover) - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids
@@ -4618,7 +4618,7 @@
 - [novuhq/novu](https://github.com/novuhq/novu) - The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations.
 - [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open sour
 - [unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps) - :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy!
-- [ulearnpro/ulearn](https://github.com/ulearnpro/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
+- [safytech/ulearn](https://github.com/safytech/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
 - [Rajan/lesspod](https://github.com/Rajan/lesspod) - Lesspod: Serverless CMS (Website + Blog Engine)
 
 ## redux 
@@ -5404,7 +5404,7 @@
 - [Onelinerhub/onelinerhub](https://github.com/Onelinerhub/onelinerhub) - Thousands of code solutions with clear explanation @ onelinerhub.com
 - [piku/piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
 - [systemsdk/docker-nginx-php-laravel](https://github.com/systemsdk/docker-nginx-php-laravel) - Docker environment required to run Laravel (based on official php and mysql docker hub repositories)
-- [andreapollastri/cipi](https://github.com/andreapollastri/cipi) - Easy Laravel Deployments
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
 
 ## ui 
 
