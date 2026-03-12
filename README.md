@@ -180,7 +180,6 @@
 
 ## Clojure 
 
-- [instantdb/instant](https://github.com/instantdb/instant) - Instant is a modern Firebase. We make you productive by giving your frontend a real-time database.
 - [logseq/logseq](https://github.com/logseq/logseq) - A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://discuss.logseq.com/t/logseq-product-roadmap
 
 ## Dart 
@@ -1093,6 +1092,7 @@
 
 ## Python 
 
+- [nlethetech/nepal-osint-skeleton](https://github.com/nlethetech/nepal-osint-skeleton) - NepalOSINT — Real-time open-source intelligence dashboard for Nepal's political landscape, elections, governance, and public data. Built with React, FastAPI, PostgreSQL, and Redis.
 - [Ibrahim-3d/conductor-orchestrator-superpowers](https://github.com/Ibrahim-3d/conductor-orchestrator-superpowers) - Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills
 - [GHJJ123/brainrotguard](https://github.com/GHJJ123/brainrotguard) - YouTube approval system for kids — parent approves via Telegram, kid watches via web UI
 - [Pickle-Pixel/ApplyPilot](https://github.com/Pickle-Pixel/ApplyPilot) - AI agent that applies to jobs for you. Any site. Any form.
@@ -1633,6 +1633,7 @@
 - [morris/vanilla-prime](https://github.com/morris/vanilla-prime) - A simpler, more sustainable way of web development
 - [srcbookdev/srcbook](https://github.com/srcbookdev/srcbook) - TypeScript-centric app development platform: notebook and AI app builder
 - [dahlia/logtape](https://github.com/dahlia/logtape) - Unobtrusive logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions
+- [instantdb/instant](https://github.com/instantdb/instant) - Instant is a modern Firebase. We make you productive by giving your frontend a real-time database.
 - [chartdb/chartdb](https://github.com/chartdb/chartdb) - Database diagrams editor that allows you to visualize and design your DB with a single query.
 - [formkit/formkit](https://github.com/formkit/formkit) - Vue Forms ⚡️ Supercharged
 - [TrafficGuard/typedai](https://github.com/TrafficGuard/typedai) - TypeScript AI platform with AI chat, Autonomous agents, Software developer agents, chatbots and more
