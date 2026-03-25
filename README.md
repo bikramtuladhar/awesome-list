@@ -131,6 +131,7 @@
 
 ## C++ 
 
+- [Tiiny-AI/PowerInfer](https://github.com/Tiiny-AI/PowerInfer) - High-speed Large Language Model Serving for Local Deployment
 - [Snapchat/Valdi](https://github.com/Snapchat/Valdi) - Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity.
 - [ggerganov/ggwave](https://github.com/ggerganov/ggwave) - Tiny data-over-sound library
 - [lights0123/hipscript](https://github.com/lights0123/hipscript) - Online compiler for HIP and NVIDIA® CUDA® code to WebGPU
@@ -1090,6 +1091,7 @@
 
 ## Python 
 
+- [ssrajadh/sentrysearch](https://github.com/ssrajadh/sentrysearch) - Semantic search over videos using Gemini Embedding 2.
 - [nlethetech/nepal-osint-skeleton](https://github.com/nlethetech/nepal-osint-skeleton) - NepalOSINT — Real-time open-source intelligence dashboard for Nepal's political landscape, elections, governance, and public data. Built with React, FastAPI, PostgreSQL, and Redis.
 - [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) - OSINT Framework
 - [Ibrahim-3d/conductor-orchestrator-superpowers](https://github.com/Ibrahim-3d/conductor-orchestrator-superpowers) - Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills
