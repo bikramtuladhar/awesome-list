@@ -1344,8 +1344,9 @@
 
 ## Rust 
 
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 - [glommer/pgmicro](https://github.com/glommer/pgmicro) - An in-process reimplementation of PostgreSQL, backed by a SQLite-compatible storage engine
-- [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) - [Notice] The repo temporarily locked while ownership transfer. in the meantime we maintain on here: https://github.com/ultraworkers/claw-code-parity. The fastest repo in history to surpass 100K stars 
+- [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) - The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.
 - [zerobootdev/zeroboot](https://github.com/zerobootdev/zeroboot) - Sub-millisecond VM sandboxes for AI agents via copy-on-write forking
 - [metacraft-labs/codetracer](https://github.com/metacraft-labs/codetracer) - CodeTracer is a user-friendly time-traveling debugger designed to support a wide range of programming languages.
 - [Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - Real-time analytics on Postgres tables
