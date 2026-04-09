@@ -218,7 +218,6 @@
 
 - [simeji/jid](https://github.com/simeji/jid) - json incremental digger
 - [sphireinc/Foundry](https://github.com/sphireinc/Foundry) - A Markdown-first CMS written in Go with themes, plugins, and an integrated admin UI
-- [santifer/career-ops](https://github.com/santifer/career-ops) - AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
 - [AmirSoleimani/openberth](https://github.com/AmirSoleimani/openberth) - Self-hosted deployment platform. Give it code, get a live HTTPS URL. Supports Node.js, Python, Go, and static sites. Every    deployment runs sandboxed in gVisor. Three static Go binaries, zero runtim
 - [aquasecurity/trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 - [lxc/incus-os](https://github.com/lxc/incus-os) - Immutable Linux OS to run Incus
@@ -544,6 +543,7 @@
 
 ## JavaScript 
 
+- [santifer/career-ops](https://github.com/santifer/career-ops) - AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
 - [vava-nessa/free-coding-models](https://github.com/vava-nessa/free-coding-models) - Find, benchmark and install in CLI 200+ FREE coding LLM models across 20+ providers in real time
 - [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) - OSINT Framework
 - [khalildh/garment-notation](https://github.com/khalildh/garment-notation) - 
@@ -724,6 +724,7 @@
 
 ## Kotlin 
 
+- [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
 - [iamgio/quarkdown](https://github.com/iamgio/quarkdown) - 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.
 - [NexaAI/nexa-sdk](https://github.com/NexaAI/nexa-sdk) - Run frontier LLMs and VLMs with day-0 model support across GPU, NPU, and CPU, with comprehensive runtime coverage for PC (Python/C++), mobile (Android & iOS), and Linux/IoT (Arm64 & x86 Docker). Suppo
 - [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
@@ -1032,7 +1033,7 @@
 - [MarceauKa/shaark](https://github.com/MarceauKa/shaark) - Self-hosted platform to keep and share your content: web links, posts, passwords and pictures.
 - [neoighodaro/laravel-early-access](https://github.com/neoighodaro/laravel-early-access) - This package makes it easy to add early access mode to your existing application.
 - [slimkit/plus](https://github.com/slimkit/plus) - 💝The Plus (ThinkSNS+) is a powerful, easy-to-develop social system built with Laravel.
-- [mikebronner/laravel-mixpanel](https://github.com/mikebronner/laravel-mixpanel) - Intuitive drop-in analytics.
+- [mike-bronner/laravel-mixpanel](https://github.com/mike-bronner/laravel-mixpanel) - Intuitive drop-in analytics.
 - [urlhum/UrlHum](https://github.com/urlhum/UrlHum) - The modern, privacy-aware URL Shortener built in PHP.
 - [kyranb/Footprints](https://github.com/kyranb/Footprints) - :feet: A simple registration attribution tracking solution for Laravel (UTM Parameters and Referrers)
 - [aungwinthant/apilogger](https://github.com/aungwinthant/apilogger) - Small laravel package for viewing api logs which can be used in debugging.
