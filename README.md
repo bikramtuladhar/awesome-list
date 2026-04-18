@@ -543,6 +543,7 @@
 
 ## JavaScript 
 
+- [sunnyvanani/Vikalp-Trader-XTS](https://github.com/sunnyvanani/Vikalp-Trader-XTS) - Fast options trading terminal for XTS-based brokers. React frontend with real-time LTP streaming, virtualized order book, positions P&L, account-level SL/Target automation, and a Python FastAPI backen
 - [santifer/career-ops](https://github.com/santifer/career-ops) - AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
 - [vava-nessa/free-coding-models](https://github.com/vava-nessa/free-coding-models) - Find, benchmark and install in CLI 200+ FREE coding LLM models across 20+ providers in real time
 - [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) - OSINT Framework
@@ -1094,6 +1095,8 @@
 
 ## Python 
 
+- [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) - Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge.
+- [nlethetech/nepse-quant-terminal](https://github.com/nlethetech/nepse-quant-terminal) - 
 - [google-research/timesfm](https://github.com/google-research/timesfm) - TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
 - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks
 - [ssrajadh/sentrysearch](https://github.com/ssrajadh/sentrysearch) - Semantic search over videos using Gemini Embedding 2 or Qwen3-VL.
@@ -1133,7 +1136,7 @@
 - [datachain-ai/datachain](https://github.com/datachain-ai/datachain) - Data context layer for unstructured data - images, video, sensor data, text and PDFs
 - [cybrota/whispr](https://github.com/cybrota/whispr) - A multi-vault secret injection tool for safely injecting secrets into app environment
 - [aptzer0x/evilurl](https://github.com/aptzer0x/evilurl) - A cybersecurity tool designed to safeguard against IDN Homograph Attacks
-- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) - Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.
+- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) - Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.
 - [flatcar/Flatcar](https://github.com/flatcar/Flatcar) - Flatcar project repository for issue tracking, project documentation, etc.
 - [ZGC-LLM-Safety/TrafficLLM](https://github.com/ZGC-LLM-Safety/TrafficLLM) - The repository of TrafficLLM, a universal LLM adaptation framework to learn robust traffic representation for all open-sourced LLM in real-world scenarios and enhance the generalization across diverse
 - [protectai/vulnhuntr](https://github.com/protectai/vulnhuntr) - Zero shot vulnerability discovery using LLMs
