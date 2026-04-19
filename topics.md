@@ -3607,6 +3607,7 @@
 
 ## others 
 
+- [CelestoAI/SmolVM](https://github.com/CelestoAI/SmolVM) - Open-source AI sandbox infrastructure for code execution, browser use, and AI agents.
 - [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) - Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge.
 - [nlethetech/nepse-quant-terminal](https://github.com/nlethetech/nepse-quant-terminal) - 
 - [sunnyvanani/Vikalp-Trader-XTS](https://github.com/sunnyvanani/Vikalp-Trader-XTS) - Fast options trading terminal for XTS-based brokers. React frontend with real-time LTP streaming, virtualized order book, positions P&L, account-level SL/Target automation, and a Python FastAPI backen
@@ -3694,7 +3695,6 @@
 - [yoheinakajima/ditto](https://github.com/yoheinakajima/ditto) - the simplest self-building coding agent
 - [microsoft/BitNet](https://github.com/microsoft/BitNet) - Official inference framework for 1-bit LLMs
 - [Melkeydev/go-blueprint](https://github.com/Melkeydev/go-blueprint) - Go-blueprint allows users to spin up a quick Go project using a popular framework
-- [praetorian-inc/gato](https://github.com/praetorian-inc/gato) - GitHub Actions Pipeline Enumeration and Attack Tool
 - [splitbrain/clipscreen](https://github.com/splitbrain/clipscreen) - Mirror a portion of your screen to a virtual monitor for easier screen sharing.
 - [openai/swarm](https://github.com/openai/swarm) - Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
 - [openeverest/openeverest](https://github.com/openeverest/openeverest) - OpenEverest is an open-source platform for automated database provisioning and management. It supports multiple database technologies and can be hosted on any Kubernetes infrastructure, in the cloud o
