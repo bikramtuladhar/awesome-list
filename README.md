@@ -1006,7 +1006,7 @@
 - [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) - A platform to create documentation/wiki content built with PHP & Laravel
 - [larastan/larastan](https://github.com/larastan/larastan) - ⚗️ Adds code analysis to Laravel improving developer productivity and code quality.
 - [pterodactyl/panel](https://github.com/pterodactyl/panel) - Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while ex
-- [faveosuite/faveo-invoicing-community](https://github.com/faveosuite/faveo-invoicing-community) - Faveo Invoicing Open source SaaS billing system for software companies
+- [faveosuite/faveo-invoicing-community](https://github.com/faveosuite/faveo-invoicing-community) - Faveo Invoicing is an open-source platform for SaaS billing and license management, tailored to meet the needs of software companies.
 - [anychart-integrations/php-laravel-mysql-template](https://github.com/anychart-integrations/php-laravel-mysql-template) - This example shows how to use Anychart library with the PHP programming language, Laravel framework and MySQL database.
 - [changeweb/Unifiedtransform](https://github.com/changeweb/Unifiedtransform) - A school management Software
 - [jeremykenedy/laravel2step](https://github.com/jeremykenedy/laravel2step) - Laravel 2-Step verification is a package to add 2-Step user authentication to any Laravel project easily. It is configurable and customizable. It uses notifications to send the user an email with a 4-
@@ -1283,7 +1283,7 @@
 - [tetra-framework/tetra](https://github.com/tetra-framework/tetra) - Tetra - A full stack component framework for Django using Alpine.js
 - [permitio/opal](https://github.com/permitio/opal) - Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...)
 - [pyscript/pyscript](https://github.com/pyscript/pyscript) - An open source platform for Python in the browser. https://pyscript.net Docs: https://docs.pyscript.net/ Try it: https://pyscript.com/ Community: https://discord.gg/HxvBtukrg2
-- [LibrePhotos/librephotos](https://github.com/LibrePhotos/librephotos) - A self-hosted open source photo management service. This is the repository of the backend.
+- [LibrePhotos/librephotos](https://github.com/LibrePhotos/librephotos) - A self-hosted open source photo management service.
 - [quru/qis](https://github.com/quru/qis) - Dynamic image server for web and print
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
 - [run-x/opta](https://github.com/run-x/opta) - The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
@@ -1847,7 +1847,7 @@
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative
 - [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
 - [tinacms/tinacms](https://github.com/tinacms/tinacms) - A fully open-source headless CMS that supports Markdown and Visual Editing
-- [gridaco/grida](https://github.com/gridaco/grida) - Grida — Free and Open 2D Graphics Editor
+- [gridaco/grida](https://github.com/gridaco/grida) - Grida — Open Design
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more
 - [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
 - [pavlobu/deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer. ⭐️ Star to support our work!
