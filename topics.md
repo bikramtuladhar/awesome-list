@@ -142,7 +142,6 @@
 - [json](#json)
 - [jupyter-notebook](#jupyter-notebook)
 - [kali-linux](#kali-linux)
-- [koa](#koa)
 - [kotlin](#kotlin)
 - [kubernetes](#kubernetes)
 - [language](#language)
@@ -395,6 +394,7 @@
 - [johannesjo/parallel-code](https://github.com/johannesjo/parallel-code) - Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree
 - [johnbean393/Sidekick](https://github.com/johnbean393/Sidekick) - A native macOS app that allows users to chat with a local LLM that can respond with information from files, folders and websites on your Mac without installing any other software. Powered by llama.cpp
 - [steel-dev/steel-browser](https://github.com/steel-dev/steel-browser) - 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.
+- [datachain-ai/datachain](https://github.com/datachain-ai/datachain) - Data Memory: the operational data context layer for AI agents - typed, versioned datasets over images, video, docs and tables
 - [mem0ai/mem0](https://github.com/mem0ai/mem0) - Universal memory layer for AI Agents
 - [shivasurya/code-pathfinder](https://github.com/shivasurya/code-pathfinder) - Static Code Analysis for security teams with Inter file taint analysis. Built for finding vulnerabilities, advanced structural search, derive insights and supports MCP
 - [TrafficGuard/typedai](https://github.com/TrafficGuard/typedai) - TypeScript AI platform with AI chat, Autonomous agents, Software developer agents, chatbots and more
@@ -878,7 +878,7 @@
 - [superset-sh/superset](https://github.com/superset-sh/superset) - Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine
 - [Ibrahim-3d/orchestrator-supaconductor](https://github.com/Ibrahim-3d/orchestrator-supaconductor) - Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills
 - [johannesjo/parallel-code](https://github.com/johannesjo/parallel-code) - Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree
-- [datachain-ai/datachain](https://github.com/datachain-ai/datachain) - Data context layer for unstructured data - images, video, sensor data, text and PDFs
+- [datachain-ai/datachain](https://github.com/datachain-ai/datachain) - Data Memory: the operational data context layer for AI agents - typed, versioned datasets over images, video, docs and tables
 
 ## cli 
 
@@ -1628,7 +1628,7 @@
 - [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
 - [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
 - [startupengine/startupengine](https://github.com/startupengine/startupengine) - An open-source platform for startups with integrated CMS, analytics, and A/B testing.
-- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) - A platform to create documentation/wiki content built with PHP & Laravel
+- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) - NOW MANAGED ON CODEBERG
 
 ## dotnet 
 
@@ -2596,10 +2596,6 @@
 
 - [rfc-st/humble](https://github.com/rfc-st/humble) - A humble, and 𝗳𝗮𝘀𝘁, security-oriented HTTP headers analyzer.
 
-## koa 
-
-- [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
-
 ## kotlin 
 
 - [sqlc-dev/sqlc](https://github.com/sqlc-dev/sqlc) - Generate type-safe code from SQL
@@ -2828,7 +2824,7 @@
 - [avored/laravel-ecommerce](https://github.com/avored/laravel-ecommerce) - AvoRed an Open Source Laravel Shopping Cart
 - [vkovic/laravel-custom-casts](https://github.com/vkovic/laravel-custom-casts) - Make your own custom cast type for Laravel model attributes
 - [BenSampo/laravel-enum](https://github.com/BenSampo/laravel-enum) - Simple, extensible and powerful enumeration implementation for Laravel.
-- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) - A platform to create documentation/wiki content built with PHP & Laravel
+- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) - NOW MANAGED ON CODEBERG
 - [larastan/larastan](https://github.com/larastan/larastan) - ⚗️ Adds code analysis to Laravel improving developer productivity and code quality.
 - [pterodactyl/panel](https://github.com/pterodactyl/panel) - Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while ex
 - [anychart-integrations/php-laravel-mysql-template](https://github.com/anychart-integrations/php-laravel-mysql-template) - This example shows how to use Anychart library with the PHP programming language, Laravel framework and MySQL database.
@@ -2970,7 +2966,6 @@
 - [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) - Sample code and notebooks for Generative AI on Google Cloud, with Gemini Enterprise Agent Platform
 - [callstackincubator/cali](https://github.com/callstackincubator/cali) - AI agent for building React Native apps
 - [steel-dev/steel-browser](https://github.com/steel-dev/steel-browser) - 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.
-- [datachain-ai/datachain](https://github.com/datachain-ai/datachain) - Data context layer for unstructured data - images, video, sensor data, text and PDFs
 - [mlc-ai/web-llm-chat](https://github.com/mlc-ai/web-llm-chat) - Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations.
 - [FrigadeHQ/trench](https://github.com/FrigadeHQ/trench) - Trench — Open-Source Analytics Infrastructure. A single production-ready Docker image built on ClickHouse, Kafka, and Node.js for tracking events. Easily build product analytics dashboards, LLM RAGs, 
 - [protectai/vulnhuntr](https://github.com/protectai/vulnhuntr) - Zero shot vulnerability discovery using LLMs
@@ -4216,7 +4211,7 @@
 - [range-of-motion/budget](https://github.com/range-of-motion/budget) - Get a grip on your finances.
 - [avored/laravel-ecommerce](https://github.com/avored/laravel-ecommerce) - AvoRed an Open Source Laravel Shopping Cart
 - [BenSampo/laravel-enum](https://github.com/BenSampo/laravel-enum) - Simple, extensible and powerful enumeration implementation for Laravel.
-- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) - A platform to create documentation/wiki content built with PHP & Laravel
+- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) - NOW MANAGED ON CODEBERG
 - [larastan/larastan](https://github.com/larastan/larastan) - ⚗️ Adds code analysis to Laravel improving developer productivity and code quality.
 - [pterodactyl/panel](https://github.com/pterodactyl/panel) - Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while ex
 - [anychart-integrations/php-laravel-mysql-template](https://github.com/anychart-integrations/php-laravel-mysql-template) - This example shows how to use Anychart library with the PHP programming language, Laravel framework and MySQL database.
