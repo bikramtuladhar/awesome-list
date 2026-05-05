@@ -487,6 +487,7 @@
 
 ## HTML 
 
+- [vava-nessa/free-coding-models](https://github.com/vava-nessa/free-coding-models) - Find, benchmark and install in CLI 170+ FREE coding LLM models across 15+ providers in real time
 - [planetscale/database-skills](https://github.com/planetscale/database-skills) - Skills for AI agents working with databases
 - [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) - DigitalPlat FreeDomain: Free Domain For Everyone
 - [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) - Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to
@@ -549,7 +550,6 @@
 
 - [sunnyvanani/Vikalp-Trader-XTS](https://github.com/sunnyvanani/Vikalp-Trader-XTS) - Fast options trading terminal for XTS-based brokers. React frontend with real-time LTP streaming, virtualized order book, positions P&L, account-level SL/Target automation, and a Python FastAPI backen
 - [santifer/career-ops](https://github.com/santifer/career-ops) - AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
-- [vava-nessa/free-coding-models](https://github.com/vava-nessa/free-coding-models) - Find, benchmark and install in CLI 200+ FREE coding LLM models across 20+ providers in real time
 - [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) - OSINT Framework
 - [khalildh/garment-notation](https://github.com/khalildh/garment-notation) - 
 - [gethomepage/homepage](https://github.com/gethomepage/homepage) - A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.
@@ -577,7 +577,7 @@
 - [dillondesilva/codehelium](https://github.com/dillondesilva/codehelium) - An editor component that compiles, executes and returns the outputs of any user-written code via Pyodide/Emscripten/Webassembly.
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database diagram editor and SQL generator.
-- [stack-auth/pgmock](https://github.com/stack-auth/pgmock) - In-memory Postgres for unit/E2E tests
+- [hexclave/pgmock](https://github.com/hexclave/pgmock) - In-memory Postgres for unit/E2E tests
 - [Kalabasa/htmz](https://github.com/Kalabasa/htmz) - html with targeted manipulation zones
 - [wasmerio/winterjs](https://github.com/wasmerio/winterjs) - Winter is coming... ❄️
 - [ErickWendel/processing-large-reports-in-the-browser](https://github.com/ErickWendel/processing-large-reports-in-the-browser) - Examples from my video about processing large reports in the browser without any backend
@@ -1100,7 +1100,7 @@
 
 - [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) - Kronos: A Foundation Model for the Language of Financial Markets
 - [CelestoAI/SmolVM](https://github.com/CelestoAI/SmolVM) - Open-source AI sandbox infrastructure for code execution, browser use, and AI agents.
-- [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) - Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge.
+- [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) - Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.
 - [nlethetech/nepse-quant-terminal](https://github.com/nlethetech/nepse-quant-terminal) - Terminal-based NEPSE quant trading dashboard with paper trading, backtesting, analytics, and AI agent support.
 - [google-research/timesfm](https://github.com/google-research/timesfm) - TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
 - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks
@@ -1365,6 +1365,7 @@
 - [numaproj/numaflow](https://github.com/numaproj/numaflow) - Kubernetes-native platform to run massively parallel data/streaming jobs
 - [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) - Comfortably monitor your Internet traffic 🕵️‍♂️
 - [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources.
 - [SeekStorm/SeekStorm](https://github.com/SeekStorm/SeekStorm) - SeekStorm: vector & lexical search - in-process library & multi-tenancy server, in Rust.
 - [tensorchord/VectorChord](https://github.com/tensorchord/VectorChord) - Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs.
 - [spinframework/spin](https://github.com/spinframework/spin) - Spin is the open source developer tool for building and running serverless applications powered by WebAssembly.
@@ -1619,7 +1620,6 @@
 - [reltadev/github-assistant](https://github.com/reltadev/github-assistant) - Explore GitHub repositories with natural language questions
 - [xpf0000/FlyEnv](https://github.com/xpf0000/FlyEnv) - Lightweight Native Local Dev Toolbox for Windows, macOS & Linux. Run  Hermes Agent/OpenClaw/n8n/Apache/Nginx/Caddy/Tomcat/PHP/Node.js/Bun/Deno/Python/Java/Go/Ruby/Perl/Rust/Erlang/MySQL/PostgreSQL/Mar
 - [mastra-ai/mastra](https://github.com/mastra-ai/mastra) - From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.
-- [Canner/WrenAI](https://github.com/Canner/WrenAI) - Open-source text-to-SQL and text-to-chart GenBI agent with a semantic layer. Ask your database questions in natural language — get accurate SQL, charts, and BI insights. Supports 12+ data sources (Pos
 - [stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy) - Prompt, run, edit, and deploy full-stack web applications using any LLM you want!
 - [ant-design/x](https://github.com/ant-design/x) - Craft AI-driven interface effortlessly🤖
 - [callstackincubator/cali](https://github.com/callstackincubator/cali) - AI agent for building React Native apps
