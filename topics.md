@@ -294,7 +294,7 @@
 ## agent 
 
 - [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) - The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
-- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, dashboards, and advanced analytics.
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, text-to-sql, dashboards, and advanced analytics.
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
 - [entropy-research/Devon](https://github.com/entropy-research/Devon) - Devon: An open-source pair programmer
 - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) - 🙌 OpenHands: AI-Driven Development
@@ -427,6 +427,7 @@
 - [shivasurya/code-pathfinder](https://github.com/shivasurya/code-pathfinder) - Static Code Analysis for security teams with Inter file taint analysis. Built for finding vulnerabilities, advanced structural search, derive insights and supports MCP
 - [TrafficGuard/typedai](https://github.com/TrafficGuard/typedai) - TypeScript AI platform with AI chat, Autonomous agents, Software developer agents, chatbots and more
 - [GaiaNet-AI/gaianet-node](https://github.com/GaiaNet-AI/gaianet-node) - Install, run and deploy your own decentralized AI agent service
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
 - [activepieces/activepieces](https://github.com/activepieces/activepieces) - AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
 - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
@@ -473,7 +474,7 @@
 - [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.
 - [paradedb/paradedb](https://github.com/paradedb/paradedb) - Simple, Elastic-quality search for Postgres
 - [openmeterio/openmeter](https://github.com/openmeterio/openmeter) - Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.
-- [openobserve/openobserve](https://github.com/openobserve/openobserve) - OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage cost
+- [openobserve/openobserve](https://github.com/openobserve/openobserve) - Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and El
 - [getlago/lago](https://github.com/getlago/lago) - Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics
 - [apache/age](https://github.com/apache/age) - Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL.
 - [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) - The open-source Observability 2.0 database. One engine for metrics, logs, and traces — replacing Prometheus, Loki & ES.
@@ -553,7 +554,7 @@
 - [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) - Proxy server to bypass Cloudflare protection
 - [julien040/anyquery](https://github.com/julien040/anyquery) - Query anything (GitHub, Notion, +40 more) with SQL and let LLMs (ChatGPT, Claude) connect to using MCP
 - [chartbrew/chartbrew](https://github.com/chartbrew/chartbrew) - Open-source reporting platform to build and share live dashboards from APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable charts 📈📊
-- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
 - [scalar/scalar](https://github.com/scalar/scalar) - Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 - [litestar-org/litestar](https://github.com/litestar-org/litestar) - Light, flexible and extensible ASGI framework | Built to scale
@@ -748,7 +749,7 @@
 
 - [goatplatform/goatdb](https://github.com/goatplatform/goatdb) - A peer-to-peer database that spans devices. For apps and agents that work everywhere.
 - [vitonsky/arrival-time](https://github.com/vitonsky/arrival-time) - Simple and powerful progress time estimation (ETA) for JavaScript
-- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
 - [readysettech/readyset](https://github.com/readysettech/readyset) - Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the 
 - [blenderskool/blaze](https://github.com/blenderskool/blaze) - ⚡ File sharing progressive web app built using WebTorrent and WebSockets
@@ -909,6 +910,7 @@
 - [Ibrahim-3d/orchestrator-supaconductor](https://github.com/Ibrahim-3d/orchestrator-supaconductor) - Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills
 - [johannesjo/parallel-code](https://github.com/johannesjo/parallel-code) - Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree
 - [datachain-ai/datachain](https://github.com/datachain-ai/datachain) - Data Memory: the operational data context layer for AI agents - typed, versioned datasets over images, video, docs and tables
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 
 ## cli 
 
@@ -935,7 +937,7 @@
 - [reorx/httpstat](https://github.com/reorx/httpstat) - curl statistics made simple
 - [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
 - [kubernetes-retired/kui](https://github.com/kubernetes-retired/kui) - A hybrid command-line/UI development experience for cloud-native development
-- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [amalshaji/portr](https://github.com/amalshaji/portr) - Expose local http, tcp or websocket connections to the public internet
 - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) - 🙌 OpenHands: AI-Driven Development
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
@@ -995,7 +997,7 @@
 - [cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops) - Developer Friendly Kubernetes 👁️
 - [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
 - [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
-- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [inkdrop-org/inkdrop-visualizer](https://github.com/inkdrop-org/inkdrop-visualizer) - Visualizes your Terraform
 - [loft-sh/devpod](https://github.com/loft-sh/devpod) - Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker.
 - [kubero-dev/kubero](https://github.com/kubero-dev/kubero) - A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes
@@ -1395,7 +1397,7 @@
 - [Automattic/harper](https://github.com/Automattic/harper) - Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 - [Storia-AI/sage](https://github.com/Storia-AI/sage) - Chat with any codebase in under two minutes | Fully local or via third-party APIs
-- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
 - [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Arcjet JavaScript (JS) / TypeScript SDK. Stop bots and automated attacks from burning your AI budget, leaking data, or misusing tools with Arcjet's AI security building blocks.
 - [entropy-research/Devon](https://github.com/entropy-research/Devon) - Devon: An open-source pair programmer
@@ -1426,7 +1428,7 @@
 
 ## development 
 
-- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - [loft-sh/devpod](https://github.com/loft-sh/devpod) - Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker.
 - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
@@ -1456,7 +1458,7 @@
 - [KusionStack/kusion](https://github.com/KusionStack/kusion) - Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP).
 - [Legit-Labs/legitify](https://github.com/Legit-Labs/legitify) - Detect and remediate misconfigurations and security risks across all your GitHub and GitLab assets
 - [jiacai2050/shellgpt](https://github.com/jiacai2050/shellgpt) - Chat with LLM in your terminal, be it shell generator, story teller, linux-terminal, etc.
-- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
 - [inkdrop-org/inkdrop-visualizer](https://github.com/inkdrop-org/inkdrop-visualizer) - Visualizes your Terraform
 - [k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) - Giving Kubernetes Superpowers to everyone
@@ -2660,7 +2662,7 @@
 - [edgelesssys/constellation](https://github.com/edgelesssys/constellation) - Constellation is a Kubernetes distribution for confidential computing, securing entire clusters on untrusted infrastructure.  Constellation is in maintenance mode. New development continues in Contras
 - [nocalhost/nocalhost](https://github.com/nocalhost/nocalhost) - Nocalhost is Cloud Native Dev Environment.
 - [kubernetes-retired/kui](https://github.com/kubernetes-retired/kui) - A hybrid command-line/UI development experience for cloud-native development
-- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [telepresenceio/telepresence](https://github.com/telepresenceio/telepresence) - Local development against a remote Kubernetes or OpenShift cluster
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open Source Data Security Platform for Developers to Monitor and Detect PII, Anonymize Production Data and Sync it across environments.
 - [eraser-dev/eraser](https://github.com/eraser-dev/eraser) - 🧹 Cleaning up images from Kubernetes nodes
@@ -2994,7 +2996,7 @@
 - [sauravpanda/BrowserAI](https://github.com/sauravpanda/BrowserAI) - Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser
 - [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) - Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to
 - [mastra-ai/mastra](https://github.com/mastra-ai/mastra) - From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.
-- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, dashboards, and advanced analytics.
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, text-to-sql, dashboards, and advanced analytics.
 - [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) - Sample code and notebooks for Generative AI on Google Cloud, with Gemini Enterprise Agent Platform
 - [callstackincubator/cali](https://github.com/callstackincubator/cali) - AI agent for building React Native apps
 - [steel-dev/steel-browser](https://github.com/steel-dev/steel-browser) - 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.
@@ -3266,7 +3268,7 @@
 - [dimo414/task-mon](https://github.com/dimo414/task-mon) - CLI to execute commands and log results to healthchecks.io
 - [odigos-io/odigos](https://github.com/odigos-io/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
 - [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.
-- [openobserve/openobserve](https://github.com/openobserve/openobserve) - OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage cost
+- [openobserve/openobserve](https://github.com/openobserve/openobserve) - Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and El
 - [grafana/phlare](https://github.com/grafana/phlare) - 🔥 horizontally-scalable, highly-available, multi-tenant continuous profiling aggregation system
 - [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) - The open-source Observability 2.0 database. One engine for metrics, logs, and traces — replacing Prometheus, Loki & ES.
 - [megaease/easeprobe](https://github.com/megaease/easeprobe) - A simple, standalone, and lightweight tool that can do health/status checking, written in Go.
@@ -3599,7 +3601,7 @@
 ## openai 
 
 - [ENTERPILOT/GoModel](https://github.com/ENTERPILOT/GoModel) - AI gateway written in Go. Lightweight unified OpenAI-compatible API for OpenAI, Anthropic, Gemini, Groq, xAI & Ollama. LiteLLM alternative with observability, guardrails, streaming, costs and usage tr
-- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, dashboards, and advanced analytics.
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, text-to-sql, dashboards, and advanced analytics.
 - [microsoft/markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
 - [transitive-bullshit/openai-realtime-api](https://github.com/transitive-bullshit/openai-realtime-api) - TypeScript client for OpenAI's realtime voice API.
 - [yamadashy/repomix](https://github.com/yamadashy/repomix) - 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like C
@@ -3781,7 +3783,7 @@
 - [huggingface/parler-tts](https://github.com/huggingface/parler-tts) - Inference and training library for high-quality TTS models.
 - [pgsty/pigsty](https://github.com/pgsty/pigsty) - Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 460 PG extensions. Best-of-breed products integrated as a platform. Self-host Postgres like a Pro!
 - [alsyundawy/Microsoft-Office-For-MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS) - Installer Microsoft Office For MacOS
-- [OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o) - A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Multimodal Live Streaming on Your Phone
+- [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) - A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone
 - [useplunk/plunk](https://github.com/useplunk/plunk) - The Open-Source Email Platform
 - [davidgiven/wordgrinder](https://github.com/davidgiven/wordgrinder) - A word processor which gets the hell out of your way and lets you get some work done.
 - [SummitRoute/aws_breaking_changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code
@@ -4171,7 +4173,7 @@
 
 - [xpf0000/FlyEnv](https://github.com/xpf0000/FlyEnv) - Lightweight Native Local Dev Toolbox for Windows, macOS & Linux. Run  Hermes Agent/OpenClaw/n8n/Apache/Nginx/Caddy/Tomcat/PHP/Node.js/Bun/Deno/Python/Java/Go/Ruby/Perl/Rust/Erlang/MySQL/PostgreSQL/Mar
 - [eXistenZNL/PermCheck](https://github.com/eXistenZNL/PermCheck) - PermCheck is a little tool that checks if the files in a PHP project have the executable bit set properly.
-- [imliam/cpx](https://github.com/imliam/cpx) - Run any command from any composer package, even if it's not installed in your project.
+- [laravel/cpx](https://github.com/laravel/cpx) - Run any command from any composer package, even if it's not installed in your project.
 - [vitodeploy/vito](https://github.com/vitodeploy/vito) - Free and Self-Hosted  Server Management Tool
 - [NoiseByNorthwest/php-spx](https://github.com/NoiseByNorthwest/php-spx) - A simple & straight-to-the-point PHP profiling extension with its built-in web UI
 - [tighten/tlint](https://github.com/tighten/tlint) - Tighten linter for Laravel conventions.
@@ -4287,7 +4289,7 @@
 - [databasus/databasus](https://github.com/databasus/databasus) - Database backup tool (PostgreSQL, MySQL\MariaDB and MongoDB)
 - [Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - Real-time analytics on Postgres tables
 - [ubicloud/ubicloud](https://github.com/ubicloud/ubicloud) - Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services.
-- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, dashboards, and advanced analytics.
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, text-to-sql, dashboards, and advanced analytics.
 - [sequinstream/sequin](https://github.com/sequinstream/sequin) - Postgres change data capture to streams, queues, and search indexes like Kafka, SQS, Elasticsearch, HTTP endpoints, and more
 - [tensorchord/VectorChord](https://github.com/tensorchord/VectorChord) - Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs.
 - [outerbase/studio](https://github.com/outerbase/studio) - A lightweight Database GUI in your browser. It supports connecting to Postgres, MySQL, and SQLite.
@@ -4587,7 +4589,7 @@
 ## rag 
 
 - [johnbean393/Sidekick](https://github.com/johnbean393/Sidekick) - A native macOS app that allows users to chat with a local LLM that can respond with information from files, folders and websites on your Mac without installing any other software. Powered by llama.cpp
-- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, dashboards, and advanced analytics.
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, text-to-sql, dashboards, and advanced analytics.
 - [FrigadeHQ/trench](https://github.com/FrigadeHQ/trench) - Trench — Open-Source Analytics Infrastructure. A single production-ready Docker image built on ClickHouse, Kafka, and Node.js for tracking events. Easily build product analytics dashboards, LLM RAGs, 
 - [Storia-AI/sage](https://github.com/Storia-AI/sage) - Chat with any codebase in under two minutes | Fully local or via third-party APIs
 - [katanaml/sparrow](https://github.com/katanaml/sparrow) - Structured data extraction and instruction calling with ML, LLM and Vision LLM
@@ -4802,7 +4804,7 @@
 - [tellerops/teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
 - [teodevgroup/teo](https://github.com/teodevgroup/teo) - High performance ergonomic ORM for Rust.
 - [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB, Microsoft SQL Server]
-- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run local code as if it were a pod in a remote Kubernetes cluster: real env vars, DNS, network, traffic. Used by AI coding agents and developers.
 - [wasmi-labs/wasmi](https://github.com/wasmi-labs/wasmi) - Efficient and versatile WebAssembly interpreter for embedded systems.
 - [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) - Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
 - [microsoft/aici](https://github.com/microsoft/aici) - AICI: Prompts as (Wasm) Programs
@@ -5105,7 +5107,7 @@
 ## sql 
 
 - [guanguans/laravel-soar](https://github.com/guanguans/laravel-soar) - SQL optimizer and rewriter for laravel. - laravel 的 SQL 优化器和重写器。
-- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, dashboards, and advanced analytics.
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, text-to-sql, dashboards, and advanced analytics.
 - [achristmascarl/rainfrog](https://github.com/achristmascarl/rainfrog) - 🐸 a database tool for the terminal
 - [sqlc-dev/sqlc](https://github.com/sqlc-dev/sqlc) - Generate type-safe code from SQL
 - [RamiAwar/dataline](https://github.com/RamiAwar/dataline) - Chat with your data - AI data analysis and visualization on CSV, Postgres, MySQL, Snowflake, SQLite...
