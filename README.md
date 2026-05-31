@@ -225,7 +225,7 @@
 - [openberth/openberth](https://github.com/openberth/openberth) - Self-hosted deployment platform. Give it code, get a live HTTPS URL. Supports Node.js, Python, Go, and static sites. Every    deployment runs sandboxed in gVisor. Three static Go binaries, zero runtim
 - [aquasecurity/trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 - [lxc/incus-os](https://github.com/lxc/incus-os) - Immutable Linux OS to run Incus
-- [databasus/databasus](https://github.com/databasus/databasus) - Database backup tool (PostgreSQL, MySQL\MariaDB and MongoDB)
+- [databasus/databasus](https://github.com/databasus/databasus) - PostgreSQL backup tool with Point-In-Time-Recovery and restore verification
 - [TheYahya/enola](https://github.com/TheYahya/enola) - This is Sherlock's sister, Modern shiny CLI tool written with Golang to help you: 🔎 Hunt down social media accounts by username across social networks
 - [TecharoHQ/anubis](https://github.com/TecharoHQ/anubis) - Weighs the soul of incoming HTTP requests to stop AI crawlers
 - [goravel/goravel](https://github.com/goravel/goravel) - The full-featured Golang Development Framework skeleton
@@ -549,7 +549,7 @@
 
 ## JavaScript 
 
-- [sunnyvanani/Vikalp-Trader-XTS](https://github.com/sunnyvanani/Vikalp-Trader-XTS) - Fast options trading terminal for XTS-based brokers. React frontend with real-time LTP streaming, virtualized order book, positions P&L, account-level SL/Target automation, and a Python FastAPI backen
+- [sunnyvanani/Vikalp_Trader_Lite](https://github.com/sunnyvanani/Vikalp_Trader_Lite) - Fast options trading terminal for XTS-based brokers. React frontend with real-time LTP streaming, virtualized order book, positions P&L, account-level SL/Target automation, and a Python FastAPI backen
 - [santifer/career-ops](https://github.com/santifer/career-ops) - AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
 - [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) - OSINT Framework
 - [khalildh/garment-notation](https://github.com/khalildh/garment-notation) - 
@@ -1136,7 +1136,7 @@
 - [malmeloo/FindMy.py](https://github.com/malmeloo/FindMy.py) - 🍏 + 🎯 + 🐍 = Query Apple's FindMy Network with Python!
 - [bytedance/monolith](https://github.com/bytedance/monolith) - A Lightweight Recommendation System
 - [adithya-s-k/omniparse](https://github.com/adithya-s-k/omniparse) - Ingest, parse, and optimize any data format ➡️ from documents to multimedia ➡️ for enhanced compatibility with GenAI frameworks
-- [Canner/WrenAI](https://github.com/Canner/WrenAI) - Give AI agents the context to query business data correctly through the open context layer that gives AI agents grounded, governed memory, context, SQL across 20+ data sources, that helps you build Ge
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - Give AI agents the context to query business data correctly through the open context layer that gives AI agents grounded, governed memory, context, SQL across 20+ data sources, that helps you build ag
 - [pathwaycom/pathway](https://github.com/pathwaycom/pathway) - Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.
 - [microsoft/markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
 - [langchain-ai/retrieval-agent-template](https://github.com/langchain-ai/retrieval-agent-template) - 
