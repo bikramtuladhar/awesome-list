@@ -1098,11 +1098,12 @@
 
 ## Python 
 
+- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) - A vector index built on TurboQuant, written in Rust with Python bindings
 - [anthropics/financial-services](https://github.com/anthropics/financial-services) - 
 - [dograh-hq/dograh](https://github.com/dograh-hq/dograh) - Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.
 - [cactus-compute/needle](https://github.com/cactus-compute/needle) - 26m function call model that runs on incredibly small devices
 - [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) - Kronos: A Foundation Model for the Language of Financial Markets
-- [CelestoAI/SmolVM](https://github.com/CelestoAI/SmolVM) - Open-source AI sandbox infrastructure for code execution, browser use, and AI agents.
+- [CelestoAI/SmolVM](https://github.com/CelestoAI/SmolVM) - Open-source AI sandbox infrastructure with unified API for VMMs -- Firecracker, QEMU and libkrun.
 - [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) - Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.
 - [nlethetech/nepse-quant-terminal](https://github.com/nlethetech/nepse-quant-terminal) - Terminal-based NEPSE quant trading dashboard with paper trading, backtesting, analytics, and AI agent support.
 - [google-research/timesfm](https://github.com/google-research/timesfm) - TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
