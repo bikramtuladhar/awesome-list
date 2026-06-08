@@ -3646,6 +3646,7 @@
 
 ## others 
 
+- [playcanvas/supersplat-viewer](https://github.com/playcanvas/supersplat-viewer) - User-friendly, high-performance viewer for 3D Gaussian splats
 - [anthropics/financial-services](https://github.com/anthropics/financial-services) - 
 - [vercel-labs/zero-native](https://github.com/vercel-labs/zero-native) - Build desktop + mobile apps with Zig and web UI
 - [garrytan/gstack](https://github.com/garrytan/gstack) - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
