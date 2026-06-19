@@ -1002,7 +1002,7 @@
 - [range-of-motion/budget](https://github.com/range-of-motion/budget) - Get a grip on your finances.
 - [realodix/urlhub](https://github.com/realodix/urlhub) - ✂️ URL shortener web application based on the Laravel PHP Framework.
 - [imanghafoori1/laravel-MasterPass](https://github.com/imanghafoori1/laravel-MasterPass) - Helps you securely setup a master password and login into user accounts with it.
-- [lubusIN/laravel-gymie](https://github.com/lubusIN/laravel-gymie) - 👨‍💻 Gym & Club Management System https://gymie.in
+- [lubusIN/gymie](https://github.com/lubusIN/gymie) - 👨‍💻 Gym & Club Management System https://gymie.in
 - [beyondcode/laravel-websockets](https://github.com/beyondcode/laravel-websockets) - Websockets for Laravel. Done right.
 - [vkovic/laravel-custom-casts](https://github.com/vkovic/laravel-custom-casts) - Make your own custom cast type for Laravel model attributes
 - [albertcht/invisible-recaptcha](https://github.com/albertcht/invisible-recaptcha) - An invisible reCAPTCHA package for Laravel, Lumen, CI or native PHP.
@@ -1860,7 +1860,7 @@
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative
 - [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
 - [tinacms/tinacms](https://github.com/tinacms/tinacms) - A fully open-source headless CMS that supports Markdown and Visual Editing
-- [gridaco/grida](https://github.com/gridaco/grida) - Grida — Open Design
+- [gridaco/grida](https://github.com/gridaco/grida) - Grida — Open Canvas
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more
 - [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
 - [pavlobu/deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer. ⭐️ Star to support our work!
