@@ -3758,7 +3758,7 @@
 - [tonghohin/screen-sharing](https://github.com/tonghohin/screen-sharing) - Share your screen with one simple room code. No downloads or sign-ups required.
 - [SeekStorm/SeekStorm](https://github.com/SeekStorm/SeekStorm) - SeekStorm: vector & lexical search - in-process library & multi-tenancy server, in Rust.
 - [Pixtella/Anagram-MTL](https://github.com/Pixtella/Anagram-MTL) - [WACV 2025] Official implementation for the paper "Diffusion-based Visual Anagram as Multi-task Learning"
-- [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) - 
+- [google-deepmind/weathernext](https://github.com/google-deepmind/weathernext) - 
 - [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) - Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
 - [jart/json.cpp](https://github.com/jart/json.cpp) - JSON for Classic C++
 - [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - Docker container for managing Nginx proxy hosts with a simple, powerful interface
