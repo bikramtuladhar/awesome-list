@@ -230,7 +230,7 @@
 - [picosh/pico](https://github.com/picosh/pico) - The ultimate ssh powered services for developers
 - [albersola/airo](https://github.com/albersola/airo) - Deploy your projects from local to your production VPS.
 - [project-copacetic/copacetic](https://github.com/project-copacetic/copacetic) - 🧵 CLI tool for directly patching container images!
-- [pocket-id/pocket-id](https://github.com/pocket-id/pocket-id) - An easy-to-use OAuth 2.0 and OpenID Connect provider that lets users sign in to your services with their passkeys.
+- [pocket-id/pocket-id](https://github.com/pocket-id/pocket-id) - An easy-to-use OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.
 - [termkit/gama](https://github.com/termkit/gama) - Manage your GitHub Actions from Terminal with great UI 🧪
 - [yassinebenaid/bunster](https://github.com/yassinebenaid/bunster) - Compile shell scripts to static binaries.
 - [pedrosland/pwned-check](https://github.com/pedrosland/pwned-check) - API to check if a password is definitely​ not pwned
@@ -630,6 +630,7 @@
 - [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) - Cockpit is a web-based graphical interface for servers.
 - [fariasmateuss/tindev](https://github.com/fariasmateuss/tindev) - 🔥 Tindev it's app like a Tinder, but for Developers.
 - [nolanlawson/fuite](https://github.com/nolanlawson/fuite) - A tool for finding memory leaks in web apps
+- [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs) - Docker  - Beginners | Intermediate | Advanced
 - [collabnix/kubetools](https://github.com/collabnix/kubetools) - Kubetools - Curated List of Kubernetes Tools
 - [konstaui/konsta](https://github.com/konstaui/konsta) - Mobile UI components made with Tailwind CSS
 - [fabiospampinato/cash](https://github.com/fabiospampinato/cash) - An absurdly small jQuery alternative for modern browsers.
@@ -904,7 +905,6 @@
 - [coderello/laravel-nova-lang](https://github.com/coderello/laravel-nova-lang) - 🌌 Language files for Laravel Nova translated into 40+ languages. Feel free to submit your language or update an existing one!
 - [RTippin/messenger](https://github.com/RTippin/messenger) - Laravel messenger. A full messenger suite for your new / existing laravel app! Private and group threads between multiple models, with real-time messaging, reactions, attachments, calling, chat bots, 
 - [souramoo/PhpMeeting](https://github.com/souramoo/PhpMeeting) - A doodle.com-like php script to create and view meeting polls to mutually arrange a convenient meeting time.
-- [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs) - Docker  - Beginners | Intermediate | Advanced
 - [eminiarts/nova-tabs](https://github.com/eminiarts/nova-tabs) - Laravel Nova Tabs Package
 - [Onelinerhub/onelinerhub](https://github.com/Onelinerhub/onelinerhub) - Thousands of code solutions with clear explanation @ onelinerhub.com
 - [hotwired-laravel/turbo-laravel](https://github.com/hotwired-laravel/turbo-laravel) - This package gives you a set of conventions to make the most out of Hotwire in Laravel.
@@ -1183,7 +1183,6 @@
 - [HKUDS/EasyRec](https://github.com/HKUDS/EasyRec) - [EMNLP'2025] "EasyRec: Simple yet Effective Language Model for Recommendation"
 - [katanaml/sparrow](https://github.com/katanaml/sparrow) - Structured data extraction, instruction calling and agentic workflows with ML, LLM and Vision LLM
 - [fanqiwan/FuseAI](https://github.com/fanqiwan/FuseAI) - FuseAI Project
-- [mem0ai/mem0](https://github.com/mem0ai/mem0) - Universal memory layer for AI Agents
 - [langflow-ai/langflow](https://github.com/langflow-ai/langflow) - Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
 - [intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl) - IntelOwl: manage your Threat Intelligence at scale
 - [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) - DSPy: The framework for programming—not prompting—language models
@@ -1678,6 +1677,7 @@
 - [dahlia/logtape](https://github.com/dahlia/logtape) - Unobtrusive logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions
 - [instantdb/instant](https://github.com/instantdb/instant) - Instant is the best backend for AI-coded apps.  You get auth, permissions, storage, presence, and streams — everything you need to ship apps your users will love.
 - [chartdb/chartdb](https://github.com/chartdb/chartdb) - Database diagrams editor that allows you to visualize and design your DB with a single query.
+- [mem0ai/mem0](https://github.com/mem0ai/mem0) - Universal memory layer for AI Agents
 - [formkit/formkit](https://github.com/formkit/formkit) - The form framework for coding agents
 - [TrafficGuard/typedai](https://github.com/TrafficGuard/typedai) - TypeScript AI platform with AI chat, Autonomous agents, Software developer agents, chatbots and more
 - [useplunk/plunk](https://github.com/useplunk/plunk) - The Open-Source Email Platform
