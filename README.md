@@ -1409,7 +1409,7 @@
 - [AccessKit/accesskit](https://github.com/AccessKit/accesskit) - Accessibility infrastructure for UI toolkits
 - [dimo414/task-mon](https://github.com/dimo414/task-mon) - CLI to execute commands and log results to healthchecks.io
 - [bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon) - CLI to execute commands and log results to healthchecks.io
-- [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) - A lightweight coding agent for open models like Deepseek, Kimi, and Qwen
+- [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) - A lightweight coding agent, optimized for open models like GLM, Deepseek, and Kimi
 - [orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync) - SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge.
 - [AmrDeveloper/GQL](https://github.com/AmrDeveloper/GQL) - GitQL is a extensible SQL-like query language and SDK to perform queries on various data sources such .git files with supports of most of SQL features such as grouping, ordering and aggregation and wi
 - [oxc-project/oxc](https://github.com/oxc-project/oxc) - ⚓ A collection of high-performance JavaScript tools.
