@@ -658,7 +658,6 @@
 - [HospitalRun/hospitalrun-server](https://github.com/HospitalRun/hospitalrun-server) - Backend for HospitalRun
 - [Doptor-zz/Doptor](https://github.com/Doptor-zz/Doptor) - DOPTOR CMS & EMS : Enterprise level Pre-integrated Business Application Platform.
 - [goodnesskay/LARAVEL-PDF-VIEWER](https://github.com/goodnesskay/LARAVEL-PDF-VIEWER) - A Laravel Package for viewing PDF files or documents on the web without leaving your Web Application
-- [jesse-ai/jesse](https://github.com/jesse-ai/jesse) - An advanced crypto trading bot written in Python
 - [ctf0/Laravel-Media-Manager](https://github.com/ctf0/Laravel-Media-Manager) - A "Vuejs & Laravel" Media Manager With Tons of Features
 - [larsjanssen6/underconstruction](https://github.com/larsjanssen6/underconstruction) - This Laravel 8 package makes it possible for you to set your website in "Under Construction" mode. Only users with the correct 4 (or more) digit code can access your site. :fire:  :boom: :fire:
 - [Protoqol/Prequel](https://github.com/Protoqol/Prequel) - Prequel for Laravel. Clear and concise database management. Unfortunately, not actively maintained due to time constraints.
@@ -778,7 +777,7 @@
 
 ## Others 
 
-- [noqa-ai/noqa](https://github.com/noqa-ai/noqa) - Vision-based Agentic QA automation with device CLI for mobile apps and games - real devices iOS & Android. Supports native (swift, kotlin), react native, flutter, KMP, unity and any mobile apps and ga
+- [noqa-ai/noqa](https://github.com/noqa-ai/noqa) - Vision-based Agentic testing automation with device CLI for mobile apps and games - real devices iOS & Android. Supports native (swift, kotlin), react native, flutter, KMP, unity and any mobile apps a
 - [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) - DigitalPlat FreeDomain: Free Domain For Everyone
 - [mozilla-ai/wasm-agents-blueprint](https://github.com/mozilla-ai/wasm-agents-blueprint) - Testing WASM-powered AI agents
 - [varungodbole/prompt-tuning-playbook](https://github.com/varungodbole/prompt-tuning-playbook) - A playbook for effectively prompting post-trained LLMs
@@ -1327,6 +1326,7 @@
 - [malwaredllc/byob](https://github.com/malwaredllc/byob) - An open-source post-exploitation framework for students, researchers and developers.
 - [cedricbonhomme/newspipe](https://github.com/cedricbonhomme/newspipe) - A self-hosted news reader.
 - [socialpoint-labs/sheetfu](https://github.com/socialpoint-labs/sheetfu) - Python library to interact with Google Sheets V4 API
+- [jesse-ai/jesse](https://github.com/jesse-ai/jesse) - An advanced crypto trading bot written in Python
 - [mistio/mist-ce](https://github.com/mistio/mist-ce) - Mist is an open source, multicloud management platform
 - [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) - An open source reinforcement learning framework for training, evaluating, and deploying robust trading agents.
 - [quantopian/zipline](https://github.com/quantopian/zipline) - Zipline, a Pythonic Algorithmic Trading Library
