@@ -1071,7 +1071,7 @@
 - [Cockpit-HQ/Cockpit](https://github.com/Cockpit-HQ/Cockpit) - Cockpit Core - Content Platform
 - [filamentphp/filament](https://github.com/filamentphp/filament) - A powerful open-source UI framework for Laravel • Build and ship apps & admin panels fast with Livewire
 - [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
-- [microfeed/microfeed](https://github.com/microfeed/microfeed) - a lightweight cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.
+- [microfeed/microfeed](https://github.com/microfeed/microfeed) - an agentic cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.
 - [buildship-ai/rowy](https://github.com/buildship-ai/rowy) - Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.
 - [zotonic/zotonic](https://github.com/zotonic/zotonic) - Zotonic - The Erlang Web Framework & CMS
 - [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Independent technology for modern publishing, memberships, subscriptions and newsletters.
@@ -5116,7 +5116,7 @@
 - [restatedev/restate](https://github.com/restatedev/restate) - Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD.
 - [artilleryio/artillery](https://github.com/artilleryio/artillery) - The complete load testing platform. Everything you need for production-grade load tests. Serverless & distributed. Load test with Playwright. Load test HTTP APIs, GraphQL, WebSocket, and more. Use any
 - [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) - Trigger.dev – build and deploy fully‑managed AI agents and workflows
-- [microfeed/microfeed](https://github.com/microfeed/microfeed) - a lightweight cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.
+- [microfeed/microfeed](https://github.com/microfeed/microfeed) - an agentic cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web
 - [crossplane/crossplane](https://github.com/crossplane/crossplane) - The Cloud Native Control Plane
 - [knative/docs](https://github.com/knative/docs) - User documentation for Knative components.
