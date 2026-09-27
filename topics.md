@@ -3737,6 +3737,8 @@
 
 ## others 
 
+- [driceroland/Search](https://github.com/driceroland/Search) - A small, fast WebKit browser for macOS, by Office Commun.
+- [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) - Self-hosted email for humans and AI agents, on Cloudflare
 - [dream-num/univer](https://github.com/dream-num/univer) - The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.
 - [google/ax](https://github.com/google/ax) - Google's open agentic orchestration runtime
 - [cloudflare/kumo](https://github.com/cloudflare/kumo) - Cloudflare's component library for building modern web applications.
@@ -3755,7 +3757,7 @@
 - [garrytan/gstack](https://github.com/garrytan/gstack) - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
 - [systalyze/utilyze](https://github.com/systalyze/utilyze) - 
 - [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) - Kronos: A Foundation Model for the Language of Financial Markets
-- [CelestoAI/celesto](https://github.com/CelestoAI/celesto) - Secure and persistent computer for AI agents -- build your own Grokbot, and Muse.
+- [CelestoAI/celesto](https://github.com/CelestoAI/celesto) - Secure and persistent computer for AI agents
 - [nlethetech/nepse-quant-terminal](https://github.com/nlethetech/nepse-quant-terminal) - Terminal-based NEPSE quant trading dashboard with paper trading, backtesting, analytics, and AI agent support.
 - [sunnyvanani/Vikalp_Trader_Lite](https://github.com/sunnyvanani/Vikalp_Trader_Lite) - Fast options trading terminal for XTS-based brokers. React frontend with real-time LTP streaming, virtualized order book, positions P&L, account-level SL/Target automation, and a Python FastAPI backen
 - [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
