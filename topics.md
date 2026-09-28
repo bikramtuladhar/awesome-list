@@ -999,7 +999,7 @@
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 - [codesenberg/bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool written in Go
 - [TomWright/dasel](https://github.com/TomWright/dasel) - Unified querying, transformation, and modification of JSON, TOML, YAML, XML, INI, HCL, KDL and CSV.
-- [d3witt/viking](https://github.com/d3witt/viking) - Simple way to manage your remote machines and SSH keys
+- [andreibordy/viking](https://github.com/andreibordy/viking) - Simple way to manage your remote machines and SSH keys
 - [vitonsky/arrival-time](https://github.com/vitonsky/arrival-time) - Simple and powerful progress time estimation (ETA) for JavaScript
 - [facundoolano/ngtop](https://github.com/facundoolano/ngtop) - nginx access logs analytics
 - [yorukot/superfile](https://github.com/yorukot/superfile) - Pretty fancy and modern terminal file manager
@@ -1426,7 +1426,7 @@
 - [yarlson/ftl](https://github.com/yarlson/ftl) - FTL: faster than light deployment
 - [vitodeploy/vito](https://github.com/vitodeploy/vito) - Free and Self-Hosted  Server Management Tool
 - [MightyMoud/sidekick](https://github.com/MightyMoud/sidekick) - Bare metal to production ready in mins; your own fly server on your VPS.
-- [d3witt/viking](https://github.com/d3witt/viking) - Simple way to manage your remote machines and SSH keys
+- [andreibordy/viking](https://github.com/andreibordy/viking) - Simple way to manage your remote machines and SSH keys
 - [cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops) - Developer Friendly Kubernetes 👁️
 - [KusionStack/kusion](https://github.com/KusionStack/kusion) - Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP).
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
@@ -3738,7 +3738,7 @@
 ## others 
 
 - [driceroland/Search](https://github.com/driceroland/Search) - A small, fast WebKit browser for macOS, by Office Commun.
-- [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) - Self-hosted email for humans and AI agents, on Cloudflare
+- [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) - Self-hosted email for humans and AI agents, entirely on Cloudflare
 - [dream-num/univer](https://github.com/dream-num/univer) - The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.
 - [google/ax](https://github.com/google/ax) - Google's open agentic orchestration runtime
 - [cloudflare/kumo](https://github.com/cloudflare/kumo) - Cloudflare's component library for building modern web applications.
