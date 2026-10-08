@@ -475,7 +475,6 @@
 ## Go Template 
 
 - [eyelevelai/groundx-on-prem](https://github.com/eyelevelai/groundx-on-prem) - A Kubernetes deployable instance of GroundX  for document parsing, storage, and search.
-- [wodby/mariadb](https://github.com/wodby/mariadb) - MariaDB docker container image
 
 ## Groovy 
 
@@ -533,7 +532,6 @@
 - [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现
 - [Netflix/maestro](https://github.com/Netflix/maestro) - Maestro: Netflix’s Workflow Orchestrator
 - [openkoda/openkoda](https://github.com/openkoda/openkoda) - Open source business application platform for fast development
-- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere
 - [open-pdf-sign/open-pdf-sign](https://github.com/open-pdf-sign/open-pdf-sign) - Digitally sign PDF files from your commandline
 - [bytedance/bitsail](https://github.com/bytedance/bitsail) - BitSail is a distributed high-performance data integration engine which supports batch, streaming and incremental scenarios. BitSail is widely used to synchronize hundreds of trillions of data every d
 - [TiagoSantos81/libregrammar](https://github.com/TiagoSantos81/libregrammar) - Repo to count commit history. Main repo is https://github.com/TiagoSantos81/languagetool/commits/master
@@ -632,6 +630,7 @@
 - [abodmicheal/React-projects](https://github.com/abodmicheal/React-projects) - React projects
 - [DustinBrett/daedalOS](https://github.com/DustinBrett/daedalOS) - Desktop environment in the browser
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) - Cockpit is a web-based graphical interface for servers.
 - [fariasmateuss/tindev](https://github.com/fariasmateuss/tindev) - 🔥 Tindev it's app like a Tinder, but for Developers.
 - [nolanlawson/fuite](https://github.com/nolanlawson/fuite) - A tool for finding memory leaks in web apps
 - [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs) - Docker  - Beginners | Intermediate | Advanced
@@ -739,7 +738,6 @@
 
 ## MDX 
 
-- [yournextstore/yournextstore](https://github.com/yournextstore/yournextstore) - AI-Native Open-Source Next.js commerce. Powered by Stripe. Ultra fast with typesafe Commerce SDK. Built for AI development (Claude, Codex,   Cursor).
 - [weaveworks/weave-gitops](https://github.com/weaveworks/weave-gitops) - Weave GitOps is transitioning to a community driven project! It provides insights into your application deployments, and makes continuous delivery with GitOps easier to adopt and scale across your tea
 
 ## Makefile 
@@ -780,6 +778,7 @@
 
 ## Others 
 
+- [unlearndev/skills](https://github.com/unlearndev/skills) - A collection of Claude Code skills for product development workflows by unlearn.dev
 - [noqa-ai/noqa](https://github.com/noqa-ai/noqa) - Automated mobile testing tool with device CLI for apps and games - real devices iOS & Android. Supports native (swift, kotlin), react native, flutter, KMP, unity and any mobile apps and games.
 - [mozilla-ai/wasm-agents-blueprint](https://github.com/mozilla-ai/wasm-agents-blueprint) - Testing WASM-powered AI agents
 - [varungodbole/prompt-tuning-playbook](https://github.com/varungodbole/prompt-tuning-playbook) - A playbook for effectively prompting post-trained LLMs
@@ -1304,7 +1303,6 @@
 - [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
 - [khuedoan/homelab](https://github.com/khuedoan/homelab) - Fully automated homelab from empty disk to running services with a single command.
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
-- [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) - Cockpit is a web-based graphical interface for servers.
 - [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) - Free, open source crypto trading bot
 - [jcpeterson/openwebtext](https://github.com/jcpeterson/openwebtext) - Open clone of OpenAI's unreleased WebText dataset scraper. This version uses pushshift.io files instead of the API for speed.
 - [codelucas/newspaper](https://github.com/codelucas/newspaper) - newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:
@@ -1538,6 +1536,7 @@
 - [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) - 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources
 - [richdynamix/arc](https://github.com/richdynamix/arc) - Production ready docker based development environment for your Laravel project.
 - [thedevdojo/larasail](https://github.com/thedevdojo/larasail) - LaraSail - Set Sail with your Laravel app on DigitalOcean
+- [wodby/mariadb](https://github.com/wodby/mariadb) - MariaDB docker container image
 - [webdevops/Dockerfile](https://github.com/webdevops/Dockerfile) - :package: Dockerfiles from WebDevOps for PHP, Apache and Nginx
 - [complexorganizations/wireguard-manager](https://github.com/complexorganizations/wireguard-manager) - ✔️ WireGuard-Manager is an innovative tool designed to streamline the deployment and management of WireGuard VPNs. Emphasizing user-friendliness and security, it simplifies the complexities of VPN con
 - [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes sources :ship::tada:
@@ -1690,6 +1689,7 @@
 - [TahaSh/swapy](https://github.com/TahaSh/swapy) - ✨ A framework-agnostic tool that converts any layout into a drag-to-swap one with just a few lines of code https://swapy.tahazsh.com/
 - [loggerhead/json4u](https://github.com/loggerhead/json4u) - 
 - [haystackeditor/haystack-editor](https://github.com/haystackeditor/haystack-editor) - 
+- [yournextstore/yournextstore](https://github.com/yournextstore/yournextstore) - AI-Native Open-Source Next.js commerce. Powered by Stripe. Ultra fast with typesafe Commerce SDK. Built for AI development (Claude, Codex,   Cursor).
 - [gabrielpetersson/fast-grid](https://github.com/gabrielpetersson/fast-grid) - World's most performant DOM-based web table. Try it! fast-grid.vercel.app/
 - [dubinc/dub](https://github.com/dubinc/dub) - The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more.
 - [Scthe/nanite-webgpu](https://github.com/Scthe/nanite-webgpu) - UE5's Nanite implementation using WebGPU. Includes the meshlet LOD hierarchy, software rasterizer and billboard impostors. Culling on both per-instance and per-meshlet basis.
@@ -1722,7 +1722,7 @@
 - [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
 - [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers to
 - [event-driven-io/Pongo](https://github.com/event-driven-io/Pongo) - Pongo - Mongo but on Postgres and with strong consistency benefits
-- [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) - 🫖 Status page with uptime monitoring & API monitoring as code   🫖
+- [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) - Open-source status page, incident response and uptime monitoring
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) - Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.
 - [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) - ORM
 - [nlkitai/nlux](https://github.com/nlkitai/nlux) - The 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 Conversational AI JavaScript Library 💬 — UI for any LLM, supporting LangChain / HuggingFace / Vercel AI, and more 🧡 React, Next.js, and plain JavaScript ⭐️
@@ -1744,6 +1744,7 @@
 - [hudy9x/namviek](https://github.com/hudy9x/namviek) - The open-source project management tool for tiny teams
 - [Openpanel-dev/openpanel](https://github.com/Openpanel-dev/openpanel) - OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.
 - [activepieces/activepieces](https://github.com/activepieces/activepieces) - AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere
 - [opengovern/opensecurity](https://github.com/opengovern/opensecurity) - opensecurity: open-source security and compliance. See and secure your cloud, containers, code, networks, deployments, devices. Define your rules, get precise checks, fix gaps fast. Streamlined audits
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
 - [inkdrop-org/inkdrop-visualizer](https://github.com/inkdrop-org/inkdrop-visualizer) - Visualizes your Terraform
