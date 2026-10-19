@@ -936,7 +936,7 @@
 
 ## chrome 
 
-- [furybee/chrome-tab-modifier](https://github.com/furybee/chrome-tab-modifier) - Take control of your tabs
+- [furybee/chrome-tab-modifier](https://github.com/furybee/chrome-tab-modifier) - Tabee: rename, re-icon, pin, group and mute Chrome tabs automatically with URL rules. Free and open source.
 - [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) - Proxy server to bypass Cloudflare protection
 - [0xnyn/tinkerbird](https://github.com/0xnyn/tinkerbird) - Client Side Vector Database
 - [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) - Web Extension for saving a faithful copy of a complete web page in a single HTML file
@@ -945,7 +945,7 @@
 
 ## chrome-extension 
 
-- [furybee/chrome-tab-modifier](https://github.com/furybee/chrome-tab-modifier) - Take control of your tabs
+- [furybee/chrome-tab-modifier](https://github.com/furybee/chrome-tab-modifier) - Tabee: rename, re-icon, pin, group and mute Chrome tabs automatically with URL rules. Free and open source.
 - [n4ze3m/page-assist](https://github.com/n4ze3m/page-assist) - Use your locally running AI models to assist you in your web browsing
 - [thepersonalaicompany/amurex](https://github.com/thepersonalaicompany/amurex) - World's first AI meeting copilot → The Invisible Companion for Work + Life
 - [molvqingtai/WebChat](https://github.com/molvqingtai/WebChat) - 💬 Chat with anyone on any website.
@@ -3652,6 +3652,7 @@
 - [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) - Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job appli
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 - [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) - Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
+- [furybee/chrome-tab-modifier](https://github.com/furybee/chrome-tab-modifier) - Tabee: rename, re-icon, pin, group and mute Chrome tabs automatically with URL rules. Free and open source.
 - [n4ze3m/page-assist](https://github.com/n4ze3m/page-assist) - Use your locally running AI models to assist you in your web browsing
 - [CapSoftware/Cap](https://github.com/CapSoftware/Cap) - Open source Loom alternative. Beautiful, shareable screen recordings.
 - [automatisch/automatisch](https://github.com/automatisch/automatisch) - The open source Zapier alternative. Build workflow automation without spending time and money.
@@ -3751,7 +3752,7 @@
 - [driceroland/Search](https://github.com/driceroland/Search) - A small, fast WebKit browser for macOS, by Office Commun.
 - [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) - Self-hosted email for humans and AI agents, entirely on Cloudflare
 - [dream-num/univer](https://github.com/dream-num/univer) - The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.
-- [google/ax](https://github.com/google/ax) - Google's open agentic orchestration runtime
+- [google/ax](https://github.com/google/ax) - Agent Executor (AX) is Google's open agentic orchestration runtime
 - [cloudflare/kumo](https://github.com/cloudflare/kumo) - Cloudflare's component library for building modern web applications.
 - [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) - The unified toolchain and entry point for web development.
 - [BetterWright/betterwright](https://github.com/BetterWright/betterwright) - A persistent, policy-guarded Playwright browser for AI agents — network policy, encrypted credential vault, proof screenshots, and CAPTCHA solving.
@@ -4506,6 +4507,7 @@
 ## productivity 
 
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+- [furybee/chrome-tab-modifier](https://github.com/furybee/chrome-tab-modifier) - Tabee: rename, re-icon, pin, group and mute Chrome tabs automatically with URL rules. Free and open source.
 - [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) - An open-source, AI-integrated, cross-platform terminal for seamless workflows
 - [elie222/inbox-zero](https://github.com/elie222/inbox-zero) - The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
