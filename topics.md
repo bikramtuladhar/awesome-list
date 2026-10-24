@@ -549,6 +549,7 @@
 
 ## android 
 
+- [kksimp/Mac.apk](https://github.com/kksimp/Mac.apk) - Mac.apk: Run Android apps natively on Apple Silicon Macs
 - [noqa-ai/noqa](https://github.com/noqa-ai/noqa) - Automated mobile testing tool with device CLI for apps and games - real devices iOS & Android. Supports native (swift, kotlin), react native, flutter, KMP, unity and any mobile apps and games.
 - [VR-25/acc](https://github.com/VR-25/acc) - Advanced Charging Controller
 - [liriliri/aya](https://github.com/liriliri/aya) - Android ADB desktop app
@@ -1379,7 +1380,7 @@
 - [encoredev/encore](https://github.com/encoredev/encore) - Infrastructure orchestration from local to your cloud
 - [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is a high performance, open-source, time-series database
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/
-- [prisma/orm](https://github.com/prisma/orm) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 - [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data
 - [gridaco/grida](https://github.com/gridaco/grida) - Grida — Open Canvas
 - [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) - The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos 
@@ -2544,7 +2545,7 @@
 - [dylibso/chicory](https://github.com/dylibso/chicory) - Native JVM WebAssembly runtime
 - [kestra-io/kestra](https://github.com/kestra-io/kestra) - Event Driven Orchestration & Scheduling Platform for Mission Critical Applications
 - [Netflix/maestro](https://github.com/Netflix/maestro) - Maestro: Netflix’s Workflow Orchestrator
-- [openkoda/openkoda](https://github.com/openkoda/openkoda) - Open source business application platform for fast development
+- [superkoda/superkoda](https://github.com/superkoda/superkoda) - Business apps you can change by asking.
 - [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere
 - [odigos-io/odigos](https://github.com/odigos-io/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
 - [supertokens/supertokens-core](https://github.com/supertokens/supertokens-core) - Open source alternative to Auth0 / Firebase Auth / AWS Cognito
@@ -2641,7 +2642,7 @@
 - [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) - The headless rich text editor framework for web artisans.
 - [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
 - [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. 
-- [prisma/orm](https://github.com/prisma/orm) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more
 - [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
 - [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
@@ -3210,6 +3211,7 @@
 
 ## macos 
 
+- [kksimp/Mac.apk](https://github.com/kksimp/Mac.apk) - Mac.apk: Run Android apps natively on Apple Silicon Macs
 - [spicetify/cli](https://github.com/spicetify/cli) - Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux.
 - [jundot/omlx](https://github.com/jundot/omlx) - LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar
 - [superset-sh/superset](https://github.com/superset-sh/superset) - Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.
@@ -3341,7 +3343,7 @@
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
 - [Sandermoen/instaclone](https://github.com/Sandermoen/instaclone) - An instagram clone created with the MERN stack
 - [fariasmateuss/tindev](https://github.com/fariasmateuss/tindev) - 🔥 Tindev it's app like a Tinder, but for Developers.
-- [prisma/orm](https://github.com/prisma/orm) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 - [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) - The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos 
 - [netdata/netdata](https://github.com/netdata/netdata) - The fastest path to AI-powered full stack observability, even for lean teams.
 - [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.
@@ -3418,7 +3420,7 @@
 - [TablePlus/DBngin](https://github.com/TablePlus/DBngin) - DB Engine
 - [danvergara/dblab](https://github.com/danvergara/dblab) - The database client every command line junkie deserves.
 - [cube-js/cube](https://github.com/cube-js/cube) - 📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics
-- [prisma/orm](https://github.com/prisma/orm) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 - [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data
 - [pacoogle/laravel-lumen-docker](https://github.com/pacoogle/laravel-lumen-docker) - Lumen platform dockerization
 - [netdata/netdata](https://github.com/netdata/netdata) - The fastest path to AI-powered full stack observability, even for lean teams.
@@ -3592,7 +3594,7 @@
 - [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) - Dev environments. In your web app.
 - [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. 
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/
-- [prisma/orm](https://github.com/prisma/orm) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 - [gofiber/fiber](https://github.com/gofiber/fiber) - ⚡️ Express inspired web framework written in Go
 - [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) - A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
 - [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
@@ -3668,7 +3670,7 @@
 - [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) - Open-source status page, incident response and uptime monitoring
 - [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
 - [mnfst/llm-gateway](https://github.com/mnfst/llm-gateway) - Open Source LLM Gateway 🦚
-- [openkoda/openkoda](https://github.com/openkoda/openkoda) - Open source business application platform for fast development
+- [superkoda/superkoda](https://github.com/superkoda/superkoda) - Business apps you can change by asking.
 - [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open Source Data Security Platform for Developers to Monitor and Detect PII, Anonymize Production Data and Sync it across environments.
 - [Openpanel-dev/openpanel](https://github.com/Openpanel-dev/openpanel) - OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.
 - [amalshaji/portr](https://github.com/amalshaji/portr) - Expose local http, tcp or websocket connections to the public internet
@@ -3797,7 +3799,7 @@
 - [aftertheflood/sparks](https://github.com/aftertheflood/sparks) - A typeface for creating sparklines in text without code.
 - [bearstech/pussh](https://github.com/bearstech/pussh) - Parallel SSH, batch and command line oriented
 - [stuzero/pg-mcp-server](https://github.com/stuzero/pg-mcp-server) - 
-- [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - 
+- [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Product specific Cloudflare MCP servers
 - [Stability-AI/stable-virtual-camera](https://github.com/Stability-AI/stable-virtual-camera) - Stable Virtual Camera: Generative View Synthesis with Diffusion Models
 - [kuzudb/wasm-linkedin-example](https://github.com/kuzudb/wasm-linkedin-example) - 
 - [picosh/pico](https://github.com/picosh/pico) - The ultimate ssh powered services for developers
@@ -4476,7 +4478,7 @@
 - [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 - [ongres/stackgres](https://github.com/ongres/stackgres) - StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there.
 - [reactive-tech/kubegres](https://github.com/reactive-tech/kubegres) - Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup.
-- [prisma/orm](https://github.com/prisma/orm) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative
 - [gridaco/grida](https://github.com/gridaco/grida) - Grida — Open Canvas
 - [netdata/netdata](https://github.com/netdata/netdata) - The fastest path to AI-powered full stack observability, even for lean teams.
@@ -5260,7 +5262,7 @@
 
 ## spring-boot 
 
-- [openkoda/openkoda](https://github.com/openkoda/openkoda) - Open source business application platform for fast development
+- [superkoda/superkoda](https://github.com/superkoda/superkoda) - Business apps you can change by asking.
 - [Netflix/conductor](https://github.com/Netflix/conductor) - Conductor is a microservices orchestration engine.
 
 ## sql 
@@ -5306,7 +5308,7 @@
 ## sql-server 
 
 - [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database diagram editor and SQL generator.
-- [prisma/orm](https://github.com/prisma/orm) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 - [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.
 
 ## sqlite 
@@ -5336,7 +5338,7 @@
 - [danvergara/dblab](https://github.com/danvergara/dblab) - The database client every command line junkie deserves.
 - [turbot/steampipe](https://github.com/turbot/steampipe) - Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required.
 - [pubkey/rxdb](https://github.com/pubkey/rxdb) - The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/
-- [prisma/orm](https://github.com/prisma/orm) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative
 - [directus/directus](https://github.com/directus/directus) - The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
 
@@ -5469,7 +5471,6 @@
 
 ## terminal 
 
-- [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) - Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job appli
 - [superset-sh/superset](https://github.com/superset-sh/superset) - Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.
 - [johannesjo/parallel-code](https://github.com/johannesjo/parallel-code) - Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree
 - [pystardust/ani-cli](https://github.com/pystardust/ani-cli) - A cli tool to browse and play anime
@@ -5676,7 +5677,7 @@
 - [encoredev/encore](https://github.com/encoredev/encore) - Infrastructure orchestration from local to your cloud
 - [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log mana
 - [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. 
-- [prisma/orm](https://github.com/prisma/orm) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 - [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
 - [tinacms/tinacms](https://github.com/tinacms/tinacms) - TinaCMS is the leading open-source headless CMS that supports Markdown and Visual Editing. Your content is stored in your own GitHub repo 🦙 ❤️
 - [pavlobu/deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer. ⭐️ Star to support our work!
