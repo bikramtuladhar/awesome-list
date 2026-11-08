@@ -148,48 +148,228 @@ CATEGORIES = [
 ]
 
 # Sample Curated Remix Recipes to showcase combinations
-FEATURED_REMIX_RECIPES = [
+blueprints = [
     {
-        "title": "Autonomous Competitor & Price Intelligence Radar",
-        "tagline": "Real-time web monitoring and AI analysis micro-SaaS",
-        "ingredients": [
-            {"name": "Crawl4AI / Scraper", "role": "RAG, Vector & Data Ingestion"},
-            {"name": "Ollama / vLLM", "role": "AI & Autonomous Agents"},
-            {"name": "HyperUI / Tailwind", "role": "UI Kits, Generative UX & Dashboards"}
+        'title': 'On-Premise Voice AI Receptionist & SIP Shield',
+        'tagline': 'Zero-latency on-device voice booking with VoIP fraud filtering for clinics & local businesses',
+        'ingredients': [
+            {'name': 'moonshine-ai/moonshine', 'role': 'Sub-100ms on-device Speech-to-Text & Intent'},
+            {'name': 'SentryPeer/SentryPeer', 'role': 'Real-time SIP honeypot & VoIP defense'},
+            {'name': 'ggml-org/whisper.cpp', 'role': 'C/C++ Whisper transcription'},
+            {'name': 'schibsted/WAAS', 'role': 'Whisper API & worker queuing'},
+            {'name': 'asg017/sqlite-vec', 'role': 'Local SQLite vector search for business FAQ'},
+            {'name': 'Hasnayeen/invobook', 'role': 'Filament & Laravel booking management'},
+            {'name': 'snowfire/Beautymail', 'role': 'Transactional email confirmations'}
         ],
-        "concept": "Scrapes e-commerce or competitor pricing pages hourly, extracts structured product specs via local LLM without API fees, and presents change deltas in a sleek Tailwind dashboard."
+        'concept': 'Runs on an on-premise mini-PC connected to a SIP trunk. SentryPeer filters robocalls, Moonshine transcribes and extracts intent in under 100ms, sqlite-vec answers clinic FAQs, and Invobook schedules appointments without sending a single audio byte to the cloud.'
     },
     {
-        "title": "Air-Gapped Enterprise Knowledge & Compliance Assistant",
-        "tagline": "Private document search for regulated industries (legal/finance)",
-        "ingredients": [
-            {"name": "sqlite-vec / Chroma", "role": "Databases, Caching & Realtime State"},
-            {"name": "LLMFarm / Local LLM", "role": "AI & Autonomous Agents"},
-            {"name": "Laravel Starter / Filament", "role": "SaaS Starters & App Boilerplates"}
+        'title': 'High-Performance AI Control Plane & Anti-Crawler Firewall',
+        'tagline': 'Unified Go LLM routing, scraper blocking, and sub-millisecond prompt caching',
+        'ingredients': [
+            {'name': 'ENTERPILOT/GoModel', 'role': 'Go-based AI gateway & control plane'},
+            {'name': 'TecharoHQ/anubis', 'role': 'HTTP request soul weigher to block crawlers'},
+            {'name': 'dicedb/dicedb', 'role': 'Sub-millisecond KV engine with query subscriptions'},
+            {'name': 'dragonflydb/dragonfly', 'role': 'High-throughput Redis replacement cache'},
+            {'name': 'danielealbano/cachegrand', 'role': 'Modern hardware-optimized data ingestion'},
+            {'name': 'markmead/hyperui', 'role': 'Tailwind analytics and token dashboard'}
         ],
-        "concept": "An on-premise knowledge hub where sensitive enterprise contracts are embedded into an edge SQLite vector database, allowing conversational search with zero data leaving the network."
+        'concept': 'A single Go binary deployed at the network edge. It blocks aggressive AI scrapers using Anubis, caches repeated LLM prompts in DiceDB/Dragonfly to cut token bills by 50%, and automatically load balances across OpenAI, Anthropic, Gemini, and Ollama.'
     },
     {
-        "title": "Self-Operating Browser Workflow & Lead Gen Engine",
-        "tagline": "Autonomous web agents delivering high-value B2B leads",
-        "ingredients": [
-            {"name": "Browser-Use / Agent", "role": "AI & Autonomous Agents"},
-            {"name": "N8N / Workflow Tool", "role": "APIs, Workflow Automation & Webhooks"},
-            {"name": "InvoBook / Billing", "role": "Ready-to-Remix Products & Self-Hosted Apps"}
+        'title': 'Autopilot Faceless Video & Multi-Platform Media House',
+        'tagline': 'Automated research, script generation, video rendering, and multi-channel publishing',
+        'ingredients': [
+            {'name': 'darkzOGx/youtube-automation-agent', 'role': 'Self-hosted end-to-end video channel runner'},
+            {'name': '0x90d/videoduplicatefinder', 'role': 'Cross-platform B-roll deduplication'},
+            {'name': 'trevorjay/Jerrica', 'role': 'Web Audio scheduled music engine'},
+            {'name': 'ErickWendel/processing-large-reports-in-the-browser', 'role': 'Zero-backend client video metrics streaming'},
+            {'name': 'Qoraiche/laravel-mail-editor', 'role': 'Newsletter & subscriber digest generator'},
+            {'name': 'Jimmy-JS/laravel-report-generator', 'role': 'Automated analytics PDF report export'}
         ],
-        "concept": "Automates lead generation from public directories by driving headless browsers, verifying emails via webhook workers, and billing agency clients automatically via self-hosted invoicing."
+        'concept': 'An autonomous media agency in a box. Crawls trending topics, writes scripts, generates synthetic voice narration, deduplicates visual assets, stitches video, and publishes to YouTube and TikTok after one-click human approval.'
     },
     {
-        "title": "Edge Key-Value Cache & Sub-Millisecond Feature Flag Service",
-        "tagline": "Ultra low-latency config delivery for distributed apps",
-        "ingredients": [
-            {"name": "DiceDB / Valkey", "role": "Databases, Caching & Realtime State"},
-            {"name": "Zap / High-perf Gateway", "role": "APIs, Workflow Automation & Webhooks"},
-            {"name": "Admin Dashboard", "role": "UI Kits, Generative UX & Dashboards"}
+        'title': 'Self-Healing Container Security & Automated CVE Patching',
+        'tagline': 'Direct binary vulnerability patching in Docker images without rebuilding from scratch',
+        'ingredients': [
+            {'name': 'project-copacetic/copacetic', 'role': 'Direct container image binary patcher'},
+            {'name': 'aquasecurity/trivy', 'role': 'Vulnerability, secret, and SBOM scanner'},
+            {'name': 'pgaudit/pgaudit', 'role': 'PostgreSQL audit extension for SOC 2 logs'},
+            {'name': 'nanovms/nanos', 'role': 'Unikernel OS for zero-attack-surface apps'},
+            {'name': 'crowdsecurity/crowdsec', 'role': 'Crowdsourced intrusion detection engine'},
+            {'name': 'cerberauth/vulnapi', 'role': 'API security & vulnerability assessment CLI'},
+            {'name': 'theredguild/devcontainer', 'role': 'Hardened security & web3 dev environment'}
         ],
-        "concept": "A distributed feature flag and remote configuration SaaS providing <1ms response times worldwide with live WebSocket updates to connected web & mobile clients."
+        'concept': 'Continuous container remediation for Kubernetes. Trivy scans images, and rather than alerting engineers with backlog tickets, Copacetic automatically injects patched OS binaries into the container layer, tests the image, and updates git deployments automatically.'
+    },
+    {
+        'title': 'Turn-Key Usage-Based AI Billing & Feature Management Platform',
+        'tagline': 'Drop-in token metering, Stripe billing, and instant dynamic feature flags for LLM apps',
+        'ingredients': [
+            {'name': 'openmeterio/openmeter', 'role': 'Real-time usage metering for AI tokens & compute'},
+            {'name': 'getlago/lago', 'role': 'Open-source metering and recurring billing'},
+            {'name': 'flipt-io/flipt', 'role': 'High-performance self-hosted feature flags'},
+            {'name': 'supertokens/supertokens-core', 'role': 'Extensible open-source auth provider'},
+            {'name': 'teamhanko/hanko', 'role': 'Passkey-first authentication UI'},
+            {'name': 'pocket-id/pocket-id', 'role': 'Lightweight OIDC identity provider'},
+            {'name': 'tenancy/multi-tenant', 'role': 'Database-level multi-tenancy for Laravel'}
+        ],
+        'concept': 'The ultimate monetization foundation for AI startups. Provides instant passkey login, meters every token and API call through OpenMeter and Lago, bills users via Stripe, and dynamically gates premium AI model tiers using Flipt feature flags.'
+    },
+    {
+        'title': 'Collaborative Browser Dev Sandbox & Web Terminal Canvas',
+        'tagline': 'Zero-setup ephemeral coding sandboxes with native AI terminal assistance and session sharing',
+        'ingredients': [
+            {'name': 'tsl0922/ttyd', 'role': 'Share terminals over WebSocket to the web'},
+            {'name': 'wavetermdev/waveterm', 'role': 'AI-integrated graphical terminal canvas'},
+            {'name': 'Slackadays/Clipboard', 'role': 'Smart multi-device clipboard manager'},
+            {'name': 'MisterTea/EternalTerminal', 'role': 'Re-connectable resilient remote shell'},
+            {'name': 'splitbrain/clipscreen', 'role': 'Virtual monitor screen sharing utility'},
+            {'name': 'zigzap/zap', 'role': 'Blazingly fast backend engine in Zig'},
+            {'name': 'DaveBben/esp32-llm', 'role': 'Embedded hardware LLM interface'}
+        ],
+        'concept': 'A lightweight alternative to cloud IDEs for pair programming, interviews, and remote teaching. Spin up instant, isolated terminal sessions over the browser powered by ttyd and Zap, with AI code explanation via WaveTerm.'
+    },
+    {
+        'title': 'Air-Gapped Enterprise Knowledge Search & Document Ingestion',
+        'tagline': 'High-throughput hybrid vector & full-text search with OCR extraction for internal records',
+        'ingredients': [
+            {'name': 'infiniflow/infinity', 'role': 'Hybrid dense vector, tensor, and full-text AI database'},
+            {'name': 'milvus-io/milvus', 'role': 'High-scale distributed vector database'},
+            {'name': 'zincsearch/zincsearch', 'role': 'Lightweight alternative to Elasticsearch'},
+            {'name': 'slotix/dataflowkit', 'role': 'Web data extraction and web crawler'},
+            {'name': 'tesseract-ocr/tesseract', 'role': 'Open-source OCR engine for scanned papers'},
+            {'name': 'open-pdf-sign/open-pdf-sign', 'role': 'Digitally sign PDF contracts in bulk'},
+            {'name': 'neondatabase/pg_embedding', 'role': 'Postgres HNSW vector similarity search'}
+        ],
+        'concept': 'An enterprise search appliance designed for law firms, hospitals, and government bodies. Ingests PDFs, scans contracts with Tesseract OCR, builds hybrid embeddings in Infinity and ZincSearch, and provides instant conversational search with zero cloud exposure.'
+    },
+    {
+        'title': 'Autonomous Kubernetes Reliability Copilot & GitOps SRE',
+        'tagline': 'AI-driven cluster troubleshooting, eBPF telemetry, and pull-request infrastructure automation',
+        'ingredients': [
+            {'name': 'k8sgpt-ai/k8sgpt', 'role': 'Kubernetes site reliability AI diagnostics'},
+            {'name': 'pixie-io/pixie', 'role': 'eBPF-powered real-time cluster telemetry'},
+            {'name': 'diggerhq/digger', 'role': 'Open-source Terraform Cloud inside GitHub Actions'},
+            {'name': 'fluxcd/image-automation-controller', 'role': 'GitOps auto-commit for new container images'},
+            {'name': 'tektoncd/pipeline', 'role': 'Kubernetes-native CI/CD workflow pipelines'},
+            {'name': 'kubeshop/tracetest', 'role': 'Trace-based integration testing for microservices'},
+            {'name': 'emberstack/kubernetes-reflector', 'role': 'Automated Secret & ConfigMap cross-namespace sync'}
+        ],
+        'concept': 'Replaces late-night on-call firefighting. Pixie observes pod communications via eBPF, K8sGPT diagnoses crashes and OOM-kills, and Digger applies infrastructure fixes directly via verified pull requests.'
+    },
+    {
+        'title': 'Privacy-First SME Operations & Invoicing Suite',
+        'tagline': 'Complete self-hosted inventory, invoicing, property management, and financial reporting',
+        'ingredients': [
+            {'name': 'aBillander/aBillander', 'role': 'SME invoicing and inventory management'},
+            {'name': 'grocy/grocy', 'role': 'ERP and barcode inventory management system'},
+            {'name': 'sudarakas/realproperty', 'role': 'Real estate and property management platform'},
+            {'name': 'pawelsalawa/letos', 'role': 'Cross-platform SQLite database manager'},
+            {'name': 'nunomaduro/laravel-starter-kit', 'role': 'Type-safe strict Laravel architecture'},
+            {'name': 'lubusIN/laravel-decomposer', 'role': 'Server environment and dependency inspector'}
+        ],
+        'concept': 'An all-in-one local operations platform tailored for independent retail, real estate agencies, and service professionals who refuse cloud vendor lock-in and high monthly SaaS fees.'
+    },
+    {
+        'title': 'Realtime Event Streaming Gateway & Customer Chat Hub',
+        'tagline': 'Server-sent events, lightning-fast Go REST APIs, and self-hosted live customer messaging',
+        'ingredients': [
+            {'name': 'dunglas/mercure', 'role': 'Server-sent events realtime pub/sub hub'},
+            {'name': 'papercups-io/papercups', 'role': 'Open-source customer communication widget'},
+            {'name': 'danielgtaylor/huma', 'role': 'High-performance modern REST API framework for Go'},
+            {'name': 'go-chi/chi', 'role': 'Lightweight idiomatic Go HTTP router'},
+            {'name': 'fullstorydev/grpcurl', 'role': 'Command-line tool for interacting with gRPC servers'},
+            {'name': 'vinceanalytics/vince', 'role': 'Privacy-first self-hosted web analytics'}
+        ],
+        'concept': 'An open-source alternative to Intercom and Pusher. Delivers sub-millisecond real-time chat and live customer telemetry over Mercure SSE, with backend APIs built on Chi and Huma.'
+    },
+    {
+        'title': 'Distributed Graph & Columnar Analytics Data Engine',
+        'tagline': 'Hybrid graph queries, columnar compression, and distributed consensus for real-time analytics',
+        'ingredients': [
+            {'name': 'apache/age', 'role': 'PostgreSQL graph database extension (Cypher queries)'},
+            {'name': 'hydradatabase/columnar', 'role': 'Postgres columnar storage for fast analytics'},
+            {'name': 'orioledb/orioledb', 'role': 'Storage engine optimized for modern cloud & SSDs'},
+            {'name': 'yugabyte/yugabyte-db', 'role': 'Distributed SQL cloud native database'},
+            {'name': 'RedisLabs/redisraft', 'role': 'Raft consensus module for consistent Redis clusters'},
+            {'name': 'dimitri/pgcopydb', 'role': 'High-speed parallel PostgreSQL database migration'},
+            {'name': 'percona/percona-xtrabackup', 'role': 'Non-blocking database backup utility'}
+        ],
+        'concept': 'A powerhouse data stack for fintech, supply chain, and fraud detection. Runs complex graph relationship traversals using Apache AGE, compresses historical transactions with Hydra Columnar, and guarantees high availability across regions with YugabyteDB.'
+    },
+    {
+        'title': 'Offline Cross-Platform AI Copilot & Fine-Tuning Studio',
+        'tagline': 'Run optimized 1-bit / quantized models locally across Apple Silicon, Linux, and mobile devices',
+        'ingredients': [
+            {'name': 'guinmoon/LLMFarm', 'role': 'iOS & macOS offline GGML LLM runner'},
+            {'name': 'Tiiny-AI/PowerInfer', 'role': 'High-speed CPU/GPU hybrid LLM inference'},
+            {'name': 'microsoft/BitNet', 'role': '1-bit LLM architecture for extreme efficiency'},
+            {'name': 'ggml-org/llama.cpp', 'role': 'Low-level C/C++ LLM inference engine'},
+            {'name': 'ggml-org/ggml', 'role': 'Tensor library for machine learning on consumer hardware'},
+            {'name': 'unslothai/unsloth', 'role': '5x faster LLM fine-tuning with 80% less VRAM'},
+            {'name': 'google-ai-edge/mediapipe', 'role': 'On-device vision and machine learning pipelines'}
+        ],
+        'concept': 'A native desktop and mobile studio for running and customizing private AI models. Fine-tunes compact domain models with Unsloth in 30 minutes, quantizes them to 1-bit BitNet format, and deploys them to iPhones and MacBooks via LLMFarm and PowerInfer.'
+    },
+    {
+        'title': 'Turn-Key Multi-Cloud Infrastructure & Self-Hosted Hosting Stack',
+        'tagline': 'Automated Proxmox/Terraform provisioning with hardened container runtime environments',
+        'ingredients': [
+            {'name': 'bpg/terraform-provider-proxmox', 'role': 'Infrastructure-as-code for on-premise Proxmox'},
+            {'name': 'GoogleCloudPlatform/terraformer', 'role': 'Reverse engineer cloud infra into Terraform'},
+            {'name': 'TrafeX/docker-php-nginx', 'role': 'Alpine Nginx & PHP-FPM container with Supervisord'},
+            {'name': 'chialab/docker-php', 'role': 'Pre-configured production PHP containers'},
+            {'name': 'jessfraz/dockerfiles', 'role': 'Battle-tested curated container collection'},
+            {'name': 'ethibox/awesome-stacks', 'role': 'Curated collection of self-hosted application stacks'},
+            {'name': 'ms-jpq/simple-traefik-dash', 'role': 'Minimalist dashboard for Traefik proxy routes'}
+        ],
+        'concept': 'An indie cloud hosting platform that bridges on-premise Proxmox clusters with Google Cloud, spinning up hardened PHP, Go, and Python microservices with automated Traefik routing and SSL certificates.'
+    },
+    {
+        'title': 'High-Performance Code Profiling & Mac / Linux Power Console',
+        'tagline': 'In-depth application profiling, fast visual terminals, and customizable desktop status centers',
+        'ingredients': [
+            {'name': 'NoiseByNorthwest/php-spx', 'role': 'Zero-overhead PHP profiling extension with web UI'},
+            {'name': 'FelixKratz/SketchyBar', 'role': 'Customizable status bar replacement for macOS'},
+            {'name': 'goshs-labs/goshs', 'role': 'Single-binary multi-protocol file sharing server'},
+            {'name': 'termkit/gama', 'role': 'Terminal UI for managing GitHub Actions runs'},
+            {'name': 'below/HelloSilicon', 'role': 'ARM64 assembly introduction for Apple Silicon'},
+            {'name': 'hackclub/some-assembly-required', 'role': 'Approachable low-level assembly guide'}
+        ],
+        'concept': 'The ultimate hardware hacker and systems engineering toolkit. Tracks CPU flame graphs via PHP-SPX, surfaces live server metrics on macOS SketchyBar, and manages CI/CD pipelines right inside the terminal via Gama.'
+    },
+    {
+        'title': 'Privacy-First Collaborative Knowledge Base & Red-Team Server',
+        'tagline': 'Local Markdown graph notes synced with secure file dropoffs and encrypted team vaults',
+        'ingredients': [
+            {'name': 'logseq/logseq', 'role': 'Local-first non-linear outliner & knowledge graph'},
+            {'name': 'zotonic/zotonic', 'role': 'High-concurrency Erlang web framework and CMS'},
+            {'name': 'sphireinc/Foundry', 'role': 'Modular pen-testing and research workspace'},
+            {'name': 'doxx/darkflare', 'role': 'Zero-trace encrypted web asset proxy'},
+            {'name': 'albersola/airo', 'role': 'Automated wireless network auditing utility'},
+            {'name': 'goravel/goravel', 'role': 'Golang web framework with Laravel-like syntax'}
+        ],
+        'concept': 'A private security research and knowledge repository for red teams and journalists. Keeps investigation files encrypted locally in Logseq, shares encrypted research through Darkflare, and coordinates multi-agent findings.'
+    },
+    {
+        'title': 'Next-Gen Type-Safe Microservices & Reactive Web Suite',
+        'tagline': 'High-velocity scaffolding with gRPC, modern CSS frameworks, and instant OAuth authentication',
+        'ingredients': [
+            {'name': 'isurajkc/react-webpack-starter', 'role': 'Optimized React boilerplate with Webpack 5'},
+            {'name': 'laravel/sanctum', 'role': 'Featherweight auth for SPAs and mobile APIs'},
+            {'name': 'laravel/socialite', 'role': 'OAuth social login for 50+ providers'},
+            {'name': 'hasinhayder/hydra', 'role': 'Lightweight PHP micro-framework'},
+            {'name': 'mikestefanello/pagoda', 'role': 'Rapid web app starter in Go with templates'},
+            {'name': 'yarlson/ftl', 'role': 'Fault-tolerant message queue and task engine'},
+            {'name': 'Snapchat/Valdi', 'role': 'Reactive declarative UI framework'}
+        ],
+        'concept': 'A hyper-productive foundation for launching new SaaS products. Provides instant multi-provider social authentication, type-safe API communication, and responsive reactive UIs with minimal boilerplate code.'
     }
 ]
+
+FEATURED_REMIX_RECIPES = blueprints
 
 def load_existing_db():
     if os.path.exists(DATA_FILE):
