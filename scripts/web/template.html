@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Awesome Remix — turn __REPO_COUNT__ starred repos into product ideas</title>
+  <meta name="description" content="__IDEA_COUNT__ product ideas built from __REPO_COUNT__ starred open-source repos. Swap any part of a stack for a similar repo, or combine ideas into a new product blueprint.">
+  <meta property="og:title" content="Awesome Remix — product ideas from starred repos">
+  <meta property="og:description" content="Explore __IDEA_COUNT__ remixable product ideas built from __REPO_COUNT__ open-source tools.">
+  <meta name="theme-color" content="#0e7c66">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230e7c66'/%3E%3Cpath d='M9 22l7-12 7 12' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6f5f1;
+      --surface: #ffffff;
+      --surface-2: #efede7;
+      --ink: #1d1c1a;
+      --muted: #67645d;
+      --faint: #8f8b82;
+      --line: #e2dfd6;
+      --accent: #0e7c66;
+      --accent-hover: #0b6654;
+      --accent-ink: #ffffff;
+      --accent-soft: #e1f0eb;
+      --shadow: 0 1px 2px rgba(29, 28, 26, .05), 0 4px 16px rgba(29, 28, 26, .05);
+      --shadow-lg: 0 12px 48px rgba(29, 28, 26, .18);
+      --radius: 14px;
+      --radius-sm: 9px;
+      --font: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+      --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+      color-scheme: light;
+    }
+    [data-theme="dark"] {
+      --bg: #111312;
+      --surface: #191c1b;
+      --surface-2: #232726;
+      --ink: #ecebe7;
+      --muted: #a8a59d;
+      --faint: #7d7a73;
+      --line: #2e3331;
+      --accent: #3ccfa8;
+      --accent-hover: #5fdcbb;
+      --accent-ink: #062019;
+      --accent-soft: #163029;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 16px rgba(0, 0, 0, .25);
+      --shadow-lg: 0 12px 48px rgba(0, 0, 0, .6);
+      color-scheme: dark;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font: 15px/1.55 var(--font); -webkit-font-smoothing: antialiased;
+      transition: background .25s, color .25s;
+    }
+    body.has-tray main { padding-bottom: 110px; }
+    a { color: inherit; }
+    button, input, select { font: inherit; color: inherit; }
+    button { cursor: pointer; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .mono { font-family: var(--mono); }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+    /* ---------- Header ---------- */
+    .site-header {
+      position: sticky; top: 0; z-index: 30;
+      background: color-mix(in srgb, var(--bg) 88%, transparent);
+      backdrop-filter: saturate(1.4) blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+    .header-inner { display: flex; align-items: center; gap: 16px; height: 62px; }
+    .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 700; letter-spacing: -.01em; white-space: nowrap; }
+    .brand-mark { width: 28px; height: 28px; border-radius: 8px; background: var(--accent); display: grid; place-items: center; }
+    .brand-mark svg { width: 16px; height: 16px; }
+    .nav { display: flex; gap: 4px; margin-left: 12px; overflow-x: auto; scrollbar-width: none; }
+    .nav::-webkit-scrollbar { display: none; }
+    .nav a {
+      display: inline-flex; align-items: center; gap: 7px; padding: 7px 13px; border-radius: 999px;
+      text-decoration: none; color: var(--muted); font-weight: 500; font-size: 14px; white-space: nowrap;
+      transition: background .15s, color .15s;
+    }
+    .nav a:hover { color: var(--ink); background: var(--surface-2); }
+    .nav a[aria-current="page"] { color: var(--ink); background: var(--surface); box-shadow: var(--shadow); }
+    .nav .badge {
+      min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; font-size: 12px; font-weight: 600;
+      display: inline-grid; place-items: center; background: var(--accent); color: var(--accent-ink);
+    }
+    .nav .badge[hidden] { display: none; }
+    .header-actions { margin-left: auto; display: flex; gap: 6px; }
+    .icon-btn {
+      height: 36px; min-width: 36px; padding: 0 10px; border-radius: 10px; border: 1px solid var(--line);
+      background: var(--surface); display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+      font-size: 13.5px; font-weight: 500; transition: border-color .15s, transform .1s;
+    }
+    .icon-btn:hover { border-color: var(--faint); }
+    .icon-btn:active { transform: scale(.97); }
+    .icon-btn svg { width: 17px; height: 17px; }
+
+    /* ---------- Generic ---------- */
+    main { padding: 28px 0 64px; min-height: 70vh; }
+    .view[hidden] { display: none; }
+    .view { animation: fadeIn .25s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    .view-head { margin: 8px 0 20px; }
+    .view-head h2 { font-size: 26px; letter-spacing: -.02em; margin: 0 0 6px; }
+    .view-head p { margin: 0; color: var(--muted); max-width: 700px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+      height: 38px; padding: 0 15px; border-radius: 10px; border: 1px solid var(--line);
+      background: var(--surface); font-weight: 500; font-size: 14px; text-decoration: none;
+      transition: background .15s, border-color .15s, transform .1s;
+    }
+    .btn:hover { border-color: var(--faint); }
+    .btn:active { transform: scale(.97); }
+    .btn svg { width: 16px; height: 16px; }
+    .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+    .btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+    .btn-ghost { background: transparent; border-color: transparent; color: var(--muted); }
+    .btn-ghost:hover { color: var(--ink); background: var(--surface-2); border-color: transparent; }
+    .btn-sm { height: 32px; padding: 0 11px; font-size: 13px; border-radius: 8px; }
+    .btn[disabled] { opacity: .45; pointer-events: none; }
+    .field {
+      height: 42px; border-radius: 11px; border: 1px solid var(--line); background: var(--surface);
+      padding: 0 14px; outline: none; transition: border-color .15s, box-shadow .15s; min-width: 0;
+    }
+    .field:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+    .search { position: relative; flex: 1 1 320px; }
+    .search svg { position: absolute; left: 13px; top: 50%; translate: 0 -50%; width: 17px; height: 17px; color: var(--faint); pointer-events: none; }
+    .search .field { width: 100%; padding-left: 40px; padding-right: 40px; }
+    .kbd-hint {
+      position: absolute; right: 11px; top: 50%; translate: 0 -50%; pointer-events: none;
+      font-family: var(--mono); font-size: 11.5px; color: var(--faint); border: 1px solid var(--line);
+      background: var(--surface-2); border-radius: 5px; padding: 1px 6px; line-height: 1.4;
+      transition: opacity .15s;
+    }
+    .search:focus-within .kbd-hint { opacity: 0; }
+    select.field { padding-right: 32px; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238f8b82' stroke-width='2.5'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; cursor: pointer; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip {
+      height: 32px; padding: 0 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface);
+      font-size: 13px; font-weight: 500; color: var(--muted); transition: all .15s;
+    }
+    .chip:hover { color: var(--ink); border-color: var(--faint); }
+    .chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; }
+    .result-meta { color: var(--muted); font-size: 13.5px; margin: 10px 0 16px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    .link-btn { background: none; border: 0; padding: 0; color: var(--accent); font-weight: 500; font-size: inherit; text-decoration: underline; text-underline-offset: 3px; }
+    .empty { text-align: center; padding: 48px 20px; color: var(--muted); border: 1px dashed var(--line); border-radius: var(--radius); }
+    .empty strong { display: block; color: var(--ink); font-size: 16px; margin-bottom: 6px; }
+
+    /* ---------- Hero / guide ---------- */
+    .hero { padding: 14px 0 24px; }
+    .hero h1 { font-size: clamp(27px, 4vw, 42px); line-height: 1.13; letter-spacing: -.03em; margin: 0 0 12px; max-width: 840px; }
+    .hero .lead { font-size: 16.5px; color: var(--muted); max-width: 740px; margin: 0 0 20px; }
+    .stats { display: flex; flex-wrap: wrap; gap: 28px; margin: 0 0 22px; }
+    .stat b { display: block; font-size: 24px; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+    .stat span { color: var(--muted); font-size: 13px; }
+    .guide { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
+    .guide[hidden] { display: none; }
+    .guide-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .guide-head h2 { font-size: 15px; margin: 0; }
+    .steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; counter-reset: step; }
+    .steps li { padding: 14px; border-radius: var(--radius-sm); background: var(--surface-2); counter-increment: step; }
+    .steps li::before {
+      content: counter(step); display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%;
+      background: var(--accent); color: var(--accent-ink); font-size: 12.5px; font-weight: 700; margin-bottom: 8px;
+    }
+    .steps h3 { margin: 0 0 4px; font-size: 15px; }
+    .steps p { margin: 0; color: var(--muted); font-size: 13.5px; }
+    .guide-foot { margin: 12px 0 0; font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+
+    /* ---------- Idea cards ---------- */
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+    .idea-card {
+      background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px;
+      display: flex; flex-direction: column; gap: 10px; cursor: pointer; box-shadow: var(--shadow);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s;
+      animation: fadeIn .3s ease both;
+    }
+    .idea-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); border-color: var(--faint); }
+    .idea-card.selected { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow); }
+    .card-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+    .domain { font-size: 12.5px; color: var(--muted); font-weight: 500; }
+    .idea-card h3 { margin: 0; font-size: 17px; line-height: 1.3; letter-spacing: -.01em; }
+    .tagline { margin: 0; color: var(--muted); font-size: 14px; }
+    .combine-toggle {
+      flex-shrink: 0; height: 28px; padding: 0 10px; border-radius: 8px; border: 1px solid var(--line);
+      background: transparent; font-size: 12.5px; font-weight: 500; color: var(--muted); transition: all .15s;
+    }
+    .combine-toggle:hover { color: var(--ink); border-color: var(--faint); }
+    .combine-toggle[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+    .stack-mini { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 6px; }
+    .stack-mini li {
+      display: flex; gap: 10px; align-items: center; padding: 7px 9px 7px 10px;
+      border-radius: var(--radius-sm); background: var(--surface-2); min-width: 0;
+      transition: background .25s;
+    }
+    .stack-mini li.flashed { animation: rowFlash .45s ease; }
+    @keyframes rowFlash { 0% { background: var(--accent-soft); } 100% { background: var(--surface-2); } }
+    .layer-icon { font-size: 16px; width: 22px; text-align: center; flex-shrink: 0; }
+    .layer-text { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+    .layer-name { font-size: 11.5px; color: var(--faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .layer-repo { font-family: var(--mono); font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .inline-swap {
+      flex-shrink: 0; height: 26px; padding: 0 8px; border-radius: 7px; border: 1px solid var(--line);
+      background: var(--surface); color: var(--muted); font-size: 11.5px; font-weight: 500;
+      display: inline-flex; align-items: center; gap: 4px; font-variant-numeric: tabular-nums;
+      transition: border-color .15s, color .15s, transform .1s;
+    }
+    .inline-swap:hover { border-color: var(--accent); color: var(--accent); }
+    .inline-swap:active { transform: scale(.94); }
+    .match-line { font-size: 12.5px; color: var(--muted); }
+    .match-line button { font-family: var(--mono); font-size: 12px; }
+    .card-foot { margin-top: auto; padding-top: 6px; display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); }
+    .open-link { color: var(--accent); font-weight: 600; transition: translate .15s; }
+    .idea-card:hover .open-link { translate: 3px 0; }
+    mark { background: color-mix(in srgb, var(--accent) 22%, transparent); color: inherit; border-radius: 3px; padding: 0 1px; }
+
+    /* ---------- Floating Combine Tray ---------- */
+    .combine-tray {
+      position: fixed; left: 50%; bottom: 16px; translate: -50% 0; z-index: 35;
+      width: min(860px, calc(100% - 28px));
+      background: var(--surface); border: 1px solid var(--accent); border-radius: 14px;
+      padding: 10px 14px; box-shadow: var(--shadow-lg);
+      display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+      animation: trayIn .22s cubic-bezier(.2, .8, .2, 1);
+    }
+    .combine-tray[hidden] { display: none; }
+    @keyframes trayIn { from { opacity: 0; translate: -50% 16px; } to { opacity: 1; translate: -50% 0; } }
+    .tray-info { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; min-width: 0; flex: 1; }
+    .tray-count { font-size: 13.5px; font-weight: 600; white-space: nowrap; }
+    .tray-hint { font-size: 13px; color: var(--muted); }
+    .tray-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+    .tray-pill {
+      display: inline-flex; align-items: center; gap: 5px; height: 26px; padding: 0 5px 0 9px;
+      border-radius: 7px; background: var(--surface-2); font-size: 12.5px; max-width: 190px;
+    }
+    .tray-pill span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .tray-pill button { border: 0; background: none; color: var(--faint); width: 18px; height: 18px; border-radius: 4px; display: grid; place-items: center; padding: 0; font-size: 11px; }
+    .tray-pill button:hover { background: var(--line); color: var(--ink); }
+    .tray-actions { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+
+    /* ---------- Drawer ---------- */
+    .backdrop { position: fixed; inset: 0; background: rgba(10, 10, 9, .45); z-index: 40; opacity: 0; transition: opacity .2s; }
+    .backdrop.show { opacity: 1; }
+    .drawer {
+      position: fixed; top: 0; right: 0; bottom: 0; width: min(650px, 100%); z-index: 50; background: var(--bg);
+      border-left: 1px solid var(--line); box-shadow: var(--shadow-lg); display: flex; flex-direction: column;
+      transform: translateX(100%); transition: transform .28s cubic-bezier(.2, .8, .2, 1);
+    }
+    .drawer.show { transform: none; }
+    .drawer[hidden], .backdrop[hidden] { display: none; }
+    .drawer-head { padding: 20px 22px 16px; border-bottom: 1px solid var(--line); background: var(--surface); }
+    .drawer-head .row { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .drawer-head h2 { margin: 0 0 6px; font-size: 22px; line-height: 1.25; letter-spacing: -.02em; }
+    .drawer-head p { margin: 0; color: var(--muted); }
+    .drawer-body { flex: 1; overflow-y: auto; padding: 8px 22px 24px; }
+    .drawer-foot { padding: 14px 22px; border-top: 1px solid var(--line); background: var(--surface); display: flex; flex-wrap: wrap; gap: 8px; }
+    .section { padding: 18px 0; border-bottom: 1px solid var(--line); }
+    .section:last-child { border-bottom: 0; }
+    .section h3 { margin: 0 0 4px; font-size: 12.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--faint); font-weight: 600; }
+    .section > p { margin: 6px 0 0; }
+    .hint { color: var(--muted); font-size: 13.5px; margin: 2px 0 14px !important; }
+    .flow-bar {
+      display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 6px; align-items: center;
+      margin-top: 12px; padding: 10px; border-radius: var(--radius-sm); background: var(--surface); border: 1px solid var(--line);
+    }
+    .flow-node { min-width: 0; padding: 7px 9px; border-radius: 7px; background: var(--surface-2); }
+    .flow-node small { display: block; font-size: 10.5px; color: var(--faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .flow-node b { display: block; font-family: var(--mono); font-size: 12px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .flow-arrow { color: var(--faint); font-size: 13px; user-select: none; }
+    .layer { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 14px; margin-bottom: 12px; }
+    .layer-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 10px; }
+    .layer-title { font-weight: 600; font-size: 14px; }
+    .layer-title small { display: block; color: var(--faint); font-weight: 500; font-size: 12px; }
+    .count { font-size: 12.5px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .repo-card { padding: 12px; border-radius: var(--radius-sm); background: var(--surface-2); animation: swapIn .22s ease; }
+    @keyframes swapIn { from { opacity: .35; transform: translateX(5px); } to { opacity: 1; transform: none; } }
+    .repo-card a { font-family: var(--mono); font-size: 14px; font-weight: 500; text-decoration: none; display: inline-flex; gap: 6px; align-items: center; }
+    .repo-card a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .repo-card a svg { width: 13px; height: 13px; color: var(--faint); }
+    .repo-card p { margin: 4px 0 6px; font-size: 13.5px; color: var(--muted); }
+    .meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; color: var(--faint); align-items: center; }
+    .slot-filter-btn {
+      background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 1px 7px;
+      font-size: 12px; color: var(--muted); transition: border-color .15s, color .15s;
+    }
+    .slot-filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .layer-controls { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .alts { margin-top: 10px; }
+    .alts[hidden] { display: none; }
+    .alts .field { width: 100%; height: 36px; font-size: 13.5px; }
+    .alt-list { list-style: none; margin: 8px 0 0; padding: 0; max-height: 260px; overflow-y: auto; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .alt-list li + li { border-top: 1px solid var(--line); }
+    .alt-list button { width: 100%; text-align: left; background: none; border: 0; padding: 9px 12px; display: block; }
+    .alt-list button:hover { background: var(--surface-2); }
+    .alt-list button[aria-current="true"] { background: var(--accent-soft); }
+    .alt-list .an { font-family: var(--mono); font-size: 12.5px; display: block; }
+    .alt-list .ad { font-size: 12.5px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+
+    /* ---------- Combine ---------- */
+    .preset-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 18px; }
+    .preset-label { font-size: 13px; color: var(--muted); font-weight: 500; margin-right: 2px; }
+    .preset-btn {
+      height: 32px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--line);
+      background: var(--surface); font-size: 13px; font-weight: 500; color: var(--ink);
+      display: inline-flex; align-items: center; gap: 6px; transition: border-color .15s, background .15s;
+    }
+    .preset-btn:hover { border-color: var(--accent); background: var(--accent-soft); }
+    .combine-layout { display: grid; grid-template-columns: 340px 1fr; gap: 20px; align-items: start; }
+    .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .picker { padding: 16px; position: sticky; top: 80px; }
+    .panel-title { margin: 0 0 4px; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+    .step-dot { width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); display: inline-grid; place-items: center; font-size: 12px; font-weight: 700; }
+    .panel-sub { margin: 0 0 12px; color: var(--muted); font-size: 13px; }
+    .picker .field { width: 100%; height: 38px; font-size: 14px; }
+    .picker-actions { display: flex; gap: 6px; margin: 10px 0; }
+    .pick-list { list-style: none; margin: 0; padding: 0; max-height: calc(100vh - 330px); min-height: 200px; overflow-y: auto; }
+    .pick-list label { display: flex; gap: 10px; align-items: flex-start; padding: 9px 8px; border-radius: 8px; cursor: pointer; }
+    .pick-list label:hover { background: var(--surface-2); }
+    .pick-list input { margin-top: 3px; accent-color: var(--accent); width: 16px; height: 16px; flex-shrink: 0; }
+    .pick-list .pt { font-size: 13.5px; font-weight: 500; line-height: 1.35; }
+    .pick-list .pd { font-size: 12px; color: var(--faint); }
+    .blueprint { padding: 22px; min-height: 420px; }
+    .blueprint h2 { font-size: 24px; letter-spacing: -.02em; margin: 6px 0 8px; line-height: 1.25; }
+    .selected-pills { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
+    .sel-pill { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 6px 0 11px; border-radius: 8px; background: var(--surface-2); font-size: 13px; }
+    .sel-pill button { border: 0; background: none; color: var(--faint); width: 20px; height: 20px; border-radius: 5px; display: grid; place-items: center; }
+    .sel-pill button:hover { background: var(--line); color: var(--ink); }
+    .shared-tag { font-size: 11.5px; font-weight: 600; color: var(--accent); }
+    .phases { margin: 8px 0 0; padding-left: 20px; }
+    .phases li { margin-bottom: 10px; }
+    .phases li b { display: block; }
+    .phases li span { color: var(--muted); font-size: 14px; }
+    .money { margin: 8px 0 0; padding-left: 20px; }
+    .money li { margin-bottom: 6px; }
+    .preset-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; margin-top: 16px; text-align: left; }
+    .preset-card {
+      padding: 13px 14px; border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--surface-2);
+      text-align: left; display: flex; flex-direction: column; gap: 4px; transition: border-color .15s, transform .12s;
+    }
+    .preset-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .preset-card b { font-size: 13.5px; color: var(--ink); }
+    .preset-card span { font-size: 12px; color: var(--muted); line-height: 1.4; }
+
+    /* ---------- Browse ---------- */
+    .repo-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+    .repo-row {
+      background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px;
+      display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: start;
+    }
+    .repo-row .repo-link { font-family: var(--mono); font-size: 14px; text-decoration: none; display: inline-flex; gap: 6px; align-items: center; }
+    .repo-row .repo-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .repo-row .repo-link svg { width: 13px; height: 13px; color: var(--faint); }
+    .repo-row p { margin: 3px 0 8px; color: var(--muted); font-size: 14px; }
+    .repo-uses { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; max-width: 260px; }
+    .uses-label { font-size: 11px; color: var(--faint); text-transform: uppercase; letter-spacing: .05em; }
+    .use-btn { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 4px 9px; font-size: 12.5px; text-align: right; max-width: 260px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: border-color .15s, color .15s; }
+    .use-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .load-more { display: flex; justify-content: center; margin-top: 18px; }
+
+    /* ---------- Footer & toast ---------- */
+    .site-footer { border-top: 1px solid var(--line); padding: 26px 0 40px; color: var(--muted); font-size: 13.5px; }
+    .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+    .footer-inner nav { display: flex; gap: 16px; flex-wrap: wrap; }
+    .footer-inner a { text-decoration: none; }
+    .footer-inner a:hover { color: var(--ink); text-decoration: underline; }
+    .toast {
+      position: fixed; left: 50%; bottom: 24px; translate: -50% 20px; z-index: 60; opacity: 0; pointer-events: none;
+      background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 10px; font-size: 14px; font-weight: 500;
+      box-shadow: var(--shadow-lg); transition: opacity .2s, translate .2s, bottom .2s;
+    }
+    body.has-tray .toast { bottom: 86px; }
+    .toast.show { opacity: 1; translate: -50% 0; }
+
+    @media (max-width: 900px) {
+      .combine-layout { grid-template-columns: 1fr; }
+      .picker { position: static; }
+      .pick-list { max-height: 280px; }
+      .steps { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .header-inner { height: auto; flex-wrap: wrap; padding: 10px 0; gap: 8px; }
+      .nav { order: 3; width: 100%; margin-left: 0; }
+      .icon-btn .label { display: none; }
+      .kbd-hint { display: none; }
+      .grid { grid-template-columns: 1fr; }
+      .repo-row { grid-template-columns: 1fr; }
+      .repo-uses { align-items: flex-start; max-width: none; }
+      .flow-bar { grid-template-columns: 1fr; }
+      .flow-arrow { display: none; }
+      .drawer-head, .drawer-body, .drawer-foot { padding-left: 16px; padding-right: 16px; }
+      .tray-pills { display: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="sr-only" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#/ideas" aria-label="Awesome Remix home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18 12 6l7 12"/></svg></span>
+        Awesome Remix
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/ideas" data-nav="ideas">Product ideas</a>
+        <a href="#/combine" data-nav="combine">Combine <span class="badge" id="combine-badge" hidden>0</span></a>
+        <a href="#/browse" data-nav="browse">Browse tools</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="help-btn" type="button" aria-label="How it works">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+          <span class="label">How it works</span>
+        </button>
+        <button class="icon-btn" id="theme-btn" type="button" aria-label="Toggle dark mode"></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <noscript><div class="empty"><strong>JavaScript is required</strong>This catalog is interactive. You can also read <a href="README.md">README.md</a> and <a href="IDEAS.md">IDEAS.md</a>.</div></noscript>
+
+    <!-- ================= IDEAS ================= -->
+    <section class="view" id="view-ideas" aria-labelledby="hero-title">
+      <div class="hero">
+        <h1 id="hero-title">Turn __REPO_COUNT__ starred repos into buildable product ideas</h1>
+        <p class="lead">Every GitHub project I've starred was organized into interchangeable building blocks and remixed into __IDEA_COUNT__ product blueprints. Swap any layer for a similar repo in one click, or combine ideas into a new product.</p>
+        <div class="stats" id="stats"></div>
+        <section class="guide" id="guide" aria-labelledby="guide-title">
+          <div class="guide-head">
+            <h2 id="guide-title">What you can do here (in 30 seconds)</h2>
+            <button class="btn btn-ghost btn-sm" type="button" data-action="hide-guide">Got it, hide</button>
+          </div>
+          <ol class="steps">
+            <li><h3>1. Explore an idea</h3><p>Each card below is a real product blueprint powered by 3 open-source repos from the starred list.</p></li>
+            <li><h3>2. Swap any layer</h3><p>Click <b>↻</b> right on a card to cycle in a similar repo, or open the blueprint to search every alternative.</p></li>
+            <li><h3>3. Combine into a suite</h3><p>Tap <b>+ Combine</b> on 2–5 ideas to merge shared layers into one multi-module architecture &amp; export Markdown.</p></li>
+          </ol>
+          <p class="guide-foot">
+            <span>Quick try:</span>
+            <span>Search a tool like <button class="link-btn" type="button" data-action="demo-search" data-q="ollama">ollama</button> or <button class="link-btn" type="button" data-action="demo-search" data-q="redis">redis</button></span>
+            <span>·</span>
+            <button class="link-btn" type="button" data-action="load-preset" data-preset="0">Preview a 3-idea combined blueprint →</button>
+          </p>
+        </section>
+      </div>
+
+      <div class="toolbar">
+        <label class="search">
+          <span class="sr-only">Search ideas</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input class="field" id="idea-search" type="search" placeholder="Search ideas, domains, or any repo name (e.g. whisper, postgres, mcp)…" autocomplete="off">
+          <span class="kbd-hint" aria-hidden="true">/</span>
+        </label>
+      </div>
+      <div class="chips" id="idea-groups" role="group" aria-label="Filter ideas by theme"></div>
+      <div class="result-meta" id="idea-meta" aria-live="polite"></div>
+      <div class="grid" id="idea-grid"></div>
+    </section>
+
+    <!-- ================= COMBINE ================= -->
+    <section class="view" id="view-combine" hidden aria-labelledby="combine-title">
+      <div class="view-head">
+        <h2 id="combine-title">Combine ideas into an entirely new product</h2>
+        <p>Select 2–5 ideas to merge their stacks. Shared building blocks are deduplicated automatically so you build them once, and every layer stays swappable.</p>
+      </div>
+      <div class="preset-bar" id="preset-bar"></div>
+      <div class="combine-layout">
+        <aside class="panel picker" aria-labelledby="picker-title">
+          <h3 class="panel-title" id="picker-title"><span class="step-dot">1</span> Choose 2–5 ideas</h3>
+          <p class="panel-sub" id="picker-sub">0 of 5 selected</p>
+          <label class="sr-only" for="combine-search">Filter ideas</label>
+          <input class="field" id="combine-search" type="search" placeholder="Filter 40 ideas…" autocomplete="off">
+          <div class="picker-actions">
+            <button class="btn btn-sm" type="button" data-action="surprise">🎲 Surprise mix</button>
+            <button class="btn btn-sm btn-ghost" type="button" data-action="clear-combine">Clear</button>
+          </div>
+          <ul class="pick-list" id="pick-list"></ul>
+        </aside>
+        <section class="panel blueprint" id="blueprint" aria-live="polite"></section>
+      </div>
+    </section>
+
+    <!-- ================= BROWSE ================= -->
+    <section class="view" id="view-browse" hidden aria-labelledby="browse-title">
+      <div class="view-head">
+        <h2 id="browse-title">Browse all __REPO_COUNT__ starred tools</h2>
+        <p>Every repository classified by category and interchangeable building-block group. Click any idea button on the right to drop that repo straight into a product blueprint.</p>
+      </div>
+      <div class="toolbar">
+        <label class="search">
+          <span class="sr-only">Search repos</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input class="field" id="browse-search" type="search" placeholder="Search __REPO_COUNT__ repos by name or description…" autocomplete="off">
+          <span class="kbd-hint" aria-hidden="true">/</span>
+        </label>
+        <label class="sr-only" for="f-slot">Building block</label>
+        <select class="field" id="f-slot"></select>
+        <label class="sr-only" for="f-lang">Language</label>
+        <select class="field" id="f-lang"></select>
+      </div>
+      <div class="chips" id="browse-cats" role="group" aria-label="Filter tools by category"></div>
+      <div class="result-meta" id="browse-meta" aria-live="polite"></div>
+      <ul class="repo-list" id="repo-list"></ul>
+      <div class="load-more"><button class="btn" type="button" id="load-more" data-action="load-more">Show more</button></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span id="footer-note"></span>
+      <nav aria-label="Footer">
+        <a href="https://github.com/bikramtuladhar/awesome-list" target="_blank" rel="noopener">GitHub repo</a>
+        <a href="https://github.com/bikramtuladhar/awesome-list/blob/master/README.md" target="_blank" rel="noopener">README</a>
+        <a href="https://github.com/bikramtuladhar/awesome-list/blob/master/IDEAS.md" target="_blank" rel="noopener">IDEAS.md</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div class="combine-tray" id="combine-tray" hidden role="region" aria-label="Selected ideas to combine"></div>
+  <div class="backdrop" id="backdrop" hidden data-action="close-drawer"></div>
+  <aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="drawer-title"></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="application/json" id="app-data">__APP_DATA__</script>
+  <script>
+  (() => {
+    'use strict';
+    const DATA = JSON.parse(document.getElementById('app-data').textContent);
+    const R = DATA.repos, S = DATA.slots, I = DATA.ideas;
+    const MAX_COMBINE = 5, PAGE = 40;
+
+    const PRESETS = [
+      { label: 'AI SaaS Cloud', desc: 'MCP tool bridge + Passkey SSO + Token metering', ids: ['idea-03', 'idea-14', 'idea-15'] },
+      { label: 'Private Offline AI', desc: 'Edge Copilot + Hybrid RAG + Encrypted Docs', ids: ['idea-02', 'idea-10', 'idea-11'] },
+      { label: 'Autonomous DevSecOps', desc: 'AI PR Reviewer + Container Sandbox + Local CI', ids: ['idea-05', 'idea-28', 'idea-33'] },
+      { label: 'Realtime Data OS', desc: 'Collab Whiteboards + Edge SQLite + Live Cache', ids: ['idea-18', 'idea-22', 'idea-23'] },
+    ];
+
+    // ---------- helpers ----------
+    const $ = (s, el = document) => el.querySelector(s);
+    const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
+    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const fmt = (n) => n.toLocaleString('en-US');
+    const ghUrl = (n) => 'https://github.com/' + n;
+    const shortName = (n) => (n.includes('/') ? n.split('/')[1] : n);
+    const norm = (s) => String(s || '').toLowerCase();
+    const highlight = (text, q) => {
+      const t = esc(text);
+      if (!q) return t;
+      const i = norm(text).indexOf(q);
+      if (i < 0) return t;
+      return esc(text.slice(0, i)) + '<mark>' + esc(text.slice(i, i + q.length)) + '</mark>' + esc(text.slice(i + q.length));
+    };
+    const ICON_EXT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>';
+    const ICON_MOON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>';
+    const ICON_SUN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>';
+    const store = {
+      get(k, d) { try { const v = localStorage.getItem('remix:' + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+      set(k, v) { try { localStorage.setItem('remix:' + k, JSON.stringify(v)); } catch { /* storage unavailable */ } },
+    };
+
+    // ---------- indexes ----------
+    const ideaById = Object.fromEntries(I.map((i) => [i.id, i]));
+    const catById = Object.fromEntries(DATA.categories.map((c) => [c.id, c]));
+    const posInSlot = new Map();
+    Object.values(S).forEach((s) => s.r.forEach((ri, p) => posInSlot.set(ri, p)));
+    const ideasBySlot = {};
+    I.forEach((idea) => idea.sl.forEach((sid) => (ideasBySlot[sid] = ideasBySlot[sid] || []).push(idea.id)));
+
+    const GROUPS = [
+      ['ai', 'AI & agents', /\bAI\b|ML|agent|vision/i],
+      ['security', 'Security', /secur|identity|compliance/i],
+      ['data', 'Data & search', /data|database|caching|search|extraction|document/i],
+      ['infra', 'Infra & systems', /cloud|container|infrastructure|observability|systems|rust/i],
+      ['web', 'Web & apps', /web|frontend|mobile|reactive|boilerplate|visual|api/i],
+      ['dev', 'Developer tools', /developer|terminal|typescript|php/i],
+      ['biz', 'Business & SaaS', /./],
+    ];
+    I.forEach((idea) => { idea.group = (GROUPS.find((g) => g[2].test(idea.dm)) || GROUPS[GROUPS.length - 1])[0]; });
+
+    // ---------- state ----------
+    const state = {
+      picks: store.get('picks', {}),
+      combine: store.get('combine', []).filter((id) => ideaById[id]),
+      cpicks: store.get('cpicks', {}),
+      ideaQ: '', group: 'all',
+      browse: { q: '', cat: '', slot: '', lang: '', limit: PAGE },
+      openIdea: null,
+    };
+    let currentView = null;
+
+    const slotLen = (sid) => (S[sid] ? S[sid].r.length : 1);
+    const wrapPos = (sid, p) => { const n = slotLen(sid); return ((p % n) + n) % n; };
+    const repoAt = (sid, p) => R[S[sid].r[wrapPos(sid, p)]];
+    const getPick = (idea, k) => {
+      const arr = state.picks[idea.id];
+      return wrapPos(idea.sl[k], arr && Number.isInteger(arr[k]) ? arr[k] : idea.df[k]);
+    };
+    const setPick = (idea, k, p) => {
+      const arr = state.picks[idea.id] || idea.df.slice();
+      arr[k] = wrapPos(idea.sl[k], p);
+      state.picks[idea.id] = arr;
+      store.set('picks', state.picks);
+    };
+
+    // ---------- UI primitives ----------
+    let toastTimer;
+    function toast(msg) {
+      const t = $('#toast');
+      t.textContent = msg;
+      t.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+    }
+    async function copyText(text, msg) {
+      try { await navigator.clipboard.writeText(text); }
+      catch {
+        const ta = document.createElement('textarea');
+        ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); } catch { /* ignore */ }
+        ta.remove();
+      }
+      toast(msg);
+    }
+    function repoMeta(repo) {
+      const cat = catById[repo.c];
+      const parts = [];
+      if (repo.l) parts.push('<span>' + esc(repo.l) + '</span>');
+      if (cat) parts.push('<span>' + esc(cat.icon + ' ' + cat.name) + '</span>');
+      return parts.join('');
+    }
+    function repoCard(repo) {
+      return '<div class="repo-card"><a href="' + esc(ghUrl(repo.n)) + '" target="_blank" rel="noopener">' + esc(repo.n) + ICON_EXT + '</a>' +
+        '<p>' + esc(repo.d || 'No description provided.') + '</p><div class="meta">' + repoMeta(repo) + '</div></div>';
+    }
+
+    // ---------- theme & guide ----------
+    function applyTheme(t) {
+      document.documentElement.setAttribute('data-theme', t);
+      const btn = $('#theme-btn');
+      btn.innerHTML = t === 'dark' ? ICON_SUN : ICON_MOON;
+      btn.setAttribute('aria-label', t === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      btn.title = t === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+    }
+    applyTheme(store.get('theme', matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+    $('#theme-btn').addEventListener('click', () => {
+      const t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(t); store.set('theme', t);
+    });
+    const guide = $('#guide');
+    guide.hidden = store.get('guideHidden', false);
+    $('#help-btn').addEventListener('click', () => {
+      guide.hidden = false; store.set('guideHidden', false);
+      if (currentView === 'ideas') guide.scrollIntoView({ block: 'center' });
+      else { location.hash = '#/ideas'; setTimeout(() => guide.scrollIntoView({ block: 'center' }), 50); }
+    });
+
+    // ---------- stats ----------
+    $('#stats').innerHTML = [
+      [fmt(R.length), 'starred repos'],
+      [I.length, 'product blueprints'],
+      [Object.keys(S).length, 'swappable groups'],
+      ['100%', 'repo coverage'],
+    ].map(([b, s]) => '<div class="stat"><b>' + esc(b) + '</b><span>' + esc(s) + '</span></div>').join('');
+    $('#footer-note').textContent = 'Updated ' + DATA.generated + ' · ' + fmt(R.length) + ' starred repos · ' + I.length + ' product blueprints';
+
+    // =========================================================
+    // IDEAS VIEW
+    // =========================================================
+    $('#idea-groups').innerHTML = [['all', 'All ideas']].concat(GROUPS.map((g) => [g[0], g[1]]))
+      .map(([id, label]) => {
+        const n = id === 'all' ? I.length : I.filter((i) => i.group === id).length;
+        return '<button class="chip" type="button" data-action="group" data-group="' + id + '" aria-pressed="' + (id === 'all') + '">' + esc(label) + ' · ' + n + '</button>';
+      }).join('');
+
+    function ideaMatches(idea, q) {
+      if (!q) return { ok: true };
+      const text = norm(idea.t + ' ' + idea.dm + ' ' + idea.tg + ' ' + idea.a + ' ' + idea.m);
+      if (text.includes(q)) return { ok: true };
+      for (let k = 0; k < idea.sl.length; k++) {
+        const sid = idea.sl[k];
+        if (norm(S[sid].name).includes(q)) return { ok: true };
+        const ri = S[sid].r.find((x) => norm(R[x].n).includes(q));
+        if (ri !== undefined) return { ok: true, repo: ri };
+      }
+      return { ok: false };
+    }
+
+    function renderIdeas() {
+      const q = norm(state.ideaQ.trim());
+      const list = [];
+      I.forEach((idea) => {
+        if (state.group !== 'all' && idea.group !== state.group) return;
+        const m = ideaMatches(idea, q);
+        if (m.ok) list.push([idea, m]);
+      });
+      const meta = $('#idea-meta');
+      const filtered = q || state.group !== 'all';
+      meta.innerHTML = 'Showing <b>' + list.length + '</b> of ' + I.length + ' product blueprints' +
+        (filtered ? ' <button class="link-btn" type="button" data-action="reset-ideas">Clear filters</button>' : '');
+      const grid = $('#idea-grid');
+      if (!list.length) {
+        grid.innerHTML = '<div class="empty" style="grid-column:1/-1"><strong>No ideas match “' + esc(state.ideaQ) + '”</strong>Try a shorter keyword, or search all repositories in <a class="link-btn" href="#/browse">Browse tools</a>.</div>';
+        return;
+      }
+      grid.innerHTML = list.map(([idea, m], n) => {
+        const selected = state.combine.includes(idea.id);
+        const stack = idea.sl.map((sid, k) => {
+          const repo = repoAt(sid, getPick(idea, k));
+          const cnt = slotLen(sid);
+          return '<li data-card-layer="' + k + '"><span class="layer-icon" aria-hidden="true">' + esc(S[sid].icon) + '</span>' +
+            '<span class="layer-text"><span class="layer-name">' + esc(S[sid].name) + '</span><span class="layer-repo">' + esc(repo.n) + '</span></span>' +
+            (cnt > 1 ? '<button class="inline-swap" type="button" data-action="card-swap" data-idea="' + idea.id + '" data-k="' + k + '" title="Swap with another ' + esc(S[sid].name) + ' repo (' + cnt + ' options)" aria-label="Swap ' + esc(S[sid].name) + ' repo">↻ ' + cnt + '</button>' : '') +
+            '</li>';
+        }).join('');
+        const alts = idea.sl.reduce((a, sid) => a + slotLen(sid), 0);
+        const match = m.repo !== undefined
+          ? '<div class="match-line">Matches <button class="link-btn" type="button" data-action="use-in-idea" data-idea="' + idea.id + '" data-repo="' + m.repo + '">' + highlight(R[m.repo].n, q) + '</button> — click to slot in</div>' : '';
+        return '<article class="idea-card' + (selected ? ' selected' : '') + '" data-action="open" data-idea="' + idea.id + '" tabindex="0" style="animation-delay:' + Math.min(n * 18, 280) + 'ms" aria-label="' + esc(idea.t) + '">' +
+          '<div class="card-top"><span class="domain">' + highlight(idea.dm, q) + '</span>' +
+          '<button class="combine-toggle" type="button" data-action="toggle-combine" data-idea="' + idea.id + '" aria-pressed="' + selected + '">' + (selected ? '✓ Combining' : '+ Combine') + '</button></div>' +
+          '<h3>' + highlight(idea.t, q) + '</h3><p class="tagline">' + highlight(idea.tg, q) + '</p>' +
+          '<ul class="stack-mini" aria-label="Tech stack">' + stack + '</ul>' + match +
+          '<div class="card-foot"><span>' + fmt(alts) + ' swappable repos</span><span class="open-link">Open blueprint →</span></div></article>';
+      }).join('');
+    }
+
+    let searchTimer;
+    $('#idea-search').addEventListener('input', (e) => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => { state.ideaQ = e.target.value; renderIdeas(); }, 120);
+    });
+
+    // ---------- Floating Combine Tray ----------
+    function renderTray() {
+      const tray = $('#combine-tray');
+      const show = currentView === 'ideas' && state.combine.length > 0;
+      tray.hidden = !show;
+      document.body.classList.toggle('has-tray', show);
+      if (!show) return;
+      const n = state.combine.length;
+      const pills = state.combine.map((id) => {
+        const i = ideaById[id];
+        return '<span class="tray-pill"><span>' + esc(i.t) + '</span><button type="button" data-action="unpick-tray" data-idea="' + id + '" aria-label="Remove ' + esc(i.t) + '">✕</button></span>';
+      }).join('');
+      tray.innerHTML =
+        '<div class="tray-info">' +
+          '<span class="tray-count">' + n + ' of ' + MAX_COMBINE + ' selected</span>' +
+          (n < 2 ? '<span class="tray-hint">— pick at least 1 more card to merge</span>' : '') +
+          '<div class="tray-pills">' + pills + '</div>' +
+        '</div>' +
+        '<div class="tray-actions">' +
+          '<button class="btn btn-ghost btn-sm" type="button" data-action="clear-combine">Clear</button>' +
+          (n >= 2
+            ? '<a class="btn btn-primary btn-sm" href="#/combine">Build combined product →</a>'
+            : '<button class="btn btn-primary btn-sm" type="button" disabled>Pick 1 more</button>') +
+        '</div>';
+    }
+
+    // ---------- drawer ----------
+    let lastFocus = null;
+    function ideaMarkdown(idea) {
+      const lines = ['# ' + idea.t, '', '> ' + idea.tg, '', '**Domain:** ' + idea.dm, '', '## Tech stack'];
+      idea.sl.forEach((sid, k) => {
+        const r = repoAt(sid, getPick(idea, k));
+        lines.push('- **' + S[sid].name + ':** [' + r.n + '](' + ghUrl(r.n) + ')' + (r.d ? ' — ' + r.d : ''));
+      });
+      lines.push('', '## How it works', idea.a, '', '## Business model', idea.m, '', 'Remixed with ' + shareLink(idea));
+      return lines.join('\n');
+    }
+    function shareLink(idea) {
+      return location.origin + location.pathname + '#/idea/' + idea.id + '/' + idea.sl.map((_, k) => getPick(idea, k)).join('.');
+    }
+    function flowHTML(idea) {
+      return idea.sl.map((sid, k) => {
+        const r = repoAt(sid, getPick(idea, k));
+        const node = '<div class="flow-node"><small>' + esc(S[sid].icon + ' Layer ' + (k + 1)) + '</small><b title="' + esc(r.n) + '">' + esc(shortName(r.n)) + '</b></div>';
+        return k < idea.sl.length - 1 ? node + '<span class="flow-arrow" aria-hidden="true">→</span>' : node;
+      }).join('');
+    }
+    function layerHTML(idea, k) {
+      const sid = idea.sl[k], p = getPick(idea, k), n = slotLen(sid);
+      return '<div class="layer" data-layer="' + k + '">' +
+        '<div class="layer-head"><div class="layer-title"><small>Layer ' + (k + 1) + (k === 0 ? ' · primary engine' : '') + '</small>' + esc(S[sid].icon + ' ' + S[sid].name) + '</div>' +
+        '<span class="count">' + (p + 1) + ' of ' + n + '</span></div>' +
+        '<div class="repo-slot">' + repoCard(repoAt(sid, p)) + '</div>' +
+        (n > 1 ? '<div class="layer-controls">' +
+          '<button class="btn btn-sm" type="button" data-action="swap" data-k="' + k + '" data-d="-1" aria-label="Previous alternative">← Prev</button>' +
+          '<button class="btn btn-sm btn-primary" type="button" data-action="swap" data-k="' + k + '" data-d="1" aria-label="Next alternative">Next repo →</button>' +
+          '<button class="btn btn-sm btn-ghost" type="button" data-action="shuffle" data-k="' + k + '">Random</button>' +
+          '<button class="btn btn-sm btn-ghost" type="button" data-action="toggle-alts" data-k="' + k + '" aria-expanded="false">Search all ' + n + '</button>' +
+        '</div><div class="alts" hidden><input class="field" type="search" placeholder="Filter ' + n + ' repos in this group…" data-alt-filter="' + k + '" aria-label="Filter alternatives"><ul class="alt-list"></ul></div>'
+          : '<p class="hint" style="margin:10px 0 0 !important">Only one repo in this group so far.</p>') +
+        '</div>';
+    }
+    function renderAlts(idea, k) {
+      const layer = $('[data-layer="' + k + '"]', $('#drawer'));
+      if (!layer) return;
+      const box = $('.alts', layer);
+      if (!box || box.hidden) return;
+      const q = norm($('input', box).value.trim()), sid = idea.sl[k], cur = getPick(idea, k);
+      const items = S[sid].r.map((ri, p) => [ri, p]).filter(([ri]) => !q || norm(R[ri].n + ' ' + R[ri].d).includes(q));
+      $('.alt-list', box).innerHTML = items.length ? items.map(([ri, p]) =>
+        '<li><button type="button" data-action="choose" data-k="' + k + '" data-p="' + p + '" aria-current="' + (p === cur) + '"><span class="an">' + (p === cur ? '✓ ' : '') + esc(R[ri].n) + '</span><span class="ad">' + esc(R[ri].d || '—') + '</span></button></li>'
+      ).join('') : '<li style="padding:10px 12px;color:var(--muted)">No matching repos</li>';
+    }
+    function updateLayer(idea, k) {
+      const d = $('#drawer');
+      const layer = $('[data-layer="' + k + '"]', d);
+      if (!layer) return;
+      const sid = idea.sl[k], p = getPick(idea, k);
+      $('.repo-slot', layer).innerHTML = repoCard(repoAt(sid, p));
+      $('.count', layer).textContent = (p + 1) + ' of ' + slotLen(sid);
+      const flow = $('#drawer-flow', d);
+      if (flow) flow.innerHTML = flowHTML(idea);
+      renderAlts(idea, k);
+    }
+    function renderDrawer(idea) {
+      const d = $('#drawer');
+      const inCombine = state.combine.includes(idea.id);
+      d.innerHTML =
+        '<div class="drawer-head"><div class="row"><span class="domain">' + esc(S[idea.sl[0]].icon + ' ' + idea.dm) + '</span>' +
+        '<button class="icon-btn" type="button" data-action="close-drawer" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>' +
+        '<h2 id="drawer-title">' + esc(idea.t) + '</h2><p>' + esc(idea.tg) + '</p></div>' +
+        '<div class="drawer-body">' +
+          '<section class="section"><h3>How it works</h3><p>' + esc(idea.a) + '</p>' +
+            '<div class="flow-bar" id="drawer-flow" aria-label="Active stack flow">' + flowHTML(idea) + '</div></section>' +
+          '<section class="section"><h3>Swappable tech stack</h3><p class="hint">Every layer pulls from similar starred repos. Swap freely — your picks are saved automatically.</p>' +
+            idea.sl.map((_, k) => layerHTML(idea, k)).join('') + '</section>' +
+          '<section class="section"><h3>Business &amp; pricing model</h3><p>' + esc(idea.m) + '</p></section>' +
+        '</div>' +
+        '<div class="drawer-foot">' +
+          '<button class="btn btn-primary" type="button" data-action="toggle-combine" data-idea="' + idea.id + '" data-from="drawer">' + (inCombine ? '✓ In combine list' : '+ Add to combine') + '</button>' +
+          '<button class="btn" type="button" data-action="copy-md">Copy Markdown</button>' +
+          '<button class="btn" type="button" data-action="copy-link">Share link</button>' +
+          '<button class="btn btn-ghost" type="button" data-action="reset-stack">Reset</button>' +
+        '</div>';
+    }
+    function openDrawer(id) {
+      const idea = ideaById[id];
+      if (!idea) return;
+      const d = $('#drawer'), b = $('#backdrop');
+      if (state.openIdea !== id || d.hidden) {
+        if (d.hidden) lastFocus = document.activeElement;
+        state.openIdea = id;
+        renderDrawer(idea);
+        d.hidden = false; b.hidden = false;
+        document.body.style.overflow = 'hidden';
+        requestAnimationFrame(() => { d.classList.add('show'); b.classList.add('show'); $('[data-action="close-drawer"]', d).focus(); });
+      }
+    }
+    function hideDrawer() {
+      const d = $('#drawer'), b = $('#backdrop');
+      if (d.hidden) return;
+      state.openIdea = null;
+      d.classList.remove('show'); b.classList.remove('show');
+      document.body.style.overflow = '';
+      setTimeout(() => { if (!state.openIdea) { d.hidden = true; b.hidden = true; } }, 260);
+      if (lastFocus && document.contains(lastFocus)) lastFocus.focus();
+    }
+    function closeDrawer() {
+      if (location.hash.startsWith('#/idea/')) history.pushState(null, '', '#/ideas');
+      hideDrawer();
+    }
+    $('#drawer').addEventListener('input', (e) => {
+      const k = e.target.getAttribute('data-alt-filter');
+      if (k != null && state.openIdea) renderAlts(ideaById[state.openIdea], +k);
+    });
+
+    // =========================================================
+    // COMBINE VIEW
+    // =========================================================
+    $('#preset-bar').innerHTML = '<span class="preset-label">Starter combos:</span>' +
+      PRESETS.map((p, idx) => '<button class="preset-btn" type="button" data-action="load-preset" data-preset="' + idx + '" title="' + esc(p.desc) + '">' + esc(p.label) + '</button>').join('');
+
+    function toggleCombine(id) {
+      const i = state.combine.indexOf(id);
+      if (i >= 0) state.combine.splice(i, 1);
+      else {
+        if (state.combine.length >= MAX_COMBINE) { toast('You can combine up to ' + MAX_COMBINE + ' ideas'); return false; }
+        state.combine.push(id);
+      }
+      store.set('combine', state.combine);
+      updateBadge();
+      toast(i >= 0 ? 'Removed from combine list' : 'Added to combine (' + state.combine.length + '/' + MAX_COMBINE + ')');
+      return true;
+    }
+    function updateBadge() {
+      const b = $('#combine-badge');
+      b.textContent = state.combine.length;
+      b.hidden = !state.combine.length;
+      renderTray();
+    }
+    function combinedLayers() {
+      const ideas = state.combine.map((id) => ideaById[id]).filter(Boolean);
+      const layers = [], seen = {};
+      ideas.forEach((idea) => idea.sl.forEach((sid, k) => {
+        if (seen[sid]) { seen[sid].users.push(idea); return; }
+        const def = getPick(idea, k);
+        seen[sid] = { sid, users: [idea], def };
+        layers.push(seen[sid]);
+      }));
+      layers.forEach((L) => { L.pos = wrapPos(L.sid, Number.isInteger(state.cpicks[L.sid]) ? state.cpicks[L.sid] : L.def); });
+      layers.sort((a, b) => b.users.length - a.users.length);
+      return { ideas, layers };
+    }
+    function combineName(ideas) {
+      return ideas.map((i) => i.dm.split(/\s*[&,]\s*/)[0]).join(' × ') + ' Suite';
+    }
+    function combineShareLink() {
+      return location.origin + location.pathname + '#/combine/' + state.combine.join('.');
+    }
+    function renderPicker() {
+      const q = norm($('#combine-search').value.trim());
+      $('#picker-sub').textContent = state.combine.length + ' of ' + MAX_COMBINE + ' selected' + (state.combine.length < 2 ? ' · pick at least 2' : '');
+      const full = state.combine.length >= MAX_COMBINE;
+      $('#pick-list').innerHTML = I.filter((i) => !q || norm(i.t + ' ' + i.dm).includes(q)).map((i) => {
+        const on = state.combine.includes(i.id);
+        return '<li><label><input type="checkbox" data-action="pick" data-idea="' + i.id + '"' + (on ? ' checked' : '') + (full && !on ? ' disabled' : '') + '>' +
+          '<span><span class="pt">' + esc(i.t) + '</span><br><span class="pd">' + esc(i.dm) + '</span></span></label></li>';
+      }).join('') || '<li class="pd" style="padding:8px">No ideas match.</li>';
+    }
+    function renderBlueprint() {
+      const bp = $('#blueprint');
+      const { ideas, layers } = combinedLayers();
+      const pills = ideas.length ? '<div class="selected-pills">' + ideas.map((i) =>
+        '<span class="sel-pill">' + esc(i.t) + '<button type="button" data-action="unpick" data-idea="' + i.id + '" aria-label="Remove ' + esc(i.t) + '">✕</button></span>').join('') + '</div>' : '';
+      if (ideas.length < 2) {
+        bp.innerHTML = '<h3 class="panel-title"><span class="step-dot">2</span> Your combined product blueprint</h3>' + pills +
+          '<div class="empty" style="margin-top:18px"><strong>' + (ideas.length ? 'Pick 1 more idea on the left' : 'Choose 2–5 ideas or start with a preset') + '</strong>' +
+          'Combining merges separate ideas into a single unified product, automatically reusing shared infrastructure layers.' +
+          '<div class="preset-grid">' + PRESETS.map((p, idx) =>
+            '<button class="preset-card" type="button" data-action="load-preset" data-preset="' + idx + '"><b>' + esc(p.label) + ' →</b><span>' + esc(p.desc) + '</span></button>'
+          ).join('') + '</div></div>';
+        return;
+      }
+      const shared = layers.filter((L) => L.users.length > 1).length;
+      bp.innerHTML =
+        '<h3 class="panel-title"><span class="step-dot">2</span> Your combined product blueprint</h3>' + pills +
+        '<h2>' + esc(combineName(ideas)) + '</h2>' +
+        '<p style="color:var(--muted);margin:0">Merges <b>' + ideas.length + ' ideas</b> into a unified <b>' + layers.length + '-layer stack</b>' +
+          (shared ? ' — <b>' + shared + ' shared layer' + (shared > 1 ? 's' : '') + '</b> built once across modules' : '') + '.</p>' +
+        '<section class="section"><h3>Merged tech stack</h3><p class="hint">Shared layers appear first. Swap any repo below without altering your individual ideas.</p>' +
+          layers.map((L) => {
+            const n = slotLen(L.sid);
+            return '<div class="layer"><div class="layer-head"><div class="layer-title"><small>' +
+              (L.users.length > 1 ? '<span class="shared-tag">★ Shared by ' + L.users.length + ' modules (' + esc(L.users.map((u) => u.dm).join(' + ')) + ')</span>' : 'Module: ' + esc(L.users[0].t)) + '</small>' +
+              esc(S[L.sid].icon + ' ' + S[L.sid].name) + '</div><span class="count">' + (L.pos + 1) + ' of ' + n + '</span></div>' +
+              repoCard(repoAt(L.sid, L.pos)) +
+              (n > 1 ? '<div class="layer-controls"><button class="btn btn-sm" type="button" data-action="cswap" data-slot="' + L.sid + '" data-d="-1">← Prev</button>' +
+                '<button class="btn btn-sm btn-primary" type="button" data-action="cswap" data-slot="' + L.sid + '" data-d="1">Next repo →</button>' +
+                '<button class="btn btn-sm btn-ghost" type="button" data-action="cshuffle" data-slot="' + L.sid + '">Random</button></div>' : '') +
+              '</div>';
+          }).join('') + '</section>' +
+        '<section class="section"><h3>Phased build plan</h3><ol class="phases">' +
+          ideas.map((i, n) => '<li><b>Phase ' + (n + 1) + ' — ' + esc(i.t) + '</b><span>' + esc(i.a) + '</span></li>').join('') +
+          '<li><b>Phase ' + (ideas.length + 1) + ' — Unified Control Plane</b><span>Connect every module behind single sign-on, unified usage metering, and one workspace dashboard reusing the shared layers above.</span></li>' +
+        '</ol></section>' +
+        '<section class="section"><h3>Monetization &amp; packaging</h3><ul class="money">' +
+          ideas.map((i) => '<li><b>' + esc(i.dm) + ' tier:</b> ' + esc(i.m) + '</li>').join('') +
+          '<li><b>All-in-One Suite:</b> bundle all ' + ideas.length + ' modules at a higher-ARPU platform tier.</li>' +
+        '</ul></section>' +
+        '<div class="layer-controls" style="margin-top:4px">' +
+          '<button class="btn btn-primary" type="button" data-action="copy-combined">Copy blueprint as Markdown</button>' +
+          '<button class="btn" type="button" data-action="copy-combine-link">Copy share link</button>' +
+          '<button class="btn btn-ghost" type="button" data-action="surprise">🎲 Try random mix</button>' +
+        '</div>';
+    }
+    function combinedMarkdown() {
+      const { ideas, layers } = combinedLayers();
+      const out = ['# ' + combineName(ideas), '', 'Combines: ' + ideas.map((i) => i.t).join(' + '), '', '## Merged tech stack'];
+      layers.forEach((L) => {
+        const r = repoAt(L.sid, L.pos);
+        out.push('- **' + S[L.sid].name + '**' + (L.users.length > 1 ? ' *(shared across ' + L.users.length + ' modules)*' : '') + ': [' + r.n + '](' + ghUrl(r.n) + ')' + (r.d ? ' — ' + r.d : ''));
+      });
+      out.push('', '## Phased build plan');
+      ideas.forEach((i, n) => out.push((n + 1) + '. **' + i.t + '** — ' + i.a));
+      out.push((ideas.length + 1) + '. **Unified Control Plane** — single login, billing, and dashboard across modules.', '', '## Monetization');
+      ideas.forEach((i) => out.push('- **' + i.dm + ':** ' + i.m));
+      out.push('- **Suite bundle:** sell all modules together as an enterprise platform.', '', 'Link: ' + combineShareLink());
+      return out.join('\n');
+    }
+    function renderCombine() { renderPicker(); renderBlueprint(); }
+    $('#combine-search').addEventListener('input', renderPicker);
+
+    // =========================================================
+    // BROWSE VIEW
+    // =========================================================
+    (function initFilters() {
+      const catCount = {}, langCount = {};
+      R.forEach((r) => { catCount[r.c] = (catCount[r.c] || 0) + 1; if (r.l) langCount[r.l] = (langCount[r.l] || 0) + 1; });
+      $('#browse-cats').innerHTML = '<button class="chip" type="button" data-action="bcat" data-cat="" aria-pressed="true">All · ' + fmt(R.length) + '</button>' +
+        DATA.categories.filter((c) => catCount[c.id]).map((c) =>
+          '<button class="chip" type="button" data-action="bcat" data-cat="' + esc(c.id) + '" aria-pressed="false">' + esc(c.icon + ' ' + c.name) + ' · ' + catCount[c.id] + '</button>'
+        ).join('');
+      $('#f-slot').innerHTML = '<option value="">All ' + Object.keys(S).length + ' building blocks</option>' + Object.entries(S).sort((a, b) => a[1].name.localeCompare(b[1].name))
+        .map(([id, s]) => '<option value="' + esc(id) + '">' + esc(s.icon + ' ' + s.name) + ' (' + s.r.length + ')</option>').join('');
+      $('#f-lang').innerHTML = '<option value="">All languages</option>' + Object.entries(langCount).sort((a, b) => b[1] - a[1])
+        .map(([l, n]) => '<option value="' + esc(l) + '">' + esc(l) + ' (' + n + ')</option>').join('');
+    })();
+    function syncCatChips() {
+      $$('#browse-cats .chip').forEach((c) => c.setAttribute('aria-pressed', c.dataset.cat === state.browse.cat));
+    }
+    function browseResults() {
+      const f = state.browse, q = norm(f.q.trim());
+      const out = [];
+      R.forEach((r, i) => {
+        if (f.cat && r.c !== f.cat) return;
+        if (f.slot && r.s !== f.slot) return;
+        if (f.lang && r.l !== f.lang) return;
+        if (q && !norm(r.n + ' ' + r.d).includes(q)) return;
+        out.push(i);
+      });
+      if (q) out.sort((a, b) => (norm(R[b].n).includes(q) - norm(R[a].n).includes(q)));
+      return out;
+    }
+    function renderBrowse() {
+      const f = state.browse, q = norm(f.q.trim());
+      const res = browseResults();
+      const shown = res.slice(0, f.limit);
+      const active = f.q || f.cat || f.slot || f.lang;
+      $('#browse-meta').innerHTML = 'Showing <b>' + fmt(shown.length) + '</b> of <b>' + fmt(res.length) + '</b>' + (active ? ' matching' : '') + ' repositories' +
+        (active ? ' <button class="link-btn" type="button" data-action="reset-browse">Clear all filters</button>' : '');
+      $('#repo-list').innerHTML = shown.length ? shown.map((ri) => {
+        const r = R[ri], slot = S[r.s];
+        const [owner, name] = r.n.split('/');
+        const uses = (ideasBySlot[r.s] || []).slice(0, 3).map((id) =>
+          '<button class="use-btn" type="button" data-action="use-in-idea" data-idea="' + id + '" data-repo="' + ri + '" title="Swap into ' + esc(ideaById[id].t) + '">' + esc(ideaById[id].t) + ' →</button>').join('');
+        return '<li class="repo-row"><div><a class="repo-link" href="' + esc(ghUrl(r.n)) + '" target="_blank" rel="noopener">' +
+          highlight(owner + '/', q) + '<b>' + highlight(name || '', q) + '</b>' + ICON_EXT + '</a>' +
+          '<p>' + highlight(r.d || 'No description provided.', q) + '</p><div class="meta">' + repoMeta(r) +
+          (slot ? '<button class="slot-filter-btn" type="button" data-action="filter-slot" data-slot="' + esc(r.s) + '" title="Show all ' + slot.r.length + ' repos in this building block">' + esc(slot.icon + ' ' + slot.name) + ' (' + slot.r.length + ')</button>' : '') +
+          '</div></div>' +
+          (uses ? '<div class="repo-uses"><span class="uses-label">Swap into idea</span>' + uses + '</div>' : '') + '</li>';
+      }).join('') : '<li class="empty"><strong>No repositories match these filters</strong>Try clearing a filter or using a broader search term.</li>';
+      const more = $('#load-more');
+      more.hidden = shown.length >= res.length;
+      more.textContent = 'Show ' + Math.min(PAGE, res.length - shown.length) + ' more (' + fmt(res.length - shown.length) + ' remaining)';
+    }
+    let browseTimer;
+    $('#browse-search').addEventListener('input', (e) => {
+      clearTimeout(browseTimer);
+      browseTimer = setTimeout(() => { state.browse.q = e.target.value; state.browse.limit = PAGE; renderBrowse(); }, 120);
+    });
+    [['#f-slot', 'slot'], ['#f-lang', 'lang']].forEach(([sel, key]) =>
+      $(sel).addEventListener('change', (e) => { state.browse[key] = e.target.value; state.browse.limit = PAGE; renderBrowse(); }));
+
+    // =========================================================
+    // ROUTER
+    // =========================================================
+    const rendered = {};
+    function showView(v) {
+      currentView = v;
+      ['ideas', 'combine', 'browse'].forEach((name) => { $('#view-' + name).hidden = name !== v; });
+      $$('[data-nav]').forEach((a) => { if (a.dataset.nav === v) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+      if (v === 'ideas') renderIdeas();
+      if (v === 'combine') renderCombine();
+      if (v === 'browse' && !rendered.browse) { renderBrowse(); rendered.browse = true; }
+      renderTray();
+      const titles = { ideas: 'Product ideas', combine: 'Combine ideas', browse: 'Browse tools' };
+      document.title = titles[v] + ' — Awesome Remix';
+    }
+    function route() {
+      const parts = location.hash.replace(/^#\/?/, '').split('/');
+      if (parts[0] === 'idea' && ideaById[parts[1]]) {
+        const idea = ideaById[parts[1]];
+        if (parts[2]) {
+          const ps = parts[2].split('.').map(Number);
+          idea.sl.forEach((_, k) => { if (Number.isInteger(ps[k])) setPick(idea, k, ps[k]); });
+        }
+        if (currentView !== 'ideas') showView('ideas');
+        else renderIdeas();
+        openDrawer(idea.id);
+        return;
+      }
+      if (parts[0] === 'combine' && parts[1]) {
+        const ids = parts[1].split('.').filter((id) => ideaById[id]).slice(0, MAX_COMBINE);
+        if (ids.length) {
+          state.combine = ids; state.cpicks = {};
+          store.set('combine', state.combine); store.set('cpicks', {});
+          updateBadge();
+        }
+      }
+      const v = ['ideas', 'combine', 'browse'].includes(parts[0]) ? parts[0] : 'ideas';
+      const changed = currentView !== v;
+      hideDrawer();
+      if (changed) { showView(v); window.scrollTo(0, 0); }
+      else if (v === 'combine') renderCombine();
+    }
+    window.addEventListener('hashchange', route);
+
+    // =========================================================
+    // EVENTS (delegated)
+    // =========================================================
+    document.addEventListener('click', (e) => {
+      const el = e.target.closest('[data-action]');
+      if (!el) return;
+      const a = el.dataset.action;
+      const idea = el.dataset.idea ? ideaById[el.dataset.idea] : (state.openIdea ? ideaById[state.openIdea] : null);
+      switch (a) {
+        case 'open':
+          location.hash = '#/idea/' + el.dataset.idea; break;
+        case 'card-swap': {
+          e.stopPropagation();
+          if (!idea) break;
+          const k = +el.dataset.k, sid = idea.sl[k], next = getPick(idea, k) + 1;
+          setPick(idea, k, next);
+          const row = el.closest('li'), r = repoAt(sid, getPick(idea, k));
+          if (row) {
+            $('.layer-repo', row).textContent = r.n;
+            row.classList.remove('flashed'); void row.offsetWidth; row.classList.add('flashed');
+          }
+          toast('Swapped in ' + r.n + ' (' + (getPick(idea, k) + 1) + ' of ' + slotLen(sid) + ')');
+          break;
+        }
+        case 'close-drawer':
+          closeDrawer(); break;
+        case 'group':
+          state.group = el.dataset.group;
+          $$('#idea-groups .chip').forEach((c) => c.setAttribute('aria-pressed', c === el));
+          renderIdeas(); break;
+        case 'reset-ideas':
+          state.ideaQ = ''; state.group = 'all'; $('#idea-search').value = '';
+          $$('#idea-groups .chip').forEach((c) => c.setAttribute('aria-pressed', c.dataset.group === 'all'));
+          renderIdeas(); break;
+        case 'demo-search':
+          $('#idea-search').value = el.dataset.q; state.ideaQ = el.dataset.q; renderIdeas();
+          $('#idea-search').scrollIntoView({ block: 'start' }); break;
+        case 'hide-guide':
+          guide.hidden = true; store.set('guideHidden', true);
+          toast('Guide hidden — click “How it works” anytime to bring it back.'); break;
+        case 'toggle-combine': {
+          e.stopPropagation();
+          if (!toggleCombine(el.dataset.idea)) break;
+          if (el.dataset.from === 'drawer') el.textContent = state.combine.includes(el.dataset.idea) ? '✓ In combine list' : '+ Add to combine';
+          renderIdeas(); break;
+        }
+        case 'unpick-tray':
+          toggleCombine(el.dataset.idea); renderIdeas(); break;
+        case 'swap': case 'shuffle': case 'choose': {
+          if (!idea) break;
+          const k = +el.dataset.k, sid = idea.sl[k], cur = getPick(idea, k), n = slotLen(sid);
+          let p = cur;
+          if (a === 'swap') p = cur + Number(el.dataset.d);
+          else if (a === 'choose') p = +el.dataset.p;
+          else if (n > 1) { do { p = Math.floor(Math.random() * n); } while (p === cur); }
+          setPick(idea, k, p);
+          updateLayer(idea, k);
+          history.replaceState(null, '', '#/idea/' + idea.id);
+          renderIdeas(); break;
+        }
+        case 'toggle-alts': {
+          const layer = el.closest('.layer'), box = $('.alts', layer);
+          box.hidden = !box.hidden;
+          el.setAttribute('aria-expanded', String(!box.hidden));
+          el.textContent = box.hidden ? 'Search all ' + slotLen(idea.sl[+el.dataset.k]) : 'Hide list';
+          if (!box.hidden) { renderAlts(idea, +el.dataset.k); $('input', box).focus(); }
+          break;
+        }
+        case 'copy-md': if (idea) copyText(ideaMarkdown(idea), 'Idea copied as Markdown'); break;
+        case 'copy-link': if (idea) copyText(shareLink(idea), 'Share link copied (includes your swaps)'); break;
+        case 'reset-stack':
+          if (!idea) break;
+          delete state.picks[idea.id]; store.set('picks', state.picks);
+          idea.sl.forEach((_, k) => updateLayer(idea, k)); renderIdeas(); toast('Stack reset to defaults'); break;
+        case 'use-in-idea': {
+          e.stopPropagation();
+          const target = ideaById[el.dataset.idea], ri = +el.dataset.repo, k = target.sl.indexOf(R[ri].s);
+          if (k >= 0) setPick(target, k, posInSlot.get(ri));
+          if (state.openIdea === target.id) { updateLayer(target, k); renderIdeas(); }
+          else location.hash = '#/idea/' + target.id;
+          toast(R[ri].n + ' slotted into “' + target.t + '”'); break;
+        }
+        case 'unpick':
+          if (location.hash.startsWith('#/combine/')) history.replaceState(null, '', '#/combine');
+          toggleCombine(el.dataset.idea); renderCombine(); break;
+        case 'clear-combine':
+          if (location.hash.startsWith('#/combine/')) history.replaceState(null, '', '#/combine');
+          state.combine = []; state.cpicks = {}; store.set('combine', []); store.set('cpicks', {});
+          updateBadge();
+          if (currentView === 'combine') renderCombine(); else renderIdeas();
+          break;
+        case 'load-preset': {
+          const preset = PRESETS[+el.dataset.preset];
+          if (!preset) break;
+          state.combine = preset.ids.filter((id) => ideaById[id]);
+          state.cpicks = {};
+          store.set('combine', state.combine); store.set('cpicks', {});
+          updateBadge();
+          if (location.hash.startsWith('#/combine/')) history.replaceState(null, '', '#/combine');
+          if (currentView !== 'combine') location.hash = '#/combine'; else renderCombine();
+          toast('Loaded “' + preset.label + '” combo');
+          break;
+        }
+        case 'surprise': {
+          const pool = I.map((i) => i.id).sort(() => Math.random() - 0.5);
+          state.combine = pool.slice(0, 3); state.cpicks = {};
+          store.set('combine', state.combine); store.set('cpicks', {}); updateBadge();
+          if (location.hash.startsWith('#/combine/')) history.replaceState(null, '', '#/combine');
+          if (currentView !== 'combine') location.hash = '#/combine'; else renderCombine();
+          break;
+        }
+        case 'cswap': case 'cshuffle': {
+          const sid = el.dataset.slot, L = combinedLayers().layers.find((x) => x.sid === sid);
+          if (!L) break;
+          const n = slotLen(sid);
+          let p = L.pos + Number(el.dataset.d || 0);
+          if (a === 'cshuffle' && n > 1) { do { p = Math.floor(Math.random() * n); } while (p === L.pos); }
+          state.cpicks[sid] = wrapPos(sid, p); store.set('cpicks', state.cpicks);
+          const y = window.scrollY; renderBlueprint(); window.scrollTo(0, y); break;
+        }
+        case 'copy-combined': copyText(combinedMarkdown(), 'Combined blueprint copied as Markdown'); break;
+        case 'copy-combine-link': copyText(combineShareLink(), 'Combine share link copied'); break;
+        case 'bcat':
+          state.browse.cat = el.dataset.cat; state.browse.limit = PAGE; syncCatChips(); renderBrowse(); break;
+        case 'filter-slot':
+          state.browse.slot = el.dataset.slot; state.browse.limit = PAGE; $('#f-slot').value = el.dataset.slot;
+          renderBrowse(); window.scrollTo({ top: 0, behavior: 'smooth' }); break;
+        case 'load-more':
+          state.browse.limit += PAGE; renderBrowse(); break;
+        case 'reset-browse':
+          state.browse = { q: '', cat: '', slot: '', lang: '', limit: PAGE };
+          $('#browse-search').value = ''; $('#f-slot').value = ''; $('#f-lang').value = '';
+          syncCatChips(); renderBrowse(); break;
+      }
+    });
+    document.addEventListener('change', (e) => {
+      if (e.target.dataset.action === 'pick') {
+        if (!toggleCombine(e.target.dataset.idea)) e.target.checked = false;
+        renderCombine();
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && state.openIdea) { closeDrawer(); return; }
+      if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('.idea-card')) { e.preventDefault(); location.hash = '#/idea/' + e.target.dataset.idea; }
+      if (e.key === '/' && !e.target.matches('input, textarea, select')) {
+        const input = currentView === 'browse' ? $('#browse-search') : currentView === 'combine' ? $('#combine-search') : $('#idea-search');
+        e.preventDefault(); input.focus();
+      }
+      if (e.key === 'Tab' && state.openIdea) {
+        const f = $$('#drawer button, #drawer a, #drawer input').filter((x) => x.offsetParent !== null);
+        if (!f.length) return;
+        if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
+        else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
+      }
+    });
+
+    updateBadge();
+    route();
+  })();
+  </script>
+</body>
+</html>

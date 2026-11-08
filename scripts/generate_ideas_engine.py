@@ -358,7 +358,7 @@ PRODUCT_IDEAS = [
         "tagline": "Lightweight Vue/Svelte/HTMX reactive web apps with live multiplayer state synchronization",
         "primary_slot": "slot_vue_svelte",
         "slots": ["slot_vue_svelte", "slot_realtime_api", "slot_redis_kv"],
-        "architecture": "Uses fine-grained reactive UI frameworks paired with Server-Sent Events and WebSockets to sync cursors, forms, and dashboards across ratusan clients with minimal bundle size.",
+        "architecture": "Uses fine-grained reactive UI frameworks paired with Server-Sent Events and WebSockets to sync cursors, forms, and dashboards across hundreds of clients with minimal bundle size.",
         "monetization": "$12/seat/mo team collaboration SaaS."
     },
     {
@@ -620,9 +620,15 @@ def assign_repos_to_slots(repos):
             "description": r.get("description", ""),
             "language": r.get("language", "General"),
             "role": r.get("role", ""),
-            "category_id": r.get("category_id", "")
+            "category_id": r.get("category_id", ""),
+            "_score": best_score,
         })
         repo_to_slot[r["full_name"]] = matched_slot
+
+    for slot_id, bucket in slot_buckets.items():
+        bucket.sort(key=lambda x: (-x["_score"], 0 if (x.get("description") or "").strip() else 1, x["full_name"].lower()))
+        for item in bucket:
+            item.pop("_score", None)
 
     return slot_buckets, repo_to_slot
 
