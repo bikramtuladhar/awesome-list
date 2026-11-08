@@ -69,7 +69,7 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add README.md index.html data/repos.json languages.md topics.md scripts/
+        git add README.md IDEAS.md index.html data/repos.json data/ideas.json languages.md topics.md scripts/
         if ! git diff-index --quiet HEAD; then
           git commit -m "chore(catalog): update AI-classified product remix catalog & web UI"
           git push origin HEAD:master

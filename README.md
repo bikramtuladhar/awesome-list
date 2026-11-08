@@ -2,9 +2,11 @@
 
 > A curated, AI-classified collection of **1,700+ starred developer tools**, organized as architectural building blocks to remix, fork, and launch new products.
 
-**Live Interactive Catalog & Remix Studio:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨
+**Live Interactive Catalog, Idea Swapper & Combiner:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨
+**Full 40 Product Ideas & 1,729-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡
 
 ![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1729-blue.svg?style=flat-square) 
+![Product Ideas](https://img.shields.io/badge/Swappable_Product_Ideas-40_(100%25_Coverage)-emerald.svg?style=flat-square) 
 ![Auto Updated](https://img.shields.io/badge/AI_Classification-Google_Gemini-4285F4.svg?style=flat-square) 
 ![Last Updated](https://img.shields.io/badge/Updated-2026-11-08-success.svg?style=flat-square)
 
@@ -12,7 +14,7 @@
 
 ## 💡 Featured Product Remix Recipes
 
-How to combine tools from this list into actionable products:
+How to combine tools from this list into actionable products (see **[IDEAS.md](IDEAS.md)** for all 40 ideas covering 100% of repositories with swappable alternatives):
 
 ### 🚀 On-Premise Voice AI Receptionist & SIP Shield
 > **Zero-latency on-device voice booking with VoIP fraud filtering for clinics & local businesses**

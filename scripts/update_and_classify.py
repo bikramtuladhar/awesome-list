@@ -580,9 +580,11 @@ def build_readme(categorized_repos, total_count):
         "",
         "> A curated, AI-classified collection of **1,700+ starred developer tools**, organized as architectural building blocks to remix, fork, and launch new products.",
         "",
-        f"**Live Interactive Catalog & Remix Studio:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨",
+        f"**Live Interactive Catalog, Idea Swapper & Combiner:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨",
+        f"**Full 40 Product Ideas & 1,729-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡",
         "",
         f"![Total Tools](https://img.shields.io/badge/Cataloged_Tools-{total_count}-blue.svg?style=flat-square) ",
+        "![Product Ideas](https://img.shields.io/badge/Swappable_Product_Ideas-40_(100%25_Coverage)-emerald.svg?style=flat-square) ",
         "![Auto Updated](https://img.shields.io/badge/AI_Classification-Google_Gemini-4285F4.svg?style=flat-square) ",
         f"![Last Updated](https://img.shields.io/badge/Updated-{now}-success.svg?style=flat-square)",
         "",
@@ -590,7 +592,7 @@ def build_readme(categorized_repos, total_count):
         "",
         "## 💡 Featured Product Remix Recipes",
         "",
-        "How to combine tools from this list into actionable products:",
+        "How to combine tools from this list into actionable products (see **[IDEAS.md](IDEAS.md)** for all 40 ideas covering 100% of repositories with swappable alternatives):",
         ""
     ]
     
@@ -1226,11 +1228,18 @@ def main():
         f.write(readme_content)
     print(f"✅ Generated revamped {README_FILE}")
 
-    # 6. Generate index.html
-    html_content = build_index_html(json.dumps(db_payload), len(all_repos_list))
-    with open(INDEX_FILE, "w", encoding="utf-8") as f:
-        f.write(html_content)
-    print(f"✅ Generated interactive web catalog {INDEX_FILE}")
+    # 6. Generate 100%-coverage Ideas Matrix (data/ideas.json & IDEAS.md) and 3-Tab Web App (index.html)
+    try:
+        import generate_ideas_engine
+        import build_web_app
+        generate_ideas_engine.main()
+        build_web_app.main()
+    except Exception as e:
+        print(f"Fallback to single-tab index.html: {e}")
+        html_content = build_index_html(json.dumps(db_payload), len(all_repos_list))
+        with open(INDEX_FILE, "w", encoding="utf-8") as f:
+            f.write(html_content)
+        print(f"✅ Generated interactive web catalog {INDEX_FILE}")
 
     print("\n🎉 Total Revamp Complete!")
     for cat in CATEGORIES:
