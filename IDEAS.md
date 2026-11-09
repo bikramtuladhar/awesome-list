@@ -11,14 +11,14 @@
 
 | # | Product Idea | Domain | Primary Swappable Slot | Alternatives in Your Stars |
 | :--- | :--- | :--- | :--- | :---: |
-| 1 | **[On-Premise Voice AI Receptionist & SIP Shield](#idea-01)** | `AI & Voice Automation` | 🎙️ Voice, Speech-to-Text & Audio Engine | **21 repos** |
+| 1 | **[On-Premise Voice AI Receptionist & SIP Shield](#idea-01)** | `AI & Voice Automation` | 🎙️ Voice, Speech-to-Text & Audio Engine | **20 repos** |
 | 2 | **[Offline Cross-Platform AI Copilot & Edge Model Runner](#idea-02)** | `Local AI & Edge Compute` | 🧠 Local & Edge LLM Inference Engine | **8 repos** |
 | 3 | **[Universal MCP Server Hub & Enterprise Tool Bridge](#idea-03)** | `AI Agents & MCP` | 🔌 Model Context Protocol (MCP) & Agent Skills | **11 repos** |
 | 4 | **[Autonomous Multi-Agent B2B Research & Outreach Swarm](#idea-04)** | `Autonomous Agent Swarms` | 🤖 Multi-Agent Orchestrator & Autonomous Swarms | **85 repos** |
-| 5 | **[Automated PR Security Reviewer & Codebase Refactoring Bot](#idea-05)** | `AI DevTools` | 💻 AI Coding Copilot, PR Review & Code Gen | **9 repos** |
-| 6 | **[Autopilot Video Studio & Visual Defect Inspector](#idea-06)** | `Computer Vision & Media` | 👁️ Computer Vision, Image & Video AI | **28 repos** |
-| 7 | **[Reverse Cloudflare for LLMs (AI Gateway & Semantic Cache)](#idea-07)** | `AI Infrastructure` | ⚡ AI Gateway, LLM Proxy & Token Router | **64 repos** |
-| 8 | **[No-Code Domain LLM Fine-Tuning & Evaluation Workbench](#idea-08)** | `ML & Fine-Tuning` | 🔬 Deep Learning, Fine-Tuning & ML Framework | **87 repos** |
+| 5 | **[Automated PR Security Reviewer & Codebase Refactoring Bot](#idea-05)** | `AI DevTools` | 💻 AI Coding Copilot, PR Review & Code Gen | **10 repos** |
+| 6 | **[Autopilot Video Studio & Visual Defect Inspector](#idea-06)** | `Computer Vision & Media` | 👁️ Computer Vision, Image & Video AI | **27 repos** |
+| 7 | **[Reverse Cloudflare for LLMs (AI Gateway & Semantic Cache)](#idea-07)** | `AI Infrastructure` | ⚡ AI Gateway, LLM Proxy & Token Router | **65 repos** |
+| 8 | **[No-Code Domain LLM Fine-Tuning & Evaluation Workbench](#idea-08)** | `ML & Fine-Tuning` | 🔬 Deep Learning, Fine-Tuning & ML Framework | **88 repos** |
 | 9 | **[Real-Time Competitor Price & Product Change Radar](#idea-09)** | `Web Data Extraction` | 🕷️ Web Scraper, Headless Browser & Crawler | **4 repos** |
 | 10 | **[Air-Gapped Enterprise Hybrid RAG & Knowledge Appliance](#idea-10)** | `Enterprise Search & RAG` | 🔍 Vector Database & Hybrid RAG Search | **19 repos** |
 | 11 | **[Encrypted Digital Contract Room & Graph Knowledge Vault](#idea-11)** | `Document Automation & PKM` | 📄 PDF, Document Processing & Knowledge Graphs | **28 repos** |
@@ -36,10 +36,10 @@
 | 23 | **[Sub-Millisecond Reactive Cache & Live Query Subscription Engine](#idea-23)** | `High-Speed Caching` | 🚀 In-Memory Cache, Redis/Valkey & KV Engines | **3 repos** |
 | 24 | **[High-Throughput gRPC / REST API Gateway & SSE Push Hub](#idea-24)** | `APIs & Realtime Messaging` | 📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways | **53 repos** |
 | 25 | **[Fault-Tolerant Distributed Job Queue & Webhook Orchestrator](#idea-25)** | `Workflow Automation` | 🔄 Workflow Orchestration, Job Queues & Pipelines | **16 repos** |
-| 26 | **[Autonomous Kubernetes AIOps Copilot & GitOps Controller](#idea-26)** | `Cloud Native & Kubernetes` | ☸️ Kubernetes, GitOps, Service Mesh & Cloud Native | **135 repos** |
+| 26 | **[Autonomous Kubernetes AIOps Copilot & GitOps Controller](#idea-26)** | `Cloud Native & Kubernetes` | ☸️ Kubernetes, GitOps, Service Mesh & Cloud Native | **136 repos** |
 | 27 | **[Turn-Key Proxmox & Multi-Cloud Terraform PaaS](#idea-27)** | `Infrastructure as Code` | 🏗️ Terraform, Proxmox, IaC & Server Provisioning | **44 repos** |
-| 28 | **[Self-Healing Container Patcher & Unikernel Sandbox Cloud](#idea-28)** | `Containers & Sandboxes` | 📦 Docker, Unikernels, MicroVMs & Container Runtimes | **65 repos** |
-| 29 | **[Zero-Instrumentation eBPF Observability & Privacy Analytics Suite](#idea-29)** | `Observability & Telemetry` | 📈 Observability, eBPF Telemetry, Logs & Analytics | **23 repos** |
+| 28 | **[Self-Healing Container Patcher & Unikernel Sandbox Cloud](#idea-28)** | `Containers & Sandboxes` | 📦 Docker, Unikernels, MicroVMs & Container Runtimes | **66 repos** |
+| 29 | **[Zero-Instrumentation eBPF Observability & Privacy Analytics Suite](#idea-29)** | `Observability & Telemetry` | 📈 Observability, eBPF Telemetry, Logs & Analytics | **22 repos** |
 | 30 | **[Continuous API Pentesting, Bot Firewall & SOC2 Audit Appliance](#idea-30)** | `Cybersecurity & Compliance` | 🛡️ Cybersecurity, Pentesting, Bot Defense & Auditing | **47 repos** |
 | 31 | **[Collaborative Browser Terminal Workbench & TUI Command Center](#idea-31)** | `Terminal & CLI Power Tools` | ⌨️ Modern Terminals, Web Shells & TUI Dashboards | **70 repos** |
 | 32 | **[Apple Silicon / Linux Hardware Telemetry & Embedded AI Lab](#idea-32)** | `Systems, OS & Embedded` | 🍎 macOS, Linux Kernel, System Utilities & Hardware | **42 repos** |
@@ -50,7 +50,7 @@
 | 37 | **[Blazing-Fast Rust & Zig WebAssembly Compute Engine](#idea-37)** | `Rust, Zig & Systems` | 🦀 Zero-Cost Rust, Zig & C/C++ Systems Building Blocks | **34 repos** |
 | 38 | **[Automated Python Data Engineering & Financial Quant Pipeline](#idea-38)** | `Python & Data Science` | 🐍 Python Data Science, Automation & Scripting Libraries | **51 repos** |
 | 39 | **[Universal TypeScript SDK Generator & Edge Runtime Toolkit](#idea-39)** | `TypeScript & Node.js Ecosystem` | 🟨 TypeScript / Node.js Runtime Utilities & SDKs | **90 repos** |
-| 40 | **[Interactive Engineering Playbook, System Design & Onboarding Portal](#idea-40)** | `Architecture & Developer Education` | 📚 Architecture Playbooks, Engineering Guides & Reference Stacks | **72 repos** |
+| 40 | **[Interactive Engineering Playbook, System Design & Onboarding Portal](#idea-40)** | `Architecture & Developer Education` | 📚 Architecture Playbooks, Engineering Guides & Reference Stacks | **70 repos** |
 
 ---
 
@@ -64,12 +64,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🎙️ Voice, Speech-to-Text & Audio Engine (21 options):** [`dograh-hq/dograh`](https://github.com/dograh-hq/dograh), [`moonshine-ai/moonshine`](https://github.com/moonshine-ai/moonshine), [`ampache/ampache`](https://github.com/ampache/ampache), [`fishaudio/fish-speech`](https://github.com/fishaudio/fish-speech), [`hardeepmehta/webrtc-rooms`](https://github.com/hardeepmehta/webrtc-rooms) *(+16 more swappable options below)*
+- **🎙️ Voice, Speech-to-Text & Audio Engine (20 options):** [`dograh-hq/dograh`](https://github.com/dograh-hq/dograh), [`moonshine-ai/moonshine`](https://github.com/moonshine-ai/moonshine), [`ampache/ampache`](https://github.com/ampache/ampache), [`fishaudio/fish-speech`](https://github.com/fishaudio/fish-speech), [`hardeepmehta/webrtc-rooms`](https://github.com/hardeepmehta/webrtc-rooms) *(+15 more swappable options below)*
 - **🛡️ Cybersecurity, Pentesting, Bot Defense & Auditing (47 options):** [`cerberauth/vulnapi`](https://github.com/cerberauth/vulnapi), [`SentryPeer/SentryPeer`](https://github.com/SentryPeer/SentryPeer), [`cybrota/whispr`](https://github.com/cybrota/whispr), [`rfc-st/humble`](https://github.com/rfc-st/humble), [`aquasecurity/trivy`](https://github.com/aquasecurity/trivy) *(+42 more swappable options below)*
 - **💼 Laravel Business App, Invoicing & CRM (5 options):** [`Hasnayeen/invobook`](https://github.com/Hasnayeen/invobook), [`aBillander/aBillander`](https://github.com/aBillander/aBillander), [`crater-invoice-inc/crater`](https://github.com/crater-invoice-inc/crater), [`faveosuite/faveo-invoicing-community`](https://github.com/faveosuite/faveo-invoicing-community), [`sudarakas/realproperty`](https://github.com/sudarakas/realproperty)
 
 <details>
-<summary><b>📦 View all 21 Swappable Repositories for 🎙️ Voice, Speech-to-Text & Audio Engine</b></summary>
+<summary><b>📦 View all 20 Swappable Repositories for 🎙️ Voice, Speech-to-Text & Audio Engine</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -83,7 +83,6 @@
 | **[navidrome/navidrome](https://github.com/navidrome/navidrome)** | `Go` | 🎧 Your Personal Streaming Service |
 | **[openai/whisper](https://github.com/openai/whisper)** | `Python` | Robust Speech Recognition via Large-Scale Weak Supervision |
 | **[WhisperSpeech/WhisperSpeech](https://github.com/WhisperSpeech/WhisperSpeech)** | `Jupyter Notebook` | An Open Source text-to-speech system built by inverting Whisper. |
-| **[cactus-compute/cactus](https://github.com/cactus-compute/cactus)** | `Python` | Sub-50mb agentic, voice and vision intelligence for consumer devices. |
 | **[facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft)** | `Jupyter Notebook` | Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable mu |
 | **[feizc/FluxMusic](https://github.com/feizc/FluxMusic)** | `Python` | Text-to-Music Generation with Rectified Flow Transformers |
 | **[ggerganov/wave-share](https://github.com/ggerganov/wave-share)** | `C++` | Serverless, peer-to-peer, local file sharing through sound |
@@ -141,7 +140,7 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🔌 Model Context Protocol (MCP) & Agent Skills (11 options):** [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review), [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop), [`mastra-ai/mastra`](https://github.com/mastra-ai/mastra), [`microsoft/playwright-mcp`](https://github.com/microsoft/playwright-mcp), [`mindsdb/mindshub`](https://github.com/mindsdb/mindshub) *(+6 more swappable options below)*
+- **🔌 Model Context Protocol (MCP) & Agent Skills (11 options):** [`reactive-resume/reactive-resume`](https://github.com/reactive-resume/reactive-resume), [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review), [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop), [`mastra-ai/mastra`](https://github.com/mastra-ai/mastra), [`microsoft/playwright-mcp`](https://github.com/microsoft/playwright-mcp) *(+6 more swappable options below)*
 - **🔐 Authentication, Passkeys, OIDC & Multi-Tenancy (5 options):** [`pocket-id/pocket-id`](https://github.com/pocket-id/pocket-id), [`supertokens/supertokens-core`](https://github.com/supertokens/supertokens-core), [`teamhanko/hanko`](https://github.com/teamhanko/hanko), [`kamax-matrix/mxisd`](https://github.com/kamax-matrix/mxisd), [`losfair/blueboat`](https://github.com/losfair/blueboat)
 - **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
 
@@ -150,6 +149,7 @@
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
+| **[reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume)** | `TypeScript` | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! |
 | **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** | `Go` | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, |
 | **[bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)** | `TypeScript` | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | **[mastra-ai/mastra](https://github.com/mastra-ai/mastra)** | `TypeScript` | Mastra is the modern TypeScript framework for AI-powered applications and agents. |
@@ -157,7 +157,6 @@
 | **[mindsdb/mindshub](https://github.com/mindsdb/mindshub)** | `Makefile` | The unified workspace where open-source models get things done for you. |
 | **[openberth/openberth](https://github.com/openberth/openberth)** | `Go` | Self-hosted deployment platform. Give it code, get a live HTTPS URL. Supports Node.js, Python, Go, and static sites. Every    deployment runs sandboxed in gVisor. Three static Go binaries, zero runtim |
 | **[openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus)** | `TypeScript` | Open-source status page, incident response and uptime monitoring |
-| **[reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume)** | `TypeScript` | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! |
 | **[cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)** | `TypeScript` | Product specific Cloudflare MCP servers |
 | **[taybenlor/runno](https://github.com/taybenlor/runno)** | `TypeScript` | Sandboxed runtime for programming languages and WASI binaries. Works in the browser, on your server, or via MCP. |
 | **[stuzero/pg-mcp-server](https://github.com/stuzero/pg-mcp-server)** | `Python` | Open-source building block |
@@ -195,6 +194,7 @@
 | **[darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent)** | `JavaScript` | 🎬 Open-source, self-hosted AI agent that runs a YouTube channel end to end: researches topics, writes scripts, generates narration, visuals and video, optimizes SEO, and publishes after your approval, |
 | **[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** | `JavaScript` | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | **[GaiaNet-AI/gaianet-node](https://github.com/GaiaNet-AI/gaianet-node)** | `Shell` | Install, run and deploy your own decentralized AI agent service |
+| **[google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model)** | `Python` | Open-source plugin for designing and reviewing software with agents |
 | **[Ibrahim-3d/orchestrator-supaconductor](https://github.com/Ibrahim-3d/orchestrator-supaconductor)** | `Python` | Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills |
 | **[Infisical/infisical](https://github.com/Infisical/infisical)** | `TypeScript` | Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents. |
 | **[johnbean393/Sidekick](https://github.com/johnbean393/Sidekick)** | `Swift` | A native macOS app that allows users to chat with a local LLM that can respond with information from files, folders and websites on your Mac without installing any other software. Powered by llama.cpp |
@@ -248,7 +248,6 @@
 | **[dream-num/univer](https://github.com/dream-num/univer)** | `TypeScript` | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. |
 | **[GooeyAI/goosio](https://github.com/GooeyAI/goosio)** | `Python` | The open-source, drop-in replacement for Composio. A unified API that connects AI agents to hundreds of SaaS tools. |
 | **[google/ax](https://github.com/google/ax)** | `Go` | Agent Executor (AX) is Google's open agentic orchestration runtime |
-| **[google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model)** | `Python` | Open-source plugin for designing and reviewing software with agents |
 | **[hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet)** | `Go` | 🪓 An orchestration engine for background tasks, AI agents, and durable workflows |
 | **[jdagdelen/hyperDB](https://github.com/jdagdelen/hyperDB)** | `Python` | A hyper-fast local vector database for use with LLM Agents. Now accepting SAFEs at $135M cap. |
 | **[matomo-org/device-detector](https://github.com/matomo-org/device-detector)** | `PHP` | The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model. |
@@ -285,16 +284,17 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **💻 AI Coding Copilot, PR Review & Code Gen (9 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness), [`yizhiyanhua-ai/fireworks-tech-graph`](https://github.com/yizhiyanhua-ai/fireworks-tech-graph), [`anthropics/claude-quickstarts`](https://github.com/anthropics/claude-quickstarts) *(+4 more swappable options below)*
+- **💻 AI Coding Copilot, PR Review & Code Gen (10 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`ruvnet/RuView`](https://github.com/ruvnet/RuView), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness), [`yizhiyanhua-ai/fireworks-tech-graph`](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) *(+5 more swappable options below)*
 - **🛠️ Git Workflows, Compilers, Linters & Dev Productivity (37 options):** [`lindell/multi-gitter`](https://github.com/lindell/multi-gitter), [`usebruno/bruno`](https://github.com/usebruno/bruno), [`artzub/GitHubVisualizer`](https://github.com/artzub/GitHubVisualizer), [`garden-io/garden`](https://github.com/garden-io/garden), [`px0-ai/px0`](https://github.com/px0-ai/px0) *(+32 more swappable options below)*
-- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (65 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+60 more swappable options below)*
+- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (66 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+61 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 9 Swappable Repositories for 💻 AI Coding Copilot, PR Review & Code Gen</b></summary>
+<summary><b>📦 View all 10 Swappable Repositories for 💻 AI Coding Copilot, PR Review & Code Gen</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
 | **[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)** | `Python` | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
+| **[ruvnet/RuView](https://github.com/ruvnet/RuView)** | `Rust` | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. |
 | **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** | `Rust` | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
 | **[tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness)** | `Python` | Building the self-learning layer next-gen agents will ship with, learning skills from real work. |
 | **[yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph)** | `Python` | Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns. |
@@ -318,12 +318,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **👁️ Computer Vision, Image & Video AI (28 options):** [`dailenson/One-DM`](https://github.com/dailenson/One-DM), [`protonemedia/laravel-ffmpeg`](https://github.com/protonemedia/laravel-ffmpeg), [`bloc97/Anime4K`](https://github.com/bloc97/Anime4K), [`gyroflow/gyroflow`](https://github.com/gyroflow/gyroflow), [`IgorShadurin/app.yumcut.com`](https://github.com/IgorShadurin/app.yumcut.com) *(+23 more swappable options below)*
-- **🎙️ Voice, Speech-to-Text & Audio Engine (21 options):** [`dograh-hq/dograh`](https://github.com/dograh-hq/dograh), [`moonshine-ai/moonshine`](https://github.com/moonshine-ai/moonshine), [`ampache/ampache`](https://github.com/ampache/ampache), [`fishaudio/fish-speech`](https://github.com/fishaudio/fish-speech), [`hardeepmehta/webrtc-rooms`](https://github.com/hardeepmehta/webrtc-rooms) *(+16 more swappable options below)*
+- **👁️ Computer Vision, Image & Video AI (27 options):** [`dailenson/One-DM`](https://github.com/dailenson/One-DM), [`protonemedia/laravel-ffmpeg`](https://github.com/protonemedia/laravel-ffmpeg), [`bloc97/Anime4K`](https://github.com/bloc97/Anime4K), [`gyroflow/gyroflow`](https://github.com/gyroflow/gyroflow), [`IgorShadurin/app.yumcut.com`](https://github.com/IgorShadurin/app.yumcut.com) *(+22 more swappable options below)*
+- **🎙️ Voice, Speech-to-Text & Audio Engine (20 options):** [`dograh-hq/dograh`](https://github.com/dograh-hq/dograh), [`moonshine-ai/moonshine`](https://github.com/moonshine-ai/moonshine), [`ampache/ampache`](https://github.com/ampache/ampache), [`fishaudio/fish-speech`](https://github.com/fishaudio/fish-speech), [`hardeepmehta/webrtc-rooms`](https://github.com/hardeepmehta/webrtc-rooms) *(+15 more swappable options below)*
 - **🐍 Python Data Science, Automation & Scripting Libraries (51 options):** [`adithya-s-k/omniparse`](https://github.com/adithya-s-k/omniparse), [`alvin-r/databonsai`](https://github.com/alvin-r/databonsai), [`ameygat/githuballrepo`](https://github.com/ameygat/githuballrepo), [`ashiquem/message-classifier`](https://github.com/ashiquem/message-classifier), [`AuvaLab/itext2kg`](https://github.com/AuvaLab/itext2kg) *(+46 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 28 Swappable Repositories for 👁️ Computer Vision, Image & Video AI</b></summary>
+<summary><b>📦 View all 27 Swappable Repositories for 👁️ Computer Vision, Image & Video AI</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -352,7 +352,6 @@
 | **[getomni-ai/zerox](https://github.com/getomni-ai/zerox)** | `TypeScript` | OCR & Document Extraction using vision models |
 | **[JianghaiSCU/LightenDiffusion](https://github.com/JianghaiSCU/LightenDiffusion)** | `Python` | Official pytorch implementation for "LightenDiffusion: Unsupervised Low-Light Image Enhancement with Latent-Retinex Diffusion Models" |
 | **[Pixtella/Anagram-MTL](https://github.com/Pixtella/Anagram-MTL)** | `Python` | [WACV 2025] Official implementation for the paper "Diffusion-based Visual Anagram as Multi-task Learning" |
-| **[ruvnet/RuView](https://github.com/ruvnet/RuView)** | `Rust` | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. |
 | **[Stability-AI/stable-virtual-camera](https://github.com/Stability-AI/stable-virtual-camera)** | `Python` | Stable Virtual Camera: Generative View Synthesis with Diffusion Models |
 | **[Ucas-HaoranWei/GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0)** | `Python` | Official code implementation of General OCR Theory:  Towards OCR-2.0 via a Unified End-to-end Model |
 
@@ -370,12 +369,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **⚡ AI Gateway, LLM Proxy & Token Router (64 options):** [`ENTERPILOT/GoModel`](https://github.com/ENTERPILOT/GoModel), [`nlkitai/nlux`](https://github.com/nlkitai/nlux), [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands), [`unslothai/unsloth`](https://github.com/unslothai/unsloth), [`yamadashy/repomix`](https://github.com/yamadashy/repomix) *(+59 more swappable options below)*
+- **⚡ AI Gateway, LLM Proxy & Token Router (65 options):** [`ENTERPILOT/GoModel`](https://github.com/ENTERPILOT/GoModel), [`nlkitai/nlux`](https://github.com/nlkitai/nlux), [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands), [`unslothai/unsloth`](https://github.com/unslothai/unsloth), [`yamadashy/repomix`](https://github.com/yamadashy/repomix) *(+60 more swappable options below)*
 - **🚀 In-Memory Cache, Redis/Valkey & KV Engines (3 options):** [`dragonflydb/dragonfly`](https://github.com/dragonflydb/dragonfly), [`RedisLabs/redisraft`](https://github.com/RedisLabs/redisraft), [`paypal/junodb`](https://github.com/paypal/junodb)
 - **🛡️ Cybersecurity, Pentesting, Bot Defense & Auditing (47 options):** [`cerberauth/vulnapi`](https://github.com/cerberauth/vulnapi), [`SentryPeer/SentryPeer`](https://github.com/SentryPeer/SentryPeer), [`cybrota/whispr`](https://github.com/cybrota/whispr), [`rfc-st/humble`](https://github.com/rfc-st/humble), [`aquasecurity/trivy`](https://github.com/aquasecurity/trivy) *(+42 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 64 Swappable Repositories for ⚡ AI Gateway, LLM Proxy & Token Router</b></summary>
+<summary><b>📦 View all 65 Swappable Repositories for ⚡ AI Gateway, LLM Proxy & Token Router</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -405,6 +404,7 @@
 | **[vllm-project/vllm](https://github.com/vllm-project/vllm)** | `Python` | A high-throughput and memory-efficient inference and serving engine for LLMs |
 | **[eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT)** | `Python` | open-source agentic AI data assistant for the next generation of AI + Data products. |
 | **[bomfather/minefield](https://github.com/bomfather/minefield)** | `Go` | Graphing SBOM's Fast. |
+| **[cactus-compute/cactus](https://github.com/cactus-compute/cactus)** | `Python` | Sub-50mb agentic, voice and vision intelligence for consumer devices. |
 | **[elie222/inbox-zero](https://github.com/elie222/inbox-zero)** | `TypeScript` | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. |
 | **[eugeneyan/open-llms](https://github.com/eugeneyan/open-llms)** | `Others` | 📋 A list of open LLMs available for commercial use. |
 | **[evolution-foundation/evolution-api](https://github.com/evolution-foundation/evolution-api)** | `TypeScript` | Evolution API is an open-source WhatsApp integration API |
@@ -458,12 +458,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🔬 Deep Learning, Fine-Tuning & ML Framework (87 options):** [`tracel-ai/burn`](https://github.com/tracel-ai/burn), [`AMAI-GmbH/AI-Expert-Roadmap`](https://github.com/AMAI-GmbH/AI-Expert-Roadmap), [`tensorflow/tensorflow`](https://github.com/tensorflow/tensorflow), [`AI4Finance-Foundation/FinGPT`](https://github.com/AI4Finance-Foundation/FinGPT), [`bigscience-workshop/petals`](https://github.com/bigscience-workshop/petals) *(+82 more swappable options below)*
+- **🔬 Deep Learning, Fine-Tuning & ML Framework (88 options):** [`tracel-ai/burn`](https://github.com/tracel-ai/burn), [`AMAI-GmbH/AI-Expert-Roadmap`](https://github.com/AMAI-GmbH/AI-Expert-Roadmap), [`tensorflow/tensorflow`](https://github.com/tensorflow/tensorflow), [`AI4Finance-Foundation/FinGPT`](https://github.com/AI4Finance-Foundation/FinGPT), [`bigscience-workshop/petals`](https://github.com/bigscience-workshop/petals) *(+83 more swappable options below)*
 - **🐍 Python Data Science, Automation & Scripting Libraries (51 options):** [`adithya-s-k/omniparse`](https://github.com/adithya-s-k/omniparse), [`alvin-r/databonsai`](https://github.com/alvin-r/databonsai), [`ameygat/githuballrepo`](https://github.com/ameygat/githuballrepo), [`ashiquem/message-classifier`](https://github.com/ashiquem/message-classifier), [`AuvaLab/itext2kg`](https://github.com/AuvaLab/itext2kg) *(+46 more swappable options below)*
 - **📊 Interactive Canvas, 3D WebGL & Data Visualization (12 options):** [`BabylonJS/Babylon.js`](https://github.com/BabylonJS/Babylon.js), [`mckinsey/vizro`](https://github.com/mckinsey/vizro), [`NoiseByNorthwest/php-spx`](https://github.com/NoiseByNorthwest/php-spx), [`nomic-ai/deepscatter`](https://github.com/nomic-ai/deepscatter), [`reorx/httpstat`](https://github.com/reorx/httpstat) *(+7 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 87 Swappable Repositories for 🔬 Deep Learning, Fine-Tuning & ML Framework</b></summary>
+<summary><b>📦 View all 88 Swappable Repositories for 🔬 Deep Learning, Fine-Tuning & ML Framework</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -495,6 +495,7 @@
 | **[spiceai/spiceai](https://github.com/spiceai/spiceai)** | `Rust` | Add a real-time analytics node to your operational database. Spice is a portable, accelerated SQL query, search, and LLM-inference engine in Rust for data-grounded AI apps and agents. |
 | **[ant-design/x](https://github.com/ant-design/x)** | `TypeScript` | Craft AI-driven interface effortlessly🤖 |
 | **[aydinnyunus/ai-captcha-bypass](https://github.com/aydinnyunus/ai-captcha-bypass)** | `Python` | AI Captcha Bypass |
+| **[binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)** | `Others` | The Patterns of Scalable, Reliable, and Performant Large-Scale Systems |
 | **[bumble-tech/private-detector](https://github.com/bumble-tech/private-detector)** | `Python` | Bumble's Private Detector - a pretrained model for detecting lewd images |
 | **[DocumindHQ/documind](https://github.com/DocumindHQ/documind)** | `JavaScript` | Open-source platform for extracting structured data from documents using AI. |
 | **[DonDebonair/slack-machine](https://github.com/DonDebonair/slack-machine)** | `Python` | A simple, yet powerful and extendable Slack bot |
@@ -983,7 +984,7 @@
 
 - **🎨 Tailwind CSS, Component Kits & Design Systems (40 options):** [`markmead/hyperui`](https://github.com/markmead/hyperui), [`sailboatui/sailboatui`](https://github.com/sailboatui/sailboatui), [`sergejcodes/flowrift`](https://github.com/sergejcodes/flowrift), [`heroui-inc/tailwind-variants`](https://github.com/heroui-inc/tailwind-variants), [`bernaferrari/FigmaToCode`](https://github.com/bernaferrari/FigmaToCode) *(+35 more swappable options below)*
 - **⚛️ React, Next.js & Modern Frontend Stacks (68 options):** [`boxyhq/saas-starter-kit`](https://github.com/boxyhq/saas-starter-kit), [`shuding/nextra`](https://github.com/shuding/nextra), [`vercel/commerce`](https://github.com/vercel/commerce), [`vercel/next-forge`](https://github.com/vercel/next-forge), [`Asabeneh/30-Days-Of-JavaScript`](https://github.com/Asabeneh/30-Days-Of-JavaScript) *(+63 more swappable options below)*
-- **💻 AI Coding Copilot, PR Review & Code Gen (9 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness), [`yizhiyanhua-ai/fireworks-tech-graph`](https://github.com/yizhiyanhua-ai/fireworks-tech-graph), [`anthropics/claude-quickstarts`](https://github.com/anthropics/claude-quickstarts) *(+4 more swappable options below)*
+- **💻 AI Coding Copilot, PR Review & Code Gen (10 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`ruvnet/RuView`](https://github.com/ruvnet/RuView), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness), [`yizhiyanhua-ai/fireworks-tech-graph`](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) *(+5 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 40 Swappable Repositories for 🎨 Tailwind CSS, Component Kits & Design Systems</b></summary>
@@ -1241,7 +1242,7 @@
 
 - **📱 Mobile, iOS, Android & Cross-Platform Apps (39 options):** [`noqa-ai/noqa`](https://github.com/noqa-ai/noqa), [`appwrite/appwrite`](https://github.com/appwrite/appwrite), [`StacDev/stac`](https://github.com/StacDev/stac), [`laurent22/joplin`](https://github.com/laurent22/joplin), [`unicodeveloper/awesome-opensource-apps`](https://github.com/unicodeveloper/awesome-opensource-apps) *(+34 more swappable options below)*
 - **🗄️ SQLite Engines, Embedded DBs & Local Storage (11 options):** [`buffdb/buffdb`](https://github.com/buffdb/buffdb), [`pawelsalawa/letos`](https://github.com/pawelsalawa/letos), [`pubkey/rxdb`](https://github.com/pubkey/rxdb), [`glommer/pgmicro`](https://github.com/glommer/pgmicro), [`thevahidal/soul`](https://github.com/thevahidal/soul) *(+6 more swappable options below)*
-- **👁️ Computer Vision, Image & Video AI (28 options):** [`dailenson/One-DM`](https://github.com/dailenson/One-DM), [`protonemedia/laravel-ffmpeg`](https://github.com/protonemedia/laravel-ffmpeg), [`bloc97/Anime4K`](https://github.com/bloc97/Anime4K), [`gyroflow/gyroflow`](https://github.com/gyroflow/gyroflow), [`IgorShadurin/app.yumcut.com`](https://github.com/IgorShadurin/app.yumcut.com) *(+23 more swappable options below)*
+- **👁️ Computer Vision, Image & Video AI (27 options):** [`dailenson/One-DM`](https://github.com/dailenson/One-DM), [`protonemedia/laravel-ffmpeg`](https://github.com/protonemedia/laravel-ffmpeg), [`bloc97/Anime4K`](https://github.com/bloc97/Anime4K), [`gyroflow/gyroflow`](https://github.com/gyroflow/gyroflow), [`IgorShadurin/app.yumcut.com`](https://github.com/IgorShadurin/app.yumcut.com) *(+22 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 39 Swappable Repositories for 📱 Mobile, iOS, Android & Cross-Platform Apps</b></summary>
@@ -1303,7 +1304,7 @@
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
 - **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
-- **📈 Observability, eBPF Telemetry, Logs & Analytics (23 options):** [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos), [`whylabs/whylogs`](https://github.com/whylabs/whylogs) *(+18 more swappable options below)*
+- **📈 Observability, eBPF Telemetry, Logs & Analytics (22 options):** [`ClickHouse/ClickStack`](https://github.com/ClickHouse/ClickStack), [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos) *(+17 more swappable options below)*
 - **🏗️ Terraform, Proxmox, IaC & Server Provisioning (44 options):** [`bregman-arie/devops-exercises`](https://github.com/bregman-arie/devops-exercises), [`khuedoan/homelab`](https://github.com/khuedoan/homelab), [`marco-lancini/offensive-infrastructure`](https://github.com/marco-lancini/offensive-infrastructure), [`MichaelCade/90DaysOfDevOps`](https://github.com/MichaelCade/90DaysOfDevOps), [`semaphoreui/semaphore`](https://github.com/semaphoreui/semaphore) *(+39 more swappable options below)*
 
 <details>
@@ -1573,7 +1574,7 @@
 
 - **🔄 Workflow Orchestration, Job Queues & Pipelines (16 options):** [`n8n-io/n8n`](https://github.com/n8n-io/n8n), [`automatisch/automatisch`](https://github.com/automatisch/automatisch), [`kestra-io/kestra`](https://github.com/kestra-io/kestra), [`Netflix/maestro`](https://github.com/Netflix/maestro), [`PrefectHQ/prefect`](https://github.com/PrefectHQ/prefect) *(+11 more swappable options below)*
 - **🚀 In-Memory Cache, Redis/Valkey & KV Engines (3 options):** [`dragonflydb/dragonfly`](https://github.com/dragonflydb/dragonfly), [`RedisLabs/redisraft`](https://github.com/RedisLabs/redisraft), [`paypal/junodb`](https://github.com/paypal/junodb)
-- **📈 Observability, eBPF Telemetry, Logs & Analytics (23 options):** [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos), [`whylabs/whylogs`](https://github.com/whylabs/whylogs) *(+18 more swappable options below)*
+- **📈 Observability, eBPF Telemetry, Logs & Analytics (22 options):** [`ClickHouse/ClickStack`](https://github.com/ClickHouse/ClickStack), [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos) *(+17 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 16 Swappable Repositories for 🔄 Workflow Orchestration, Job Queues & Pipelines</b></summary>
@@ -1611,12 +1612,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **☸️ Kubernetes, GitOps, Service Mesh & Cloud Native (135 options):** [`encoredev/encore`](https://github.com/encoredev/encore), [`nitrictech/nitric`](https://github.com/nitrictech/nitric), [`dapr/dapr`](https://github.com/dapr/dapr), [`spacecloud-io/space-cloud`](https://github.com/spacecloud-io/space-cloud), [`GoogleCloudPlatform/terraformer`](https://github.com/GoogleCloudPlatform/terraformer) *(+130 more swappable options below)*
-- **📈 Observability, eBPF Telemetry, Logs & Analytics (23 options):** [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos), [`whylabs/whylogs`](https://github.com/whylabs/whylogs) *(+18 more swappable options below)*
-- **⚡ AI Gateway, LLM Proxy & Token Router (64 options):** [`ENTERPILOT/GoModel`](https://github.com/ENTERPILOT/GoModel), [`nlkitai/nlux`](https://github.com/nlkitai/nlux), [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands), [`unslothai/unsloth`](https://github.com/unslothai/unsloth), [`yamadashy/repomix`](https://github.com/yamadashy/repomix) *(+59 more swappable options below)*
+- **☸️ Kubernetes, GitOps, Service Mesh & Cloud Native (136 options):** [`encoredev/encore`](https://github.com/encoredev/encore), [`nitrictech/nitric`](https://github.com/nitrictech/nitric), [`dapr/dapr`](https://github.com/dapr/dapr), [`spacecloud-io/space-cloud`](https://github.com/spacecloud-io/space-cloud), [`GoogleCloudPlatform/terraformer`](https://github.com/GoogleCloudPlatform/terraformer) *(+131 more swappable options below)*
+- **📈 Observability, eBPF Telemetry, Logs & Analytics (22 options):** [`ClickHouse/ClickStack`](https://github.com/ClickHouse/ClickStack), [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos) *(+17 more swappable options below)*
+- **⚡ AI Gateway, LLM Proxy & Token Router (65 options):** [`ENTERPILOT/GoModel`](https://github.com/ENTERPILOT/GoModel), [`nlkitai/nlux`](https://github.com/nlkitai/nlux), [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands), [`unslothai/unsloth`](https://github.com/unslothai/unsloth), [`yamadashy/repomix`](https://github.com/yamadashy/repomix) *(+60 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 135 Swappable Repositories for ☸️ Kubernetes, GitOps, Service Mesh & Cloud Native</b></summary>
+<summary><b>📦 View all 136 Swappable Repositories for ☸️ Kubernetes, GitOps, Service Mesh & Cloud Native</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -1678,6 +1679,7 @@
 | **[AstroBee-AI/kardinal](https://github.com/AstroBee-AI/kardinal)** | `Go` | Kardinal is the lightest-weight way to spin up dev and test environments in Kubernetes. Deploy the absolute minimum resources necessary and implement dev, test, and QA all in one cluster. |
 | **[authelia/authelia](https://github.com/authelia/authelia)** | `Go` | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready. |
 | **[AutoMQ/automq](https://github.com/AutoMQ/automq)** | `Java` | Diskless Kafka® on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability. |
+| **[awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)** | `Others` | A list of Free Software network services and web applications which can be hosted on your own servers |
 | **[awslabs/coldsnap](https://github.com/awslabs/coldsnap)** | `Rust` | A command line interface for Amazon EBS snapshots |
 | **[awslabs/mountpoint-s3](https://github.com/awslabs/mountpoint-s3)** | `Rust` | A simple, high-throughput file client for mounting an Amazon S3 bucket as a local file system. |
 | **[beefsack/webify](https://github.com/beefsack/webify)** | `Go` | Turn shell commands into web services |
@@ -1771,7 +1773,7 @@
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
 - **🏗️ Terraform, Proxmox, IaC & Server Provisioning (44 options):** [`bregman-arie/devops-exercises`](https://github.com/bregman-arie/devops-exercises), [`khuedoan/homelab`](https://github.com/khuedoan/homelab), [`marco-lancini/offensive-infrastructure`](https://github.com/marco-lancini/offensive-infrastructure), [`MichaelCade/90DaysOfDevOps`](https://github.com/MichaelCade/90DaysOfDevOps), [`semaphoreui/semaphore`](https://github.com/semaphoreui/semaphore) *(+39 more swappable options below)*
-- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (65 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+60 more swappable options below)*
+- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (66 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+61 more swappable options below)*
 - **🏠 Turn-Key Self-Hosted Apps, Media & Productivity (23 options):** [`grocy/grocy`](https://github.com/grocy/grocy), [`microfeed/microfeed`](https://github.com/microfeed/microfeed), [`0x2E/fusion`](https://github.com/0x2E/fusion), [`BerlinChan/askent`](https://github.com/BerlinChan/askent), [`emdash-cms/emdash`](https://github.com/emdash-cms/emdash) *(+18 more swappable options below)*
 
 <details>
@@ -1838,12 +1840,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (65 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+60 more swappable options below)*
+- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (66 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+61 more swappable options below)*
 - **🛡️ Cybersecurity, Pentesting, Bot Defense & Auditing (47 options):** [`cerberauth/vulnapi`](https://github.com/cerberauth/vulnapi), [`SentryPeer/SentryPeer`](https://github.com/SentryPeer/SentryPeer), [`cybrota/whispr`](https://github.com/cybrota/whispr), [`rfc-st/humble`](https://github.com/rfc-st/humble), [`aquasecurity/trivy`](https://github.com/aquasecurity/trivy) *(+42 more swappable options below)*
 - **🦀 Zero-Cost Rust, Zig & C/C++ Systems Building Blocks (34 options):** [`adamritter/fastgron`](https://github.com/adamritter/fastgron), [`AnswerDotAI/gpu.cpp`](https://github.com/AnswerDotAI/gpu.cpp), [`aristocratos/btop`](https://github.com/aristocratos/btop), [`astral-sh/rye`](https://github.com/astral-sh/rye), [`beac0n/ruroco`](https://github.com/beac0n/ruroco) *(+29 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 65 Swappable Repositories for 📦 Docker, Unikernels, MicroVMs & Container Runtimes</b></summary>
+<summary><b>📦 View all 66 Swappable Repositories for 📦 Docker, Unikernels, MicroVMs & Container Runtimes</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -1856,6 +1858,7 @@
 | **[nicolaka/netshoot](https://github.com/nicolaka/netshoot)** | `Shell` | a Docker + Kubernetes network trouble-shooting swiss-army container |
 | **[openebs/openebs](https://github.com/openebs/openebs)** | `Others` | A popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes. |
 | **[podman-container-tools/podman](https://github.com/podman-container-tools/podman)** | `Go` | Podman: A tool for managing OCI containers and pods. |
+| **[rustrak/rustrak](https://github.com/rustrak/rustrak)** | `Rust` | Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL. |
 | **[slimtoolkit/slim](https://github.com/slimtoolkit/slim)** | `Go` | Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source) |
 | **[wodby/mariadb](https://github.com/wodby/mariadb)** | `Shell` | MariaDB docker container image |
 | **[almarklein/mypaas](https://github.com/almarklein/mypaas)** | `Python` | Run your own PaaS using Docker, Traefik, and great analytics |
@@ -1927,21 +1930,21 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **📈 Observability, eBPF Telemetry, Logs & Analytics (23 options):** [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos), [`whylabs/whylogs`](https://github.com/whylabs/whylogs) *(+18 more swappable options below)*
-- **☸️ Kubernetes, GitOps, Service Mesh & Cloud Native (135 options):** [`encoredev/encore`](https://github.com/encoredev/encore), [`nitrictech/nitric`](https://github.com/nitrictech/nitric), [`dapr/dapr`](https://github.com/dapr/dapr), [`spacecloud-io/space-cloud`](https://github.com/spacecloud-io/space-cloud), [`GoogleCloudPlatform/terraformer`](https://github.com/GoogleCloudPlatform/terraformer) *(+130 more swappable options below)*
+- **📈 Observability, eBPF Telemetry, Logs & Analytics (22 options):** [`ClickHouse/ClickStack`](https://github.com/ClickHouse/ClickStack), [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos) *(+17 more swappable options below)*
+- **☸️ Kubernetes, GitOps, Service Mesh & Cloud Native (136 options):** [`encoredev/encore`](https://github.com/encoredev/encore), [`nitrictech/nitric`](https://github.com/nitrictech/nitric), [`dapr/dapr`](https://github.com/dapr/dapr), [`spacecloud-io/space-cloud`](https://github.com/spacecloud-io/space-cloud), [`GoogleCloudPlatform/terraformer`](https://github.com/GoogleCloudPlatform/terraformer) *(+131 more swappable options below)*
 - **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 23 Swappable Repositories for 📈 Observability, eBPF Telemetry, Logs & Analytics</b></summary>
+<summary><b>📦 View all 22 Swappable Repositories for 📈 Observability, eBPF Telemetry, Logs & Analytics</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
+| **[ClickHouse/ClickStack](https://github.com/ClickHouse/ClickStack)** | `TypeScript` | Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry. |
 | **[openobserve/openobserve](https://github.com/openobserve/openobserve)** | `TypeScript` | Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative t |
 | **[grafana-cold-storage/phlare](https://github.com/grafana-cold-storage/phlare)** | `Go` | 🔥 horizontally-scalable, highly-available, multi-tenant continuous profiling aggregation system |
 | **[pixie-io/pixie](https://github.com/pixie-io/pixie)** | `C++` | Instant Kubernetes-Native Application Observability |
 | **[thanos-io/thanos](https://github.com/thanos-io/thanos)** | `Go` | Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project. |
 | **[whylabs/whylogs](https://github.com/whylabs/whylogs)** | `Jupyter Notebook` | An open-source data logging library for machine learning models and data pipelines. 📚 Provides visibility into data quality & model performance over time. 🛡️ Supports privacy-preserving data collectio |
-| **[ClickHouse/ClickStack](https://github.com/ClickHouse/ClickStack)** | `TypeScript` | Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry. |
 | **[dimo414/task-mon](https://github.com/dimo414/task-mon)** | `Rust` | CLI to execute commands and log results to healthchecks.io |
 | **[facundoolano/ngtop](https://github.com/facundoolano/ngtop)** | `Go` | nginx access logs analytics |
 | **[gao-sun/eul](https://github.com/gao-sun/eul)** | `Swift` | 🖥️ macOS status monitoring app written in SwiftUI. |
@@ -1954,7 +1957,6 @@
 | **[PaperMtn/slack-watchman](https://github.com/PaperMtn/slack-watchman)** | `Python` | Slack enumeration and exposed secrets detection tool |
 | **[QwikDev/partytown](https://github.com/QwikDev/partytown)** | `TypeScript` | Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉 |
 | **[runsidekick/sidekick](https://github.com/runsidekick/sidekick)** | `Java` | Sidekick is no longer in service |
-| **[rustrak/rustrak](https://github.com/rustrak/rustrak)** | `Rust` | Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL. |
 | **[vinceanalytics/vince](https://github.com/vinceanalytics/vince)** | `Go` | Self Hosted Alternative To Google Analytics |
 | **[dahlia/logtape](https://github.com/dahlia/logtape)** | `TypeScript` | Unobtrusive logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions |
 | **[grafana/k6](https://github.com/grafana/k6)** | `Go` | A modern load testing tool, using Go and JavaScript |
@@ -2047,7 +2049,7 @@
 
 - **⌨️ Modern Terminals, Web Shells & TUI Dashboards (70 options):** [`Slackadays/Clipboard`](https://github.com/Slackadays/Clipboard), [`faressoft/terminalizer`](https://github.com/faressoft/terminalizer), [`withfig/autocomplete`](https://github.com/withfig/autocomplete), [`alebcay/awesome-shell`](https://github.com/alebcay/awesome-shell), [`barthr/redo`](https://github.com/barthr/redo) *(+65 more swappable options below)*
 - **🛠️ Git Workflows, Compilers, Linters & Dev Productivity (37 options):** [`lindell/multi-gitter`](https://github.com/lindell/multi-gitter), [`usebruno/bruno`](https://github.com/usebruno/bruno), [`artzub/GitHubVisualizer`](https://github.com/artzub/GitHubVisualizer), [`garden-io/garden`](https://github.com/garden-io/garden), [`px0-ai/px0`](https://github.com/px0-ai/px0) *(+32 more swappable options below)*
-- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (65 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+60 more swappable options below)*
+- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (66 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+61 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 70 Swappable Repositories for ⌨️ Modern Terminals, Web Shells & TUI Dashboards</b></summary>
@@ -2207,7 +2209,7 @@
 
 - **🛠️ Git Workflows, Compilers, Linters & Dev Productivity (37 options):** [`lindell/multi-gitter`](https://github.com/lindell/multi-gitter), [`usebruno/bruno`](https://github.com/usebruno/bruno), [`artzub/GitHubVisualizer`](https://github.com/artzub/GitHubVisualizer), [`garden-io/garden`](https://github.com/garden-io/garden), [`px0-ai/px0`](https://github.com/px0-ai/px0) *(+32 more swappable options below)*
 - **⌨️ Modern Terminals, Web Shells & TUI Dashboards (70 options):** [`Slackadays/Clipboard`](https://github.com/Slackadays/Clipboard), [`faressoft/terminalizer`](https://github.com/faressoft/terminalizer), [`withfig/autocomplete`](https://github.com/withfig/autocomplete), [`alebcay/awesome-shell`](https://github.com/alebcay/awesome-shell), [`barthr/redo`](https://github.com/barthr/redo) *(+65 more swappable options below)*
-- **💻 AI Coding Copilot, PR Review & Code Gen (9 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness), [`yizhiyanhua-ai/fireworks-tech-graph`](https://github.com/yizhiyanhua-ai/fireworks-tech-graph), [`anthropics/claude-quickstarts`](https://github.com/anthropics/claude-quickstarts) *(+4 more swappable options below)*
+- **💻 AI Coding Copilot, PR Review & Code Gen (10 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`ruvnet/RuView`](https://github.com/ruvnet/RuView), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness), [`yizhiyanhua-ai/fireworks-tech-graph`](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) *(+5 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 37 Swappable Repositories for 🛠️ Git Workflows, Compilers, Linters & Dev Productivity</b></summary>
@@ -2315,7 +2317,7 @@
 
 - **🐘 PHP Frameworks, Profilers & Server Runtimes (25 options):** [`AbuseIO/AbuseIO`](https://github.com/AbuseIO/AbuseIO), [`akash-mitra/dployer`](https://github.com/akash-mitra/dployer), [`aman00323/email-checker`](https://github.com/aman00323/email-checker), [`amphp/amp`](https://github.com/amphp/amp), [`aralroca/default-composer`](https://github.com/aralroca/default-composer) *(+20 more swappable options below)*
 - **🧱 Laravel Ecosystem, Starters & Packages (180 options):** [`hasinhayder/hydra`](https://github.com/hasinhayder/hydra), [`HDInnovations/UNIT3D`](https://github.com/HDInnovations/UNIT3D), [`laravel/sanctum`](https://github.com/laravel/sanctum), [`laravel/socialite`](https://github.com/laravel/socialite), [`snowfire/Beautymail`](https://github.com/snowfire/Beautymail) *(+175 more swappable options below)*
-- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (65 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+60 more swappable options below)*
+- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (66 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+61 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 25 Swappable Repositories for 🐘 PHP Frameworks, Profilers & Server Runtimes</b></summary>
@@ -2364,7 +2366,7 @@
 
 - **🐹 High-Concurrency Go Libraries & Microservice Tools (24 options):** [`adelapazborrero/slack_jack`](https://github.com/adelapazborrero/slack_jack), [`cgzirim/seek-tune`](https://github.com/cgzirim/seek-tune), [`coder/sshcode`](https://github.com/coder/sshcode), [`coder/wush`](https://github.com/coder/wush), [`commitdev/zero`](https://github.com/commitdev/zero) *(+19 more swappable options below)*
 - **📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways (53 options):** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch), [`go-chi/chi`](https://github.com/go-chi/chi), [`danielgtaylor/huma`](https://github.com/danielgtaylor/huma), [`hasura/graphql-engine`](https://github.com/hasura/graphql-engine), [`artilleryio/artillery`](https://github.com/artilleryio/artillery) *(+48 more swappable options below)*
-- **📈 Observability, eBPF Telemetry, Logs & Analytics (23 options):** [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos), [`whylabs/whylogs`](https://github.com/whylabs/whylogs) *(+18 more swappable options below)*
+- **📈 Observability, eBPF Telemetry, Logs & Analytics (22 options):** [`ClickHouse/ClickStack`](https://github.com/ClickHouse/ClickStack), [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos) *(+17 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 24 Swappable Repositories for 🐹 High-Concurrency Go Libraries & Microservice Tools</b></summary>
@@ -2411,7 +2413,7 @@
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
 - **🦀 Zero-Cost Rust, Zig & C/C++ Systems Building Blocks (34 options):** [`adamritter/fastgron`](https://github.com/adamritter/fastgron), [`AnswerDotAI/gpu.cpp`](https://github.com/AnswerDotAI/gpu.cpp), [`aristocratos/btop`](https://github.com/aristocratos/btop), [`astral-sh/rye`](https://github.com/astral-sh/rye), [`beac0n/ruroco`](https://github.com/beac0n/ruroco) *(+29 more swappable options below)*
-- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (65 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+60 more swappable options below)*
+- **📦 Docker, Unikernels, MicroVMs & Container Runtimes (66 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+61 more swappable options below)*
 - **🚀 In-Memory Cache, Redis/Valkey & KV Engines (3 options):** [`dragonflydb/dragonfly`](https://github.com/dragonflydb/dragonfly), [`RedisLabs/redisraft`](https://github.com/RedisLabs/redisraft), [`paypal/junodb`](https://github.com/paypal/junodb)
 
 <details>
@@ -2469,7 +2471,7 @@
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
 - **🐍 Python Data Science, Automation & Scripting Libraries (51 options):** [`adithya-s-k/omniparse`](https://github.com/adithya-s-k/omniparse), [`alvin-r/databonsai`](https://github.com/alvin-r/databonsai), [`ameygat/githuballrepo`](https://github.com/ameygat/githuballrepo), [`ashiquem/message-classifier`](https://github.com/ashiquem/message-classifier), [`AuvaLab/itext2kg`](https://github.com/AuvaLab/itext2kg) *(+46 more swappable options below)*
-- **🔬 Deep Learning, Fine-Tuning & ML Framework (87 options):** [`tracel-ai/burn`](https://github.com/tracel-ai/burn), [`AMAI-GmbH/AI-Expert-Roadmap`](https://github.com/AMAI-GmbH/AI-Expert-Roadmap), [`tensorflow/tensorflow`](https://github.com/tensorflow/tensorflow), [`AI4Finance-Foundation/FinGPT`](https://github.com/AI4Finance-Foundation/FinGPT), [`bigscience-workshop/petals`](https://github.com/bigscience-workshop/petals) *(+82 more swappable options below)*
+- **🔬 Deep Learning, Fine-Tuning & ML Framework (88 options):** [`tracel-ai/burn`](https://github.com/tracel-ai/burn), [`AMAI-GmbH/AI-Expert-Roadmap`](https://github.com/AMAI-GmbH/AI-Expert-Roadmap), [`tensorflow/tensorflow`](https://github.com/tensorflow/tensorflow), [`AI4Finance-Foundation/FinGPT`](https://github.com/AI4Finance-Foundation/FinGPT), [`bigscience-workshop/petals`](https://github.com/bigscience-workshop/petals) *(+83 more swappable options below)*
 - **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
 
 <details>
@@ -2657,12 +2659,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **📚 Architecture Playbooks, Engineering Guides & Reference Stacks (72 options):** [`64robots/nova-fields`](https://github.com/64robots/nova-fields), [`abeleinin/Metal-Puzzles`](https://github.com/abeleinin/Metal-Puzzles), [`aftertheflood/sparks`](https://github.com/aftertheflood/sparks), [`ALEEEHU/World-Simulator`](https://github.com/ALEEEHU/World-Simulator), [`awesome-selfhosted/awesome-selfhosted`](https://github.com/awesome-selfhosted/awesome-selfhosted) *(+67 more swappable options below)*
+- **📚 Architecture Playbooks, Engineering Guides & Reference Stacks (70 options):** [`64robots/nova-fields`](https://github.com/64robots/nova-fields), [`abeleinin/Metal-Puzzles`](https://github.com/abeleinin/Metal-Puzzles), [`aftertheflood/sparks`](https://github.com/aftertheflood/sparks), [`ALEEEHU/World-Simulator`](https://github.com/ALEEEHU/World-Simulator), [`basecamp/kamal`](https://github.com/basecamp/kamal) *(+65 more swappable options below)*
 - **📄 PDF, Document Processing & Knowledge Graphs (28 options):** [`iamgio/quarkdown`](https://github.com/iamgio/quarkdown), [`jackyzha0/quartz`](https://github.com/jackyzha0/quartz), [`logseq/logseq`](https://github.com/logseq/logseq), [`AppFlowy-IO/AppFlowy`](https://github.com/AppFlowy-IO/AppFlowy), [`avriq/signature-pdf`](https://github.com/avriq/signature-pdf) *(+23 more swappable options below)*
 - **⌨️ Modern Terminals, Web Shells & TUI Dashboards (70 options):** [`Slackadays/Clipboard`](https://github.com/Slackadays/Clipboard), [`faressoft/terminalizer`](https://github.com/faressoft/terminalizer), [`withfig/autocomplete`](https://github.com/withfig/autocomplete), [`alebcay/awesome-shell`](https://github.com/alebcay/awesome-shell), [`barthr/redo`](https://github.com/barthr/redo) *(+65 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 72 Swappable Repositories for 📚 Architecture Playbooks, Engineering Guides & Reference Stacks</b></summary>
+<summary><b>📦 View all 70 Swappable Repositories for 📚 Architecture Playbooks, Engineering Guides & Reference Stacks</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -2670,10 +2672,8 @@
 | **[abeleinin/Metal-Puzzles](https://github.com/abeleinin/Metal-Puzzles)** | `Jupyter Notebook` | Solve Puzzles. Learn Metal 🤘 |
 | **[aftertheflood/sparks](https://github.com/aftertheflood/sparks)** | `CSS` | A typeface for creating sparklines in text without code. |
 | **[ALEEEHU/World-Simulator](https://github.com/ALEEEHU/World-Simulator)** | `Others` | [IEEE TPAMI 2026] Simulating the Real World: Survey & Resources, which contains our survey "Simulating the Real World: A Unified Survey of Multimodal Generative Models" (IEEE TPAMI, 2026) and Awesome- |
-| **[awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)** | `Others` | A list of Free Software network services and web applications which can be hosted on your own servers |
 | **[basecamp/kamal](https://github.com/basecamp/kamal)** | `Ruby` | Deploy web apps anywhere. |
 | **[bearstech/pussh](https://github.com/bearstech/pussh)** | `Shell` | Parallel SSH, batch and command line oriented |
-| **[binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)** | `Others` | The Patterns of Scalable, Reliable, and Performant Large-Scale Systems |
 | **[bohanwood/debi](https://github.com/bohanwood/debi)** | `Shell` | Reinstall your VPS to minimal Debian |
 | **[burke/minidev](https://github.com/burke/minidev)** | `Ruby` | Like dev, only lots worse! |
 | **[bytedance/bitsail](https://github.com/bytedance/bitsail)** | `Java` | BitSail is a distributed high-performance data integration engine which supports batch, streaming and incremental scenarios. BitSail is widely used to synchronize hundreds of trillions of data every d |

@@ -79,7 +79,7 @@
       "id": "slot_voice_audio",
       "name": "Voice, Speech-to-Text & Audio Engine",
       "icon": "\ud83c\udf99\ufe0f",
-      "count": 21,
+      "count": 20,
       "repos": [
         {
           "full_name": "dograh-hq/dograh",
@@ -160,14 +160,6 @@
           "language": "Jupyter Notebook",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
-        },
-        {
-          "full_name": "cactus-compute/cactus",
-          "url": "https://github.com/cactus-compute/cactus",
-          "description": "Sub-50mb agentic, voice and vision intelligence for consumer devices.",
-          "language": "Python",
-          "role": "Multi-Agent Coordination & Execution",
-          "category_id": "ai-agents"
         },
         {
           "full_name": "facebookresearch/audiocraft",
@@ -258,6 +250,14 @@
       "count": 11,
       "repos": [
         {
+          "full_name": "reactive-resume/reactive-resume",
+          "url": "https://github.com/reactive-resume/reactive-resume",
+          "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+          "language": "TypeScript",
+          "role": "Multi-Agent Coordination & Execution",
+          "category_id": "ai-agents"
+        },
+        {
           "full_name": "alibaba/open-code-review",
           "url": "https://github.com/alibaba/open-code-review",
           "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,",
@@ -312,14 +312,6 @@
           "language": "TypeScript",
           "role": "Infrastructure & Execution Sandbox",
           "category_id": "devops-infra"
-        },
-        {
-          "full_name": "reactive-resume/reactive-resume",
-          "url": "https://github.com/reactive-resume/reactive-resume",
-          "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
-          "language": "TypeScript",
-          "role": "Multi-Agent Coordination & Execution",
-          "category_id": "ai-agents"
         },
         {
           "full_name": "cloudflare/mcp-server-cloudflare",
@@ -430,6 +422,14 @@
           "url": "https://github.com/GaiaNet-AI/gaianet-node",
           "description": "Install, run and deploy your own decentralized AI agent service",
           "language": "Shell",
+          "role": "Multi-Agent Coordination & Execution",
+          "category_id": "ai-agents"
+        },
+        {
+          "full_name": "google/elephant-goldfish-model",
+          "url": "https://github.com/google/elephant-goldfish-model",
+          "description": "Open-source plugin for designing and reviewing software with agents",
+          "language": "Python",
           "role": "Multi-Agent Coordination & Execution",
           "category_id": "ai-agents"
         },
@@ -858,14 +858,6 @@
           "category_id": "ai-agents"
         },
         {
-          "full_name": "google/elephant-goldfish-model",
-          "url": "https://github.com/google/elephant-goldfish-model",
-          "description": "Open-source plugin for designing and reviewing software with agents",
-          "language": "Python",
-          "role": "Multi-Agent Coordination & Execution",
-          "category_id": "ai-agents"
-        },
-        {
           "full_name": "hatchet-dev/hatchet",
           "url": "https://github.com/hatchet-dev/hatchet",
           "description": "\ud83e\ude93 An orchestration engine for background tasks, AI agents, and durable workflows",
@@ -1039,7 +1031,7 @@
       "id": "slot_ai_coding",
       "name": "AI Coding Copilot, PR Review & Code Gen",
       "icon": "\ud83d\udcbb",
-      "count": 9,
+      "count": 10,
       "repos": [
         {
           "full_name": "mvanhorn/last30days-skill",
@@ -1048,6 +1040,14 @@
           "language": "Python",
           "role": "Multi-Agent Coordination & Execution",
           "category_id": "ai-agents"
+        },
+        {
+          "full_name": "ruvnet/RuView",
+          "url": "https://github.com/ruvnet/RuView",
+          "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
+          "language": "Rust",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
         },
         {
           "full_name": "rtk-ai/rtk",
@@ -1119,7 +1119,7 @@
       "id": "slot_computer_vision",
       "name": "Computer Vision, Image & Video AI",
       "icon": "\ud83d\udc41\ufe0f",
-      "count": 28,
+      "count": 27,
       "repos": [
         {
           "full_name": "dailenson/One-DM",
@@ -1322,14 +1322,6 @@
           "category_id": "devtools-terminal"
         },
         {
-          "full_name": "ruvnet/RuView",
-          "url": "https://github.com/ruvnet/RuView",
-          "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
-          "language": "Rust",
-          "role": "Developer Productivity & Tooling",
-          "category_id": "devtools-terminal"
-        },
-        {
           "full_name": "Stability-AI/stable-virtual-camera",
           "url": "https://github.com/Stability-AI/stable-virtual-camera",
           "description": "Stable Virtual Camera: Generative View Synthesis with Diffusion Models",
@@ -1351,7 +1343,7 @@
       "id": "slot_ai_gateway",
       "name": "AI Gateway, LLM Proxy & Token Router",
       "icon": "\u26a1",
-      "count": 64,
+      "count": 65,
       "repos": [
         {
           "full_name": "ENTERPILOT/GoModel",
@@ -1559,6 +1551,14 @@
           "description": "Graphing SBOM's Fast.",
           "language": "Go",
           "role": "Autonomous Agent / LLM Runtime",
+          "category_id": "ai-agents"
+        },
+        {
+          "full_name": "cactus-compute/cactus",
+          "url": "https://github.com/cactus-compute/cactus",
+          "description": "Sub-50mb agentic, voice and vision intelligence for consumer devices.",
+          "language": "Python",
+          "role": "Multi-Agent Coordination & Execution",
           "category_id": "ai-agents"
         },
         {
@@ -1871,7 +1871,7 @@
       "id": "slot_ml_training",
       "name": "Deep Learning, Fine-Tuning & ML Framework",
       "icon": "\ud83d\udd2c",
-      "count": 87,
+      "count": 88,
       "repos": [
         {
           "full_name": "tracel-ai/burn",
@@ -2096,6 +2096,14 @@
           "language": "Python",
           "role": "Security, SIP & Audit Protection",
           "category_id": "security-privacy"
+        },
+        {
+          "full_name": "binhnguyennus/awesome-scalability",
+          "url": "https://github.com/binhnguyennus/awesome-scalability",
+          "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+          "language": "Others",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
         },
         {
           "full_name": "bumble-tech/private-detector",
@@ -7783,7 +7791,7 @@
       "id": "slot_k8s_cloud",
       "name": "Kubernetes, GitOps, Service Mesh & Cloud Native",
       "icon": "\u2638\ufe0f",
-      "count": 135,
+      "count": 136,
       "repos": [
         {
           "full_name": "encoredev/encore",
@@ -8246,6 +8254,14 @@
           "url": "https://github.com/AutoMQ/automq",
           "description": "Diskless Kafka\u00ae on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability.",
           "language": "Java",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
+        },
+        {
+          "full_name": "awesome-selfhosted/awesome-selfhosted",
+          "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+          "language": "Others",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
         },
@@ -9231,7 +9247,7 @@
       "id": "slot_docker_sandbox",
       "name": "Docker, Unikernels, MicroVMs & Container Runtimes",
       "icon": "\ud83d\udce6",
-      "count": 65,
+      "count": 66,
       "repos": [
         {
           "full_name": "project-copacetic/copacetic",
@@ -9304,6 +9320,14 @@
           "language": "Go",
           "role": "Infrastructure & Execution Sandbox",
           "category_id": "devops-infra"
+        },
+        {
+          "full_name": "rustrak/rustrak",
+          "url": "https://github.com/rustrak/rustrak",
+          "description": "Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL.",
+          "language": "Rust",
+          "role": "Multi-Agent Coordination & Execution",
+          "category_id": "ai-agents"
         },
         {
           "full_name": "slimtoolkit/slim",
@@ -9759,8 +9783,16 @@
       "id": "slot_observability",
       "name": "Observability, eBPF Telemetry, Logs & Analytics",
       "icon": "\ud83d\udcc8",
-      "count": 23,
+      "count": 22,
       "repos": [
+        {
+          "full_name": "ClickHouse/ClickStack",
+          "url": "https://github.com/ClickHouse/ClickStack",
+          "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
+          "language": "TypeScript",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
+        },
         {
           "full_name": "openobserve/openobserve",
           "url": "https://github.com/openobserve/openobserve",
@@ -9800,14 +9832,6 @@
           "language": "Jupyter Notebook",
           "role": "Workflow & Webhook Automation",
           "category_id": "apis-automation"
-        },
-        {
-          "full_name": "ClickHouse/ClickStack",
-          "url": "https://github.com/ClickHouse/ClickStack",
-          "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
-          "language": "TypeScript",
-          "role": "Developer Productivity & Tooling",
-          "category_id": "devtools-terminal"
         },
         {
           "full_name": "dimo414/task-mon",
@@ -9904,14 +9928,6 @@
           "language": "Java",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
-        },
-        {
-          "full_name": "rustrak/rustrak",
-          "url": "https://github.com/rustrak/rustrak",
-          "description": "Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL.",
-          "language": "Rust",
-          "role": "Multi-Agent Coordination & Execution",
-          "category_id": "ai-agents"
         },
         {
           "full_name": "vinceanalytics/vince",
@@ -13575,7 +13591,7 @@
       "id": "slot_curated_playbooks",
       "name": "Architecture Playbooks, Engineering Guides & Reference Stacks",
       "icon": "\ud83d\udcda",
-      "count": 72,
+      "count": 70,
       "repos": [
         {
           "full_name": "64robots/nova-fields",
@@ -13610,14 +13626,6 @@
           "category_id": "devtools-terminal"
         },
         {
-          "full_name": "awesome-selfhosted/awesome-selfhosted",
-          "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-          "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-          "language": "Others",
-          "role": "Developer Productivity & Tooling",
-          "category_id": "devtools-terminal"
-        },
-        {
           "full_name": "basecamp/kamal",
           "url": "https://github.com/basecamp/kamal",
           "description": "Deploy web apps anywhere.",
@@ -13630,14 +13638,6 @@
           "url": "https://github.com/bearstech/pussh",
           "description": "Parallel SSH, batch and command line oriented",
           "language": "Shell",
-          "role": "Developer Productivity & Tooling",
-          "category_id": "devtools-terminal"
-        },
-        {
-          "full_name": "binhnguyennus/awesome-scalability",
-          "url": "https://github.com/binhnguyennus/awesome-scalability",
-          "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
-          "language": "Others",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
         },
@@ -14172,13 +14172,13 @@
       "monetization": "$149\u2013$299/mo flat fee appliance for dental clinics, law offices, and HVAC contractors.",
       "primary_slot_name": "Voice, Speech-to-Text & Audio Engine",
       "primary_slot_icon": "\ud83c\udf99\ufe0f",
-      "primary_repo_count": 21,
+      "primary_repo_count": 20,
       "slot_details": [
         {
           "slot_id": "slot_voice_audio",
           "slot_name": "Voice, Speech-to-Text & Audio Engine",
           "slot_icon": "\ud83c\udf99\ufe0f",
-          "total_alternatives": 21,
+          "total_alternatives": 20,
           "default_repo": {
             "full_name": "dograh-hq/dograh",
             "url": "https://github.com/dograh-hq/dograh",
@@ -14302,10 +14302,10 @@
           "slot_icon": "\ud83d\udd0c",
           "total_alternatives": 11,
           "default_repo": {
-            "full_name": "alibaba/open-code-review",
-            "url": "https://github.com/alibaba/open-code-review",
-            "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,",
-            "language": "Go",
+            "full_name": "reactive-resume/reactive-resume",
+            "url": "https://github.com/reactive-resume/reactive-resume",
+            "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+            "language": "TypeScript",
             "role": "Multi-Agent Coordination & Execution",
             "category_id": "ai-agents"
           }
@@ -14416,13 +14416,13 @@
       "monetization": "$15/repo/mo or $99/mo unlimited self-hosted team license.",
       "primary_slot_name": "AI Coding Copilot, PR Review & Code Gen",
       "primary_slot_icon": "\ud83d\udcbb",
-      "primary_repo_count": 9,
+      "primary_repo_count": 10,
       "slot_details": [
         {
           "slot_id": "slot_ai_coding",
           "slot_name": "AI Coding Copilot, PR Review & Code Gen",
           "slot_icon": "\ud83d\udcbb",
-          "total_alternatives": 9,
+          "total_alternatives": 10,
           "default_repo": {
             "full_name": "mvanhorn/last30days-skill",
             "url": "https://github.com/mvanhorn/last30days-skill",
@@ -14450,7 +14450,7 @@
           "slot_id": "slot_docker_sandbox",
           "slot_name": "Docker, Unikernels, MicroVMs & Container Runtimes",
           "slot_icon": "\ud83d\udce6",
-          "total_alternatives": 65,
+          "total_alternatives": 66,
           "default_repo": {
             "full_name": "project-copacetic/copacetic",
             "url": "https://github.com/project-copacetic/copacetic",
@@ -14477,13 +14477,13 @@
       "monetization": "$89/mo creator studio SaaS or agency automation package.",
       "primary_slot_name": "Computer Vision, Image & Video AI",
       "primary_slot_icon": "\ud83d\udc41\ufe0f",
-      "primary_repo_count": 28,
+      "primary_repo_count": 27,
       "slot_details": [
         {
           "slot_id": "slot_computer_vision",
           "slot_name": "Computer Vision, Image & Video AI",
           "slot_icon": "\ud83d\udc41\ufe0f",
-          "total_alternatives": 28,
+          "total_alternatives": 27,
           "default_repo": {
             "full_name": "dailenson/One-DM",
             "url": "https://github.com/dailenson/One-DM",
@@ -14497,7 +14497,7 @@
           "slot_id": "slot_voice_audio",
           "slot_name": "Voice, Speech-to-Text & Audio Engine",
           "slot_icon": "\ud83c\udf99\ufe0f",
-          "total_alternatives": 21,
+          "total_alternatives": 20,
           "default_repo": {
             "full_name": "dograh-hq/dograh",
             "url": "https://github.com/dograh-hq/dograh",
@@ -14538,13 +14538,13 @@
       "monetization": "$79\u2013$299/mo infrastructure proxy that cuts customer LLM bills by 50%.",
       "primary_slot_name": "AI Gateway, LLM Proxy & Token Router",
       "primary_slot_icon": "\u26a1",
-      "primary_repo_count": 64,
+      "primary_repo_count": 65,
       "slot_details": [
         {
           "slot_id": "slot_ai_gateway",
           "slot_name": "AI Gateway, LLM Proxy & Token Router",
           "slot_icon": "\u26a1",
-          "total_alternatives": 64,
+          "total_alternatives": 65,
           "default_repo": {
             "full_name": "ENTERPILOT/GoModel",
             "url": "https://github.com/ENTERPILOT/GoModel",
@@ -14599,13 +14599,13 @@
       "monetization": "$149/mo ML ops platform + compute markup.",
       "primary_slot_name": "Deep Learning, Fine-Tuning & ML Framework",
       "primary_slot_icon": "\ud83d\udd2c",
-      "primary_repo_count": 87,
+      "primary_repo_count": 88,
       "slot_details": [
         {
           "slot_id": "slot_ml_training",
           "slot_name": "Deep Learning, Fine-Tuning & ML Framework",
           "slot_icon": "\ud83d\udd2c",
-          "total_alternatives": 87,
+          "total_alternatives": 88,
           "default_repo": {
             "full_name": "tracel-ai/burn",
             "url": "https://github.com/tracel-ai/burn",
@@ -15121,7 +15121,7 @@
           "slot_id": "slot_ai_coding",
           "slot_name": "AI Coding Copilot, PR Review & Code Gen",
           "slot_icon": "\ud83d\udcbb",
-          "total_alternatives": 9,
+          "total_alternatives": 10,
           "default_repo": {
             "full_name": "mvanhorn/last30days-skill",
             "url": "https://github.com/mvanhorn/last30days-skill",
@@ -15365,7 +15365,7 @@
           "slot_id": "slot_computer_vision",
           "slot_name": "Computer Vision, Image & Video AI",
           "slot_icon": "\ud83d\udc41\ufe0f",
-          "total_alternatives": 28,
+          "total_alternatives": 27,
           "default_repo": {
             "full_name": "dailenson/One-DM",
             "url": "https://github.com/dailenson/One-DM",
@@ -15412,14 +15412,14 @@
           "slot_id": "slot_observability",
           "slot_name": "Observability, eBPF Telemetry, Logs & Analytics",
           "slot_icon": "\ud83d\udcc8",
-          "total_alternatives": 23,
+          "total_alternatives": 22,
           "default_repo": {
-            "full_name": "openobserve/openobserve",
-            "url": "https://github.com/openobserve/openobserve",
-            "description": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative t",
+            "full_name": "ClickHouse/ClickStack",
+            "url": "https://github.com/ClickHouse/ClickStack",
+            "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
             "language": "TypeScript",
-            "role": "Workflow & Webhook Automation",
-            "category_id": "apis-automation"
+            "role": "Developer Productivity & Tooling",
+            "category_id": "devtools-terminal"
           }
         },
         {
@@ -15670,14 +15670,14 @@
           "slot_id": "slot_observability",
           "slot_name": "Observability, eBPF Telemetry, Logs & Analytics",
           "slot_icon": "\ud83d\udcc8",
-          "total_alternatives": 23,
+          "total_alternatives": 22,
           "default_repo": {
-            "full_name": "openobserve/openobserve",
-            "url": "https://github.com/openobserve/openobserve",
-            "description": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative t",
+            "full_name": "ClickHouse/ClickStack",
+            "url": "https://github.com/ClickHouse/ClickStack",
+            "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
             "language": "TypeScript",
-            "role": "Workflow & Webhook Automation",
-            "category_id": "apis-automation"
+            "role": "Developer Productivity & Tooling",
+            "category_id": "devtools-terminal"
           }
         }
       ]
@@ -15697,13 +15697,13 @@
       "monetization": "$149/cluster/mo automated SRE platform.",
       "primary_slot_name": "Kubernetes, GitOps, Service Mesh & Cloud Native",
       "primary_slot_icon": "\u2638\ufe0f",
-      "primary_repo_count": 135,
+      "primary_repo_count": 136,
       "slot_details": [
         {
           "slot_id": "slot_k8s_cloud",
           "slot_name": "Kubernetes, GitOps, Service Mesh & Cloud Native",
           "slot_icon": "\u2638\ufe0f",
-          "total_alternatives": 135,
+          "total_alternatives": 136,
           "default_repo": {
             "full_name": "encoredev/encore",
             "url": "https://github.com/encoredev/encore",
@@ -15717,21 +15717,21 @@
           "slot_id": "slot_observability",
           "slot_name": "Observability, eBPF Telemetry, Logs & Analytics",
           "slot_icon": "\ud83d\udcc8",
-          "total_alternatives": 23,
+          "total_alternatives": 22,
           "default_repo": {
-            "full_name": "openobserve/openobserve",
-            "url": "https://github.com/openobserve/openobserve",
-            "description": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative t",
+            "full_name": "ClickHouse/ClickStack",
+            "url": "https://github.com/ClickHouse/ClickStack",
+            "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
             "language": "TypeScript",
-            "role": "Workflow & Webhook Automation",
-            "category_id": "apis-automation"
+            "role": "Developer Productivity & Tooling",
+            "category_id": "devtools-terminal"
           }
         },
         {
           "slot_id": "slot_ai_gateway",
           "slot_name": "AI Gateway, LLM Proxy & Token Router",
           "slot_icon": "\u26a1",
-          "total_alternatives": 64,
+          "total_alternatives": 65,
           "default_repo": {
             "full_name": "ENTERPILOT/GoModel",
             "url": "https://github.com/ENTERPILOT/GoModel",
@@ -15778,7 +15778,7 @@
           "slot_id": "slot_docker_sandbox",
           "slot_name": "Docker, Unikernels, MicroVMs & Container Runtimes",
           "slot_icon": "\ud83d\udce6",
-          "total_alternatives": 65,
+          "total_alternatives": 66,
           "default_repo": {
             "full_name": "project-copacetic/copacetic",
             "url": "https://github.com/project-copacetic/copacetic",
@@ -15819,13 +15819,13 @@
       "monetization": "$249/mo DevSecOps automated patching & AI code sandbox API.",
       "primary_slot_name": "Docker, Unikernels, MicroVMs & Container Runtimes",
       "primary_slot_icon": "\ud83d\udce6",
-      "primary_repo_count": 65,
+      "primary_repo_count": 66,
       "slot_details": [
         {
           "slot_id": "slot_docker_sandbox",
           "slot_name": "Docker, Unikernels, MicroVMs & Container Runtimes",
           "slot_icon": "\ud83d\udce6",
-          "total_alternatives": 65,
+          "total_alternatives": 66,
           "default_repo": {
             "full_name": "project-copacetic/copacetic",
             "url": "https://github.com/project-copacetic/copacetic",
@@ -15880,27 +15880,27 @@
       "monetization": "$99/mo observability appliance with zero per-GB ingestion surprise bills.",
       "primary_slot_name": "Observability, eBPF Telemetry, Logs & Analytics",
       "primary_slot_icon": "\ud83d\udcc8",
-      "primary_repo_count": 23,
+      "primary_repo_count": 22,
       "slot_details": [
         {
           "slot_id": "slot_observability",
           "slot_name": "Observability, eBPF Telemetry, Logs & Analytics",
           "slot_icon": "\ud83d\udcc8",
-          "total_alternatives": 23,
+          "total_alternatives": 22,
           "default_repo": {
-            "full_name": "openobserve/openobserve",
-            "url": "https://github.com/openobserve/openobserve",
-            "description": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative t",
+            "full_name": "ClickHouse/ClickStack",
+            "url": "https://github.com/ClickHouse/ClickStack",
+            "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
             "language": "TypeScript",
-            "role": "Workflow & Webhook Automation",
-            "category_id": "apis-automation"
+            "role": "Developer Productivity & Tooling",
+            "category_id": "devtools-terminal"
           }
         },
         {
           "slot_id": "slot_k8s_cloud",
           "slot_name": "Kubernetes, GitOps, Service Mesh & Cloud Native",
           "slot_icon": "\u2638\ufe0f",
-          "total_alternatives": 135,
+          "total_alternatives": 136,
           "default_repo": {
             "full_name": "encoredev/encore",
             "url": "https://github.com/encoredev/encore",
@@ -16036,7 +16036,7 @@
           "slot_id": "slot_docker_sandbox",
           "slot_name": "Docker, Unikernels, MicroVMs & Container Runtimes",
           "slot_icon": "\ud83d\udce6",
-          "total_alternatives": 65,
+          "total_alternatives": 66,
           "default_repo": {
             "full_name": "project-copacetic/copacetic",
             "url": "https://github.com/project-copacetic/copacetic",
@@ -16158,7 +16158,7 @@
           "slot_id": "slot_ai_coding",
           "slot_name": "AI Coding Copilot, PR Review & Code Gen",
           "slot_icon": "\ud83d\udcbb",
-          "total_alternatives": 9,
+          "total_alternatives": 10,
           "default_repo": {
             "full_name": "mvanhorn/last30days-skill",
             "url": "https://github.com/mvanhorn/last30days-skill",
@@ -16280,7 +16280,7 @@
           "slot_id": "slot_docker_sandbox",
           "slot_name": "Docker, Unikernels, MicroVMs & Container Runtimes",
           "slot_icon": "\ud83d\udce6",
-          "total_alternatives": 65,
+          "total_alternatives": 66,
           "default_repo": {
             "full_name": "project-copacetic/copacetic",
             "url": "https://github.com/project-copacetic/copacetic",
@@ -16341,14 +16341,14 @@
           "slot_id": "slot_observability",
           "slot_name": "Observability, eBPF Telemetry, Logs & Analytics",
           "slot_icon": "\ud83d\udcc8",
-          "total_alternatives": 23,
+          "total_alternatives": 22,
           "default_repo": {
-            "full_name": "openobserve/openobserve",
-            "url": "https://github.com/openobserve/openobserve",
-            "description": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative t",
+            "full_name": "ClickHouse/ClickStack",
+            "url": "https://github.com/ClickHouse/ClickStack",
+            "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
             "language": "TypeScript",
-            "role": "Workflow & Webhook Automation",
-            "category_id": "apis-automation"
+            "role": "Developer Productivity & Tooling",
+            "category_id": "devtools-terminal"
           }
         }
       ]
@@ -16388,7 +16388,7 @@
           "slot_id": "slot_docker_sandbox",
           "slot_name": "Docker, Unikernels, MicroVMs & Container Runtimes",
           "slot_icon": "\ud83d\udce6",
-          "total_alternatives": 65,
+          "total_alternatives": 66,
           "default_repo": {
             "full_name": "project-copacetic/copacetic",
             "url": "https://github.com/project-copacetic/copacetic",
@@ -16449,7 +16449,7 @@
           "slot_id": "slot_ml_training",
           "slot_name": "Deep Learning, Fine-Tuning & ML Framework",
           "slot_icon": "\ud83d\udd2c",
-          "total_alternatives": 87,
+          "total_alternatives": 88,
           "default_repo": {
             "full_name": "tracel-ai/burn",
             "url": "https://github.com/tracel-ai/burn",
@@ -16551,13 +16551,13 @@
       "monetization": "$25/seat/mo engineering onboarding & internal developer portal.",
       "primary_slot_name": "Architecture Playbooks, Engineering Guides & Reference Stacks",
       "primary_slot_icon": "\ud83d\udcda",
-      "primary_repo_count": 72,
+      "primary_repo_count": 70,
       "slot_details": [
         {
           "slot_id": "slot_curated_playbooks",
           "slot_name": "Architecture Playbooks, Engineering Guides & Reference Stacks",
           "slot_icon": "\ud83d\udcda",
-          "total_alternatives": 72,
+          "total_alternatives": 70,
           "default_repo": {
             "full_name": "64robots/nova-fields",
             "url": "https://github.com/64robots/nova-fields",
