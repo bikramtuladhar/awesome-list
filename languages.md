@@ -1,1886 +1,1972 @@
-# ⚡ Awesome Product Remix & Builder Stacks [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
-
-> A curated, AI-classified collection of **1,700+ starred developer tools**, organized as architectural building blocks to remix, fork, and launch new products.
-
-**Live Interactive Catalog & Remix Studio:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨
-
-![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1729-blue.svg?style=flat-square) 
-![Auto Updated](https://img.shields.io/badge/AI_Classification-Google_Gemini-4285F4.svg?style=flat-square) 
-![Last Updated](https://img.shields.io/badge/Updated-2026-11-08-success.svg?style=flat-square)
-
----
-
-## 💡 Featured Product Remix Recipes
-
-How to combine tools from this list into actionable products:
-
-### 🚀 Autonomous Competitor & Price Intelligence Radar
-> **Real-time web monitoring and AI analysis micro-SaaS**
-- **Stack Formula:** `Crawl4AI / Scraper` *(RAG, Vector & Data Ingestion)* + `Ollama / vLLM` *(AI & Autonomous Agents)* + `HyperUI / Tailwind` *(UI Kits, Generative UX & Dashboards)*
-- **Product Blueprint:** Scrapes e-commerce or competitor pricing pages hourly, extracts structured product specs via local LLM without API fees, and presents change deltas in a sleek Tailwind dashboard.
-
-### 🚀 Air-Gapped Enterprise Knowledge & Compliance Assistant
-> **Private document search for regulated industries (legal/finance)**
-- **Stack Formula:** `sqlite-vec / Chroma` *(Databases, Caching & Realtime State)* + `LLMFarm / Local LLM` *(AI & Autonomous Agents)* + `Laravel Starter / Filament` *(SaaS Starters & App Boilerplates)*
-- **Product Blueprint:** An on-premise knowledge hub where sensitive enterprise contracts are embedded into an edge SQLite vector database, allowing conversational search with zero data leaving the network.
-
-### 🚀 Self-Operating Browser Workflow & Lead Gen Engine
-> **Autonomous web agents delivering high-value B2B leads**
-- **Stack Formula:** `Browser-Use / Agent` *(AI & Autonomous Agents)* + `N8N / Workflow Tool` *(APIs, Workflow Automation & Webhooks)* + `InvoBook / Billing` *(Ready-to-Remix Products & Self-Hosted Apps)*
-- **Product Blueprint:** Automates lead generation from public directories by driving headless browsers, verifying emails via webhook workers, and billing agency clients automatically via self-hosted invoicing.
-
-### 🚀 Edge Key-Value Cache & Sub-Millisecond Feature Flag Service
-> **Ultra low-latency config delivery for distributed apps**
-- **Stack Formula:** `DiceDB / Valkey` *(Databases, Caching & Realtime State)* + `Zap / High-perf Gateway` *(APIs, Workflow Automation & Webhooks)* + `Admin Dashboard` *(UI Kits, Generative UX & Dashboards)*
-- **Product Blueprint:** A distributed feature flag and remote configuration SaaS providing <1ms response times worldwide with live WebSocket updates to connected web & mobile clients.
-
----
-
-## 📑 Table of Contents
-
-- [🤖 AI & Autonomous Agents (243)](#ai-agents)
-- [🔍 RAG, Vector & Data Ingestion (35)](#rag-data-ingestion)
-- [🚀 SaaS Starters & App Boilerplates (32)](#saas-starters)
-- [🎨 UI Kits, Generative UX & Dashboards (159)](#ui-generative-ux)
-- [⚡ APIs, Workflow Automation & Webhooks (77)](#apis-automation)
-- [💾 Databases, Caching & Realtime State (122)](#data-storage-cache)
-- [🛡️ Security, Privacy & Auth Utilities (87)](#security-privacy)
-- [📦 DevOps, Sandboxes & Cloud Infra (193)](#devops-infra)
-- [🛠️ Developer Tooling & Terminal Utilities (703)](#devtools-terminal)
-- [💡 Ready-to-Remix Products & Self-Hosted Apps (78)](#ready-to-remix)
-
----
-
-## <a id="ai-agents"></a>🤖 AI & Autonomous Agents `(243)`
-
-> *Agent frameworks, LLM orchestrators, local inference runtimes, multi-agent swarms, and AI coding assistants.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[DaveBben/esp32-llm](https://github.com/DaveBben/esp32-llm)** | `Autonomous Agent / LLM Runtime` | `C` | Running a LLM on the ESP32 | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm)** | `Local LLM Inference Runtime` | `C` | llama and other  large language models on iOS and MacOS offline using GGML library. | *Power an on-premise private AI assistant* |
-| **[Tiiny-AI/PowerInfer](https://github.com/Tiiny-AI/PowerInfer)** | `Autonomous Agent / LLM Runtime` | `C++` | High-speed Large Language Model Serving for Local Deployment | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine)** | `Multi-Agent Coordination & Execution` | `C++` | Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces | *Remix with headless browser for end-to-end task automation* |
-| **[microsoft/BitNet](https://github.com/microsoft/BitNet)** | `Local LLM Inference Runtime` | `C++` | Official inference framework for 1-bit LLMs | *Power an on-premise private AI assistant* |
-| **[guinmoon/llmfarm_core.swift](https://github.com/guinmoon/llmfarm_core.swift)** | `Autonomous Agent / LLM Runtime` | `C++` | Swift library to work with llama and other large language models. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe)** | `Autonomous Agent / LLM Runtime` | `C++` | Cross-platform, customizable ML solutions for live and streaming media. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[ggml-org/ggml](https://github.com/ggml-org/ggml)** | `Local LLM Inference Runtime` | `C++` | Tensor library for machine learning | *Power an on-premise private AI assistant* |
-| **[ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp)** | `Local LLM Inference Runtime` | `C++` | Port of OpenAI's Whisper model in C/C++ | *Power an on-premise private AI assistant* |
-| **[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)** | `Local LLM Inference Runtime` | `C++` | LLM inference in C/C++ | *Power an on-premise private AI assistant* |
-| **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** | `Autonomous Agent / LLM Runtime` | `C++` | An Open Source Machine Learning Framework for Everyone | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[google/ax](https://github.com/google/ax)** | `Multi-Agent Coordination & Execution` | `Go` | Agent Executor (AX) is Google's open agentic orchestration runtime | *Remix with headless browser for end-to-end task automation* |
-| **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** | `Multi-Agent Coordination & Execution` | `Go` | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, | *Remix with headless browser for end-to-end task automation* |
-| **[labring/sealos](https://github.com/labring/sealos)** | `Multi-Agent Coordination & Execution` | `Go` | Deploy real projects from GitHub or your AI coding agent, then keep them running with AI-powered operations. | *Remix with headless browser for end-to-end task automation* |
-| **[ENTERPILOT/GoModel](https://github.com/ENTERPILOT/GoModel)** | `Local LLM Inference Runtime` | `Go` | AI gateway / AI control plane / AI proxy written in Go. Unified OpenAI-compatible and Anthropic-compatible API for OpenAI, Anthropic, Gemini, Groq, xAI, Ollama, vLLM and more. A LiteLLM alternative wi | *Power an on-premise private AI assistant* |
-| **[openberth/openberth](https://github.com/openberth/openberth)** | `Autonomous Agent / LLM Runtime` | `Go` | Self-hosted deployment platform. Give it code, get a live HTTPS URL. Supports Node.js, Python, Go, and static sites. Every    deployment runs sandboxed in gVisor. Three static Go binaries, zero runtim | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[hypermodeinc/modus](https://github.com/hypermodeinc/modus)** | `Multi-Agent Coordination & Execution` | `Go` | modus: a framework for building agentic flows powered by WebAssembly | *Remix with headless browser for end-to-end task automation* |
-| **[bomfather/minefield](https://github.com/bomfather/minefield)** | `Autonomous Agent / LLM Runtime` | `Go` | Graphing SBOM's Fast. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[netbirdio/netbird](https://github.com/netbirdio/netbird)** | `Multi-Agent Coordination & Execution` | `Go` | NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard® | *Remix with headless browser for end-to-end task automation* |
-| **[qualcomm/GenieX](https://github.com/qualcomm/GenieX)** | `Autonomous Agent / LLM Runtime` | `Go` | Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[shivasurya/code-pathfinder](https://github.com/shivasurya/code-pathfinder)** | `Multi-Agent Coordination & Execution` | `Go` | Static Code Analysis for security teams with Inter file taint analysis. Built for finding vulnerabilities, advanced structural search, derive insights and supports MCP | *Remix with headless browser for end-to-end task automation* |
-| **[clidey/whodb](https://github.com/clidey/whodb)** | `Multi-Agent Coordination & Execution` | `Go` | Where data access meets operational intelligence | *Remix with headless browser for end-to-end task automation* |
-| **[hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet)** | `Multi-Agent Coordination & Execution` | `Go` | 🪓 An orchestration engine for background tasks, AI agents, and durable workflows | *Remix with headless browser for end-to-end task automation* |
-| **[cerbos/cerbos](https://github.com/cerbos/cerbos)** | `Multi-Agent Coordination & Execution` | `Go` | Cerbos is an open-core authorization management platform for authorizing every identity and governing every action across applications, gateways, workloads, and AI agents. | *Remix with headless browser for end-to-end task automation* |
-| **[coder/coder](https://github.com/coder/coder)** | `Multi-Agent Coordination & Execution` | `Go` | Secure environments for developers and their agents | *Remix with headless browser for end-to-end task automation* |
-| **[kubeshark/kubeshark](https://github.com/kubeshark/kubeshark)** | `Multi-Agent Coordination & Execution` | `Go` | eBPF-powered network observability for Kubernetes. Indexes L4/L7 traffic with full K8s context, decrypts TLS without keys. Queryable by AI agents via MCP and humans via dashboard. | *Remix with headless browser for end-to-end task automation* |
-| **[acheong08/ChatGPT-API-server](https://github.com/acheong08/ChatGPT-API-server)** | `Autonomous Agent / LLM Runtime` | `Go` | API server for ChatGPT | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[flyteorg/flyte](https://github.com/flyteorg/flyte)** | `Multi-Agent Coordination & Execution` | `Go` | Type-safe, distributed orchestration of agents, ML pipelines, and real-time inference on your k8s — in pure Python with async/await, also other languages (rust, go and ts) | *Remix with headless browser for end-to-end task automation* |
-| **[JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)** | `Autonomous Agent / LLM Runtime` | `Go` | The most customisable and low-latency cross platform/shell prompt renderer | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[loft-sh/vcluster](https://github.com/loft-sh/vcluster)** | `Local LLM Inference Runtime` | `Go` | vCluster creates tenant clusters: fully isolated environments delivered as managed Kubernetes, or as the foundation for Slurm, Ray, Run:ai and inference clusters. Each gets its own API server, CRDs an | *Power an on-premise private AI assistant* |
-| **[dagger/dagger](https://github.com/dagger/dagger)** | `Multi-Agent Coordination & Execution` | `Go` | Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud | *Remix with headless browser for end-to-end task automation* |
-| **[YaoApp/yao](https://github.com/YaoApp/yao)** | `Multi-Agent Coordination & Execution` | `Go` | ✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted. | *Remix with headless browser for end-to-end task automation* |
-| **[dapr/dapr](https://github.com/dapr/dapr)** | `Multi-Agent Coordination & Execution` | `Go` | Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration. | *Remix with headless browser for end-to-end task automation* |
-| **[kubesphere/kubesphere](https://github.com/kubesphere/kubesphere)** | `Multi-Agent Coordination & Execution` | `Go` | The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️ | *Remix with headless browser for end-to-end task automation* |
-| **[dolthub/dolt](https://github.com/dolthub/dolt)** | `Multi-Agent Coordination & Execution` | `Go` | Dolt – Git for Data | *Remix with headless browser for end-to-end task automation* |
-| **[vava-nessa/free-coding-models](https://github.com/vava-nessa/free-coding-models)** | `Autonomous Agent / LLM Runtime` | `HTML` | Find, benchmark and install in CLI 170+ FREE coding LLM models across 15+ providers in real time | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[planetscale/database-skills](https://github.com/planetscale/database-skills)** | `Multi-Agent Coordination & Execution` | `HTML` | Skills for AI agents working with databases | *Remix with headless browser for end-to-end task automation* |
-| **[Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured)** | `Autonomous Agent / LLM Runtime` | `HTML` | Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[ToolJet/ToolJet](https://github.com/ToolJet/ToolJet)** | `Multi-Agent Coordination & Execution` | `HTML` | Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Cla | *Remix with headless browser for end-to-end task automation* |
-| **[kestra-io/kestra](https://github.com/kestra-io/kestra)** | `Multi-Agent Coordination & Execution` | `Java` | Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-version | *Remix with headless browser for end-to-end task automation* |
-| **[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)** | `Multi-Agent Coordination & Execution` | `JavaScript` | A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings | *Remix with headless browser for end-to-end task automation* |
-| **[tt-a1i/archify](https://github.com/tt-a1i/archify)** | `Multi-Agent Coordination & Execution` | `JavaScript` | Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more. | *Remix with headless browser for end-to-end task automation* |
-| **[darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent)** | `Multi-Agent Coordination & Execution` | `JavaScript` | 🎬 Open-source, self-hosted AI agent that runs a YouTube channel end to end: researches topics, writes scripts, generates narration, visuals and video, optimizes SEO, and publishes after your approval, | *Remix with headless browser for end-to-end task automation* |
-| **[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** | `Multi-Agent Coordination & Execution` | `JavaScript` | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | *Remix with headless browser for end-to-end task automation* |
-| **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** | `Multi-Agent Coordination & Execution` | `JavaScript` | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an applicat | *Remix with headless browser for end-to-end task automation* |
-| **[thepersonalaicompany/amurex](https://github.com/thepersonalaicompany/amurex)** | `Autonomous Agent / LLM Runtime` | `JavaScript` | World's first AI meeting copilot → The Invisible Companion for Work + Life | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[microsoft/TypeChat](https://github.com/microsoft/TypeChat)** | `Autonomous Agent / LLM Runtime` | `JavaScript` | TypeChat is a library that makes it easy to build natural language interfaces using types. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[naptha/tesseract.js](https://github.com/naptha/tesseract.js)** | `Autonomous Agent / LLM Runtime` | `JavaScript` | Pure Javascript OCR for more than 100 Languages 📖🎉🖥 | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[neuroneural/brainchop](https://github.com/neuroneural/brainchop)** | `Autonomous Agent / LLM Runtime` | `JavaScript` | Brainchop: In-browser 3D MRI rendering and segmentation | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[di-sukharev/opencommit](https://github.com/di-sukharev/opencommit)** | `Local LLM Inference Runtime` | `JavaScript` | top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with Claude, GPT and every other provider, supports local Ollama models too | *Power an on-premise private AI assistant* |
-| **[mpociot/llamero](https://github.com/mpociot/llamero)** | `Autonomous Agent / LLM Runtime` | `JavaScript` | A GUI application to easily try out Facebook's LLaMA models. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[schibsted/WAAS](https://github.com/schibsted/WAAS)** | `Autonomous Agent / LLM Runtime` | `JavaScript` | Whisper as a Service (GUI and API with queuing for OpenAI Whisper) | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[neomjs/neo](https://github.com/neomjs/neo)** | `Multi-Agent Coordination & Execution` | `JavaScript` | Neo.mjs is a self-evolving software organism: a professional end-to-end AI engineering team whose cross-model swarm inhabits live apps via Neural Link, Active Hybrid GraphRAG, DreamService, and self-h | *Remix with headless browser for end-to-end task automation* |
-| **[AMAI-GmbH/AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)** | `Autonomous Agent / LLM Runtime` | `JavaScript` | Roadmap to becoming an Artificial Intelligence Expert in 2022 | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)** | `Multi-Agent Coordination & Execution` | `Jupyter Notebook` | Sample code and notebooks for Generative AI on Google Cloud, with Gemini platform | *Remix with headless browser for end-to-end task automation* |
-| **[reworkd/tarsier](https://github.com/reworkd/tarsier)** | `Multi-Agent Coordination & Execution` | `Jupyter Notebook` | Vision utilities for web interaction agents 👀 | *Remix with headless browser for end-to-end task automation* |
-| **[AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)** | `Autonomous Agent / LLM Runtime` | `Jupyter Notebook` | FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[openai/openai-cookbook](https://github.com/openai/openai-cookbook)** | `Autonomous Agent / LLM Runtime` | `Jupyter Notebook` | Examples and guides for using the OpenAI API | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[mindsdb/mindshub](https://github.com/mindsdb/mindshub)** | `Multi-Agent Coordination & Execution` | `Makefile` | The unified workspace where open-source models get things done for you. | *Remix with headless browser for end-to-end task automation* |
-| **[mozilla-ai/wasm-agents-blueprint](https://github.com/mozilla-ai/wasm-agents-blueprint)** | `Multi-Agent Coordination & Execution` | `Others` | Testing WASM-powered AI agents | *Remix with headless browser for end-to-end task automation* |
-| **[varungodbole/prompt-tuning-playbook](https://github.com/varungodbole/prompt-tuning-playbook)** | `Autonomous Agent / LLM Runtime` | `Others` | A playbook for effectively prompting post-trained LLMs | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[open-llm-initiative/open-message-format](https://github.com/open-llm-initiative/open-message-format)** | `Multi-Agent Coordination & Execution` | `Others` | OMF is a compact, user-friendly specification that defines a lightweight API contract between client and server for building conversational agents, and defines a standard schema for the "messages" obj | *Remix with headless browser for end-to-end task automation* |
-| **[daytonaio/daytona](https://github.com/daytonaio/daytona)** | `Multi-Agent Coordination & Execution` | `Others` | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code | *Remix with headless browser for end-to-end task automation* |
-| **[tembo/tembo](https://github.com/tembo/tembo)** | `Multi-Agent Coordination & Execution` | `Others` | Open source tool | *Remix with headless browser for end-to-end task automation* |
-| **[eugeneyan/open-llms](https://github.com/eugeneyan/open-llms)** | `Autonomous Agent / LLM Runtime` | `Others` | 📋 A list of open LLMs available for commercial use. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[openlm-research/open_llama](https://github.com/openlm-research/open_llama)** | `Autonomous Agent / LLM Runtime` | `Others` | OpenLLaMA, a permissively licensed open source reproduction of Meta AI’s LLaMA 7B trained on the RedPajama dataset | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[maxwell-bland/copilot-in-the-terminal](https://github.com/maxwell-bland/copilot-in-the-terminal)** | `Autonomous Agent / LLM Runtime` | `Others` | Hack to get Github Copilot working in the terminal with bash | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[Avik-Jain/100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code)** | `Autonomous Agent / LLM Runtime` | `Others` | 100 Days of ML Coding | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[joshcirre/instruckt-laravel](https://github.com/joshcirre/instruckt-laravel)** | `Multi-Agent Coordination & Execution` | `PHP` | A visual feedback tool for your agentic Laravel workflow. | *Remix with headless browser for end-to-end task automation* |
-| **[AndreySokolov247/XSS-AGENT](https://github.com/AndreySokolov247/XSS-AGENT)** | `Multi-Agent Coordination & Execution` | `PHP` | Autonomous AI C2 | *Remix with headless browser for end-to-end task automation* |
-| **[matomo-org/device-detector](https://github.com/matomo-org/device-detector)** | `Multi-Agent Coordination & Execution` | `PHP` | The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model. | *Remix with headless browser for end-to-end task automation* |
-| **[google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model)** | `Multi-Agent Coordination & Execution` | `Python` | Open-source plugin for designing and reviewing software with agents | *Remix with headless browser for end-to-end task automation* |
-| **[GooeyAI/goosio](https://github.com/GooeyAI/goosio)** | `Multi-Agent Coordination & Execution` | `Python` | The open-source, drop-in replacement for Composio. A unified API that connects AI agents to hundreds of SaaS tools. | *Remix with headless browser for end-to-end task automation* |
-| **[microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer)** | `Multi-Agent Coordination & Execution` | `Python` | Experience-Driven Black-Box Cost Control for Coding Agents | *Remix with headless browser for end-to-end task automation* |
-| **[tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness)** | `Multi-Agent Coordination & Execution` | `Python` | Building the self-learning layer next-gen agents will ship with, learning skills from real work. | *Remix with headless browser for end-to-end task automation* |
-| **[google/mantis](https://github.com/google/mantis)** | `Multi-Agent Coordination & Execution` | `Python` | A modular, stack-agnostic toolkit for AI coding agents to autonomously find, reproduce, and patch vulnerabilities. | *Remix with headless browser for end-to-end task automation* |
-| **[VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)** | `Multi-Agent Coordination & Execution` | `Python` | 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG | *Remix with headless browser for end-to-end task automation* |
-| **[jundot/omlx](https://github.com/jundot/omlx)** | `Local LLM Inference Runtime` | `Python` | LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar | *Power an on-premise private AI assistant* |
-| **[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)** | `Multi-Agent Coordination & Execution` | `Python` | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary | *Remix with headless browser for end-to-end task automation* |
-| **[unslothai/unsloth](https://github.com/unslothai/unsloth)** | `Multi-Agent Coordination & Execution` | `Python` | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. | *Remix with headless browser for end-to-end task automation* |
-| **[CodeBoarding/CodeBoarding](https://github.com/CodeBoarding/CodeBoarding)** | `Multi-Agent Coordination & Execution` | `Python` | Interactive architecture diagrams for codebases | *Remix with headless browser for end-to-end task automation* |
-| **[cactus-compute/cactus](https://github.com/cactus-compute/cactus)** | `Multi-Agent Coordination & Execution` | `Python` | Sub-50mb agentic, voice and vision intelligence for consumer devices. | *Remix with headless browser for end-to-end task automation* |
-| **[CelestoAI/celesto](https://github.com/CelestoAI/celesto)** | `Multi-Agent Coordination & Execution` | `Python` | Secure and persistent computer for AI agents | *Remix with headless browser for end-to-end task automation* |
-| **[yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph)** | `Multi-Agent Coordination & Execution` | `Python` | Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns. | *Remix with headless browser for end-to-end task automation* |
-| **[nlethetech/nepse-quant-terminal](https://github.com/nlethetech/nepse-quant-terminal)** | `Multi-Agent Coordination & Execution` | `Python` | Terminal-based NEPSE quant trading dashboard with paper trading, backtesting, analytics, and AI agent support. | *Remix with headless browser for end-to-end task automation* |
-| **[Ibrahim-3d/orchestrator-supaconductor](https://github.com/Ibrahim-3d/orchestrator-supaconductor)** | `Multi-Agent Coordination & Execution` | `Python` | Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills | *Remix with headless browser for end-to-end task automation* |
-| **[Pickle-Pixel/ApplyPilot](https://github.com/Pickle-Pixel/ApplyPilot)** | `Multi-Agent Coordination & Execution` | `Python` | AI agent that applies to jobs for you. Any site. Any form. | *Remix with headless browser for end-to-end task automation* |
-| **[allenai/olmocr](https://github.com/allenai/olmocr)** | `Autonomous Agent / LLM Runtime` | `Python` | Toolkit for linearizing PDFs for LLM datasets/training | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[bytedance/UI-TARS](https://github.com/bytedance/UI-TARS)** | `Multi-Agent Coordination & Execution` | `Python` | Pioneering Automated GUI Interaction with Native Agents | *Remix with headless browser for end-to-end task automation* |
-| **[Canner/WrenAI](https://github.com/Canner/WrenAI)** | `Multi-Agent Coordination & Execution` | `Python` | GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data s | *Remix with headless browser for end-to-end task automation* |
-| **[microsoft/markitdown](https://github.com/microsoft/markitdown)** | `Autonomous Agent / LLM Runtime` | `Python` | Python tool for converting files and office documents to Markdown. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[langchain-ai/retrieval-agent-template](https://github.com/langchain-ai/retrieval-agent-template)** | `Multi-Agent Coordination & Execution` | `Python` | Open source tool | *Remix with headless browser for end-to-end task automation* |
-| **[datachain-ai/datachain](https://github.com/datachain-ai/datachain)** | `Multi-Agent Coordination & Execution` | `Python` | The Context Layer for unstructured data: typed, versioned datasets over S3, GCS, Azure | *Remix with headless browser for end-to-end task automation* |
-| **[opendatalab/MinerU](https://github.com/opendatalab/MinerU)** | `Multi-Agent Coordination & Execution` | `Python` | Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows. | *Remix with headless browser for end-to-end task automation* |
-| **[ZGC-LLM-Safety/TrafficLLM](https://github.com/ZGC-LLM-Safety/TrafficLLM)** | `Autonomous Agent / LLM Runtime` | `Python` | The repository of TrafficLLM, a universal LLM adaptation framework to learn robust traffic representation for all open-sourced LLM in real-world scenarios and enhance the generalization across diverse | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[yoheinakajima/ditto](https://github.com/yoheinakajima/ditto)** | `Multi-Agent Coordination & Execution` | `Python` | the simplest self-building coding agent | *Remix with headless browser for end-to-end task automation* |
-| **[VikParuchuri/tabled](https://github.com/VikParuchuri/tabled)** | `Autonomous Agent / LLM Runtime` | `Python` | Detect and extract tables to markdown and csv | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[vectra-ai-research/Halberd](https://github.com/vectra-ai-research/Halberd)** | `Multi-Agent Coordination & Execution` | `Python` | Halberd : Multi-Cloud Agentic Attack Tool | *Remix with headless browser for end-to-end task automation* |
-| **[openai/swarm](https://github.com/openai/swarm)** | `Multi-Agent Coordination & Execution` | `Python` | Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team. | *Remix with headless browser for end-to-end task automation* |
-| **[sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot)** | `Multi-Agent Coordination & Execution` | `Python` | Sourcebot is a self-hosted tool that helps humans and agents understand your codebase. | *Remix with headless browser for end-to-end task automation* |
-| **[Ravi-Teja-konda/Surveillance_Video_Summarizer](https://github.com/Ravi-Teja-konda/Surveillance_Video_Summarizer)** | `Autonomous Agent / LLM Runtime` | `Python` | VLM driven tool that processes surveillance videos, extracts frames, and generates insightful annotations using a fine-tuned Florence-2 Vision-Language Model. Includes a Gradio-based interface for que | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[MadcowD/ell](https://github.com/MadcowD/ell)** | `Autonomous Agent / LLM Runtime` | `Python` | A language model programming library. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[dailenson/One-DM](https://github.com/dailenson/One-DM)** | `Autonomous Agent / LLM Runtime` | `Python` | Official Code for ECCV 2024 paper — One-Shot Diffusion Mimicker for Handwritten Text Generation | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[Storia-AI/sage](https://github.com/Storia-AI/sage)** | `Autonomous Agent / LLM Runtime` | `Python` | Chat with any codebase in under two minutes \| Fully local or via third-party APIs | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)** | `Autonomous Agent / LLM Runtime` | `Python` | A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[katanaml/sparrow](https://github.com/katanaml/sparrow)** | `Multi-Agent Coordination & Execution` | `Python` | Structured data extraction, instruction calling and agentic workflows with ML, LLM and Vision LLM | *Remix with headless browser for end-to-end task automation* |
-| **[mem0ai/mem0](https://github.com/mem0ai/mem0)** | `Multi-Agent Coordination & Execution` | `Python` | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production. | *Remix with headless browser for end-to-end task automation* |
-| **[langflow-ai/langflow](https://github.com/langflow-ai/langflow)** | `Multi-Agent Coordination & Execution` | `Python` | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | *Remix with headless browser for end-to-end task automation* |
-| **[huggingface/parler-tts](https://github.com/huggingface/parler-tts)** | `Local LLM Inference Runtime` | `Python` | Inference and training library for high-quality TTS models. | *Power an on-premise private AI assistant* |
-| **[zai-org/CogVideo](https://github.com/zai-org/CogVideo)** | `Autonomous Agent / LLM Runtime` | `Python` | text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023) | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[pytorch/torchchat](https://github.com/pytorch/torchchat)** | `Autonomous Agent / LLM Runtime` | `Python` | Run PyTorch LLMs locally on servers, desktop and mobile | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[patched-codes/patchwork](https://github.com/patched-codes/patchwork)** | `Multi-Agent Coordination & Execution` | `Python` | Agentic AI framework for enterprise workflow automation. | *Remix with headless browser for end-to-end task automation* |
-| **[randombk/llm2sh](https://github.com/randombk/llm2sh)** | `Autonomous Agent / LLM Runtime` | `Python` | Ask GPT to run a command | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)** | `Autonomous Agent / LLM Runtime` | `Python` | A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with ea | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[welldone-cloud/aws-summarize-account-activity](https://github.com/welldone-cloud/aws-summarize-account-activity)** | `Multi-Agent Coordination & Execution` | `Python` | Analyzes CloudTrail data of a given AWS account and generates a summary of recently active IAM principals, API calls they made, as well as regions, IP addresses and user agents they used. | *Remix with headless browser for end-to-end task automation* |
-| **[jiacai2050/shellgpt](https://github.com/jiacai2050/shellgpt)** | `Autonomous Agent / LLM Runtime` | `Python` | Chat with LLM in your terminal, be it shell generator, story teller, linux-terminal, etc. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[lavague-ai/LaVague](https://github.com/lavague-ai/LaVague)** | `Multi-Agent Coordination & Execution` | `Python` | Large Action Model framework to develop AI Web Agents | *Remix with headless browser for end-to-end task automation* |
-| **[Dataherald/dataherald](https://github.com/Dataherald/dataherald)** | `Autonomous Agent / LLM Runtime` | `Python` | Interact with your SQL database, Natural Language to SQL using LLMs | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[qodo-ai/qodo-cover](https://github.com/qodo-ai/qodo-cover)** | `Multi-Agent Coordination & Execution` | `Python` | Qodo-Cover: An AI-Powered Tool for Automated Test Generation and Code Coverage Enhancement! 💻🤖🧪🐞 | *Remix with headless browser for end-to-end task automation* |
-| **[entropy-research/Devon](https://github.com/entropy-research/Devon)** | `Multi-Agent Coordination & Execution` | `Python` | Devon: An open-source pair programmer | *Remix with headless browser for end-to-end task automation* |
-| **[McGill-NLP/webllama](https://github.com/McGill-NLP/webllama)** | `Multi-Agent Coordination & Execution` | `Python` | Llama-3 agents that can browse the web by following instructions and talking to you | *Remix with headless browser for end-to-end task automation* |
-| **[pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat)** | `Multi-Agent Coordination & Execution` | `Python` | Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community. | *Remix with headless browser for end-to-end task automation* |
-| **[phospho-app/text-analytics-legacy](https://github.com/phospho-app/text-analytics-legacy)** | `Autonomous Agent / LLM Runtime` | `Python` | Legacy project of an analytics platform for LLM-generated content | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R)** | `Multi-Agent Coordination & Execution` | `Python` | SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API. | *Remix with headless browser for end-to-end task automation* |
-| **[llmware-ai/llmware](https://github.com/llmware-ai/llmware)** | `Multi-Agent Coordination & Execution` | `Python` | Unified framework for building enterprise RAG pipelines with small, specialized models | *Remix with headless browser for end-to-end task automation* |
-| **[paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** | `Autonomous Agent / LLM Runtime` | `Python` | A community-supported supercharged document management system: scan, index and archive all your documents | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[ShishirPatil/gorilla](https://github.com/ShishirPatil/gorilla)** | `Autonomous Agent / LLM Runtime` | `Python` | Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls) | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[georgia-tech-db/evadb](https://github.com/georgia-tech-db/evadb)** | `Multi-Agent Coordination & Execution` | `Python` | Database system for AI-powered apps | *Remix with headless browser for end-to-end task automation* |
-| **[r2d4/openlm](https://github.com/r2d4/openlm)** | `Autonomous Agent / LLM Runtime` | `Python` | OpenAI-compatible Python client that can call any LLM | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[smol-ai/developer](https://github.com/smol-ai/developer)** | `Multi-Agent Coordination & Execution` | `Python` | the first library to let you embed a developer agent in your own app! | *Remix with headless browser for end-to-end task automation* |
-| **[langgenius/dify](https://github.com/langgenius/dify)** | `Multi-Agent Coordination & Execution` | `Python` | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without reb | *Remix with headless browser for end-to-end task automation* |
-| **[PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT)** | `Autonomous Agent / LLM Runtime` | `Python` | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[vllm-project/vllm](https://github.com/vllm-project/vllm)** | `Local LLM Inference Runtime` | `Python` | A high-throughput and memory-efficient inference and serving engine for LLMs | *Power an on-premise private AI assistant* |
-| **[mlfoundations/open_clip](https://github.com/mlfoundations/open_clip)** | `Autonomous Agent / LLM Runtime` | `Python` | An open source implementation of CLIP. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[jmisilo/clip-gpt-captioning](https://github.com/jmisilo/clip-gpt-captioning)** | `Autonomous Agent / LLM Runtime` | `Python` | CLIPxGPT Captioner is Image Captioning Model based on OpenAI's CLIP and GPT-2. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[p0n1/epub_to_audiobook](https://github.com/p0n1/epub_to_audiobook)** | `Autonomous Agent / LLM Runtime` | `Python` | EPUB to audiobook converter, optimized for Audiobookshelf, WebUI included | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT)** | `Multi-Agent Coordination & Execution` | `Python` | open-source agentic AI data assistant for the next generation of AI + Data products. | *Remix with headless browser for end-to-end task automation* |
-| **[OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow)** | `Local LLM Inference Runtime` | `Python` | An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All. | *Power an on-premise private AI assistant* |
-| **[e2b-dev/E2B](https://github.com/e2b-dev/E2B)** | `Multi-Agent Coordination & Execution` | `Python` | Open-source, secure environment with real-world tools for enterprise-grade agents. | *Remix with headless browser for end-to-end task automation* |
-| **[jdagdelen/hyperDB](https://github.com/jdagdelen/hyperDB)** | `Multi-Agent Coordination & Execution` | `Python` | A hyper-fast local vector database for use with LLM Agents. Now accepting SAFEs at $135M cap. | *Remix with headless browser for end-to-end task automation* |
-| **[griptape-ai/griptape](https://github.com/griptape-ai/griptape)** | `Multi-Agent Coordination & Execution` | `Python` | Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory. | *Remix with headless browser for end-to-end task automation* |
-| **[bigcode-project/starcoder](https://github.com/bigcode-project/starcoder)** | `Local LLM Inference Runtime` | `Python` | Home of StarCoder: fine-tuning & inference! | *Power an on-premise private AI assistant* |
-| **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** | `Multi-Agent Coordination & Execution` | `Python` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | *Remix with headless browser for end-to-end task automation* |
-| **[bigscience-workshop/petals](https://github.com/bigscience-workshop/petals)** | `Local LLM Inference Runtime` | `Python` | 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading | *Power an on-premise private AI assistant* |
-| **[openai/whisper](https://github.com/openai/whisper)** | `Autonomous Agent / LLM Runtime` | `Python` | Robust Speech Recognition via Large-Scale Weak Supervision | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[tonybeltramelli/pix2code](https://github.com/tonybeltramelli/pix2code)** | `Autonomous Agent / LLM Runtime` | `Python` | pix2code: Generating Code from a Graphical User Interface Screenshot | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[meta-llama/llama](https://github.com/meta-llama/llama)** | `Local LLM Inference Runtime` | `Python` | Inference code for Llama models | *Power an on-premise private AI assistant* |
-| **[LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant)** | `Autonomous Agent / LLM Runtime` | `Python` | OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot)** | `Autonomous Agent / LLM Runtime` | `Python` | FauxPilot - an open-source alternative to GitHub Copilot server | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[kuprel/min-dalle](https://github.com/kuprel/min-dalle)** | `Autonomous Agent / LLM Runtime` | `Python` | min(DALL·E) is a fast, minimal port of DALL·E Mini to PyTorch | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[permitio/opal](https://github.com/permitio/opal)** | `Multi-Agent Coordination & Execution` | `Python` | Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...) | *Remix with headless browser for end-to-end task automation* |
-| **[Layout-Parser/layout-parser](https://github.com/Layout-Parser/layout-parser)** | `Autonomous Agent / LLM Runtime` | `Python` | A Unified Toolkit for Deep Learning Based Document Image Analysis | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade)** | `Multi-Agent Coordination & Execution` | `Python` | An open source reinforcement learning framework for training, evaluating, and deploying robust trading agents. | *Remix with headless browser for end-to-end task automation* |
-| **[deepfakes/faceswap](https://github.com/deepfakes/faceswap)** | `Autonomous Agent / LLM Runtime` | `Python` | Deepfakes Software For All | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)** | `Autonomous Agent / LLM Runtime` | `Python` | Clone a voice in 5 seconds to generate arbitrary speech in real-time | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[ubicloud/ubicloud](https://github.com/ubicloud/ubicloud)** | `Local LLM Inference Runtime` | `Ruby` | Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services. | *Power an on-premise private AI assistant* |
-| **[huginn/huginn](https://github.com/huginn/huginn)** | `Multi-Agent Coordination & Execution` | `Ruby` | Create agents that monitor and act on your behalf.  Your agents are standing by! | *Remix with headless browser for end-to-end task automation* |
-| **[rustrak/rustrak](https://github.com/rustrak/rustrak)** | `Multi-Agent Coordination & Execution` | `Rust` | Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL. | *Remix with headless browser for end-to-end task automation* |
-| **[ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)** | `Multi-Agent Coordination & Execution` | `Rust` | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. | *Remix with headless browser for end-to-end task automation* |
-| **[run-llama/liteparse](https://github.com/run-llama/liteparse)** | `Autonomous Agent / LLM Runtime` | `Rust` | A fast, helpful, and open-source document parser | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[zerobootdev/zeroboot](https://github.com/zerobootdev/zeroboot)** | `Multi-Agent Coordination & Execution` | `Rust` | Sub-millisecond VM sandboxes for AI agents via copy-on-write forking | *Remix with headless browser for end-to-end task automation* |
-| **[jehna/humanify](https://github.com/jehna/humanify)** | `Autonomous Agent / LLM Runtime` | `Rust` | Deobfuscate Javascript code using ChatGPT | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[metalbear-co/mirrord](https://github.com/metalbear-co/mirrord)** | `Multi-Agent Coordination & Execution` | `Rust` | Run any process, on your machine or in an AI agent's environment, as if it were a pod in your Kubernetes cluster: real env vars, DNS, network, traffic. | *Remix with headless browser for end-to-end task automation* |
-| **[spiceai/spiceai](https://github.com/spiceai/spiceai)** | `Multi-Agent Coordination & Execution` | `Rust` | Add a real-time analytics node to your operational database. Spice is a portable, accelerated SQL query, search, and LLM-inference engine in Rust for data-grounded AI apps and agents. | *Remix with headless browser for end-to-end task automation* |
-| **[microsoft/aici](https://github.com/microsoft/aici)** | `Autonomous Agent / LLM Runtime` | `Rust` | AICI: Prompts as (Wasm) Programs | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[google/magika](https://github.com/google/magika)** | `Autonomous Agent / LLM Runtime` | `Rust` | Fast and accurate AI powered file content types detection | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter)** | `Multi-Agent Coordination & Execution` | `Rust` | A coding agent for open models like Kimi K3 and GLM 5.3 | *Remix with headless browser for end-to-end task automation* |
-| **[tracel-ai/burn](https://github.com/tracel-ai/burn)** | `Autonomous Agent / LLM Runtime` | `Rust` | Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[lance-format/lance](https://github.com/lance-format/lance)** | `Autonomous Agent / LLM Runtime` | `Rust` | Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[rustformers/llm](https://github.com/rustformers/llm)** | `Autonomous Agent / LLM Runtime` | `Rust` | [Unmaintained, see README] An ecosystem of Rust libraries for working with large language models | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb)** | `Multi-Agent Coordination & Execution` | `Rust` | The open-source observability database. One columnar engine for metrics, logs, and traces, on object storage. | *Remix with headless browser for end-to-end task automation* |
-| **[vercel/turborepo](https://github.com/vercel/turborepo)** | `Multi-Agent Coordination & Execution` | `Rust` | The build system for coding agents. | *Remix with headless browser for end-to-end task automation* |
-| **[cube-js/cube](https://github.com/cube-js/cube)** | `Multi-Agent Coordination & Execution` | `Rust` | 📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics | *Remix with headless browser for end-to-end task automation* |
-| **[risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave)** | `Multi-Agent Coordination & Execution` | `Rust` | Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale. | *Remix with headless browser for end-to-end task automation* |
-| **[nikivdev/code](https://github.com/nikivdev/code)** | `Multi-Agent Coordination & Execution` | `Rust` | Open source tool | *Remix with headless browser for end-to-end task automation* |
-| **[mattpocock/skills](https://github.com/mattpocock/skills)** | `Multi-Agent Coordination & Execution` | `Shell` | Skills for Real Engineers. Straight from my .agents directory. | *Remix with headless browser for end-to-end task automation* |
-| **[GaiaNet-AI/gaianet-node](https://github.com/GaiaNet-AI/gaianet-node)** | `Multi-Agent Coordination & Execution` | `Shell` | Install, run and deploy your own decentralized AI agent service | *Remix with headless browser for end-to-end task automation* |
-| **[osaurus-ai/osaurus](https://github.com/osaurus-ai/osaurus)** | `Multi-Agent Coordination & Execution` | `Swift` | Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source. | *Remix with headless browser for end-to-end task automation* |
-| **[johnbean393/Sidekick](https://github.com/johnbean393/Sidekick)** | `Multi-Agent Coordination & Execution` | `Swift` | A native macOS app that allows users to chat with a local LLM that can respond with information from files, folders and websites on your Mac without installing any other software. Powered by llama.cpp | *Remix with headless browser for end-to-end task automation* |
-| **[singe/tidcli](https://github.com/singe/tidcli)** | `Autonomous Agent / LLM Runtime` | `Swift` | A simple touchID prompt'er for use in shell scripts. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[backnotprop/pstack](https://github.com/backnotprop/pstack)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Use pstack with claude, codex, pi - Skills and principles for rigorous AI-assisted engineering | *Remix with headless browser for end-to-end task automation* |
-| **[wong2/cf-mailroom](https://github.com/wong2/cf-mailroom)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Self-hosted email for humans and AI agents, entirely on Cloudflare | *Remix with headless browser for end-to-end task automation* |
-| **[dream-num/univer](https://github.com/dream-num/univer)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. | *Remix with headless browser for end-to-end task automation* |
-| **[BetterWright/betterwright](https://github.com/BetterWright/betterwright)** | `Multi-Agent Coordination & Execution` | `TypeScript` | A persistent, policy-guarded Playwright browser for AI agents — network policy, encrypted credential vault, proof screenshots, and CAPTCHA solving. | *Remix with headless browser for end-to-end task automation* |
-| **[trailhq/Trail-Code](https://github.com/trailhq/Trail-Code)** | `Multi-Agent Coordination & Execution` | `TypeScript` | One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off. | *Remix with headless browser for end-to-end task automation* |
-| **[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)** | `Multi-Agent Coordination & Execution` | `TypeScript` | TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, s | *Remix with headless browser for end-to-end task automation* |
-| **[oblien/openship](https://github.com/oblien/openship)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Self-hosted deployment platform | *Remix with headless browser for end-to-end task automation* |
-| **[tetherto/qvac](https://github.com/tetherto/qvac)** | `Local LLM Inference Runtime` | `TypeScript` | Open-source local AI SDK - run AI on-device with no cloud, no API keys. Supports GGUF, RAG, image, music, and video generation, speech-to-text, P2P inference, and more. Cross-platform: Linux, macOS, W | *Power an on-premise private AI assistant* |
-| **[garrytan/gstack](https://github.com/garrytan/gstack)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference | *Remix with headless browser for end-to-end task automation* |
-| **[ParadevAI/Paradev](https://github.com/ParadevAI/Paradev)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions. | *Remix with headless browser for end-to-end task automation* |
-| **[johannesjo/parallel-code](https://github.com/johannesjo/parallel-code)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree | *Remix with headless browser for end-to-end task automation* |
-| **[IgorShadurin/app.yumcut.com](https://github.com/IgorShadurin/app.yumcut.com)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | YumCut - free AI video generator to turn a prompt into ready vertical videos for TikTok, Reels and YouTube Shorts. Auto script, scenes, voiceover, subtitles and watermark. Built with Next.js. Local-fi | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[moazbuilds/CodeMachine-CLI](https://github.com/moazbuilds/CodeMachine-CLI)** | `Multi-Agent Coordination & Execution` | `TypeScript` | CodeMachine is an open-source tool that orchestrates AI coding agents into repeatable, long-running workflows. ⚡️ | *Remix with headless browser for end-to-end task automation* |
-| **[goatplatform/goatdb](https://github.com/goatplatform/goatdb)** | `Multi-Agent Coordination & Execution` | `TypeScript` | A peer-to-peer database that spans devices. For apps and agents that work everywhere. | *Remix with headless browser for end-to-end task automation* |
-| **[bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | *Remix with headless browser for end-to-end task automation* |
-| **[sauravpanda/BrowserAI](https://github.com/sauravpanda/BrowserAI)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser | *Remix with headless browser for end-to-end task automation* |
-| **[mastra-ai/mastra](https://github.com/mastra-ai/mastra)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Mastra is the modern TypeScript framework for AI-powered applications and agents. | *Remix with headless browser for end-to-end task automation* |
-| **[stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | Prompt, run, edit, and deploy full-stack web applications using any LLM you want! | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[callstackincubator/cali](https://github.com/callstackincubator/cali)** | `Multi-Agent Coordination & Execution` | `TypeScript` | AI agent for building React Native apps | *Remix with headless browser for end-to-end task automation* |
-| **[steel-dev/steel-browser](https://github.com/steel-dev/steel-browser)** | `Multi-Agent Coordination & Execution` | `TypeScript` | 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure. | *Remix with headless browser for end-to-end task automation* |
-| **[browserbase/stagehand](https://github.com/browserbase/stagehand)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastra, and more. | *Remix with headless browser for end-to-end task automation* |
-| **[mlc-ai/web-llm-chat](https://github.com/mlc-ai/web-llm-chat)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[FrigadeHQ/trench](https://github.com/FrigadeHQ/trench)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | Trench — Open-Source Analytics Infrastructure. A single production-ready Docker image built on ClickHouse, Kafka, and Node.js for tracking events. Easily build product analytics dashboards, LLM RAGs, | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[transitive-bullshit/openai-realtime-api](https://github.com/transitive-bullshit/openai-realtime-api)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | TypeScript client for OpenAI's realtime voice API. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[yamadashy/repomix](https://github.com/yamadashy/repomix)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like C | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)** | `Multi-Agent Coordination & Execution` | `TypeScript` | An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作 | *Remix with headless browser for end-to-end task automation* |
-| **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | OpenEverest is an open-source platform for automated database, storage and LLMs provisioning and management. It supports multiple technologies and can be hosted on any Kubernetes infrastructure, in th | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[evolution-foundation/evolution-api](https://github.com/evolution-foundation/evolution-api)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | Evolution API is an open-source WhatsApp integration API | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[RamiAwar/dataline](https://github.com/RamiAwar/dataline)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | Chat with your data - AI data analysis and visualization on CSV, Postgres, MySQL, Snowflake, SQLite... | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[cline/cline](https://github.com/cline/cline)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Autonomous coding agent as an SDK, IDE extension, or CLI assistant. | *Remix with headless browser for end-to-end task automation* |
-| **[formkit/formkit](https://github.com/formkit/formkit)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The form framework for coding agents | *Remix with headless browser for end-to-end task automation* |
-| **[TrafficGuard/typedai](https://github.com/TrafficGuard/typedai)** | `Multi-Agent Coordination & Execution` | `TypeScript` | TypeScript AI platform with AI chat, Autonomous agents, Software developer agents, chatbots and more | *Remix with headless browser for end-to-end task automation* |
-| **[opslane/opslane_old](https://github.com/opslane/opslane_old)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | Run multiple Claude Code sessions in parallel | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[step-security/harden-runner](https://github.com/step-security/harden-runner)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Harden-Runner is a CI/CD security agent that works like an EDR for GitHub Actions runners. It monitors network egress, file integrity, and process activity on those runners, detecting threats in real- | *Remix with headless browser for end-to-end task automation* |
-| **[BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent)** | `Multi-Agent Coordination & Execution` | `TypeScript` | An AI agent that writes (actually useful) code for you | *Remix with headless browser for end-to-end task automation* |
-| **[onlook-dev/onlook](https://github.com/onlook-dev/onlook)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Desig | *Remix with headless browser for end-to-end task automation* |
-| **[nlkitai/nlux](https://github.com/nlkitai/nlux)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | The 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 Conversational AI JavaScript Library 💬 — UI for any LLM, supporting LangChain / HuggingFace / Vercel AI, and more 🧡 React, Next.js, and plain JavaScript ⭐️ | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[iyaja/llama-fs](https://github.com/iyaja/llama-fs)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | A self-organizing file system with llama 3 | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[mnfst/llm-gateway](https://github.com/mnfst/llm-gateway)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | Open Source LLM Gateway 🦚 | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[arcjet/arcjet-js](https://github.com/arcjet/arcjet-js)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Runtime security for AI apps and agents: prompt injection detection, tool-call authorization, sensitive-data redaction, bot protection, and rate limiting. Drop it into your JS/TS code. | *Remix with headless browser for end-to-end task automation* |
-| **[ragapp/ragapp](https://github.com/ragapp/ragapp)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The easiest way to use Agentic RAG in any enterprise | *Remix with headless browser for end-to-end task automation* |
-| **[activepieces/activepieces](https://github.com/activepieces/activepieces)** | `Multi-Agent Coordination & Execution` | `TypeScript` | AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents | *Remix with headless browser for end-to-end task automation* |
-| **[Dokploy/dokploy](https://github.com/Dokploy/dokploy)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Open Source Alternative to Vercel, Netlify and Heroku. | *Remix with headless browser for end-to-end task automation* |
-| **[teableio/teable](https://github.com/teableio/teable)** | `Multi-Agent Coordination & Execution` | `TypeScript` | ✨ AI Spreadsheet for Business | *Remix with headless browser for end-to-end task automation* |
-| **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** | `Multi-Agent Coordination & Execution` | `TypeScript` | 🙌 OpenHands: AI-Driven Development | *Remix with headless browser for end-to-end task automation* |
-| **[steven-tey/novel](https://github.com/steven-tey/novel)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | Notion-style WYSIWYG editor with AI-powered autocompletion. | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[nat/openplayground](https://github.com/nat/openplayground)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | An LLM playground you can run on your laptop | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[mlc-ai/web-llm](https://github.com/mlc-ai/web-llm)** | `Local LLM Inference Runtime` | `TypeScript` | High-performance In-browser LLM Inference Engine | *Power an on-premise private AI assistant* |
-| **[triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Trigger.dev – build and deploy durable AI agents and workflows | *Remix with headless browser for end-to-end task automation* |
-| **[Infisical/infisical](https://github.com/Infisical/infisical)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents. | *Remix with headless browser for end-to-end task automation* |
-| **[wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension)** | `Autonomous Agent / LLM Runtime` | `TypeScript` | This project is deprecated. Check my new project ChatHub: | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
-| **[reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume)** | `Multi-Agent Coordination & Execution` | `TypeScript` | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | *Remix with headless browser for end-to-end task automation* |
-| **[microfeed/microfeed](https://github.com/microfeed/microfeed)** | `Multi-Agent Coordination & Execution` | `TypeScript` | an agentic cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls. | *Remix with headless browser for end-to-end task automation* |
-| **[getumbrel/umbrel](https://github.com/getumbrel/umbrel)** | `Multi-Agent Coordination & Execution` | `TypeScript` | An elegant home server OS. Run AI agents, store your files, backup your photos, and do more with over 300 apps in the Umbrel App Store. | *Remix with headless browser for end-to-end task automation* |
-| **[ar-nelson/spartan-schema](https://github.com/ar-nelson/spartan-schema)** | `Local LLM Inference Runtime` | `TypeScript` | Ultra-minimal JSON schemas with Typescript inference | *Power an on-premise private AI assistant* |
-| **[Budibase/budibase](https://github.com/Budibase/budibase)** | `Multi-Agent Coordination & Execution` | `TypeScript` | AI agents, automations and apps that run your operations. Model agnostic. | *Remix with headless browser for end-to-end task automation* |
-| **[medusajs/medusa](https://github.com/medusajs/medusa)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The world's most flexible commerce platform for agents and developers | *Remix with headless browser for end-to-end task automation* |
-| **[novuhq/novu](https://github.com/novuhq/novu)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The open-source communication infrastructure for agents and products | *Remix with headless browser for end-to-end task automation* |
-| **[SigNoz/signoz](https://github.com/SigNoz/signoz)** | `Multi-Agent Coordination & Execution` | `TypeScript` | SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log mana | *Remix with headless browser for end-to-end task automation* |
-| **[appwrite/appwrite](https://github.com/appwrite/appwrite)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more | *Remix with headless browser for end-to-end task automation* |
-| **[NangoHQ/nango](https://github.com/NangoHQ/nango)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Connect your agents & product to 1,000 APIs. | *Remix with headless browser for end-to-end task automation* |
-| **[leon-ai/leon](https://github.com/leon-ai/leon)** | `Multi-Agent Coordination & Execution` | `TypeScript` | 🧠 Leon is your open-source personal assistant. | *Remix with headless browser for end-to-end task automation* |
-
-
-## <a id="rag-data-ingestion"></a>🔍 RAG, Vector & Data Ingestion `(35)`
-
-> *Web crawlers, scrapers, vector search engines, embeddings, PDF/document extractors, and knowledge graphs.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Jimmy-JS/laravel-report-generator](https://github.com/Jimmy-JS/laravel-report-generator)** | `Data Ingestion & Retrieval (RAG)` | `Blade` | Rapidly Generate Simple Pdf, CSV, & Excel Report Package on Laravel | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[asg017/sqlite-vec](https://github.com/asg017/sqlite-vec)** | `Vector Search & Retrieval Engine` | `C` | A vector search SQLite extension that runs anywhere! | *Pair with local LLM for offline RAG* |
-| **[neondatabase/pg_embedding](https://github.com/neondatabase/pg_embedding)** | `Vector Search & Retrieval Engine` | `C` | Hierarchical Navigable Small World (HNSW) algorithm for vector similarity search in PostgreSQL | *Pair with local LLM for offline RAG* |
-| **[infiniflow/infinity](https://github.com/infiniflow/infinity)** | `Data Ingestion & Retrieval (RAG)` | `C++` | The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense vector, sparse vector, tensor (multi-vector), and full-text. | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)** | `Data Ingestion & Retrieval (RAG)` | `C++` | Tesseract Open Source OCR Engine (main repository) | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[avriq/signature-pdf](https://github.com/avriq/signature-pdf)** | `Data Ingestion & Retrieval (RAG)` | `CSS` | Drag and drop to add image signature to pdf documents | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[TecharoHQ/anubis](https://github.com/TecharoHQ/anubis)** | `Web Crawler & Extraction Engine` | `Go` | Weighs the soul of incoming HTTP requests to stop AI crawlers | *Pair with LLM for automated market research* |
-| **[milvus-io/milvus](https://github.com/milvus-io/milvus)** | `Data Ingestion & Retrieval (RAG)` | `Go` | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[zincsearch/zincsearch](https://github.com/zincsearch/zincsearch)** | `Data Ingestion & Retrieval (RAG)` | `Go` | ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go. | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[slotix/dataflowkit](https://github.com/slotix/dataflowkit)** | `Web Crawler & Extraction Engine` | `Go` | Extract structured data from web sites. Web sites scraping. | *Pair with LLM for automated market research* |
-| **[open-pdf-sign/open-pdf-sign](https://github.com/open-pdf-sign/open-pdf-sign)** | `Data Ingestion & Retrieval (RAG)` | `Java` | Digitally sign PDF files from your commandline | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[goodnesskay/LARAVEL-PDF-VIEWER](https://github.com/goodnesskay/LARAVEL-PDF-VIEWER)** | `Data Ingestion & Retrieval (RAG)` | `JavaScript` | A Laravel Package for viewing PDF files or documents on the web without leaving your Web Application | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[starsuzi/Adaptive-RAG](https://github.com/starsuzi/Adaptive-RAG)** | `Data Ingestion & Retrieval (RAG)` | `Jsonnet` | Open source tool | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[chojnicki/video-platforms-parser](https://github.com/chojnicki/video-platforms-parser)** | `Data Ingestion & Retrieval (RAG)` | `PHP` | Easy to use grabber for video info, screens and more from YouTube and other platforms. | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[babenkoivan/scout-elasticsearch-driver](https://github.com/babenkoivan/scout-elasticsearch-driver)** | `Data Ingestion & Retrieval (RAG)` | `PHP` | This package offers advanced functionality for searching and filtering data in Elasticsearch. | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[ConsoleTVs/Invoices](https://github.com/ConsoleTVs/Invoices)** | `Data Ingestion & Retrieval (RAG)` | `PHP` | Generate PDF invoices for your customers in laravel | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR)** | `Data Ingestion & Retrieval (RAG)` | `Python` | Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[ssrajadh/sentrysearch](https://github.com/ssrajadh/sentrysearch)** | `Data Ingestion & Retrieval (RAG)` | `Python` | Semantic search over videos using Gemini Embedding 2 or Qwen3-VL. | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[Ucas-HaoranWei/GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0)** | `Data Ingestion & Retrieval (RAG)` | `Python` | Official code implementation of General OCR Theory:  Towards OCR-2.0 via a Unified End-to-end Model | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[dleemiller/WordLlama](https://github.com/dleemiller/WordLlama)** | `Vector Search & Retrieval Engine` | `Python` | Things you can do with the token embeddings of an LLM | *Pair with local LLM for offline RAG* |
-| **[apify/crawlee-python](https://github.com/apify/crawlee-python)** | `Web Crawler & Extraction Engine` | `Python` | Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works | *Pair with LLM for automated market research* |
-| **[abgulati/LARS](https://github.com/abgulati/LARS)** | `Data Ingestion & Retrieval (RAG)` | `Python` | An application for running LLMs locally on your device, with your documents, facilitating detailed citations in generated responses. | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[open-pdf-sign/open-pdf-sign-configurator](https://github.com/open-pdf-sign/open-pdf-sign-configurator)** | `Data Ingestion & Retrieval (RAG)` | `Python` | A configurator to install open-pdf-sign on a webserver and sign all PDFs on the fly | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[smicallef/spiderfoot](https://github.com/smicallef/spiderfoot)** | `Web Crawler & Extraction Engine` | `Python` | SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. | *Pair with LLM for automated market research* |
-| **[jcpeterson/openwebtext](https://github.com/jcpeterson/openwebtext)** | `Web Crawler & Extraction Engine` | `Python` | Open clone of OpenAI's unreleased WebText dataset scraper. This version uses pushshift.io files instead of the API for speed. | *Pair with LLM for automated market research* |
-| **[codelucas/newspaper](https://github.com/codelucas/newspaper)** | `Web Crawler & Extraction Engine` | `Python` | newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs: | *Pair with LLM for automated market research* |
-| **[borb-pdf/borb](https://github.com/borb-pdf/borb)** | `Data Ingestion & Retrieval (RAG)` | `Python` | borb is a library for reading, creating and manipulating PDF files in python. | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)** | `Data Ingestion & Retrieval (RAG)` | `Rust` | A vector index built on TurboQuant, written in Rust with Python bindings | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[SeekStorm/SeekStorm](https://github.com/SeekStorm/SeekStorm)** | `Data Ingestion & Retrieval (RAG)` | `Rust` | SeekStorm: vector & lexical search - in-process library & multi-tenancy server, in Rust. | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[qdrant/qdrant](https://github.com/qdrant/qdrant)** | `Data Ingestion & Retrieval (RAG)` | `Rust` | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[google/forma](https://github.com/google/forma)** | `Data Ingestion & Retrieval (RAG)` | `Rust` | An efficient vector-graphics renderer | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[apify/crawlee](https://github.com/apify/crawlee)** | `Web Crawler & Extraction Engine` | `TypeScript` | Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and o | *Pair with LLM for automated market research* |
-| **[getomni-ai/zerox](https://github.com/getomni-ai/zerox)** | `Data Ingestion & Retrieval (RAG)` | `TypeScript` | OCR & Document Extraction using vision models | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[0xnyn/tinkerbird](https://github.com/0xnyn/tinkerbird)** | `Data Ingestion & Retrieval (RAG)` | `TypeScript` | Client Side Vector Database | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-| **[kyang6/llmparser](https://github.com/kyang6/llmparser)** | `Data Ingestion & Retrieval (RAG)` | `TypeScript` | Classify and extract structured data with LLMs | *Combine this Data Ingestion & Retrieval (RAG) with an agent orchestrator and modern UI* |
-
-
-## <a id="saas-starters"></a>🚀 SaaS Starters & App Boilerplates `(32)`
-
-> *Full-stack skeletons, auth/OAuth providers, Stripe/billing templates, and multitenant scaffolding.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[nunomaduro/laravel-starter-kit](https://github.com/nunomaduro/laravel-starter-kit)** | `Fullstack SaaS Boilerplate` | `Blade` | Laravel Starter Kit is an ultra-strict, type-safe Laravel skeleton engineered for developers who refuse to compromise on code quality. | *Launch a paid micro-SaaS in 48 hours* |
-| **[isurajkc/react-webpack-starter](https://github.com/isurajkc/react-webpack-starter)** | `SaaS Foundation & Boilerplate` | `CSS` | Open source tool | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[goravel/goravel](https://github.com/goravel/goravel)** | `SaaS Foundation & Boilerplate` | `Go` | The full-featured Golang Development Framework skeleton | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[teamhanko/hanko](https://github.com/teamhanko/hanko)** | `SaaS Foundation & Boilerplate` | `Go` | Modern authentication, on your terms. Open source alternative to Auth0, Clerk, WorkOS, Stytch. | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[supertokens/supertokens-core](https://github.com/supertokens/supertokens-core)** | `SaaS Foundation & Boilerplate` | `Java` | Open source alternative to Auth0 / Firebase Auth / AWS Cognito | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[kamax-matrix/mxisd](https://github.com/kamax-matrix/mxisd)** | `SaaS Foundation & Boilerplate` | `Java` | Federated Matrix Identity Server | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[serverless/aws-ai-stack](https://github.com/serverless/aws-ai-stack)** | `Fullstack SaaS Boilerplate` | `JavaScript` | AWS AI Stack – A ready-to-use, full-stack boilerplate project for building serverless AI applications on AWS | *Launch a paid micro-SaaS in 48 hours* |
-| **[hasinhayder/hydra](https://github.com/hasinhayder/hydra)** | `Fullstack SaaS Boilerplate` | `PHP` | Hydra is a zero-config API boilerplate with Laravel 10x + Laravel Sanctum that comes with an excellent user and role management API out of the box | *Launch a paid micro-SaaS in 48 hours* |
-| **[laravel/sanctum](https://github.com/laravel/sanctum)** | `SaaS Foundation & Boilerplate` | `PHP` | Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs. | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[akash-mitra/bootyman](https://github.com/akash-mitra/bootyman)** | `SaaS Foundation & Boilerplate` | `PHP` | Bootyman deploys and manages large-scale Laravel SaaS applications in self-contained VMs in cloud | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[tenancy/multi-tenant](https://github.com/tenancy/multi-tenant)** | `SaaS Foundation & Boilerplate` | `PHP` | Run multiple websites using the same Laravel installation while keeping tenant specific data separated for fully independent multi-domain setups, previously github.com/hyn/multi-tenant | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[laravel/socialite](https://github.com/laravel/socialite)** | `SaaS Foundation & Boilerplate` | `PHP` | Laravel wrapper around OAuth 1 & OAuth 2 libraries. | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[johnturingan/laravel-fly-view](https://github.com/johnturingan/laravel-fly-view)** | `Fullstack SaaS Boilerplate` | `PHP` | Is an Extension of Laravel View Class which compiles String Template on the fly. It automatically detects changes on your string template and recompiles it if needed. | *Launch a paid micro-SaaS in 48 hours* |
-| **[laravel/cashier-stripe](https://github.com/laravel/cashier-stripe)** | `SaaS Foundation & Boilerplate` | `PHP` | Laravel Cashier provides an expressive, fluent interface to Stripe's subscription billing services. | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[anychart-integrations/php-laravel-mysql-template](https://github.com/anychart-integrations/php-laravel-mysql-template)** | `Fullstack SaaS Boilerplate` | `PHP` | This example shows how to use Anychart library with the PHP programming language, Laravel framework and MySQL database. | *Launch a paid micro-SaaS in 48 hours* |
-| **[jeremykenedy/laravel2step](https://github.com/jeremykenedy/laravel2step)** | `SaaS Foundation & Boilerplate` | `PHP` | Laravel 2-Step verification is a package to add 2-Step user authentication to any Laravel project easily. It is configurable and customizable. It uses notifications to send the user an email with a 4- | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[awes-io/awes-io](https://github.com/awes-io/awes-io)** | `Fullstack SaaS Boilerplate` | `PHP` | Awes.io // boilerplate based on Vue, Nuxt, TailwindCSS plus Laravel as a backend. 🤟 | *Launch a paid micro-SaaS in 48 hours* |
-| **[rinvex/laravel-subscriptions](https://github.com/rinvex/laravel-subscriptions)** | `SaaS Foundation & Boilerplate` | `PHP` | ⚠️ [ABANDONED] Rinvex Subscribable is a flexible plans and subscription management system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, acc | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja)** | `SaaS Foundation & Boilerplate` | `PHP` | A source-available invoice, quote, project and time-tracking app built with Laravel | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[rinvex/laravel-bookings](https://github.com/rinvex/laravel-bookings)** | `SaaS Foundation & Boilerplate` | `PHP` | ⚠️ [ABANDONED] Rinvex Bookable is a generic resource booking system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, accompanied by powerful u | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)** | `SaaS Foundation & Boilerplate` | `Python` | Awesome list of open-source startup alternatives to well-known SaaS products 🚀 | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[losfair/blueboat](https://github.com/losfair/blueboat)** | `SaaS Foundation & Boilerplate` | `Rust` | All-in-one, multi-tenant serverless JavaScript runtime. | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[nilskj/editable-website](https://github.com/nilskj/editable-website)** | `Fullstack SaaS Boilerplate` | `Svelte` | A SvelteKit template for building CMS-free editable websites | *Launch a paid micro-SaaS in 48 hours* |
-| **[posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV)** | `Fullstack SaaS Boilerplate` | `TeX` | :page_facing_up: Awesome CV is LaTeX template for your outstanding job application | *Launch a paid micro-SaaS in 48 hours* |
-| **[vercel/next-forge](https://github.com/vercel/next-forge)** | `Fullstack SaaS Boilerplate` | `TypeScript` | Production-grade Turborepo template for Next.js apps. | *Launch a paid micro-SaaS in 48 hours* |
-| **[instantdb/instant](https://github.com/instantdb/instant)** | `SaaS Foundation & Boilerplate` | `TypeScript` | Instant is the best backend for AI-coded apps.  You get auth, permissions, storage, presence, and streams — everything you need to ship apps your users will love. | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[ykhli/local-ai-stack](https://github.com/ykhli/local-ai-stack)** | `SaaS Foundation & Boilerplate` | `TypeScript` | A starter kit to build *local-only* AI apps that cost $0 to run -- starting with document Q&A. Written in Javascript | *Combine this SaaS Foundation & Boilerplate with an agent orchestrator and modern UI* |
-| **[boxyhq/saas-starter-kit](https://github.com/boxyhq/saas-starter-kit)** | `Fullstack SaaS Boilerplate` | `TypeScript` | 🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀 | *Launch a paid micro-SaaS in 48 hours* |
-| **[kac89/vulnrepo](https://github.com/kac89/vulnrepo)** | `Fullstack SaaS Boilerplate` | `TypeScript` | VULNRΞPO - Free vulnerability report generator and repository, end-to-end encrypted! Templates of issues, CWE,CVE,MITRE ATT&CK,PCI DSS, import Nmap/Nessus/Burp/OpenVAS/Bugcrowd/Trivy, Jira export, TXT | *Launch a paid micro-SaaS in 48 hours* |
-| **[ektogamat/camera-webgi](https://github.com/ektogamat/camera-webgi)** | `Fullstack SaaS Boilerplate` | `TypeScript` | A template for buildind scrollable landing pages with Gsap, ScrollTrigger and webgi engine in typescript using parcel bundler. | *Launch a paid micro-SaaS in 48 hours* |
-| **[GrapesJS/grapesjs](https://github.com/GrapesJS/grapesjs)** | `Fullstack SaaS Boilerplate` | `TypeScript` | Free and Open source Web Builder Framework. Next generation tool for building templates without coding | *Launch a paid micro-SaaS in 48 hours* |
-| **[ivanlori/Vuemmerce](https://github.com/ivanlori/Vuemmerce)** | `Fullstack SaaS Boilerplate` | `Vue` | Responsive ecommerce template built with Vue.js and Nuxt.js | *Launch a paid micro-SaaS in 48 hours* |
-
-
-## <a id="ui-generative-ux"></a>🎨 UI Kits, Generative UX & Dashboards `(159)`
-
-> *Tailwind component kits, generative UI chat widgets, node/canvas editors, and analytics dashboards.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[markmead/hyperui](https://github.com/markmead/hyperui)** | `UI Component Library` | `Astro` | Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀 | *Style custom AI dashboards and widgets* |
-| **[Hasnayeen/invobook](https://github.com/Hasnayeen/invobook)** | `UI Component Library` | `Blade` | Self-hosted app for Time Tracking, Invoice Generation, Project & Client Management, built with Laravel & Filament. | *Style custom AI dashboards and widgets* |
-| **[Qoraiche/laravel-mail-editor](https://github.com/Qoraiche/laravel-mail-editor)** | `UI & Presentation Layer` | `Blade` | MailEclipse :zap: Laravel Mail Editor | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[NoiseByNorthwest/php-spx](https://github.com/NoiseByNorthwest/php-spx)** | `UI & Presentation Layer` | `C` | A simple & straight-to-the-point PHP profiling extension with its built-in web UI | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar)** | `UI & Presentation Layer` | `C` | A highly customizable macOS status bar replacement | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[yk9331/Unity_IKEAPlace](https://github.com/yk9331/Unity_IKEAPlace)** | `UI & Presentation Layer` | `C# #` | &lt;Remake&gt; A pratice project of remakeing Ikea place iOS app. The UI layout is design for iPad. Using Unity and ARKit plugin. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[Snapchat/Valdi](https://github.com/Snapchat/Valdi)** | `UI & Presentation Layer` | `C++` | Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[ocornut/imgui](https://github.com/ocornut/imgui)** | `UI & Presentation Layer` | `C++` | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[Tencent/Hippy](https://github.com/Tencent/Hippy)** | `UI & Presentation Layer` | `C++` | Hippy is designed to easily build cross-platform dynamic apps. 👏 | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[StacDev/stac](https://github.com/StacDev/stac)** | `UI & Presentation Layer` | `Dart` | Stac is a Server-Driven UI (SDUI) framework for Flutter, enabling you to create stunning, cross-platform applications dynamically with JSON. Build and update your app's UI in real-time with ease and f | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[papercups-io/papercups](https://github.com/papercups-io/papercups)** | `UI & Presentation Layer` | `Elixir` | Open-source live customer chat | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[mikestefanello/pagoda](https://github.com/mikestefanello/pagoda)** | `UI Component Library` | `Go` | Rapid, easy full-stack web development starter kit and admin panel in Go | *Style custom AI dashboards and widgets* |
-| **[apache/answer](https://github.com/apache/answer)** | `UI & Presentation Layer` | `Go` | A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[wailsapp/wails](https://github.com/wailsapp/wails)** | `UI & Presentation Layer` | `Go` | Create beautiful applications using Go | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[sentrionic/Valkyrie](https://github.com/sentrionic/Valkyrie)** | `UI & Presentation Layer` | `Go` | A Fullstack Discord Clone using React and Go. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[chrispsn/mesh-spreadsheet](https://github.com/chrispsn/mesh-spreadsheet)** | `UI & Presentation Layer` | `HTML` | A data and code editor that feels like a spreadsheet. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[sailboatui/sailboatui](https://github.com/sailboatui/sailboatui)** | `UI Component Library` | `HTML` | Sailboat UI is a modern UI component library for Tailwind CSS | *Style custom AI dashboards and widgets* |
-| **[knative/docs](https://github.com/knative/docs)** | `UI Component Library` | `HTML` | User documentation for Knative components. | *Style custom AI dashboards and widgets* |
-| **[gethomepage/homepage](https://github.com/gethomepage/homepage)** | `UI & Presentation Layer` | `JavaScript` | A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[jhuckaby/performa](https://github.com/jhuckaby/performa)** | `UI & Presentation Layer` | `JavaScript` | A multi-server monitoring system with a web based UI. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[dillondesilva/codehelium](https://github.com/dillondesilva/codehelium)** | `UI & Presentation Layer` | `JavaScript` | An editor component that compiles, executes and returns the outputs of any user-written code via Pyodide/Emscripten/Webassembly. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)** | `Interactive Flow & Canvas Editor` | `JavaScript` | Free, simple, and intuitive online database diagram editor and SQL generator. | *Build a visual agent workflow builder* |
-| **[blenderskool/blaze](https://github.com/blenderskool/blaze)** | `UI & Presentation Layer` | `JavaScript` | ⚡ File sharing progressive web app built using WebTorrent and WebSockets | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[mani-barathi/unsplash-clone](https://github.com/mani-barathi/unsplash-clone)** | `UI & Presentation Layer` | `JavaScript` | Unsplash Clone Built with React and Unsplash API | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[junip/react-unsplash](https://github.com/junip/react-unsplash)** | `UI & Presentation Layer` | `JavaScript` | A Unsplash Cloned Photo Search App  made with React | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[mani-barathi/Google-Photos-Clone](https://github.com/mani-barathi/Google-Photos-Clone)** | `UI & Presentation Layer` | `JavaScript` | Google Photos Clone Built with React🚀 and Firebase🔥 | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[diazabdulm/rumbbble](https://github.com/diazabdulm/rumbbble)** | `UI & Presentation Layer` | `JavaScript` | Dribbble Clone built with MongoDB, ExpressJS, React, and Node Technologies. See demo at https://rb.gy/psll7v | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[itsnitinr/driwwwle](https://github.com/itsnitinr/driwwwle)** | `UI Component Library` | `JavaScript` | The social network for developers. Discover creative websites and build a community. | *Style custom AI dashboards and widgets* |
-| **[abodmicheal/React-projects](https://github.com/abodmicheal/React-projects)** | `UI & Presentation Layer` | `JavaScript` | React projects | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[fariasmateuss/tindev](https://github.com/fariasmateuss/tindev)** | `UI & Presentation Layer` | `JavaScript` | 🔥 Tindev it's app like a Tinder, but for Developers. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[konstaui/konsta](https://github.com/konstaui/konsta)** | `UI Component Library` | `JavaScript` | Mobile UI components made with Tailwind CSS | *Style custom AI dashboards and widgets* |
-| **[Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)** | `UI & Presentation Layer` | `JavaScript` | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[sveltejs/svelte](https://github.com/sveltejs/svelte)** | `UI & Presentation Layer` | `JavaScript` | web development for the rest of us | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[thetutlage/vue-clip](https://github.com/thetutlage/vue-clip)** | `UI & Presentation Layer` | `JavaScript` | Simple and hackable file uploader for VueJs. Supports Vue &gt;= 2.1 | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[oldboyxx/jira_clone](https://github.com/oldboyxx/jira_clone)** | `UI & Presentation Layer` | `JavaScript` | A simplified Jira clone built with React/Babel (Client), and Node/TypeScript (API). Auto formatted with Prettier, tested with Cypress. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[Janglee123/eplee](https://github.com/Janglee123/eplee)** | `UI & Presentation Layer` | `JavaScript` | Sweet, simple epub reader | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[juliomrqz/statusfy](https://github.com/juliomrqz/statusfy)** | `UI & Presentation Layer` | `JavaScript` | A Marvelous Open Source Status Page System | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[blocks/blocks](https://github.com/blocks/blocks)** | `UI & Presentation Layer` | `JavaScript` | A JSX-based page builder for creating beautiful websites without writing code | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[alyssaxuu/flowy](https://github.com/alyssaxuu/flowy)** | `Interactive Flow & Canvas Editor` | `JavaScript` | The minimal javascript library to create flowcharts ✨ | *Build a visual agent workflow builder* |
-| **[artzub/GitHubVisualizer](https://github.com/artzub/GitHubVisualizer)** | `UI & Presentation Layer` | `JavaScript` | Visualization the history of repository changes based on data from GitHub | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[weaveworks/weave-gitops](https://github.com/weaveworks/weave-gitops)** | `UI & Presentation Layer` | `MDX` | Weave GitOps is transitioning to a community driven project! It provides insights into your application deployments, and makes continuous delivery with GitOps easier to adopt and scale across your tea | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[sentry-kubernetes/charts](https://github.com/sentry-kubernetes/charts)** | `UI & Presentation Layer` | `Mustache` | Easily deploy Sentry on your Kubernetes Cluster | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design)** | `UI Component Library` | `Others` | Learn how to design systems at scale and prepare for system design interviews | *Style custom AI dashboards and widgets* |
-| **[vuejs/awesome-vue](https://github.com/vuejs/awesome-vue)** | `UI & Presentation Layer` | `Others` | 🎉 A curated list of awesome things related to Vue.js | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[sergejcodes/flowrift](https://github.com/sergejcodes/flowrift)** | `UI Component Library` | `Others` | Beautifully designed Tailwind CSS UI blocks. | *Style custom AI dashboards and widgets* |
-| **[yudax42/vue-upload-drop-images](https://github.com/yudax42/vue-upload-drop-images)** | `UI & Presentation Layer` | `Others` | 🖼️ Drag-and-drop image upload component for Vue | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps)** | `UI & Presentation Layer` | `Others` | :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy! | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[solidtime-io/solidtime](https://github.com/solidtime-io/solidtime)** | `UI & Presentation Layer` | `PHP` | Modern open-source time-tracking app | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[johndavedecano/laragym](https://github.com/johndavedecano/laragym)** | `UI Component Library` | `PHP` | A laravel gym management system | *Style custom AI dashboards and widgets* |
-| **[canvasowl/ribbbon](https://github.com/canvasowl/ribbbon)** | `Interactive Flow & Canvas Editor` | `PHP` | A project management system for artisans. | *Build a visual agent workflow builder* |
-| **[wells/airflix](https://github.com/wells/airflix)** | `UI & Presentation Layer` | `PHP` | 🍿 An AirPlay friendly web interface to stream your movies and TV shows from a home server. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[jcc/blog](https://github.com/jcc/blog)** | `UI & Presentation Layer` | `PHP` | :star2: PJ Blog is an open source blog built with Laravel and Vue.js. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[austintoddj/canvas](https://github.com/austintoddj/canvas)** | `Interactive Flow & Canvas Editor` | `PHP` | Publishing on your own terms | *Build a visual agent workflow builder* |
-| **[devfake/flox](https://github.com/devfake/flox)** | `UI & Presentation Layer` | `PHP` | Self Hosted Movie, Series and Anime Watch List | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[range-of-motion/budget](https://github.com/range-of-motion/budget)** | `UI & Presentation Layer` | `PHP` | Get a grip on your finances. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[pterodactyl/panel](https://github.com/pterodactyl/panel)** | `UI Component Library` | `PHP` | Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while ex | *Style custom AI dashboards and widgets* |
-| **[area17/twill](https://github.com/area17/twill)** | `UI & Presentation Layer` | `PHP` | Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible. Chat with us on Discord at https://discord.gg/cnWk | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[pagekit/pagekit](https://github.com/pagekit/pagekit)** | `UI & Presentation Layer` | `PHP` | Pagekit CMS | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[Laravel-Lang/lang](https://github.com/Laravel-Lang/lang)** | `UI & Presentation Layer` | `PHP` | List of 128 languages for Laravel Framework, Laravel Jetstream, Laravel Fortify, Laravel Breeze, Laravel Cashier, Laravel Nova and Laravel UI. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[Vuedo/vuedo](https://github.com/Vuedo/vuedo)** | `UI & Presentation Layer` | `PHP` | Vuedo is a blog platform, built with Laravel and Vue.js. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[polarsource/polar](https://github.com/polarsource/polar)** | `UI & Presentation Layer` | `Python` | Polar — A billing platform for the intelligence era | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)** | `UI Component Library` | `Python` | Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue) | *Style custom AI dashboards and widgets* |
-| **[feizc/FluxMusic](https://github.com/feizc/FluxMusic)** | `UI & Presentation Layer` | `Python` | Text-to-Music Generation with Rectified Flow Transformers | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[incidentalhq/incidental](https://github.com/incidentalhq/incidental)** | `UI & Presentation Layer` | `Python` | An opensource incident management platform integrating with Slack. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[PostHog/posthog](https://github.com/PostHog/posthog)** | `UI & Presentation Layer` | `Python` | :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – c | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[schenkd/nginx-ui](https://github.com/schenkd/nginx-ui)** | `UI & Presentation Layer` | `Python` | Nginx UI allows you to access and modify the nginx configurations files without cli. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[apache/superset](https://github.com/apache/superset)** | `UI & Presentation Layer` | `Python` | Apache Superset is a Data Visualization and Data Exploration Platform | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[opf/openproject](https://github.com/opf/openproject)** | `UI & Presentation Layer` | `Ruby` | OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt chart | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[storytold/photocraft](https://github.com/storytold/photocraft)** | `UI & Presentation Layer` | `Rust` | PhotoCraft: An open-source, photo editor written by scratch in pure Rust | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[CapSoftware/Cap](https://github.com/CapSoftware/Cap)** | `UI & Presentation Layer` | `Rust` | Open source Loom alternative. Beautiful, shareable screen recordings. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[Automattic/harper](https://github.com/Automattic/harper)** | `UI & Presentation Layer` | `Rust` | Offline, privacy-first grammar checker. Fast, open-source, Rust-powered | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[AccessKit/accesskit](https://github.com/AccessKit/accesskit)** | `UI & Presentation Layer` | `Rust` | Accessibility infrastructure for UI toolkits | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[helix-editor/helix](https://github.com/helix-editor/helix)** | `UI & Presentation Layer` | `Rust` | A post-modern modal text editor. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[rubrikinc/wachy](https://github.com/rubrikinc/wachy)** | `UI & Presentation Layer` | `Rust` | A UI for eBPF-based performance debugging | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[tauri-apps/tauri](https://github.com/tauri-apps/tauri)** | `UI & Presentation Layer` | `Rust` | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[janikgar/boundary-chart](https://github.com/janikgar/boundary-chart)** | `UI & Presentation Layer` | `Smarty` | Helm chart for Hashicorp Boundary | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[andrew-waters/orchard](https://github.com/andrew-waters/orchard)** | `UI & Presentation Layer` | `Swift` | The native UI for Apple Containers and (o)MLX sandboxes, written in swift as a replacement for docker desktop | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[playcanvas/supersplat-viewer](https://github.com/playcanvas/supersplat-viewer)** | `Interactive Flow & Canvas Editor` | `TypeScript` | User-friendly, high-performance viewer for 3D Gaussian splats | *Build a visual agent workflow builder* |
-| **[vercel-labs/json-render](https://github.com/vercel-labs/json-render)** | `UI & Presentation Layer` | `TypeScript` | The Generative UI framework | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[kern/filepizza](https://github.com/kern/filepizza)** | `UI & Presentation Layer` | `TypeScript` | :pizza: Peer-to-peer file transfers in your browser | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[aidenybai/react-scan](https://github.com/aidenybai/react-scan)** | `UI & Presentation Layer` | `TypeScript` | Scan and fix React performance issues | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[Instawork/hyperview](https://github.com/Instawork/hyperview)** | `UI & Presentation Layer` | `TypeScript` | Server-driven mobile apps with React Native | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[ant-design/x](https://github.com/ant-design/x)** | `UI & Presentation Layer` | `TypeScript` | Craft AI-driven interface effortlessly🤖 | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[brisa-build/brisa](https://github.com/brisa-build/brisa)** | `UI Component Library` | `TypeScript` | The Web Platform Framework. | *Style custom AI dashboards and widgets* |
-| **[urin/vscode-web-visual-editor](https://github.com/urin/vscode-web-visual-editor)** | `UI & Presentation Layer` | `TypeScript` | Edit HTML files visually. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[elie222/inbox-zero](https://github.com/elie222/inbox-zero)** | `UI Component Library` | `TypeScript` | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. | *Style custom AI dashboards and widgets* |
-| **[haystackeditor/haystack-editor](https://github.com/haystackeditor/haystack-editor)** | `UI & Presentation Layer` | `TypeScript` | Open source tool | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[yournextstore/yournextstore](https://github.com/yournextstore/yournextstore)** | `UI Component Library` | `TypeScript` | AI-Native Open-Source Next.js commerce. Powered by Stripe. Ultra fast with typesafe Commerce SDK. Built for AI development (Claude, Codex,   Cursor). | *Style custom AI dashboards and widgets* |
-| **[dubinc/dub.link](https://github.com/dubinc/dub.link)** | `UI Component Library` | `TypeScript` | The modern link attribution platform. Loved by world-class engineering teams at Twilio, Zillow, Jobber, Vercel, Raycast, and more. | *Style custom AI dashboards and widgets* |
-| **[chartdb/chartdb](https://github.com/chartdb/chartdb)** | `Interactive Flow & Canvas Editor` | `TypeScript` | Database diagrams editor that allows you to visualize and design your DB with a single query. | *Build a visual agent workflow builder* |
-| **[vitonsky/arrival-time](https://github.com/vitonsky/arrival-time)** | `UI & Presentation Layer` | `TypeScript` | Simple and powerful progress time estimation (ETA) for JavaScript | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[shuding/nextra](https://github.com/shuding/nextra)** | `UI & Presentation Layer` | `TypeScript` | Simple, powerful and flexible site generation framework with everything you love from Next.js. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[beholdr/maska](https://github.com/beholdr/maska)** | `UI & Presentation Layer` | `TypeScript` | Simple zero-dependency input mask for Vue, Svelte, Alpine.js and vanilla JS. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[papermark/papermark](https://github.com/papermark/papermark)** | `UI Component Library` | `TypeScript` | Papermark is the open-source DocSend alternative  and secure data rooms with built-in analytics and custom domains. | *Style custom AI dashboards and widgets* |
-| **[tone-row/flowchart-fun](https://github.com/tone-row/flowchart-fun)** | `Interactive Flow & Canvas Editor` | `TypeScript` | Easily generate flowcharts and diagrams from text ⿻ | *Build a visual agent workflow builder* |
-| **[aieditor-team/AiEditor](https://github.com/aieditor-team/AiEditor)** | `UI & Presentation Layer` | `TypeScript` | AiEditor is a next-generation rich text editor for AI. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[RedPlanetHQ/tegon](https://github.com/RedPlanetHQ/tegon)** | `UI & Presentation Layer` | `TypeScript` | Tegon is an open-source, dev-first alternative to Jira, Linear | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)** | `UI Component Library` | `TypeScript` | Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era. | *Style custom AI dashboards and widgets* |
-| **[computing-den/unforget](https://github.com/computing-den/unforget)** | `UI & Presentation Layer` | `TypeScript` | Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker)** | `UI & Presentation Layer` | `TypeScript` | 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[SawyerHood/tlbrowse](https://github.com/SawyerHood/tlbrowse)** | `Interactive Flow & Canvas Editor` | `TypeScript` | Generate imagined websites on an infinite canvas | *Build a visual agent workflow builder* |
-| **[wandb/openui](https://github.com/wandb/openui)** | `UI Component Library` | `TypeScript` | OpenUI let's you describe UI using your imagination, then see it rendered live. | *Style custom AI dashboards and widgets* |
-| **[scalar/scalar](https://github.com/scalar/scalar)** | `UI & Presentation Layer` | `TypeScript` | Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[immich-app/immich](https://github.com/immich-app/immich)** | `UI & Presentation Layer` | `TypeScript` | High performance self-hosted photo and video management solution. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)** | `UI & Presentation Layer` | `TypeScript` | ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[mui/toolpad](https://github.com/mui/toolpad)** | `UI Component Library` | `TypeScript` | ⚠️ 𝐍𝐨𝐭 𝐚𝐜𝐭𝐢𝐯𝐞𝐥𝐲 𝐦𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 Toolpad: Full stack components and low-code builder for dashboards and internal apps. | *Style custom AI dashboards and widgets* |
-| **[makeplane/plane](https://github.com/makeplane/plane)** | `UI & Presentation Layer` | `TypeScript` | 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[heroui-inc/tailwind-variants](https://github.com/heroui-inc/tailwind-variants)** | `UI Component Library` | `TypeScript` | 🦄 Tailwindcss first-class variant API | *Style custom AI dashboards and widgets* |
-| **[vue-vine/vue-vine](https://github.com/vue-vine/vue-vine)** | `UI Component Library` | `TypeScript` | Another style of writing Vue components. | *Style custom AI dashboards and widgets* |
-| **[kuma-ui/kuma-ui](https://github.com/kuma-ui/kuma-ui)** | `UI & Presentation Layer` | `TypeScript` | 🐻‍❄️ A Headless, Utility-First, and Zero-Runtime UI Component Library ✨ | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[calcom/cal.diy](https://github.com/calcom/cal.diy)** | `UI Component Library` | `TypeScript` | Scheduling infrastructure for absolutely everyone. | *Style custom AI dashboards and widgets* |
-| **[lukevella/rallly](https://github.com/lukevella/rallly)** | `UI Component Library` | `TypeScript` | Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier. | *Style custom AI dashboards and widgets* |
-| **[michael/editable](https://github.com/michael/editable)** | `UI & Presentation Layer` | `TypeScript` | The website you can edit on the page | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton)** | `UI Component Library` | `TypeScript` | Skeleton is an adaptive design system powered by Tailwind CSS. | *Style custom AI dashboards and widgets* |
-| **[sjmc11/tourguide-js](https://github.com/sjmc11/tourguide-js)** | `UI & Presentation Layer` | `TypeScript` | TourGuide is a Javascript library for creating user tours and on-boarding steps for your apps. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[f5/unovis](https://github.com/f5/unovis)** | `UI & Presentation Layer` | `TypeScript` | Modular data visualization framework for React, Angular, Svelte, Vue, and vanilla TypeScript or JavaScript | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[ballerine-io/ballerine](https://github.com/ballerine-io/ballerine)** | `UI & Presentation Layer` | `TypeScript` | Open-source infrastructure and data orchestration platform for risk decisioning | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[formkit/auto-animate](https://github.com/formkit/auto-animate)** | `UI & Presentation Layer` | `TypeScript` | A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[trpc/trpc](https://github.com/trpc/trpc)** | `UI & Presentation Layer` | `TypeScript` | 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[chakra-ui/zag](https://github.com/chakra-ui/zag)** | `UI Component Library` | `TypeScript` | Build your design system in React, Solid, Vue, Svelte or Vanilla. Powered by finite state machines | *Style custom AI dashboards and widgets* |
-| **[ruilisi/fortune-sheet](https://github.com/ruilisi/fortune-sheet)** | `UI & Presentation Layer` | `TypeScript` | A drop-in javascript spreadsheet library that provides rich features like Excel and Google Sheets | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[meta/lexical](https://github.com/meta/lexical)** | `UI & Presentation Layer` | `TypeScript` | Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[mantinedev/mantine](https://github.com/mantinedev/mantine)** | `UI Component Library` | `TypeScript` | A fully featured React components library | *Style custom AI dashboards and widgets* |
-| **[dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator)** | `UI & Presentation Layer` | `TypeScript` | A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[ashutosh1919/react-awesome-shapes](https://github.com/ashutosh1919/react-awesome-shapes)** | `UI & Presentation Layer` | `TypeScript` | 🌀 Insert Awesome Shapes into Your React Site with Ease. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[vitejs/vite](https://github.com/vitejs/vite)** | `UI & Presentation Layer` | `TypeScript` | Next generation frontend tooling. It's fast! | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[vueuse/vueuse](https://github.com/vueuse/vueuse)** | `UI & Presentation Layer` | `TypeScript` | Collection of essential Vue Composition Utilities for Vue 3 | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[alfirmanpahlepi/google-form-clone](https://github.com/alfirmanpahlepi/google-form-clone)** | `UI Component Library` | `TypeScript` | google forms clone | *Style custom AI dashboards and widgets* |
-| **[laurent22/joplin](https://github.com/laurent22/joplin)** | `UI & Presentation Layer` | `TypeScript` | Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[ericellb/React-Discord-Clone](https://github.com/ericellb/React-Discord-Clone)** | `UI & Presentation Layer` | `TypeScript` | Discord Clone using React, Node, Express, Socket-IO and Mysql | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[benawad/dogehouse](https://github.com/benawad/dogehouse)** | `UI & Presentation Layer` | `TypeScript` | Taking voice conversations to the moon 🚀 | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[shubhsk88/realbnb-frontend](https://github.com/shubhsk88/realbnb-frontend)** | `UI & Presentation Layer` | `TypeScript` | Open source tool | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[openreplay/openreplay](https://github.com/openreplay/openreplay)** | `UI & Presentation Layer` | `TypeScript` | Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[vercel/platforms](https://github.com/vercel/platforms)** | `UI Component Library` | `TypeScript` | A full-stack Next.js app with multi-tenancy. | *Style custom AI dashboards and widgets* |
-| **[BuilderIO/mitosis](https://github.com/BuilderIO/mitosis)** | `UI Component Library` | `TypeScript` | Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. | *Style custom AI dashboards and widgets* |
-| **[wg-easy/wg-easy](https://github.com/wg-easy/wg-easy)** | `UI & Presentation Layer` | `TypeScript` | The easiest way to run WireGuard VPN + Web-based Admin UI. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[rematch/rematch](https://github.com/rematch/rematch)** | `UI & Presentation Layer` | `TypeScript` | The Redux Framework | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[jovotech/jovo-framework](https://github.com/jovotech/jovo-framework)** | `UI & Presentation Layer` | `TypeScript` | 🔈 The React for Voice and Chat: Build Apps for Alexa, Messenger, Instagram, the Web, and more | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[vercel/commerce](https://github.com/vercel/commerce)** | `UI & Presentation Layer` | `TypeScript` | Next.js Commerce | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[meta/docusaurus](https://github.com/meta/docusaurus)** | `UI & Presentation Layer` | `TypeScript` | Easy to maintain open source documentation websites. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[ueberdosis/tiptap](https://github.com/ueberdosis/tiptap)** | `UI & Presentation Layer` | `TypeScript` | The headless rich text editor framework for web artisans. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[supabase/ui](https://github.com/supabase/ui)** | `UI & Presentation Layer` | `TypeScript` | Supabase UI Library | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator)** | `UI & Presentation Layer` | `TypeScript` | 🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[remotion-dev/remotion](https://github.com/remotion-dev/remotion)** | `UI & Presentation Layer` | `TypeScript` | 🎥      Make videos programmatically with React | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[tinacms/tinacms](https://github.com/tinacms/tinacms)** | `UI & Presentation Layer` | `TypeScript` | TinaCMS is the leading open-source headless CMS that supports Markdown and Visual Editing. Your content is stored in your own GitHub repo 🦙 ❤️ | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[gridaco/grida](https://github.com/gridaco/grida)** | `UI Component Library` | `TypeScript` | Grida — Open Canvas | *Style custom AI dashboards and widgets* |
-| **[getmeli/meli](https://github.com/getmeli/meli)** | `UI & Presentation Layer` | `TypeScript` | Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[bernaferrari/FigmaToCode](https://github.com/bernaferrari/FigmaToCode)** | `UI Component Library` | `TypeScript` | Generate responsive pages and apps on HTML, Tailwind, Flutter and SwiftUI. | *Style custom AI dashboards and widgets* |
-| **[responsively-org/responsively-app](https://github.com/responsively-org/responsively-app)** | `UI & Presentation Layer` | `TypeScript` | A modified web browser that helps in responsive web development. A web developer's must have dev-tool. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[puncoz-official/nepali-datepicker-reactjs](https://github.com/puncoz-official/nepali-datepicker-reactjs)** | `UI & Presentation Layer` | `TypeScript` | Nepali Datepicker (Bikram Sambat) as a ReactJS component | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[coreui/coreui-icons](https://github.com/coreui/coreui-icons)** | `UI & Presentation Layer` | `TypeScript` | CoreUI Free Icons -  Premium designed free icon set with marks in SVG, Webfont and raster formats | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[vuejs/vue](https://github.com/vuejs/vue)** | `UI & Presentation Layer` | `TypeScript` | This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin)** | `UI Component Library` | `Vue` | 全面ESM+Vue3+Vite+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端） | *Style custom AI dashboards and widgets* |
-| **[CorentinTh/it-tools](https://github.com/CorentinTh/it-tools)** | `UI & Presentation Layer` | `Vue` | Collection of handy online tools for developers, with great UX. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[Hanziness/FocusTide](https://github.com/Hanziness/FocusTide)** | `UI & Presentation Layer` | `Vue` | Modern and customizable productivity timer app that runs in your browser. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[wobsoriano/vue-keep](https://github.com/wobsoriano/vue-keep)** | `UI & Presentation Layer` | `Vue` | Google Keep clone with Vue, Typescript and Firestore | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[Hoogkamer/vue-org-chart](https://github.com/Hoogkamer/vue-org-chart)** | `UI & Presentation Layer` | `Vue` | Manage and publish your interactive organization chart (orgchart), 100% free and no install required: just copy a folder to any location | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[JayeshLab/vue-crypto-dashboard](https://github.com/JayeshLab/vue-crypto-dashboard)** | `UI & Presentation Layer` | `Vue` | Cryptocurrency Dashboard made with Vue | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-| **[rash0/Vue-Ecom](https://github.com/rash0/Vue-Ecom)** | `UI & Presentation Layer` | `Vue` | ✨ Full StoreFront built with Nuxt 3 + Pinia 2✨ | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
-
-
-## <a id="apis-automation"></a>⚡ APIs, Workflow Automation & Webhooks `(77)`
-
-> *Low-code orchestration, event-driven pipelines, job queues, reverse proxies, and webhook routers.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[melehin/graphql-engine-arm64](https://github.com/melehin/graphql-engine-arm64)** | `Workflow & Integration Engine` | `Dockerfile` | Dockerfile for hasura/graphql-engine to run on arm64/aarch64 (tested on Nvidia Jetson Nano, Rpi4, Apple M1). | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[dunglas/mercure](https://github.com/dunglas/mercure)** | `Workflow & Integration Engine` | `Go` | 🪽 An open, easy, fast, reliable and battery-efficient solution for real-time communications | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)** | `Workflow & Webhook Automation` | `Go` | An open-source, AI-integrated, cross-platform terminal for seamless workflows | *Orchestrate cross-API actions triggered by webhooks* |
-| **[danielgtaylor/huma](https://github.com/danielgtaylor/huma)** | `Workflow & Integration Engine` | `Go` | Huma REST/HTTP API Framework for Golang with OpenAPI 3.1 | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[go-chi/chi](https://github.com/go-chi/chi)** | `Workflow & Integration Engine` | `Go` | lightweight, idiomatic and composable router for building Go HTTP services | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[yarlson/ftl](https://github.com/yarlson/ftl)** | `Workflow & Webhook Automation` | `Go` | FTL: faster than light deployment | *Orchestrate cross-API actions triggered by webhooks* |
-| **[fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)** | `Workflow & Integration Engine` | `Go` | Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[fluxcd/image-automation-controller](https://github.com/fluxcd/image-automation-controller)** | `Workflow & Webhook Automation` | `Go` | GitOps Toolkit controller that patches container image tags in Git | *Orchestrate cross-API actions triggered by webhooks* |
-| **[nocalhost/nocalhost](https://github.com/nocalhost/nocalhost)** | `Workflow & Integration Engine` | `Go` | Nocalhost is Cloud Native Dev Environment. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[kubeshop/tracetest](https://github.com/kubeshop/tracetest)** | `Workflow & Integration Engine` | `Go` | 🔭 Tracetest - Build integration and end-to-end tests in minutes, instead of days, using OpenTelemetry and trace-based testing. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[diggerhq/digger](https://github.com/diggerhq/digger)** | `Workflow & Webhook Automation` | `Go` | Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline ⚡️ | *Orchestrate cross-API actions triggered by webhooks* |
-| **[tektoncd/pipeline](https://github.com/tektoncd/pipeline)** | `Workflow & Webhook Automation` | `Go` | A cloud-native Pipeline resource. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[lindell/multi-gitter](https://github.com/lindell/multi-gitter)** | `Workflow & Webhook Automation` | `Go` | Update multiple repositories in with one command | *Orchestrate cross-API actions triggered by webhooks* |
-| **[kubernetes-sigs/metrics-server](https://github.com/kubernetes-sigs/metrics-server)** | `Workflow & Webhook Automation` | `Go` | Scalable and efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[frain-dev/convoy](https://github.com/frain-dev/convoy)** | `Workflow & Webhook Automation` | `Go` | The Cloud Native Webhooks Gateway | *Orchestrate cross-API actions triggered by webhooks* |
-| **[devspace-sh/devspace](https://github.com/devspace-sh/devspace)** | `Workflow & Webhook Automation` | `Go` | DevSpace - The Fastest Developer Tool for Kubernetes ⚡ Automate your deployment workflow with DevSpace and develop software directly inside Kubernetes. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[Clivern/Peanut](https://github.com/Clivern/Peanut)** | `Workflow & Webhook Automation` | `Go` | 🐺 Deploy Databases and Services Easily for Development and Testing Pipelines. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[jsiebens/hashi-up](https://github.com/jsiebens/hashi-up)** | `Workflow & Webhook Automation` | `Go` | bootstrap HashiCorp Consul, Nomad, or Vault over SSH &lt; 1 minute | *Orchestrate cross-API actions triggered by webhooks* |
-| **[containrrr/watchtower](https://github.com/containrrr/watchtower)** | `Workflow & Webhook Automation` | `Go` | A process for automating Docker container base image updates. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[gofiber/fiber](https://github.com/gofiber/fiber)** | `Workflow & Integration Engine` | `Go` | ⚡️ Express inspired web framework written in Go | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[spacecloud-io/space-cloud](https://github.com/spacecloud-io/space-cloud)** | `Workflow & Integration Engine` | `Go` | Open source Firebase + Heroku to develop, scale and secure serverless apps on Kubernetes | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[harness/harness](https://github.com/harness/harness)** | `Workflow & Webhook Automation` | `Go` | Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[Netflix/maestro](https://github.com/Netflix/maestro)** | `Workflow & Webhook Automation` | `Java` | Maestro: Netflix’s Workflow Orchestrator | *Orchestrate cross-API actions triggered by webhooks* |
-| **[traccar/traccar](https://github.com/traccar/traccar)** | `Workflow & Integration Engine` | `Java` | Open source GPS tracking platform - self-hosted or managed, 200+ device protocols | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[sunnyvanani/Vikalp_Trader_Lite](https://github.com/sunnyvanani/Vikalp_Trader_Lite)** | `Workflow & Webhook Automation` | `JavaScript` | Fast options trading terminal for XTS-based brokers. React frontend with real-time LTP streaming, virtualized order book, positions P&L, account-level SL/Target automation, and a Python FastAPI backen | *Orchestrate cross-API actions triggered by webhooks* |
-| **[usebruno/bruno](https://github.com/usebruno/bruno)** | `Workflow & Webhook Automation` | `JavaScript` | Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia) | *Orchestrate cross-API actions triggered by webhooks* |
-| **[automatisch/automatisch](https://github.com/automatisch/automatisch)** | `Workflow & Webhook Automation` | `JavaScript` | The open source Zapier alternative. Build workflow automation without spending time and money. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[muze-nl/jaqt](https://github.com/muze-nl/jaqt)** | `Workflow & Integration Engine` | `JavaScript` | GraphQL-style Array.select() and Array.where() for javascript | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest)** | `Workflow & Webhook Automation` | `JavaScript` | GenAI powered OpenSource IDE for API first workflows | *Orchestrate cross-API actions triggered by webhooks* |
-| **[danielbh/node-worker-threads-vs-goroutines](https://github.com/danielbh/node-worker-threads-vs-goroutines)** | `Workflow & Integration Engine` | `JavaScript` | an evaluation of go vs node for concurrency. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[anselm94/googlekeepclone](https://github.com/anselm94/googlekeepclone)** | `Workflow & Integration Engine` | `JavaScript` | A clone of Google Keep with its original Material Design aesthetics | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[Bottelet/DaybydayCRM](https://github.com/Bottelet/DaybydayCRM)** | `Workflow & Webhook Automation` | `JavaScript` | DaybydayCRM an open-source CRM, to help you keep track of your daily workflow. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[QuickCorp/QCObjects](https://github.com/QuickCorp/QCObjects)** | `Workflow & Integration Engine` | `JavaScript` | Full Stack Javascript Framework for Modern Software Development | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[ahembree/ansible-hms-docker](https://github.com/ahembree/ansible-hms-docker)** | `Workflow & Webhook Automation` | `Jinja` | Ansible playbook for an orchestrated Home Media Server deployment | *Orchestrate cross-API actions triggered by webhooks* |
-| **[whylabs/whylogs](https://github.com/whylabs/whylogs)** | `Workflow & Webhook Automation` | `Jupyter Notebook` | An open-source data logging library for machine learning models and data pipelines. 📚 Provides visibility into data quality & model performance over time. 🛡️ Supports privacy-preserving data collectio | *Orchestrate cross-API actions triggered by webhooks* |
-| **[unlearndev/skills](https://github.com/unlearndev/skills)** | `Workflow & Webhook Automation` | `Others` | A collection of Claude Code skills for product development workflows by unlearn.dev | *Orchestrate cross-API actions triggered by webhooks* |
-| **[dabochen/spreadsheet-is-all-you-need](https://github.com/dabochen/spreadsheet-is-all-you-need)** | `Workflow & Webhook Automation` | `Others` | A nanoGPT pipeline packed in a spreadsheet | *Orchestrate cross-API actions triggered by webhooks* |
-| **[stakater/nordmart-apps-gitops-config](https://github.com/stakater/nordmart-apps-gitops-config)** | `Workflow & Webhook Automation` | `Others` | Tenant's namespace scoped apps are deployed via this gitops config repository | *Orchestrate cross-API actions triggered by webhooks* |
-| **[mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices)** | `Workflow & Integration Engine` | `Others` | A curated list of Microservice Architecture related principles and technologies. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns)** | `Workflow & Integration Engine` | `Others` | A curated list of software and architecture related design patterns. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[Cockpit-HQ/Cockpit](https://github.com/Cockpit-HQ/Cockpit)** | `Workflow & Integration Engine` | `PHP` | Cockpit Core - Content Platform | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[durable-workflow/waterline](https://github.com/durable-workflow/waterline)** | `Workflow & Webhook Automation` | `PHP` | Operator UI for Durable Workflow runtime health, history, queues, retries, and repair. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[durable-workflow/workflow](https://github.com/durable-workflow/workflow)** | `Workflow & Webhook Automation` | `PHP` | Core package for defining and running durable workflows and activities. Supports long-running persistent workflows, retries, queues, parallel execution, workflow monitoring, dedicated storage connecti | *Orchestrate cross-API actions triggered by webhooks* |
-| **[hyperf/hyperf](https://github.com/hyperf/hyperf)** | `Workflow & Integration Engine` | `PHP` | 🚀 A coroutine framework that focuses on hyperspeed and flexibility. Building microservice or middleware with ease. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[aimeos/aimeos-laravel](https://github.com/aimeos/aimeos-laravel)** | `Workflow & Integration Engine` | `PHP` | Laravel ecommerce package for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[davidhsianturi/laravel-compass](https://github.com/davidhsianturi/laravel-compass)** | `Workflow & Integration Engine` | `PHP` | A REST client inside your Laravel app | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[scrnhq/laravel-bakery](https://github.com/scrnhq/laravel-bakery)** | `Workflow & Integration Engine` | `PHP` | 🍞🧑‍🍳 An on-the-fly GraphQL Schema generator from Eloquent models for Laravel. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[pgmq/pgmq](https://github.com/pgmq/pgmq)** | `Workflow & Integration Engine` | `PLpgSQL` | A lightweight message queue. Like AWS SQS and RSMQ but on Postgres. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[dograh-hq/dograh](https://github.com/dograh-hq/dograh)** | `Workflow & Webhook Automation` | `Python` | Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[deepseek-ai/DualPipe](https://github.com/deepseek-ai/DualPipe)** | `Workflow & Webhook Automation` | `Python` | A bidirectional pipeline parallelism algorithm for computation-communication overlap in DeepSeek V3/R1 training. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[pathwaycom/pathway](https://github.com/pathwaycom/pathway)** | `Workflow & Webhook Automation` | `Python` | Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[StackStorm/st2](https://github.com/StackStorm/st2)** | `Workflow & Webhook Automation` | `Python` | StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs. Includes rules engine, workflow, 160 i | *Orchestrate cross-API actions triggered by webhooks* |
-| **[Miksus/rocketry](https://github.com/Miksus/rocketry)** | `Workflow & Webhook Automation` | `Python` | Modern scheduling library for Python | *Orchestrate cross-API actions triggered by webhooks* |
-| **[PrefectHQ/prefect](https://github.com/PrefectHQ/prefect)** | `Workflow & Webhook Automation` | `Python` | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[saleor/saleor](https://github.com/saleor/saleor)** | `Workflow & Integration Engine` | `Python` | Saleor Core: the high performance, composable, headless commerce API. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[restatedev/restate](https://github.com/restatedev/restate)** | `Workflow & Integration Engine` | `Rust` | Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[grafbase/grafbase](https://github.com/grafbase/grafbase)** | `Workflow & Integration Engine` | `Rust` | [Acquired by The Guild] The Grafbase GraphQL Federation Gateway | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[supabase/pg_graphql](https://github.com/supabase/pg_graphql)** | `Workflow & Integration Engine` | `Rust` | GraphQL support for PostgreSQL | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[openai/tart](https://github.com/openai/tart)** | `Workflow & Webhook Automation` | `Swift` | macOS and Linux VMs on Apple Silicon to use in CI and other automations | *Orchestrate cross-API actions triggered by webhooks* |
-| **[antiwork/shortest](https://github.com/antiwork/shortest)** | `Workflow & Webhook Automation` | `TypeScript` | QA via natural language AI tests | *Orchestrate cross-API actions triggered by webhooks* |
-| **[getcronit/pylon](https://github.com/getcronit/pylon)** | `Workflow & Integration Engine` | `TypeScript` | Enables TypeScript developers to easily build GraphQL APIs | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[n8n-io/n8n](https://github.com/n8n-io/n8n)** | `Workflow & Webhook Automation` | `TypeScript` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[artilleryio/artillery](https://github.com/artilleryio/artillery)** | `Workflow & Webhook Automation` | `TypeScript` | The complete load testing platform. Everything you need for production-grade load tests. Serverless & distributed. Load test with Playwright. Load test HTTP APIs, GraphQL, WebSocket, and more. Use any | *Orchestrate cross-API actions triggered by webhooks* |
-| **[stepci/garph](https://github.com/stepci/garph)** | `Workflow & Integration Engine` | `TypeScript` | Fullstack GraphQL Framework for TypeScript | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[openobserve/openobserve](https://github.com/openobserve/openobserve)** | `Workflow & Webhook Automation` | `TypeScript` | Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative t | *Orchestrate cross-API actions triggered by webhooks* |
-| **[nut-tree/nut.js](https://github.com/nut-tree/nut.js)** | `Workflow & Webhook Automation` | `TypeScript` | Native UI testing / controlling with node | *Orchestrate cross-API actions triggered by webhooks* |
-| **[buildship-ai/rowy](https://github.com/buildship-ai/rowy)** | `Workflow & Webhook Automation` | `TypeScript` | Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[garden-io/garden](https://github.com/garden-io/garden)** | `Workflow & Webhook Automation` | `TypeScript` | Automation for Kubernetes development and testing. Spin up production-like environments for development, testing, and CI on demand. Use the same configuration and workflows at every step of the proces | *Orchestrate cross-API actions triggered by webhooks* |
-| **[oramasearch/orama](https://github.com/oramasearch/orama)** | `Workflow & Webhook Automation` | `TypeScript` | 🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)** | `Workflow & Integration Engine` | `TypeScript` | Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[amplication/amplication](https://github.com/amplication/amplication)** | `Workflow & Webhook Automation` | `TypeScript` | Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, si | *Orchestrate cross-API actions triggered by webhooks* |
-| **[appsmithorg/appsmith](https://github.com/appsmithorg/appsmith)** | `Workflow & Webhook Automation` | `TypeScript` | Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[VulcanJS/vulcan-next](https://github.com/VulcanJS/vulcan-next)** | `Workflow & Integration Engine` | `TypeScript` | The Next starter for GraphQL developers | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[microsoft/playwright](https://github.com/microsoft/playwright)** | `Workflow & Webhook Automation` | `TypeScript` | Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[strapi/strapi](https://github.com/strapi/strapi)** | `Workflow & Integration Engine` | `TypeScript` | 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first. | *Combine this Workflow & Integration Engine with an agent orchestrator and modern UI* |
-| **[hasura/graphql-engine](https://github.com/hasura/graphql-engine)** | `Workflow & Webhook Automation` | `TypeScript` | Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events. | *Orchestrate cross-API actions triggered by webhooks* |
-| **[lightpanda-io/browser](https://github.com/lightpanda-io/browser)** | `Workflow & Webhook Automation` | `Zig` | Lightpanda: the headless browser designed for AI and automation | *Orchestrate cross-API actions triggered by webhooks* |
-
-
-## <a id="data-storage-cache"></a>💾 Databases, Caching & Realtime State `(122)`
-
-> *Fast key-value caches, SQLite edge engines, distributed SQL, Valkey/Redis forks, and realtime pub/sub.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[pawelsalawa/letos](https://github.com/pawelsalawa/letos)** | `Data Persistence & State Management` | `C` | A free, open source, multi-platform SQLite database manager. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[dicedb/dicedb](https://github.com/dicedb/dicedb)** | `High-Throughput In-Memory Cache` | `C` | Open-source, low-latency key/value engine built on Valkey with query subscriptions and hierarchical storage tiers. | *Sub-millisecond session & token state store* |
-| **[yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db)** | `Data Persistence & State Management` | `C` | YugabyteDB - the cloud native distributed SQL database for mission-critical applications. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[RedisLabs/redisraft](https://github.com/RedisLabs/redisraft)** | `High-Throughput In-Memory Cache` | `C` | A Redis Module that make it possible to create a consistent Raft cluster from multiple Redis instances. | *Sub-millisecond session & token state store* |
-| **[danielealbano/cachegrand](https://github.com/danielealbano/cachegrand)** | `High-Throughput In-Memory Cache` | `C` | cachegrand - a modern data ingestion, processing and serving platform built for today's hardware | *Sub-millisecond session & token state store* |
-| **[apache/age](https://github.com/apache/age)** | `Data Persistence & State Management` | `C` | Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[hydradatabase/columnar](https://github.com/hydradatabase/columnar)** | `Data Persistence & State Management` | `C` | Postgres-native columnar storage extension | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[orioledb/orioledb](https://github.com/orioledb/orioledb)** | `Data Persistence & State Management` | `C` | OrioleDB – building a modern cloud-native storage engine (... and solving some PostgreSQL wicked problems) | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[dimitri/pgcopydb](https://github.com/dimitri/pgcopydb)** | `Data Persistence & State Management` | `C` | Copy a Postgres database to a target Postgres server (pg_dump \| pg_restore on steroids) | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[pixie-io/pixie](https://github.com/pixie-io/pixie)** | `Data Persistence & State Management` | `C++` | Instant Kubernetes-Native Application Observability | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[percona/percona-xtrabackup](https://github.com/percona/percona-xtrabackup)** | `Data Persistence & State Management` | `C++` | Open source hot backup tool for InnoDB and XtraDB databases | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly)** | `High-Throughput In-Memory Cache` | `C++` | A modern replacement for Redis and Memcached | *Sub-millisecond session & token state store* |
-| **[sequinstream/sequin](https://github.com/sequinstream/sequin)** | `Data Persistence & State Management` | `Elixir` | Postgres change data capture to streams, queues, and search indexes like Kafka, SQS, Elasticsearch, HTTP endpoints, and more | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[supabase/supavisor](https://github.com/supabase/supavisor)** | `Data Persistence & State Management` | `Elixir` | A cloud-native, multi-tenant Postgres connection pooler. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[taubyte/tau](https://github.com/taubyte/tau)** | `Data Persistence & State Management` | `Go` | Fullstack Workspace for Humans & Machines | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[sqlc-dev/sqlc](https://github.com/sqlc-dev/sqlc)** | `Data Persistence & State Management` | `Go` | Generate type-safe code from SQL | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[julien040/anyquery](https://github.com/julien040/anyquery)** | `Data Persistence & State Management` | `Go` | One SQL interface for 60+ tools (e.g., GitHub, Notion, Airtable). Plug into any LLM through MCP. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[sosedoff/pgweb](https://github.com/sosedoff/pgweb)** | `Data Persistence & State Management` | `Go` | Cross-platform client for PostgreSQL databases | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[xataio/pgroll](https://github.com/xataio/pgroll)** | `Data Persistence & State Management` | `Go` | PostgreSQL zero-downtime migrations made easy | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[nalgeon/redka](https://github.com/nalgeon/redka)** | `High-Throughput In-Memory Cache` | `Go` | Redis re-implemented with SQL | *Sub-millisecond session & token state store* |
-| **[pg-sharding/spqr](https://github.com/pg-sharding/spqr)** | `Data Persistence & State Management` | `Go` | Stateless Postgres Query Router. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[bruin-data/ingestr](https://github.com/bruin-data/ingestr)** | `Data Persistence & State Management` | `Go` | ingestr is a CLI tool to copy data between any databases with a single command seamlessly. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[dolthub/doltgresql](https://github.com/dolthub/doltgresql)** | `Data Persistence & State Management` | `Go` | DoltgreSQL - Version Controlled PostgreSQL | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[cloudnative-pg/cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg)** | `Data Persistence & State Management` | `Go` | The most popular Kubernetes Operator for PostgreSQL. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[PeerDB-io/peerdb](https://github.com/PeerDB-io/peerdb)** | `Data Persistence & State Management` | `Go` | Fast, Simple and a cost effective tool to replicate data from Postgres to Data Warehouses, Queues and Storage | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[paypal/junodb](https://github.com/paypal/junodb)** | `High-Throughput In-Memory Cache` | `Go` | JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale. | *Sub-millisecond session & token state store* |
-| **[pocketbase/pocketbase](https://github.com/pocketbase/pocketbase)** | `Data Persistence & State Management` | `Go` | Open Source realtime backend in 1 file | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[danvergara/dblab](https://github.com/danvergara/dblab)** | `Data Persistence & State Management` | `Go` | The database client every command line junkie deserves. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[thanos-io/thanos](https://github.com/thanos-io/thanos)** | `Data Persistence & State Management` | `Go` | Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[centrifugal/centrifugo](https://github.com/centrifugal/centrifugo)** | `Data Persistence & State Management` | `Go` | Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[reactive-tech/kubegres](https://github.com/reactive-tech/kubegres)** | `Data Persistence & State Management` | `Go` | Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[libopenstorage/openstorage](https://github.com/libopenstorage/openstorage)** | `Data Persistence & State Management` | `Go` | A multi-host clustered implementation of the open storage specification | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[planetscale/vitess](https://github.com/planetscale/vitess)** | `Data Persistence & State Management` | `Go` | Vitess is a database clustering system for horizontal scaling of MySQL. This fork does not contain interesting changes - it's mostly the placeholder for PRs that PlanetScale maintainers cooperate on | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[encoredev/encore](https://github.com/encoredev/encore)** | `Data Persistence & State Management` | `Go` | Infrastructure orchestration from local to your cloud | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[netdata/netdata](https://github.com/netdata/netdata)** | `Data Persistence & State Management` | `Go` | The fastest path to AI-powered full stack observability, even for lean teams. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[eyelevelai/groundx-on-prem](https://github.com/eyelevelai/groundx-on-prem)** | `Data Persistence & State Management` | `Go Template` | A Kubernetes deployable instance of GroundX  for document parsing, storage, and search. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[digitallyinduced/ihp](https://github.com/digitallyinduced/ihp)** | `Data Persistence & State Management` | `Haskell` | 🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[PostgREST/postgrest](https://github.com/PostgREST/postgrest)** | `Data Persistence & State Management` | `Haskell` | REST API for any Postgres database | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[Netflix/conductor](https://github.com/Netflix/conductor)** | `Data Persistence & State Management` | `Java` | Conductor is a microservices orchestration engine. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[ongres/stackgres](https://github.com/ongres/stackgres)** | `Data Persistence & State Management` | `Java` | StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[questdb/questdb](https://github.com/questdb/questdb)** | `Data Persistence & State Management` | `Java` | QuestDB is a high performance, open-source, time-series database | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[chartbrew/chartbrew](https://github.com/chartbrew/chartbrew)** | `Data Persistence & State Management` | `JavaScript` | Open-source reporting platform to build and share live dashboards from APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable charts 📈📊 | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[hexclave/pgmock](https://github.com/hexclave/pgmock)** | `Data Persistence & State Management` | `JavaScript` | In-memory Postgres for unit/E2E tests | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[HeyPuter/kv.js](https://github.com/HeyPuter/kv.js)** | `Data Persistence & State Management` | `JavaScript` | ⚡️ Advanced in-memory caching for JavaScript | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[jmforsythe/Git-Heat-Map](https://github.com/jmforsythe/Git-Heat-Map)** | `Data Persistence & State Management` | `JavaScript` | Visualise a git repository by diff activity | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[thevahidal/soul](https://github.com/thevahidal/soul)** | `Data Persistence & State Management` | `JavaScript` | 🕉 Soul \| Automatic SQLite RESTful  and realtime API server \| Build CRUD APIs in minutes! | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[digitallyinduced/thin-backend](https://github.com/digitallyinduced/thin-backend)** | `Data Persistence & State Management` | `JavaScript` | 🔥 Thin Backend is a Blazing Fast, Universal Web App Backend for Making Realtime Single Page Apps | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[Protoqol/Prequel](https://github.com/Protoqol/Prequel)** | `Data Persistence & State Management` | `JavaScript` | Prequel for Laravel. Clear and concise database management. Unfortunately, not actively maintained due to time constraints. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[frectonz/pglite-fusion](https://github.com/frectonz/pglite-fusion)** | `Data Persistence & State Management` | `Nix` | Embed an SQLite database in your PostgreSQL table. AKA multitenancy has been solved. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[Olshansk/postgres_for_everything](https://github.com/Olshansk/postgres_for_everything)** | `Data Persistence & State Management` | `Others` | How to reduce complexity and move faster? Just Postgres for everything. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[axiomnext/faster-mysql-large-db-restore](https://github.com/axiomnext/faster-mysql-large-db-restore)** | `Data Persistence & State Management` | `Others` | Restore large MySql database in one hour (which might take more than 10 hours otherwise) | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[TablePlus/DBngin](https://github.com/TablePlus/DBngin)** | `Data Persistence & State Management` | `Others` | DB Engine | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[guanguans/laravel-soar](https://github.com/guanguans/laravel-soar)** | `Data Persistence & State Management` | `PHP` | SQL optimizer and rewriter for laravel. - laravel 的 SQL 优化器和重写器。 | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[maxkhim/laravel-storage-dedupler](https://github.com/maxkhim/laravel-storage-dedupler)** | `Data Persistence & State Management` | `PHP` | Laravel Package Prevents File Duplication | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[pktharindu/nova-permissions](https://github.com/pktharindu/nova-permissions)** | `Data Persistence & State Management` | `PHP` | Add Permissions based authorization for your Nova installation via User-based Roles and Permissions. Roles are defined in the database whereas Permissions are defined in the code base. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[pacoogle/laravel-lumen-docker](https://github.com/pacoogle/laravel-lumen-docker)** | `Data Persistence & State Management` | `PHP` | Lumen platform dockerization | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[tighten/takeout](https://github.com/tighten/takeout)** | `Data Persistence & State Management` | `PHP` | Docker-based development-only dependency manager. macOS, Linux, and WSL2-only and installs via PHP's Composer... for now. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[boxbilling/boxbilling](https://github.com/boxbilling/boxbilling)** | `Data Persistence & State Management` | `PHP` | BoxBilling - Open source billing and client management software | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[Tayyibyasin7860/School-Management-System](https://github.com/Tayyibyasin7860/School-Management-System)** | `Data Persistence & State Management` | `PHP` | A Laravel 6 based, Multi-tanent School Management System with database migrations which can be used for multiple schools at a time. There are three users: Super Admin, School Admin and Student. Moreov | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[danielme85/laravel-log-to-db](https://github.com/danielme85/laravel-log-to-db)** | `Data Persistence & State Management` | `PHP` | Custom Laravel and Lumen 5.6+ Log channel handler that can store log events to SQL or MongoDB databases.  Uses Laravel/Monolog native logging functionality. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[systemsdk/docker-nginx-php-laravel](https://github.com/systemsdk/docker-nginx-php-laravel)** | `Data Persistence & State Management` | `PHP` | Docker environment required to run Laravel (based on official php and mysql docker hub repositories) | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[cachethq/cachet](https://github.com/cachethq/cachet)** | `High-Throughput In-Memory Cache` | `PHP` | 🚦 Cachet, the open source, self-hosted status page system. | *Sub-millisecond session & token state store* |
-| **[spatie/laravel-backup](https://github.com/spatie/laravel-backup)** | `Data Persistence & State Management` | `PHP` | A package to backup your Laravel app | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[protonemedia/laravel-ffmpeg](https://github.com/protonemedia/laravel-ffmpeg)** | `Data Persistence & State Management` | `PHP` | This package provides an integration with FFmpeg for Laravel. Laravel's Filesystem handles the storage of the files. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[arthajonar/voucher-management-system](https://github.com/arthajonar/voucher-management-system)** | `Data Persistence & State Management` | `PHP` | Open Source Voucher Management System is a web application for manage voucher. used PHP with Laravel Framework and use MySQL for Database. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[Xethron/migrations-generator](https://github.com/Xethron/migrations-generator)** | `Data Persistence & State Management` | `PHP` | Laravel Migrations Generator: Automatically generate your migrations from an existing database schema. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[dcgadmin/pg_sqltxplain](https://github.com/dcgadmin/pg_sqltxplain)** | `Data Persistence & State Management` | `PLpgSQL` | pg_sqltxplain - Simplifying PostgreSQL Execution Plan Analysis by curating underlying stats in a single html report. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[supabase/index_advisor](https://github.com/supabase/index_advisor)** | `Data Persistence & State Management` | `PLpgSQL` | PostgreSQL Index Advisor | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[deepseek-ai/smallpond](https://github.com/deepseek-ai/smallpond)** | `Data Persistence & State Management` | `Python` | A lightweight data processing framework built on DuckDB and 3FS. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[tobymao/sqlglot](https://github.com/tobymao/sqlglot)** | `Data Persistence & State Management` | `Python` | Python SQL Parser and Transpiler | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[harelba/q](https://github.com/harelba/q)** | `Data Persistence & State Management` | `Python` | q - Run SQL directly on delimited files and multi-file sqlite databases | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[geldata/gel](https://github.com/geldata/gel)** | `Data Persistence & State Management` | `Python` | Gel supercharges Postgres with a modern data model, graph queries, Auth & AI solutions, and much more. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[dalibo/pg_activity](https://github.com/dalibo/pg_activity)** | `Data Persistence & State Management` | `Python` | pg_activity is a top like application for PostgreSQL server activity monitoring. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)** | `Data Persistence & State Management` | `Python` | The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[rails/solid_queue](https://github.com/rails/solid_queue)** | `Data Persistence & State Management` | `Ruby` | Database-backed Active Job backend | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[shayonj/pg_easy_replicate](https://github.com/shayonj/pg_easy_replicate)** | `Data Persistence & State Management` | `Ruby` | Easily setup logical replication and switchover to new database with minimal downtime | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[PicoMQ/picomq](https://github.com/PicoMQ/picomq)** | `Data Persistence & State Management` | `Rust` | Durable streams and Kafka on object storage | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[rustfs/rustfs](https://github.com/rustfs/rustfs)** | `Data Persistence & State Management` | `Rust` | RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[glommer/pgmicro](https://github.com/glommer/pgmicro)** | `Data Persistence & State Management` | `Rust` | An in-process reimplementation of PostgreSQL, backed by a SQLite-compatible storage engine | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake)** | `Data Persistence & State Management` | `Rust` | Real-time analytics on Postgres tables | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[supervc-stack/VectorChord](https://github.com/supervc-stack/VectorChord)** | `Data Persistence & State Management` | `Rust` | Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[achristmascarl/rainfrog](https://github.com/achristmascarl/rainfrog)** | `Data Persistence & State Management` | `Rust` | 🐸 a database tool for the terminal | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[buffdb/buffdb](https://github.com/buffdb/buffdb)** | `Data Persistence & State Management` | `Rust` | Embedded storage built for AI model management over gRPC. Smart machines don't need to read JSON, they only need protocol buffers. The world's first MODMS (Machine-Oriented Database Management System) | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[supabase/etl](https://github.com/supabase/etl)** | `Data Persistence & State Management` | `Rust` | A high-performance Postgres replication engine written in Rust. Embed it in your Rust application or run it as a standalone binary. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[teodevgroup/teo](https://github.com/teodevgroup/teo)** | `Data Persistence & State Management` | `Rust` | High performance ergonomic ORM for Rust. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[frectonz/sql-studio](https://github.com/frectonz/sql-studio)** | `Data Persistence & State Management` | `Rust` | SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB, Microsoft SQL Server] | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[cozodb/cozo](https://github.com/cozodb/cozo)** | `Data Persistence & State Management` | `Rust` | A transactional, relational-graph-vector database that uses Datalog for query. The hippocampus for AI! | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[readysettech/readyset](https://github.com/readysettech/readyset)** | `High-Throughput In-Memory Cache` | `Rust` | Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the | *Sub-millisecond session & token state store* |
-| **[orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync)** | `Data Persistence & State Management` | `Rust` | SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[AmrDeveloper/GQL](https://github.com/AmrDeveloper/GQL)** | `Data Persistence & State Management` | `Rust` | GitQL is a extensible SQL-like query language and SDK to perform queries on various data sources such .git files with supports of most of SQL features such as grouping, ordering and aggregation and wi | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[paradedb/paradedb](https://github.com/paradedb/paradedb)** | `Data Persistence & State Management` | `Rust` | One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)** | `Data Persistence & State Management` | `Rust` | Development at the speed of light | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[supabase-community/postgres-language-server](https://github.com/supabase-community/postgres-language-server)** | `Data Persistence & State Management` | `Rust` | A Language Server for Postgres | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[mycelial/mycelite](https://github.com/mycelial/mycelite)** | `Data Persistence & State Management` | `Rust` | Mycelite is a SQLite extension that allows you to synchronize changes from one instance of SQLite to another. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[surrealdb/surrealdb](https://github.com/surrealdb/surrealdb)** | `Data Persistence & State Management` | `Rust` | A scalable, distributed, collaborative, document-graph database, for the realtime web | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)** | `Data Persistence & State Management` | `Rust` | A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[apache/horaedb](https://github.com/apache/horaedb)** | `Data Persistence & State Management` | `Rust` | Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[neondatabase/neon](https://github.com/neondatabase/neon)** | `Data Persistence & State Management` | `Rust` | Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[fabianlindfors/reshape](https://github.com/fabianlindfors/reshape)** | `Data Persistence & State Management` | `Rust` | An easy-to-use, zero-downtime schema migration tool for Postgres | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[doyoubi/undermoon](https://github.com/doyoubi/undermoon)** | `High-Throughput In-Memory Cache` | `Rust` | Mordern Redis Cluster solution for easy operation. | *Sub-millisecond session & token state store* |
-| **[kiwicopple/serverless-postgres](https://github.com/kiwicopple/serverless-postgres)** | `Data Persistence & State Management` | `Shell` | Open source tool | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[supabase-community/postgres-wasm](https://github.com/supabase-community/postgres-wasm)** | `Data Persistence & State Management` | `Shell` | A PostgresQL server in your browser | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[prodrigestivill/docker-postgres-backup-local](https://github.com/prodrigestivill/docker-postgres-backup-local)** | `Data Persistence & State Management` | `Shell` | Backup PostgresSQL to local filesystem with periodic backups and rotate backups. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[infostreams/db](https://github.com/infostreams/db)** | `Data Persistence & State Management` | `Shell` | Version control for databases: save, restore, and archive snapshots of your database from the command line | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[TPC-Council/HammerDB](https://github.com/TPC-Council/HammerDB)** | `Data Persistence & State Management` | `Tcl` | HammerDB: The industry standard open-source database benchmark | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[databasus/databasus](https://github.com/databasus/databasus)** | `Data Persistence & State Management` | `TypeScript` | PostgreSQL backup tool with Point-In-Time-Recovery and restore verification | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[earthstar-project/earthstar](https://github.com/earthstar-project/earthstar)** | `Data Persistence & State Management` | `TypeScript` | Storage for private, distributed, offline-first applications. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[xpf0000/FlyEnv](https://github.com/xpf0000/FlyEnv)** | `Data Persistence & State Management` | `TypeScript` | Native local development environment for Windows, macOS & Linux. A modern alternative to XAMPP, MAMP, Laragon and Laravel Herd, with runtimes, databases, web servers, local sites, HTTPS, AI coding too | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[outerbase/studio](https://github.com/outerbase/studio)** | `Data Persistence & State Management` | `TypeScript` | A lightweight Database GUI in your browser. It supports connecting to Postgres, MySQL, and SQLite. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[fireproof-storage/fireproof](https://github.com/fireproof-storage/fireproof)** | `Data Persistence & State Management` | `TypeScript` | The vibe coding database runs in the browser, fits in the context window, and syncs anywhere. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[pgstack-io/pgstack](https://github.com/pgstack-io/pgstack)** | `Data Persistence & State Management` | `TypeScript` | Temporary recorded access to PostgreSQL | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[event-driven-io/Pongo](https://github.com/event-driven-io/Pongo)** | `Data Persistence & State Management` | `TypeScript` | Pongo - Mongo but on Postgres or SQLite, with strong consistency benefits | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm)** | `Data Persistence & State Management` | `TypeScript` | ORM | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[electric-sql/pglite](https://github.com/electric-sql/pglite)** | `Data Persistence & State Management` | `TypeScript` | Embeddable Postgres with real-time, reactive bindings. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[aspen-cloud/triplit](https://github.com/aspen-cloud/triplit)** | `Data Persistence & State Management` | `TypeScript` | A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid, | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[ts-safeql/safeql](https://github.com/ts-safeql/safeql)** | `Data Persistence & State Management` | `TypeScript` | Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[dblens/app](https://github.com/dblens/app)** | `Data Persistence & State Management` | `TypeScript` | Database explorer for Mac, Windows & Linux | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[pubkey/rxdb](https://github.com/pubkey/rxdb)** | `Data Persistence & State Management` | `TypeScript` | The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/ | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[prisma/orm](https://github.com/prisma/orm)** | `Data Persistence & State Management` | `TypeScript` | The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[nocodb/nocodb](https://github.com/nocodb/nocodb)** | `Data Persistence & State Management` | `TypeScript` | 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[directus/directus](https://github.com/directus/directus)** | `Data Persistence & State Management` | `TypeScript` | The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-| **[supabase/supabase](https://github.com/supabase/supabase)** | `Data Persistence & State Management` | `TypeScript` | The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
-
-
-## <a id="security-privacy"></a>🛡️ Security, Privacy & Auth Utilities `(87)`
-
-> *Audit logging, network security, reverse engineering, encryption, SIP protection, and credential tools.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[SentryPeer/SentryPeer](https://github.com/SentryPeer/SentryPeer)** | `Security, SIP & Audit Protection` | `C` | Protect your SIP Servers from bad actors at https://sentrypeer.org | *Integrate into compliance SaaS for automated audit reports* |
-| **[pgaudit/pgaudit](https://github.com/pgaudit/pgaudit)** | `Security, SIP & Audit Protection` | `C` | PostgreSQL Audit Extension | *Integrate into compliance SaaS for automated audit reports* |
-| **[nanovms/nanos](https://github.com/nanovms/nanos)** | `Security, SIP & Audit Protection` | `C` | A kernel designed to run one and only one application in a virtualized environment | *Integrate into compliance SaaS for automated audit reports* |
-| **[logseq/logseq](https://github.com/logseq/logseq)** | `Security & Protection Layer` | `Clojure` | A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[theredguild/devcontainer](https://github.com/theredguild/devcontainer)** | `Security, SIP & Audit Protection` | `Dockerfile` | The Red Guild's devcontainer focused in web3 and security. | *Integrate into compliance SaaS for automated audit reports* |
-| **[goshs-labs/goshs](https://github.com/goshs-labs/goshs)** | `Security, SIP & Audit Protection` | `Go` | Feature-rich single-binary file server for red teamers and developers.  HTTP/S · WebDAV · FTP/SFTP · SMB · LDAP/S · NTLM hash capture · DNS/SMTP callbacks ·  TLS · Auth · Share links. A powerful pytho | *Integrate into compliance SaaS for automated audit reports* |
-| **[aquasecurity/trivy](https://github.com/aquasecurity/trivy)** | `Security, SIP & Audit Protection` | `Go` | Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more | *Integrate into compliance SaaS for automated audit reports* |
-| **[project-copacetic/copacetic](https://github.com/project-copacetic/copacetic)** | `Security, SIP & Audit Protection` | `Go` | 🧵 CLI tool for directly patching container images! | *Integrate into compliance SaaS for automated audit reports* |
-| **[google/syzkaller](https://github.com/google/syzkaller)** | `Security, SIP & Audit Protection` | `Go` | syzkaller is an unsupervised coverage-guided kernel fuzzer | *Integrate into compliance SaaS for automated audit reports* |
-| **[doxx/darkflare](https://github.com/doxx/darkflare)** | `Security, SIP & Audit Protection` | `Go` | DarkFlare Firewall Piercing (TCP over CDN) | *Integrate into compliance SaaS for automated audit reports* |
-| **[crowdsecurity/crowdsec](https://github.com/crowdsecurity/crowdsec)** | `Security, SIP & Audit Protection` | `Go` | Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced blocklist of malicious IPs. | *Integrate into compliance SaaS for automated audit reports* |
-| **[cerberauth/vulnapi](https://github.com/cerberauth/vulnapi)** | `Security, SIP & Audit Protection` | `Go` | API Security Vulnerability Scanner designed to help you secure your APIs. | *Integrate into compliance SaaS for automated audit reports* |
-| **[basecamp/kamal-proxy](https://github.com/basecamp/kamal-proxy)** | `Security & Protection Layer` | `Go` | Lightweight proxy server for Kamal | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[openshieldai/openshield](https://github.com/openshieldai/openshield)** | `Security, SIP & Audit Protection` | `Go` | OpenShield is a new generation security layer for AI models | *Integrate into compliance SaaS for automated audit reports* |
-| **[secureCodeBox/secureCodeBox](https://github.com/secureCodeBox/secureCodeBox)** | `Security, SIP & Audit Protection` | `Go` | secureCodeBox (SCB) - continuous secure delivery out of the box | *Integrate into compliance SaaS for automated audit reports* |
-| **[GreenmaskIO/greenmask](https://github.com/GreenmaskIO/greenmask)** | `Security, SIP & Audit Protection` | `Go` | Database anonymization and test data management | *Integrate into compliance SaaS for automated audit reports* |
-| **[Legit-Labs/legitify](https://github.com/Legit-Labs/legitify)** | `Security, SIP & Audit Protection` | `Go` | Detect and remediate misconfigurations and security risks across all your GitHub and GitLab assets | *Integrate into compliance SaaS for automated audit reports* |
-| **[gittuf/gittuf](https://github.com/gittuf/gittuf)** | `Security, SIP & Audit Protection` | `Go` | A security layer for Git repositories | *Integrate into compliance SaaS for automated audit reports* |
-| **[nucleuscloud/neosync](https://github.com/nucleuscloud/neosync)** | `Security, SIP & Audit Protection` | `Go` | Open Source Data Security Platform for Developers to Monitor and Detect PII, Anonymize Production Data and Sync it across environments. | *Integrate into compliance SaaS for automated audit reports* |
-| **[eraser-dev/eraser](https://github.com/eraser-dev/eraser)** | `Security, SIP & Audit Protection` | `Go` | 🧹 Cleaning up images from Kubernetes nodes | *Integrate into compliance SaaS for automated audit reports* |
-| **[authelia/authelia](https://github.com/authelia/authelia)** | `Security, SIP & Audit Protection` | `Go` | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready. | *Integrate into compliance SaaS for automated audit reports* |
-| **[anchore/grype](https://github.com/anchore/grype)** | `Security, SIP & Audit Protection` | `Go` | A vulnerability scanner for container images and filesystems | *Integrate into compliance SaaS for automated audit reports* |
-| **[datreeio/datree](https://github.com/datreeio/datree)** | `Security, SIP & Audit Protection` | `Go` | Prevent Kubernetes misconfigurations from reaching production (again 😤 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our do | *Integrate into compliance SaaS for automated audit reports* |
-| **[turbot/steampipe](https://github.com/turbot/steampipe)** | `Security, SIP & Audit Protection` | `Go` | Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required. | *Integrate into compliance SaaS for automated audit reports* |
-| **[infrahq/infra](https://github.com/infrahq/infra)** | `Security, SIP & Audit Protection` | `Go` | Infra provides authentication and access management to servers and Kubernetes clusters. | *Integrate into compliance SaaS for automated audit reports* |
-| **[hashicorp/vault](https://github.com/hashicorp/vault)** | `Security & Protection Layer` | `Go` | A tool for secrets management, encryption as a service, and privileged access management | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[gravitational/teleport](https://github.com/gravitational/teleport)** | `Security, SIP & Audit Protection` | `Go` | The easiest, and most secure way to access and protect all of your infrastructure. | *Integrate into compliance SaaS for automated audit reports* |
-| **[aquasecurity/starboard](https://github.com/aquasecurity/starboard)** | `Security, SIP & Audit Protection` | `Go` | Superseded by https://github.com/aquasecurity/trivy-operator | *Integrate into compliance SaaS for automated audit reports* |
-| **[seashell/drago](https://github.com/seashell/drago)** | `Security, SIP & Audit Protection` | `Go` | ☁️ Securely connect anything with WireGuard® and manage all your networks from a single place. | *Integrate into compliance SaaS for automated audit reports* |
-| **[liamg/traitor](https://github.com/liamg/traitor)** | `Security, SIP & Audit Protection` | `Go` | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock | *Integrate into compliance SaaS for automated audit reports* |
-| **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** | `Security, SIP & Audit Protection` | `Go` | Find secrets with Gitleaks 🔑 | *Integrate into compliance SaaS for automated audit reports* |
-| **[aquasecurity/tracee](https://github.com/aquasecurity/tracee)** | `Security, SIP & Audit Protection` | `Go` | Linux Runtime Security and Forensics using eBPF | *Integrate into compliance SaaS for automated audit reports* |
-| **[slackhq/nebula](https://github.com/slackhq/nebula)** | `Security, SIP & Audit Protection` | `Go` | A scalable overlay networking tool with a focus on performance, simplicity and security | *Integrate into compliance SaaS for automated audit reports* |
-| **[slimtoolkit/slim](https://github.com/slimtoolkit/slim)** | `Security, SIP & Audit Protection` | `Go` | Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source) | *Integrate into compliance SaaS for automated audit reports* |
-| **[bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources)** | `Security, SIP & Audit Protection` | `Groovy` | DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP | *Integrate into compliance SaaS for automated audit reports* |
-| **[qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer)** | `Security, SIP & Audit Protection` | `JavaScript` | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites | *Integrate into compliance SaaS for automated audit reports* |
-| **[lahaxearnaud/laravel-u2f](https://github.com/lahaxearnaud/laravel-u2f)** | `Security, SIP & Audit Protection` | `JavaScript` | Laravel U2F support | *Integrate into compliance SaaS for automated audit reports* |
-| **[digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)** | `Security, SIP & Audit Protection` | `JavaScript` | ⚙️ NGINX config generator on steroids 💉 | *Integrate into compliance SaaS for automated audit reports* |
-| **[githubixx/ansible-role-wireguard](https://github.com/githubixx/ansible-role-wireguard)** | `Security, SIP & Audit Protection` | `Jinja` | Ansible role for installing WireGuard VPN. Supports Ubuntu, Debian, Archlinx, Fedora, openSUSE Leap and some Redhat ES variants. | *Integrate into compliance SaaS for automated audit reports* |
-| **[ManuelBerrueta/FlowAnalyzer](https://github.com/ManuelBerrueta/FlowAnalyzer)** | `Security, SIP & Audit Protection` | `Jupyter Notebook` | FlowAnalyzer is a tool to help in testing and analyzing OAuth 2.0 Flows, including OpenID Connect (OIDC). | *Integrate into compliance SaaS for automated audit reports* |
-| **[greshake/llm-security](https://github.com/greshake/llm-security)** | `Security, SIP & Audit Protection` | `Jupyter Notebook` | New ways of breaking app-integrated LLMs | *Integrate into compliance SaaS for automated audit reports* |
-| **[crashappsec/chalk](https://github.com/crashappsec/chalk)** | `Security, SIP & Audit Protection` | `Nim` | Chalk allows you to follow code from development, through builds and into production. | *Integrate into compliance SaaS for automated audit reports* |
-| **[opengrep/opengrep](https://github.com/opengrep/opengrep)** | `Security, SIP & Audit Protection` | `OCaml` | 🔎 Static code analysis engine to find security issues in code. | *Integrate into compliance SaaS for automated audit reports* |
-| **[ModusCreateOrg/beep](https://github.com/ModusCreateOrg/beep)** | `Security, SIP & Audit Protection` | `Objective-C` | BEEP Account Security Scanner - Detect if your credentials have been compromised (Vue + Ionic) | *Integrate into compliance SaaS for automated audit reports* |
-| **[jassics/security-study-plan](https://github.com/jassics/security-study-plan)** | `Security, SIP & Audit Protection` | `Others` | Complete Practical Study Plan to become a successful cybersecurity engineer based on roles like Pentest, AppSec, Cloud Security, DevSecOps and so on... | *Integrate into compliance SaaS for automated audit reports* |
-| **[Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)** | `Security, SIP & Audit Protection` | `Others` | List of Computer Science courses with video lectures. | *Integrate into compliance SaaS for automated audit reports* |
-| **[sundowndev/hacker-roadmap](https://github.com/sundowndev/hacker-roadmap)** | `Security, SIP & Audit Protection` | `Others` | A collection of hacking tools, resources and references to practice ethical hacking. | *Integrate into compliance SaaS for automated audit reports* |
-| **[veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything)** | `Security, SIP & Audit Protection` | `Others` | How to systematically secure anything: a repository about security engineering | *Integrate into compliance SaaS for automated audit reports* |
-| **[trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** | `Security, SIP & Audit Protection` | `Others` | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | *Integrate into compliance SaaS for automated audit reports* |
-| **[eXistenZNL/PermCheck](https://github.com/eXistenZNL/PermCheck)** | `Security, SIP & Audit Protection` | `PHP` | PermCheck is a little tool that checks if the files in a PHP project have the executable bit set properly. | *Integrate into compliance SaaS for automated audit reports* |
-| **[anonaddy/anonaddy](https://github.com/anonaddy/anonaddy)** | `Security & Protection Layer` | `PHP` | Anonymous email forwarding | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)** | `Security, SIP & Audit Protection` | `Python` | Hunt down social media accounts by username across social networks | *Integrate into compliance SaaS for automated audit reports* |
-| **[nabla-c0d3/sslyze](https://github.com/nabla-c0d3/sslyze)** | `Security, SIP & Audit Protection` | `Python` | Fast and powerful SSL/TLS scanning library. | *Integrate into compliance SaaS for automated audit reports* |
-| **[cybrota/whispr](https://github.com/cybrota/whispr)** | `Security, SIP & Audit Protection` | `Python` | A multi-vault secret injection tool for safely injecting secrets into app environment | *Integrate into compliance SaaS for automated audit reports* |
-| **[aptzer0x/evilurl](https://github.com/aptzer0x/evilurl)** | `Security, SIP & Audit Protection` | `Python` | A cybersecurity tool designed to safeguard against IDN Homograph Attacks | *Integrate into compliance SaaS for automated audit reports* |
-| **[protectai/vulnhuntr](https://github.com/protectai/vulnhuntr)** | `Security, SIP & Audit Protection` | `Python` | Zero shot vulnerability discovery using LLMs | *Integrate into compliance SaaS for automated audit reports* |
-| **[PaperMtn/slack-watchman](https://github.com/PaperMtn/slack-watchman)** | `Security, SIP & Audit Protection` | `Python` | Slack enumeration and exposed secrets detection tool | *Integrate into compliance SaaS for automated audit reports* |
-| **[OWASP/Nettacker](https://github.com/OWASP/Nettacker)** | `Security, SIP & Audit Protection` | `Python` | Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management | *Integrate into compliance SaaS for automated audit reports* |
-| **[intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl)** | `Security, SIP & Audit Protection` | `Python` | IntelOwl: manage your Threat Intelligence at scale | *Integrate into compliance SaaS for automated audit reports* |
-| **[rfc-st/humble](https://github.com/rfc-st/humble)** | `Security, SIP & Audit Protection` | `Python` | A humble and fast security-oriented HTTP headers analyzer. | *Integrate into compliance SaaS for automated audit reports* |
-| **[aydinnyunus/ai-captcha-bypass](https://github.com/aydinnyunus/ai-captcha-bypass)** | `Security, SIP & Audit Protection` | `Python` | AI Captcha Bypass | *Integrate into compliance SaaS for automated audit reports* |
-| **[MattKeeley/Spoofy](https://github.com/MattKeeley/Spoofy)** | `Security, SIP & Audit Protection` | `Python` | Spoofy is a program that checks if a list of domains can be spoofed based on SPF and DMARC records. | *Integrate into compliance SaaS for automated audit reports* |
-| **[nnsee/fileless-elf-exec](https://github.com/nnsee/fileless-elf-exec)** | `Security, SIP & Audit Protection` | `Python` | Execute ELF files without dropping them on disk | *Integrate into compliance SaaS for automated audit reports* |
-| **[openrecall/openrecall](https://github.com/openrecall/openrecall)** | `Security & Protection Layer` | `Python` | OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[Ostorlab/oxo](https://github.com/Ostorlab/oxo)** | `Security, SIP & Audit Protection` | `Python` | OXO is a security scanning orchestrator for the modern age. | *Integrate into compliance SaaS for automated audit reports* |
-| **[openai/openai-security-bots](https://github.com/openai/openai-security-bots)** | `Security, SIP & Audit Protection` | `Python` | Open source tool | *Integrate into compliance SaaS for automated audit reports* |
-| **[frappe/frappe](https://github.com/frappe/frappe)** | `Security, SIP & Audit Protection` | `Python` | Low code web framework for real world applications, in Python and Javascript | *Integrate into compliance SaaS for automated audit reports* |
-| **[prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)** | `Security, SIP & Audit Protection` | `Python` | This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment for | *Integrate into compliance SaaS for automated audit reports* |
-| **[pglombardo/PasswordPusher](https://github.com/pglombardo/PasswordPusher)** | `Security, SIP & Audit Protection` | `Ruby` | 🔐   Securely share sensitive information with automatic expiration & deletion after a set number of views or duration.  Track who, what and when with full audit logs. | *Integrate into compliance SaaS for automated audit reports* |
-| **[GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)** | `Security, SIP & Audit Protection` | `Rust` | Comfortably monitor your network traffic 🕵️‍♂️ | *Integrate into compliance SaaS for automated audit reports* |
-| **[DefGuard/defguard](https://github.com/DefGuard/defguard)** | `Security, SIP & Audit Protection` | `Rust` | Zero-Trust access management with true WireGuard® 2FA/MFA | *Integrate into compliance SaaS for automated audit reports* |
-| **[build-trust/ockam](https://github.com/build-trust/ockam)** | `Security, SIP & Audit Protection` | `Rust` | Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale. | *Integrate into compliance SaaS for automated audit reports* |
-| **[inspektor-dev/inspektor](https://github.com/inspektor-dev/inspektor)** | `Security, SIP & Audit Protection` | `Rust` | Inspektor is a protocol-aware proxy that is used to enforce access policies👮 | *Integrate into compliance SaaS for automated audit reports* |
-| **[telekom-security/tpotce](https://github.com/telekom-security/tpotce)** | `Security, SIP & Audit Protection` | `Shell` | 🍯 T-Pot - The All In One Multi Honeypot Platform 🐝 | *Integrate into compliance SaaS for automated audit reports* |
-| **[e-m-b-a/emba](https://github.com/e-m-b-a/emba)** | `Security, SIP & Audit Protection` | `Shell` | EMBA - The firmware security analyzer | *Integrate into compliance SaaS for automated audit reports* |
-| **[Fadi002/unshackle](https://github.com/Fadi002/unshackle)** | `Security, SIP & Audit Protection` | `Shell` | Open-source tool to bypass windows and linux passwords from bootable usb | *Integrate into compliance SaaS for automated audit reports* |
-| **[complexorganizations/wireguard-manager](https://github.com/complexorganizations/wireguard-manager)** | `Security, SIP & Audit Protection` | `Shell` | ✔️ WireGuard-Manager is an innovative tool designed to streamline the deployment and management of WireGuard VPNs. Emphasizing user-friendliness and security, it simplifies the complexities of VPN con | *Integrate into compliance SaaS for automated audit reports* |
-| **[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)** | `Security, SIP & Audit Protection` | `Shell` | Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers. | *Integrate into compliance SaaS for automated audit reports* |
-| **[mandiant/ioc-scanner-CVE-2019-19781](https://github.com/mandiant/ioc-scanner-CVE-2019-19781)** | `Security & Protection Layer` | `Shell` | Indicator of Compromise Scanner for CVE-2019-19781 | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[maxgoedjen/secretive](https://github.com/maxgoedjen/secretive)** | `Security, SIP & Audit Protection` | `Swift` | Protect your SSH keys with your Mac's Secure Enclave | *Integrate into compliance SaaS for automated audit reports* |
-| **[pulkitsharma07/OnlyHumans-Proxy](https://github.com/pulkitsharma07/OnlyHumans-Proxy)** | `Security & Protection Layer` | `TypeScript` | An experimental AntiBot, AntiCrawl reverse proxy for serving simple static content. | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[cheeselemon/ophiuchi-desktop](https://github.com/cheeselemon/ophiuchi-desktop)** | `Security & Protection Layer` | `TypeScript` | Localhost SSL Proxy Server Manager using Docker | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[Openpanel-dev/openpanel](https://github.com/Openpanel-dev/openpanel)** | `Security & Protection Layer` | `TypeScript` | OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting. | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[opengovern/opensecurity](https://github.com/opengovern/opensecurity)** | `Security, SIP & Audit Protection` | `TypeScript` | opensecurity: open-source security and compliance. See and secure your cloud, containers, code, networks, deployments, devices. Define your rules, get precise checks, fix gaps fast. Streamlined audits | *Integrate into compliance SaaS for automated audit reports* |
-| **[retracedhq/retraced](https://github.com/retracedhq/retraced)** | `Security, SIP & Audit Protection` | `TypeScript` | 🔥 A fully open source audit logs service and embeddable UI easily deployed to your own Kubernetes cluster. Brought to you by replicated.com and boxyhq.com  🚀 | *Integrate into compliance SaaS for automated audit reports* |
-| **[Sh4yy/cloudflare-email](https://github.com/Sh4yy/cloudflare-email)** | `Security & Protection Layer` | `TypeScript` | This is a simple proxy server that can be used for sending free transactional emails through Cloudflare workers. | *Combine this Security & Protection Layer with an agent orchestrator and modern UI* |
-| **[berty/berty](https://github.com/berty/berty)** | `Security, SIP & Audit Protection` | `TypeScript` | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | *Integrate into compliance SaaS for automated audit reports* |
-
-
-## <a id="devops-infra"></a>📦 DevOps, Sandboxes & Cloud Infra `(193)`
-
-> *Containers, code execution sandboxes, WebAssembly, Kubernetes, Nix, and CI/CD automation.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[emberstack/kubernetes-reflector](https://github.com/emberstack/kubernetes-reflector)** | `Infrastructure & Execution Sandbox` | `C# #` | Custom Kubernetes controller that can be used to replicate secrets, configmaps and certificates. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[just5ky/SkyPi](https://github.com/just5ky/SkyPi)** | `Infrastructure & Execution Sandbox` | `CSS` | selfhosting on a budget | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles)** | `Infrastructure & Execution Sandbox` | `Dockerfile` | Various Dockerfiles I use on the desktop and on servers. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[ethibox/awesome-stacks](https://github.com/ethibox/awesome-stacks)** | `Infrastructure & Execution Sandbox` | `Dockerfile` | Deploy 150+ open-source web apps with one Docker command | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx)** | `Infrastructure & Execution Sandbox` | `Dockerfile` | Docker image with PHP-FPM 8.5 & Nginx 1.30 on Alpine Linux | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[chialab/docker-php](https://github.com/chialab/docker-php)** | `Infrastructure & Execution Sandbox` | `Dockerfile` | 🧰 Adding common PHP extensions to some of the official PHP Docker images. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[linuxserver-archive/docker-openvpn-as](https://github.com/linuxserver-archive/docker-openvpn-as)** | `Infrastructure & Execution Sandbox` | `Dockerfile` | DEPRECATED | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[ms-jpq/simple-traefik-dash](https://github.com/ms-jpq/simple-traefik-dash)** | `Infrastructure & Execution Sandbox` | `F# #` | Zero conf service dashboard for Traefik v2 Ingress Controller | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[albersola/airo](https://github.com/albersola/airo)** | `Infrastructure & Execution Sandbox` | `Go` | Deploy your projects from local to your production VPS. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[GoogleCloudPlatform/terraformer](https://github.com/GoogleCloudPlatform/terraformer)** | `Infrastructure & Execution Sandbox` | `Go` | CLI tool to generate terraform files from existing infrastructure (reverse Terraform). Infrastructure to Code | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox)** | `Infrastructure & Execution Sandbox` | `Go` | Terraform / OpenTofu Provider for Proxmox VE | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[atlassian/escalator](https://github.com/atlassian/escalator)** | `Infrastructure & Execution Sandbox` | `Go` | Escalator is a batch or job optimized horizontal autoscaler for Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[siderolabs/omni](https://github.com/siderolabs/omni)** | `Infrastructure & Execution Sandbox` | `Go` | SaaS-simple deployment of Kubernetes - on your own hardware. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[MightyMoud/sidekick](https://github.com/MightyMoud/sidekick)** | `Infrastructure & Execution Sandbox` | `Go` | Bare metal to production ready in mins; your own fly server on your VPS. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[clastix/kamaji](https://github.com/clastix/kamaji)** | `Infrastructure & Execution Sandbox` | `Go` | Kamaji is the Hosted Control Plane Manager for Kubernetes. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[will-moss/isaiah](https://github.com/will-moss/isaiah)** | `Infrastructure & Execution Sandbox` | `Go` | Self-hostable clone of lazydocker for the web. Manage your Docker fleet with ease | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[clastix/cluster-api-control-plane-provider-kamaji](https://github.com/clastix/cluster-api-control-plane-provider-kamaji)** | `Infrastructure & Execution Sandbox` | `Go` | The Kamaji Control Plane provider implementation of the Cluster Management API | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[andreibordy/viking](https://github.com/andreibordy/viking)** | `Infrastructure & Execution Sandbox` | `Go` | Simple way to manage your remote machines and SSH keys | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[AstroBee-AI/kardinal](https://github.com/AstroBee-AI/kardinal)** | `Infrastructure & Execution Sandbox` | `Go` | Kardinal is the lightest-weight way to spin up dev and test environments in Kubernetes. Deploy the absolute minimum resources necessary and implement dev, test, and QA all in one cluster. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[semaphoreui/semaphore](https://github.com/semaphoreui/semaphore)** | `Infrastructure & Execution Sandbox` | `Go` | Modern UI and powerful API for Ansible, Terraform/OpenTofu/Terragrunt, PowerShell and other DevOps tools. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager)** | `Infrastructure & Execution Sandbox` | `Go` | Kubernetes cloud controller manager for Proxmox | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[miekg/gitopper](https://github.com/miekg/gitopper)** | `Infrastructure & Execution Sandbox` | `Go` | Gitops for non-Kubernetes folks | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops)** | `Infrastructure & Execution Sandbox` | `Go` | Developer Friendly Kubernetes 👁️ | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[kubernetes-sigs/descheduler](https://github.com/kubernetes-sigs/descheduler)** | `Infrastructure & Execution Sandbox` | `Go` | Descheduler for Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[KusionStack/kusion](https://github.com/KusionStack/kusion)** | `Infrastructure & Execution Sandbox` | `Go` | Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP). | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[helmfile/helmfile](https://github.com/helmfile/helmfile)** | `Infrastructure & Execution Sandbox` | `Go` | Declaratively deploy your Kubernetes manifests, Kustomize configs, and Charts as Helm releases. Generate all-in-one manifests for use with ArgoCD. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[edgelesssys/constellation](https://github.com/edgelesssys/constellation)** | `Infrastructure & Execution Sandbox` | `Go` | Constellation is a Kubernetes distribution for confidential computing, securing entire clusters on untrusted infrastructure.  Constellation is in maintenance mode. New development continues in Contras | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[karlkfi/kubexit](https://github.com/karlkfi/kubexit)** | `Infrastructure & Execution Sandbox` | `Go` | Command supervisor for coordinated Kubernetes pod container termination. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[telepresenceio/telepresence](https://github.com/telepresenceio/telepresence)** | `Infrastructure & Execution Sandbox` | `Go` | Local development against a remote Kubernetes or OpenShift cluster | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[glanceapp/glance](https://github.com/glanceapp/glance)** | `Infrastructure & Execution Sandbox` | `Go` | A self-hosted dashboard that puts all your feeds in one place | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[mercari/tortoise](https://github.com/mercari/tortoise)** | `Infrastructure & Execution Sandbox` | `Go` | Tortoise: Shell-Shockingly-Good Kubernetes Autoscaling | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[microsoft/retina](https://github.com/microsoft/retina)** | `Infrastructure & Execution Sandbox` | `Go` | eBPF distributed networking observability tool for Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[google/gvisor](https://github.com/google/gvisor)** | `Infrastructure & Execution Sandbox` | `Go` | Application Kernel for Containers | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[F1bonacc1/process-compose](https://github.com/F1bonacc1/process-compose)** | `Infrastructure & Execution Sandbox` | `Go` | Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[konstructio/kubefirst](https://github.com/konstructio/kubefirst)** | `Infrastructure & Execution Sandbox` | `Go` | The Kubefirst Open Source Platform | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[nektos/act](https://github.com/nektos/act)** | `Infrastructure & Execution Sandbox` | `Go` | Run your GitHub Actions locally 🚀 | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[loft-sh/devpod](https://github.com/loft-sh/devpod)** | `Infrastructure & Execution Sandbox` | `Go` | Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[aws/eks-anywhere](https://github.com/aws/eks-anywhere)** | `Infrastructure & Execution Sandbox` | `Go` | Run Amazon EKS on your own infrastructure 🚀 | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[grafana-cold-storage/phlare](https://github.com/grafana-cold-storage/phlare)** | `Infrastructure & Execution Sandbox` | `Go` | 🔥 horizontally-scalable, highly-available, multi-tenant continuous profiling aggregation system | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop)** | `Infrastructure & Execution Sandbox` | `Go` | ☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)** | `Infrastructure & Execution Sandbox` | `Go` | The lazier way to manage everything docker | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[opencost/opencost](https://github.com/opencost/opencost)** | `Infrastructure & Execution Sandbox` | `Go` | Cost monitoring for Kubernetes workloads and cloud costs | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[devtron-labs/devtron](https://github.com/devtron-labs/devtron)** | `Infrastructure & Execution Sandbox` | `Go` | The only Kubernetes dashboard you need | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[crossplane/crossplane](https://github.com/crossplane/crossplane)** | `Infrastructure & Execution Sandbox` | `Go` | The Cloud Native Control Plane | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[derailed/popeye](https://github.com/derailed/popeye)** | `Infrastructure & Execution Sandbox` | `Go` | 👀 A Kubernetes cluster resource sanitizer | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[vmware-archive/octant](https://github.com/vmware-archive/octant)** | `Infrastructure & Execution Sandbox` | `Go` | Highly extensible platform for developers to better understand the complexity of Kubernetes clusters. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[robscott/kube-capacity](https://github.com/robscott/kube-capacity)** | `Infrastructure & Execution Sandbox` | `Go` | A simple CLI that provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[nginx/kubernetes-ingress](https://github.com/nginx/kubernetes-ingress)** | `Infrastructure & Execution Sandbox` | `Go` | NGINX and  NGINX Plus Ingress Controllers for Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[GoogleContainerTools/skaffold](https://github.com/GoogleContainerTools/skaffold)** | `Infrastructure & Execution Sandbox` | `Go` | Easy and Repeatable Kubernetes Development | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[kubernetes/kops](https://github.com/kubernetes/kops)** | `Infrastructure & Execution Sandbox` | `Go` | Kubernetes Operations (kOps) - Production Grade k8s Installation, Upgrades and Management | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[stakater/Reloader](https://github.com/stakater/Reloader)** | `Infrastructure & Execution Sandbox` | `Go` | A Kubernetes controller to watch changes in ConfigMap and Secrets and do rolling upgrades on Pods with their associated Deployment, StatefulSet, DaemonSet and DeploymentConfig – [✩Star] if you're usin | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[instrumenta/kubeval](https://github.com/instrumenta/kubeval)** | `Infrastructure & Execution Sandbox` | `Go` | Validate your Kubernetes configuration files, supports multiple Kubernetes versions | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[digitalocean/digitalocean-cloud-controller-manager](https://github.com/digitalocean/digitalocean-cloud-controller-manager)** | `Infrastructure & Execution Sandbox` | `Go` | Kubernetes cloud-controller-manager for DigitalOcean (beta) | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[roboll/helmfile](https://github.com/roboll/helmfile)** | `Infrastructure & Execution Sandbox` | `Go` | Deploy Kubernetes Helm Charts | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[tilt-dev/tilt](https://github.com/tilt-dev/tilt)** | `Infrastructure & Execution Sandbox` | `Go` | Define your dev environment as code. For microservice apps on Kubernetes. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[miniscruff/changie](https://github.com/miniscruff/changie)** | `Infrastructure & Execution Sandbox` | `Go` | Automated changelog tool for preparing releases with lots of customization options | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[photoview/photoview](https://github.com/photoview/photoview)** | `Infrastructure & Execution Sandbox` | `Go` | Photo gallery for self-hosted personal servers | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[nitrictech/nitric](https://github.com/nitrictech/nitric)** | `Infrastructure & Execution Sandbox` | `Go` | Nitric is a multi-language framework for cloud applications with infrastructure from code. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[okteto/okteto](https://github.com/okteto/okteto)** | `Infrastructure & Execution Sandbox` | `Go` | Develop your applications directly in your Kubernetes Cluster | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[datastack-net/dockerized](https://github.com/datastack-net/dockerized)** | `Infrastructure & Execution Sandbox` | `Go` | Run popular commandline tools within docker | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[k3s-io/k3s](https://github.com/k3s-io/k3s)** | `Infrastructure & Execution Sandbox` | `Go` | Lightweight Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[rancher/k3os](https://github.com/rancher/k3os)** | `Infrastructure & Execution Sandbox` | `Go` | Purpose-built OS for Kubernetes, fully managed by Kubernetes. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[alexellis/k3sup](https://github.com/alexellis/k3sup)** | `Infrastructure & Execution Sandbox` | `Go` | bootstrap K3s over SSH in &lt; 60s 🚀 | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[hashicorp/terraform](https://github.com/hashicorp/terraform)** | `Infrastructure & Execution Sandbox` | `Go` | Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amo | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)** | `Infrastructure & Execution Sandbox` | `Go` | CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[squat/kilo](https://github.com/squat/kilo)** | `Infrastructure & Execution Sandbox` | `Go` | Kilo is a multi-cloud network overlay built on WireGuard and designed for Kubernetes (k8s + wg = kg) | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[beneath-hq/beneath](https://github.com/beneath-hq/beneath)** | `Infrastructure & Execution Sandbox` | `Go` | Beneath is a serverless real-time data platform ⚡️ | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[snyk/driftctl](https://github.com/snyk/driftctl)** | `Infrastructure & Execution Sandbox` | `Go` | Detect, track and alert on infrastructure drift | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[nbering/terraform-provider-ansible](https://github.com/nbering/terraform-provider-ansible)** | `Infrastructure & Execution Sandbox` | `Go` | "Logical" provider for integrating with an Ansible Dynamic Inventory script. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[lima-vm/lima](https://github.com/lima-vm/lima)** | `Infrastructure & Execution Sandbox` | `Go` | Linux virtual machines, with a focus on running containers | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[podman-container-tools/podman](https://github.com/podman-container-tools/podman)** | `Infrastructure & Execution Sandbox` | `Go` | Podman: A tool for managing OCI containers and pods. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[vmware-tanzu/kubeapps](https://github.com/vmware-tanzu/kubeapps)** | `Infrastructure & Execution Sandbox` | `Go` | A web-based UI for deploying and managing applications in Kubernetes clusters | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[lima-vm/sshocker](https://github.com/lima-vm/sshocker)** | `Infrastructure & Execution Sandbox` | `Go` | ssh + reverse sshfs + port forwarder, in Docker-like CLI (predecessor of Lima) | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[derailed/k9s](https://github.com/derailed/k9s)** | `Infrastructure & Execution Sandbox` | `Go` | 🐶 Kubernetes CLI To Manage Your Clusters In Style! | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[minio/minio](https://github.com/minio/minio)** | `Infrastructure & Execution Sandbox` | `Go` | MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[metrue/fx](https://github.com/metrue/fx)** | `Infrastructure & Execution Sandbox` | `Go` | A Function as a Service tool makes a function as a  container-based service in seconds. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[openfaas/faas](https://github.com/openfaas/faas)** | `Infrastructure & Execution Sandbox` | `Go` | OpenFaaS - Serverless Functions Made Simple | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[rancher/rio](https://github.com/rancher/rio)** | `Infrastructure & Execution Sandbox` | `Go` | Application Deployment Engine for Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[google/cadvisor](https://github.com/google/cadvisor)** | `Infrastructure & Execution Sandbox` | `Go` | Analyzes resource usage and performance characteristics of running containers. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[natelandau/ansible-homelab-config](https://github.com/natelandau/ansible-homelab-config)** | `Infrastructure & Execution Sandbox` | `HCL` | Ansible scripts to configure my homelab using Consul, Nomad, Docker, Traefik, and more... | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[khuedoan/homelab](https://github.com/khuedoan/homelab)** | `Infrastructure & Execution Sandbox` | `HCL` | Fully automated homelab from empty disk to running services with a single command. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[joatmon08/hashicorp-stack-demoapp](https://github.com/joatmon08/hashicorp-stack-demoapp)** | `Infrastructure & Execution Sandbox` | `HCL` | HashiCorp Cloud Platform (Vault, Consul, Boundary) with Argo CD and Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[groovemonkey/tutorialinux-hashistack](https://github.com/groovemonkey/tutorialinux-hashistack)** | `Infrastructure & Execution Sandbox` | `HCL` | A hands-on learning project for consul, using Terraform | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)** | `Infrastructure & Execution Sandbox` | `HTML` | DevOps Guide - Development to Production all configurations with basic notes to debug efficiently. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[learning-zone/docker-and-kubernetes-basics](https://github.com/learning-zone/docker-and-kubernetes-basics)** | `Infrastructure & Execution Sandbox` | `HTML` | Docker and Kubernetes Basics | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[subspacecloud/subspace](https://github.com/subspacecloud/subspace)** | `Infrastructure & Execution Sandbox` | `HTML` | A simple WireGuard VPN server GUI | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[docker/awesome-compose](https://github.com/docker/awesome-compose)** | `Infrastructure & Execution Sandbox` | `HTML` | Awesome Docker Compose samples | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[floci-io/floci](https://github.com/floci-io/floci)** | `Infrastructure & Execution Sandbox` | `Java` | Light, fluffy, and always free - The AWS Local Emulator alternative | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[dylibso/chicory](https://github.com/dylibso/chicory)** | `Infrastructure & Execution Sandbox` | `Java` | Native JVM WebAssembly runtime | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[gaia-app/gaia](https://github.com/gaia-app/gaia)** | `Infrastructure & Execution Sandbox` | `Java` | Gaia is a Terraform 🌍 UI for your modules, and self-service infrastructure 👨‍💻 | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[google/startup-os](https://github.com/google/startup-os)** | `Infrastructure & Execution Sandbox` | `Java` | Working examples of Google's Open Source stack and deployment to the cloud. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[kuzudb/wasm-linkedin-example](https://github.com/kuzudb/wasm-linkedin-example)** | `Infrastructure & Execution Sandbox` | `JavaScript` | Open source tool | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl)** | `Infrastructure & Execution Sandbox` | `JavaScript` | xlskubectl — a spreadsheet to control your Kubernetes cluster | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[serkan-ozal/leanser](https://github.com/serkan-ozal/leanser)** | `Infrastructure & Execution Sandbox` | `JavaScript` | AWS Lambda Cleaner - Cleanup resources on AWS Lambda container shutdown (timeout and/or spin-down) | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[WordPress/wordpress-playground](https://github.com/WordPress/wordpress-playground)** | `Infrastructure & Execution Sandbox` | `JavaScript` | Run WordPress in the browser via WebAssembly PHP | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[cdk8s-team/cdk8s](https://github.com/cdk8s-team/cdk8s)** | `Infrastructure & Execution Sandbox` | `JavaScript` | Define Kubernetes native apps and abstractions using object-oriented programming | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[opensumi/ide-startup](https://github.com/opensumi/ide-startup)** | `Infrastructure & Execution Sandbox` | `JavaScript` | Quick starter for OpenSumi Web | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[collabnix/dockerlabs](https://github.com/collabnix/dockerlabs)** | `Infrastructure & Execution Sandbox` | `JavaScript` | Docker  - Beginners \| Intermediate \| Advanced | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[collabnix/kubetools](https://github.com/collabnix/kubetools)** | `Infrastructure & Execution Sandbox` | `JavaScript` | Kubetools - Curated List of Kubernetes Tools | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)** | `Infrastructure & Execution Sandbox` | `JavaScript` | A fancy self-hosted monitoring tool | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[servian/hashiqube](https://github.com/servian/hashiqube)** | `Infrastructure & Execution Sandbox` | `JavaScript` | HashiQube - All the Hashicorp products in a Container or VM for anyone to demo or practise with. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[arachnys/cabot](https://github.com/arachnys/cabot)** | `Infrastructure & Execution Sandbox` | `JavaScript` | Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[netbootxyz/netboot.xyz](https://github.com/netbootxyz/netboot.xyz)** | `Infrastructure & Execution Sandbox` | `Jinja` | Your favorite operating systems in one place.  A network-based bootable operating system installer based on iPXE. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[amritb/poor-mans-vpn](https://github.com/amritb/poor-mans-vpn)** | `Infrastructure & Execution Sandbox` | `Jinja` | An ansible playbook to set up wireguard server. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[wodby/docker4php](https://github.com/wodby/docker4php)** | `Infrastructure & Execution Sandbox` | `Makefile` | Docker-based PHP stack | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[openebs/openebs](https://github.com/openebs/openebs)** | `Infrastructure & Execution Sandbox` | `Others` | A popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin)** | `Infrastructure & Execution Sandbox` | `Others` | A curated list of amazingly awesome open-source sysadmin resources. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[techiescamp/kubernetes-learning-path](https://github.com/techiescamp/kubernetes-learning-path)** | `Infrastructure & Execution Sandbox` | `Others` | A roadmap to learn Kubernetes from scratch (Beginner to Advanced level) | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap)** | `Infrastructure & Execution Sandbox` | `Others` | DevOps Roadmap for 2026. with learning resources | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[Devinterview-io/docker-interview-questions](https://github.com/Devinterview-io/docker-interview-questions)** | `Infrastructure & Execution Sandbox` | `Others` | 🟣 Docker interview questions and answers to help you prepare for your next software architecture and design patterns interview in 2026. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker)** | `Infrastructure & Execution Sandbox` | `Others` | :whale: A curated list of Docker resources and projects | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[Cyber-Duck/php-fpm-laravel](https://github.com/Cyber-Duck/php-fpm-laravel)** | `Infrastructure & Execution Sandbox` | `Others` | Docker image for a php-fpm container crafted to run Laravel based applications. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[ProProgrammer/cross-namespace-nginx-ingress-kubernetes](https://github.com/ProProgrammer/cross-namespace-nginx-ingress-kubernetes)** | `Infrastructure & Execution Sandbox` | `Others` | Cross Namespace Nginx Ingress Controller setup and a working demo | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[lensapp/lens](https://github.com/lensapp/lens)** | `Infrastructure & Execution Sandbox` | `Others` | Lens - The way the world runs Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[vitodeploy/vito](https://github.com/vitodeploy/vito)** | `Infrastructure & Execution Sandbox` | `PHP` | Free and Self-Hosted  Server Management Tool | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[coollabsio/coolify](https://github.com/coollabsio/coolify)** | `Infrastructure & Execution Sandbox` | `PHP` | An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[seanmorris/php-wasm](https://github.com/seanmorris/php-wasm)** | `Infrastructure & Execution Sandbox` | `PHP` | PHP in Browser, powered by WebAssembly. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[WilberGroup/airdrop](https://github.com/WilberGroup/airdrop)** | `Infrastructure & Execution Sandbox` | `PHP` | A Laravel package to speed up deployment by skipping asset compilation whenever possible. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[Rishats/laravel-kubernetes-demo](https://github.com/Rishats/laravel-kubernetes-demo)** | `Infrastructure & Execution Sandbox` | `PHP` | Simple laravel K8S configs [DEVELOPMENT] | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[epartment/nova-dependency-container](https://github.com/epartment/nova-dependency-container)** | `Infrastructure & Execution Sandbox` | `PHP` | A Laravel Nova field container allowing to depend on other fields values | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[oraoto/pib](https://github.com/oraoto/pib)** | `Infrastructure & Execution Sandbox` | `PHP` | PHP in Browser (powered by WebAssembly) | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[DevlessTeam/DV-PHP-CORE](https://github.com/DevlessTeam/DV-PHP-CORE)** | `Infrastructure & Execution Sandbox` | `PHP` | Devless is a ready-made back-end for development of web or mobile applications. It is fully open source under the permissive Apache v2 license. This means that you can develop your front end without w | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[deployphp/deployer](https://github.com/deployphp/deployer)** | `Infrastructure & Execution Sandbox` | `PHP` | The PHP deployment tool with support for popular frameworks out of the box | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[slimkit/plus](https://github.com/slimkit/plus)** | `Infrastructure & Execution Sandbox` | `PHP` | 💝The Plus (ThinkSNS+) is a powerful, easy-to-develop social system built with Laravel. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[GHJJ123/brainrotguard](https://github.com/GHJJ123/brainrotguard)** | `Infrastructure & Execution Sandbox` | `Python` | YouTube approval system for kids — parent approves via Telegram, kid watches via web UI | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[clemcer/LoggiFly](https://github.com/clemcer/LoggiFly)** | `Infrastructure & Execution Sandbox` | `Python` | Get Alerts from your Docker Container Logs | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr)** | `Infrastructure & Execution Sandbox` | `Python` | Proxy server to bypass Cloudflare protection | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[zakkg3/ClusterSecret](https://github.com/zakkg3/ClusterSecret)** | `Infrastructure & Execution Sandbox` | `Python` | Kubernetes ClusterSecret operator. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[pyinfra-dev/pyinfra](https://github.com/pyinfra-dev/pyinfra)** | `Infrastructure & Execution Sandbox` | `Python` | 🔧 pyinfra turns Python code into shell commands and runs them on your servers. Execute ad-hoc commands and write declarative operations. Target SSH servers, local machine and Docker containers. Fast a | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[prometheus-community/ansible](https://github.com/prometheus-community/ansible)** | `Infrastructure & Execution Sandbox` | `Python` | Ansible Collection for Prometheus | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[home-assistant/operating-system](https://github.com/home-assistant/operating-system)** | `Infrastructure & Execution Sandbox` | `Python` | :beginner: Home Assistant Operating System | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[newsnowlabs/dockside](https://github.com/newsnowlabs/dockside)** | `Infrastructure & Execution Sandbox` | `Python` | Create dev containers that mirror your prod environment and sandbox your Claude/Codex CLIs. Develop with VS Code/Jet Brains, via SSH with e.g. Vim or VS Code in your browser. Unlimited staging for co- | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[run-x/opta](https://github.com/run-x/opta)** | `Infrastructure & Execution Sandbox` | `Python` | The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[jina-ai/serve](https://github.com/jina-ai/serve)** | `Infrastructure & Execution Sandbox` | `Python` | ☁️ Build multimodal AI applications with cloud-native stack | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)** | `Infrastructure & Execution Sandbox` | `Python` | Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[xxh/xxh](https://github.com/xxh/xxh)** | `Infrastructure & Execution Sandbox` | `Python` | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[nbering/terraform-inventory](https://github.com/nbering/terraform-inventory)** | `Infrastructure & Execution Sandbox` | `Python` | An Ansible dynamic inventory script to pair with nbering/terraform-provider-ansible. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[almarklein/mypaas](https://github.com/almarklein/mypaas)** | `Infrastructure & Execution Sandbox` | `Python` | Run your own PaaS using Docker, Traefik, and great analytics | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[ziozzang/android-kernel-builder-docker](https://github.com/ziozzang/android-kernel-builder-docker)** | `Infrastructure & Execution Sandbox` | `Python` | Dockerized Android Kernel build Environments. for Android PIE(with gcc/clang) | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[mistio/mist-ce](https://github.com/mistio/mist-ce)** | `Infrastructure & Execution Sandbox` | `Python` | Mist is an open source, multicloud management platform | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[darkbitio/k8s-mirror](https://github.com/darkbitio/k8s-mirror)** | `Infrastructure & Execution Sandbox` | `Ruby` | Creates a local mirror of a Kubernetes cluster in a docker container to support offline reviewing | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[numaproj/numaflow](https://github.com/numaproj/numaflow)** | `Infrastructure & Execution Sandbox` | `Rust` | Kubernetes-native platform to run massively parallel data/streaming jobs | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[spinframework/spin](https://github.com/spinframework/spin)** | `Infrastructure & Execution Sandbox` | `Rust` | Spin is the open source developer tool for building and running serverless applications powered by WebAssembly. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[drogus/jawsm](https://github.com/drogus/jawsm)** | `Infrastructure & Execution Sandbox` | `Rust` | JavaScript to WASM compiler | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[grampelberg/kty](https://github.com/grampelberg/kty)** | `Infrastructure & Execution Sandbox` | `Rust` | The terminal for Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[hsfzxjy/handwriter.ttf](https://github.com/hsfzxjy/handwriter.ttf)** | `Infrastructure & Execution Sandbox` | `Rust` | Handwriting synthesis with Harfbuzz WASM. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[lapce/lapdev](https://github.com/lapce/lapdev)** | `Infrastructure & Execution Sandbox` | `Rust` | Seamless dev environments for Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)** | `Infrastructure & Execution Sandbox` | `Rust` | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[jkfran/killport](https://github.com/jkfran/killport)** | `Infrastructure & Execution Sandbox` | `Rust` | A command-line tool to kill processes and containers running on specified ports. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[richardanaya/wasm-service](https://github.com/richardanaya/wasm-service)** | `Infrastructure & Execution Sandbox` | `Rust` | HTMX, WebAssembly, Rust, ServiceWorkers | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[stepchowfun/toast](https://github.com/stepchowfun/toast)** | `Infrastructure & Execution Sandbox` | `Rust` | Containerize your development and continuous integration environments. 🥂 | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[Zaplib/zaplib](https://github.com/Zaplib/zaplib)** | `Infrastructure & Execution Sandbox` | `Rust` | ⚡ Zaplib is an open-source library for speeding up web applications using Rust and WebAssembly. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[railwayapp/nixpacks](https://github.com/railwayapp/nixpacks)** | `Infrastructure & Execution Sandbox` | `Rust` | App source + Nix packages + Docker = Image | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[bottlerocket-os/bottlerocket](https://github.com/bottlerocket-os/bottlerocket)** | `Infrastructure & Execution Sandbox` | `Rust` | An operating system designed for hosting containers | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[Edu4rdSHL/fly-to-podman](https://github.com/Edu4rdSHL/fly-to-podman)** | `Infrastructure & Execution Sandbox` | `Shell` | Migrate from Docker to Podman. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[cloudposse/geodesic](https://github.com/cloudposse/geodesic)** | `Infrastructure & Execution Sandbox` | `Shell` | 🚀 Geodesic is a DevOps Linux Toolbox in Docker | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[antongisli/maas-baremetal-k8s-tutorial](https://github.com/antongisli/maas-baremetal-k8s-tutorial)** | `Infrastructure & Execution Sandbox` | `Shell` | Step by step tutorial for bare metal K8s on a single machine | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[nicolaka/netshoot](https://github.com/nicolaka/netshoot)** | `Infrastructure & Execution Sandbox` | `Shell` | a Docker + Kubernetes network trouble-shooting swiss-army container | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[serversideup/spin](https://github.com/serversideup/spin)** | `Infrastructure & Execution Sandbox` | `Shell` | 🚀 Replicate your production environment locally using Docker. Just run "spin up". It's really that easy. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[calcom/docker](https://github.com/calcom/docker)** | `Infrastructure & Execution Sandbox` | `Shell` | The Docker configuration for Cal.com is an effort powered by people within the community. Cal.com, Inc. does not provide official support for Docker, but we will accept fixes and documentation. Use at | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[orbstack/orbstack](https://github.com/orbstack/orbstack)** | `Infrastructure & Execution Sandbox` | `Shell` | Fast, light, simple Docker containers & Linux machines | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[wowu/docker-rollout](https://github.com/wowu/docker-rollout)** | `Infrastructure & Execution Sandbox` | `Shell` | 🚀 Zero Downtime Deployment for Docker Compose | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[p8952/bocker](https://github.com/p8952/bocker)** | `Infrastructure & Execution Sandbox` | `Shell` | Docker implemented in around 100 lines of bash | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[dougcalobrisi/nested-github-runners-action](https://github.com/dougcalobrisi/nested-github-runners-action)** | `Infrastructure & Execution Sandbox` | `Shell` | GitHub Action to run multiple self-hosted runners in a hosted GitHub Runner | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)** | `Infrastructure & Execution Sandbox` | `Shell` | This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[IAmStoxe/wirehole](https://github.com/IAmStoxe/wirehole)** | `Infrastructure & Execution Sandbox` | `Shell` | WireHole is a combination of WireGuard, Pi-hole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create a personally managed full or split-tunnel WireGu | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[marco-lancini/offensive-infrastructure](https://github.com/marco-lancini/offensive-infrastructure)** | `Infrastructure & Execution Sandbox` | `Shell` | Offensive Infrastructure with Modern Technologies | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[richdynamix/arc](https://github.com/richdynamix/arc)** | `Infrastructure & Execution Sandbox` | `Shell` | Production ready docker based development environment for your Laravel project. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[wodby/mariadb](https://github.com/wodby/mariadb)** | `Infrastructure & Execution Sandbox` | `Shell` | MariaDB docker container image | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[webdevops/Dockerfile](https://github.com/webdevops/Dockerfile)** | `Infrastructure & Execution Sandbox` | `Shell` | :package: Dockerfiles from WebDevOps for PHP, Apache and Nginx | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)** | `Infrastructure & Execution Sandbox` | `Shell` | A curated list for awesome kubernetes sources :ship::tada: | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[erikespinoza/v4raider](https://github.com/erikespinoza/v4raider)** | `Infrastructure & Execution Sandbox` | `Shell` | Wireguard + Traefik docker-compose file. Use VPS IPv4 Address in your homelab. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[EffectRenan/koha-docker](https://github.com/EffectRenan/koha-docker)** | `Infrastructure & Execution Sandbox` | `Shell` | Koha Library Software - The world's first free and open source library system. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[cipi-sh/cipi](https://github.com/cipi-sh/cipi)** | `Infrastructure & Execution Sandbox` | `Shell` | Easy Laravel Deployments | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[DevinY/dlaravel](https://github.com/DevinY/dlaravel)** | `Infrastructure & Execution Sandbox` | `Shell` | Laravel and Docker | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[inspircd/docker](https://github.com/inspircd/docker)** | `Infrastructure & Execution Sandbox` | `Shell` | InspIRCd Docker image | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless)** | `Infrastructure & Execution Sandbox` | `Starlark` | 🥑  Language focused docker images, minus the operating system. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[apple/container](https://github.com/apple/container)** | `Infrastructure & Execution Sandbox` | `Swift` | A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[shipzero/zero](https://github.com/shipzero/zero)** | `Infrastructure & Execution Sandbox` | `TypeScript` | Deploy containers to your own server with one command. Automatic TLS, zero-downtime, no config. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp)** | `Infrastructure & Execution Sandbox` | `TypeScript` | A Kubernetes web UI that is fully-featured, user-friendly and extensible | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)** | `Infrastructure & Execution Sandbox` | `TypeScript` | Docker container for managing Nginx proxy hosts with a simple, powerful interface | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus)** | `Infrastructure & Execution Sandbox` | `TypeScript` | Open-source status page, incident response and uptime monitoring | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** | `Infrastructure & Execution Sandbox` | `TypeScript` | #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[inkdrop-org/inkdrop-visualizer](https://github.com/inkdrop-org/inkdrop-visualizer)** | `Infrastructure & Execution Sandbox` | `TypeScript` | Visualizes your Terraform | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[livecycle/preevy](https://github.com/livecycle/preevy)** | `Infrastructure & Execution Sandbox` | `TypeScript` | Quickly deploy preview environments to the cloud! | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[kubero-dev/kubero](https://github.com/kubero-dev/kubero)** | `Infrastructure & Execution Sandbox` | `TypeScript` | A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[eritislami/evobot](https://github.com/eritislami/evobot)** | `Infrastructure & Execution Sandbox` | `TypeScript` | 🤖 EvoBot is a Discord Music Bot built with TypeScript + Discord.js, includes Docker builds & localization in 20+ languages | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[soketi/soketi](https://github.com/soketi/soketi)** | `Infrastructure & Execution Sandbox` | `TypeScript` | Next-gen, Pusher-compatible, open-source WebSockets server. Simple, fast, and resilient. 📣 | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[Unleash/unleash](https://github.com/Unleash/unleash)** | `Infrastructure & Execution Sandbox` | `TypeScript` | Open-source feature management platform | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[oslabs-beta/navigate](https://github.com/oslabs-beta/navigate)** | `Infrastructure & Execution Sandbox` | `TypeScript` | A Kubernetes cluster visualizer for DevOps engineers - network policies, aggregated scheduler logs, deployments and pods before your cluster is running! | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[caprover/caprover](https://github.com/caprover/caprover)** | `Infrastructure & Execution Sandbox` | `TypeScript` | Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[k3s-io/k3s-ansible](https://github.com/k3s-io/k3s-ansible)** | `Infrastructure & Execution Sandbox` | `YAML` | Open source tool | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-| **[justrach/merjs](https://github.com/justrach/merjs)** | `Infrastructure & Execution Sandbox` | `Zig` | A Zig-native web framework. File-based routing, SSR, type-safe APIs, WASM client interactivity. No Node. No npm. Just zig build serve. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
-
-
-## <a id="devtools-terminal"></a>🛠️ Developer Tooling & Terminal Utilities `(703)`
-
-> *CLI power tools, TUI interfaces, profilers, debuggers, code formatters, and terminal sharing.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[below/HelloSilicon](https://github.com/below/HelloSilicon)** | `Developer Productivity & Tooling` | `Assembly` | An introduction to ARM64 assembly on Apple Silicon Macs | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hackclub/some-assembly-required](https://github.com/hackclub/some-assembly-required)** | `Developer Productivity & Tooling` | `Assembly` | 📖 An approachable introduction to Assembly. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)** | `Developer Productivity & Tooling` | `Batchfile` | Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lubusIN/laravel-decomposer](https://github.com/lubusIN/laravel-decomposer)** | `Developer Productivity & Tooling` | `Blade` | Laravel package to decompose your installed packages, their dependencies, your app & server environment | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[snowfire/Beautymail](https://github.com/snowfire/Beautymail)** | `Developer Productivity & Tooling` | `Blade` | Send beautiful HTML emails with Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[laravel/laravel](https://github.com/laravel/laravel)** | `Developer Productivity & Tooling` | `Blade` | Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tsl0922/ttyd](https://github.com/tsl0922/ttyd)** | `Developer Productivity & Tooling` | `C` | Share your terminal over the web | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[splitbrain/clipscreen](https://github.com/splitbrain/clipscreen)** | `Developer Productivity & Tooling` | `C` | Mirror a portion of your screen to a virtual monitor for easier screen sharing. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[yellow-footed-honeyguide/facad](https://github.com/yellow-footed-honeyguide/facad)** | `Developer Productivity & Tooling` | `C` | A modern, colorful ls alternative for bringing clarity to the filesystem ☀️ | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[zigzap/zap](https://github.com/zigzap/zap)** | `Developer Productivity & Tooling` | `C` | blazingly fast backends in zig | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[kristofpetho/kernel_oneplus_sdm845](https://github.com/kristofpetho/kernel_oneplus_sdm845)** | `Developer Productivity & Tooling` | `C` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ish-app/ish](https://github.com/ish-app/ish)** | `Developer Productivity & Tooling` | `C` | Linux shell for iOS | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sypstraw/rpi4-osdev](https://github.com/sypstraw/rpi4-osdev)** | `Developer Productivity & Tooling` | `C` | Tutorial: Writing a "bare metal" operating system for Raspberry Pi 4 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[AsahiLinux/linux](https://github.com/AsahiLinux/linux)** | `Developer Productivity & Tooling` | `C` | Linux kernel source tree | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[unrealircd/unrealircd](https://github.com/unrealircd/unrealircd)** | `Developer Productivity & Tooling` | `C` | Official UnrealIRCd repository. Downloads are available from our site | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)** | `Developer Productivity & Tooling` | `C` | Display and control your Android device | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[profglavcho/mt6735-kernel-3.10.61](https://github.com/profglavcho/mt6735-kernel-3.10.61)** | `Developer Productivity & Tooling` | `C` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[H4NM/WhoYouCalling](https://github.com/H4NM/WhoYouCalling)** | `Developer Productivity & Tooling` | `C# #` | Records an executable's network activity into a Full Packet Capture file (.pcap) and much more. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ShareX/ShareX](https://github.com/ShareX/ShareX)** | `Developer Productivity & Tooling` | `C# #` | ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types t | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[shoshanimayan/AR-wall-hanger](https://github.com/shoshanimayan/AR-wall-hanger)** | `Developer Productivity & Tooling` | `C# #` | Unity AR app for simulating what different images will look like hanging off walls | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ReneLergner/WPinternals](https://github.com/ReneLergner/WPinternals)** | `Developer Productivity & Tooling` | `C# #` | Tool to unlock the bootloader and enable Root Access on Windows Phones | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)** | `Developer Productivity & Tooling` | `C# #` | Video Duplicate Finder - Crossplatform | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ggerganov/ggwave](https://github.com/ggerganov/ggwave)** | `Developer Productivity & Tooling` | `C++` | Tiny data-over-sound library | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lights0123/hipscript](https://github.com/lights0123/hipscript)** | `Developer Productivity & Tooling` | `C++` | Online compiler for HIP and NVIDIA® CUDA® code to WebGPU | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lupinemachines/lupine](https://github.com/lupinemachines/lupine)** | `Developer Productivity & Tooling` | `C++` | LUPINE is a GPU over IP bridge allowing GPUs on remote machines to be attached to CPU-only machines. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jart/json.cpp](https://github.com/jart/json.cpp)** | `Developer Productivity & Tooling` | `C++` | JSON for Classic C++ | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile)** | `Developer Productivity & Tooling` | `C++` | Distribute and run LLMs with a single file. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[AnswerDotAI/gpu.cpp](https://github.com/AnswerDotAI/gpu.cpp)** | `Developer Productivity & Tooling` | `C++` | A lightweight library for portable low-level GPU computation using WebGPU. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Desbordante/desbordante-core](https://github.com/Desbordante/desbordante-core)** | `Developer Productivity & Tooling` | `C++` | Desbordante is a high-performance data profiler that is capable of discovering many different patterns in data using various algorithms. It also allows to run data cleaning scenarios using these algor | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[adamritter/fastgron](https://github.com/adamritter/fastgron)** | `Developer Productivity & Tooling` | `C++` | High-performance JSON to GRON (greppable, flattened JSON) converter | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all)** | `Developer Productivity & Tooling` | `C++` | GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Slackadays/Clipboard](https://github.com/Slackadays/Clipboard)** | `Developer Productivity & Tooling` | `C++` | 😎🏖️🐬 Your new, 𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart clipboard manager | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[logicalclocks/rondb](https://github.com/logicalclocks/rondb)** | `Developer Productivity & Tooling` | `C++` | This is RonDB, a distribution of NDB Cluster developed and used by Hopsworks AB. It also contains development branches of RonDB. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[aristocratos/btop](https://github.com/aristocratos/btop)** | `Developer Productivity & Tooling` | `C++` | A monitor of resources | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[e-dant/watcher](https://github.com/e-dant/watcher)** | `Developer Productivity & Tooling` | `C++` | Filesystem watcher. Works anywhere. Simple, efficient and friendly. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[GauravDawra/Beast](https://github.com/GauravDawra/Beast)** | `Developer Productivity & Tooling` | `C++` | A build system built for speed and power | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jwise/HoRNDIS](https://github.com/jwise/HoRNDIS)** | `Developer Productivity & Tooling` | `C++` | Android USB tethering driver for Mac OS X | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[H4ckd4ddy/bypass-sentry-safe](https://github.com/H4ckd4ddy/bypass-sentry-safe)** | `Developer Productivity & Tooling` | `C++` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Nitrux/maui-shell](https://github.com/Nitrux/maui-shell)** | `Developer Productivity & Tooling` | `C++` | Maui Shell is a convergent shell for desktops, tablets, and phones. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ggerganov/wave-share](https://github.com/ggerganov/wave-share)** | `Developer Productivity & Tooling` | `C++` | Serverless, peer-to-peer, local file sharing through sound | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cvengler/sysget](https://github.com/cvengler/sysget)** | `Developer Productivity & Tooling` | `C++` | One package manager to rule them all | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[MisterTea/EternalTerminal](https://github.com/MisterTea/EternalTerminal)** | `Developer Productivity & Tooling` | `C++` | Re-Connectable secure remote shell | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[canonical/multipass](https://github.com/canonical/multipass)** | `Developer Productivity & Tooling` | `C++` | Multipass orchestrates virtual Ubuntu instances | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[aftertheflood/sparks](https://github.com/aftertheflood/sparks)** | `Developer Productivity & Tooling` | `CSS` | A typeface for creating sparklines in text without code. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[buildship-ai/feedbackfin](https://github.com/buildship-ai/feedbackfin)** | `Developer Productivity & Tooling` | `CSS` | Open-source widget to collect feedback anywhere on your website. Lightweight and tiny. That’s it. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hedyorg/hedy](https://github.com/hedyorg/hedy)** | `Developer Productivity & Tooling` | `CSS` | Hedy is a gradual programming language to teach children programming. Gradual languages use different language levels, where each level adds new concepts and syntactic complexity. At the end of the He | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[csswizardry/ct](https://github.com/csswizardry/ct)** | `Developer Productivity & Tooling` | `CSS` | Let’s take a look inside your &lt;head&gt;… | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[adi1090x/termux-desktop](https://github.com/adi1090x/termux-desktop)** | `Developer Productivity & Tooling` | `CSS` | Setup A Beautiful Desktop/GUI In Termux | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fzyzcjy/flutter_smooth](https://github.com/fzyzcjy/flutter_smooth)** | `Developer Productivity & Tooling` | `Dart` | Achieve ~60 FPS, no matter how heavy the tree is to build/layout | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | `Developer Productivity & Tooling` | `Dart` | Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[klutchell/balena-pihole-aarch64](https://github.com/klutchell/balena-pihole-aarch64)** | `Developer Productivity & Tooling` | `Dockerfile` | aarch64 balenaCloud stack for Pi-hole® https://pi-hole.net/ | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[semaphoreio/semaphore](https://github.com/semaphoreio/semaphore)** | `Developer Productivity & Tooling` | `Elixir` | All-in-one delivery platform for AI-driven development. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[yujonglee/canary](https://github.com/yujonglee/canary)** | `Developer Productivity & Tooling` | `Elixir` | Algolia alternative for technical docs | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fly-apps/live_beats](https://github.com/fly-apps/live_beats)** | `Developer Productivity & Tooling` | `Elixir` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[px0-ai/px0](https://github.com/px0-ai/px0)** | `Developer Productivity & Tooling` | `Go` | px0 is a review workbench and speed-first IDE built for AI-generated code. It turns your browser into a zero-latency console with native Git and GitHub integrations, instant search across massive code | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[systalyze/utilyze](https://github.com/systalyze/utilyze)** | `Developer Productivity & Tooling` | `Go` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[simeji/jid](https://github.com/simeji/jid)** | `Developer Productivity & Tooling` | `Go` | json incremental digger | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lxc/incus-os](https://github.com/lxc/incus-os)** | `Developer Productivity & Tooling` | `Go` | Immutable Linux OS to run Incus | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[TheYahya/enola](https://github.com/TheYahya/enola)** | `Developer Productivity & Tooling` | `Go` | This is Sherlock's sister, Modern shiny CLI tool written with Golang to help you: 🔎 Hunt down social media accounts by username across social networks | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[picosh/pico](https://github.com/picosh/pico)** | `Developer Productivity & Tooling` | `Go` | The ultimate ssh powered services for developers | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[termkit/gama](https://github.com/termkit/gama)** | `Developer Productivity & Tooling` | `Go` | Manage your GitHub Actions from Terminal with great UI 🧪 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[yassinebenaid/bunster](https://github.com/yassinebenaid/bunster)** | `Developer Productivity & Tooling` | `Go` | Compile shell scripts to static binaries. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[pedrosland/pwned-check](https://github.com/pedrosland/pwned-check)** | `Developer Productivity & Tooling` | `Go` | API to check if a password is definitely​ not pwned | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[adelapazborrero/slack_jack](https://github.com/adelapazborrero/slack_jack)** | `Developer Productivity & Tooling` | `Go` | Hijack a slack bot to phish your way in | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[byawitz/ggh](https://github.com/byawitz/ggh)** | `Developer Productivity & Tooling` | `Go` | Recall your SSH sessions (also search your SSH config file) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[musana/CF-Hero](https://github.com/musana/CF-Hero)** | `Developer Productivity & Tooling` | `Go` | CF-Hero is a reconnaissance tool that uses multiple data sources to discover the origin IP addresses of Cloudflare-protected web applications | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[seatgeek/mailroom](https://github.com/seatgeek/mailroom)** | `Developer Productivity & Tooling` | `Go` | Framework for creating, routing, and delivering user notifications based on events from external systems | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Melkeydev/go-blueprint](https://github.com/Melkeydev/go-blueprint)** | `Developer Productivity & Tooling` | `Go` | Go-blueprint allows users to spin up a quick Go project using a popular framework | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[mr-karan/doggo](https://github.com/mr-karan/doggo)** | `Developer Productivity & Tooling` | `Go` | :dog: Command-line DNS Client for Humans. Written in Golang | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[coder/wush](https://github.com/coder/wush)** | `Developer Productivity & Tooling` | `Go` | simplest & fastest way to transfer files between computers via WireGuard | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[codesenberg/bombardier](https://github.com/codesenberg/bombardier)** | `Developer Productivity & Tooling` | `Go` | Fast cross-platform HTTP benchmarking tool written in Go | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tsenart/vegeta](https://github.com/tsenart/vegeta)** | `Developer Productivity & Tooling` | `Go` | HTTP load testing tool and library. It's over 9000! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[TomWright/dasel](https://github.com/TomWright/dasel)** | `Developer Productivity & Tooling` | `Go` | Unified querying, transformation, and modification of JSON, TOML, YAML, XML, INI, HCL, KDL and CSV. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[charmbracelet/gum](https://github.com/charmbracelet/gum)** | `Developer Productivity & Tooling` | `Go` | A tool for glamorous shell scripts 🎀 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cgzirim/seek-tune](https://github.com/cgzirim/seek-tune)** | `Developer Productivity & Tooling` | `Go` | An implementation of Shazam's song recognition algorithm. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cloudflare/pint](https://github.com/cloudflare/pint)** | `Developer Productivity & Tooling` | `Go` | Prometheus rule linter/validator | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[msoap/shell2telegram](https://github.com/msoap/shell2telegram)** | `Developer Productivity & Tooling` | `Go` | Telegram bot constructor from command-line | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[poundifdef/smoothmq](https://github.com/poundifdef/smoothmq)** | `Developer Productivity & Tooling` | `Go` | An improved drop-in replacement for SQS | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[yorukot/superfile](https://github.com/yorukot/superfile)** | `Developer Productivity & Tooling` | `Go` | Pretty fancy and modern terminal file manager | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[k0sproject/k0smotron](https://github.com/k0sproject/k0smotron)** | `Developer Productivity & Tooling` | `Go` | k0smotron | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[msoap/shell2http](https://github.com/msoap/shell2http)** | `Developer Productivity & Tooling` | `Go` | Executing shell commands via HTTP server | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[goreleaser/goreleaser](https://github.com/goreleaser/goreleaser)** | `Developer Productivity & Tooling` | `Go` | Release engineering, simplified | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[open-telemetry/opentelemetry-ebpf-profiler](https://github.com/open-telemetry/opentelemetry-ebpf-profiler)** | `Developer Productivity & Tooling` | `Go` | The production-scale datacenter profiler (C/C++, Go, Rust, Python, Java, NodeJS, .NET, PHP, Ruby, Perl, ...) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[amalshaji/portr](https://github.com/amalshaji/portr)** | `Developer Productivity & Tooling` | `Go` | Expose local http, tcp or websocket connections to the public internet | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[charmbracelet/freeze](https://github.com/charmbracelet/freeze)** | `Developer Productivity & Tooling` | `Go` | Generate images of code and terminal output 📸 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[scratchdata/scratchdata](https://github.com/scratchdata/scratchdata)** | `Developer Productivity & Tooling` | `Go` | Scratch is a swiss army knife for big data. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[earthly/earthly](https://github.com/earthly/earthly)** | `Developer Productivity & Tooling` | `Go` | Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)** | `Developer Productivity & Tooling` | `Go` | PDF tooling for Go and the command line. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ServiceWeaver/weaver](https://github.com/ServiceWeaver/weaver)** | `Developer Productivity & Tooling` | `Go` | Programming framework for writing and deploying cloud applications. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sibprogrammer/xq](https://github.com/sibprogrammer/xq)** | `Developer Productivity & Tooling` | `Go` | Command-line XML and HTML beautifier and content extractor | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gobuffalo/buffalo](https://github.com/gobuffalo/buffalo)** | `Developer Productivity & Tooling` | `Go` | Rapid Web Development w/ Go | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[barthr/redo](https://github.com/barthr/redo)** | `Developer Productivity & Tooling` | `Go` | Redo is the ultimate tool to create reusable functions from your history in an interactive way | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash)** | `Developer Productivity & Tooling` | `Go` | A rich terminal UI for GitHub that doesn't break your flow. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[megaease/easeprobe](https://github.com/megaease/easeprobe)** | `Developer Productivity & Tooling` | `Go` | A simple, standalone, and lightweight tool that can do health/status checking, written in Go. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[direnv/direnv](https://github.com/direnv/direnv)** | `Developer Productivity & Tooling` | `Go` | unclutter your .profile | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner)** | `Developer Productivity & Tooling` | `Go` | 🤯 High-performance PHP application server, process manager written in Go and powered with plugins | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[grafana/k6](https://github.com/grafana/k6)** | `Developer Productivity & Tooling` | `Go` | A modern load testing tool, using Go and JavaScript | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hipages/php-fpm_exporter](https://github.com/hipages/php-fpm_exporter)** | `Developer Productivity & Tooling` | `Go` | A prometheus exporter for PHP-FPM. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gocopper/copper](https://github.com/gocopper/copper)** | `Developer Productivity & Tooling` | `Go` | 🚀‏‏‎    ‎‏‏‎‏‏‎‎‎‎‎‎Copper is a Go toolkit complete with everything you need to build web apps. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)** | `Developer Productivity & Tooling` | `Go` | A powerful little TUI framework 🏗 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[kadeessh/kadeessh](https://github.com/kadeessh/kadeessh)** | `Developer Productivity & Tooling` | `Go` | Kadeessh (formerly Caddy-SSH) is a general-purpose, extensible, modular, memory-safe SSH server built in Go | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[quackduck/devzat](https://github.com/quackduck/devzat)** | `Developer Productivity & Tooling` | `Go` | The devs are over here at devzat, chat over SSH! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[winfsp/hubfs](https://github.com/winfsp/hubfs)** | `Developer Productivity & Tooling` | `Go` | File system for GitHub & GitLab | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[syncthing/syncthing](https://github.com/syncthing/syncthing)** | `Developer Productivity & Tooling` | `Go` | Open Source Continuous File Synchronization | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[commitdev/zero](https://github.com/commitdev/zero)** | `Developer Productivity & Tooling` | `Go` | Allow startup developers to ship to production on day 1 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[maaslalani/slides](https://github.com/maaslalani/slides)** | `Developer Productivity & Tooling` | `Go` | Terminal based presentation tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jwhited/wgsd](https://github.com/jwhited/wgsd)** | `Developer Productivity & Tooling` | `Go` | A CoreDNS plugin that provides WireGuard peer information via DNS-SD semantics | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[costela/wesher](https://github.com/costela/wesher)** | `Developer Productivity & Tooling` | `Go` | wireguard overlay mesh network manager | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ochinchina/supervisord](https://github.com/ochinchina/supervisord)** | `Developer Productivity & Tooling` | `Go` | a go-lang supervisor implementation | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cli/cli](https://github.com/cli/cli)** | `Developer Productivity & Tooling` | `Go` | GitHub’s official command line tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[beefsack/webify](https://github.com/beefsack/webify)** | `Developer Productivity & Tooling` | `Go` | Turn shell commands into web services | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[charmbracelet/glow](https://github.com/charmbracelet/glow)** | `Developer Productivity & Tooling` | `Go` | Render markdown on the CLI, with pizzazz! 💅🏻 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[coder/sshcode](https://github.com/coder/sshcode)** | `Developer Productivity & Tooling` | `Go` | Run VS Code on any server over SSH. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[muesli/gitomatic](https://github.com/muesli/gitomatic)** | `Developer Productivity & Tooling` | `Go` | A tool to monitor git repositories and automatically pull & push changes | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[acme-dns/acme-dns](https://github.com/acme-dns/acme-dns)** | `Developer Productivity & Tooling` | `Go` | Limited DNS server with RESTful HTTP API to handle ACME DNS challenges easily and securely. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gogococo/nomad-autoscaler-demos](https://github.com/gogococo/nomad-autoscaler-demos)** | `Developer Productivity & Tooling` | `HCL` | A set of demos for the Nomad Autoscaler (https://github.com/hashicorp/nomad-autoscaler) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hashicorp/nomad-guides](https://github.com/hashicorp/nomad-guides)** | `Developer Productivity & Tooling` | `HCL` | Example usage of HashiCorp Nomad | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jessequinn/hashicorp_series](https://github.com/jessequinn/hashicorp_series)** | `Developer Productivity & Tooling` | `HCL` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fhemberger/nomad-demo](https://github.com/fhemberger/nomad-demo)** | `Developer Productivity & Tooling` | `HCL` | Vagrant based demo setup for running Hashicorp Nomad | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[taypo/multipass-images](https://github.com/taypo/multipass-images)** | `Developer Productivity & Tooling` | `HCL` | My custom multipass images for local development and testing use | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[phil-opp/blog_os](https://github.com/phil-opp/blog_os)** | `Developer Productivity & Tooling` | `HTML` | Writing an OS in Rust | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[thoughtspot/pdom](https://github.com/thoughtspot/pdom)** | `Developer Productivity & Tooling` | `HTML` | Multithreaded DOM is possible. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[IonicaBizau/git-stats](https://github.com/IonicaBizau/git-stats)** | `Developer Productivity & Tooling` | `HTML` | 🍀 Local git statistics including GitHub-like contributions calendars. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[re-data/re-data](https://github.com/re-data/re-data)** | `Developer Productivity & Tooling` | `HTML` | re_data - fix data issues before your users & CEO would discover them 😊 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ira-design/ira-illustrations](https://github.com/ira-design/ira-illustrations)** | `Developer Productivity & Tooling` | `HTML` | Build your own amazing illustrations | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[smaranjitghose/awesome-portfolio-websites](https://github.com/smaranjitghose/awesome-portfolio-websites)** | `Developer Productivity & Tooling` | `HTML` | A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged websit | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[vivirenremoto/doomcaptcha](https://github.com/vivirenremoto/doomcaptcha)** | `Developer Productivity & Tooling` | `HTML` | Captchas don't have to be boring | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[GaneshKhadka/Employee-management-system-in-laravel](https://github.com/GaneshKhadka/Employee-management-system-in-laravel)** | `Developer Productivity & Tooling` | `HTML` | Employee management system.This is a project based on laravel framework.You can fork it and can download or clone it. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[shakthisachintha/Hospital-Management-System-Laravel](https://github.com/shakthisachintha/Hospital-Management-System-Laravel)** | `Developer Productivity & Tooling` | `HTML` | Hospital Management System Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[EternalBox/EternalJukebox](https://github.com/EternalBox/EternalJukebox)** | `Developer Productivity & Tooling` | `HTML` | The internal workings for the Eternal Jukebox, a rehosting of the Infinite Jukebox | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[alpinejs/alpine](https://github.com/alpinejs/alpine)** | `Developer Productivity & Tooling` | `HTML` | A rugged, minimal framework for composing JavaScript behavior in your markup. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Igglybuff/awesome-piracy](https://github.com/Igglybuff/awesome-piracy)** | `Developer Productivity & Tooling` | `HTML` | A curated list of awesome warez and piracy links | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[dustin/gopro](https://github.com/dustin/gopro)** | `Developer Productivity & Tooling` | `Haskell` | Tools for making the most out of GoPro Plus. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[kksimp/Mac.apk](https://github.com/kksimp/Mac.apk)** | `Developer Productivity & Tooling` | `Java` | Mac.apk: Run Android apps natively on Apple Silicon Macs | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[AutoMQ/automq](https://github.com/AutoMQ/automq)** | `Developer Productivity & Tooling` | `Java` | Diskless Kafka® on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bytedance/bitsail](https://github.com/bytedance/bitsail)** | `Developer Productivity & Tooling` | `Java` | BitSail is a distributed high-performance data integration engine which supports batch, streaming and incremental scenarios. BitSail is widely used to synchronize hundreds of trillions of data every d | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[TiagoSantos81/libregrammar](https://github.com/TiagoSantos81/libregrammar)** | `Developer Productivity & Tooling` | `Java` | Repo to count commit history. Main repo is https://github.com/TiagoSantos81/languagetool/commits/master | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[SonarSource/sonarqube](https://github.com/SonarSource/sonarqube)** | `Developer Productivity & Tooling` | `Java` | Continuous Inspection | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[runsidekick/sidekick](https://github.com/runsidekick/sidekick)** | `Developer Productivity & Tooling` | `Java` | Sidekick is no longer in service | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ls1intum/Artemis](https://github.com/ls1intum/Artemis)** | `Developer Productivity & Tooling` | `Java` | Artemis - Interactive Learning with Automated Feedback | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[SimCoderYoutube/WhatsAppClone](https://github.com/SimCoderYoutube/WhatsAppClone)** | `Developer Productivity & Tooling` | `Java` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[MCMrARM/revolution-irc](https://github.com/MCMrARM/revolution-irc)** | `Developer Productivity & Tooling` | `Java` | A modern Android IRC client. #revolutionirc on Libera.chat | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[coding-blocks/DigitalOceanApp](https://github.com/coding-blocks/DigitalOceanApp)** | `Developer Productivity & Tooling` | `Java` | Admin Console for Digital Ocean | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spicetify/cli](https://github.com/spicetify/cli)** | `Developer Productivity & Tooling` | `JavaScript` | Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework)** | `Developer Productivity & Tooling` | `JavaScript` | OSINT Framework | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[khalildh/garment-notation](https://github.com/khalildh/garment-notation)** | `Developer Productivity & Tooling` | `JavaScript` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sinandredemption/kath](https://github.com/sinandredemption/kath)** | `Developer Productivity & Tooling` | `JavaScript` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bgstaal/multipleWindow3dScene](https://github.com/bgstaal/multipleWindow3dScene)** | `Developer Productivity & Tooling` | `JavaScript` | A quick example of how one can "synchronize" a 3d scene across multiple windows using three.js and localStorage | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[DocumindHQ/documind](https://github.com/DocumindHQ/documind)** | `Developer Productivity & Tooling` | `JavaScript` | Open-source platform for extracting structured data from documents using AI. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sindresorhus/nano-spawn](https://github.com/sindresorhus/nano-spawn)** | `Developer Productivity & Tooling` | `JavaScript` | Tiny process execution for humans — a better child_process | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gnmyt/Nexterm](https://github.com/gnmyt/Nexterm)** | `Developer Productivity & Tooling` | `JavaScript` | The open source server management software for SSH, VNC & RDP | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[j9t/obsohtml](https://github.com/j9t/obsohtml)** | `Developer Productivity & Tooling` | `JavaScript` | HTML checker for obsolete and proprietary elements and attributes | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[mafintosh/why-is-node-running](https://github.com/mafintosh/why-is-node-running)** | `Developer Productivity & Tooling` | `JavaScript` | Node is running but you don't know why? why-is-node-running is here to help you. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[huggingface/transformers.js](https://github.com/huggingface/transformers.js)** | `Developer Productivity & Tooling` | `JavaScript` | State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Kalabasa/htmz](https://github.com/Kalabasa/htmz)** | `Developer Productivity & Tooling` | `JavaScript` | html with targeted manipulation zones | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[wasmerio/winterjs](https://github.com/wasmerio/winterjs)** | `Developer Productivity & Tooling` | `JavaScript` | Winter is coming... ❄️ | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ErickWendel/processing-large-reports-in-the-browser](https://github.com/ErickWendel/processing-large-reports-in-the-browser)** | `Developer Productivity & Tooling` | `JavaScript` | Examples from my video about processing large reports in the browser without any backend | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[puffinsoft/jscanify](https://github.com/puffinsoft/jscanify)** | `Developer Productivity & Tooling` | `JavaScript` | The Javascript document scanning library. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[mojolicious/mojo.js](https://github.com/mojolicious/mojo.js)** | `Developer Productivity & Tooling` | `JavaScript` | :unicorn: The Mojolicious real-time web framework for Node.js | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[trevorjay/Jerrica](https://github.com/trevorjay/Jerrica)** | `Developer Productivity & Tooling` | `JavaScript` | Jerrica is a small, bare bones, 100% scheduled, web audio native, MOD player designed to be embedded in Javascript games | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fastify/fastify](https://github.com/fastify/fastify)** | `Developer Productivity & Tooling` | `JavaScript` | Fast and low overhead web framework, for Node.js | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ai/nanoid](https://github.com/ai/nanoid)** | `Developer Productivity & Tooling` | `JavaScript` | A tiny (118 bytes), secure, URL-friendly, unique string ID generator for JavaScript | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[parvardegr/sharing](https://github.com/parvardegr/sharing)** | `Developer Productivity & Tooling` | `JavaScript` | Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[google/zx](https://github.com/google/zx)** | `Developer Productivity & Tooling` | `JavaScript` | A tool for writing better scripts | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[SurajMazar/_assist](https://github.com/SurajMazar/_assist)** | `Developer Productivity & Tooling` | `JavaScript` | Node cli | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Rohan-Jalil/golang-vs-php-vs-node-vs-python](https://github.com/Rohan-Jalil/golang-vs-php-vs-node-vs-python)** | `Developer Productivity & Tooling` | `JavaScript` | Benchmarking Computational power and File I/O between Golang vs PHP vs Node.JS vs Python | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[heysphere/node-vs-go](https://github.com/heysphere/node-vs-go)** | `Developer Productivity & Tooling` | `JavaScript` | demo | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gokhanmeteerturk/HeadwindHTML](https://github.com/gokhanmeteerturk/HeadwindHTML)** | `Developer Productivity & Tooling` | `JavaScript` | Create HTML from CSS! A modern javascript library you'd expect Facebook to invent. Slowly build modern websites without ever leaving your CSS, with HeadwindHTML | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile)** | `Developer Productivity & Tooling` | `JavaScript` | Web Extension for saving a faithful copy of a complete web page in a single HTML file | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[super-easy-forms/super-easy-forms](https://github.com/super-easy-forms/super-easy-forms)** | `Developer Productivity & Tooling` | `JavaScript` | The easiest way to generate forms  for your static site | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bundit/kord](https://github.com/bundit/kord)** | `Developer Productivity & Tooling` | `JavaScript` | Spotify, Soundcloud, and YouTube all in one website! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Sandermoen/instaclone](https://github.com/Sandermoen/instaclone)** | `Developer Productivity & Tooling` | `JavaScript` | An instagram clone created with the MERN stack | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jam-systems/jam](https://github.com/jam-systems/jam)** | `Developer Productivity & Tooling` | `JavaScript` | 🍓 Jam is your own open source Clubhouse for mini conferences, friends, communities | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[DustinBrett/daedalOS](https://github.com/DustinBrett/daedalOS)** | `Developer Productivity & Tooling` | `JavaScript` | Desktop environment in the browser | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)** | `Developer Productivity & Tooling` | `JavaScript` | 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nolanlawson/fuite](https://github.com/nolanlawson/fuite)** | `Developer Productivity & Tooling` | `JavaScript` | A tool for finding memory leaks in web apps | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fabiospampinato/cash](https://github.com/fabiospampinato/cash)** | `Developer Productivity & Tooling` | `JavaScript` | An absurdly small jQuery alternative for modern browsers. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)** | `Developer Productivity & Tooling` | `JavaScript` | Clean Code concepts adapted for JavaScript | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[clinicjs/node-clinic-flame-demo](https://github.com/clinicjs/node-clinic-flame-demo)** | `Developer Productivity & Tooling` | `JavaScript` | A Clinic Flame example | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[twopluszero/next-images](https://github.com/twopluszero/next-images)** | `Developer Productivity & Tooling` | `JavaScript` | Import images in Next.js (supports jpg, jpeg, svg, png and gif images) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hotwired/turbo](https://github.com/hotwired/turbo)** | `Developer Productivity & Tooling` | `JavaScript` | The speed of a single-page web application without having to write any JavaScript | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)** | `Developer Productivity & Tooling` | `JavaScript` | 24 Lessons, 12 Weeks, Get Started as a Web Developer | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)** | `Developer Productivity & Tooling` | `JavaScript` | A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[model-zoo/shift-ctrl-f](https://github.com/model-zoo/shift-ctrl-f)** | `Developer Productivity & Tooling` | `JavaScript` | 🔎 Search the information available on a webpage using natural language instead of an exact string match. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[alias-rahil/handwritten.js](https://github.com/alias-rahil/handwritten.js)** | `Developer Productivity & Tooling` | `JavaScript` | Convert typed text to realistic handwriting! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[francisrstokes/super-expressive](https://github.com/francisrstokes/super-expressive)** | `Developer Productivity & Tooling` | `JavaScript` | 🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nthopinion/covid19](https://github.com/nthopinion/covid19)** | `Developer Productivity & Tooling` | `JavaScript` | Code vs COVID-19: Taking down a Pandemic using machines connected globally to extinguish a biological threat of a super virus. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[faressoft/terminalizer](https://github.com/faressoft/terminalizer)** | `Developer Productivity & Tooling` | `JavaScript` | 🦄 Record your terminal and generate animated gif images or share a web player | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[stealjs/steal](https://github.com/stealjs/steal)** | `Developer Productivity & Tooling` | `JavaScript` | Gets JavaScript | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[andreimargeloiu/Hospital-management-nodejs](https://github.com/andreimargeloiu/Hospital-management-nodejs)** | `Developer Productivity & Tooling` | `JavaScript` | NodeJS web app for managing patients and planning their distribution across hospital’s rooms. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[HospitalRun/hospitalrun-server](https://github.com/HospitalRun/hospitalrun-server)** | `Developer Productivity & Tooling` | `JavaScript` | Backend for HospitalRun | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[larsjanssen6/underconstruction](https://github.com/larsjanssen6/underconstruction)** | `Developer Productivity & Tooling` | `JavaScript` | This Laravel 8 package makes it possible for you to set your website in "Under Construction" mode. Only users with the correct 4 (or more) digit code can access your site. :fire:  :boom: :fire: | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[RestyaPlatform/board](https://github.com/RestyaPlatform/board)** | `Developer Productivity & Tooling` | `JavaScript` | Trello like kanban board. Based on Restya platform. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[graphite-project/graphite-web](https://github.com/graphite-project/graphite-web)** | `Developer Productivity & Tooling` | `JavaScript` | A highly scalable real-time graphing system | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[webpack/webpack-cli](https://github.com/webpack/webpack-cli)** | `Developer Productivity & Tooling` | `JavaScript` | Webpack's Command Line Interface | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cryptpad/cryptpad](https://github.com/cryptpad/cryptpad)** | `Developer Productivity & Tooling` | `JavaScript` | Collaborative office suite, end-to-end encrypted and open-source. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[node-red/node-red](https://github.com/node-red/node-red)** | `Developer Productivity & Tooling` | `JavaScript` | Low-code programming for event-driven applications | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[TMAers/hubot-dialogflow](https://github.com/TMAers/hubot-dialogflow)** | `Developer Productivity & Tooling` | `JavaScript` | Add smartness and conversational UX to Hubot with dialogflow.com as back-end | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk)** | `Developer Productivity & Tooling` | `JavaScript` | Bot Framework provides the most comprehensive experience for building conversation applications. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hardeepmehta/webrtc-rooms](https://github.com/hardeepmehta/webrtc-rooms)** | `Developer Productivity & Tooling` | `JavaScript` | A simple room based webrtc application for audio-video sharing | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[t9tio/cloudquery](https://github.com/t9tio/cloudquery)** | `Developer Productivity & Tooling` | `JavaScript` | Turn any website to API by several clicks (serverless and support SPA!) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[charlesBochet/cropchat](https://github.com/charlesBochet/cropchat)** | `Developer Productivity & Tooling` | `JavaScript` | Progressive Web Application made with VueJS | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi)** | `Developer Productivity & Tooling` | `Jinja` | Raspberry Pi config for all things Internet. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[CGamesPlay/infra](https://github.com/CGamesPlay/infra)** | `Developer Productivity & Tooling` | `Jsonnet` | selfhosted infra scripts | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[google-gemma/cookbook](https://github.com/google-gemma/cookbook)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | A collection of guides and examples for the Gemma open models from Google. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[abeleinin/Metal-Puzzles](https://github.com/abeleinin/Metal-Puzzles)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | Solve Puzzles. Learn Metal 🤘 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[google-gemini/cookbook](https://github.com/google-gemini/cookbook)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | Examples and guides for using the Gemini API | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[xnought/vae-explainer](https://github.com/xnought/vae-explainer)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | Interactive Variational Autoencoder (VAE) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cfahlgren1/natural-sql](https://github.com/cfahlgren1/natural-sql)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | A series of top performing Text to SQL LLMs | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[WhisperSpeech/WhisperSpeech](https://github.com/WhisperSpeech/WhisperSpeech)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | An Open Source text-to-speech system built by inverting Whisper. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[suno-ai/bark](https://github.com/suno-ai/bark)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | 🔊 Text-Prompted Generative Audio Model | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[guidance-ai/guidance](https://github.com/guidance-ai/guidance)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | A guidance language for controlling large language models. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[robgon-art/open-clip](https://github.com/robgon-art/open-clip)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | Test out OpenCLIP for Image Search and Automatic Captioning | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable mu | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[facebookresearch/dinov2](https://github.com/facebookresearch/dinov2)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | PyTorch code and models for the DINOv2 self-supervised learning method. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Stability-AI/StableLM](https://github.com/Stability-AI/StableLM)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | StableLM: Stability AI Language Models | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bloc97/Anime4K](https://github.com/bloc97/Anime4K)** | `Developer Productivity & Tooling` | `Jupyter Notebook` | A High-Quality Real Time Upscaler for Anime Video | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[google-ai-edge/gallery](https://github.com/google-ai-edge/gallery)** | `Developer Productivity & Tooling` | `Kotlin` | A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[davidgiven/wordgrinder](https://github.com/davidgiven/wordgrinder)** | `Developer Productivity & Tooling` | `Lua` | A word processor which gets the hell out of your way and lets you get some work done. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[govCMS/lagoon](https://github.com/govCMS/lagoon)** | `Developer Productivity & Tooling` | `Lua` | GovCMS Lagoon project | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nanovms/ops-documentation](https://github.com/nanovms/ops-documentation)** | `Developer Productivity & Tooling` | `Makefile` | Documentation for NanoVMs OPS | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)** | `Developer Productivity & Tooling` | `Markdown` | Free domain registration and practical DNS learning resources for everyone. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | `Developer Productivity & Tooling` | `Markdown` | Master programming by recreating your favorite technologies from scratch. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm)** | `Developer Productivity & Tooling` | `Markdown` | Crack LeetCode, not only how, but also why. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[metacraft-labs/codetracer](https://github.com/metacraft-labs/codetracer)** | `Developer Productivity & Tooling` | `Nim` | CodeTracer is a user-friendly time-traveling debugger designed to support a wide range of programming languages. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[snowfallorg/snowflakeos-iso](https://github.com/snowfallorg/snowflakeos-iso)** | `Developer Productivity & Tooling` | `Nix` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[darlinghq/darling](https://github.com/darlinghq/darling)** | `Developer Productivity & Tooling` | `Objective-C` | Darwin/macOS emulation layer for Linux | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)** | `Developer Productivity & Tooling` | `Others` | The Patterns of Scalable, Reliable, and Performant Large-Scale Systems | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)** | `Developer Productivity & Tooling` | `Others` | A list of Free Software network services and web applications which can be hosted on your own servers | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[noqa-ai/noqa](https://github.com/noqa-ai/noqa)** | `Developer Productivity & Tooling` | `Others` | Automated mobile testing tool with device CLI for apps and games - real devices iOS & Android. Supports native (swift, kotlin), react native, flutter, KMP, unity and any mobile apps and games. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[flatcar/Flatcar](https://github.com/flatcar/Flatcar)** | `Developer Productivity & Tooling` | `Others` | Flatcar project repository for issue tracking, project documentation, etc. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ALEEEHU/World-Simulator](https://github.com/ALEEEHU/World-Simulator)** | `Developer Productivity & Tooling` | `Others` | [IEEE TPAMI 2026] Simulating the Real World: Survey & Resources, which contains our survey "Simulating the Real World: A Unified Survey of Multimodal Generative Models" (IEEE TPAMI, 2026) and Awesome- | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[SummitRoute/aws_breaking_changes](https://github.com/SummitRoute/aws_breaking_changes)** | `Developer Productivity & Tooling` | `Others` | List of changes announced for AWS that may break existing code | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[karpathy/LLM101n](https://github.com/karpathy/LLM101n)** | `Developer Productivity & Tooling` | `Others` | LLM101n: Let's build a Storyteller | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[deepseek-ai/DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2)** | `Developer Productivity & Tooling` | `Others` | DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[superkoda/superkoda](https://github.com/superkoda/superkoda)** | `Developer Productivity & Tooling` | `Others` | Business apps you can change by asking. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[octoherd/octoherd](https://github.com/octoherd/octoherd)** | `Developer Productivity & Tooling` | `Others` | Manage multiple repository updates all at once. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[dtinth/superwhite](https://github.com/dtinth/superwhite)** | `Developer Productivity & Tooling` | `Others` | display a very bright white color on HDR-enabled displays | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)** | `Developer Productivity & Tooling` | `Others` | Master the command line, in one page | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[coreruleset/google-oauth2-plugin](https://github.com/coreruleset/google-oauth2-plugin)** | `Developer Productivity & Tooling` | `Others` | Plugin to suppress false positives with Google OAuth2 online authorization service callbacks. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jorgef/engineeringladders](https://github.com/jorgef/engineeringladders)** | `Developer Productivity & Tooling` | `Others` | A framework for Engineering Managers | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[InterviewReady/system-design-resources](https://github.com/InterviewReady/system-design-resources)** | `Developer Productivity & Tooling` | `Others` | These are the best resources for System Design on the Internet | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[DopplerHQ/awesome-bots](https://github.com/DopplerHQ/awesome-bots)** | `Developer Productivity & Tooling` | `Others` | The most awesome list about bots ⭐️🤖 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[mikeroyal/Oracle-Cloud-Guide](https://github.com/mikeroyal/Oracle-Cloud-Guide)** | `Developer Productivity & Tooling` | `Others` | Oracle Cloud Infrastructure Guide | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)** | `Developer Productivity & Tooling` | `Others` | A complete computer science study plan to become a software engineer. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[github/release-radar](https://github.com/github/release-radar)** | `Developer Productivity & Tooling` | `Others` | Repo for submission of projects to consider for the GitHub Release Radar 📡 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[alex/what-happens-when](https://github.com/alex/what-happens-when)** | `Developer Productivity & Tooling` | `Others` | An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?" | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[formidablae/formidablae](https://github.com/formidablae/formidablae)** | `Developer Productivity & Tooling` | `Others` | My profile's README.md | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars)** | `Developer Productivity & Tooling` | `Others` | 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)** | `Developer Productivity & Tooling` | `Others` | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones] | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know)** | `Developer Productivity & Tooling` | `Others` | A collection of (mostly) technical things every software developer should know about | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[LaravelDaily/Laravel-Roadmap-Learning-Path](https://github.com/LaravelDaily/Laravel-Roadmap-Learning-Path)** | `Developer Productivity & Tooling` | `Others` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core)** | `Developer Productivity & Tooling` | `Others` | Dev environments. In your web app. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nodes-io/nodes-io](https://github.com/nodes-io/nodes-io)** | `Developer Productivity & Tooling` | `Others` | A new way to create with code. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix)** | `Developer Productivity & Tooling` | `Others` | A collection of modern/faster/saner alternatives to common unix commands. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jippi/awesome-nomad](https://github.com/jippi/awesome-nomad)** | `Developer Productivity & Tooling` | `Others` | A curated list of amazingly awesome Nomad tools and shiny things. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nilbuild/design-patterns-for-humans](https://github.com/nilbuild/design-patterns-for-humans)** | `Developer Productivity & Tooling` | `Others` | An ultra-simplified explanation to design patterns | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel)** | `Developer Productivity & Tooling` | `Others` | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[iCHAIT/awesome-macOS](https://github.com/iCHAIT/awesome-macOS)** | `Developer Productivity & Tooling` | `Others` |  A curated list of awesome applications, softwares, tools and shiny things for macOS. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)** | `Developer Productivity & Tooling` | `Others` | A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)** | `Developer Productivity & Tooling` | `Others` | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)** | `Developer Productivity & Tooling` | `Others` | 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[prasadgujar/low-level-design-primer](https://github.com/prasadgujar/low-level-design-primer)** | `Developer Productivity & Tooling` | `Others` | Dedicated Resources for the Low-Level System Design. Learn how to design and implement large-scale systems. Prep for the system design interview. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cloudpanel-io/cloudpanel-ce](https://github.com/cloudpanel-io/cloudpanel-ce)** | `Developer Productivity & Tooling` | `Others` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[younginnovations/nepal-locallevel-map](https://github.com/younginnovations/nepal-locallevel-map)** | `Developer Productivity & Tooling` | `Others` | Local level map data of Nepal | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fpereiro/backendlore](https://github.com/fpereiro/backendlore)** | `Developer Productivity & Tooling` | `Others` | How I write backends | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[anaibol/awesome-serverless](https://github.com/anaibol/awesome-serverless)** | `Developer Productivity & Tooling` | `Others` | :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[laravel/boost](https://github.com/laravel/boost)** | `Developer Productivity & Tooling` | `PHP` | Laravel-focused MCP server for augmenting your AI powered local development experience. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Sti3bas/laravel-scout-array-driver](https://github.com/Sti3bas/laravel-scout-array-driver)** | `Developer Productivity & Tooling` | `PHP` | Array driver for Laravel Scout | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[benbjurstrom/otpz](https://github.com/benbjurstrom/otpz)** | `Developer Productivity & Tooling` | `PHP` | 🔒 First Factor One-Time Passwords for Laravel (Passwordless OTP Login) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[laravel/cpx](https://github.com/laravel/cpx)** | `Developer Productivity & Tooling` | `PHP` | Run any command from any composer package, even if it's not installed in your project. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tighten/tlint](https://github.com/tighten/tlint)** | `Developer Productivity & Tooling` | `PHP` | Tighten linter for Laravel conventions. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[deptrac/deptrac](https://github.com/deptrac/deptrac)** | `Developer Productivity & Tooling` | `PHP` | Keep your architecture clean. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sandip-jobin/magika-file-validator](https://github.com/sandip-jobin/magika-file-validator)** | `Developer Productivity & Tooling` | `PHP` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tempestphp/tempest-framework](https://github.com/tempestphp/tempest-framework)** | `Developer Productivity & Tooling` | `PHP` | The PHP framework that gets out of your way | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[laravel-shift/blueprint](https://github.com/laravel-shift/blueprint)** | `Developer Productivity & Tooling` | `PHP` | A code generation tool for Laravel developers. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jcarlosroldan/oink](https://github.com/jcarlosroldan/oink)** | `Developer Productivity & Tooling` | `PHP` | 🐽 oink.php is a single-file PHP library to easily build APIs | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lunarphp/lunar](https://github.com/lunarphp/lunar)** | `Developer Productivity & Tooling` | `PHP` | An open-source package that brings the power of modern headless e-commerce functionality to Laravel. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[NativePHP/laravel](https://github.com/NativePHP/laravel)** | `Developer Productivity & Tooling` | `PHP` | Laravel wrapper for the NativePHP framework | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[laravel/folio](https://github.com/laravel/folio)** | `Developer Productivity & Tooling` | `PHP` | Page based routing for Laravel. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[livewire/livewire](https://github.com/livewire/livewire)** | `Developer Productivity & Tooling` | `PHP` | A full-stack framework for Laravel that takes the pain out of building dynamic UIs. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[amphp/amp](https://github.com/amphp/amp)** | `Developer Productivity & Tooling` | `PHP` | A non-blocking concurrency framework for PHP applications. 🐘 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[calebporzio/sushi](https://github.com/calebporzio/sushi)** | `Developer Productivity & Tooling` | `PHP` | Eloquent's missing "array" driver. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[stevebauman/location](https://github.com/stevebauman/location)** | `Developer Productivity & Tooling` | `PHP` | Retrieve a visitor's location from their IP address. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[OpnForm/OpnForm](https://github.com/OpnForm/OpnForm)** | `Developer Productivity & Tooling` | `PHP` | Beautiful Open-Source Form Builder | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[rectorphp/rector](https://github.com/rectorphp/rector)** | `Developer Productivity & Tooling` | `PHP` | Instant Upgrades and Automated Refactoring of any PHP 5.3+ code | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jobilla/laravel-cloud-native-utilities](https://github.com/jobilla/laravel-cloud-native-utilities)** | `Developer Productivity & Tooling` | `PHP` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spatie/laravel-varnish](https://github.com/spatie/laravel-varnish)** | `Developer Productivity & Tooling` | `PHP` | Making Varnish and Laravel play nice together | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[laravel/pint](https://github.com/laravel/pint)** | `Developer Productivity & Tooling` | `PHP` | Laravel Pint is an opinionated PHP code style fixer for minimalists. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[LycheeOrg/Lychee](https://github.com/LycheeOrg/Lychee)** | `Developer Productivity & Tooling` | `PHP` | A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spatie/nova-tail-tool](https://github.com/spatie/nova-tail-tool)** | `Developer Productivity & Tooling` | `PHP` | A Laravel Nova tool to display the application log | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[legacy-nova-packages/nova-attach-many](https://github.com/legacy-nova-packages/nova-attach-many)** | `Developer Productivity & Tooling` | `PHP` | BelongsToMany create / edit form component for Nova | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[orlyapps/nova-belongsto-depend](https://github.com/orlyapps/nova-belongsto-depend)** | `Developer Productivity & Tooling` | `PHP` | Larave Nova BelongsTo Field with Dependcy | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Benjacho/belongs-to-many-field-nova](https://github.com/Benjacho/belongs-to-many-field-nova)** | `Developer Productivity & Tooling` | `PHP` | Belongs To Many field Laravel nova to represent many to many relationship in field. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[whitecube/nova-page](https://github.com/whitecube/nova-page)** | `Developer Productivity & Tooling` | `PHP` | Static pages content management for Laravel Nova | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[legacy-nova-packages/nova-button](https://github.com/legacy-nova-packages/nova-button)** | `Developer Productivity & Tooling` | `PHP` | Add buttons on Nova index, detail and lens views. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[yassilah/laravel-nova-nested-form](https://github.com/yassilah/laravel-nova-nested-form)** | `Developer Productivity & Tooling` | `PHP` | This package allows you to include your nested relationships' forms into a parent form. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[outl1ne/nova-menu-builder](https://github.com/outl1ne/nova-menu-builder)** | `Developer Productivity & Tooling` | `PHP` | This Laravel Nova package allows you to create and manage menus and menu items. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[coderello/laravel-nova-lang](https://github.com/coderello/laravel-nova-lang)** | `Developer Productivity & Tooling` | `PHP` | 🌌 Language files for Laravel Nova translated into 40+ languages. Feel free to submit your language or update an existing one! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[RTippin/messenger](https://github.com/RTippin/messenger)** | `Developer Productivity & Tooling` | `PHP` | Laravel messenger. A full messenger suite for your new / existing laravel app! Private and group threads between multiple models, with real-time messaging, reactions, attachments, calling, chat bots, | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[souramoo/PhpMeeting](https://github.com/souramoo/PhpMeeting)** | `Developer Productivity & Tooling` | `PHP` | A doodle.com-like php script to create and view meeting polls to mutually arrange a convenient meeting time. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[eminiarts/nova-tabs](https://github.com/eminiarts/nova-tabs)** | `Developer Productivity & Tooling` | `PHP` | Laravel Nova Tabs Package | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hotwired-laravel/turbo-laravel](https://github.com/hotwired-laravel/turbo-laravel)** | `Developer Productivity & Tooling` | `PHP` | This package gives you a set of conventions to make the most out of Hotwire in Laravel. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[KABBOUCHI/nova-impersonate](https://github.com/KABBOUCHI/nova-impersonate)** | `Developer Productivity & Tooling` | `PHP` | A Laravel Nova field allows you to authenticate as your users. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[outl1ne/nova-settings](https://github.com/outl1ne/nova-settings)** | `Developer Productivity & Tooling` | `PHP` | A Laravel Nova tool for editing custom settings using native Nova fields. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[humanmade/S3-Uploads](https://github.com/humanmade/S3-Uploads)** | `Developer Productivity & Tooling` | `PHP` | The WordPress Plugin to Store Uploads on Amazon S3 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[outl1ne/nova-sortable](https://github.com/outl1ne/nova-sortable)** | `Developer Productivity & Tooling` | `PHP` | This Laravel Nova package allows you to reorder models in a Nova resource's index view using drag & drop. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spatie/nova-translatable](https://github.com/spatie/nova-translatable)** | `Developer Productivity & Tooling` | `PHP` | Making Nova fields translatable | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[outl1ne/nova-translatable](https://github.com/outl1ne/nova-translatable)** | `Developer Productivity & Tooling` | `PHP` | A Laravel Nova package that allows you to make any input field translatable. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[outl1ne/nova-multiselect-field](https://github.com/outl1ne/nova-multiselect-field)** | `Developer Productivity & Tooling` | `PHP` | A Laravel Nova package that adds a multiselect to Nova's arsenal of fields. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spatie/nova-tags-field](https://github.com/spatie/nova-tags-field)** | `Developer Productivity & Tooling` | `PHP` | A tags field to use in your Nova apps | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spatie/nova-backup-tool](https://github.com/spatie/nova-backup-tool)** | `Developer Productivity & Tooling` | `PHP` | A Laravel Nova tool to backup your app | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[StydeNet/enlighten](https://github.com/StydeNet/enlighten)** | `Developer Productivity & Tooling` | `PHP` | Enlighten your APIs with auto-generated documentation | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[phpstan/phpstan](https://github.com/phpstan/phpstan)** | `Developer Productivity & Tooling` | `PHP` | PHP Static Analysis Tool - discover bugs in your code without running it! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[rashidlaasri/travel](https://github.com/rashidlaasri/travel)** | `Developer Productivity & Tooling` | `PHP` | Framework agnostic PHP package to control the time. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper)** | `Developer Productivity & Tooling` | `PHP` | Generate Laravel test factories from your existing models | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[DigitalOceanPHP/Client](https://github.com/DigitalOceanPHP/Client)** | `Developer Productivity & Tooling` | `PHP` | DigitalOcean API v2 client for PHP | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[daniel-fahl/laravel-servman](https://github.com/daniel-fahl/laravel-servman)** | `Developer Productivity & Tooling` | `PHP` | DigitalOcean server management inside the Laravel 5.3 framework | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[wesleya/provision-infosec](https://github.com/wesleya/provision-infosec)** | `Developer Productivity & Tooling` | `PHP` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[akash-mitra/dployer](https://github.com/akash-mitra/dployer)** | `Developer Productivity & Tooling` | `PHP` | Create DO droplets using web interface | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lissonpsantos2/digitalocean-droplet-manager](https://github.com/lissonpsantos2/digitalocean-droplet-manager)** | `Developer Productivity & Tooling` | `PHP` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Silvanite/novatoolpermissions](https://github.com/Silvanite/novatoolpermissions)** | `Developer Productivity & Tooling` | `PHP` | Laravel Nova Permissions Tool (User, Roles and Permissions / Access Control (ACL)) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[openemr/openemr](https://github.com/openemr/openemr)** | `Developer Productivity & Tooling` | `PHP` | The most popular open source electronic health records and medical practice management solution. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[astralapp/astral](https://github.com/astralapp/astral)** | `Developer Productivity & Tooling` | `PHP` | Organize Your GitHub Stars With Ease | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[agorakit/agorakit](https://github.com/agorakit/agorakit)** | `Developer Productivity & Tooling` | `PHP` | Groupware for citizens to organize on the Web | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ppshobi/tech-detector](https://github.com/ppshobi/tech-detector)** | `Developer Productivity & Tooling` | `PHP` | A web app for detecting backend technologies used in a web app, Based on wappalyzer node module | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jeremykenedy/laravel-exception-notifier](https://github.com/jeremykenedy/laravel-exception-notifier)** | `Developer Productivity & Tooling` | `PHP` | Laravel Exception Notifier will send an email of the error along with the stack trace to the chosen recipients. This Package includes all necessary traits, views, configs, and Mailers for email notifi | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[rashidlaasri/LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller)** | `Developer Productivity & Tooling` | `PHP` | A web installer for Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[PHPJunior/laravel-2c2p](https://github.com/PHPJunior/laravel-2c2p)** | `Developer Productivity & Tooling` | `PHP` | Laravel 2C2P package | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[HDInnovations/UNIT3D](https://github.com/HDInnovations/UNIT3D)** | `Developer Productivity & Tooling` | `PHP` | UNIT3D is a private torrent tracker built using Laravel, Livewire and AlpineJS. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ambulatorium/ambulatory](https://github.com/ambulatorium/ambulatory)** | `Developer Productivity & Tooling` | `PHP` | An experiment project for outpatient care platform. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[shihjay2/nosh2](https://github.com/shihjay2/nosh2)** | `Developer Productivity & Tooling` | `PHP` | NOSH ChartingSystem is an electronic health record system designed exclusively for doctors and patients. This is a new mobile-friendly version that is now based off of the Laravel PHP framework and jQ | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[timegridio/timegrid](https://github.com/timegridio/timegrid)** | `Developer Productivity & Tooling` | `PHP` | Free, open-source, online appointments platform based on Laravel PHP Framework. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[AbuseIO/AbuseIO](https://github.com/AbuseIO/AbuseIO)** | `Developer Productivity & Tooling` | `PHP` | AbuseIO is a toolkit to receive, process, correlate and notify about abuse reports received by network operators, typically hosting and access providers. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[botman/botman](https://github.com/botman/botman)** | `Developer Productivity & Tooling` | `PHP` | A framework agnostic PHP library to build chat bots | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[clarkeash/doorman](https://github.com/clarkeash/doorman)** | `Developer Productivity & Tooling` | `PHP` | Limit access to your Laravel applications by using invite codes | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nahid/talk](https://github.com/nahid/talk)** | `Developer Productivity & Tooling` | `PHP` | Talk is a real-time users messaging and chatting system for Laravel. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[laravel-zero/laravel-zero](https://github.com/laravel-zero/laravel-zero)** | `Developer Productivity & Tooling` | `PHP` | A PHP framework for console artisans | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Attendize/Attendize](https://github.com/Attendize/Attendize)** | `Developer Productivity & Tooling` | `PHP` | Attendize is an open-source ticket selling and event management platform built on Laravel. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fruitcake/laravel-debugbar](https://github.com/fruitcake/laravel-debugbar)** | `Developer Productivity & Tooling` | `PHP` | Debugbar for Laravel (Integrates PHP Debug Bar) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Intervention/image](https://github.com/Intervention/image)** | `Developer Productivity & Tooling` | `PHP` | PHP Image Processing | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spatie/laravel-fractal](https://github.com/spatie/laravel-fractal)** | `Developer Productivity & Tooling` | `PHP` | An easy to use Fractal wrapper built for Laravel and Lumen applications | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[imanghafoori1/laravel-anypass](https://github.com/imanghafoori1/laravel-anypass)** | `Developer Productivity & Tooling` | `PHP` | A minimal package that helps you login with any password on local environments | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[overtrue/laravel-follow](https://github.com/overtrue/laravel-follow)** | `Developer Productivity & Tooling` | `PHP` | :heart: This package helps you to add user based follow system to your model. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[PHPJunior/laravel-video-chat](https://github.com/PHPJunior/laravel-video-chat)** | `Developer Productivity & Tooling` | `PHP` | Laravel Video Chat using Socket.IO and WebRTC | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[marketplacekit/marketplacekit](https://github.com/marketplacekit/marketplacekit)** | `Developer Productivity & Tooling` | `PHP` | A platform to create an online marketplace | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[itsgoingd/clockwork](https://github.com/itsgoingd/clockwork)** | `Developer Productivity & Tooling` | `PHP` | Clockwork - php dev tools in your browser - server-side component | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel)** | `Developer Productivity & Tooling` | `PHP` | 🚀 Supercharged Excel exports and imports in Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf)** | `Developer Productivity & Tooling` | `PHP` | A DOMPDF Wrapper for Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cloudcreativity/laravel-json-api](https://github.com/cloudcreativity/laravel-json-api)** | `Developer Productivity & Tooling` | `PHP` | JSON API (jsonapi.org) package for Laravel applications. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[stefanzweifel/screeenly](https://github.com/stefanzweifel/screeenly)** | `Developer Productivity & Tooling` | `PHP` | 📸  Screenshot as a Service | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[milon/barcode](https://github.com/milon/barcode)** | `Developer Productivity & Tooling` | `PHP` | Barcode Generator for PHP and Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[beyondcode/laravel-self-diagnosis](https://github.com/beyondcode/laravel-self-diagnosis)** | `Developer Productivity & Tooling` | `PHP` | Perform Self-Diagnosis Tests On Your Laravel Application | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[brainpink/gravatar](https://github.com/brainpink/gravatar)** | `Developer Productivity & Tooling` | `PHP` | A Laravel Gravatar package for retrieving gravatar image URLs or checking the existance of an image. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[msurguy/Honeypot](https://github.com/msurguy/Honeypot)** | `Developer Productivity & Tooling` | `PHP` | Simple spam prevention package for Laravel applications | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[adminarchitect/core](https://github.com/adminarchitect/core)** | `Developer Productivity & Tooling` | `PHP` | AdminArchitect - Active Admin for Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spatie/laravel-google-calendar](https://github.com/spatie/laravel-google-calendar)** | `Developer Productivity & Tooling` | `PHP` | Manage events on a Google Calendar | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jsdecena/laracom](https://github.com/jsdecena/laracom)** | `Developer Productivity & Tooling` | `PHP` | Laravel FREE E-Commerce Software | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[realodix/urlhub](https://github.com/realodix/urlhub)** | `Developer Productivity & Tooling` | `PHP` | ✂️ URL shortener web application based on the Laravel PHP Framework. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lubusIN/gymie](https://github.com/lubusIN/gymie)** | `Developer Productivity & Tooling` | `PHP` | Gym & Club Management System | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[beyondcode/laravel-websockets](https://github.com/beyondcode/laravel-websockets)** | `Developer Productivity & Tooling` | `PHP` | Websockets for Laravel. Done right. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[vkovic/laravel-custom-casts](https://github.com/vkovic/laravel-custom-casts)** | `Developer Productivity & Tooling` | `PHP` | Make your own custom cast type for Laravel model attributes | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[albertcht/invisible-recaptcha](https://github.com/albertcht/invisible-recaptcha)** | `Developer Productivity & Tooling` | `PHP` | An invisible reCAPTCHA package for Laravel, Lumen, CI or native PHP. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[BenSampo/laravel-enum](https://github.com/BenSampo/laravel-enum)** | `Developer Productivity & Tooling` | `PHP` | Simple, extensible and powerful enumeration implementation for Laravel. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[BookStackApp/BookStack](https://github.com/BookStackApp/BookStack)** | `Developer Productivity & Tooling` | `PHP` | NOW MANAGED ON CODEBERG | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[larastan/larastan](https://github.com/larastan/larastan)** | `Developer Productivity & Tooling` | `PHP` | ⚗️ Adds code analysis to Laravel improving developer productivity and code quality. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[changeweb/Unifiedtransform](https://github.com/changeweb/Unifiedtransform)** | `Developer Productivity & Tooling` | `PHP` | A school management Software | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[getcandy/candy-api](https://github.com/getcandy/candy-api)** | `Developer Productivity & Tooling` | `PHP` | GetCandy v1 E-Commerce API | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[VentureCraft/revisionable](https://github.com/VentureCraft/revisionable)** | `Developer Productivity & Tooling` | `PHP` | Easily create a revision history for any laravel model | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Propaganistas/Laravel-Phone](https://github.com/Propaganistas/Laravel-Phone)** | `Developer Productivity & Tooling` | `PHP` | Phone number functionality for Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[orchidsoftware/platform](https://github.com/orchidsoftware/platform)** | `Developer Productivity & Tooling` | `PHP` | Orchid is a @laravel package that allows for rapid application development of back-office applications, admin/user panels, and dashboards. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[getspooky/yaldash](https://github.com/getspooky/yaldash)** | `Developer Productivity & Tooling` | `PHP` | 👻 It's never been easier to build and customize admin panels. Yah! yaldash is a beautifully designed administration panel for Laravel. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[RichieMcMullen/laravel-strava](https://github.com/RichieMcMullen/laravel-strava)** | `Developer Productivity & Tooling` | `PHP` | A laravel package to access data from the Strava API. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jamesmills/laravel-timezone](https://github.com/jamesmills/laravel-timezone)** | `Developer Productivity & Tooling` | `PHP` | Enable user Timezones in your application. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hisorange/browser-detect](https://github.com/hisorange/browser-detect)** | `Developer Productivity & Tooling` | `PHP` | Browser Detection for Laravel by hisorange! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Ardakilic/WhatTheTag](https://github.com/Ardakilic/WhatTheTag)** | `Developer Productivity & Tooling` | `PHP` | A Laravel 5.5 Photo Tagging Web Application | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[pushpak1300/Secupass](https://github.com/pushpak1300/Secupass)** | `Developer Productivity & Tooling` | `PHP` | Password Manager Application Built In Laravel. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[unicodeveloper/laravel-identify](https://github.com/unicodeveloper/laravel-identify)** | `Developer Productivity & Tooling` | `PHP` | :package: :iphone:  Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[overtrue/laravel-versionable](https://github.com/overtrue/laravel-versionable)** | `Developer Productivity & Tooling` | `PHP` | ⏱️Make Laravel model versionable | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[archtechx/tenancy](https://github.com/archtechx/tenancy)** | `Developer Productivity & Tooling` | `PHP` | Automatic multi-tenancy for Laravel. No code changes needed. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[neoighodaro/laravel-early-access](https://github.com/neoighodaro/laravel-early-access)** | `Developer Productivity & Tooling` | `PHP` | This package makes it easy to add early access mode to your existing application. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[aungwinthant/apilogger](https://github.com/aungwinthant/apilogger)** | `Developer Productivity & Tooling` | `PHP` | Small laravel package for viewing api logs which can be used in debugging. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[shweshi/OpenGraph](https://github.com/shweshi/OpenGraph)** | `Developer Productivity & Tooling` | `PHP` | A Laravel package to fetch Open Graph data of a website. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bavix/laravel-wallet](https://github.com/bavix/laravel-wallet)** | `Developer Productivity & Tooling` | `PHP` | It's easy to work with a virtual wallet | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[calebporzio/onboard](https://github.com/calebporzio/onboard)** | `Developer Productivity & Tooling` | `PHP` | A Laravel package to help track user onboarding steps. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[antonioribeiro/version](https://github.com/antonioribeiro/version)** | `Developer Productivity & Tooling` | `PHP` | Laravel App versioning | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[aman00323/email-checker](https://github.com/aman00323/email-checker)** | `Developer Productivity & Tooling` | `PHP` | Provides email verification on the go. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[safytech/ulearn](https://github.com/safytech/ulearn)** | `Developer Productivity & Tooling` | `PHP` | ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sarfraznawaz2005/servermonitor](https://github.com/sarfraznawaz2005/servermonitor)** | `Developer Productivity & Tooling` | `PHP` | :heartbeat: Laravel package to periodically monitor the health of your server and application. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[CodeBreez/collejo](https://github.com/CodeBreez/collejo)** | `Developer Productivity & Tooling` | `PHP` | collejo : Laravel School and University management system | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[BadChoice/handesk](https://github.com/BadChoice/handesk)** | `Developer Productivity & Tooling` | `PHP` | A Powerful Laravel Help Desk and Lead Management App | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tastyigniter/TastyIgniter](https://github.com/tastyigniter/TastyIgniter)** | `Developer Productivity & Tooling` | `PHP` | :fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[apiato/apiato](https://github.com/apiato/apiato)** | `Developer Productivity & Tooling` | `PHP` | PHP Framework for building scalable API's on top of Laravel. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[faveosuite/faveo-helpdesk](https://github.com/faveosuite/faveo-helpdesk)** | `Developer Productivity & Tooling` | `PHP` | Faveo Open source ticketing system build on Laravel framework | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[GrahamCampbell/Laravel-DigitalOcean](https://github.com/GrahamCampbell/Laravel-DigitalOcean)** | `Developer Productivity & Tooling` | `PHP` | A DigitalOcean API bridge for Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[whitecube/nova-flexible-content](https://github.com/whitecube/nova-flexible-content)** | `Developer Productivity & Tooling` | `PHP` | Flexible Content & Repeater Fields for Laravel Nova | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[laravel/framework](https://github.com/laravel/framework)** | `Developer Productivity & Tooling` | `PHP` | Laravel is a web application framework with expressive, elegant syntax. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Rudloff/alltube](https://github.com/Rudloff/alltube)** | `Developer Productivity & Tooling` | `PHP` | Web GUI for youtube-dl | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nikaia/translation-sheet](https://github.com/nikaia/translation-sheet)** | `Developer Productivity & Tooling` | `PHP` | Translating Laravel languages files using a Google Spreadsheet. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ampache/ampache](https://github.com/ampache/ampache)** | `Developer Productivity & Tooling` | `PHP` | A web based audio/video streaming application and file manager allowing you to access your music & videos from anywhere, using almost any internet enabled device. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spatie/laravel-view-models](https://github.com/spatie/laravel-view-models)** | `Developer Productivity & Tooling` | `PHP` | View models in Laravel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[grokability/snipe-it](https://github.com/grokability/snipe-it)** | `Developer Productivity & Tooling` | `PHP` | A free open source IT asset/license management system | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[laravel/telescope](https://github.com/laravel/telescope)** | `Developer Productivity & Tooling` | `PHP` | An elegant debug assistant for the Laravel framework. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[frictionlessdata/tableschema-php](https://github.com/frictionlessdata/tableschema-php)** | `Developer Productivity & Tooling` | `PHP` | A php library for working with Table Schema. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[younginnovations/aidstream](https://github.com/younginnovations/aidstream)** | `Developer Productivity & Tooling` | `PHP` | AidStream is a platform for small and medium size NGOs to publish their aid data in IATI standard. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[curl/trurl](https://github.com/curl/trurl)** | `Developer Productivity & Tooling` | `Perl` | a command line tool for URL parsing and manipulation. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[PetarV-/deepmersion](https://github.com/PetarV-/deepmersion)** | `Developer Productivity & Tooling` | `Python` | own your surroundings | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[anthropics/financial-services](https://github.com/anthropics/financial-services)** | `Developer Productivity & Tooling` | `Python` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)** | `Developer Productivity & Tooling` | `Python` | Kronos: A Foundation Model for the Language of Financial Markets | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[google-research/timesfm](https://github.com/google-research/timesfm)** | `Developer Productivity & Tooling` | `Python` | TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[NVIDIA/personaplex](https://github.com/NVIDIA/personaplex)** | `Developer Productivity & Tooling` | `Python` | PersonaPlex code. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts)** | `Developer Productivity & Tooling` | `Python` | A TTS that fits in your CPU (and pocket) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[originalankur/maptoposter](https://github.com/originalankur/maptoposter)** | `Developer Productivity & Tooling` | `Python` | Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[francescopace/espectre](https://github.com/francescopace/espectre)** | `Developer Productivity & Tooling` | `Python` | Wi-Fi motion sensing platform for ESP32. C++ SDK, ESPHome, Native, and Matter frontends, browser tools, and a CLI for the full device lifecycle. GPLv3 and commercial licensing. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[antoniorodr/cronboard](https://github.com/antoniorodr/cronboard)** | `Developer Productivity & Tooling` | `Python` | A terminal-based dashboard for managing cron jobs locally and on servers. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[TaoishTechy/PazuzuCore](https://github.com/TaoishTechy/PazuzuCore)** | `Developer Productivity & Tooling` | `Python` | Axiom based dev | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[stuzero/pg-mcp-server](https://github.com/stuzero/pg-mcp-server)** | `Developer Productivity & Tooling` | `Python` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Stability-AI/stable-virtual-camera](https://github.com/Stability-AI/stable-virtual-camera)** | `Developer Productivity & Tooling` | `Python` | Stable Virtual Camera: Generative View Synthesis with Diffusion Models | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sharingan-no-kakashi/orange-intelligence](https://github.com/sharingan-no-kakashi/orange-intelligence)** | `Developer Productivity & Tooling` | `Python` | Orange intelligence | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[RiccardoRiccio/Fitness-AI-Trainer-With-Automatic-Exercise-Recognition-and-Counting](https://github.com/RiccardoRiccio/Fitness-AI-Trainer-With-Automatic-Exercise-Recognition-and-Counting)** | `Developer Productivity & Tooling` | `Python` | An extension of the previous 'Fitness-AI-Coach': a complete web application with real-time exercise recognition and counting. The exercise recognition model achieves 99% accuracy on the test set and 9 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[erikbern/git-of-theseus](https://github.com/erikbern/git-of-theseus)** | `Developer Productivity & Tooling` | `Python` | Analyze how a Git repo grows over time | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[SagiPolaczek/NeuralSVG](https://github.com/SagiPolaczek/NeuralSVG)** | `Developer Productivity & Tooling` | `Python` | Official implementation of NerualSVG | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[malmeloo/FindMy.py](https://github.com/malmeloo/FindMy.py)** | `Developer Productivity & Tooling` | `Python` | 🍏 + 🎯 + 🐍 = Query Apple's FindMy Network with Python! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bytedance/monolith](https://github.com/bytedance/monolith)** | `Developer Productivity & Tooling` | `Python` | A Lightweight Recommendation System | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[adithya-s-k/omniparse](https://github.com/adithya-s-k/omniparse)** | `Developer Productivity & Tooling` | `Python` | Ingest, parse, and optimize any data format ➡️ from documents to multimedia ➡️ for enhanced compatibility with GenAI frameworks | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Pixtella/Anagram-MTL](https://github.com/Pixtella/Anagram-MTL)** | `Developer Productivity & Tooling` | `Python` | [WACV 2025] Official implementation for the paper "Diffusion-based Visual Anagram as Multi-task Learning" | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[google-deepmind/weathernext](https://github.com/google-deepmind/weathernext)** | `Developer Productivity & Tooling` | `Python` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx)** | `Developer Productivity & Tooling` | `Python` | Implementation of F5-TTS in MLX | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[MingSun-Tse/LightAvatar-TensorFlow](https://github.com/MingSun-Tse/LightAvatar-TensorFlow)** | `Developer Productivity & Tooling` | `Python` | TensorFlow code for our ECCV'24 Workshop paper "LightAvatar: Efficient Head Avatar as Dynamic NeLF" | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[taylorai/aiq](https://github.com/taylorai/aiq)** | `Developer Productivity & Tooling` | `Python` | ai for jq | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fishaudio/fish-speech](https://github.com/fishaudio/fish-speech)** | `Developer Productivity & Tooling` | `Python` | SOTA Open Source TTS | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Aider-AI/aider](https://github.com/Aider-AI/aider)** | `Developer Productivity & Tooling` | `Python` | aider is AI pair programming in your terminal | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ryota-komatsu/speaker_disentangled_hubert](https://github.com/ryota-komatsu/speaker_disentangled_hubert)** | `Developer Productivity & Tooling` | `Python` | [IEEE OJSP'26, IEEE SLT'24] "Speaker-Disentangled Chunk-Wise Regression for Syllabic Tokenization" | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[yanghb22-fdu/Hi3D-Official](https://github.com/yanghb22-fdu/Hi3D-Official)** | `Developer Productivity & Tooling` | `Python` | [MM24] Official codes and datasets for ACM MM24 paper "Hi3D: Pursuing High-Resolution Image-to-3D Generation with Video Diffusion Models". | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[phuang1024/Starst3r](https://github.com/phuang1024/Starst3r)** | `Developer Productivity & Tooling` | `Python` | Ultra fast 3D reconstruction and novel view synthesis. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[AuvaLab/itext2kg](https://github.com/AuvaLab/itext2kg)** | `Developer Productivity & Tooling` | `Python` | We build KGs the way nature builds matter | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[PragmaticMachineLearning/docai](https://github.com/PragmaticMachineLearning/docai)** | `Developer Productivity & Tooling` | `Python` | Structured information extraction from documents | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[caronc/apprise](https://github.com/caronc/apprise)** | `Developer Productivity & Tooling` | `Python` | Apprise - Push Notifications that work with just about every platform! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[harsxv/tinystatus](https://github.com/harsxv/tinystatus)** | `Developer Productivity & Tooling` | `Python` | Tiny status page generated by a Python script | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[HKUDS/EasyRec](https://github.com/HKUDS/EasyRec)** | `Developer Productivity & Tooling` | `Python` | [EMNLP'2025] "EasyRec: Simple yet Effective Language Model for Recommendation" | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fanqiwan/FuseAI](https://github.com/fanqiwan/FuseAI)** | `Developer Productivity & Tooling` | `Python` | FuseAI Project | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[stanfordnlp/dspy](https://github.com/stanfordnlp/dspy)** | `Developer Productivity & Tooling` | `Python` | DSPy: The framework for programming—not prompting—language models | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)** | `Developer Productivity & Tooling` | `Python` | See, hear, and interact on your local devices. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[modular/stack-pr](https://github.com/modular/stack-pr)** | `Developer Productivity & Tooling` | `Python` | A tool for working with stacked PRs on github. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[krahets/hello-algo](https://github.com/krahets/hello-algo)** | `Developer Productivity & Tooling` | `Python` | 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[rendercv/rendercv](https://github.com/rendercv/rendercv)** | `Developer Productivity & Tooling` | `Python` | Resume builder for academics and engineers | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[exo-explore/exo](https://github.com/exo-explore/exo)** | `Developer Productivity & Tooling` | `Python` | Run frontier AI locally. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[JianghaiSCU/LightenDiffusion](https://github.com/JianghaiSCU/LightenDiffusion)** | `Developer Productivity & Tooling` | `Python` | Official pytorch implementation for "LightenDiffusion: Unsupervised Low-Light Image Enhancement with Latent-Retinex Diffusion Models" | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tanelpoder/0xtools](https://github.com/tanelpoder/0xtools)** | `Developer Productivity & Tooling` | `Python` | 0x.Tools: X-Ray vision for Linux systems | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[elceef/dnstwist](https://github.com/elceef/dnstwist)** | `Developer Productivity & Tooling` | `Python` | Domain name permutation engine for detecting homograph phishing attacks, typo squatting, and brand impersonation | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[NVIDIA/warp](https://github.com/NVIDIA/warp)** | `Developer Productivity & Tooling` | `Python` | A Python framework for GPU-accelerated simulation, robotics, and machine learning. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[reorx/httpstat](https://github.com/reorx/httpstat)** | `Developer Productivity & Tooling` | `Python` | curl statistics made simple | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[HKUDS/XRec](https://github.com/HKUDS/XRec)** | `Developer Productivity & Tooling` | `Python` | [EMNLP'2024] "XRec: Large Language Models for Explainable Recommendation" | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ChrisBuilds/terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects)** | `Developer Productivity & Tooling` | `Python` | TerminalTextEffects (TTE) is a terminal visual effects engine, application, and Python library. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc)** | `Developer Productivity & Tooling` | `Python` | InstructDoc: A Dataset for Zero-Shot Generalization of Visual Document Understanding with Instructions (AAAI2024) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[alvin-r/databonsai](https://github.com/alvin-r/databonsai)** | `Developer Productivity & Tooling` | `Python` | clean & curate your data with LLMs. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[charliermarsh/whisper.cpp-cli](https://github.com/charliermarsh/whisper.cpp-cli)** | `Developer Productivity & Tooling` | `Python` | Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[philz1337x/clarity-upscaler](https://github.com/philz1337x/clarity-upscaler)** | `Developer Productivity & Tooling` | `Python` | Clarity AI \| AI Image Upscaler & Enhancer - free and open-source Magnific Alternative | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[litestar-org/litestar](https://github.com/litestar-org/litestar)** | `Developer Productivity & Tooling` | `Python` | Light, flexible and extensible ASGI framework \| Built to scale | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[apple-aiml-research/ml-ferret](https://github.com/apple-aiml-research/ml-ferret)** | `Developer Productivity & Tooling` | `Python` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[spiral-project/ihatemoney](https://github.com/spiral-project/ihatemoney)** | `Developer Productivity & Tooling` | `Python` | A  shared budget web application | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[meltano/meltano](https://github.com/meltano/meltano)** | `Developer Productivity & Tooling` | `Python` | Meltano: the declarative code-first data integration engine that powers your wildest data and ML-powered product ideas. Say goodbye to writing, maintaining, and scaling your own API integrations. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)** | `Developer Productivity & Tooling` | `Python` | The first real AI developer | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[mckinsey/vizro](https://github.com/mckinsey/vizro)** | `Developer Productivity & Tooling` | `Python` | Vizro is a low-code toolkit for building high-quality data visualization apps. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[eschluntz/compress](https://github.com/eschluntz/compress)** | `Developer Productivity & Tooling` | `Python` | Text compression for generating keyboard expansions | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[marceloprates/prettymaps](https://github.com/marceloprates/prettymaps)** | `Developer Productivity & Tooling` | `Python` | Draw pretty maps from OpenStreetMap data! Built with osmnx +matplotlib + shapely | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[apple-aiml-research/ml-stable-diffusion](https://github.com/apple-aiml-research/ml-stable-diffusion)** | `Developer Productivity & Tooling` | `Python` | Stable Diffusion with Core ML on Apple Silicon | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[emcf/engshell](https://github.com/emcf/engshell)** | `Developer Productivity & Tooling` | `Python` | An English-language shell for any OS, powered by LLMs | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[lm-sys/FastChat](https://github.com/lm-sys/FastChat)** | `Developer Productivity & Tooling` | `Python` | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Sanster/IOPaint](https://github.com/Sanster/IOPaint)** | `Developer Productivity & Tooling` | `Python` | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[chubin/cheat.sh](https://github.com/chubin/cheat.sh)** | `Developer Productivity & Tooling` | `Python` | the only cheat sheet you need | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[zai-org/CodeGeeX](https://github.com/zai-org/CodeGeeX)** | `Developer Productivity & Tooling` | `Python` | CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bumble-tech/private-detector](https://github.com/bumble-tech/private-detector)** | `Developer Productivity & Tooling` | `Python` | Bumble's Private Detector - a pretrained model for detecting lewd images | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[localstack/localstack](https://github.com/localstack/localstack)** | `Developer Productivity & Tooling` | `Python` | 💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[DonDebonair/slack-machine](https://github.com/DonDebonair/slack-machine)** | `Developer Productivity & Tooling` | `Python` | A simple, yet powerful and extendable Slack bot | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tetra-framework/tetra](https://github.com/tetra-framework/tetra)** | `Developer Productivity & Tooling` | `Python` | Tetra - A full stack component framework for Django using Alpine.js | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[pyscript/pyscript](https://github.com/pyscript/pyscript)** | `Developer Productivity & Tooling` | `Python` | An open source platform for Python in the browser. https://pyscript.net Docs: https://docs.pyscript.net/ Try it: https://pyscript.com/ Community: https://discord.gg/HxvBtukrg2 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[quru/qis](https://github.com/quru/qis)** | `Developer Productivity & Tooling` | `Python` | Dynamic image server for web and print | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** | `Developer Productivity & Tooling` | `Python` | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[public-apis/public-apis](https://github.com/public-apis/public-apis)** | `Developer Productivity & Tooling` | `Python` | A collective list of free APIs | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ethyca/fides](https://github.com/ethyca/fides)** | `Developer Productivity & Tooling` | `Python` | The Privacy Engineering & Compliance Framework | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[simple-login/app](https://github.com/simple-login/app)** | `Developer Productivity & Tooling` | `Python` | The SimpleLogin back-end and web app | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cockpit-project/cockpit](https://github.com/cockpit-project/cockpit)** | `Developer Productivity & Tooling` | `Python` | Cockpit is a web-based graphical interface for servers. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[freqtrade/freqtrade](https://github.com/freqtrade/freqtrade)** | `Developer Productivity & Tooling` | `Python` | Free, open source crypto trading bot | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)** | `Developer Productivity & Tooling` | `Python` | :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ThoughtfulDev/EagleEye](https://github.com/ThoughtfulDev/EagleEye)** | `Developer Productivity & Tooling` | `Python` | Stalk your Friends. Find their Instagram, FB and Twitter Profiles using Image Recognition and Reverse Image Search. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[piku/piku](https://github.com/piku/piku)** | `Developer Productivity & Tooling` | `Python` | The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[AppScale/gts](https://github.com/AppScale/gts)** | `Developer Productivity & Tooling` | `Python` | AppScale is an easy-to-manage serverless platform for building and running scalable web and mobile applications on any infrastructure. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sodadata/soda-core](https://github.com/sodadata/soda-core)** | `Developer Productivity & Tooling` | `Python` | Data Contracts engine for the modern data stack. https://www.soda.io | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[chriskiehl/Gooey](https://github.com/chriskiehl/Gooey)** | `Developer Productivity & Tooling` | `Python` | Turn (almost) any Python command line program into a full GUI application with one line | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Overv/outrun](https://github.com/Overv/outrun)** | `Developer Productivity & Tooling` | `Python` | Execute a local command using the processing power of another Linux machine. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)** | `Developer Productivity & Tooling` | `Python` | :books: Freely available programming books | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[archivy/archivy](https://github.com/archivy/archivy)** | `Developer Productivity & Tooling` | `Python` | Archivy is a self-hostable knowledge repository that allows you to learn and retain information in your own personal and extensible wiki. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ameygat/githuballrepo](https://github.com/ameygat/githuballrepo)** | `Developer Productivity & Tooling` | `Python` | Python Scripts to download all repository or user or organization | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[David00/rpi-power-monitor](https://github.com/David00/rpi-power-monitor)** | `Developer Productivity & Tooling` | `Python` | Power Monitor (for Raspberry Pi) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[malwaredllc/byob](https://github.com/malwaredllc/byob)** | `Developer Productivity & Tooling` | `Python` | An open-source post-exploitation framework for students, researchers and developers. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[socialpoint-labs/sheetfu](https://github.com/socialpoint-labs/sheetfu)** | `Developer Productivity & Tooling` | `Python` | Python library to interact with Google Sheets V4 API | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[quantopian/zipline](https://github.com/quantopian/zipline)** | `Developer Productivity & Tooling` | `Python` | Zipline, a Pythonic Algorithmic Trading Library | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[vzhou842/profanity-check](https://github.com/vzhou842/profanity-check)** | `Developer Productivity & Tooling` | `Python` | A fast, robust Python library to check for offensive language in strings. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[muety/tg-chat-classification](https://github.com/muety/tg-chat-classification)** | `Developer Productivity & Tooling` | `Python` | Naive-Bayes based classification of Telegram chat messages. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ashiquem/message-classifier](https://github.com/ashiquem/message-classifier)** | `Developer Productivity & Tooling` | `Python` | Classify text messages | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[rembo10/headphones](https://github.com/rembo10/headphones)** | `Developer Productivity & Tooling` | `Python` | Automatic music downloader for SABnzbd | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[CouchPotato/CouchPotatoServer](https://github.com/CouchPotato/CouchPotatoServer)** | `Developer Productivity & Tooling` | `Python` | Automatic Movie Downloading via NZBs & Torrents | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term)** | `Developer Productivity & Tooling` | `QML` | A good looking terminal emulator which mimics the old cathode display... | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[DomT4/homebrew-autoupdate](https://github.com/DomT4/homebrew-autoupdate)** | `Developer Productivity & Tooling` | `Ruby` | :tropical_drink: An easy, convenient way to automatically update Homebrew. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[basecamp/kamal](https://github.com/basecamp/kamal)** | `Developer Productivity & Tooling` | `Ruby` | Deploy web apps anywhere. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bashly-framework/bashly](https://github.com/bashly-framework/bashly)** | `Developer Productivity & Tooling` | `Ruby` | Bash command line framework and CLI generator | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[postalserver/postal](https://github.com/postalserver/postal)** | `Developer Productivity & Tooling` | `Ruby` | 📮 A fully featured open source mail delivery platform for incoming & outgoing e-mail | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[burke/minidev](https://github.com/burke/minidev)** | `Developer Productivity & Tooling` | `Ruby` | Like dev, only lots worse! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ruvnet/RuView](https://github.com/ruvnet/RuView)** | `Developer Productivity & Tooling` | `Rust` | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** | `Developer Productivity & Tooling` | `Rust` | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[TabbyML/tabby](https://github.com/TabbyML/tabby)** | `Developer Productivity & Tooling` | `Rust` | Self-hosted AI coding assistant | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hyperlight-dev/hyperlight](https://github.com/hyperlight-dev/hyperlight)** | `Developer Productivity & Tooling` | `Rust` | Hyperlight is a lightweight Virtual Machine Manager (VMM) designed to be embedded within applications. It enables safe execution of untrusted code within micro virtual machines with very low latency a | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[microsoft/openvmm](https://github.com/microsoft/openvmm)** | `Developer Productivity & Tooling` | `Rust` | Home of OpenVMM and OpenHCL | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sxyazi/yazi](https://github.com/sxyazi/yazi)** | `Developer Productivity & Tooling` | `Rust` | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[moghtech/komodo](https://github.com/moghtech/komodo)** | `Developer Productivity & Tooling` | `Rust` | 🦎 a tool to build and deploy software on many servers 🦎 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[beac0n/ruroco](https://github.com/beac0n/ruroco)** | `Developer Productivity & Tooling` | `Rust` | Ruroco is a tool that lets you execute commands on a server by sending UDP packets. The commands are configured on the server side, so the client does not define what is going to be executed, it only | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)** | `Developer Productivity & Tooling` | `Rust` | An incremental parsing system for programming tools | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tellerops/teller](https://github.com/tellerops/teller)** | `Developer Productivity & Tooling` | `Rust` | Cloud native secrets management for developers - never leave your command line for secrets. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[letmutex/htmd](https://github.com/letmutex/htmd)** | `Developer Productivity & Tooling` | `Rust` | A turndown.js inspired HTML to Markdown converter for Rust | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy)** | `Developer Productivity & Tooling` | `Rust` | Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[awslabs/coldsnap](https://github.com/awslabs/coldsnap)** | `Developer Productivity & Tooling` | `Rust` | A command line interface for Amazon EBS snapshots | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cloudflare/pingora](https://github.com/cloudflare/pingora)** | `Developer Productivity & Tooling` | `Rust` | A library for building fast, reliable and evolvable network services. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[orf/gping](https://github.com/orf/gping)** | `Developer Productivity & Tooling` | `Rust` | Ping, but with a graph | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[dimo414/task-mon](https://github.com/dimo414/task-mon)** | `Developer Productivity & Tooling` | `Rust` | CLI to execute commands and log results to healthchecks.io | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon)** | `Developer Productivity & Tooling` | `Rust` | CLI to execute commands and log results to healthchecks.io | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[oxc-project/oxc](https://github.com/oxc-project/oxc)** | `Developer Productivity & Tooling` | `Rust` | ⚓ A collection of high-performance JavaScript tools. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[awslabs/mountpoint-s3](https://github.com/awslabs/mountpoint-s3)** | `Developer Productivity & Tooling` | `Rust` | A simple, high-throughput file client for mounting an Amazon S3 bucket as a local file system. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[samwho/spacer](https://github.com/samwho/spacer)** | `Developer Productivity & Tooling` | `Rust` | CLI tool to insert spacers when command output stops | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[quickwit-oss/whichlang](https://github.com/quickwit-oss/whichlang)** | `Developer Productivity & Tooling` | `Rust` | A blazingly fast and lightweight language detection library for Rust | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)** | `Developer Productivity & Tooling` | `Rust` | Hurl, run and test HTTP requests with plain text. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tonarino/innernet](https://github.com/tonarino/innernet)** | `Developer Productivity & Tooling` | `Rust` | A private network system that uses WireGuard under the hood. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[meta/buck2](https://github.com/meta/buck2)** | `Developer Productivity & Tooling` | `Rust` | Build system, successor to Buck | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[moonrepo/moon](https://github.com/moonrepo/moon)** | `Developer Productivity & Tooling` | `Rust` | A build system and monorepo management tool for the web ecosystem, written in Rust. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[astral-sh/rye](https://github.com/astral-sh/rye)** | `Developer Productivity & Tooling` | `Rust` | a Hassle-Free Python Experience | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fathyb/carbonyl](https://github.com/fathyb/carbonyl)** | `Developer Productivity & Tooling` | `Rust` | Chromium running inside your terminal | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[meta/sapling](https://github.com/meta/sapling)** | `Developer Productivity & Tooling` | `Rust` | A Scalable, User-Friendly Source Control System. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli)** | `Developer Productivity & Tooling` | `Rust` | Copilot for your terminal | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit)** | `Developer Productivity & Tooling` | `Rust` | Cloud-native OSS search engine for observability | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ogham/exa](https://github.com/ogham/exa)** | `Developer Productivity & Tooling` | `Rust` | A modern replacement for ‘ls’. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[casey/just](https://github.com/casey/just)** | `Developer Productivity & Tooling` | `Rust` | 🤖 Just a command runner | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bevyengine/bevy](https://github.com/bevyengine/bevy)** | `Developer Productivity & Tooling` | `Rust` | A refreshingly simple data-driven game engine built in Rust | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[krtab/agnos](https://github.com/krtab/agnos)** | `Developer Productivity & Tooling` | `Rust` | Obtain (wildcard) certificates from let's encrypt using dns-01 without the need for API access to your DNS provider. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cloudwego/volo](https://github.com/cloudwego/volo)** | `Developer Productivity & Tooling` | `Rust` | Rust RPC framework with high-performance and strong-extensibility for building micro-services. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[pls-rs/pls](https://github.com/pls-rs/pls)** | `Developer Productivity & Tooling` | `Rust` | pls is a prettier and powerful ls(1) for the pros. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[atuinsh/atuin](https://github.com/atuinsh/atuin)** | `Developer Productivity & Tooling` | `Rust` | ✨ Making your shell magical | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nushell/nushell](https://github.com/nushell/nushell)** | `Developer Productivity & Tooling` | `Rust` | A new type of shell | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Wilfred/difftastic](https://github.com/Wilfred/difftastic)** | `Developer Productivity & Tooling` | `Rust` | a structural diff that understands syntax 🟥🟩 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production)** | `Developer Productivity & Tooling` | `Rust` | Code for "Zero To Production In Rust", a book on API development using Rust. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gyroflow/gyroflow](https://github.com/gyroflow/gyroflow)** | `Developer Productivity & Tooling` | `Rust` | Video stabilization using gyroscope data | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[solana-labs/solana](https://github.com/solana-labs/solana)** | `Developer Productivity & Tooling` | `Rust` | Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[denoland/deno](https://github.com/denoland/deno)** | `Developer Productivity & Tooling` | `Rust` | A modern runtime for JavaScript and TypeScript. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jameslittle230/stork](https://github.com/jameslittle230/stork)** | `Developer Productivity & Tooling` | `Rust` | 🔎 Impossibly fast web search, made for static sites. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[TimeToogo/tunshell](https://github.com/TimeToogo/tunshell)** | `Developer Productivity & Tooling` | `Rust` | Remote shell into ephemeral environments 🐚 🦀 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[iced-rs/iced](https://github.com/iced-rs/iced)** | `Developer Productivity & Tooling` | `Rust` | A cross-platform GUI library for Rust, inspired by Elm | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[omacom/omarchy](https://github.com/omacom/omarchy)** | `Developer Productivity & Tooling` | `Shell` | Beautiful, Modern & Opinionated Linux | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[VR-25/acc](https://github.com/VR-25/acc)** | `Developer Productivity & Tooling` | `Shell` | Advanced Charging Controller | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[pystardust/ani-cli](https://github.com/pystardust/ani-cli)** | `Developer Productivity & Tooling` | `Shell` | A cli tool to browse and play anime | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sudofox/shell-mommy](https://github.com/sudofox/shell-mommy)** | `Developer Productivity & Tooling` | `Shell` | Mommy is here for you on the command line ~ ❤️ | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bearstech/pussh](https://github.com/bearstech/pussh)** | `Developer Productivity & Tooling` | `Shell` | Parallel SSH, batch and command line oriented | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[luchina-gabriel/OSX-PROXMOX](https://github.com/luchina-gabriel/OSX-PROXMOX)** | `Developer Productivity & Tooling` | `Shell` | Voilà, install macOS on ANY Computer! This is really and magic easiest way! PVE 7.XX ~ 9.XX Support and macOS High Sierra ~ macOS Tahoe Support. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[syncliteio/SyncLite](https://github.com/syncliteio/SyncLite)** | `Developer Productivity & Tooling` | `Shell` | SyncLite : Build Anything Sync Anywhere | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[alsyundawy/Microsoft-Office-For-MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS)** | `Developer Productivity & Tooling` | `Shell` | Installer Microsoft Office For MacOS | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hcengineering/huly-selfhost](https://github.com/hcengineering/huly-selfhost)** | `Developer Productivity & Tooling` | `Shell` | Huly for Self Hosting | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[omacom/omakub](https://github.com/omacom/omakub)** | `Developer Productivity & Tooling` | `Shell` | Retired — the story lives at https://omarchy.org/omakub, the thread continues at https://omabuntu.omakasui.org | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Bhupesh-V/ugit](https://github.com/Bhupesh-V/ugit)** | `Developer Productivity & Tooling` | `Shell` | 🚨️ ugit helps undo git commands. Your damage control git buddy. Undo from 20+ git scenarios. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[wfxr/forgit](https://github.com/wfxr/forgit)** | `Developer Productivity & Tooling` | `Shell` | :zzz: A utility tool powered by fzf for using git interactively. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fabianlee/kustomize-overlays-with-reload](https://github.com/fabianlee/kustomize-overlays-with-reload)** | `Developer Productivity & Tooling` | `Shell` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[titzer/virgil](https://github.com/titzer/virgil)** | `Developer Productivity & Tooling` | `Shell` | A fast and lightweight native programming language | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tuanpham-dev/termux-ubuntu](https://github.com/tuanpham-dev/termux-ubuntu)** | `Developer Productivity & Tooling` | `Shell` | This helps you install Ubuntu 20 + XFCE4 desktop on Termux with ease. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[MFDGaming/ubuntu-in-termux](https://github.com/MFDGaming/ubuntu-in-termux)** | `Developer Productivity & Tooling` | `Shell` | This is a script by which you can install Ubuntu in your termux application without a rooted device | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)** | `Developer Productivity & Tooling` | `Shell` | Hestia Control Panel \| A lightweight and powerful control panel for the modern web. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nvm-sh/nvm](https://github.com/nvm-sh/nvm)** | `Developer Productivity & Tooling` | `Shell` | Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bohanwood/debi](https://github.com/bohanwood/debi)** | `Developer Productivity & Tooling` | `Shell` | Reinstall your VPS to minimal Debian | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[crunchprank/dig-dug](https://github.com/crunchprank/dig-dug)** | `Developer Productivity & Tooling` | `Shell` | Mass / Batch domain dig to .CSV bash script | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi)** | `Developer Productivity & Tooling` | `Shell` | 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[thedevdojo/larasail](https://github.com/thedevdojo/larasail)** | `Developer Productivity & Tooling` | `Shell` | LaraSail - Set Sail with your Laravel app on DigitalOcean | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bach-sh/bach](https://github.com/bach-sh/bach)** | `Developer Productivity & Tooling` | `Shell` | Unit testing framework for developing cross-platform Bash unit tests | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[PeachFlame/cPanel-fixperms](https://github.com/PeachFlame/cPanel-fixperms)** | `Developer Productivity & Tooling` | `Shell` | A script to fix permissions & ownership, on files & directories, for cPanel accounts. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[aristocratos/bashtop](https://github.com/aristocratos/bashtop)** | `Developer Productivity & Tooling` | `Shell` | Linux/OSX/FreeBSD resource monitor | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)** | `Developer Productivity & Tooling` | `Shell` | 📖 A collection of pure bash alternatives to external processes. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)** | `Developer Productivity & Tooling` | `Shell` | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Powerlevel9k/powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k)** | `Developer Productivity & Tooling` | `Shell` | Powerlevel9k was a tool for building a beautiful and highly functional CLI, customized for you. P9k had a substantial impact on CLI UX, and its legacy is now continued by P10k. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[termux/termux-packages](https://github.com/termux/termux-packages)** | `Developer Productivity & Tooling` | `Shell` | A package build system for Termux. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[leaningtech/webvm](https://github.com/leaningtech/webvm)** | `Developer Productivity & Tooling` | `Svelte` | Virtual Machine for the Web | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[driceroland/Search](https://github.com/driceroland/Search)** | `Developer Productivity & Tooling` | `Swift` | A small, fast WebKit browser for macOS, by Office Commun. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[srosro/deepspring-shellmate](https://github.com/srosro/deepspring-shellmate)** | `Developer Productivity & Tooling` | `Swift` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Stengo/DeskPad](https://github.com/Stengo/DeskPad)** | `Developer Productivity & Tooling` | `Swift` | A virtual monitor for screen sharing | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[argmaxinc/argmax-oss-swift](https://github.com/argmaxinc/argmax-oss-swift)** | `Developer Productivity & Tooling` | `Swift` | On-device Speech AI for Apple Silicon | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl)** | `Developer Productivity & Tooling` | `Swift` | 🖥 Control your display's brightness & volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[utmapp/UTM](https://github.com/utmapp/UTM)** | `Developer Productivity & Tooling` | `Swift` | Virtual machines for iOS and macOS | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[DevToys-app/DevToysMac](https://github.com/DevToys-app/DevToysMac)** | `Developer Productivity & Tooling` | `Swift` | DevToys For mac | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)** | `Developer Productivity & Tooling` | `Swift` |  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gao-sun/eul](https://github.com/gao-sun/eul)** | `Developer Productivity & Tooling` | `Swift` | 🖥️ macOS status monitoring app written in SwiftUI. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gyf304/vmcli](https://github.com/gyf304/vmcli)** | `Developer Productivity & Tooling` | `Swift` | A set of utilities (vmcli + vmctl) for macOS Virtualization.framework | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ThasianX/ElegantTimeline-SwiftUI](https://github.com/ThasianX/ElegantTimeline-SwiftUI)** | `Developer Productivity & Tooling` | `Swift` | Elegant demonstration of a multi-faceted timeline view with interactions between the calendar, list, and app theme. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[vanshg/MacAssistant](https://github.com/vanshg/MacAssistant)** | `Developer Productivity & Tooling` | `Swift` | Google Assistant for macOS! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[govCMS/GovCMS](https://github.com/govCMS/GovCMS)** | `Developer Productivity & Tooling` | `Twig` | Current Drupal release of the main GovCMS distribution, with releases mirrored at https://www.drupal.org/project/govcms | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cloudflare/forge](https://github.com/cloudflare/forge)** | `Developer Productivity & Tooling` | `TypeScript` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cloudflare/kumo](https://github.com/cloudflare/kumo)** | `Developer Productivity & Tooling` | `TypeScript` | Cloudflare's component library for building modern web applications. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus)** | `Developer Productivity & Tooling` | `TypeScript` | The unified toolchain and entry point for web development. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)** | `Developer Productivity & Tooling` | `TypeScript` | The open-source CapCut alternative | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** | `Developer Productivity & Tooling` | `TypeScript` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen)** | `Developer Productivity & Tooling` | `TypeScript` | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[chenglou/pretext](https://github.com/chenglou/pretext)** | `Developer Productivity & Tooling` | `TypeScript` | Fast, accurate & comprehensive text measurement & layout | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[maria-rcks/t1code](https://github.com/maria-rcks/t1code)** | `Developer Productivity & Tooling` | `TypeScript` | T3Code, but in your terminal | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[joshcirre/instruckt](https://github.com/joshcirre/instruckt)** | `Developer Productivity & Tooling` | `TypeScript` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[liriliri/aya](https://github.com/liriliri/aya)** | `Developer Productivity & Tooling` | `TypeScript` | Android ADB desktop app | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[furybee/chrome-tab-modifier](https://github.com/furybee/chrome-tab-modifier)** | `Developer Productivity & Tooling` | `TypeScript` | Tabee: rename, re-icon, pin, group and mute Chrome tabs automatically with URL rules. Free and open source. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[frontendat/karagoz](https://github.com/frontendat/karagoz)** | `Developer Productivity & Tooling` | `TypeScript` | Karagöz Learning Tools | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)** | `Developer Productivity & Tooling` | `TypeScript` | Product specific Cloudflare MCP servers | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[usertour/usertour](https://github.com/usertour/usertour)** | `Developer Productivity & Tooling` | `TypeScript` | Usertour is an open-source user onboarding platform. It allows you to create in-app product tours, checklists, and surveys in minutes—effortlessly and with full control.The open-source alternative to | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)** | `Developer Productivity & Tooling` | `TypeScript` | Playwright MCP server | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jetkvm/kvm](https://github.com/jetkvm/kvm)** | `Developer Productivity & Tooling` | `TypeScript` | Control any computer remotely | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[SouthBridgeAI/diagen](https://github.com/SouthBridgeAI/diagen)** | `Developer Productivity & Tooling` | `TypeScript` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[n4ze3m/page-assist](https://github.com/n4ze3m/page-assist)** | `Developer Productivity & Tooling` | `TypeScript` | Use your locally running AI models to assist you in your web browsing | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[codestoryai/aide](https://github.com/codestoryai/aide)** | `Developer Productivity & Tooling` | `TypeScript` | The open-source AI-native IDE | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[campfireshuffle/authortrail](https://github.com/campfireshuffle/authortrail)** | `Developer Productivity & Tooling` | `TypeScript` | See all the files you have ever touched in a Git repo | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[withastro/starlight](https://github.com/withastro/starlight)** | `Developer Productivity & Tooling` | `TypeScript` | 🌟 Build beautiful, accessible, high-performance documentation websites with Astro | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[reltadev/github-assistant](https://github.com/reltadev/github-assistant)** | `Developer Productivity & Tooling` | `TypeScript` | Explore GitHub repositories with natural language questions | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tonghohin/screen-sharing](https://github.com/tonghohin/screen-sharing)** | `Developer Productivity & Tooling` | `TypeScript` | Share your screen with one simple room code. No downloads or sign-ups required. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[my-badges/my-badges](https://github.com/my-badges/my-badges)** | `Developer Productivity & Tooling` | `TypeScript` | Google's Moma Badges for GitHub | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[vltpkg/vsr](https://github.com/vltpkg/vsr)** | `Developer Productivity & Tooling` | `TypeScript` | a feature-rich, npm-compatible package registry | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[molvqingtai/WebChat](https://github.com/molvqingtai/WebChat)** | `Developer Productivity & Tooling` | `TypeScript` | 💬 Chat with anyone on any website. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[varse-io/varse](https://github.com/varse-io/varse)** | `Developer Productivity & Tooling` | `TypeScript` | A fast application config manager | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[a-ghorbani/pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai)** | `Developer Productivity & Tooling` | `TypeScript` | An app that brings language models directly to your phone. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[TahaSh/swapy](https://github.com/TahaSh/swapy)** | `Developer Productivity & Tooling` | `TypeScript` | ✨ A framework-agnostic tool that converts any layout into a drag-to-swap one with just a few lines of code https://swapy.tahazsh.com/ | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[loggerhead/json4u](https://github.com/loggerhead/json4u)** | `Developer Productivity & Tooling` | `TypeScript` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gabrielpetersson/fast-grid](https://github.com/gabrielpetersson/fast-grid)** | `Developer Productivity & Tooling` | `TypeScript` | World's most performant DOM-based web table. Try it! fast-grid.vercel.app/ | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Scthe/nanite-webgpu](https://github.com/Scthe/nanite-webgpu)** | `Developer Productivity & Tooling` | `TypeScript` | UE5's Nanite implementation using WebGPU. Includes the meshlet LOD hierarchy, software rasterizer and billboard impostors. Culling on both per-instance and per-meshlet basis. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[HeyPuter/puter](https://github.com/HeyPuter/puter)** | `Developer Productivity & Tooling` | `TypeScript` | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[metz-sh/simulacrum](https://github.com/metz-sh/simulacrum)** | `Developer Productivity & Tooling` | `TypeScript` | Code-playground to visualise complex engineering flows. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[morris/vanilla-prime](https://github.com/morris/vanilla-prime)** | `Developer Productivity & Tooling` | `TypeScript` | A simpler, more sustainable way of web development | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[srcbookdev/srcbook](https://github.com/srcbookdev/srcbook)** | `Developer Productivity & Tooling` | `TypeScript` | TypeScript notebook | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[dahlia/logtape](https://github.com/dahlia/logtape)** | `Developer Productivity & Tooling` | `TypeScript` | Unobtrusive logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[useplunk/plunk](https://github.com/useplunk/plunk)** | `Developer Productivity & Tooling` | `TypeScript` | The Open-Source Email Platform | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[romansky/dom-to-semantic-markdown](https://github.com/romansky/dom-to-semantic-markdown)** | `Developer Productivity & Tooling` | `TypeScript` | DOM to Semantic-Markdown for use with LLMs | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[omnivore-app/omnivore](https://github.com/omnivore-app/omnivore)** | `Developer Productivity & Tooling` | `TypeScript` | Omnivore is a complete, open source read-it-later solution for people who like reading. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jackyzha0/quartz](https://github.com/jackyzha0/quartz)** | `Developer Productivity & Tooling` | `TypeScript` | 🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hcengineering/platform](https://github.com/hcengineering/platform)** | `Developer Productivity & Tooling` | `TypeScript` | Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[kubernetes-retired/kui](https://github.com/kubernetes-retired/kui)** | `Developer Productivity & Tooling` | `TypeScript` | A hybrid command-line/UI development experience for cloud-native development | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[hudy9x/namviek](https://github.com/hudy9x/namviek)** | `Developer Productivity & Tooling` | `TypeScript` | The open-source project management tool for tiny teams | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[atlassian/pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop)** | `Developer Productivity & Tooling` | `TypeScript` | Fast drag and drop for any experience on any tech stack | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[flydelabs/flyde](https://github.com/flydelabs/flyde)** | `Developer Productivity & Tooling` | `TypeScript` | Open-source Visual programming for backend logic that integrates with existing codebases. Flyde bridges the gap between technical and non-technical team members. Product managers, designers, and backe | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[wxt-dev/wxt](https://github.com/wxt-dev/wxt)** | `Developer Productivity & Tooling` | `TypeScript` | ⚡ Next-gen Web Extension Framework | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nitrojs/nitro](https://github.com/nitrojs/nitro)** | `Developer Productivity & Tooling` | `TypeScript` | Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Everduin94/better-commits](https://github.com/Everduin94/better-commits)** | `Developer Productivity & Tooling` | `TypeScript` | A CLI for creating better commits following the conventional commits specification | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[microsoft/inshellisense](https://github.com/microsoft/inshellisense)** | `Developer Productivity & Tooling` | `TypeScript` | IDE style command line auto complete | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[arianrhodsandlot/nostalgist](https://github.com/arianrhodsandlot/nostalgist)** | `Developer Productivity & Tooling` | `TypeScript` | A JavaScript library used for running emulators of retro consoles inside browsers. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ClickHouse/ClickStack](https://github.com/ClickHouse/ClickStack)** | `Developer Productivity & Tooling` | `TypeScript` | Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sourcegraph/cody-public-snapshot](https://github.com/sourcegraph/cody-public-snapshot)** | `Developer Productivity & Tooling` | `TypeScript` | Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[toeverything/blocksuite](https://github.com/toeverything/blocksuite)** | `Developer Productivity & Tooling` | `TypeScript` | 🧩 Content editing tech stack for the web - BlockSuite is a toolkit for building editors and collaborative applications. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[aralroca/default-composer](https://github.com/aralroca/default-composer)** | `Developer Productivity & Tooling` | `TypeScript` | A tiny (~500B) JavaScript library that allows you to set default values for nested objects | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[algolia/autocomplete](https://github.com/algolia/autocomplete)** | `Developer Productivity & Tooling` | `TypeScript` | 🔮 Fast and full-featured autocomplete library | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[fern-api/fern](https://github.com/fern-api/fern)** | `Developer Productivity & Tooling` | `TypeScript` | Input OpenAPI. Output SDKs and Docs. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Nutlope/aicommits](https://github.com/Nutlope/aicommits)** | `Developer Productivity & Tooling` | `TypeScript` | A CLI that writes your git commit messages for you with AI | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sergiodxa/remix-utils](https://github.com/sergiodxa/remix-utils)** | `Developer Productivity & Tooling` | `TypeScript` | A set of utility functions and types to use with Remix.run | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bitjson/qr-code](https://github.com/bitjson/qr-code)** | `Developer Productivity & Tooling` | `TypeScript` | A no-framework, no-dependencies, customizable, animate-able, SVG-based &lt;qr-code&gt; HTML element. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[meta/memlab](https://github.com/meta/memlab)** | `Developer Productivity & Tooling` | `TypeScript` | A framework for finding JavaScript memory leaks and analyzing heap snapshots | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jamsocket/driftdb](https://github.com/jamsocket/driftdb)** | `Developer Productivity & Tooling` | `TypeScript` | A real-time data backend for browser-based applications. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[scastiel/github-business-card](https://github.com/scastiel/github-business-card)** | `Developer Productivity & Tooling` | `TypeScript` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[solidjs/solid-start](https://github.com/solidjs/solid-start)** | `Developer Productivity & Tooling` | `TypeScript` | SolidStart, the Solid app framework | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[swve/gitstory](https://github.com/swve/gitstory)** | `Developer Productivity & Tooling` | `TypeScript` | Internet's Git Visual Time Machine 🕰 | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[capri-js/capri](https://github.com/capri-js/capri)** | `Developer Productivity & Tooling` | `TypeScript` | Build static sites with interactive islands | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nachoaldamav/ultra](https://github.com/nachoaldamav/ultra)** | `Developer Productivity & Tooling` | `TypeScript` | JavaScript package manager | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[antfu-collective/ni](https://github.com/antfu-collective/ni)** | `Developer Productivity & Tooling` | `TypeScript` | 💡 Use the right package manager | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[honojs/hono](https://github.com/honojs/hono)** | `Developer Productivity & Tooling` | `TypeScript` | Web framework built on Web Standards | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[vercel/satori](https://github.com/vercel/satori)** | `Developer Productivity & Tooling` | `TypeScript` | Enlightened library to convert HTML and CSS to SVG | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[SurajMazar/chess](https://github.com/SurajMazar/chess)** | `Developer Productivity & Tooling` | `TypeScript` | Chess game | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[google/wireit](https://github.com/google/wireit)** | `Developer Productivity & Tooling` | `TypeScript` | Wireit upgrades your npm/pnpm/yarn scripts to make them smarter and more efficient. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gregordr/ImageStore](https://github.com/gregordr/ImageStore)** | `Developer Productivity & Tooling` | `TypeScript` | Open source google photos alternative! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[GriffinJohnston/ldrs](https://github.com/GriffinJohnston/ldrs)** | `Developer Productivity & Tooling` | `TypeScript` | Modern, minimalist loaders & spinners. Made with CSS, HTML and SVG. https://uiball.com/ldrs | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[javascriptdata/danfojs](https://github.com/javascriptdata/danfojs)** | `Developer Productivity & Tooling` | `TypeScript` | Danfo.js is an open source, JavaScript library providing high performance, intuitive, and easy to use data structures for manipulating and processing structured data. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js)** | `Developer Productivity & Tooling` | `TypeScript` | Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[Ninroot/nacre](https://github.com/Ninroot/nacre)** | `Developer Productivity & Tooling` | `TypeScript` | Intuitive Shell | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[QwikDev/qwik](https://github.com/QwikDev/qwik)** | `Developer Productivity & Tooling` | `TypeScript` | Instant-loading web apps, without effort | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[NickMandylas/start-a-conversation](https://github.com/NickMandylas/start-a-conversation)** | `Developer Productivity & Tooling` | `TypeScript` | A service that randomly matches users in a one-on-one phone conversion, where they can chat anonymously. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[reck1ess/next-realworld-example-app](https://github.com/reck1ess/next-realworld-example-app)** | `Developer Productivity & Tooling` | `TypeScript` | Exemplary real world application built with Next.js + SWR | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[taybenlor/runno](https://github.com/taybenlor/runno)** | `Developer Productivity & Tooling` | `TypeScript` | Sandboxed runtime for programming languages and WASI binaries. Works in the browser, on your server, or via MCP. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[rrweb-io/rrweb](https://github.com/rrweb-io/rrweb)** | `Developer Productivity & Tooling` | `TypeScript` | record and replay the web | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** | `Developer Productivity & Tooling` | `TypeScript` | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[opstrace/opstrace](https://github.com/opstrace/opstrace)** | `Developer Productivity & Tooling` | `TypeScript` | The Open Source Observability Distribution | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[withfig/autocomplete](https://github.com/withfig/autocomplete)** | `Developer Productivity & Tooling` | `TypeScript` | IDE-style autocomplete for your existing terminal & shell | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[pavlobu/deskreen](https://github.com/pavlobu/deskreen)** | `Developer Productivity & Tooling` | `TypeScript` | Deskreen turns any device with a web browser into a secondary screen for your computer. ⭐️ Star to support our work! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[abhivaikar/howtheytest](https://github.com/abhivaikar/howtheytest)** | `Developer Productivity & Tooling` | `TypeScript` | A collection of public resources about how software companies test their software | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[homebridge/homebridge](https://github.com/homebridge/homebridge)** | `Developer Productivity & Tooling` | `TypeScript` | HomeKit support for the impatient. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet)** | `Developer Productivity & Tooling` | `TypeScript` | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tmdh/laravel-kit](https://github.com/tmdh/laravel-kit)** | `Developer Productivity & Tooling` | `TypeScript` | A desktop Laravel admin panel app | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[floccusaddon/floccus](https://github.com/floccusaddon/floccus)** | `Developer Productivity & Tooling` | `TypeScript` | :cloud: Sync your bookmarks privately across browsers and devices | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[pshihn/sockly](https://github.com/pshihn/sockly)** | `Developer Productivity & Tooling` | `TypeScript` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[sinclairzx81/zero](https://github.com/sinclairzx81/zero)** | `Developer Productivity & Tooling` | `TypeScript` | A 3D renderer written in JavaScript and rendered to the terminal. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[rstacruz/cheatsheets](https://github.com/rstacruz/cheatsheets)** | `Developer Productivity & Tooling` | `TypeScript` | Cheatsheets for web development - devhints.io | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[coder/code-server](https://github.com/coder/code-server)** | `Developer Productivity & Tooling` | `TypeScript` | VS Code in the browser | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[adonisjs/core](https://github.com/adonisjs/core)** | `Developer Productivity & Tooling` | `TypeScript` | AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[gobrightspot/nova-detached-actions](https://github.com/gobrightspot/nova-detached-actions)** | `Developer Productivity & Tooling` | `Vue` | A Laravel Nova tool to allow for placing actions in the Nova toolbar detached from the checkbox selection mechanism. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[InfinetyEs/Nova-Filemanager](https://github.com/InfinetyEs/Nova-Filemanager)** | `Developer Productivity & Tooling` | `Vue` | A Filemanager tool for Laravel Nova | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[themsaid/wink](https://github.com/themsaid/wink)** | `Developer Productivity & Tooling` | `Vue` | A Laravel-based publishing platform | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[64robots/nova-fields](https://github.com/64robots/nova-fields)** | `Developer Productivity & Tooling` | `Vue` | A collection of customizable Nova Fields. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[larecipe/larecipe-swagger](https://github.com/larecipe/larecipe-swagger)** | `Developer Productivity & Tooling` | `Vue` | Live API Testing Inside Your Documentation | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[vercel-labs/native](https://github.com/vercel-labs/native)** | `Developer Productivity & Tooling` | `Zig` | Toolkit for building native desktop apps | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ziglang/zig](https://github.com/ziglang/zig)** | `Developer Productivity & Tooling` | `Zig` | Moved to Codeberg | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-
-
-## <a id="ready-to-remix"></a>💡 Ready-to-Remix Products & Self-Hosted Apps `(78)`
-
-> *Fully functional open-source apps (ERPs, invoicing, grocery trackers, CRM) ready to fork, reskin, and monetize.*
-
-| Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
-| :--- | :--- | :--- | :--- | :--- |
-| **[aBillander/aBillander](https://github.com/aBillander/aBillander)** | `Self-Hosted Business Product` | `Blade` | Invoicing and Inventory System for SME's powered by &lt;º)♡&gt;&lt; and Laravel. | *Re-skin and adapt for specialized vertical industries* |
-| **[sudarakas/realproperty](https://github.com/sudarakas/realproperty)** | `Self-Hosted Business Product` | `Blade` | Real Estate Management Platform - Based on Laravel Framework | *Re-skin and adapt for specialized vertical industries* |
-| **[grocy/grocy](https://github.com/grocy/grocy)** | `Self-Hosted Business Product` | `Blade` | ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home | *Re-skin and adapt for specialized vertical industries* |
-| **[zotonic/zotonic](https://github.com/zotonic/zotonic)** | `Forkable Product Archetype` | `Erlang` | Zotonic - The Erlang Web Framework & CMS | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[sphireinc/Foundry](https://github.com/sphireinc/Foundry)** | `Forkable Product Archetype` | `Go` | A Markdown-first CMS written in Go with themes, plugins, and an integrated admin UI | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[pocket-id/pocket-id](https://github.com/pocket-id/pocket-id)** | `Forkable Product Archetype` | `Go` | The most user-friendly OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[vinceanalytics/vince](https://github.com/vinceanalytics/vince)** | `Forkable Product Archetype` | `Go` | Self Hosted Alternative To Google Analytics | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[facundoolano/ngtop](https://github.com/facundoolano/ngtop)** | `Forkable Product Archetype` | `Go` | nginx access logs analytics | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt)** | `Self-Hosted Business Product` | `Go` | Giving Kubernetes Superpowers to everyone | *Re-skin and adapt for specialized vertical industries* |
-| **[flipt-io/flipt](https://github.com/flipt-io/flipt)** | `Self-Hosted Business Product` | `Go` | Enterprise-ready, Git native feature management solution | *Re-skin and adapt for specialized vertical industries* |
-| **[openmeterio/openmeter](https://github.com/openmeterio/openmeter)** | `Forkable Product Archetype` | `Go` | Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[getlago/lago](https://github.com/getlago/lago)** | `Forkable Product Archetype` | `Go` | Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[juanfont/headscale](https://github.com/juanfont/headscale)** | `Forkable Product Archetype` | `Go` | An open source, self-hosted implementation of the Tailscale control server | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[photoprism/photoprism](https://github.com/photoprism/photoprism)** | `Forkable Product Archetype` | `Go` | AI-Powered Photos App 🌈💎✨ | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[navidrome/navidrome](https://github.com/navidrome/navidrome)** | `Forkable Product Archetype` | `Go` | 🎧 Your Personal Streaming Service | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[pboehm/ddns](https://github.com/pboehm/ddns)** | `Forkable Product Archetype` | `Go` | A self-hosted Dynamic DNS solution similar to DynDNS or NO-IP | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[knadh/listmonk](https://github.com/knadh/listmonk)** | `Forkable Product Archetype` | `Go` | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[startupengine/startupengine](https://github.com/startupengine/startupengine)** | `Forkable Product Archetype` | `HTML` | An open-source platform for startups with integrated CMS, analytics, and A/B testing. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[xemle/home-gallery](https://github.com/xemle/home-gallery)** | `Forkable Product Archetype` | `JavaScript` | Self-hosted open-source web gallery to view your photos and videos featuring mobile-friendly, tagging and AI powered image discovery | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[silverwind/droppy](https://github.com/silverwind/droppy)** | `Forkable Product Archetype` | `JavaScript` | **ARCHIVED** Self-hosted file storage | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[Doptor-zz/Doptor](https://github.com/Doptor-zz/Doptor)** | `Self-Hosted Business Product` | `JavaScript` | DOPTOR CMS & EMS : Enterprise level Pre-integrated Business Application Platform. | *Re-skin and adapt for specialized vertical industries* |
-| **[ctf0/Laravel-Media-Manager](https://github.com/ctf0/Laravel-Media-Manager)** | `Forkable Product Archetype` | `JavaScript` | A "Vuejs & Laravel" Media Manager With Tons of Features | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[Rajan/lesspod](https://github.com/Rajan/lesspod)** | `Forkable Product Archetype` | `JavaScript` | Lesspod: Serverless CMS (Website + Blog Engine) | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[muety/http2-serverpush-proxy](https://github.com/muety/http2-serverpush-proxy)** | `Self-Hosted Business Product` | `JavaScript` | A simple standalone reverse proxy that automatically enables server-push for assets related to a HTTP response. | *Re-skin and adapt for specialized vertical industries* |
-| **[nlmatics/llmsherpa](https://github.com/nlmatics/llmsherpa)** | `Self-Hosted Business Product` | `Jupyter Notebook` | Developer APIs to Accelerate LLM Projects | *Re-skin and adapt for specialized vertical industries* |
-| **[iamgio/quarkdown](https://github.com/iamgio/quarkdown)** | `Self-Hosted Business Product` | `Kotlin` | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. | *Re-skin and adapt for specialized vertical industries* |
-| **[recloudstream/cloudstream](https://github.com/recloudstream/cloudstream)** | `Forkable Product Archetype` | `Kotlin` | Android app for streaming and downloading media. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[HomeEnterpriseInc/Home-Setup-Pub](https://github.com/HomeEnterpriseInc/Home-Setup-Pub)** | `Self-Hosted Business Product` | `Others` | Open source tool | *Re-skin and adapt for specialized vertical industries* |
-| **[kha7iq/selfhosted](https://github.com/kha7iq/selfhosted)** | `Forkable Product Archetype` | `Others` | Selfhosted services docker-compose manifests | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[filamentphp/filament](https://github.com/filamentphp/filament)** | `Forkable Product Archetype` | `PHP` | An open-source framework for building polished, maintainable business software with Laravel. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop)** | `Forkable Product Archetype` | `PHP` | PrestaShop is the universal open-source software platform to build your e-commerce solution. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[lakasir/lakasir](https://github.com/lakasir/lakasir)** | `Forkable Product Archetype` | `PHP` | POS open-source, simple things only need simple solutions | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[outl1ne/nova-page-manager](https://github.com/outl1ne/nova-page-manager)** | `Forkable Product Archetype` | `PHP` | Static page and region manager for Laravel Nova - designed for headless CMS's. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[monicahq/monica](https://github.com/monicahq/monica)** | `Forkable Product Archetype` | `PHP` | Personal CRM. Remember everything about your friends, family and business relationships. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[code16/sharp](https://github.com/code16/sharp)** | `Forkable Product Archetype` | `PHP` | Laravel 11+ Content management framework | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[imanghafoori1/laravel-MasterPass](https://github.com/imanghafoori1/laravel-MasterPass)** | `Self-Hosted Business Product` | `PHP` | Helps you securely setup a master password and login into user accounts with it. | *Re-skin and adapt for specialized vertical industries* |
-| **[faveosuite/faveo-invoicing-community](https://github.com/faveosuite/faveo-invoicing-community)** | `Self-Hosted Business Product` | `PHP` | Faveo Invoicing is an open-source platform for SaaS billing and license management, tailored to meet the needs of software companies. | *Re-skin and adapt for specialized vertical industries* |
-| **[MarceauKa/shaark](https://github.com/MarceauKa/shaark)** | `Forkable Product Archetype` | `PHP` | Self-hosted platform to keep and share your content: web links, posts, passwords and pictures. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[mike-bronner/laravel-mixpanel](https://github.com/mike-bronner/laravel-mixpanel)** | `Forkable Product Archetype` | `PHP` | Intuitive drop-in analytics. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[urlhum/UrlHum](https://github.com/urlhum/UrlHum)** | `Forkable Product Archetype` | `PHP` | The modern, privacy-aware URL Shortener built in PHP. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[kyranb/Footprints](https://github.com/kyranb/Footprints)** | `Forkable Product Archetype` | `PHP` | :feet: A simple registration attribution tracking solution for Laravel (UTM Parameters and Referrers) | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[lxerxa/actionview](https://github.com/lxerxa/actionview)** | `Self-Hosted Business Product` | `PHP` | An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira. | *Re-skin and adapt for specialized vertical industries* |
-| **[AsgardCms/Platform](https://github.com/AsgardCms/Platform)** | `Forkable Product Archetype` | `PHP` | A modular multilingual CMS built with Laravel 5. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[typicms/typicms](https://github.com/typicms/typicms)** | `Forkable Product Archetype` | `PHP` | A modular multilingual CMS built with Laravel, enabling developers to manage structured content like pages, news, events, and more. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[crater-invoice-inc/crater](https://github.com/crater-invoice-inc/crater)** | `Self-Hosted Business Product` | `PHP` | Open Source Invoicing Solution for Individuals & Businesses | *Re-skin and adapt for specialized vertical industries* |
-| **[bagisto/bagisto](https://github.com/bagisto/bagisto)** | `Self-Hosted Business Product` | `PHP` | Open Source eCommerce & Multi-Vendor Marketplace Platform Built with Laravel for Enterprise-Scale Commerce, Supporting 10M+ SKUs | *Re-skin and adapt for specialized vertical industries* |
-| **[freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout)** | `Forkable Product Archetype` | `PHP` | FreeScout — Free self-hosted omnichannel AI-powered helpdesk & shared mailbox | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[LavaLite/cms](https://github.com/LavaLite/cms)** | `Forkable Product Archetype` | `PHP` | Multilingual PHP CMS built with Laravel  and bootstrap | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[AzuraCast/AzuraCast](https://github.com/AzuraCast/AzuraCast)** | `Forkable Product Archetype` | `PHP` | A self-hosted web radio management suite, including turnkey installer tools for the full radio software stack and a modern, easy-to-use web app to manage your stations. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[securityjoes/MasterParser](https://github.com/securityjoes/MasterParser)** | `Self-Hosted Business Product` | `PowerShell` | MasterParser is a powerful DFIR tool designed for analyzing and parsing Linux logs | *Re-skin and adapt for specialized vertical industries* |
-| **[9001/copyparty](https://github.com/9001/copyparty)** | `Forkable Product Archetype` | `Python` | Portable file server with accelerated resumable uploads, dedup, WebDAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f)** | `Self-Hosted Business Product` | `Python` | WAFW00F allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website. | *Re-skin and adapt for specialized vertical industries* |
-| **[marqo-ai/marqo](https://github.com/marqo-ai/marqo)** | `Forkable Product Archetype` | `Python` | Ecommerce Search and Discovery - marqo.ai | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[LibrePhotos/librephotos](https://github.com/LibrePhotos/librephotos)** | `Forkable Product Archetype` | `Python` | A self-hosted open source photo management service. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[cedricbonhomme/newspipe](https://github.com/cedricbonhomme/newspipe)** | `Forkable Product Archetype` | `Python` | A self-hosted web news aggregator — own your feeds, your data, and your reading. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[jesse-ai/jesse](https://github.com/jesse-ai/jesse)** | `Forkable Product Archetype` | `Python` | An advanced crypto trading bot written in Python | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[wasmi-labs/wasmi](https://github.com/wasmi-labs/wasmi)** | `Self-Hosted Business Product` | `Rust` | WebAssembly (Wasm) Interpreter - An efficient, lightweight, and deterministic WebAssembly interpreter for embedded systems and plug-in runtimes. | *Re-skin and adapt for specialized vertical industries* |
-| **[vapid/vapid](https://github.com/vapid/vapid)** | `Forkable Product Archetype` | `SCSS` | Vapid is an intentionally simple content management system built on the idea that you can create a custom dashboard without ever leaving the HTML. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[pgsty/pigsty](https://github.com/pgsty/pigsty)** | `Self-Hosted Business Product` | `Shell` | Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 575 PG extensions. Best-of-breed products integrated as a platform. Self-host Postgres like a Pro! | *Re-skin and adapt for specialized vertical industries* |
-| **[tteck/Proxmox](https://github.com/tteck/Proxmox)** | `Forkable Product Archetype` | `Shell` | Proxmox VE Helper-Scripts | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[Makeshift/Marauder](https://github.com/Makeshift/Marauder)** | `Forkable Product Archetype` | `Shell` | A fully dockerized Media downloading solution utilising Google Drive as an unlimited disk backend | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[liketrek/TREK](https://github.com/liketrek/TREK)** | `Forkable Product Archetype` | `TypeScript` | The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routin | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[emdash-cms/emdash](https://github.com/emdash-cms/emdash)** | `Forkable Product Archetype` | `TypeScript` | EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[bluewave-labs/Checkmate](https://github.com/bluewave-labs/Checkmate)** | `Forkable Product Archetype` | `TypeScript` | Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[turbot/powerpipe](https://github.com/turbot/powerpipe)** | `Self-Hosted Business Product` | `TypeScript` | Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code. | *Re-skin and adapt for specialized vertical industries* |
-| **[0x2E/fusion](https://github.com/0x2E/fusion)** | `Forkable Product Archetype` | `TypeScript` | A lightweight, self-hosted friendly RSS reader | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[hocus-dev/hocus](https://github.com/hocus-dev/hocus)** | `Forkable Product Archetype` | `TypeScript` | 🪄 Spin up ready-to-code, disposable dev environments on your own servers. Self-hosted alternative to Gitpod and Github Codespaces. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[nomic-ai/deepscatter](https://github.com/nomic-ai/deepscatter)** | `Self-Hosted Business Product` | `TypeScript` | Zoomable, animated scatterplots in the browser that scales over a billion points | *Re-skin and adapt for specialized vertical industries* |
-| **[actualbudget/actual](https://github.com/actualbudget/actual)** | `Forkable Product Archetype` | `TypeScript` | A local-first personal finance app | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[eclipse-che/che](https://github.com/eclipse-che/che)** | `Self-Hosted Business Product` | `TypeScript` | Kubernetes based Cloud Development Environments for Enterprise Teams | *Re-skin and adapt for specialized vertical industries* |
-| **[growthbook/growthbook](https://github.com/growthbook/growthbook)** | `Forkable Product Archetype` | `TypeScript` | Open Source Feature Flags, Experimentation, and Product Analytics | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[BerlinChan/askent](https://github.com/BerlinChan/askent)** | `Forkable Product Archetype` | `TypeScript` | A simple interaction and presentation tool, a clone of Sli.do. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[mattermost-community/focalboard](https://github.com/mattermost-community/focalboard)** | `Forkable Product Archetype` | `TypeScript` | Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[TryGhost/Ghost](https://github.com/TryGhost/Ghost)** | `Forkable Product Archetype` | `TypeScript` | Independent technology for modern publishing, memberships, subscriptions and newsletters. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[QwikDev/partytown](https://github.com/QwikDev/partytown)** | `Forkable Product Archetype` | `TypeScript` | Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉 | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[avored/laravel-ecommerce](https://github.com/avored/laravel-ecommerce)** | `Forkable Product Archetype` | `TypeScript` | AvoRed an Open Source Laravel Shopping Cart | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[bastienwirtz/homer](https://github.com/bastienwirtz/homer)** | `Forkable Product Archetype` | `Vue` | A very simple static homepage for your server. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-| **[lesspod/lesspod-2.0](https://github.com/lesspod/lesspod-2.0)** | `Forkable Product Archetype` | `Vue` | Serverless CMS (Currently In Development) | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
-
-
----
-
-## 🔄 Automated AI Pipeline & GitHub Actions
-
-This repository automatically synchronizes with GitHub stars using GitHub Actions and classifies entries with **Google Gemini AI**:
-
-1. **Extraction:** Discovers newly starred repositories daily via the GitHub API.
-2. **AI Classification:** Categorizes tools into product building blocks and generates architectural remix ideas.
-3. **Dual Generation:** Updates `data/repos.json`, formats this `README.md`, and deploys the interactive `index.html` catalog to **GitHub Pages**.
-
-### Adding your Gemini API Key
-To enable AI classification for newly starred repos in your own fork:
-1. Go to **Settings > Secrets and variables > Actions** in your repository.
-2. Add a new repository secret named `GEMINI_API_KEY` with your Google AI Studio key.
-
----
-
-## 🤝 Contributing
-
-Have a great tool or remix recipe? Feel free to open a Pull Request or issue! Follow the [Awesome Guidelines](https://github.com/sindresorhus/awesome/blob/main/contributing.md).
-
-## 📄 License
-
-CC0 1.0 Universal - Public Domain Dedication.
+<!--lint disable awesome-contributing awesome-license awesome-list-item match-punctuation no-repeat-punctuation no-undefined-references awesome-spell-check-->
+# Awesome Stars [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+
+> A curated list of my GitHub stars! Generated by [starred](https://github.com/maguowei/starred).
+
+## Contents
+
+- [Assembly](#assembly)
+- [Astro](#astro)
+- [Batchfile](#batchfile)
+- [Blade](#blade)
+- [C](#c)
+- [C#](#c#)
+- [C++](#c++)
+- [CSS](#css)
+- [Clojure](#clojure)
+- [Dart](#dart)
+- [Dockerfile](#dockerfile)
+- [Elixir](#elixir)
+- [Erlang](#erlang)
+- [F#](#f#)
+- [Go](#go)
+- [Go Template](#go-template)
+- [Groovy](#groovy)
+- [HCL](#hcl)
+- [HTML](#html)
+- [Haskell](#haskell)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Jinja](#jinja)
+- [Jsonnet](#jsonnet)
+- [Jupyter Notebook](#jupyter-notebook)
+- [Kotlin](#kotlin)
+- [Lua](#lua)
+- [MDX](#mdx)
+- [Makefile](#makefile)
+- [Markdown](#markdown)
+- [Mustache](#mustache)
+- [Nim](#nim)
+- [Nix](#nix)
+- [OCaml](#ocaml)
+- [Objective-C](#objective-c)
+- [Others](#others)
+- [PHP](#php)
+- [PLpgSQL](#plpgsql)
+- [Perl](#perl)
+- [PowerShell](#powershell)
+- [Python](#python)
+- [QML](#qml)
+- [Ruby](#ruby)
+- [Rust](#rust)
+- [SCSS](#scss)
+- [Shell](#shell)
+- [Smarty](#smarty)
+- [Starlark](#starlark)
+- [Svelte](#svelte)
+- [Swift](#swift)
+- [Tcl](#tcl)
+- [TeX](#tex)
+- [Twig](#twig)
+- [TypeScript](#typescript)
+- [Vue](#vue)
+- [YAML](#yaml)
+- [Zig](#zig)
+
+## Assembly 
+
+- [below/HelloSilicon](https://github.com/below/HelloSilicon) - An introduction to ARM64 assembly on Apple Silicon Macs
+- [hackclub/some-assembly-required](https://github.com/hackclub/some-assembly-required) - 📖 An approachable introduction to Assembly.
+
+## Astro 
+
+- [markmead/hyperui](https://github.com/markmead/hyperui) - Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀
+
+## Batchfile 
+
+- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
+
+## Blade 
+
+- [nunomaduro/laravel-starter-kit](https://github.com/nunomaduro/laravel-starter-kit) - Laravel Starter Kit is an ultra-strict, type-safe Laravel skeleton engineered for developers who refuse to compromise on code quality.
+- [aBillander/aBillander](https://github.com/aBillander/aBillander) - Invoicing and Inventory System for SME's powered by &lt;º)♡&gt;&lt; and Laravel.
+- [sudarakas/realproperty](https://github.com/sudarakas/realproperty) - Real Estate Management Platform - Based on Laravel Framework
+- [lubusIN/laravel-decomposer](https://github.com/lubusIN/laravel-decomposer) - Laravel package to decompose your installed packages, their dependencies, your app & server environment
+- [snowfire/Beautymail](https://github.com/snowfire/Beautymail) - Send beautiful HTML emails with Laravel
+- [Hasnayeen/invobook](https://github.com/Hasnayeen/invobook) - Self-hosted app for Time Tracking, Invoice Generation, Project & Client Management, built with Laravel & Filament.
+- [Jimmy-JS/laravel-report-generator](https://github.com/Jimmy-JS/laravel-report-generator) - Rapidly Generate Simple Pdf, CSV, & Excel Report Package on Laravel
+- [Qoraiche/laravel-mail-editor](https://github.com/Qoraiche/laravel-mail-editor) - MailEclipse :zap: Laravel Mail Editor
+- [grocy/grocy](https://github.com/grocy/grocy) - ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home
+- [laravel/laravel](https://github.com/laravel/laravel) - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.
+
+## C 
+
+- [tsl0922/ttyd](https://github.com/tsl0922/ttyd) - Share your terminal over the web
+- [pawelsalawa/letos](https://github.com/pawelsalawa/letos) - A free, open source, multi-platform SQLite database manager.
+- [splitbrain/clipscreen](https://github.com/splitbrain/clipscreen) - Mirror a portion of your screen to a virtual monitor for easier screen sharing.
+- [dicedb/dicedb](https://github.com/dicedb/dicedb) - Open-source, low-latency key/value engine built on Valkey with query subscriptions and hierarchical storage tiers.
+- [yellow-footed-honeyguide/facad](https://github.com/yellow-footed-honeyguide/facad) - A modern, colorful ls alternative for bringing clarity to the filesystem ☀️
+- [NoiseByNorthwest/php-spx](https://github.com/NoiseByNorthwest/php-spx) - A simple & straight-to-the-point PHP profiling extension with its built-in web UI
+- [DaveBben/esp32-llm](https://github.com/DaveBben/esp32-llm) - Running a LLM on the ESP32
+- [SentryPeer/SentryPeer](https://github.com/SentryPeer/SentryPeer) - Protect your SIP Servers from bad actors at https://sentrypeer.org
+- [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) - YugabyteDB - the cloud native distributed SQL database for mission-critical applications.
+- [asg017/sqlite-vec](https://github.com/asg017/sqlite-vec) - A vector search SQLite extension that runs anywhere!
+- [guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm) - llama and other  large language models on iOS and MacOS offline using GGML library.
+- [pgaudit/pgaudit](https://github.com/pgaudit/pgaudit) - PostgreSQL Audit Extension
+- [FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar) - A highly customizable macOS status bar replacement
+- [RedisLabs/redisraft](https://github.com/RedisLabs/redisraft) - A Redis Module that make it possible to create a consistent Raft cluster from multiple Redis instances.
+- [neondatabase/pg_embedding](https://github.com/neondatabase/pg_embedding) - Hierarchical Navigable Small World (HNSW) algorithm for vector similarity search in PostgreSQL
+- [zigzap/zap](https://github.com/zigzap/zap) - blazingly fast backends in zig
+- [danielealbano/cachegrand](https://github.com/danielealbano/cachegrand) - cachegrand - a modern data ingestion, processing and serving platform built for today's hardware
+- [apache/age](https://github.com/apache/age) - Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL.
+- [hydradatabase/columnar](https://github.com/hydradatabase/columnar) - Postgres-native columnar storage extension
+- [orioledb/orioledb](https://github.com/orioledb/orioledb) - OrioleDB – building a modern cloud-native storage engine (... and solving some PostgreSQL wicked problems)
+- [dimitri/pgcopydb](https://github.com/dimitri/pgcopydb) - Copy a Postgres database to a target Postgres server (pg_dump | pg_restore on steroids)
+- [kristofpetho/kernel_oneplus_sdm845](https://github.com/kristofpetho/kernel_oneplus_sdm845) - 
+- [ish-app/ish](https://github.com/ish-app/ish) - Linux shell for iOS
+- [sypstraw/rpi4-osdev](https://github.com/sypstraw/rpi4-osdev) - Tutorial: Writing a "bare metal" operating system for Raspberry Pi 4
+- [nanovms/nanos](https://github.com/nanovms/nanos) - A kernel designed to run one and only one application in a virtualized environment
+- [AsahiLinux/linux](https://github.com/AsahiLinux/linux) - Linux kernel source tree
+- [unrealircd/unrealircd](https://github.com/unrealircd/unrealircd) - Official UnrealIRCd repository. Downloads are available from our site
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
+- [profglavcho/mt6735-kernel-3.10.61](https://github.com/profglavcho/mt6735-kernel-3.10.61) - 
+
+## C# # 
+
+- [H4NM/WhoYouCalling](https://github.com/H4NM/WhoYouCalling) - Records an executable's network activity into a Full Packet Capture file (.pcap) and much more.
+- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types t
+- [emberstack/kubernetes-reflector](https://github.com/emberstack/kubernetes-reflector) - Custom Kubernetes controller that can be used to replicate secrets, configmaps and certificates.
+- [shoshanimayan/AR-wall-hanger](https://github.com/shoshanimayan/AR-wall-hanger) - Unity AR app for simulating what different images will look like hanging off walls
+- [yk9331/Unity_IKEAPlace](https://github.com/yk9331/Unity_IKEAPlace) - &lt;Remake&gt; A pratice project of remakeing Ikea place iOS app. The UI layout is design for iPad. Using Unity and ARKit plugin.
+- [ReneLergner/WPinternals](https://github.com/ReneLergner/WPinternals) - Tool to unlock the bootloader and enable Root Access on Windows Phones
+- [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder) - Video Duplicate Finder - Crossplatform
+
+## C++ 
+
+- [Tiiny-AI/PowerInfer](https://github.com/Tiiny-AI/PowerInfer) - High-speed Large Language Model Serving for Local Deployment
+- [Snapchat/Valdi](https://github.com/Snapchat/Valdi) - Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity.
+- [ggerganov/ggwave](https://github.com/ggerganov/ggwave) - Tiny data-over-sound library
+- [lights0123/hipscript](https://github.com/lights0123/hipscript) - Online compiler for HIP and NVIDIA® CUDA® code to WebGPU
+- [lupinemachines/lupine](https://github.com/lupinemachines/lupine) - LUPINE is a GPU over IP bridge allowing GPUs on remote machines to be attached to CPU-only machines.
+- [pixie-io/pixie](https://github.com/pixie-io/pixie) - Instant Kubernetes-Native Application Observability
+- [jart/json.cpp](https://github.com/jart/json.cpp) - JSON for Classic C++
+- [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) - Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces
+- [microsoft/BitNet](https://github.com/microsoft/BitNet) - Official inference framework for 1-bit LLMs
+- [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) - Distribute and run LLMs with a single file.
+- [AnswerDotAI/gpu.cpp](https://github.com/AnswerDotAI/gpu.cpp) - A lightweight library for portable low-level GPU computation using WebGPU.
+- [guinmoon/llmfarm_core.swift](https://github.com/guinmoon/llmfarm_core.swift) - Swift library to work with llama and other large language models.
+- [infiniflow/infinity](https://github.com/infiniflow/infinity) - The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense vector, sparse vector, tensor (multi-vector), and full-text.
+- [Desbordante/desbordante-core](https://github.com/Desbordante/desbordante-core) - Desbordante is a high-performance data profiler that is capable of discovering many different patterns in data using various algorithms. It also allows to run data cleaning scenarios using these algor
+- [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) - Cross-platform, customizable ML solutions for live and streaming media.
+- [percona/percona-xtrabackup](https://github.com/percona/percona-xtrabackup) - Open source hot backup tool for InnoDB and XtraDB databases
+- [adamritter/fastgron](https://github.com/adamritter/fastgron) - High-performance JSON to GRON (greppable, flattened JSON) converter
+- [ggml-org/ggml](https://github.com/ggml-org/ggml) - Tensor library for machine learning
+- [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) - Tesseract Open Source OCR Engine (main repository)
+- [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) - GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.
+- [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) - Port of OpenAI's Whisper model in C/C++
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
+- [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 😎🏖️🐬 Your new, 𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart clipboard manager
+- [logicalclocks/rondb](https://github.com/logicalclocks/rondb) - This is RonDB, a distribution of NDB Cluster developed and used by Hopsworks AB. It also contains development branches of RonDB.
+- [aristocratos/btop](https://github.com/aristocratos/btop) - A monitor of resources
+- [e-dant/watcher](https://github.com/e-dant/watcher) - Filesystem watcher. Works anywhere. Simple, efficient and friendly.
+- [GauravDawra/Beast](https://github.com/GauravDawra/Beast) - A build system built for speed and power
+- [jwise/HoRNDIS](https://github.com/jwise/HoRNDIS) - Android USB tethering driver for Mac OS X
+- [H4ckd4ddy/bypass-sentry-safe](https://github.com/H4ckd4ddy/bypass-sentry-safe) - 
+- [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
+- [Nitrux/maui-shell](https://github.com/Nitrux/maui-shell) - Maui Shell is a convergent shell for desktops, tablets, and phones.
+- [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
+- [ggerganov/wave-share](https://github.com/ggerganov/wave-share) - Serverless, peer-to-peer, local file sharing through sound
+- [Tencent/Hippy](https://github.com/Tencent/Hippy) - Hippy is designed to easily build cross-platform dynamic apps. 👏
+- [cvengler/sysget](https://github.com/cvengler/sysget) - One package manager to rule them all
+- [MisterTea/EternalTerminal](https://github.com/MisterTea/EternalTerminal) - Re-Connectable secure remote shell
+- [canonical/multipass](https://github.com/canonical/multipass) - Multipass orchestrates virtual Ubuntu instances
+
+## CSS 
+
+- [aftertheflood/sparks](https://github.com/aftertheflood/sparks) - A typeface for creating sparklines in text without code.
+- [buildship-ai/feedbackfin](https://github.com/buildship-ai/feedbackfin) - Open-source widget to collect feedback anywhere on your website. Lightweight and tiny. That’s it.
+- [just5ky/SkyPi](https://github.com/just5ky/SkyPi) - selfhosting on a budget
+- [hedyorg/hedy](https://github.com/hedyorg/hedy) - Hedy is a gradual programming language to teach children programming. Gradual languages use different language levels, where each level adds new concepts and syntactic complexity. At the end of the He
+- [csswizardry/ct](https://github.com/csswizardry/ct) - Let’s take a look inside your &lt;head&gt;…
+- [avriq/signature-pdf](https://github.com/avriq/signature-pdf) - Drag and drop to add image signature to pdf documents
+- [adi1090x/termux-desktop](https://github.com/adi1090x/termux-desktop) - Setup A Beautiful Desktop/GUI In Termux
+- [isurajkc/react-webpack-starter](https://github.com/isurajkc/react-webpack-starter) - 
+
+## Clojure 
+
+- [logseq/logseq](https://github.com/logseq/logseq) - A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV
+
+## Dart 
+
+- [StacDev/stac](https://github.com/StacDev/stac) - Stac is a Server-Driven UI (SDUI) framework for Flutter, enabling you to create stunning, cross-platform applications dynamically with JSON. Build and update your app's UI in real-time with ease and f
+- [fzyzcjy/flutter_smooth](https://github.com/fzyzcjy/flutter_smooth) - Achieve ~60 FPS, no matter how heavy the tree is to build/layout
+- [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
+
+## Dockerfile 
+
+- [theredguild/devcontainer](https://github.com/theredguild/devcontainer) - The Red Guild's devcontainer focused in web3 and security.
+- [jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles) - Various Dockerfiles I use on the desktop and on servers.
+- [ethibox/awesome-stacks](https://github.com/ethibox/awesome-stacks) - Deploy 150+ open-source web apps with one Docker command
+- [melehin/graphql-engine-arm64](https://github.com/melehin/graphql-engine-arm64) - Dockerfile for hasura/graphql-engine to run on arm64/aarch64 (tested on Nvidia Jetson Nano, Rpi4, Apple M1).
+- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx) - Docker image with PHP-FPM 8.5 & Nginx 1.30 on Alpine Linux
+- [chialab/docker-php](https://github.com/chialab/docker-php) - 🧰 Adding common PHP extensions to some of the official PHP Docker images.
+- [linuxserver-archive/docker-openvpn-as](https://github.com/linuxserver-archive/docker-openvpn-as) - DEPRECATED
+- [klutchell/balena-pihole-aarch64](https://github.com/klutchell/balena-pihole-aarch64) - aarch64 balenaCloud stack for Pi-hole® https://pi-hole.net/
+
+## Elixir 
+
+- [semaphoreio/semaphore](https://github.com/semaphoreio/semaphore) - All-in-one delivery platform for AI-driven development.
+- [sequinstream/sequin](https://github.com/sequinstream/sequin) - Postgres change data capture to streams, queues, and search indexes like Kafka, SQS, Elasticsearch, HTTP endpoints, and more
+- [yujonglee/canary](https://github.com/yujonglee/canary) - Algolia alternative for technical docs
+- [supabase/supavisor](https://github.com/supabase/supavisor) - A cloud-native, multi-tenant Postgres connection pooler.
+- [fly-apps/live_beats](https://github.com/fly-apps/live_beats) - 
+- [papercups-io/papercups](https://github.com/papercups-io/papercups) - Open-source live customer chat
+
+## Erlang 
+
+- [zotonic/zotonic](https://github.com/zotonic/zotonic) - Zotonic - The Erlang Web Framework & CMS
+
+## F# # 
+
+- [ms-jpq/simple-traefik-dash](https://github.com/ms-jpq/simple-traefik-dash) - Zero conf service dashboard for Traefik v2 Ingress Controller
+
+## Go 
+
+- [google/ax](https://github.com/google/ax) - Agent Executor (AX) is Google's open agentic orchestration runtime
+- [px0-ai/px0](https://github.com/px0-ai/px0) - px0 is a review workbench and speed-first IDE built for AI-generated code. It turns your browser into a zero-latency console with native Git and GitHub integrations, instant search across massive code
+- [alibaba/open-code-review](https://github.com/alibaba/open-code-review) - Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,
+- [labring/sealos](https://github.com/labring/sealos) - Deploy real projects from GitHub or your AI coding agent, then keep them running with AI-powered operations.
+- [systalyze/utilyze](https://github.com/systalyze/utilyze) - 
+- [goshs-labs/goshs](https://github.com/goshs-labs/goshs) - Feature-rich single-binary file server for red teamers and developers.  HTTP/S · WebDAV · FTP/SFTP · SMB · LDAP/S · NTLM hash capture · DNS/SMTP callbacks ·  TLS · Auth · Share links. A powerful pytho
+- [ENTERPILOT/GoModel](https://github.com/ENTERPILOT/GoModel) - AI gateway / AI control plane / AI proxy written in Go. Unified OpenAI-compatible and Anthropic-compatible API for OpenAI, Anthropic, Gemini, Groq, xAI, Ollama, vLLM and more. A LiteLLM alternative wi
+- [simeji/jid](https://github.com/simeji/jid) - json incremental digger
+- [sphireinc/Foundry](https://github.com/sphireinc/Foundry) - A Markdown-first CMS written in Go with themes, plugins, and an integrated admin UI
+- [openberth/openberth](https://github.com/openberth/openberth) - Self-hosted deployment platform. Give it code, get a live HTTPS URL. Supports Node.js, Python, Go, and static sites. Every    deployment runs sandboxed in gVisor. Three static Go binaries, zero runtim
+- [aquasecurity/trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
+- [lxc/incus-os](https://github.com/lxc/incus-os) - Immutable Linux OS to run Incus
+- [TheYahya/enola](https://github.com/TheYahya/enola) - This is Sherlock's sister, Modern shiny CLI tool written with Golang to help you: 🔎 Hunt down social media accounts by username across social networks
+- [TecharoHQ/anubis](https://github.com/TecharoHQ/anubis) - Weighs the soul of incoming HTTP requests to stop AI crawlers
+- [goravel/goravel](https://github.com/goravel/goravel) - The full-featured Golang Development Framework skeleton
+- [picosh/pico](https://github.com/picosh/pico) - The ultimate ssh powered services for developers
+- [albersola/airo](https://github.com/albersola/airo) - Deploy your projects from local to your production VPS.
+- [project-copacetic/copacetic](https://github.com/project-copacetic/copacetic) - 🧵 CLI tool for directly patching container images!
+- [pocket-id/pocket-id](https://github.com/pocket-id/pocket-id) - The most user-friendly OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.
+- [termkit/gama](https://github.com/termkit/gama) - Manage your GitHub Actions from Terminal with great UI 🧪
+- [yassinebenaid/bunster](https://github.com/yassinebenaid/bunster) - Compile shell scripts to static binaries.
+- [pedrosland/pwned-check](https://github.com/pedrosland/pwned-check) - API to check if a password is definitely​ not pwned
+- [google/syzkaller](https://github.com/google/syzkaller) - syzkaller is an unsupervised coverage-guided kernel fuzzer
+- [adelapazborrero/slack_jack](https://github.com/adelapazborrero/slack_jack) - Hijack a slack bot to phish your way in
+- [doxx/darkflare](https://github.com/doxx/darkflare) - DarkFlare Firewall Piercing (TCP over CDN)
+- [dunglas/mercure](https://github.com/dunglas/mercure) - 🪽 An open, easy, fast, reliable and battery-efficient solution for real-time communications
+- [byawitz/ggh](https://github.com/byawitz/ggh) - Recall your SSH sessions (also search your SSH config file)
+- [crowdsecurity/crowdsec](https://github.com/crowdsecurity/crowdsec) - Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced blocklist of malicious IPs.
+- [musana/CF-Hero](https://github.com/musana/CF-Hero) - CF-Hero is a reconnaissance tool that uses multiple data sources to discover the origin IP addresses of Cloudflare-protected web applications
+- [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) - An open-source, AI-integrated, cross-platform terminal for seamless workflows
+- [seatgeek/mailroom](https://github.com/seatgeek/mailroom) - Framework for creating, routing, and delivering user notifications based on events from external systems
+- [vinceanalytics/vince](https://github.com/vinceanalytics/vince) - Self Hosted Alternative To Google Analytics
+- [GoogleCloudPlatform/terraformer](https://github.com/GoogleCloudPlatform/terraformer) - CLI tool to generate terraform files from existing infrastructure (reverse Terraform). Infrastructure to Code
+- [danielgtaylor/huma](https://github.com/danielgtaylor/huma) - Huma REST/HTTP API Framework for Golang with OpenAPI 3.1
+- [go-chi/chi](https://github.com/go-chi/chi) - lightweight, idiomatic and composable router for building Go HTTP services
+- [hypermodeinc/modus](https://github.com/hypermodeinc/modus) - modus: a framework for building agentic flows powered by WebAssembly
+- [taubyte/tau](https://github.com/taubyte/tau) - Fullstack Workspace for Humans & Machines
+- [yarlson/ftl](https://github.com/yarlson/ftl) - FTL: faster than light deployment
+- [bomfather/minefield](https://github.com/bomfather/minefield) - Graphing SBOM's Fast.
+- [Melkeydev/go-blueprint](https://github.com/Melkeydev/go-blueprint) - Go-blueprint allows users to spin up a quick Go project using a popular framework
+- [cerberauth/vulnapi](https://github.com/cerberauth/vulnapi) - API Security Vulnerability Scanner designed to help you secure your APIs.
+- [netbirdio/netbird](https://github.com/netbirdio/netbird) - NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®
+- [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) - Terraform / OpenTofu Provider for Proxmox VE
+- [qualcomm/GenieX](https://github.com/qualcomm/GenieX) - Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code
+- [atlassian/escalator](https://github.com/atlassian/escalator) - Escalator is a batch or job optimized horizontal autoscaler for Kubernetes
+- [mikestefanello/pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit and admin panel in Go
+- [basecamp/kamal-proxy](https://github.com/basecamp/kamal-proxy) - Lightweight proxy server for Kamal
+- [mr-karan/doggo](https://github.com/mr-karan/doggo) - :dog: Command-line DNS Client for Humans. Written in Golang
+- [siderolabs/omni](https://github.com/siderolabs/omni) - SaaS-simple deployment of Kubernetes - on your own hardware.
+- [MightyMoud/sidekick](https://github.com/MightyMoud/sidekick) - Bare metal to production ready in mins; your own fly server on your VPS.
+- [openshieldai/openshield](https://github.com/openshieldai/openshield) - OpenShield is a new generation security layer for AI models
+- [sqlc-dev/sqlc](https://github.com/sqlc-dev/sqlc) - Generate type-safe code from SQL
+- [coder/wush](https://github.com/coder/wush) - simplest & fastest way to transfer files between computers via WireGuard
+- [codesenberg/bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool written in Go
+- [clastix/kamaji](https://github.com/clastix/kamaji) - Kamaji is the Hosted Control Plane Manager for Kubernetes.
+- [secureCodeBox/secureCodeBox](https://github.com/secureCodeBox/secureCodeBox) - secureCodeBox (SCB) - continuous secure delivery out of the box
+- [julien040/anyquery](https://github.com/julien040/anyquery) - One SQL interface for 60+ tools (e.g., GitHub, Notion, Airtable). Plug into any LLM through MCP.
+- [tsenart/vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool and library. It's over 9000!
+- [will-moss/isaiah](https://github.com/will-moss/isaiah) - Self-hostable clone of lazydocker for the web. Manage your Docker fleet with ease
+- [TomWright/dasel](https://github.com/TomWright/dasel) - Unified querying, transformation, and modification of JSON, TOML, YAML, XML, INI, HCL, KDL and CSV.
+- [clastix/cluster-api-control-plane-provider-kamaji](https://github.com/clastix/cluster-api-control-plane-provider-kamaji) - The Kamaji Control Plane provider implementation of the Cluster Management API
+- [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
+- [andreibordy/viking](https://github.com/andreibordy/viking) - Simple way to manage your remote machines and SSH keys
+- [AstroBee-AI/kardinal](https://github.com/AstroBee-AI/kardinal) - Kardinal is the lightest-weight way to spin up dev and test environments in Kubernetes. Deploy the absolute minimum resources necessary and implement dev, test, and QA all in one cluster.
+- [shivasurya/code-pathfinder](https://github.com/shivasurya/code-pathfinder) - Static Code Analysis for security teams with Inter file taint analysis. Built for finding vulnerabilities, advanced structural search, derive insights and supports MCP
+- [semaphoreui/semaphore](https://github.com/semaphoreui/semaphore) - Modern UI and powerful API for Ansible, Terraform/OpenTofu/Terragrunt, PowerShell and other DevOps tools.
+- [GreenmaskIO/greenmask](https://github.com/GreenmaskIO/greenmask) - Database anonymization and test data management
+- [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager) - Kubernetes cloud controller manager for Proxmox
+- [cgzirim/seek-tune](https://github.com/cgzirim/seek-tune) - An implementation of Shazam's song recognition algorithm.
+- [miekg/gitopper](https://github.com/miekg/gitopper) - Gitops for non-Kubernetes folks
+- [cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops) - Developer Friendly Kubernetes 👁️
+- [facundoolano/ngtop](https://github.com/facundoolano/ngtop) - nginx access logs analytics
+- [fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl) - Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
+- [cloudflare/pint](https://github.com/cloudflare/pint) - Prometheus rule linter/validator
+- [fluxcd/image-automation-controller](https://github.com/fluxcd/image-automation-controller) - GitOps Toolkit controller that patches container image tags in Git
+- [clidey/whodb](https://github.com/clidey/whodb) - Where data access meets operational intelligence
+- [msoap/shell2telegram](https://github.com/msoap/shell2telegram) - Telegram bot constructor from command-line
+- [poundifdef/smoothmq](https://github.com/poundifdef/smoothmq) - An improved drop-in replacement for SQS
+- [yorukot/superfile](https://github.com/yorukot/superfile) - Pretty fancy and modern terminal file manager
+- [kubernetes-sigs/descheduler](https://github.com/kubernetes-sigs/descheduler) - Descheduler for Kubernetes
+- [sosedoff/pgweb](https://github.com/sosedoff/pgweb) - Cross-platform client for PostgreSQL databases
+- [KusionStack/kusion](https://github.com/KusionStack/kusion) - Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP).
+- [k0sproject/k0smotron](https://github.com/k0sproject/k0smotron) - k0smotron
+- [Legit-Labs/legitify](https://github.com/Legit-Labs/legitify) - Detect and remediate misconfigurations and security risks across all your GitHub and GitLab assets
+- [gittuf/gittuf](https://github.com/gittuf/gittuf) - A security layer for Git repositories
+- [helmfile/helmfile](https://github.com/helmfile/helmfile) - Declaratively deploy your Kubernetes manifests, Kustomize configs, and Charts as Helm releases. Generate all-in-one manifests for use with ArgoCD.
+- [msoap/shell2http](https://github.com/msoap/shell2http) - Executing shell commands via HTTP server
+- [edgelesssys/constellation](https://github.com/edgelesssys/constellation) - Constellation is a Kubernetes distribution for confidential computing, securing entire clusters on untrusted infrastructure.  Constellation is in maintenance mode. New development continues in Contras
+- [xataio/pgroll](https://github.com/xataio/pgroll) - PostgreSQL zero-downtime migrations made easy
+- [karlkfi/kubexit](https://github.com/karlkfi/kubexit) - Command supervisor for coordinated Kubernetes pod container termination.
+- [nocalhost/nocalhost](https://github.com/nocalhost/nocalhost) - Nocalhost is Cloud Native Dev Environment.
+- [telepresenceio/telepresence](https://github.com/telepresenceio/telepresence) - Local development against a remote Kubernetes or OpenShift cluster
+- [kubeshop/tracetest](https://github.com/kubeshop/tracetest) - 🔭 Tracetest - Build integration and end-to-end tests in minutes, instead of days, using OpenTelemetry and trace-based testing.
+- [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync) - Open Source Data Security Platform for Developers to Monitor and Detect PII, Anonymize Production Data and Sync it across environments.
+- [eraser-dev/eraser](https://github.com/eraser-dev/eraser) - 🧹 Cleaning up images from Kubernetes nodes
+- [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) - Release engineering, simplified
+- [glanceapp/glance](https://github.com/glanceapp/glance) - A self-hosted dashboard that puts all your feeds in one place
+- [open-telemetry/opentelemetry-ebpf-profiler](https://github.com/open-telemetry/opentelemetry-ebpf-profiler) - The production-scale datacenter profiler (C/C++, Go, Rust, Python, Java, NodeJS, .NET, PHP, Ruby, Perl, ...)
+- [hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet) - 🪓 An orchestration engine for background tasks, AI agents, and durable workflows
+- [amalshaji/portr](https://github.com/amalshaji/portr) - Expose local http, tcp or websocket connections to the public internet
+- [nalgeon/redka](https://github.com/nalgeon/redka) - Redis re-implemented with SQL
+- [charmbracelet/freeze](https://github.com/charmbracelet/freeze) - Generate images of code and terminal output 📸
+- [pg-sharding/spqr](https://github.com/pg-sharding/spqr) - Stateless Postgres Query Router.
+- [k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) - Giving Kubernetes Superpowers to everyone
+- [mercari/tortoise](https://github.com/mercari/tortoise) - Tortoise: Shell-Shockingly-Good Kubernetes Autoscaling
+- [microsoft/retina](https://github.com/microsoft/retina) - eBPF distributed networking observability tool for Kubernetes
+- [bruin-data/ingestr](https://github.com/bruin-data/ingestr) - ingestr is a CLI tool to copy data between any databases with a single command seamlessly.
+- [google/gvisor](https://github.com/google/gvisor) - Application Kernel for Containers
+- [F1bonacc1/process-compose](https://github.com/F1bonacc1/process-compose) - Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.
+- [dolthub/doltgresql](https://github.com/dolthub/doltgresql) - DoltgreSQL - Version Controlled PostgreSQL
+- [scratchdata/scratchdata](https://github.com/scratchdata/scratchdata) - Scratch is a swiss army knife for big data.
+- [cerbos/cerbos](https://github.com/cerbos/cerbos) - Cerbos is an open-core authorization management platform for authorizing every identity and governing every action across applications, gateways, workloads, and AI agents.
+- [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready.
+- [konstructio/kubefirst](https://github.com/konstructio/kubefirst) - The Kubefirst Open Source Platform
+- [cloudnative-pg/cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg) - The most popular Kubernetes Operator for PostgreSQL.
+- [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
+- [flipt-io/flipt](https://github.com/flipt-io/flipt) - Enterprise-ready, Git native feature management solution
+- [earthly/earthly](https://github.com/earthly/earthly) - Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby.
+- [PeerDB-io/peerdb](https://github.com/PeerDB-io/peerdb) - Fast, Simple and a cost effective tool to replicate data from Postgres to Data Warehouses, Queues and Storage
+- [coder/coder](https://github.com/coder/coder) - Secure environments for developers and their agents
+- [loft-sh/devpod](https://github.com/loft-sh/devpod) - Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker.
+- [paypal/junodb](https://github.com/paypal/junodb) - JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale.
+- [openmeterio/openmeter](https://github.com/openmeterio/openmeter) - Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.
+- [diggerhq/digger](https://github.com/diggerhq/digger) - Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline ⚡️
+- [getlago/lago](https://github.com/getlago/lago) - Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics
+- [aws/eks-anywhere](https://github.com/aws/eks-anywhere) - Run Amazon EKS on your own infrastructure 🚀
+- [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) - PDF tooling for Go and the command line.
+- [ServiceWeaver/weaver](https://github.com/ServiceWeaver/weaver) - Programming framework for writing and deploying cloud applications.
+- [grafana-cold-storage/phlare](https://github.com/grafana-cold-storage/phlare) - 🔥 horizontally-scalable, highly-available, multi-tenant continuous profiling aggregation system
+- [sibprogrammer/xq](https://github.com/sibprogrammer/xq) - Command-line XML and HTML beautifier and content extractor
+- [thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop) - ☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment
+- [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) - eBPF-powered network observability for Kubernetes. Indexes L4/L7 traffic with full K8s context, decrypts TLS without keys. Queryable by AI agents via MCP and humans via dashboard.
+- [acheong08/ChatGPT-API-server](https://github.com/acheong08/ChatGPT-API-server) - API server for ChatGPT
+- [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) - Open Source realtime backend in 1 file
+- [apache/answer](https://github.com/apache/answer) - A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
+- [flyteorg/flyte](https://github.com/flyteorg/flyte) - Type-safe, distributed orchestration of agents, ML pipelines, and real-time inference on your k8s — in pure Python with async/await, also other languages (rust, go and ts)
+- [gobuffalo/buffalo](https://github.com/gobuffalo/buffalo) - Rapid Web Development w/ Go
+- [barthr/redo](https://github.com/barthr/redo) - Redo is the ultimate tool to create reusable functions from your history in an interactive way
+- [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) - A rich terminal UI for GitHub that doesn't break your flow.
+- [tektoncd/pipeline](https://github.com/tektoncd/pipeline) - A cloud-native Pipeline resource.
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - The most customisable and low-latency cross platform/shell prompt renderer
+- [megaease/easeprobe](https://github.com/megaease/easeprobe) - A simple, standalone, and lightweight tool that can do health/status checking, written in Go.
+- [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker
+- [anchore/grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems
+- [lindell/multi-gitter](https://github.com/lindell/multi-gitter) - Update multiple repositories in with one command
+- [direnv/direnv](https://github.com/direnv/direnv) - unclutter your .profile
+- [teamhanko/hanko](https://github.com/teamhanko/hanko) - Modern authentication, on your terms. Open source alternative to Auth0, Clerk, WorkOS, Stytch.
+- [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
+- [danvergara/dblab](https://github.com/danvergara/dblab) - The database client every command line junkie deserves.
+- [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) - 🤯 High-performance PHP application server, process manager written in Go and powered with plugins
+- [opencost/opencost](https://github.com/opencost/opencost) - Cost monitoring for Kubernetes workloads and cloud costs
+- [devtron-labs/devtron](https://github.com/devtron-labs/devtron) - The only Kubernetes dashboard you need
+- [crossplane/crossplane](https://github.com/crossplane/crossplane) - The Cloud Native Control Plane
+- [datreeio/datree](https://github.com/datreeio/datree) - Prevent Kubernetes misconfigurations from reaching production (again 😤 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations. See our do
+- [thanos-io/thanos](https://github.com/thanos-io/thanos) - Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.
+- [derailed/popeye](https://github.com/derailed/popeye) - 👀 A Kubernetes cluster resource sanitizer
+- [vmware-archive/octant](https://github.com/vmware-archive/octant) - Highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
+- [robscott/kube-capacity](https://github.com/robscott/kube-capacity) - A simple CLI that provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster
+- [grafana/k6](https://github.com/grafana/k6) - A modern load testing tool, using Go and JavaScript
+- [nginx/kubernetes-ingress](https://github.com/nginx/kubernetes-ingress) - NGINX and  NGINX Plus Ingress Controllers for Kubernetes
+- [GoogleContainerTools/skaffold](https://github.com/GoogleContainerTools/skaffold) - Easy and Repeatable Kubernetes Development
+- [kubernetes/kops](https://github.com/kubernetes/kops) - Kubernetes Operations (kOps) - Production Grade k8s Installation, Upgrades and Management
+- [stakater/Reloader](https://github.com/stakater/Reloader) - A Kubernetes controller to watch changes in ConfigMap and Secrets and do rolling upgrades on Pods with their associated Deployment, StatefulSet, DaemonSet and DeploymentConfig – [✩Star] if you're usin
+- [instrumenta/kubeval](https://github.com/instrumenta/kubeval) - Validate your Kubernetes configuration files, supports multiple Kubernetes versions
+- [hipages/php-fpm_exporter](https://github.com/hipages/php-fpm_exporter) - A prometheus exporter for PHP-FPM.
+- [kubernetes-sigs/metrics-server](https://github.com/kubernetes-sigs/metrics-server) - Scalable and efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
+- [loft-sh/vcluster](https://github.com/loft-sh/vcluster) - vCluster creates tenant clusters: fully isolated environments delivered as managed Kubernetes, or as the foundation for Slurm, Ray, Run:ai and inference clusters. Each gets its own API server, CRDs an
+- [digitalocean/digitalocean-cloud-controller-manager](https://github.com/digitalocean/digitalocean-cloud-controller-manager) - Kubernetes cloud-controller-manager for DigitalOcean (beta)
+- [roboll/helmfile](https://github.com/roboll/helmfile) - Deploy Kubernetes Helm Charts
+- [gocopper/copper](https://github.com/gocopper/copper) - 🚀‏‏‎    ‎‏‏‎‏‏‎‎‎‎‎‎Copper is a Go toolkit complete with everything you need to build web apps.
+- [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
+- [turbot/steampipe](https://github.com/turbot/steampipe) - Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required.
+- [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗
+- [tilt-dev/tilt](https://github.com/tilt-dev/tilt) - Define your dev environment as code. For microservice apps on Kubernetes.
+- [infrahq/infra](https://github.com/infrahq/infra) - Infra provides authentication and access management to servers and Kubernetes clusters.
+- [miniscruff/changie](https://github.com/miniscruff/changie) - Automated changelog tool for preparing releases with lots of customization options
+- [photoprism/photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App 🌈💎✨
+- [photoview/photoview](https://github.com/photoview/photoview) - Photo gallery for self-hosted personal servers
+- [nitrictech/nitric](https://github.com/nitrictech/nitric) - Nitric is a multi-language framework for cloud applications with infrastructure from code.
+- [dagger/dagger](https://github.com/dagger/dagger) - Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud
+- [okteto/okteto](https://github.com/okteto/okteto) - Develop your applications directly in your Kubernetes Cluster
+- [kadeessh/kadeessh](https://github.com/kadeessh/kadeessh) - Kadeessh (formerly Caddy-SSH) is a general-purpose, extensible, modular, memory-safe SSH server built in Go
+- [frain-dev/convoy](https://github.com/frain-dev/convoy) - The Cloud Native Webhooks Gateway
+- [milvus-io/milvus](https://github.com/milvus-io/milvus) - Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search
+- [quackduck/devzat](https://github.com/quackduck/devzat) - The devs are over here at devzat, chat over SSH!
+- [winfsp/hubfs](https://github.com/winfsp/hubfs) - File system for GitHub & GitLab
+- [datastack-net/dockerized](https://github.com/datastack-net/dockerized) - Run popular commandline tools within docker
+- [YaoApp/yao](https://github.com/YaoApp/yao) - ✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted.
+- [hashicorp/vault](https://github.com/hashicorp/vault) - A tool for secrets management, encryption as a service, and privileged access management
+- [k3s-io/k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes
+- [rancher/k3os](https://github.com/rancher/k3os) - Purpose-built OS for Kubernetes, fully managed by Kubernetes.
+- [alexellis/k3sup](https://github.com/alexellis/k3sup) - bootstrap K3s over SSH in &lt; 60s 🚀
+- [hashicorp/terraform](https://github.com/hashicorp/terraform) - Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amo
+- [sentrionic/Valkyrie](https://github.com/sentrionic/Valkyrie) - A Fullstack Discord Clone using React and Go.
+- [syncthing/syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization
+- [gravitational/teleport](https://github.com/gravitational/teleport) - The easiest, and most secure way to access and protect all of your infrastructure.
+- [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) - Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever.
+- [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧 Your Personal Streaming Service
+- [zincsearch/zincsearch](https://github.com/zincsearch/zincsearch) - ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+- [pboehm/ddns](https://github.com/pboehm/ddns) - A self-hosted Dynamic DNS solution similar to DynDNS or NO-IP
+- [aquasecurity/starboard](https://github.com/aquasecurity/starboard) - Superseded by https://github.com/aquasecurity/trivy-operator
+- [devspace-sh/devspace](https://github.com/devspace-sh/devspace) - DevSpace - The Fastest Developer Tool for Kubernetes ⚡ Automate your deployment workflow with DevSpace and develop software directly inside Kubernetes.
+- [dapr/dapr](https://github.com/dapr/dapr) - Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.
+- [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
+- [kubesphere/kubesphere](https://github.com/kubesphere/kubesphere) - The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️
+- [reactive-tech/kubegres](https://github.com/reactive-tech/kubegres) - Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup.
+- [squat/kilo](https://github.com/squat/kilo) - Kilo is a multi-cloud network overlay built on WireGuard and designed for Kubernetes (k8s + wg = kg)
+- [libopenstorage/openstorage](https://github.com/libopenstorage/openstorage) - A multi-host clustered implementation of the open storage specification
+- [Clivern/Peanut](https://github.com/Clivern/Peanut) - 🐺 Deploy Databases and Services Easily for Development and Testing Pipelines.
+- [seashell/drago](https://github.com/seashell/drago) - ☁️ Securely connect anything with WireGuard® and manage all your networks from a single place.
+- [planetscale/vitess](https://github.com/planetscale/vitess) - Vitess is a database clustering system for horizontal scaling of MySQL. This fork does not contain interesting changes - it's mostly the placeholder for PRs that PlanetScale maintainers cooperate on
+- [encoredev/encore](https://github.com/encoredev/encore) - Infrastructure orchestration from local to your cloud
+- [commitdev/zero](https://github.com/commitdev/zero) - Allow startup developers to ship to production on day 1
+- [beneath-hq/beneath](https://github.com/beneath-hq/beneath) - Beneath is a serverless real-time data platform ⚡️
+- [liamg/traitor](https://github.com/liamg/traitor) - :arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock
+- [snyk/driftctl](https://github.com/snyk/driftctl) - Detect, track and alert on infrastructure drift
+- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) - Find secrets with Gitleaks 🔑
+- [knadh/listmonk](https://github.com/knadh/listmonk) - High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
+- [maaslalani/slides](https://github.com/maaslalani/slides) - Terminal based presentation tool
+- [nbering/terraform-provider-ansible](https://github.com/nbering/terraform-provider-ansible) - "Logical" provider for integrating with an Ansible Dynamic Inventory script.
+- [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - bootstrap HashiCorp Consul, Nomad, or Vault over SSH &lt; 1 minute
+- [lima-vm/lima](https://github.com/lima-vm/lima) - Linux virtual machines, with a focus on running containers
+- [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data
+- [containrrr/watchtower](https://github.com/containrrr/watchtower) - A process for automating Docker container base image updates.
+- [gofiber/fiber](https://github.com/gofiber/fiber) - ⚡️ Express inspired web framework written in Go
+- [jwhited/wgsd](https://github.com/jwhited/wgsd) - A CoreDNS plugin that provides WireGuard peer information via DNS-SD semantics
+- [costela/wesher](https://github.com/costela/wesher) - wireguard overlay mesh network manager
+- [podman-container-tools/podman](https://github.com/podman-container-tools/podman) - Podman: A tool for managing OCI containers and pods.
+- [ochinchina/supervisord](https://github.com/ochinchina/supervisord) - a go-lang supervisor implementation
+- [netdata/netdata](https://github.com/netdata/netdata) - The fastest path to AI-powered full stack observability, even for lean teams.
+- [cli/cli](https://github.com/cli/cli) - GitHub’s official command line tool
+- [vmware-tanzu/kubeapps](https://github.com/vmware-tanzu/kubeapps) - A web-based UI for deploying and managing applications in Kubernetes clusters
+- [lima-vm/sshocker](https://github.com/lima-vm/sshocker) - ssh + reverse sshfs + port forwarder, in Docker-like CLI (predecessor of Lima)
+- [beefsack/webify](https://github.com/beefsack/webify) - Turn shell commands into web services
+- [aquasecurity/tracee](https://github.com/aquasecurity/tracee) - Linux Runtime Security and Forensics using eBPF
+- [spacecloud-io/space-cloud](https://github.com/spacecloud-io/space-cloud) - Open source Firebase + Heroku to develop, scale and secure serverless apps on Kubernetes
+- [derailed/k9s](https://github.com/derailed/k9s) - 🐶 Kubernetes CLI To Manage Your Clusters In Style!
+- [minio/minio](https://github.com/minio/minio) - MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
+- [slackhq/nebula](https://github.com/slackhq/nebula) - A scalable overlay networking tool with a focus on performance, simplicity and security
+- [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
+- [slotix/dataflowkit](https://github.com/slotix/dataflowkit) - Extract structured data from web sites. Web sites scraping.
+- [harness/harness](https://github.com/harness/harness) - Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.
+- [slimtoolkit/slim](https://github.com/slimtoolkit/slim) - Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
+- [coder/sshcode](https://github.com/coder/sshcode) - Run VS Code on any server over SSH.
+- [metrue/fx](https://github.com/metrue/fx) - A Function as a Service tool makes a function as a  container-based service in seconds.
+- [openfaas/faas](https://github.com/openfaas/faas) - OpenFaaS - Serverless Functions Made Simple
+- [rancher/rio](https://github.com/rancher/rio) - Application Deployment Engine for Kubernetes
+- [muesli/gitomatic](https://github.com/muesli/gitomatic) - A tool to monitor git repositories and automatically pull & push changes
+- [google/cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
+- [acme-dns/acme-dns](https://github.com/acme-dns/acme-dns) - Limited DNS server with RESTful HTTP API to handle ACME DNS challenges easily and securely.
+
+## Go Template 
+
+- [eyelevelai/groundx-on-prem](https://github.com/eyelevelai/groundx-on-prem) - A Kubernetes deployable instance of GroundX  for document parsing, storage, and search.
+
+## Groovy 
+
+- [bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources) - DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
+
+## HCL 
+
+- [natelandau/ansible-homelab-config](https://github.com/natelandau/ansible-homelab-config) - Ansible scripts to configure my homelab using Consul, Nomad, Docker, Traefik, and more...
+- [khuedoan/homelab](https://github.com/khuedoan/homelab) - Fully automated homelab from empty disk to running services with a single command.
+- [joatmon08/hashicorp-stack-demoapp](https://github.com/joatmon08/hashicorp-stack-demoapp) - HashiCorp Cloud Platform (Vault, Consul, Boundary) with Argo CD and Kubernetes
+- [groovemonkey/tutorialinux-hashistack](https://github.com/groovemonkey/tutorialinux-hashistack) - A hands-on learning project for consul, using Terraform
+- [gogococo/nomad-autoscaler-demos](https://github.com/gogococo/nomad-autoscaler-demos) - A set of demos for the Nomad Autoscaler (https://github.com/hashicorp/nomad-autoscaler)
+- [hashicorp/nomad-guides](https://github.com/hashicorp/nomad-guides) - Example usage of HashiCorp Nomad
+- [jessequinn/hashicorp_series](https://github.com/jessequinn/hashicorp_series) - 
+- [fhemberger/nomad-demo](https://github.com/fhemberger/nomad-demo) - Vagrant based demo setup for running Hashicorp Nomad
+- [taypo/multipass-images](https://github.com/taypo/multipass-images) - My custom multipass images for local development and testing use
+
+## HTML 
+
+- [vava-nessa/free-coding-models](https://github.com/vava-nessa/free-coding-models) - Find, benchmark and install in CLI 170+ FREE coding LLM models across 15+ providers in real time
+- [planetscale/database-skills](https://github.com/planetscale/database-skills) - Skills for AI agents working with databases
+- [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) - Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to
+- [phil-opp/blog_os](https://github.com/phil-opp/blog_os) - Writing an OS in Rust
+- [thoughtspot/pdom](https://github.com/thoughtspot/pdom) - Multithreaded DOM is possible.
+- [chrispsn/mesh-spreadsheet](https://github.com/chrispsn/mesh-spreadsheet) - A data and code editor that feels like a spreadsheet.
+- [sailboatui/sailboatui](https://github.com/sailboatui/sailboatui) - Sailboat UI is a modern UI component library for Tailwind CSS
+- [Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide) - DevOps Guide - Development to Production all configurations with basic notes to debug efficiently.
+- [IonicaBizau/git-stats](https://github.com/IonicaBizau/git-stats) - 🍀 Local git statistics including GitHub-like contributions calendars.
+- [knative/docs](https://github.com/knative/docs) - User documentation for Knative components.
+- [re-data/re-data](https://github.com/re-data/re-data) - re_data - fix data issues before your users & CEO would discover them 😊
+- [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) - Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Cla
+- [ira-design/ira-illustrations](https://github.com/ira-design/ira-illustrations) - Build your own amazing illustrations
+- [learning-zone/docker-and-kubernetes-basics](https://github.com/learning-zone/docker-and-kubernetes-basics) - Docker and Kubernetes Basics
+- [subspacecloud/subspace](https://github.com/subspacecloud/subspace) - A simple WireGuard VPN server GUI
+- [smaranjitghose/awesome-portfolio-websites](https://github.com/smaranjitghose/awesome-portfolio-websites) - A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged websit
+- [vivirenremoto/doomcaptcha](https://github.com/vivirenremoto/doomcaptcha) - Captchas don't have to be boring
+- [docker/awesome-compose](https://github.com/docker/awesome-compose) - Awesome Docker Compose samples
+- [GaneshKhadka/Employee-management-system-in-laravel](https://github.com/GaneshKhadka/Employee-management-system-in-laravel) - Employee management system.This is a project based on laravel framework.You can fork it and can download or clone it.
+- [shakthisachintha/Hospital-Management-System-Laravel](https://github.com/shakthisachintha/Hospital-Management-System-Laravel) - Hospital Management System Laravel
+- [EternalBox/EternalJukebox](https://github.com/EternalBox/EternalJukebox) - The internal workings for the Eternal Jukebox, a rehosting of the Infinite Jukebox
+- [alpinejs/alpine](https://github.com/alpinejs/alpine) - A rugged, minimal framework for composing JavaScript behavior in your markup.
+- [startupengine/startupengine](https://github.com/startupengine/startupengine) - An open-source platform for startups with integrated CMS, analytics, and A/B testing.
+- [Igglybuff/awesome-piracy](https://github.com/Igglybuff/awesome-piracy) - A curated list of awesome warez and piracy links
+
+## Haskell 
+
+- [dustin/gopro](https://github.com/dustin/gopro) - Tools for making the most out of GoPro Plus.
+- [digitallyinduced/ihp](https://github.com/digitallyinduced/ihp) - 🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness
+- [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
+
+## Java 
+
+- [kksimp/Mac.apk](https://github.com/kksimp/Mac.apk) - Mac.apk: Run Android apps natively on Apple Silicon Macs
+- [floci-io/floci](https://github.com/floci-io/floci) - Light, fluffy, and always free - The AWS Local Emulator alternative
+- [dylibso/chicory](https://github.com/dylibso/chicory) - Native JVM WebAssembly runtime
+- [kestra-io/kestra](https://github.com/kestra-io/kestra) - Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-version
+- [AutoMQ/automq](https://github.com/AutoMQ/automq) - Diskless Kafka® on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability.
+- [Netflix/maestro](https://github.com/Netflix/maestro) - Maestro: Netflix’s Workflow Orchestrator
+- [open-pdf-sign/open-pdf-sign](https://github.com/open-pdf-sign/open-pdf-sign) - Digitally sign PDF files from your commandline
+- [bytedance/bitsail](https://github.com/bytedance/bitsail) - BitSail is a distributed high-performance data integration engine which supports batch, streaming and incremental scenarios. BitSail is widely used to synchronize hundreds of trillions of data every d
+- [TiagoSantos81/libregrammar](https://github.com/TiagoSantos81/libregrammar) - Repo to count commit history. Main repo is https://github.com/TiagoSantos81/languagetool/commits/master
+- [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) - Continuous Inspection
+- [runsidekick/sidekick](https://github.com/runsidekick/sidekick) - Sidekick is no longer in service
+- [supertokens/supertokens-core](https://github.com/supertokens/supertokens-core) - Open source alternative to Auth0 / Firebase Auth / AWS Cognito
+- [ls1intum/Artemis](https://github.com/ls1intum/Artemis) - Artemis - Interactive Learning with Automated Feedback
+- [Netflix/conductor](https://github.com/Netflix/conductor) - Conductor is a microservices orchestration engine.
+- [SimCoderYoutube/WhatsAppClone](https://github.com/SimCoderYoutube/WhatsAppClone) - 
+- [ongres/stackgres](https://github.com/ongres/stackgres) - StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there.
+- [gaia-app/gaia](https://github.com/gaia-app/gaia) - Gaia is a Terraform 🌍 UI for your modules, and self-service infrastructure 👨‍💻
+- [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is a high performance, open-source, time-series database
+- [traccar/traccar](https://github.com/traccar/traccar) - Open source GPS tracking platform - self-hosted or managed, 200+ device protocols
+- [MCMrARM/revolution-irc](https://github.com/MCMrARM/revolution-irc) - A modern Android IRC client. #revolutionirc on Libera.chat
+- [coding-blocks/DigitalOceanApp](https://github.com/coding-blocks/DigitalOceanApp) - Admin Console for Digital Ocean
+- [google/startup-os](https://github.com/google/startup-os) - Working examples of Google's Open Source stack and deployment to the cloud.
+- [kamax-matrix/mxisd](https://github.com/kamax-matrix/mxisd) - Federated Matrix Identity Server
+
+## JavaScript 
+
+- [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) - A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+- [spicetify/cli](https://github.com/spicetify/cli) - Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux.
+- [tt-a1i/archify](https://github.com/tt-a1i/archify) - Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
+- [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) - 🎬 Open-source, self-hosted AI agent that runs a YouTube channel end to end: researches topics, writes scripts, generates narration, visuals and video, optimizes SEO, and publishes after your approval,
+- [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+- [sunnyvanani/Vikalp_Trader_Lite](https://github.com/sunnyvanani/Vikalp_Trader_Lite) - Fast options trading terminal for XTS-based brokers. React frontend with real-time LTP streaming, virtualized order book, positions P&L, account-level SL/Target automation, and a Python FastAPI backen
+- [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) - Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an applicat
+- [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) - OSINT Framework
+- [khalildh/garment-notation](https://github.com/khalildh/garment-notation) - 
+- [gethomepage/homepage](https://github.com/gethomepage/homepage) - A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.
+- [jhuckaby/performa](https://github.com/jhuckaby/performa) - A multi-server monitoring system with a web based UI.
+- [sinandredemption/kath](https://github.com/sinandredemption/kath) - 
+- [kuzudb/wasm-linkedin-example](https://github.com/kuzudb/wasm-linkedin-example) - 
+- [learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl) - xlskubectl — a spreadsheet to control your Kubernetes cluster
+- [bgstaal/multipleWindow3dScene](https://github.com/bgstaal/multipleWindow3dScene) - A quick example of how one can "synchronize" a 3d scene across multiple windows using three.js and localStorage
+- [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) - API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites
+- [usebruno/bruno](https://github.com/usebruno/bruno) - Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)
+- [thepersonalaicompany/amurex](https://github.com/thepersonalaicompany/amurex) - World's first AI meeting copilot → The Invisible Companion for Work + Life
+- [automatisch/automatisch](https://github.com/automatisch/automatisch) - The open source Zapier alternative. Build workflow automation without spending time and money.
+- [DocumindHQ/documind](https://github.com/DocumindHQ/documind) - Open-source platform for extracting structured data from documents using AI.
+- [sindresorhus/nano-spawn](https://github.com/sindresorhus/nano-spawn) - Tiny process execution for humans — a better child_process
+- [muze-nl/jaqt](https://github.com/muze-nl/jaqt) - GraphQL-style Array.select() and Array.where() for javascript
+- [serverless/aws-ai-stack](https://github.com/serverless/aws-ai-stack) - AWS AI Stack – A ready-to-use, full-stack boilerplate project for building serverless AI applications on AWS
+- [gnmyt/Nexterm](https://github.com/gnmyt/Nexterm) - The open source server management software for SSH, VNC & RDP
+- [j9t/obsohtml](https://github.com/j9t/obsohtml) - HTML checker for obsolete and proprietary elements and attributes
+- [chartbrew/chartbrew](https://github.com/chartbrew/chartbrew) - Open-source reporting platform to build and share live dashboards from APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable charts 📈📊
+- [serkan-ozal/leanser](https://github.com/serkan-ozal/leanser) - AWS Lambda Cleaner - Cleanup resources on AWS Lambda container shutdown (timeout and/or spin-down)
+- [mafintosh/why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node is running but you don't know why? why-is-node-running is here to help you.
+- [huggingface/transformers.js](https://github.com/huggingface/transformers.js) - State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!
+- [dillondesilva/codehelium](https://github.com/dillondesilva/codehelium) - An editor component that compiles, executes and returns the outputs of any user-written code via Pyodide/Emscripten/Webassembly.
+- [FlowTestAI/FlowTest](https://github.com/FlowTestAI/FlowTest) - GenAI powered OpenSource IDE for API first workflows
+- [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database diagram editor and SQL generator.
+- [hexclave/pgmock](https://github.com/hexclave/pgmock) - In-memory Postgres for unit/E2E tests
+- [Kalabasa/htmz](https://github.com/Kalabasa/htmz) - html with targeted manipulation zones
+- [wasmerio/winterjs](https://github.com/wasmerio/winterjs) - Winter is coming... ❄️
+- [ErickWendel/processing-large-reports-in-the-browser](https://github.com/ErickWendel/processing-large-reports-in-the-browser) - Examples from my video about processing large reports in the browser without any backend
+- [puffinsoft/jscanify](https://github.com/puffinsoft/jscanify) - The Javascript document scanning library.
+- [microsoft/TypeChat](https://github.com/microsoft/TypeChat) - TypeChat is a library that makes it easy to build natural language interfaces using types.
+- [naptha/tesseract.js](https://github.com/naptha/tesseract.js) - Pure Javascript OCR for more than 100 Languages 📖🎉🖥
+- [blenderskool/blaze](https://github.com/blenderskool/blaze) - ⚡ File sharing progressive web app built using WebTorrent and WebSockets
+- [neuroneural/brainchop](https://github.com/neuroneural/brainchop) - Brainchop: In-browser 3D MRI rendering and segmentation
+- [WordPress/wordpress-playground](https://github.com/WordPress/wordpress-playground) - Run WordPress in the browser via WebAssembly PHP
+- [HeyPuter/kv.js](https://github.com/HeyPuter/kv.js) - ⚡️ Advanced in-memory caching for JavaScript
+- [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit) - top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with Claude, GPT and every other provider, supports local Ollama models too
+- [mpociot/llamero](https://github.com/mpociot/llamero) - A GUI application to easily try out Facebook's LLaMA models.
+- [schibsted/WAAS](https://github.com/schibsted/WAAS) - Whisper as a Service (GUI and API with queuing for OpenAI Whisper)
+- [jmforsythe/Git-Heat-Map](https://github.com/jmforsythe/Git-Heat-Map) - Visualise a git repository by diff activity
+- [mojolicious/mojo.js](https://github.com/mojolicious/mojo.js) - :unicorn: The Mojolicious real-time web framework for Node.js
+- [thevahidal/soul](https://github.com/thevahidal/soul) - 🕉 Soul | Automatic SQLite RESTful  and realtime API server | Build CRUD APIs in minutes!
+- [trevorjay/Jerrica](https://github.com/trevorjay/Jerrica) - Jerrica is a small, bare bones, 100% scheduled, web audio native, MOD player designed to be embedded in Javascript games
+- [fastify/fastify](https://github.com/fastify/fastify) - Fast and low overhead web framework, for Node.js
+- [digitallyinduced/thin-backend](https://github.com/digitallyinduced/thin-backend) - 🔥 Thin Backend is a Blazing Fast, Universal Web App Backend for Making Realtime Single Page Apps
+- [ai/nanoid](https://github.com/ai/nanoid) - A tiny (118 bytes), secure, URL-friendly, unique string ID generator for JavaScript
+- [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app
+- [cdk8s-team/cdk8s](https://github.com/cdk8s-team/cdk8s) - Define Kubernetes native apps and abstractions using object-oriented programming
+- [google/zx](https://github.com/google/zx) - A tool for writing better scripts
+- [SurajMazar/_assist](https://github.com/SurajMazar/_assist) - Node cli
+- [danielbh/node-worker-threads-vs-goroutines](https://github.com/danielbh/node-worker-threads-vs-goroutines) - an evaluation of go vs node for concurrency.
+- [Rohan-Jalil/golang-vs-php-vs-node-vs-python](https://github.com/Rohan-Jalil/golang-vs-php-vs-node-vs-python) - Benchmarking Computational power and File I/O between Golang vs PHP vs Node.JS vs Python
+- [heysphere/node-vs-go](https://github.com/heysphere/node-vs-go) - demo
+- [gokhanmeteerturk/HeadwindHTML](https://github.com/gokhanmeteerturk/HeadwindHTML) - Create HTML from CSS! A modern javascript library you'd expect Facebook to invent. Slowly build modern websites without ever leaving your CSS, with HeadwindHTML
+- [xemle/home-gallery](https://github.com/xemle/home-gallery) - Self-hosted open-source web gallery to view your photos and videos featuring mobile-friendly, tagging and AI powered image discovery
+- [neomjs/neo](https://github.com/neomjs/neo) - Neo.mjs is a self-evolving software organism: a professional end-to-end AI engineering team whose cross-model swarm inhabits live apps via Neural Link, Active Hybrid GraphRAG, DreamService, and self-h
+- [opensumi/ide-startup](https://github.com/opensumi/ide-startup) - Quick starter for OpenSumi Web
+- [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) - Web Extension for saving a faithful copy of a complete web page in a single HTML file
+- [AMAI-GmbH/AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) - Roadmap to becoming an Artificial Intelligence Expert in 2022
+- [mani-barathi/unsplash-clone](https://github.com/mani-barathi/unsplash-clone) - Unsplash Clone Built with React and Unsplash API
+- [junip/react-unsplash](https://github.com/junip/react-unsplash) - A Unsplash Cloned Photo Search App  made with React
+- [super-easy-forms/super-easy-forms](https://github.com/super-easy-forms/super-easy-forms) - The easiest way to generate forms  for your static site
+- [bundit/kord](https://github.com/bundit/kord) - Spotify, Soundcloud, and YouTube all in one website!
+- [Sandermoen/instaclone](https://github.com/Sandermoen/instaclone) - An instagram clone created with the MERN stack
+- [mani-barathi/Google-Photos-Clone](https://github.com/mani-barathi/Google-Photos-Clone) - Google Photos Clone Built with React🚀 and Firebase🔥
+- [anselm94/googlekeepclone](https://github.com/anselm94/googlekeepclone) - A clone of Google Keep with its original Material Design aesthetics
+- [diazabdulm/rumbbble](https://github.com/diazabdulm/rumbbble) - Dribbble Clone built with MongoDB, ExpressJS, React, and Node Technologies. See demo at https://rb.gy/psll7v
+- [itsnitinr/driwwwle](https://github.com/itsnitinr/driwwwle) - The social network for developers. Discover creative websites and build a community.
+- [jam-systems/jam](https://github.com/jam-systems/jam) - 🍓 Jam is your own open source Clubhouse for mini conferences, friends, communities
+- [abodmicheal/React-projects](https://github.com/abodmicheal/React-projects) - React projects
+- [DustinBrett/daedalOS](https://github.com/DustinBrett/daedalOS) - Desktop environment in the browser
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- [fariasmateuss/tindev](https://github.com/fariasmateuss/tindev) - 🔥 Tindev it's app like a Tinder, but for Developers.
+- [nolanlawson/fuite](https://github.com/nolanlawson/fuite) - A tool for finding memory leaks in web apps
+- [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs) - Docker  - Beginners | Intermediate | Advanced
+- [collabnix/kubetools](https://github.com/collabnix/kubetools) - Kubetools - Curated List of Kubernetes Tools
+- [konstaui/konsta](https://github.com/konstaui/konsta) - Mobile UI components made with Tailwind CSS
+- [fabiospampinato/cash](https://github.com/fabiospampinato/cash) - An absurdly small jQuery alternative for modern browsers.
+- [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript) - Clean Code concepts adapted for JavaScript
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) - A fancy self-hosted monitoring tool
+- [clinicjs/node-clinic-flame-demo](https://github.com/clinicjs/node-clinic-flame-demo) - A Clinic Flame example
+- [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. 
+- [servian/hashiqube](https://github.com/servian/hashiqube) - HashiQube - All the Hashicorp products in a Container or VM for anyone to demo or practise with.
+- [twopluszero/next-images](https://github.com/twopluszero/next-images) - Import images in Next.js (supports jpg, jpeg, svg, png and gif images)
+- [sveltejs/svelte](https://github.com/sveltejs/svelte) - web development for the rest of us
+- [hotwired/turbo](https://github.com/hotwired/turbo) - The speed of a single-page web application without having to write any JavaScript
+- [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) - 24 Lessons, 12 Weeks, Get Started as a Web Developer
+- [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) - A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
+- [model-zoo/shift-ctrl-f](https://github.com/model-zoo/shift-ctrl-f) - 🔎 Search the information available on a webpage using natural language instead of an exact string match.
+- [alias-rahil/handwritten.js](https://github.com/alias-rahil/handwritten.js) - Convert typed text to realistic handwriting!
+- [francisrstokes/super-expressive](https://github.com/francisrstokes/super-expressive) - 🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language
+- [thetutlage/vue-clip](https://github.com/thetutlage/vue-clip) - Simple and hackable file uploader for VueJs. Supports Vue &gt;= 2.1
+- [nthopinion/covid19](https://github.com/nthopinion/covid19) - Code vs COVID-19: Taking down a Pandemic using machines connected globally to extinguish a biological threat of a super virus.
+- [arachnys/cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
+- [silverwind/droppy](https://github.com/silverwind/droppy) - **ARCHIVED** Self-hosted file storage
+- [oldboyxx/jira_clone](https://github.com/oldboyxx/jira_clone) - A simplified Jira clone built with React/Babel (Client), and Node/TypeScript (API). Auto formatted with Prettier, tested with Cypress.
+- [faressoft/terminalizer](https://github.com/faressoft/terminalizer) - 🦄 Record your terminal and generate animated gif images or share a web player
+- [lahaxearnaud/laravel-u2f](https://github.com/lahaxearnaud/laravel-u2f) - Laravel U2F support
+- [stealjs/steal](https://github.com/stealjs/steal) - Gets JavaScript
+- [andreimargeloiu/Hospital-management-nodejs](https://github.com/andreimargeloiu/Hospital-management-nodejs) - NodeJS web app for managing patients and planning their distribution across hospital’s rooms.
+- [HospitalRun/hospitalrun-server](https://github.com/HospitalRun/hospitalrun-server) - Backend for HospitalRun
+- [Doptor-zz/Doptor](https://github.com/Doptor-zz/Doptor) - DOPTOR CMS & EMS : Enterprise level Pre-integrated Business Application Platform.
+- [goodnesskay/LARAVEL-PDF-VIEWER](https://github.com/goodnesskay/LARAVEL-PDF-VIEWER) - A Laravel Package for viewing PDF files or documents on the web without leaving your Web Application
+- [ctf0/Laravel-Media-Manager](https://github.com/ctf0/Laravel-Media-Manager) - A "Vuejs & Laravel" Media Manager With Tons of Features
+- [larsjanssen6/underconstruction](https://github.com/larsjanssen6/underconstruction) - This Laravel 8 package makes it possible for you to set your website in "Under Construction" mode. Only users with the correct 4 (or more) digit code can access your site. :fire:  :boom: :fire:
+- [Protoqol/Prequel](https://github.com/Protoqol/Prequel) - Prequel for Laravel. Clear and concise database management. Unfortunately, not actively maintained due to time constraints.
+- [Bottelet/DaybydayCRM](https://github.com/Bottelet/DaybydayCRM) - DaybydayCRM an open-source CRM, to help you keep track of your daily workflow.
+- [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) - ⚙️ NGINX config generator on steroids 💉
+- [Rajan/lesspod](https://github.com/Rajan/lesspod) - Lesspod: Serverless CMS (Website + Blog Engine)
+- [Janglee123/eplee](https://github.com/Janglee123/eplee) - Sweet, simple epub reader
+- [juliomrqz/statusfy](https://github.com/juliomrqz/statusfy) - A Marvelous Open Source Status Page System
+- [blocks/blocks](https://github.com/blocks/blocks) - A JSX-based page builder for creating beautiful websites without writing code
+- [alyssaxuu/flowy](https://github.com/alyssaxuu/flowy) - The minimal javascript library to create flowcharts ✨
+- [RestyaPlatform/board](https://github.com/RestyaPlatform/board) - Trello like kanban board. Based on Restya platform.
+- [QuickCorp/QCObjects](https://github.com/QuickCorp/QCObjects) - Full Stack Javascript Framework for Modern Software Development
+- [graphite-project/graphite-web](https://github.com/graphite-project/graphite-web) - A highly scalable real-time graphing system
+- [webpack/webpack-cli](https://github.com/webpack/webpack-cli) - Webpack's Command Line Interface
+- [muety/http2-serverpush-proxy](https://github.com/muety/http2-serverpush-proxy) - A simple standalone reverse proxy that automatically enables server-push for assets related to a HTTP response.
+- [cryptpad/cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source.
+- [node-red/node-red](https://github.com/node-red/node-red) - Low-code programming for event-driven applications
+- [TMAers/hubot-dialogflow](https://github.com/TMAers/hubot-dialogflow) - Add smartness and conversational UX to Hubot with dialogflow.com as back-end
+- [microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk) - Bot Framework provides the most comprehensive experience for building conversation applications.
+- [hardeepmehta/webrtc-rooms](https://github.com/hardeepmehta/webrtc-rooms) - A simple room based webrtc application for audio-video sharing
+- [t9tio/cloudquery](https://github.com/t9tio/cloudquery) - Turn any website to API by several clicks (serverless and support SPA!)
+- [charlesBochet/cropchat](https://github.com/charlesBochet/cropchat) - Progressive Web Application made with VueJS
+- [artzub/GitHubVisualizer](https://github.com/artzub/GitHubVisualizer) - Visualization the history of repository changes based on data from GitHub
+
+## Jinja 
+
+- [netbootxyz/netboot.xyz](https://github.com/netbootxyz/netboot.xyz) - Your favorite operating systems in one place.  A network-based bootable operating system installer based on iPXE.
+- [ahembree/ansible-hms-docker](https://github.com/ahembree/ansible-hms-docker) - Ansible playbook for an orchestrated Home Media Server deployment
+- [amritb/poor-mans-vpn](https://github.com/amritb/poor-mans-vpn) - An ansible playbook to set up wireguard server.
+- [geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi) - Raspberry Pi config for all things Internet.
+- [githubixx/ansible-role-wireguard](https://github.com/githubixx/ansible-role-wireguard) - Ansible role for installing WireGuard VPN. Supports Ubuntu, Debian, Archlinx, Fedora, openSUSE Leap and some Redhat ES variants.
+
+## Jsonnet 
+
+- [starsuzi/Adaptive-RAG](https://github.com/starsuzi/Adaptive-RAG) - 
+- [CGamesPlay/infra](https://github.com/CGamesPlay/infra) - selfhosted infra scripts
+
+## Jupyter Notebook 
+
+- [google-gemma/cookbook](https://github.com/google-gemma/cookbook) - A collection of guides and examples for the Gemma open models from Google.
+- [abeleinin/Metal-Puzzles](https://github.com/abeleinin/Metal-Puzzles) - Solve Puzzles. Learn Metal 🤘
+- [nlmatics/llmsherpa](https://github.com/nlmatics/llmsherpa) - Developer APIs to Accelerate LLM Projects
+- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) - Sample code and notebooks for Generative AI on Google Cloud, with Gemini platform
+- [google-gemini/cookbook](https://github.com/google-gemini/cookbook) - Examples and guides for using the Gemini API
+- [xnought/vae-explainer](https://github.com/xnought/vae-explainer) - Interactive Variational Autoencoder (VAE)
+- [ManuelBerrueta/FlowAnalyzer](https://github.com/ManuelBerrueta/FlowAnalyzer) - FlowAnalyzer is a tool to help in testing and analyzing OAuth 2.0 Flows, including OpenID Connect (OIDC).
+- [reworkd/tarsier](https://github.com/reworkd/tarsier) - Vision utilities for web interaction agents 👀
+- [cfahlgren1/natural-sql](https://github.com/cfahlgren1/natural-sql) - A series of top performing Text to SQL LLMs
+- [WhisperSpeech/WhisperSpeech](https://github.com/WhisperSpeech/WhisperSpeech) - An Open Source text-to-speech system built by inverting Whisper.
+- [suno-ai/bark](https://github.com/suno-ai/bark) - 🔊 Text-Prompted Generative Audio Model
+- [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) - 
+- [guidance-ai/guidance](https://github.com/guidance-ai/guidance) - A guidance language for controlling large language models.
+- [robgon-art/open-clip](https://github.com/robgon-art/open-clip) - Test out OpenCLIP for Image Search and Automatic Captioning
+- [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace.
+- [openai/openai-cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API
+- [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) - Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable mu
+- [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) - PyTorch code and models for the DINOv2 self-supervised learning method.
+- [Stability-AI/StableLM](https://github.com/Stability-AI/StableLM) - StableLM: Stability AI Language Models
+- [greshake/llm-security](https://github.com/greshake/llm-security) - New ways of breaking app-integrated LLMs
+- [whylabs/whylogs](https://github.com/whylabs/whylogs) - An open-source data logging library for machine learning models and data pipelines. 📚 Provides visibility into data quality & model performance over time. 🛡️ Supports privacy-preserving data collectio
+- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all
+- [bloc97/Anime4K](https://github.com/bloc97/Anime4K) - A High-Quality Real Time Upscaler for Anime Video
+
+## Kotlin 
+
+- [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
+- [iamgio/quarkdown](https://github.com/iamgio/quarkdown) - 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.
+- [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
+
+## Lua 
+
+- [davidgiven/wordgrinder](https://github.com/davidgiven/wordgrinder) - A word processor which gets the hell out of your way and lets you get some work done.
+- [govCMS/lagoon](https://github.com/govCMS/lagoon) - GovCMS Lagoon project
+
+## MDX 
+
+- [weaveworks/weave-gitops](https://github.com/weaveworks/weave-gitops) - Weave GitOps is transitioning to a community driven project! It provides insights into your application deployments, and makes continuous delivery with GitOps easier to adopt and scale across your tea
+
+## Makefile 
+
+- [mindsdb/mindshub](https://github.com/mindsdb/mindshub) - The unified workspace where open-source models get things done for you.
+- [nanovms/ops-documentation](https://github.com/nanovms/ops-documentation) - Documentation for NanoVMs OPS
+- [wodby/docker4php](https://github.com/wodby/docker4php) - Docker-based PHP stack
+
+## Markdown 
+
+- [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) - Free domain registration and practical DNS learning resources for everyone.
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch.
+- [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) - Crack LeetCode, not only how, but also why.
+
+## Mustache 
+
+- [sentry-kubernetes/charts](https://github.com/sentry-kubernetes/charts) - Easily deploy Sentry on your Kubernetes Cluster
+
+## Nim 
+
+- [metacraft-labs/codetracer](https://github.com/metacraft-labs/codetracer) - CodeTracer is a user-friendly time-traveling debugger designed to support a wide range of programming languages.
+- [crashappsec/chalk](https://github.com/crashappsec/chalk) - Chalk allows you to follow code from development, through builds and into production.
+
+## Nix 
+
+- [frectonz/pglite-fusion](https://github.com/frectonz/pglite-fusion) - Embed an SQLite database in your PostgreSQL table. AKA multitenancy has been solved.
+- [snowfallorg/snowflakeos-iso](https://github.com/snowfallorg/snowflakeos-iso) - 
+
+## OCaml 
+
+- [opengrep/opengrep](https://github.com/opengrep/opengrep) - 🔎 Static code analysis engine to find security issues in code.
+
+## Objective-C 
+
+- [darlinghq/darling](https://github.com/darlinghq/darling) - Darwin/macOS emulation layer for Linux
+- [ModusCreateOrg/beep](https://github.com/ModusCreateOrg/beep) - BEEP Account Security Scanner - Detect if your credentials have been compromised (Vue + Ionic)
+
+## Others 
+
+- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - A list of Free Software network services and web applications which can be hosted on your own servers
+- [unlearndev/skills](https://github.com/unlearndev/skills) - A collection of Claude Code skills for product development workflows by unlearn.dev
+- [noqa-ai/noqa](https://github.com/noqa-ai/noqa) - Automated mobile testing tool with device CLI for apps and games - real devices iOS & Android. Supports native (swift, kotlin), react native, flutter, KMP, unity and any mobile apps and games.
+- [mozilla-ai/wasm-agents-blueprint](https://github.com/mozilla-ai/wasm-agents-blueprint) - Testing WASM-powered AI agents
+- [varungodbole/prompt-tuning-playbook](https://github.com/varungodbole/prompt-tuning-playbook) - A playbook for effectively prompting post-trained LLMs
+- [Olshansk/postgres_for_everything](https://github.com/Olshansk/postgres_for_everything) - How to reduce complexity and move faster? Just Postgres for everything.
+- [flatcar/Flatcar](https://github.com/flatcar/Flatcar) - Flatcar project repository for issue tracking, project documentation, etc.
+- [open-llm-initiative/open-message-format](https://github.com/open-llm-initiative/open-message-format) - OMF is a compact, user-friendly specification that defines a lightweight API contract between client and server for building conversational agents, and defines a standard schema for the "messages" obj
+- [ALEEEHU/World-Simulator](https://github.com/ALEEEHU/World-Simulator) - [IEEE TPAMI 2026] Simulating the Real World: Survey & Resources, which contains our survey "Simulating the Real World: A Unified Survey of Multimodal Generative Models" (IEEE TPAMI, 2026) and Awesome-
+- [SummitRoute/aws_breaking_changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code
+- [openebs/openebs](https://github.com/openebs/openebs) - A popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes.
+- [karpathy/LLM101n](https://github.com/karpathy/LLM101n) - LLM101n: Let's build a Storyteller
+- [deepseek-ai/DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2) - DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence
+- [dabochen/spreadsheet-is-all-you-need](https://github.com/dabochen/spreadsheet-is-all-you-need) - A nanoGPT pipeline packed in a spreadsheet
+- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
+- [superkoda/superkoda](https://github.com/superkoda/superkoda) - Business apps you can change by asking.
+- [octoherd/octoherd](https://github.com/octoherd/octoherd) - Manage multiple repository updates all at once.
+- [tembo/tembo](https://github.com/tembo/tembo) - 
+- [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - A curated list of amazingly awesome open-source sysadmin resources.
+- [dtinth/superwhite](https://github.com/dtinth/superwhite) - display a very bright white color on HDR-enabled displays
+- [axiomnext/faster-mysql-large-db-restore](https://github.com/axiomnext/faster-mysql-large-db-restore) - Restore large MySql database in one hour (which might take more than 10 hours otherwise)
+- [eugeneyan/open-llms](https://github.com/eugeneyan/open-llms) - 📋 A list of open LLMs available for commercial use.
+- [openlm-research/open_llama](https://github.com/openlm-research/open_llama) - OpenLLaMA, a permissively licensed open source reproduction of Meta AI’s LLaMA 7B trained on the RedPajama dataset
+- [TablePlus/DBngin](https://github.com/TablePlus/DBngin) - DB Engine
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
+- [techiescamp/kubernetes-learning-path](https://github.com/techiescamp/kubernetes-learning-path) - A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)
+- [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) - DevOps Roadmap for 2026. with learning resources
+- [jassics/security-study-plan](https://github.com/jassics/security-study-plan) - Complete Practical Study Plan to become a successful cybersecurity engineer based on roles like Pentest, AppSec, Cloud Security, DevSecOps and so on...
+- [coreruleset/google-oauth2-plugin](https://github.com/coreruleset/google-oauth2-plugin) - Plugin to suppress false positives with Google OAuth2 online authorization service callbacks.
+- [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) - List of Computer Science courses with video lectures.
+- [stakater/nordmart-apps-gitops-config](https://github.com/stakater/nordmart-apps-gitops-config) - Tenant's namespace scoped apps are deployed via this gitops config repository
+- [maxwell-bland/copilot-in-the-terminal](https://github.com/maxwell-bland/copilot-in-the-terminal) - Hack to get Github Copilot working in the terminal with bash
+- [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design) - Learn how to design systems at scale and prepare for system design interviews
+- [jorgef/engineeringladders](https://github.com/jorgef/engineeringladders) - A framework for Engineering Managers
+- [InterviewReady/system-design-resources](https://github.com/InterviewReady/system-design-resources) - These are the best resources for System Design on the Internet
+- [DopplerHQ/awesome-bots](https://github.com/DopplerHQ/awesome-bots) - The most awesome list about bots ⭐️🤖
+- [mikeroyal/Oracle-Cloud-Guide](https://github.com/mikeroyal/Oracle-Cloud-Guide) - Oracle Cloud Infrastructure Guide
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
+- [github/release-radar](https://github.com/github/release-radar) - Repo for submission of projects to consider for the GitHub Release Radar 📡
+- [alex/what-happens-when](https://github.com/alex/what-happens-when) - An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
+- [formidablae/formidablae](https://github.com/formidablae/formidablae) - My profile's README.md
+- [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
+- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.
+- [Devinterview-io/docker-interview-questions](https://github.com/Devinterview-io/docker-interview-questions) - 🟣 Docker interview questions and answers to help you prepare for your next software architecture and design patterns interview in 2026.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know about
+- [HomeEnterpriseInc/Home-Setup-Pub](https://github.com/HomeEnterpriseInc/Home-Setup-Pub) - 
+- [sergejcodes/flowrift](https://github.com/sergejcodes/flowrift) - Beautifully designed Tailwind CSS UI blocks.
+- [yudax42/vue-upload-drop-images](https://github.com/yudax42/vue-upload-drop-images) - 🖼️ Drag-and-drop image upload component for Vue
+- [LaravelDaily/Laravel-Roadmap-Learning-Path](https://github.com/LaravelDaily/Laravel-Roadmap-Learning-Path) - 
+- [kha7iq/selfhosted](https://github.com/kha7iq/selfhosted) - Selfhosted services docker-compose manifests
+- [Avik-Jain/100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code) - 100 Days of ML Coding
+- [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) - Dev environments. In your web app.
+- [nodes-io/nodes-io](https://github.com/nodes-io/nodes-io) - A new way to create with code.
+- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - A collection of modern/faster/saner alternatives to common unix commands.
+- [jippi/awesome-nomad](https://github.com/jippi/awesome-nomad) - A curated list of amazingly awesome Nomad tools and shiny things.
+- [nilbuild/design-patterns-for-humans](https://github.com/nilbuild/design-patterns-for-humans) - An ultra-simplified explanation to design patterns
+- [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) - A curated list of Microservice Architecture related principles and technologies.
+- [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) - A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem
+- [iCHAIT/awesome-macOS](https://github.com/iCHAIT/awesome-macOS) -  A curated list of awesome applications, softwares, tools and shiny things for macOS.
+- [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) - A curated list of software and architecture related design patterns.
+- [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) - :whale: A curated list of Docker resources and projects
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
+- [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
+- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
+- [Cyber-Duck/php-fpm-laravel](https://github.com/Cyber-Duck/php-fpm-laravel) - Docker image for a php-fpm container crafted to run Laravel based applications.
+- [sundowndev/hacker-roadmap](https://github.com/sundowndev/hacker-roadmap) - A collection of hacking tools, resources and references to practice ethical hacking.
+- [prasadgujar/low-level-design-primer](https://github.com/prasadgujar/low-level-design-primer) - Dedicated Resources for the Low-Level System Design. Learn how to design and implement large-scale systems. Prep for the system design interview.
+- [cloudpanel-io/cloudpanel-ce](https://github.com/cloudpanel-io/cloudpanel-ce) - 
+- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - How to systematically secure anything: a repository about security engineering
+- [ProProgrammer/cross-namespace-nginx-ingress-kubernetes](https://github.com/ProProgrammer/cross-namespace-nginx-ingress-kubernetes) - Cross Namespace Nginx Ingress Controller setup and a working demo
+- [lensapp/lens](https://github.com/lensapp/lens) - Lens - The way the world runs Kubernetes
+- [younginnovations/nepal-locallevel-map](https://github.com/younginnovations/nepal-locallevel-map) - Local level map data of Nepal
+- [fpereiro/backendlore](https://github.com/fpereiro/backendlore) - How I write backends
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+- [unicodeveloper/awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps) - :house::information_source: Curated list of awesome open source crafted web & mobile applications - Learn, Fork, Contribute & Most Importantly Enjoy!
+- [anaibol/awesome-serverless](https://github.com/anaibol/awesome-serverless) - :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
+
+## PHP 
+
+- [joshcirre/instruckt-laravel](https://github.com/joshcirre/instruckt-laravel) - A visual feedback tool for your agentic Laravel workflow.
+- [guanguans/laravel-soar](https://github.com/guanguans/laravel-soar) - SQL optimizer and rewriter for laravel. - laravel 的 SQL 优化器和重写器。
+- [Cockpit-HQ/Cockpit](https://github.com/Cockpit-HQ/Cockpit) - Cockpit Core - Content Platform
+- [maxkhim/laravel-storage-dedupler](https://github.com/maxkhim/laravel-storage-dedupler) - Laravel package to prevent file duplications
+- [laravel/boost](https://github.com/laravel/boost) - Laravel-focused MCP server for augmenting your AI powered local development experience.
+- [Sti3bas/laravel-scout-array-driver](https://github.com/Sti3bas/laravel-scout-array-driver) - Array driver for Laravel Scout
+- [solidtime-io/solidtime](https://github.com/solidtime-io/solidtime) - Modern open-source time-tracking app
+- [AndreySokolov247/XSS-AGENT](https://github.com/AndreySokolov247/XSS-AGENT) - Autonomous AI C2
+- [benbjurstrom/otpz](https://github.com/benbjurstrom/otpz) - 🔒 First Factor One-Time Passwords for Laravel (Passwordless OTP Login)
+- [eXistenZNL/PermCheck](https://github.com/eXistenZNL/PermCheck) - PermCheck is a little tool that checks if the files in a PHP project have the executable bit set properly.
+- [laravel/cpx](https://github.com/laravel/cpx) - Run any command from any composer package, even if it's not installed in your project.
+- [vitodeploy/vito](https://github.com/vitodeploy/vito) - Free and Self-Hosted  Server Management Tool
+- [tighten/tlint](https://github.com/tighten/tlint) - Tighten linter for Laravel conventions.
+- [deptrac/deptrac](https://github.com/deptrac/deptrac) - Keep your architecture clean.
+- [sandip-jobin/magika-file-validator](https://github.com/sandip-jobin/magika-file-validator) - 
+- [matomo-org/device-detector](https://github.com/matomo-org/device-detector) - The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
+- [tempestphp/tempest-framework](https://github.com/tempestphp/tempest-framework) - The PHP framework that gets out of your way
+- [laravel-shift/blueprint](https://github.com/laravel-shift/blueprint) - A code generation tool for Laravel developers.
+- [jcarlosroldan/oink](https://github.com/jcarlosroldan/oink) - 🐽 oink.php is a single-file PHP library to easily build APIs
+- [lunarphp/lunar](https://github.com/lunarphp/lunar) - An open-source package that brings the power of modern headless e-commerce functionality to Laravel.
+- [NativePHP/laravel](https://github.com/NativePHP/laravel) - Laravel wrapper for the NativePHP framework
+- [filamentphp/filament](https://github.com/filamentphp/filament) - An open-source framework for building polished, maintainable business software with Laravel.
+- [laravel/folio](https://github.com/laravel/folio) - Page based routing for Laravel.
+- [livewire/livewire](https://github.com/livewire/livewire) - A full-stack framework for Laravel that takes the pain out of building dynamic UIs.
+- [amphp/amp](https://github.com/amphp/amp) - A non-blocking concurrency framework for PHP applications. 🐘
+- [calebporzio/sushi](https://github.com/calebporzio/sushi) - Eloquent's missing "array" driver.
+- [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.
+- [seanmorris/php-wasm](https://github.com/seanmorris/php-wasm) - PHP in Browser, powered by WebAssembly.
+- [stevebauman/location](https://github.com/stevebauman/location) - Retrieve a visitor's location from their IP address.
+- [OpnForm/OpnForm](https://github.com/OpnForm/OpnForm) - Beautiful Open-Source Form Builder
+- [rectorphp/rector](https://github.com/rectorphp/rector) - Instant Upgrades and Automated Refactoring of any PHP 5.3+ code
+- [durable-workflow/waterline](https://github.com/durable-workflow/waterline) - Operator UI for Durable Workflow runtime health, history, queues, retries, and repair.
+- [durable-workflow/workflow](https://github.com/durable-workflow/workflow) - Core package for defining and running durable workflows and activities. Supports long-running persistent workflows, retries, queues, parallel execution, workflow monitoring, dedicated storage connecti
+- [jobilla/laravel-cloud-native-utilities](https://github.com/jobilla/laravel-cloud-native-utilities) - 
+- [spatie/laravel-varnish](https://github.com/spatie/laravel-varnish) - Making Varnish and Laravel play nice together
+- [laravel/pint](https://github.com/laravel/pint) - Laravel Pint is an opinionated PHP code style fixer for minimalists.
+- [hasinhayder/hydra](https://github.com/hasinhayder/hydra) - Hydra is a zero-config API boilerplate with Laravel 10x + Laravel Sanctum that comes with an excellent user and role management API out of the box
+- [LycheeOrg/Lychee](https://github.com/LycheeOrg/Lychee) - A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos.
+- [spatie/nova-tail-tool](https://github.com/spatie/nova-tail-tool) - A Laravel Nova tool to display the application log
+- [pktharindu/nova-permissions](https://github.com/pktharindu/nova-permissions) - Add Permissions based authorization for your Nova installation via User-based Roles and Permissions. Roles are defined in the database whereas Permissions are defined in the code base.
+- [legacy-nova-packages/nova-attach-many](https://github.com/legacy-nova-packages/nova-attach-many) - BelongsToMany create / edit form component for Nova
+- [orlyapps/nova-belongsto-depend](https://github.com/orlyapps/nova-belongsto-depend) - Larave Nova BelongsTo Field with Dependcy
+- [Benjacho/belongs-to-many-field-nova](https://github.com/Benjacho/belongs-to-many-field-nova) - Belongs To Many field Laravel nova to represent many to many relationship in field.
+- [whitecube/nova-page](https://github.com/whitecube/nova-page) - Static pages content management for Laravel Nova
+- [legacy-nova-packages/nova-button](https://github.com/legacy-nova-packages/nova-button) - Add buttons on Nova index, detail and lens views.
+- [yassilah/laravel-nova-nested-form](https://github.com/yassilah/laravel-nova-nested-form) - This package allows you to include your nested relationships' forms into a parent form.
+- [outl1ne/nova-menu-builder](https://github.com/outl1ne/nova-menu-builder) - This Laravel Nova package allows you to create and manage menus and menu items.
+- [coderello/laravel-nova-lang](https://github.com/coderello/laravel-nova-lang) - 🌌 Language files for Laravel Nova translated into 40+ languages. Feel free to submit your language or update an existing one!
+- [RTippin/messenger](https://github.com/RTippin/messenger) - Laravel messenger. A full messenger suite for your new / existing laravel app! Private and group threads between multiple models, with real-time messaging, reactions, attachments, calling, chat bots, 
+- [souramoo/PhpMeeting](https://github.com/souramoo/PhpMeeting) - A doodle.com-like php script to create and view meeting polls to mutually arrange a convenient meeting time.
+- [eminiarts/nova-tabs](https://github.com/eminiarts/nova-tabs) - Laravel Nova Tabs Package
+- [hotwired-laravel/turbo-laravel](https://github.com/hotwired-laravel/turbo-laravel) - This package gives you a set of conventions to make the most out of Hotwire in Laravel.
+- [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) - PrestaShop is the universal open-source software platform to build your e-commerce solution.
+- [WilberGroup/airdrop](https://github.com/WilberGroup/airdrop) - A Laravel package to speed up deployment by skipping asset compilation whenever possible.
+- [KABBOUCHI/nova-impersonate](https://github.com/KABBOUCHI/nova-impersonate) - A Laravel Nova field allows you to authenticate as your users.
+- [outl1ne/nova-settings](https://github.com/outl1ne/nova-settings) - A Laravel Nova tool for editing custom settings using native Nova fields.
+- [humanmade/S3-Uploads](https://github.com/humanmade/S3-Uploads) - The WordPress Plugin to Store Uploads on Amazon S3
+- [outl1ne/nova-sortable](https://github.com/outl1ne/nova-sortable) - This Laravel Nova package allows you to reorder models in a Nova resource's index view using drag & drop.
+- [pacoogle/laravel-lumen-docker](https://github.com/pacoogle/laravel-lumen-docker) - Lumen platform dockerization
+- [lakasir/lakasir](https://github.com/lakasir/lakasir) - POS open-source, simple things only need simple solutions
+- [spatie/nova-translatable](https://github.com/spatie/nova-translatable) - Making Nova fields translatable
+- [outl1ne/nova-translatable](https://github.com/outl1ne/nova-translatable) - A Laravel Nova package that allows you to make any input field translatable.
+- [hyperf/hyperf](https://github.com/hyperf/hyperf) - 🚀 A coroutine framework that focuses on hyperspeed and flexibility. Building microservice or middleware with ease.
+- [outl1ne/nova-page-manager](https://github.com/outl1ne/nova-page-manager) - Static page and region manager for Laravel Nova - designed for headless CMS's.
+- [outl1ne/nova-multiselect-field](https://github.com/outl1ne/nova-multiselect-field) - A Laravel Nova package that adds a multiselect to Nova's arsenal of fields.
+- [spatie/nova-tags-field](https://github.com/spatie/nova-tags-field) - A tags field to use in your Nova apps
+- [spatie/nova-backup-tool](https://github.com/spatie/nova-backup-tool) - A Laravel Nova tool to backup your app
+- [StydeNet/enlighten](https://github.com/StydeNet/enlighten) - Enlighten your APIs with auto-generated documentation
+- [chojnicki/video-platforms-parser](https://github.com/chojnicki/video-platforms-parser) - Easy to use grabber for video info, screens and more from YouTube and other platforms.
+- [tighten/takeout](https://github.com/tighten/takeout) - Docker-based development-only dependency manager. macOS, Linux, and WSL2-only and installs via PHP's Composer... for now.
+- [phpstan/phpstan](https://github.com/phpstan/phpstan) - PHP Static Analysis Tool - discover bugs in your code without running it!
+- [Rishats/laravel-kubernetes-demo](https://github.com/Rishats/laravel-kubernetes-demo) - Simple laravel K8S configs [DEVELOPMENT]
+- [rashidlaasri/travel](https://github.com/rashidlaasri/travel) - Framework agnostic PHP package to control the time.
+- [boxbilling/boxbilling](https://github.com/boxbilling/boxbilling) - BoxBilling - Open source billing and client management software
+- [Tayyibyasin7860/School-Management-System](https://github.com/Tayyibyasin7860/School-Management-System) - A Laravel 6 based, Multi-tanent School Management System with database migrations which can be used for multiple schools at a time. There are three users: Super Admin, School Admin and Student. Moreov
+- [mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper) - Generate Laravel test factories from your existing models
+- [DigitalOceanPHP/Client](https://github.com/DigitalOceanPHP/Client) - DigitalOcean API v2 client for PHP
+- [danielme85/laravel-log-to-db](https://github.com/danielme85/laravel-log-to-db) - Custom Laravel and Lumen 5.6+ Log channel handler that can store log events to SQL or MongoDB databases.  Uses Laravel/Monolog native logging functionality.
+- [laravel/sanctum](https://github.com/laravel/sanctum) - Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.
+- [daniel-fahl/laravel-servman](https://github.com/daniel-fahl/laravel-servman) - DigitalOcean server management inside the Laravel 5.3 framework
+- [wesleya/provision-infosec](https://github.com/wesleya/provision-infosec) - 
+- [akash-mitra/dployer](https://github.com/akash-mitra/dployer) - Create DO droplets using web interface
+- [akash-mitra/bootyman](https://github.com/akash-mitra/bootyman) - Bootyman deploys and manages large-scale Laravel SaaS applications in self-contained VMs in cloud
+- [lissonpsantos2/digitalocean-droplet-manager](https://github.com/lissonpsantos2/digitalocean-droplet-manager) - 
+- [epartment/nova-dependency-container](https://github.com/epartment/nova-dependency-container) - A Laravel Nova field container allowing to depend on other fields values
+- [johndavedecano/laragym](https://github.com/johndavedecano/laragym) - A laravel gym management system
+- [Silvanite/novatoolpermissions](https://github.com/Silvanite/novatoolpermissions) - Laravel Nova Permissions Tool (User, Roles and Permissions / Access Control (ACL))
+- [oraoto/pib](https://github.com/oraoto/pib) - PHP in Browser (powered by WebAssembly)
+- [openemr/openemr](https://github.com/openemr/openemr) - The most popular open source electronic health records and medical practice management solution.
+- [systemsdk/docker-nginx-php-laravel](https://github.com/systemsdk/docker-nginx-php-laravel) - Docker environment required to run Laravel (based on official php and mysql docker hub repositories)
+- [astralapp/astral](https://github.com/astralapp/astral) - Organize Your GitHub Stars With Ease
+- [canvasowl/ribbbon](https://github.com/canvasowl/ribbbon) - A project management system for artisans.
+- [agorakit/agorakit](https://github.com/agorakit/agorakit) - Groupware for citizens to organize on the Web
+- [ppshobi/tech-detector](https://github.com/ppshobi/tech-detector) - A web app for detecting backend technologies used in a web app, Based on wappalyzer node module
+- [jeremykenedy/laravel-exception-notifier](https://github.com/jeremykenedy/laravel-exception-notifier) - Laravel Exception Notifier will send an email of the error along with the stack trace to the chosen recipients. This Package includes all necessary traits, views, configs, and Mailers for email notifi
+- [rashidlaasri/LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller) - A web installer for Laravel
+- [PHPJunior/laravel-2c2p](https://github.com/PHPJunior/laravel-2c2p) - Laravel 2C2P package
+- [DevlessTeam/DV-PHP-CORE](https://github.com/DevlessTeam/DV-PHP-CORE) - Devless is a ready-made back-end for development of web or mobile applications. It is fully open source under the permissive Apache v2 license. This means that you can develop your front end without w
+- [tenancy/multi-tenant](https://github.com/tenancy/multi-tenant) - Run multiple websites using the same Laravel installation while keeping tenant specific data separated for fully independent multi-domain setups, previously github.com/hyn/multi-tenant
+- [HDInnovations/UNIT3D](https://github.com/HDInnovations/UNIT3D) - UNIT3D is a private torrent tracker built using Laravel, Livewire and AlpineJS.
+- [ambulatorium/ambulatory](https://github.com/ambulatorium/ambulatory) - An experiment project for outpatient care platform.
+- [shihjay2/nosh2](https://github.com/shihjay2/nosh2) - NOSH ChartingSystem is an electronic health record system designed exclusively for doctors and patients. This is a new mobile-friendly version that is now based off of the Laravel PHP framework and jQ
+- [timegridio/timegrid](https://github.com/timegridio/timegrid) - Free, open-source, online appointments platform based on Laravel PHP Framework.
+- [AbuseIO/AbuseIO](https://github.com/AbuseIO/AbuseIO) - AbuseIO is a toolkit to receive, process, correlate and notify about abuse reports received by network operators, typically hosting and access providers.
+- [wells/airflix](https://github.com/wells/airflix) - 🍿 An AirPlay friendly web interface to stream your movies and TV shows from a home server.
+- [botman/botman](https://github.com/botman/botman) - A framework agnostic PHP library to build chat bots
+- [cachethq/cachet](https://github.com/cachethq/cachet) - 🚦 Cachet, the open source, self-hosted status page system.
+- [clarkeash/doorman](https://github.com/clarkeash/doorman) - Limit access to your Laravel applications by using invite codes
+- [nahid/talk](https://github.com/nahid/talk) - Talk is a real-time users messaging and chatting system for Laravel.
+- [laravel-zero/laravel-zero](https://github.com/laravel-zero/laravel-zero) - A PHP framework for console artisans
+- [monicahq/monica](https://github.com/monicahq/monica) - Personal CRM. Remember everything about your friends, family and business relationships.
+- [Attendize/Attendize](https://github.com/Attendize/Attendize) - Attendize is an open-source ticket selling and event management platform built on Laravel.
+- [laravel/socialite](https://github.com/laravel/socialite) - Laravel wrapper around OAuth 1 & OAuth 2 libraries.
+- [fruitcake/laravel-debugbar](https://github.com/fruitcake/laravel-debugbar) - Debugbar for Laravel (Integrates PHP Debug Bar)
+- [spatie/laravel-backup](https://github.com/spatie/laravel-backup) - A package to backup your Laravel app
+- [johnturingan/laravel-fly-view](https://github.com/johnturingan/laravel-fly-view) - Is an Extension of Laravel View Class which compiles String Template on the fly. It automatically detects changes on your string template and recompiles it if needed.
+- [Intervention/image](https://github.com/Intervention/image) - PHP Image Processing
+- [babenkoivan/scout-elasticsearch-driver](https://github.com/babenkoivan/scout-elasticsearch-driver) - This package offers advanced functionality for searching and filtering data in Elasticsearch.
+- [protonemedia/laravel-ffmpeg](https://github.com/protonemedia/laravel-ffmpeg) - This package provides an integration with FFmpeg for Laravel. Laravel's Filesystem handles the storage of the files.
+- [spatie/laravel-fractal](https://github.com/spatie/laravel-fractal) - An easy to use Fractal wrapper built for Laravel and Lumen applications
+- [imanghafoori1/laravel-anypass](https://github.com/imanghafoori1/laravel-anypass) - A minimal package that helps you login with any password on local environments
+- [overtrue/laravel-follow](https://github.com/overtrue/laravel-follow) - :heart: This package helps you to add user based follow system to your model.
+- [PHPJunior/laravel-video-chat](https://github.com/PHPJunior/laravel-video-chat) - Laravel Video Chat using Socket.IO and WebRTC
+- [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) - Laravel Cashier provides an expressive, fluent interface to Stripe's subscription billing services.
+- [marketplacekit/marketplacekit](https://github.com/marketplacekit/marketplacekit) - A platform to create an online marketplace
+- [jcc/blog](https://github.com/jcc/blog) - :star2: PJ Blog is an open source blog built with Laravel and Vue.js.
+- [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) - Clockwork - php dev tools in your browser - server-side component
+- [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel) - 🚀 Supercharged Excel exports and imports in Laravel
+- [austintoddj/canvas](https://github.com/austintoddj/canvas) - Publishing on your own terms
+- [barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf) - A DOMPDF Wrapper for Laravel
+- [cloudcreativity/laravel-json-api](https://github.com/cloudcreativity/laravel-json-api) - JSON API (jsonapi.org) package for Laravel applications.
+- [code16/sharp](https://github.com/code16/sharp) - Laravel 11+ Content management framework
+- [stefanzweifel/screeenly](https://github.com/stefanzweifel/screeenly) - 📸  Screenshot as a Service
+- [milon/barcode](https://github.com/milon/barcode) - Barcode Generator for PHP and Laravel
+- [beyondcode/laravel-self-diagnosis](https://github.com/beyondcode/laravel-self-diagnosis) - Perform Self-Diagnosis Tests On Your Laravel Application
+- [brainpink/gravatar](https://github.com/brainpink/gravatar) - A Laravel Gravatar package for retrieving gravatar image URLs or checking the existance of an image.
+- [msurguy/Honeypot](https://github.com/msurguy/Honeypot) - Simple spam prevention package for Laravel applications
+- [adminarchitect/core](https://github.com/adminarchitect/core) - AdminArchitect - Active Admin for Laravel
+- [spatie/laravel-google-calendar](https://github.com/spatie/laravel-google-calendar) - Manage events on a Google Calendar
+- [devfake/flox](https://github.com/devfake/flox) - Self Hosted Movie, Series and Anime Watch List
+- [jsdecena/laracom](https://github.com/jsdecena/laracom) - Laravel FREE E-Commerce Software
+- [range-of-motion/budget](https://github.com/range-of-motion/budget) - Get a grip on your finances.
+- [realodix/urlhub](https://github.com/realodix/urlhub) - ✂️ URL shortener web application based on the Laravel PHP Framework.
+- [imanghafoori1/laravel-MasterPass](https://github.com/imanghafoori1/laravel-MasterPass) - Helps you securely setup a master password and login into user accounts with it.
+- [lubusIN/gymie](https://github.com/lubusIN/gymie) - Gym & Club Management System
+- [beyondcode/laravel-websockets](https://github.com/beyondcode/laravel-websockets) - Websockets for Laravel. Done right.
+- [vkovic/laravel-custom-casts](https://github.com/vkovic/laravel-custom-casts) - Make your own custom cast type for Laravel model attributes
+- [albertcht/invisible-recaptcha](https://github.com/albertcht/invisible-recaptcha) - An invisible reCAPTCHA package for Laravel, Lumen, CI or native PHP.
+- [BenSampo/laravel-enum](https://github.com/BenSampo/laravel-enum) - Simple, extensible and powerful enumeration implementation for Laravel.
+- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) - NOW MANAGED ON CODEBERG
+- [larastan/larastan](https://github.com/larastan/larastan) - ⚗️ Adds code analysis to Laravel improving developer productivity and code quality.
+- [pterodactyl/panel](https://github.com/pterodactyl/panel) - Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while ex
+- [faveosuite/faveo-invoicing-community](https://github.com/faveosuite/faveo-invoicing-community) - Faveo Invoicing is an open-source platform for SaaS billing and license management, tailored to meet the needs of software companies.
+- [anychart-integrations/php-laravel-mysql-template](https://github.com/anychart-integrations/php-laravel-mysql-template) - This example shows how to use Anychart library with the PHP programming language, Laravel framework and MySQL database.
+- [changeweb/Unifiedtransform](https://github.com/changeweb/Unifiedtransform) - A school management Software
+- [jeremykenedy/laravel2step](https://github.com/jeremykenedy/laravel2step) - Laravel 2-Step verification is a package to add 2-Step user authentication to any Laravel project easily. It is configurable and customizable. It uses notifications to send the user an email with a 4-
+- [getcandy/candy-api](https://github.com/getcandy/candy-api) - GetCandy v1 E-Commerce API
+- [VentureCraft/revisionable](https://github.com/VentureCraft/revisionable) - Easily create a revision history for any laravel model
+- [Propaganistas/Laravel-Phone](https://github.com/Propaganistas/Laravel-Phone) - Phone number functionality for Laravel
+- [orchidsoftware/platform](https://github.com/orchidsoftware/platform) - Orchid is a @laravel package that allows for rapid application development of back-office applications, admin/user panels, and dashboards.
+- [arthajonar/voucher-management-system](https://github.com/arthajonar/voucher-management-system) - Open Source Voucher Management System is a web application for manage voucher. used PHP with Laravel Framework and use MySQL for Database.
+- [aimeos/aimeos-laravel](https://github.com/aimeos/aimeos-laravel) - Laravel ecommerce package for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce
+- [getspooky/yaldash](https://github.com/getspooky/yaldash) - 👻 It's never been easier to build and customize admin panels. Yah! yaldash is a beautifully designed administration panel for Laravel.
+- [RichieMcMullen/laravel-strava](https://github.com/RichieMcMullen/laravel-strava) - A laravel package to access data from the Strava API.
+- [awes-io/awes-io](https://github.com/awes-io/awes-io) - Awes.io // boilerplate based on Vue, Nuxt, TailwindCSS plus Laravel as a backend. 🤟
+- [jamesmills/laravel-timezone](https://github.com/jamesmills/laravel-timezone) - Enable user Timezones in your application.
+- [hisorange/browser-detect](https://github.com/hisorange/browser-detect) - Browser Detection for Laravel by hisorange!
+- [Ardakilic/WhatTheTag](https://github.com/Ardakilic/WhatTheTag) - A Laravel 5.5 Photo Tagging Web Application
+- [pushpak1300/Secupass](https://github.com/pushpak1300/Secupass) - Password Manager Application Built In Laravel.
+- [unicodeveloper/laravel-identify](https://github.com/unicodeveloper/laravel-identify) - :package: :iphone:  Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems
+- [rinvex/laravel-subscriptions](https://github.com/rinvex/laravel-subscriptions) - ⚠️ [ABANDONED] Rinvex Subscribable is a flexible plans and subscription management system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, acc
+- [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) - Anonymous email forwarding
+- [deployphp/deployer](https://github.com/deployphp/deployer) - The PHP deployment tool with support for popular frameworks out of the box
+- [overtrue/laravel-versionable](https://github.com/overtrue/laravel-versionable) - ⏱️Make Laravel model versionable
+- [archtechx/tenancy](https://github.com/archtechx/tenancy) - Automatic multi-tenancy for Laravel. No code changes needed.
+- [davidhsianturi/laravel-compass](https://github.com/davidhsianturi/laravel-compass) - A REST client inside your Laravel app
+- [MarceauKa/shaark](https://github.com/MarceauKa/shaark) - Self-hosted platform to keep and share your content: web links, posts, passwords and pictures.
+- [neoighodaro/laravel-early-access](https://github.com/neoighodaro/laravel-early-access) - This package makes it easy to add early access mode to your existing application.
+- [slimkit/plus](https://github.com/slimkit/plus) - 💝The Plus (ThinkSNS+) is a powerful, easy-to-develop social system built with Laravel.
+- [mike-bronner/laravel-mixpanel](https://github.com/mike-bronner/laravel-mixpanel) - Intuitive drop-in analytics.
+- [urlhum/UrlHum](https://github.com/urlhum/UrlHum) - The modern, privacy-aware URL Shortener built in PHP.
+- [kyranb/Footprints](https://github.com/kyranb/Footprints) - :feet: A simple registration attribution tracking solution for Laravel (UTM Parameters and Referrers)
+- [aungwinthant/apilogger](https://github.com/aungwinthant/apilogger) - Small laravel package for viewing api logs which can be used in debugging.
+- [shweshi/OpenGraph](https://github.com/shweshi/OpenGraph) - A Laravel package to fetch Open Graph data of a website.
+- [bavix/laravel-wallet](https://github.com/bavix/laravel-wallet) - It's easy to work with a virtual wallet
+- [scrnhq/laravel-bakery](https://github.com/scrnhq/laravel-bakery) - 🍞🧑‍🍳 An on-the-fly GraphQL Schema generator from Eloquent models for Laravel.
+- [calebporzio/onboard](https://github.com/calebporzio/onboard) - A Laravel package to help track user onboarding steps.
+- [lxerxa/actionview](https://github.com/lxerxa/actionview) - An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.
+- [antonioribeiro/version](https://github.com/antonioribeiro/version) - Laravel App versioning
+- [aman00323/email-checker](https://github.com/aman00323/email-checker) - Provides email verification on the go.
+- [safytech/ulearn](https://github.com/safytech/ulearn) - ULEARN - Open Source(FREE) LMS script in Laravel 5.8 and ReactJS 16.9
+- [AsgardCms/Platform](https://github.com/AsgardCms/Platform) - A modular multilingual CMS built with Laravel 5.
+- [ConsoleTVs/Invoices](https://github.com/ConsoleTVs/Invoices) - Generate PDF invoices for your customers in laravel
+- [typicms/typicms](https://github.com/typicms/typicms) - A modular multilingual CMS built with Laravel, enabling developers to manage structured content like pages, news, events, and more.
+- [crater-invoice-inc/crater](https://github.com/crater-invoice-inc/crater) - Open Source Invoicing Solution for Individuals & Businesses
+- [sarfraznawaz2005/servermonitor](https://github.com/sarfraznawaz2005/servermonitor) - :heartbeat: Laravel package to periodically monitor the health of your server and application.
+- [CodeBreez/collejo](https://github.com/CodeBreez/collejo) - collejo : Laravel School and University management system
+- [BadChoice/handesk](https://github.com/BadChoice/handesk) - A Powerful Laravel Help Desk and Lead Management App
+- [bagisto/bagisto](https://github.com/bagisto/bagisto) - Open Source eCommerce & Multi-Vendor Marketplace Platform Built with Laravel for Enterprise-Scale Commerce, Supporting 10M+ SKUs
+- [tastyigniter/TastyIgniter](https://github.com/tastyigniter/TastyIgniter) - :fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants
+- [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) - FreeScout — Free self-hosted omnichannel AI-powered helpdesk & shared mailbox
+- [apiato/apiato](https://github.com/apiato/apiato) - PHP Framework for building scalable API's on top of Laravel.
+- [LavaLite/cms](https://github.com/LavaLite/cms) - Multilingual PHP CMS built with Laravel  and bootstrap
+- [faveosuite/faveo-helpdesk](https://github.com/faveosuite/faveo-helpdesk) - Faveo Open source ticketing system build on Laravel framework
+- [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) - A source-available invoice, quote, project and time-tracking app built with Laravel
+- [GrahamCampbell/Laravel-DigitalOcean](https://github.com/GrahamCampbell/Laravel-DigitalOcean) - A DigitalOcean API bridge for Laravel
+- [area17/twill](https://github.com/area17/twill) - Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible. Chat with us on Discord at https://discord.gg/cnWk
+- [pagekit/pagekit](https://github.com/pagekit/pagekit) - Pagekit CMS
+- [rinvex/laravel-bookings](https://github.com/rinvex/laravel-bookings) - ⚠️ [ABANDONED] Rinvex Bookable is a generic resource booking system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, accompanied by powerful u
+- [whitecube/nova-flexible-content](https://github.com/whitecube/nova-flexible-content) - Flexible Content & Repeater Fields for Laravel Nova
+- [AzuraCast/AzuraCast](https://github.com/AzuraCast/AzuraCast) - A self-hosted web radio management suite, including turnkey installer tools for the full radio software stack and a modern, easy-to-use web app to manage your stations.
+- [laravel/framework](https://github.com/laravel/framework) - Laravel is a web application framework with expressive, elegant syntax.
+- [Rudloff/alltube](https://github.com/Rudloff/alltube) - Web GUI for youtube-dl
+- [nikaia/translation-sheet](https://github.com/nikaia/translation-sheet) - Translating Laravel languages files using a Google Spreadsheet.
+- [Xethron/migrations-generator](https://github.com/Xethron/migrations-generator) - Laravel Migrations Generator: Automatically generate your migrations from an existing database schema.
+- [ampache/ampache](https://github.com/ampache/ampache) - A web based audio/video streaming application and file manager allowing you to access your music & videos from anywhere, using almost any internet enabled device.
+- [spatie/laravel-view-models](https://github.com/spatie/laravel-view-models) - View models in Laravel
+- [grokability/snipe-it](https://github.com/grokability/snipe-it) - A free open source IT asset/license management system
+- [laravel/telescope](https://github.com/laravel/telescope) - An elegant debug assistant for the Laravel framework.
+- [Laravel-Lang/lang](https://github.com/Laravel-Lang/lang) - List of 128 languages for Laravel Framework, Laravel Jetstream, Laravel Fortify, Laravel Breeze, Laravel Cashier, Laravel Nova and Laravel UI.
+- [Vuedo/vuedo](https://github.com/Vuedo/vuedo) - Vuedo is a blog platform, built with Laravel and Vue.js.
+- [frictionlessdata/tableschema-php](https://github.com/frictionlessdata/tableschema-php) - A php library for working with Table Schema.
+- [younginnovations/aidstream](https://github.com/younginnovations/aidstream) - AidStream is a platform for small and medium size NGOs to publish their aid data in IATI standard.
+
+## PLpgSQL 
+
+- [dcgadmin/pg_sqltxplain](https://github.com/dcgadmin/pg_sqltxplain) - pg_sqltxplain - Simplifying PostgreSQL Execution Plan Analysis by curating underlying stats in a single html report.
+- [pgmq/pgmq](https://github.com/pgmq/pgmq) - A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.
+- [supabase/index_advisor](https://github.com/supabase/index_advisor) - PostgreSQL Index Advisor
+
+## Perl 
+
+- [curl/trurl](https://github.com/curl/trurl) - a command line tool for URL parsing and manipulation.
+
+## PowerShell 
+
+- [securityjoes/MasterParser](https://github.com/securityjoes/MasterParser) - MasterParser is a powerful DFIR tool designed for analyzing and parsing Linux logs
+
+## Python 
+
+- [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) - Open-source plugin for designing and reviewing software with agents
+- [GooeyAI/goosio](https://github.com/GooeyAI/goosio) - The open-source, drop-in replacement for Composio. A unified API that connects AI agents to hundreds of SaaS tools.
+- [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) - Experience-Driven Black-Box Cost Control for Coding Agents
+- [tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness) - Building the self-learning layer next-gen agents will ship with, learning skills from real work.
+- [google/mantis](https://github.com/google/mantis) - A modular, stack-agnostic toolkit for AI coding agents to autonomously find, reproduce, and patch vulnerabilities.
+- [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) - 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
+- [jundot/omlx](https://github.com/jundot/omlx) - LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) - AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+- [unslothai/unsloth](https://github.com/unslothai/unsloth) - Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.
+- [PetarV-/deepmersion](https://github.com/PetarV-/deepmersion) - own your surroundings
+- [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) - Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
+- [CodeBoarding/CodeBoarding](https://github.com/CodeBoarding/CodeBoarding) - Interactive architecture diagrams for codebases
+- [anthropics/financial-services](https://github.com/anthropics/financial-services) - 
+- [dograh-hq/dograh](https://github.com/dograh-hq/dograh) - Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.
+- [cactus-compute/cactus](https://github.com/cactus-compute/cactus) - Sub-50mb agentic, voice and vision intelligence for consumer devices.
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) - Kronos: A Foundation Model for the Language of Financial Markets
+- [CelestoAI/celesto](https://github.com/CelestoAI/celesto) - Secure and persistent computer for AI agents
+- [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) - Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.
+- [nlethetech/nepse-quant-terminal](https://github.com/nlethetech/nepse-quant-terminal) - Terminal-based NEPSE quant trading dashboard with paper trading, backtesting, analytics, and AI agent support.
+- [google-research/timesfm](https://github.com/google-research/timesfm) - TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
+- [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks
+- [ssrajadh/sentrysearch](https://github.com/ssrajadh/sentrysearch) - Semantic search over videos using Gemini Embedding 2 or Qwen3-VL.
+- [Ibrahim-3d/orchestrator-supaconductor](https://github.com/Ibrahim-3d/orchestrator-supaconductor) - Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills
+- [GHJJ123/brainrotguard](https://github.com/GHJJ123/brainrotguard) - YouTube approval system for kids — parent approves via Telegram, kid watches via web UI
+- [Pickle-Pixel/ApplyPilot](https://github.com/Pickle-Pixel/ApplyPilot) - AI agent that applies to jobs for you. Any site. Any form.
+- [9001/copyparty](https://github.com/9001/copyparty) - Portable file server with accelerated resumable uploads, dedup, WebDAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file
+- [NVIDIA/personaplex](https://github.com/NVIDIA/personaplex) - PersonaPlex code.
+- [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts) - A TTS that fits in your CPU (and pocket)
+- [originalankur/maptoposter](https://github.com/originalankur/maptoposter) - Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.
+- [francescopace/espectre](https://github.com/francescopace/espectre) - Wi-Fi motion sensing platform for ESP32. C++ SDK, ESPHome, Native, and Matter frontends, browser tools, and a CLI for the full device lifecycle. GPLv3 and commercial licensing.
+- [antoniorodr/cronboard](https://github.com/antoniorodr/cronboard) - A terminal-based dashboard for managing cron jobs locally and on servers.
+- [TaoishTechy/PazuzuCore](https://github.com/TaoishTechy/PazuzuCore) - Axiom based dev
+- [clemcer/LoggiFly](https://github.com/clemcer/LoggiFly) - Get Alerts from your Docker Container Logs
+- [stuzero/pg-mcp-server](https://github.com/stuzero/pg-mcp-server) - 
+- [nabla-c0d3/sslyze](https://github.com/nabla-c0d3/sslyze) - Fast and powerful SSL/TLS scanning library.
+- [Stability-AI/stable-virtual-camera](https://github.com/Stability-AI/stable-virtual-camera) - Stable Virtual Camera: Generative View Synthesis with Diffusion Models
+- [deepseek-ai/smallpond](https://github.com/deepseek-ai/smallpond) - A lightweight data processing framework built on DuckDB and 3FS.
+- [deepseek-ai/DualPipe](https://github.com/deepseek-ai/DualPipe) - A bidirectional pipeline parallelism algorithm for computation-communication overlap in DeepSeek V3/R1 training.
+- [allenai/olmocr](https://github.com/allenai/olmocr) - Toolkit for linearizing PDFs for LLM datasets/training
+- [bytedance/UI-TARS](https://github.com/bytedance/UI-TARS) - Pioneering Automated GUI Interaction with Native Agents
+- [sharingan-no-kakashi/orange-intelligence](https://github.com/sharingan-no-kakashi/orange-intelligence) - Orange intelligence
+- [RiccardoRiccio/Fitness-AI-Trainer-With-Automatic-Exercise-Recognition-and-Counting](https://github.com/RiccardoRiccio/Fitness-AI-Trainer-With-Automatic-Exercise-Recognition-and-Counting) - An extension of the previous 'Fitness-AI-Coach': a complete web application with real-time exercise recognition and counting. The exercise recognition model achieves 99% accuracy on the test set and 9
+- [polarsource/polar](https://github.com/polarsource/polar) - Polar — A billing platform for the intelligence era
+- [erikbern/git-of-theseus](https://github.com/erikbern/git-of-theseus) - Analyze how a Git repo grows over time
+- [EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f) - WAFW00F allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website.
+- [SagiPolaczek/NeuralSVG](https://github.com/SagiPolaczek/NeuralSVG) - Official implementation of NerualSVG
+- [malmeloo/FindMy.py](https://github.com/malmeloo/FindMy.py) - 🍏 + 🎯 + 🐍 = Query Apple's FindMy Network with Python!
+- [bytedance/monolith](https://github.com/bytedance/monolith) - A Lightweight Recommendation System
+- [adithya-s-k/omniparse](https://github.com/adithya-s-k/omniparse) - Ingest, parse, and optimize any data format ➡️ from documents to multimedia ➡️ for enhanced compatibility with GenAI frameworks
+- [Canner/WrenAI](https://github.com/Canner/WrenAI) - GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data s
+- [pathwaycom/pathway](https://github.com/pathwaycom/pathway) - Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.
+- [microsoft/markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
+- [langchain-ai/retrieval-agent-template](https://github.com/langchain-ai/retrieval-agent-template) - 
+- [Pixtella/Anagram-MTL](https://github.com/Pixtella/Anagram-MTL) - [WACV 2025] Official implementation for the paper "Diffusion-based Visual Anagram as Multi-task Learning"
+- [google-deepmind/weathernext](https://github.com/google-deepmind/weathernext) - 
+- [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) - Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
+- [datachain-ai/datachain](https://github.com/datachain-ai/datachain) - The Context Layer for unstructured data: typed, versioned datasets over S3, GCS, Azure
+- [cybrota/whispr](https://github.com/cybrota/whispr) - A multi-vault secret injection tool for safely injecting secrets into app environment
+- [aptzer0x/evilurl](https://github.com/aptzer0x/evilurl) - A cybersecurity tool designed to safeguard against IDN Homograph Attacks
+- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) - Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.
+- [ZGC-LLM-Safety/TrafficLLM](https://github.com/ZGC-LLM-Safety/TrafficLLM) - The repository of TrafficLLM, a universal LLM adaptation framework to learn robust traffic representation for all open-sourced LLM in real-world scenarios and enhance the generalization across diverse
+- [protectai/vulnhuntr](https://github.com/protectai/vulnhuntr) - Zero shot vulnerability discovery using LLMs
+- [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) - Implementation of F5-TTS in MLX
+- [yoheinakajima/ditto](https://github.com/yoheinakajima/ditto) - the simplest self-building coding agent
+- [VikParuchuri/tabled](https://github.com/VikParuchuri/tabled) - Detect and extract tables to markdown and csv
+- [vectra-ai-research/Halberd](https://github.com/vectra-ai-research/Halberd) - Halberd : Multi-Cloud Agentic Attack Tool
+- [openai/swarm](https://github.com/openai/swarm) - Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
+- [PaperMtn/slack-watchman](https://github.com/PaperMtn/slack-watchman) - Slack enumeration and exposed secrets detection tool
+- [sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot) - Sourcebot is a self-hosted tool that helps humans and agents understand your codebase.
+- [MingSun-Tse/LightAvatar-TensorFlow](https://github.com/MingSun-Tse/LightAvatar-TensorFlow) - TensorFlow code for our ECCV'24 Workshop paper "LightAvatar: Efficient Head Avatar as Dynamic NeLF"
+- [taylorai/aiq](https://github.com/taylorai/aiq) - ai for jq
+- [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) - Proxy server to bypass Cloudflare protection
+- [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) - SOTA Open Source TTS
+- [Ucas-HaoranWei/GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0) - Official code implementation of General OCR Theory:  Towards OCR-2.0 via a Unified End-to-end Model
+- [Aider-AI/aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
+- [Ravi-Teja-konda/Surveillance_Video_Summarizer](https://github.com/Ravi-Teja-konda/Surveillance_Video_Summarizer) - VLM driven tool that processes surveillance videos, extracts frames, and generates insightful annotations using a fine-tuned Florence-2 Vision-Language Model. Includes a Gradio-based interface for que
+- [ryota-komatsu/speaker_disentangled_hubert](https://github.com/ryota-komatsu/speaker_disentangled_hubert) - [IEEE OJSP'26, IEEE SLT'24] "Speaker-Disentangled Chunk-Wise Regression for Syllabic Tokenization"
+- [dleemiller/WordLlama](https://github.com/dleemiller/WordLlama) - Things you can do with the token embeddings of an LLM
+- [yanghb22-fdu/Hi3D-Official](https://github.com/yanghb22-fdu/Hi3D-Official) - [MM24] Official codes and datasets for ACM MM24 paper "Hi3D: Pursuing High-Resolution Image-to-3D Generation with Video Diffusion Models".
+- [MadcowD/ell](https://github.com/MadcowD/ell) - A language model programming library.
+- [dailenson/One-DM](https://github.com/dailenson/One-DM) - Official Code for ECCV 2024 paper — One-Shot Diffusion Mimicker for Handwritten Text Generation
+- [phuang1024/Starst3r](https://github.com/phuang1024/Starst3r) - Ultra fast 3D reconstruction and novel view synthesis.
+- [AuvaLab/itext2kg](https://github.com/AuvaLab/itext2kg) - We build KGs the way nature builds matter
+- [PragmaticMachineLearning/docai](https://github.com/PragmaticMachineLearning/docai) - Structured information extraction from documents
+- [feizc/FluxMusic](https://github.com/feizc/FluxMusic) - Text-to-Music Generation with Rectified Flow Transformers
+- [caronc/apprise](https://github.com/caronc/apprise) - Apprise - Push Notifications that work with just about every platform!
+- [harsxv/tinystatus](https://github.com/harsxv/tinystatus) - Tiny status page generated by a Python script
+- [marqo-ai/marqo](https://github.com/marqo-ai/marqo) - Ecommerce Search and Discovery - marqo.ai
+- [Storia-AI/sage](https://github.com/Storia-AI/sage) - Chat with any codebase in under two minutes | Fully local or via third-party APIs
+- [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) - A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
+- [OWASP/Nettacker](https://github.com/OWASP/Nettacker) - Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management
+- [HKUDS/EasyRec](https://github.com/HKUDS/EasyRec) - [EMNLP'2025] "EasyRec: Simple yet Effective Language Model for Recommendation"
+- [katanaml/sparrow](https://github.com/katanaml/sparrow) - Structured data extraction, instruction calling and agentic workflows with ML, LLM and Vision LLM
+- [fanqiwan/FuseAI](https://github.com/fanqiwan/FuseAI) - FuseAI Project
+- [mem0ai/mem0](https://github.com/mem0ai/mem0) - The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
+- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) - Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- [intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl) - IntelOwl: manage your Threat Intelligence at scale
+- [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) - DSPy: The framework for programming—not prompting—language models
+- [huggingface/parler-tts](https://github.com/huggingface/parler-tts) - Inference and training library for high-quality TTS models.
+- [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) - See, hear, and interact on your local devices.
+- [zai-org/CogVideo](https://github.com/zai-org/CogVideo) - text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)
+- [rfc-st/humble](https://github.com/rfc-st/humble) - A humble and fast security-oriented HTTP headers analyzer.
+- [pytorch/torchchat](https://github.com/pytorch/torchchat) - Run PyTorch LLMs locally on servers, desktop and mobile
+- [patched-codes/patchwork](https://github.com/patched-codes/patchwork) - Agentic AI framework for enterprise workflow automation.
+- [aydinnyunus/ai-captcha-bypass](https://github.com/aydinnyunus/ai-captcha-bypass) - AI Captcha Bypass
+- [modular/stack-pr](https://github.com/modular/stack-pr) - A tool for working with stacked PRs on github.
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现
+- [rendercv/rendercv](https://github.com/rendercv/rendercv) - Resume builder for academics and engineers
+- [randombk/llm2sh](https://github.com/randombk/llm2sh) - Ask GPT to run a command
+- [exo-explore/exo](https://github.com/exo-explore/exo) - Run frontier AI locally.
+- [apify/crawlee-python](https://github.com/apify/crawlee-python) - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works
+- [JianghaiSCU/LightenDiffusion](https://github.com/JianghaiSCU/LightenDiffusion) - Official pytorch implementation for "LightenDiffusion: Unsupervised Low-Light Image Enhancement with Latent-Retinex Diffusion Models"
+- [incidentalhq/incidental](https://github.com/incidentalhq/incidental) - An opensource incident management platform integrating with Slack.
+- [MattKeeley/Spoofy](https://github.com/MattKeeley/Spoofy) - Spoofy is a program that checks if a list of domains can be spoofed based on SPF and DMARC records.
+- [tanelpoder/0xtools](https://github.com/tanelpoder/0xtools) - 0x.Tools: X-Ray vision for Linux systems
+- [nnsee/fileless-elf-exec](https://github.com/nnsee/fileless-elf-exec) - Execute ELF files without dropping them on disk
+- [elceef/dnstwist](https://github.com/elceef/dnstwist) - Domain name permutation engine for detecting homograph phishing attacks, typo squatting, and brand impersonation
+- [AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover) - A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with ea
+- [welldone-cloud/aws-summarize-account-activity](https://github.com/welldone-cloud/aws-summarize-account-activity) - Analyzes CloudTrail data of a given AWS account and generates a summary of recently active IAM principals, API calls they made, as well as regions, IP addresses and user agents they used.
+- [abgulati/LARS](https://github.com/abgulati/LARS) - An application for running LLMs locally on your device, with your documents, facilitating detailed citations in generated responses.
+- [NVIDIA/warp](https://github.com/NVIDIA/warp) - A Python framework for GPU-accelerated simulation, robotics, and machine learning.
+- [openrecall/openrecall](https://github.com/openrecall/openrecall) - OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor
+- [reorx/httpstat](https://github.com/reorx/httpstat) - curl statistics made simple
+- [Ostorlab/oxo](https://github.com/Ostorlab/oxo) - OXO is a security scanning orchestrator for the modern age.
+- [HKUDS/XRec](https://github.com/HKUDS/XRec) - [EMNLP'2024] "XRec: Large Language Models for Explainable Recommendation"
+- [jiacai2050/shellgpt](https://github.com/jiacai2050/shellgpt) - Chat with LLM in your terminal, be it shell generator, story teller, linux-terminal, etc.
+- [lavague-ai/LaVague](https://github.com/lavague-ai/LaVague) - Large Action Model framework to develop AI Web Agents
+- [ChrisBuilds/terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects) - TerminalTextEffects (TTE) is a terminal visual effects engine, application, and Python library.
+- [tobymao/sqlglot](https://github.com/tobymao/sqlglot) - Python SQL Parser and Transpiler
+- [Dataherald/dataherald](https://github.com/Dataherald/dataherald) - Interact with your SQL database, Natural Language to SQL using LLMs
+- [qodo-ai/qodo-cover](https://github.com/qodo-ai/qodo-cover) - Qodo-Cover: An AI-Powered Tool for Automated Test Generation and Code Coverage Enhancement! 💻🤖🧪🐞
+- [entropy-research/Devon](https://github.com/entropy-research/Devon) - Devon: An open-source pair programmer
+- [zakkg3/ClusterSecret](https://github.com/zakkg3/ClusterSecret) - Kubernetes ClusterSecret operator.
+- [McGill-NLP/webllama](https://github.com/McGill-NLP/webllama) - Llama-3 agents that can browse the web by following instructions and talking to you
+- [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) - Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.
+- [nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc) - InstructDoc: A Dataset for Zero-Shot Generalization of Visual Document Understanding with Instructions (AAAI2024)
+- [phospho-app/text-analytics-legacy](https://github.com/phospho-app/text-analytics-legacy) - Legacy project of an analytics platform for LLM-generated content
+- [alvin-r/databonsai](https://github.com/alvin-r/databonsai) - clean & curate your data with LLMs.
+- [charliermarsh/whisper.cpp-cli](https://github.com/charliermarsh/whisper.cpp-cli) - Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux.
+- [openai/openai-security-bots](https://github.com/openai/openai-security-bots) - 
+- [philz1337x/clarity-upscaler](https://github.com/philz1337x/clarity-upscaler) - Clarity AI | AI Image Upscaler & Enhancer - free and open-source Magnific Alternative
+- [PostHog/posthog](https://github.com/PostHog/posthog) - :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – c
+- [litestar-org/litestar](https://github.com/litestar-org/litestar) - Light, flexible and extensible ASGI framework | Built to scale
+- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.
+- [apple-aiml-research/ml-ferret](https://github.com/apple-aiml-research/ml-ferret) - 
+- [llmware-ai/llmware](https://github.com/llmware-ai/llmware) - Unified framework for building enterprise RAG pipelines with small, specialized models
+- [spiral-project/ihatemoney](https://github.com/spiral-project/ihatemoney) - A  shared budget web application
+- [meltano/meltano](https://github.com/meltano/meltano) - Meltano: the declarative code-first data integration engine that powers your wildest data and ML-powered product ideas. Say goodbye to writing, maintaining, and scaling your own API integrations.
+- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged document management system: scan, index and archive all your documents
+- [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) - The first real AI developer
+- [mckinsey/vizro](https://github.com/mckinsey/vizro) - Vizro is a low-code toolkit for building high-quality data visualization apps.
+- [eschluntz/compress](https://github.com/eschluntz/compress) - Text compression for generating keyboard expansions
+- [ShishirPatil/gorilla](https://github.com/ShishirPatil/gorilla) - Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)
+- [pyinfra-dev/pyinfra](https://github.com/pyinfra-dev/pyinfra) - 🔧 pyinfra turns Python code into shell commands and runs them on your servers. Execute ad-hoc commands and write declarative operations. Target SSH servers, local machine and Docker containers. Fast a
+- [georgia-tech-db/evadb](https://github.com/georgia-tech-db/evadb) - Database system for AI-powered apps
+- [r2d4/openlm](https://github.com/r2d4/openlm) - OpenAI-compatible Python client that can call any LLM
+- [smol-ai/developer](https://github.com/smol-ai/developer) - the first library to let you embed a developer agent in your own app!
+- [langgenius/dify](https://github.com/langgenius/dify) - Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without reb
+- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
+- [vllm-project/vllm](https://github.com/vllm-project/vllm) - A high-throughput and memory-efficient inference and serving engine for LLMs
+- [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) - An open source implementation of CLIP.
+- [jmisilo/clip-gpt-captioning](https://github.com/jmisilo/clip-gpt-captioning) - CLIPxGPT Captioner is Image Captioning Model based on OpenAI's CLIP and GPT-2.
+- [prometheus-community/ansible](https://github.com/prometheus-community/ansible) - Ansible Collection for Prometheus
+- [StackStorm/st2](https://github.com/StackStorm/st2) - StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs. Includes rules engine, workflow, 160 i
+- [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps) - Draw pretty maps from OpenStreetMap data! Built with osmnx +matplotlib + shapely
+- [p0n1/epub_to_audiobook](https://github.com/p0n1/epub_to_audiobook) - EPUB to audiobook converter, optimized for Audiobookshelf, WebUI included
+- [apple-aiml-research/ml-stable-diffusion](https://github.com/apple-aiml-research/ml-stable-diffusion) - Stable Diffusion with Core ML on Apple Silicon
+- [eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT) - open-source agentic AI data assistant for the next generation of AI + Data products.
+- [harelba/q](https://github.com/harelba/q) - q - Run SQL directly on delimited files and multi-file sqlite databases
+- [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) - An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All.
+- [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
+- [emcf/engshell](https://github.com/emcf/engshell) - An English-language shell for any OS, powered by LLMs
+- [jdagdelen/hyperDB](https://github.com/jdagdelen/hyperDB) - A hyper-fast local vector database for use with LLM Agents. Now accepting SAFEs at $135M cap.
+- [griptape-ai/griptape](https://github.com/griptape-ai/griptape) - Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory.
+- [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder) - Home of StarCoder: fine-tuning & inference!
+- [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.
+- [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) - 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
+- [Sanster/IOPaint](https://github.com/Sanster/IOPaint) - Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.
+- [openai/whisper](https://github.com/openai/whisper) - Robust Speech Recognition via Large-Scale Weak Supervision
+- [tonybeltramelli/pix2code](https://github.com/tonybeltramelli/pix2code) - pix2code: Generating Code from a Graphical User Interface Screenshot
+- [meta-llama/llama](https://github.com/meta-llama/llama) - Inference code for Llama models
+- [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
+- [chubin/cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
+- [open-pdf-sign/open-pdf-sign-configurator](https://github.com/open-pdf-sign/open-pdf-sign-configurator) - A configurator to install open-pdf-sign on a webserver and sign all PDFs on the fly
+- [zai-org/CodeGeeX](https://github.com/zai-org/CodeGeeX) - CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)
+- [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) - This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment for 
+- [home-assistant/operating-system](https://github.com/home-assistant/operating-system) - :beginner: Home Assistant Operating System
+- [bumble-tech/private-detector](https://github.com/bumble-tech/private-detector) - Bumble's Private Detector - a pretrained model for detecting lewd images
+- [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
+- [localstack/localstack](https://github.com/localstack/localstack) - 💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
+- [geldata/gel](https://github.com/geldata/gel) - Gel supercharges Postgres with a modern data model, graph queries, Auth & AI solutions, and much more.
+- [dalibo/pg_activity](https://github.com/dalibo/pg_activity) - pg_activity is a top like application for PostgreSQL server activity monitoring.
+- [DonDebonair/slack-machine](https://github.com/DonDebonair/slack-machine) - A simple, yet powerful and extendable Slack bot
+- [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server
+- [Miksus/rocketry](https://github.com/Miksus/rocketry) - Modern scheduling library for Python
+- [kuprel/min-dalle](https://github.com/kuprel/min-dalle) - min(DALL·E) is a fast, minimal port of DALL·E Mini to PyTorch
+- [tetra-framework/tetra](https://github.com/tetra-framework/tetra) - Tetra - A full stack component framework for Django using Alpine.js
+- [permitio/opal](https://github.com/permitio/opal) - Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...)
+- [pyscript/pyscript](https://github.com/pyscript/pyscript) - An open source platform for Python in the browser. https://pyscript.net Docs: https://docs.pyscript.net/ Try it: https://pyscript.com/ Community: https://discord.gg/HxvBtukrg2
+- [LibrePhotos/librephotos](https://github.com/LibrePhotos/librephotos) - A self-hosted open source photo management service.
+- [quru/qis](https://github.com/quru/qis) - Dynamic image server for web and print
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
+- [newsnowlabs/dockside](https://github.com/newsnowlabs/dockside) - Create dev containers that mirror your prod environment and sandbox your Claude/Codex CLIs. Develop with VS Code/Jet Brains, via SSH with e.g. Vim or VS Code in your browser. Unlimited staging for co-
+- [run-x/opta](https://github.com/run-x/opta) - The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
+- [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) - Prefect is a workflow orchestration framework for building resilient data pipelines in Python.
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+- [jina-ai/serve](https://github.com/jina-ai/serve) - ☁️ Build multimodal AI applications with cloud-native stack
+- [ethyca/fides](https://github.com/ethyca/fides) - The Privacy Engineering & Compliance Framework
+- [simple-login/app](https://github.com/simple-login/app) - The SimpleLogin back-end and web app
+- [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
+- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
+- [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) - Cockpit is a web-based graphical interface for servers.
+- [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) - Free, open source crypto trading bot
+- [jcpeterson/openwebtext](https://github.com/jcpeterson/openwebtext) - Open clone of OpenAI's unreleased WebText dataset scraper. This version uses pushshift.io files instead of the API for speed.
+- [codelucas/newspaper](https://github.com/codelucas/newspaper) - newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:
+- [xxh/xxh](https://github.com/xxh/xxh) - 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on.
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
+- [borb-pdf/borb](https://github.com/borb-pdf/borb) - borb is a library for reading, creating and manipulating PDF files in python.
+- [ThoughtfulDev/EagleEye](https://github.com/ThoughtfulDev/EagleEye) - Stalk your Friends. Find their Instagram, FB and Twitter Profiles using Image Recognition and Reverse Image Search.
+- [piku/piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
+- [AppScale/gts](https://github.com/AppScale/gts) - AppScale is an easy-to-manage serverless platform for building and running scalable web and mobile applications on any infrastructure.
+- [saleor/saleor](https://github.com/saleor/saleor) - Saleor Core: the high performance, composable, headless commerce API.
+- [sodadata/soda-core](https://github.com/sodadata/soda-core) - Data Contracts engine for the modern data stack. https://www.soda.io
+- [chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) - Turn (almost) any Python command line program into a full GUI application with one line
+- [nbering/terraform-inventory](https://github.com/nbering/terraform-inventory) - An Ansible dynamic inventory script to pair with nbering/terraform-provider-ansible.
+- [Layout-Parser/layout-parser](https://github.com/Layout-Parser/layout-parser) - A Unified Toolkit for Deep Learning Based Document Image Analysis
+- [Overv/outrun](https://github.com/Overv/outrun) - Execute a local command using the processing power of another Linux machine.
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Freely available programming books
+- [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) - The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos 
+- [almarklein/mypaas](https://github.com/almarklein/mypaas) - Run your own PaaS using Docker, Traefik, and great analytics
+- [archivy/archivy](https://github.com/archivy/archivy) - Archivy is a self-hostable knowledge repository that allows you to learn and retain information in your own personal and extensible wiki.
+- [ameygat/githuballrepo](https://github.com/ameygat/githuballrepo) - Python Scripts to download all repository or user or organization
+- [David00/rpi-power-monitor](https://github.com/David00/rpi-power-monitor) - Power Monitor (for Raspberry Pi)
+- [schenkd/nginx-ui](https://github.com/schenkd/nginx-ui) - Nginx UI allows you to access and modify the nginx configurations files without cli.
+- [ziozzang/android-kernel-builder-docker](https://github.com/ziozzang/android-kernel-builder-docker) - Dockerized Android Kernel build Environments. for Android PIE(with gcc/clang)
+- [malwaredllc/byob](https://github.com/malwaredllc/byob) - An open-source post-exploitation framework for students, researchers and developers.
+- [cedricbonhomme/newspipe](https://github.com/cedricbonhomme/newspipe) - A self-hosted web news aggregator — own your feeds, your data, and your reading.
+- [socialpoint-labs/sheetfu](https://github.com/socialpoint-labs/sheetfu) - Python library to interact with Google Sheets V4 API
+- [jesse-ai/jesse](https://github.com/jesse-ai/jesse) - An advanced crypto trading bot written in Python
+- [mistio/mist-ce](https://github.com/mistio/mist-ce) - Mist is an open source, multicloud management platform
+- [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) - An open source reinforcement learning framework for training, evaluating, and deploying robust trading agents.
+- [quantopian/zipline](https://github.com/quantopian/zipline) - Zipline, a Pythonic Algorithmic Trading Library
+- [vzhou842/profanity-check](https://github.com/vzhou842/profanity-check) - A fast, robust Python library to check for offensive language in strings.
+- [muety/tg-chat-classification](https://github.com/muety/tg-chat-classification) - Naive-Bayes based classification of Telegram chat messages.
+- [ashiquem/message-classifier](https://github.com/ashiquem/message-classifier) - Classify text messages
+- [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - Deepfakes Software For All
+- [apache/superset](https://github.com/apache/superset) - Apache Superset is a Data Visualization and Data Exploration Platform
+- [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) - Clone a voice in 5 seconds to generate arbitrary speech in real-time
+- [rembo10/headphones](https://github.com/rembo10/headphones) - Automatic music downloader for SABnzbd
+- [CouchPotato/CouchPotatoServer](https://github.com/CouchPotato/CouchPotatoServer) - Automatic Movie Downloading via NZBs & Torrents
+
+## QML 
+
+- [Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term) - A good looking terminal emulator which mimics the old cathode display...
+
+## Ruby 
+
+- [ubicloud/ubicloud](https://github.com/ubicloud/ubicloud) - Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services.
+- [pglombardo/PasswordPusher](https://github.com/pglombardo/PasswordPusher) - 🔐   Securely share sensitive information with automatic expiration & deletion after a set number of views or duration.  Track who, what and when with full audit logs.
+- [DomT4/homebrew-autoupdate](https://github.com/DomT4/homebrew-autoupdate) - :tropical_drink: An easy, convenient way to automatically update Homebrew.
+- [rails/solid_queue](https://github.com/rails/solid_queue) - Database-backed Active Job backend
+- [shayonj/pg_easy_replicate](https://github.com/shayonj/pg_easy_replicate) - Easily setup logical replication and switchover to new database with minimal downtime
+- [basecamp/kamal](https://github.com/basecamp/kamal) - Deploy web apps anywhere.
+- [bashly-framework/bashly](https://github.com/bashly-framework/bashly) - Bash command line framework and CLI generator
+- [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
+- [postalserver/postal](https://github.com/postalserver/postal) - 📮 A fully featured open source mail delivery platform for incoming & outgoing e-mail
+- [darkbitio/k8s-mirror](https://github.com/darkbitio/k8s-mirror) - Creates a local mirror of a Kubernetes cluster in a docker container to support offline reviewing
+- [burke/minidev](https://github.com/burke/minidev) - Like dev, only lots worse!
+- [opf/openproject](https://github.com/opf/openproject) - OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt chart
+
+## Rust 
+
+- [ruvnet/RuView](https://github.com/ruvnet/RuView) - π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
+- [rustrak/rustrak](https://github.com/rustrak/rustrak) - Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL.
+- [storytold/photocraft](https://github.com/storytold/photocraft) - PhotoCraft: An open-source, photo editor written by scratch in pure Rust
+- [PicoMQ/picomq](https://github.com/PicoMQ/picomq) - Durable streams and Kafka on object storage
+- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) - A vector index built on TurboQuant, written in Rust with Python bindings
+- [rustfs/rustfs](https://github.com/rustfs/rustfs) - RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+- [glommer/pgmicro](https://github.com/glommer/pgmicro) - An in-process reimplementation of PostgreSQL, backed by a SQLite-compatible storage engine
+- [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) - An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
+- [run-llama/liteparse](https://github.com/run-llama/liteparse) - A fast, helpful, and open-source document parser
+- [zerobootdev/zeroboot](https://github.com/zerobootdev/zeroboot) - Sub-millisecond VM sandboxes for AI agents via copy-on-write forking
+- [Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - Real-time analytics on Postgres tables
+- [numaproj/numaflow](https://github.com/numaproj/numaflow) - Kubernetes-native platform to run massively parallel data/streaming jobs
+- [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) - Comfortably monitor your network traffic 🕵️‍♂️
+- [CapSoftware/Cap](https://github.com/CapSoftware/Cap) - Open source Loom alternative. Beautiful, shareable screen recordings.
+- [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
+- [SeekStorm/SeekStorm](https://github.com/SeekStorm/SeekStorm) - SeekStorm: vector & lexical search - in-process library & multi-tenancy server, in Rust.
+- [supervc-stack/VectorChord](https://github.com/supervc-stack/VectorChord) - Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs.
+- [spinframework/spin](https://github.com/spinframework/spin) - Spin is the open source developer tool for building and running serverless applications powered by WebAssembly.
+- [hyperlight-dev/hyperlight](https://github.com/hyperlight-dev/hyperlight) - Hyperlight is a lightweight Virtual Machine Manager (VMM) designed to be embedded within applications. It enables safe execution of untrusted code within micro virtual machines with very low latency a
+- [drogus/jawsm](https://github.com/drogus/jawsm) - JavaScript to WASM compiler
+- [microsoft/openvmm](https://github.com/microsoft/openvmm) - Home of OpenVMM and OpenHCL
+- [DefGuard/defguard](https://github.com/DefGuard/defguard) - Zero-Trust access management with true WireGuard® 2FA/MFA
+- [Automattic/harper](https://github.com/Automattic/harper) - Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
+- [jehna/humanify](https://github.com/jehna/humanify) - Deobfuscate Javascript code using ChatGPT
+- [achristmascarl/rainfrog](https://github.com/achristmascarl/rainfrog) - 🐸 a database tool for the terminal
+- [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
+- [grampelberg/kty](https://github.com/grampelberg/kty) - The terminal for Kubernetes
+- [moghtech/komodo](https://github.com/moghtech/komodo) - 🦎 a tool to build and deploy software on many servers 🦎
+- [buffdb/buffdb](https://github.com/buffdb/buffdb) - Embedded storage built for AI model management over gRPC. Smart machines don't need to read JSON, they only need protocol buffers. The world's first MODMS (Machine-Oriented Database Management System)
+- [beac0n/ruroco](https://github.com/beac0n/ruroco) - Ruroco is a tool that lets you execute commands on a server by sending UDP packets. The commands are configured on the server side, so the client does not define what is going to be executed, it only 
+- [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
+- [hsfzxjy/handwriter.ttf](https://github.com/hsfzxjy/handwriter.ttf) - Handwriting synthesis with Harfbuzz WASM.
+- [supabase/etl](https://github.com/supabase/etl) - A high-performance Postgres replication engine written in Rust. Embed it in your Rust application or run it as a standalone binary.
+- [tellerops/teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
+- [teodevgroup/teo](https://github.com/teodevgroup/teo) - High performance ergonomic ORM for Rust.
+- [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB, Microsoft SQL Server]
+- [letmutex/htmd](https://github.com/letmutex/htmd) - A turndown.js inspired HTML to Markdown converter for Rust
+- [restatedev/restate](https://github.com/restatedev/restate) - Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD.
+- [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) - Run any process, on your machine or in an AI agent's environment, as if it were a pod in your Kubernetes cluster: real env vars, DNS, network, traffic.
+- [cozodb/cozo](https://github.com/cozodb/cozo) - A transactional, relational-graph-vector database that uses Datalog for query. The hippocampus for AI!
+- [wasmi-labs/wasmi](https://github.com/wasmi-labs/wasmi) - WebAssembly (Wasm) Interpreter - An efficient, lightweight, and deterministic WebAssembly interpreter for embedded systems and plug-in runtimes.
+- [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) - Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
+- [awslabs/coldsnap](https://github.com/awslabs/coldsnap) - A command line interface for Amazon EBS snapshots
+- [spiceai/spiceai](https://github.com/spiceai/spiceai) - Add a real-time analytics node to your operational database. Spice is a portable, accelerated SQL query, search, and LLM-inference engine in Rust for data-grounded AI apps and agents.
+- [lapce/lapdev](https://github.com/lapce/lapdev) - Seamless dev environments for Kubernetes
+- [microsoft/aici](https://github.com/microsoft/aici) - AICI: Prompts as (Wasm) Programs
+- [cloudflare/pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services.
+- [readysettech/readyset](https://github.com/readysettech/readyset) - Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the 
+- [google/magika](https://github.com/google/magika) - Fast and accurate AI powered file content types detection
+- [orf/gping](https://github.com/orf/gping) - Ping, but with a graph
+- [AccessKit/accesskit](https://github.com/AccessKit/accesskit) - Accessibility infrastructure for UI toolkits
+- [dimo414/task-mon](https://github.com/dimo414/task-mon) - CLI to execute commands and log results to healthchecks.io
+- [bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon) - CLI to execute commands and log results to healthchecks.io
+- [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) - A coding agent for open models like Kimi K3 and GLM 5.3
+- [orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync) - SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state between users, devices, and the edge.
+- [AmrDeveloper/GQL](https://github.com/AmrDeveloper/GQL) - GitQL is a extensible SQL-like query language and SDK to perform queries on various data sources such .git files with supports of most of SQL features such as grouping, ordering and aggregation and wi
+- [oxc-project/oxc](https://github.com/oxc-project/oxc) - ⚓ A collection of high-performance JavaScript tools.
+- [tracel-ai/burn](https://github.com/tracel-ai/burn) - Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.
+- [build-trust/ockam](https://github.com/build-trust/ockam) - Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
+- [paradedb/paradedb](https://github.com/paradedb/paradedb) - One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension.
+- [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) - Development at the speed of light
+- [supabase-community/postgres-language-server](https://github.com/supabase-community/postgres-language-server) - A Language Server for Postgres
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
+- [grafbase/grafbase](https://github.com/grafbase/grafbase) - [Acquired by The Guild] The Grafbase GraphQL Federation Gateway
+- [awslabs/mountpoint-s3](https://github.com/awslabs/mountpoint-s3) - A simple, high-throughput file client for mounting an Amazon S3 bucket as a local file system.
+- [lance-format/lance](https://github.com/lance-format/lance) - Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and 
+- [samwho/spacer](https://github.com/samwho/spacer) - CLI tool to insert spacers when command output stops
+- [mycelial/mycelite](https://github.com/mycelial/mycelite) - Mycelite is a SQLite extension that allows you to synchronize changes from one instance of SQLite to another.
+- [qdrant/qdrant](https://github.com/qdrant/qdrant) - Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
+- [quickwit-oss/whichlang](https://github.com/quickwit-oss/whichlang) - A blazingly fast and lightweight language detection library for Rust
+- [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl) - Hurl, run and test HTTP requests with plain text.
+- [tonarino/innernet](https://github.com/tonarino/innernet) - A private network system that uses WireGuard under the hood.
+- [meta/buck2](https://github.com/meta/buck2) - Build system, successor to Buck
+- [moonrepo/moon](https://github.com/moonrepo/moon) - A build system and monorepo management tool for the web ecosystem, written in Rust.
+- [astral-sh/rye](https://github.com/astral-sh/rye) - a Hassle-Free Python Experience
+- [jkfran/killport](https://github.com/jkfran/killport) - A command-line tool to kill processes and containers running on specified ports.
+- [rustformers/llm](https://github.com/rustformers/llm) - [Unmaintained, see README] An ecosystem of Rust libraries for working with large language models
+- [fathyb/carbonyl](https://github.com/fathyb/carbonyl) - Chromium running inside your terminal
+- [meta/sapling](https://github.com/meta/sapling) - A Scalable, User-Friendly Source Control System.
+- [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) - The open-source observability database. One columnar engine for metrics, logs, and traces, on object storage.
+- [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - Copilot for your terminal
+- [google/forma](https://github.com/google/forma) - An efficient vector-graphics renderer
+- [vercel/turborepo](https://github.com/vercel/turborepo) - The build system for coding agents.
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web
+- [richardanaya/wasm-service](https://github.com/richardanaya/wasm-service) - HTMX, WebAssembly, Rust, ServiceWorkers
+- [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
+- [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.
+- [quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit) - Cloud-native OSS search engine for observability
+- [ogham/exa](https://github.com/ogham/exa) - A modern replacement for ‘ls’.
+- [casey/just](https://github.com/casey/just) - 🤖 Just a command runner
+- [bevyengine/bevy](https://github.com/bevyengine/bevy) - A refreshingly simple data-driven game engine built in Rust
+- [krtab/agnos](https://github.com/krtab/agnos) - Obtain (wildcard) certificates from let's encrypt using dns-01 without the need for API access to your DNS provider.
+- [cloudwego/volo](https://github.com/cloudwego/volo) - Rust RPC framework with high-performance and strong-extensibility for building micro-services.
+- [pls-rs/pls](https://github.com/pls-rs/pls) - pls is a prettier and powerful ls(1) for the pros.
+- [apache/horaedb](https://github.com/apache/horaedb) - Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database.
+- [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
+- [stepchowfun/toast](https://github.com/stepchowfun/toast) - Containerize your development and continuous integration environments. 🥂
+- [cube-js/cube](https://github.com/cube-js/cube) - 📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Making your shell magical
+- [Zaplib/zaplib](https://github.com/Zaplib/zaplib) - ⚡ Zaplib is an open-source library for speeding up web applications using Rust and WebAssembly.
+- [railwayapp/nixpacks](https://github.com/railwayapp/nixpacks) - App source + Nix packages + Docker = Image
+- [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) - Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.
+- [rubrikinc/wachy](https://github.com/rubrikinc/wachy) - A UI for eBPF-based performance debugging
+- [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
+- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax 🟥🟩
+- [LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production) - Code for "Zero To Production In Rust", a book on API development using Rust.
+- [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
+- [inspektor-dev/inspektor](https://github.com/inspektor-dev/inspektor) - Inspektor is a protocol-aware proxy that is used to enforce access policies👮
+- [gyroflow/gyroflow](https://github.com/gyroflow/gyroflow) - Video stabilization using gyroscope data
+- [fabianlindfors/reshape](https://github.com/fabianlindfors/reshape) - An easy-to-use, zero-downtime schema migration tool for Postgres
+- [losfair/blueboat](https://github.com/losfair/blueboat) - All-in-one, multi-tenant serverless JavaScript runtime.
+- [supabase/pg_graphql](https://github.com/supabase/pg_graphql) - GraphQL support for PostgreSQL
+- [doyoubi/undermoon](https://github.com/doyoubi/undermoon) - Mordern Redis Cluster solution for easy operation.
+- [solana-labs/solana](https://github.com/solana-labs/solana) - Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.
+- [nikivdev/code](https://github.com/nikivdev/code) - 
+- [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
+- [jameslittle230/stork](https://github.com/jameslittle230/stork) - 🔎 Impossibly fast web search, made for static sites.
+- [bottlerocket-os/bottlerocket](https://github.com/bottlerocket-os/bottlerocket) - An operating system designed for hosting containers
+- [TimeToogo/tunshell](https://github.com/TimeToogo/tunshell) - Remote shell into ephemeral environments 🐚 🦀
+- [iced-rs/iced](https://github.com/iced-rs/iced) - A cross-platform GUI library for Rust, inspired by Elm
+
+## SCSS 
+
+- [vapid/vapid](https://github.com/vapid/vapid) - Vapid is an intentionally simple content management system built on the idea that you can create a custom dashboard without ever leaving the HTML.
+
+## Shell 
+
+- [mattpocock/skills](https://github.com/mattpocock/skills) - Skills for Real Engineers. Straight from my .agents directory.
+- [omacom/omarchy](https://github.com/omacom/omarchy) - Beautiful, Modern & Opinionated Linux
+- [VR-25/acc](https://github.com/VR-25/acc) - Advanced Charging Controller
+- [pystardust/ani-cli](https://github.com/pystardust/ani-cli) - A cli tool to browse and play anime
+- [sudofox/shell-mommy](https://github.com/sudofox/shell-mommy) - Mommy is here for you on the command line ~ ❤️
+- [bearstech/pussh](https://github.com/bearstech/pussh) - Parallel SSH, batch and command line oriented
+- [Edu4rdSHL/fly-to-podman](https://github.com/Edu4rdSHL/fly-to-podman) - Migrate from Docker to Podman.
+- [luchina-gabriel/OSX-PROXMOX](https://github.com/luchina-gabriel/OSX-PROXMOX) - Voilà, install macOS on ANY Computer! This is really and magic easiest way! PVE 7.XX ~ 9.XX Support and macOS High Sierra ~ macOS Tahoe Support.
+- [cloudposse/geodesic](https://github.com/cloudposse/geodesic) - 🚀 Geodesic is a DevOps Linux Toolbox in Docker
+- [telekom-security/tpotce](https://github.com/telekom-security/tpotce) - 🍯 T-Pot - The All In One Multi Honeypot Platform 🐝
+- [e-m-b-a/emba](https://github.com/e-m-b-a/emba) - EMBA - The firmware security analyzer
+- [syncliteio/SyncLite](https://github.com/syncliteio/SyncLite) - SyncLite : Build Anything Sync Anywhere
+- [pgsty/pigsty](https://github.com/pgsty/pigsty) - Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 575 PG extensions. Best-of-breed products integrated as a platform. Self-host Postgres like a Pro!
+- [alsyundawy/Microsoft-Office-For-MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS) - Installer Microsoft Office For MacOS
+- [antongisli/maas-baremetal-k8s-tutorial](https://github.com/antongisli/maas-baremetal-k8s-tutorial) - Step by step tutorial for bare metal K8s on a single machine
+- [nicolaka/netshoot](https://github.com/nicolaka/netshoot) - a Docker + Kubernetes network trouble-shooting swiss-army container
+- [GaiaNet-AI/gaianet-node](https://github.com/GaiaNet-AI/gaianet-node) - Install, run and deploy your own decentralized AI agent service
+- [hcengineering/huly-selfhost](https://github.com/hcengineering/huly-selfhost) - Huly for Self Hosting
+- [omacom/omakub](https://github.com/omacom/omakub) - Retired — the story lives at https://omarchy.org/omakub, the thread continues at https://omabuntu.omakasui.org
+- [kiwicopple/serverless-postgres](https://github.com/kiwicopple/serverless-postgres) - 
+- [tteck/Proxmox](https://github.com/tteck/Proxmox) - Proxmox VE Helper-Scripts
+- [serversideup/spin](https://github.com/serversideup/spin) - 🚀 Replicate your production environment locally using Docker. Just run "spin up". It's really that easy.
+- [Fadi002/unshackle](https://github.com/Fadi002/unshackle) - Open-source tool to bypass windows and linux passwords from bootable usb
+- [calcom/docker](https://github.com/calcom/docker) - The Docker configuration for Cal.com is an effort powered by people within the community. Cal.com, Inc. does not provide official support for Docker, but we will accept fixes and documentation. Use at
+- [orbstack/orbstack](https://github.com/orbstack/orbstack) - Fast, light, simple Docker containers & Linux machines
+- [wowu/docker-rollout](https://github.com/wowu/docker-rollout) - 🚀 Zero Downtime Deployment for Docker Compose
+- [Bhupesh-V/ugit](https://github.com/Bhupesh-V/ugit) - 🚨️ ugit helps undo git commands. Your damage control git buddy. Undo from 20+ git scenarios.
+- [wfxr/forgit](https://github.com/wfxr/forgit) - :zzz: A utility tool powered by fzf for using git interactively.
+- [p8952/bocker](https://github.com/p8952/bocker) - Docker implemented in around 100 lines of bash
+- [supabase-community/postgres-wasm](https://github.com/supabase-community/postgres-wasm) - A PostgresQL server in your browser
+- [fabianlee/kustomize-overlays-with-reload](https://github.com/fabianlee/kustomize-overlays-with-reload) - 
+- [titzer/virgil](https://github.com/titzer/virgil) - A fast and lightweight native programming language
+- [dougcalobrisi/nested-github-runners-action](https://github.com/dougcalobrisi/nested-github-runners-action) - GitHub Action to run multiple self-hosted runners in a hosted GitHub Runner
+- [tuanpham-dev/termux-ubuntu](https://github.com/tuanpham-dev/termux-ubuntu) - This helps you install Ubuntu 20 + XFCE4 desktop on Termux with ease.
+- [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps
+- [MFDGaming/ubuntu-in-termux](https://github.com/MFDGaming/ubuntu-in-termux) - This is a script by which you can install Ubuntu in your termux application without a rooted device
+- [IAmStoxe/wirehole](https://github.com/IAmStoxe/wirehole) - WireHole is a combination of WireGuard, Pi-hole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create a personally managed full or split-tunnel WireGu
+- [hestiacp/hestiacp](https://github.com/hestiacp/hestiacp) - Hestia Control Panel | A lightweight and powerful control panel for the modern web.
+- [Makeshift/Marauder](https://github.com/Makeshift/Marauder) - A fully dockerized Media downloading solution utilising Google Drive as an unlimited disk backend
+- [nvm-sh/nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.
+- [bohanwood/debi](https://github.com/bohanwood/debi) - Reinstall your VPS to minimal Debian
+- [crunchprank/dig-dug](https://github.com/crunchprank/dig-dug) - Mass / Batch domain dig to .CSV bash script
+- [marco-lancini/offensive-infrastructure](https://github.com/marco-lancini/offensive-infrastructure) - Offensive Infrastructure with Modern Technologies
+- [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) - 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources
+- [richdynamix/arc](https://github.com/richdynamix/arc) - Production ready docker based development environment for your Laravel project.
+- [thedevdojo/larasail](https://github.com/thedevdojo/larasail) - LaraSail - Set Sail with your Laravel app on DigitalOcean
+- [wodby/mariadb](https://github.com/wodby/mariadb) - MariaDB docker container image
+- [webdevops/Dockerfile](https://github.com/webdevops/Dockerfile) - :package: Dockerfiles from WebDevOps for PHP, Apache and Nginx
+- [complexorganizations/wireguard-manager](https://github.com/complexorganizations/wireguard-manager) - ✔️ WireGuard-Manager is an innovative tool designed to streamline the deployment and management of WireGuard VPNs. Emphasizing user-friendliness and security, it simplifies the complexities of VPN con
+- [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes sources :ship::tada:
+- [prodrigestivill/docker-postgres-backup-local](https://github.com/prodrigestivill/docker-postgres-backup-local) - Backup PostgresSQL to local filesystem with periodic backups and rotate backups.
+- [erikespinoza/v4raider](https://github.com/erikespinoza/v4raider) - Wireguard + Traefik docker-compose file. Use VPS IPv4 Address in your homelab.
+- [EffectRenan/koha-docker](https://github.com/EffectRenan/koha-docker) - Koha Library Software - The world's first free and open source library system.
+- [bach-sh/bach](https://github.com/bach-sh/bach) - Unit testing framework for developing cross-platform Bash unit tests
+- [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.
+- [PeachFlame/cPanel-fixperms](https://github.com/PeachFlame/cPanel-fixperms) - A script to fix permissions & ownership, on files & directories, for cPanel accounts.
+- [aristocratos/bashtop](https://github.com/aristocratos/bashtop) - Linux/OSX/FreeBSD resource monitor
+- [mandiant/ioc-scanner-CVE-2019-19781](https://github.com/mandiant/ioc-scanner-CVE-2019-19781) - Indicator of Compromise Scanner for CVE-2019-19781
+- [cipi-sh/cipi](https://github.com/cipi-sh/cipi) - Easy Laravel Deployments
+- [DevinY/dlaravel](https://github.com/DevinY/dlaravel) - Laravel and Docker
+- [infostreams/db](https://github.com/infostreams/db) - Version control for databases: save, restore, and archive snapshots of your database from the command line
+- [dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible) - 📖 A collection of pure bash alternatives to external processes.
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python,
+- [inspircd/docker](https://github.com/inspircd/docker) - InspIRCd Docker image
+- [Powerlevel9k/powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) - Powerlevel9k was a tool for building a beautiful and highly functional CLI, customized for you. P9k had a substantial impact on CLI UX, and its legacy is now continued by P10k.
+- [termux/termux-packages](https://github.com/termux/termux-packages) - A package build system for Termux.
+
+## Smarty 
+
+- [janikgar/boundary-chart](https://github.com/janikgar/boundary-chart) - Helm chart for Hashicorp Boundary
+
+## Starlark 
+
+- [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) - 🥑  Language focused docker images, minus the operating system.
+
+## Svelte 
+
+- [nilskj/editable-website](https://github.com/nilskj/editable-website) - A SvelteKit template for building CMS-free editable websites
+- [leaningtech/webvm](https://github.com/leaningtech/webvm) - Virtual Machine for the Web
+
+## Swift 
+
+- [driceroland/Search](https://github.com/driceroland/Search) - A small, fast WebKit browser for macOS, by Office Commun.
+- [andrew-waters/orchard](https://github.com/andrew-waters/orchard) - The native UI for Apple Containers and (o)MLX sandboxes, written in swift as a replacement for docker desktop
+- [osaurus-ai/osaurus](https://github.com/osaurus-ai/osaurus) - Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.
+- [apple/container](https://github.com/apple/container) - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.
+- [johnbean393/Sidekick](https://github.com/johnbean393/Sidekick) - A native macOS app that allows users to chat with a local LLM that can respond with information from files, folders and websites on your Mac without installing any other software. Powered by llama.cpp
+- [srosro/deepspring-shellmate](https://github.com/srosro/deepspring-shellmate) - 
+- [singe/tidcli](https://github.com/singe/tidcli) - A simple touchID prompt'er for use in shell scripts.
+- [Stengo/DeskPad](https://github.com/Stengo/DeskPad) - A virtual monitor for screen sharing
+- [argmaxinc/argmax-oss-swift](https://github.com/argmaxinc/argmax-oss-swift) - On-device Speech AI for Apple Silicon
+- [openai/tart](https://github.com/openai/tart) - macOS and Linux VMs on Apple Silicon to use in CI and other automations
+- [MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl) - 🖥 Control your display's brightness & volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs.
+- [utmapp/UTM](https://github.com/utmapp/UTM) - Virtual machines for iOS and macOS
+- [DevToys-app/DevToysMac](https://github.com/DevToys-app/DevToysMac) - DevToys For mac
+- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) -  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.
+- [gao-sun/eul](https://github.com/gao-sun/eul) - 🖥️ macOS status monitoring app written in SwiftUI.
+- [gyf304/vmcli](https://github.com/gyf304/vmcli) - A set of utilities (vmcli + vmctl) for macOS Virtualization.framework
+- [ThasianX/ElegantTimeline-SwiftUI](https://github.com/ThasianX/ElegantTimeline-SwiftUI) - Elegant demonstration of a multi-faceted timeline view with interactions between the calendar, list, and app theme.
+- [maxgoedjen/secretive](https://github.com/maxgoedjen/secretive) - Protect your SSH keys with your Mac's Secure Enclave
+- [vanshg/MacAssistant](https://github.com/vanshg/MacAssistant) - Google Assistant for macOS!
+
+## Tcl 
+
+- [TPC-Council/HammerDB](https://github.com/TPC-Council/HammerDB) - HammerDB: The industry standard open-source database benchmark
+
+## TeX 
+
+- [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) - :page_facing_up: Awesome CV is LaTeX template for your outstanding job application
+
+## Twig 
+
+- [govCMS/GovCMS](https://github.com/govCMS/GovCMS) - Current Drupal release of the main GovCMS distribution, with releases mirrored at https://www.drupal.org/project/govcms
+
+## TypeScript 
+
+- [backnotprop/pstack](https://github.com/backnotprop/pstack) - Use pstack with claude, codex, pi - Skills and principles for rigorous AI-assisted engineering
+- [cloudflare/forge](https://github.com/cloudflare/forge) - 
+- [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) - Self-hosted email for humans and AI agents, entirely on Cloudflare
+- [dream-num/univer](https://github.com/dream-num/univer) - Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.
+- [cloudflare/kumo](https://github.com/cloudflare/kumo) - Cloudflare's component library for building modern web applications.
+- [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) - The unified toolchain and entry point for web development.
+- [BetterWright/betterwright](https://github.com/BetterWright/betterwright) - A persistent, policy-guarded Playwright browser for AI agents — network policy, encrypted credential vault, proof screenshots, and CAPTCHA solving.
+- [trailhq/Trail-Code](https://github.com/trailhq/Trail-Code) - One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.
+- [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - The open-source CapCut alternative
+- [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) - TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, s
+- [pingdotgg/t3code](https://github.com/pingdotgg/t3code) - 
+- [oblien/openship](https://github.com/oblien/openship) - Self-hosted deployment platform
+- [playcanvas/supersplat-viewer](https://github.com/playcanvas/supersplat-viewer) - User-friendly, high-performance viewer for 3D Gaussian splats
+- [tetherto/qvac](https://github.com/tetherto/qvac) - Open-source local AI SDK - run AI on-device with no cloud, no API keys. Supports GGUF, RAG, image, music, and video generation, speech-to-text, P2P inference, and more. Cross-platform: Linux, macOS, W
+- [garrytan/gstack](https://github.com/garrytan/gstack) - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
+- [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) - Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference
+- [liketrek/TREK](https://github.com/liketrek/TREK) - The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routin
+- [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) - Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
+- [emdash-cms/emdash](https://github.com/emdash-cms/emdash) - EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress
+- [shipzero/zero](https://github.com/shipzero/zero) - Deploy containers to your own server with one command. Automatic TLS, zero-downtime, no config.
+- [chenglou/pretext](https://github.com/chenglou/pretext) - Fast, accurate & comprehensive text measurement & layout
+- [maria-rcks/t1code](https://github.com/maria-rcks/t1code) - T3Code, but in your terminal
+- [joshcirre/instruckt](https://github.com/joshcirre/instruckt) - 
+- [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) - Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.
+- [vercel-labs/json-render](https://github.com/vercel-labs/json-render) - The Generative UI framework
+- [johannesjo/parallel-code](https://github.com/johannesjo/parallel-code) - Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree
+- [IgorShadurin/app.yumcut.com](https://github.com/IgorShadurin/app.yumcut.com) - YumCut - free AI video generator to turn a prompt into ready vertical videos for TikTok, Reels and YouTube Shorts. Auto script, scenes, voiceover, subtitles and watermark. Built with Next.js. Local-fi
+- [liriliri/aya](https://github.com/liriliri/aya) - Android ADB desktop app
+- [moazbuilds/CodeMachine-CLI](https://github.com/moazbuilds/CodeMachine-CLI) - CodeMachine is an open-source tool that orchestrates AI coding agents into repeatable, long-running workflows. ⚡️
+- [databasus/databasus](https://github.com/databasus/databasus) - PostgreSQL backup tool with Point-In-Time-Recovery and restore verification
+- [furybee/chrome-tab-modifier](https://github.com/furybee/chrome-tab-modifier) - Tabee: rename, re-icon, pin, group and mute Chrome tabs automatically with URL rules. Free and open source.
+- [kern/filepizza](https://github.com/kern/filepizza) - :pizza: Peer-to-peer file transfers in your browser
+- [frontendat/karagoz](https://github.com/frontendat/karagoz) - Karagöz Learning Tools
+- [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) - A Kubernetes web UI that is fully-featured, user-friendly and extensible
+- [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Product specific Cloudflare MCP servers
+- [usertour/usertour](https://github.com/usertour/usertour) - Usertour is an open-source user onboarding platform. It allows you to create in-app product tours, checklists, and surveys in minutes—effortlessly and with full control.The open-source alternative to 
+- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) - Playwright MCP server
+- [goatplatform/goatdb](https://github.com/goatplatform/goatdb) - A peer-to-peer database that spans devices. For apps and agents that work everywhere.
+- [jetkvm/kvm](https://github.com/jetkvm/kvm) - Control any computer remotely
+- [SouthBridgeAI/diagen](https://github.com/SouthBridgeAI/diagen) - 
+- [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) - The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
+- [n4ze3m/page-assist](https://github.com/n4ze3m/page-assist) - Use your locally running AI models to assist you in your web browsing
+- [earthstar-project/earthstar](https://github.com/earthstar-project/earthstar) - Storage for private, distributed, offline-first applications.
+- [aidenybai/react-scan](https://github.com/aidenybai/react-scan) - Scan and fix React performance issues
+- [sauravpanda/BrowserAI](https://github.com/sauravpanda/BrowserAI) - Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser
+- [codestoryai/aide](https://github.com/codestoryai/aide) - The open-source AI-native IDE
+- [Instawork/hyperview](https://github.com/Instawork/hyperview) - Server-driven mobile apps with React Native
+- [antiwork/shortest](https://github.com/antiwork/shortest) - QA via natural language AI tests
+- [campfireshuffle/authortrail](https://github.com/campfireshuffle/authortrail) - See all the files you have ever touched in a Git repo
+- [withastro/starlight](https://github.com/withastro/starlight) - 🌟 Build beautiful, accessible, high-performance documentation websites with Astro
+- [reltadev/github-assistant](https://github.com/reltadev/github-assistant) - Explore GitHub repositories with natural language questions
+- [xpf0000/FlyEnv](https://github.com/xpf0000/FlyEnv) - Native local development environment for Windows, macOS & Linux. A modern alternative to XAMPP, MAMP, Laragon and Laravel Herd, with runtimes, databases, web servers, local sites, HTTPS, AI coding too
+- [mastra-ai/mastra](https://github.com/mastra-ai/mastra) - Mastra is the modern TypeScript framework for AI-powered applications and agents.
+- [stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy) - Prompt, run, edit, and deploy full-stack web applications using any LLM you want!
+- [ant-design/x](https://github.com/ant-design/x) - Craft AI-driven interface effortlessly🤖
+- [callstackincubator/cali](https://github.com/callstackincubator/cali) - AI agent for building React Native apps
+- [tonghohin/screen-sharing](https://github.com/tonghohin/screen-sharing) - Share your screen with one simple room code. No downloads or sign-ups required.
+- [steel-dev/steel-browser](https://github.com/steel-dev/steel-browser) - 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.
+- [bluewave-labs/Checkmate](https://github.com/bluewave-labs/Checkmate) - Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: 
+- [browserbase/stagehand](https://github.com/browserbase/stagehand) - The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastra, and more.
+- [outerbase/studio](https://github.com/outerbase/studio) - A lightweight Database GUI in your browser. It supports connecting to Postgres, MySQL, and SQLite.
+- [my-badges/my-badges](https://github.com/my-badges/my-badges) - Google's Moma Badges for GitHub
+- [vltpkg/vsr](https://github.com/vltpkg/vsr) - a feature-rich, npm-compatible package registry
+- [fireproof-storage/fireproof](https://github.com/fireproof-storage/fireproof) - The vibe coding database runs in the browser, fits in the context window, and syncs anywhere.
+- [vercel/next-forge](https://github.com/vercel/next-forge) - Production-grade Turborepo template for Next.js apps.
+- [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - Docker container for managing Nginx proxy hosts with a simple, powerful interface
+- [molvqingtai/WebChat](https://github.com/molvqingtai/WebChat) - 💬 Chat with anyone on any website.
+- [mlc-ai/web-llm-chat](https://github.com/mlc-ai/web-llm-chat) - Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations.
+- [varse-io/varse](https://github.com/varse-io/varse) - A fast application config manager
+- [pgstack-io/pgstack](https://github.com/pgstack-io/pgstack) - Temporary recorded access to PostgreSQL
+- [getcronit/pylon](https://github.com/getcronit/pylon) - Enables TypeScript developers to easily build GraphQL APIs
+- [FrigadeHQ/trench](https://github.com/FrigadeHQ/trench) - Trench — Open-Source Analytics Infrastructure. A single production-ready Docker image built on ClickHouse, Kafka, and Node.js for tracking events. Easily build product analytics dashboards, LLM RAGs, 
+- [a-ghorbani/pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) - An app that brings language models directly to your phone.
+- [transitive-bullshit/openai-realtime-api](https://github.com/transitive-bullshit/openai-realtime-api) - TypeScript client for OpenAI's realtime voice API.
+- [yamadashy/repomix](https://github.com/yamadashy/repomix) - 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like C
+- [brisa-build/brisa](https://github.com/brisa-build/brisa) - The Web Platform Framework.
+- [urin/vscode-web-visual-editor](https://github.com/urin/vscode-web-visual-editor) - Edit HTML files visually.
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作
+- [openeverest/openeverest](https://github.com/openeverest/openeverest) - OpenEverest is an open-source platform for automated database, storage and LLMs provisioning and management. It supports multiple technologies and can be hosted on any Kubernetes infrastructure, in th
+- [elie222/inbox-zero](https://github.com/elie222/inbox-zero) - The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
+- [evolution-foundation/evolution-api](https://github.com/evolution-foundation/evolution-api) - Evolution API is an open-source WhatsApp integration API
+- [pulkitsharma07/OnlyHumans-Proxy](https://github.com/pulkitsharma07/OnlyHumans-Proxy) - An experimental AntiBot, AntiCrawl reverse proxy for serving simple static content.
+- [TahaSh/swapy](https://github.com/TahaSh/swapy) - ✨ A framework-agnostic tool that converts any layout into a drag-to-swap one with just a few lines of code https://swapy.tahazsh.com/
+- [loggerhead/json4u](https://github.com/loggerhead/json4u) - 
+- [haystackeditor/haystack-editor](https://github.com/haystackeditor/haystack-editor) - 
+- [yournextstore/yournextstore](https://github.com/yournextstore/yournextstore) - AI-Native Open-Source Next.js commerce. Powered by Stripe. Ultra fast with typesafe Commerce SDK. Built for AI development (Claude, Codex,   Cursor).
+- [gabrielpetersson/fast-grid](https://github.com/gabrielpetersson/fast-grid) - World's most performant DOM-based web table. Try it! fast-grid.vercel.app/
+- [dubinc/dub.link](https://github.com/dubinc/dub.link) - The modern link attribution platform. Loved by world-class engineering teams at Twilio, Zillow, Jobber, Vercel, Raycast, and more.
+- [Scthe/nanite-webgpu](https://github.com/Scthe/nanite-webgpu) - UE5's Nanite implementation using WebGPU. Includes the meshlet LOD hierarchy, software rasterizer and billboard impostors. Culling on both per-instance and per-meshlet basis.
+- [RamiAwar/dataline](https://github.com/RamiAwar/dataline) - Chat with your data - AI data analysis and visualization on CSV, Postgres, MySQL, Snowflake, SQLite...
+- [cline/cline](https://github.com/cline/cline) - Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+- [HeyPuter/puter](https://github.com/HeyPuter/puter) - 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.
+- [apify/crawlee](https://github.com/apify/crawlee) - Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and o
+- [metz-sh/simulacrum](https://github.com/metz-sh/simulacrum) - Code-playground to visualise complex engineering flows.
+- [morris/vanilla-prime](https://github.com/morris/vanilla-prime) - A simpler, more sustainable way of web development
+- [srcbookdev/srcbook](https://github.com/srcbookdev/srcbook) - TypeScript notebook
+- [dahlia/logtape](https://github.com/dahlia/logtape) - Unobtrusive logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions
+- [instantdb/instant](https://github.com/instantdb/instant) - Instant is the best backend for AI-coded apps.  You get auth, permissions, storage, presence, and streams — everything you need to ship apps your users will love.
+- [chartdb/chartdb](https://github.com/chartdb/chartdb) - Database diagrams editor that allows you to visualize and design your DB with a single query.
+- [formkit/formkit](https://github.com/formkit/formkit) - The form framework for coding agents
+- [TrafficGuard/typedai](https://github.com/TrafficGuard/typedai) - TypeScript AI platform with AI chat, Autonomous agents, Software developer agents, chatbots and more
+- [useplunk/plunk](https://github.com/useplunk/plunk) - The Open-Source Email Platform
+- [vitonsky/arrival-time](https://github.com/vitonsky/arrival-time) - Simple and powerful progress time estimation (ETA) for JavaScript
+- [opslane/opslane_old](https://github.com/opslane/opslane_old) - Run multiple Claude Code sessions in parallel
+- [step-security/harden-runner](https://github.com/step-security/harden-runner) - Harden-Runner is a CI/CD security agent that works like an EDR for GitHub Actions runners. It monitors network egress, file integrity, and process activity on those runners, detecting threats in real-
+- [shuding/nextra](https://github.com/shuding/nextra) - Simple, powerful and flexible site generation framework with everything you love from Next.js.
+- [getomni-ai/zerox](https://github.com/getomni-ai/zerox) - OCR & Document Extraction using vision models
+- [romansky/dom-to-semantic-markdown](https://github.com/romansky/dom-to-semantic-markdown) - DOM to Semantic-Markdown for use with LLMs
+- [beholdr/maska](https://github.com/beholdr/maska) - Simple zero-dependency input mask for Vue, Svelte, Alpine.js and vanilla JS.
+- [0xnyn/tinkerbird](https://github.com/0xnyn/tinkerbird) - Client Side Vector Database
+- [papermark/papermark](https://github.com/papermark/papermark) - Papermark is the open-source DocSend alternative  and secure data rooms with built-in analytics and custom domains.
+- [tone-row/flowchart-fun](https://github.com/tone-row/flowchart-fun) - Easily generate flowcharts and diagrams from text ⿻
+- [aieditor-team/AiEditor](https://github.com/aieditor-team/AiEditor) - AiEditor is a next-generation rich text editor for AI.
+- [RedPlanetHQ/tegon](https://github.com/RedPlanetHQ/tegon) - Tegon is an open-source, dev-first alternative to Jira, Linear
+- [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) - An AI agent that writes (actually useful) code for you
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Desig
+- [event-driven-io/Pongo](https://github.com/event-driven-io/Pongo) - Pongo - Mongo but on Postgres or SQLite, with strong consistency benefits
+- [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) - Open-source status page, incident response and uptime monitoring
+- [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) - Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.
+- [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) - ORM
+- [nlkitai/nlux](https://github.com/nlkitai/nlux) - The 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 Conversational AI JavaScript Library 💬 — UI for any LLM, supporting LangChain / HuggingFace / Vercel AI, and more 🧡 React, Next.js, and plain JavaScript ⭐️
+- [turbot/powerpipe](https://github.com/turbot/powerpipe) - Powerpipe: Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
+- [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) - Omnivore is a complete, open source read-it-later solution for people who like reading.
+- [jackyzha0/quartz](https://github.com/jackyzha0/quartz) - 🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites
+- [computing-den/unforget](https://github.com/computing-den/unforget) - Unforget is a minimalist end-to-end encrypted note-taking app without Electron.js
+- [hcengineering/platform](https://github.com/hcengineering/platform) - Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)
+- [cheeselemon/ophiuchi-desktop](https://github.com/cheeselemon/ophiuchi-desktop) - Localhost SSL Proxy Server Manager using Docker
+- [laudspeaker/laudspeaker](https://github.com/laudspeaker/laudspeaker) - 📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product
+- [iyaja/llama-fs](https://github.com/iyaja/llama-fs) - A self-organizing file system with llama 3
+- [0x2E/fusion](https://github.com/0x2E/fusion) - A lightweight, self-hosted friendly RSS reader
+- [SawyerHood/tlbrowse](https://github.com/SawyerHood/tlbrowse) - Generate imagined websites on an infinite canvas
+- [mnfst/llm-gateway](https://github.com/mnfst/llm-gateway) - Open Source LLM Gateway 🦚
+- [kubernetes-retired/kui](https://github.com/kubernetes-retired/kui) - A hybrid command-line/UI development experience for cloud-native development
+- [arcjet/arcjet-js](https://github.com/arcjet/arcjet-js) - Runtime security for AI apps and agents: prompt injection detection, tool-call authorization, sensitive-data redaction, bot protection, and rate limiting. Drop it into your JS/TS code.
+- [ragapp/ragapp](https://github.com/ragapp/ragapp) - The easiest way to use Agentic RAG in any enterprise
+- [wandb/openui](https://github.com/wandb/openui) - OpenUI let's you describe UI using your imagination, then see it rendered live.
+- [hudy9x/namviek](https://github.com/hudy9x/namviek) - The open-source project management tool for tiny teams
+- [Openpanel-dev/openpanel](https://github.com/Openpanel-dev/openpanel) - OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.
+- [activepieces/activepieces](https://github.com/activepieces/activepieces) - AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere
+- [opengovern/opensecurity](https://github.com/opengovern/opensecurity) - opensecurity: open-source security and compliance. See and secure your cloud, containers, code, networks, deployments, devices. Define your rules, get precise checks, fix gaps fast. Streamlined audits
+- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
+- [inkdrop-org/inkdrop-visualizer](https://github.com/inkdrop-org/inkdrop-visualizer) - Visualizes your Terraform
+- [teableio/teable](https://github.com/teableio/teable) - ✨ AI Spreadsheet for Business
+- [atlassian/pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop) - Fast drag and drop for any experience on any tech stack
+- [scalar/scalar](https://github.com/scalar/scalar) - Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) - 🙌 OpenHands: AI-Driven Development
+- [flydelabs/flyde](https://github.com/flydelabs/flyde) - Open-source Visual programming for backend logic that integrates with existing codebases. Flyde bridges the gap between technical and non-technical team members. Product managers, designers, and backe
+- [electric-sql/pglite](https://github.com/electric-sql/pglite) - Embeddable Postgres with real-time, reactive bindings.
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+- [immich-app/immich](https://github.com/immich-app/immich) - High performance self-hosted photo and video management solution.
+- [wxt-dev/wxt](https://github.com/wxt-dev/wxt) - ⚡ Next-gen Web Extension Framework
+- [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) - A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid,
+- [nitrojs/nitro](https://github.com/nitrojs/nitro) - Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.
+- [Everduin94/better-commits](https://github.com/Everduin94/better-commits) - A CLI for creating better commits following the conventional commits specification
+- [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
+- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.
+- [ykhli/local-ai-stack](https://github.com/ykhli/local-ai-stack) - A starter kit to build *local-only* AI apps that cost $0 to run -- starting with document Q&A. Written in Javascript
+- [retracedhq/retraced](https://github.com/retracedhq/retraced) - 🔥 A fully open source audit logs service and embeddable UI easily deployed to your own Kubernetes cluster. Brought to you by replicated.com and boxyhq.com  🚀
+- [boxyhq/saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - 🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀
+- [arianrhodsandlot/nostalgist](https://github.com/arianrhodsandlot/nostalgist) - A JavaScript library used for running emulators of retro consoles inside browsers.
+- [ClickHouse/ClickStack](https://github.com/ClickHouse/ClickStack) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.
+- [kac89/vulnrepo](https://github.com/kac89/vulnrepo) - VULNRΞPO - Free vulnerability report generator and repository, end-to-end encrypted! Templates of issues, CWE,CVE,MITRE ATT&CK,PCI DSS, import Nmap/Nessus/Burp/OpenVAS/Bugcrowd/Trivy, Jira export, TXT
+- [steven-tey/novel](https://github.com/steven-tey/novel) - Notion-style WYSIWYG editor with AI-powered autocompletion.
+- [mui/toolpad](https://github.com/mui/toolpad) - ⚠️ 𝐍𝐨𝐭 𝐚𝐜𝐭𝐢𝐯𝐞𝐥𝐲 𝐦𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 Toolpad: Full stack components and low-code builder for dashboards and internal apps.
+- [sourcegraph/cody-public-snapshot](https://github.com/sourcegraph/cody-public-snapshot) - Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code.
+- [artilleryio/artillery](https://github.com/artilleryio/artillery) - The complete load testing platform. Everything you need for production-grade load tests. Serverless & distributed. Load test with Playwright. Load test HTTP APIs, GraphQL, WebSocket, and more. Use any
+- [makeplane/plane](https://github.com/makeplane/plane) - 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
+- [stepci/garph](https://github.com/stepci/garph) - Fullstack GraphQL Framework for TypeScript
+- [heroui-inc/tailwind-variants](https://github.com/heroui-inc/tailwind-variants) - 🦄 Tailwindcss first-class variant API
+- [vue-vine/vue-vine](https://github.com/vue-vine/vue-vine) - Another style of writing Vue components.
+- [toeverything/blocksuite](https://github.com/toeverything/blocksuite) - 🧩 Content editing tech stack for the web - BlockSuite is a toolkit for building editors and collaborative applications.
+- [livecycle/preevy](https://github.com/livecycle/preevy) - Quickly deploy preview environments to the cloud!
+- [kuma-ui/kuma-ui](https://github.com/kuma-ui/kuma-ui) - 🐻‍❄️ A Headless, Utility-First, and Zero-Runtime UI Component Library ✨
+- [calcom/cal.diy](https://github.com/calcom/cal.diy) - Scheduling infrastructure for absolutely everyone.
+- [lukevella/rallly](https://github.com/lukevella/rallly) - Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier.
+- [openobserve/openobserve](https://github.com/openobserve/openobserve) - Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative t
+- [Sh4yy/cloudflare-email](https://github.com/Sh4yy/cloudflare-email) - This is a simple proxy server that can be used for sending free transactional emails through Cloudflare workers.
+- [aralroca/default-composer](https://github.com/aralroca/default-composer) - A tiny (~500B) JavaScript library that allows you to set default values for nested objects
+- [algolia/autocomplete](https://github.com/algolia/autocomplete) - 🔮 Fast and full-featured autocomplete library
+- [kubero-dev/kubero](https://github.com/kubero-dev/kubero) - A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes
+- [fern-api/fern](https://github.com/fern-api/fern) - Input OpenAPI. Output SDKs and Docs.
+- [hocus-dev/hocus](https://github.com/hocus-dev/hocus) - 🪄 Spin up ready-to-code, disposable dev environments on your own servers. Self-hosted alternative to Gitpod and Github Codespaces.
+- [nat/openplayground](https://github.com/nat/openplayground) - An LLM playground you can run on your laptop
+- [michael/editable](https://github.com/michael/editable) - The website you can edit on the page
+- [skeletonlabs/skeleton](https://github.com/skeletonlabs/skeleton) - Skeleton is an adaptive design system powered by Tailwind CSS.
+- [kyang6/llmparser](https://github.com/kyang6/llmparser) - Classify and extract structured data with LLMs
+- [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) - High-performance In-browser LLM Inference Engine
+- [nomic-ai/deepscatter](https://github.com/nomic-ai/deepscatter) - Zoomable, animated scatterplots in the browser that scales over a billion points
+- [ektogamat/camera-webgi](https://github.com/ektogamat/camera-webgi) - A template for buildind scrollable landing pages with Gsap, ScrollTrigger and webgi engine in typescript using parcel bundler.
+- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
+- [sergiodxa/remix-utils](https://github.com/sergiodxa/remix-utils) - A set of utility functions and types to use with Remix.run
+- [bitjson/qr-code](https://github.com/bitjson/qr-code) - A no-framework, no-dependencies, customizable, animate-able, SVG-based &lt;qr-code&gt; HTML element.
+- [meta/memlab](https://github.com/meta/memlab) - A framework for finding JavaScript memory leaks and analyzing heap snapshots
+- [jamsocket/driftdb](https://github.com/jamsocket/driftdb) - A real-time data backend for browser-based applications.
+- [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) - Trigger.dev – build and deploy durable AI agents and workflows
+- [scastiel/github-business-card](https://github.com/scastiel/github-business-card) - 
+- [solidjs/solid-start](https://github.com/solidjs/solid-start) - SolidStart, the Solid app framework
+- [sjmc11/tourguide-js](https://github.com/sjmc11/tourguide-js) - TourGuide is a Javascript library for creating user tours and on-boarding steps for your apps.
+- [Infisical/infisical](https://github.com/Infisical/infisical) - Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents.
+- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - This project is deprecated. Check my new project ChatHub:
+- [f5/unovis](https://github.com/f5/unovis) - Modular data visualization framework for React, Angular, Svelte, Vue, and vanilla TypeScript or JavaScript
+- [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) - A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
+- [microfeed/microfeed](https://github.com/microfeed/microfeed) - an agentic cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.
+- [swve/gitstory](https://github.com/swve/gitstory) - Internet's Git Visual Time Machine 🕰
+- [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) - Open-source infrastructure and data orchestration platform for risk decisioning
+- [eritislami/evobot](https://github.com/eritislami/evobot) - 🤖 EvoBot is a Discord Music Bot built with TypeScript + Discord.js, includes Docker builds & localization in 20+ languages
+- [capri-js/capri](https://github.com/capri-js/capri) - Build static sites with interactive islands
+- [nachoaldamav/ultra](https://github.com/nachoaldamav/ultra) - JavaScript package manager
+- [nut-tree/nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node
+- [antfu-collective/ni](https://github.com/antfu-collective/ni) - 💡 Use the right package manager
+- [buildship-ai/rowy](https://github.com/buildship-ai/rowy) - Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.
+- [honojs/hono](https://github.com/honojs/hono) - Web framework built on Web Standards
+- [soketi/soketi](https://github.com/soketi/soketi) - Next-gen, Pusher-compatible, open-source WebSockets server. Simple, fast, and resilient. 📣
+- [ts-safeql/safeql](https://github.com/ts-safeql/safeql) - Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL.
+- [vercel/satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
+- [garden-io/garden](https://github.com/garden-io/garden) - Automation for Kubernetes development and testing. Spin up production-like environments for development, testing, and CI on demand. Use the same configuration and workflows at every step of the proces
+- [getumbrel/umbrel](https://github.com/getumbrel/umbrel) - An elegant home server OS. Run AI agents, store your files, backup your photos, and do more with over 300 apps in the Umbrel App Store.
+- [SurajMazar/chess](https://github.com/SurajMazar/chess) - Chess game
+- [oramasearch/orama](https://github.com/oramasearch/orama) - 🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.
+- [ar-nelson/spartan-schema](https://github.com/ar-nelson/spartan-schema) - Ultra-minimal JSON schemas with Typescript inference
+- [formkit/auto-animate](https://github.com/formkit/auto-animate) - A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
+- [trpc/trpc](https://github.com/trpc/trpc) - 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
+- [chakra-ui/zag](https://github.com/chakra-ui/zag) - Build your design system in React, Solid, Vue, Svelte or Vanilla. Powered by finite state machines
+- [google/wireit](https://github.com/google/wireit) - Wireit upgrades your npm/pnpm/yarn scripts to make them smarter and more efficient.
+- [actualbudget/actual](https://github.com/actualbudget/actual) - A local-first personal finance app
+- [ruilisi/fortune-sheet](https://github.com/ruilisi/fortune-sheet) - A drop-in javascript spreadsheet library that provides rich features like Excel and Google Sheets
+- [gregordr/ImageStore](https://github.com/gregordr/ImageStore) - Open source google photos alternative!
+- [GriffinJohnston/ldrs](https://github.com/GriffinJohnston/ldrs) - Modern, minimalist loaders & spinners. Made with CSS, HTML and SVG. https://uiball.com/ldrs
+- [meta/lexical](https://github.com/meta/lexical) - Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance.
+- [eclipse-che/che](https://github.com/eclipse-che/che) - Kubernetes based Cloud Development Environments for Enterprise Teams
+- [mantinedev/mantine](https://github.com/mantinedev/mantine) - A fully featured React components library
+- [javascriptdata/danfojs](https://github.com/javascriptdata/danfojs) - Danfo.js is an open source, JavaScript library providing high performance, intuitive, and easy to use data structures for manipulating and processing structured data.
+- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia
+- [amplication/amplication](https://github.com/amplication/amplication) - Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, si
+- [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) - Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.
+- [Ninroot/nacre](https://github.com/Ninroot/nacre) - Intuitive Shell
+- [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) - A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins.
+- [growthbook/growthbook](https://github.com/growthbook/growthbook) - Open Source Feature Flags, Experimentation, and Product Analytics
+- [QwikDev/qwik](https://github.com/QwikDev/qwik) - Instant-loading web apps, without effort
+- [ashutosh1919/react-awesome-shapes](https://github.com/ashutosh1919/react-awesome-shapes) - 🌀 Insert Awesome Shapes into Your React Site with Ease.
+- [vitejs/vite](https://github.com/vitejs/vite) - Next generation frontend tooling. It's fast!
+- [Budibase/budibase](https://github.com/Budibase/budibase) - AI agents, automations and apps that run your operations. Model agnostic.
+- [vueuse/vueuse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities for Vue 3
+- [GrapesJS/grapesjs](https://github.com/GrapesJS/grapesjs) - Free and Open source Web Builder Framework. Next generation tool for building templates without coding
+- [BerlinChan/askent](https://github.com/BerlinChan/askent) - A simple interaction and presentation tool, a clone of Sli.do.
+- [NickMandylas/start-a-conversation](https://github.com/NickMandylas/start-a-conversation) - A service that randomly matches users in a one-on-one phone conversion, where they can chat anonymously.
+- [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
+- [reck1ess/next-realworld-example-app](https://github.com/reck1ess/next-realworld-example-app) - Exemplary real world application built with Next.js + SWR
+- [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Independent technology for modern publishing, memberships, subscriptions and newsletters.
+- [Unleash/unleash](https://github.com/Unleash/unleash) - Open-source feature management platform
+- [alfirmanpahlepi/google-form-clone](https://github.com/alfirmanpahlepi/google-form-clone) - google forms clone
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.
+- [ericellb/React-Discord-Clone](https://github.com/ericellb/React-Discord-Clone) - Discord Clone using React, Node, Express, Socket-IO and Mysql
+- [benawad/dogehouse](https://github.com/benawad/dogehouse) - Taking voice conversations to the moon 🚀
+- [shubhsk88/realbnb-frontend](https://github.com/shubhsk88/realbnb-frontend) - 
+- [openreplay/openreplay](https://github.com/openreplay/openreplay) - Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product.
+- [vercel/platforms](https://github.com/vercel/platforms) - A full-stack Next.js app with multi-tenancy.
+- [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) - Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more.
+- [taybenlor/runno](https://github.com/taybenlor/runno) - Sandboxed runtime for programming languages and WASI binaries. Works in the browser, on your server, or via MCP.
+- [rrweb-io/rrweb](https://github.com/rrweb-io/rrweb) - record and replay the web
+- [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy) - The easiest way to run WireGuard VPN + Web-based Admin UI.
+- [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) - Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.
+- [rematch/rematch](https://github.com/rematch/rematch) - The Redux Framework
+- [jovotech/jovo-framework](https://github.com/jovotech/jovo-framework) - 🔈 The React for Voice and Chat: Build Apps for Alexa, Messenger, Instagram, the Web, and more
+- [medusajs/medusa](https://github.com/medusajs/medusa) - The world's most flexible commerce platform for agents and developers
+- [novuhq/novu](https://github.com/novuhq/novu) - The open-source communication infrastructure for agents and products
+- [oslabs-beta/navigate](https://github.com/oslabs-beta/navigate) - A Kubernetes cluster visualizer for DevOps engineers - network policies, aggregated scheduler logs, deployments and pods before your cluster is running!
+- [dblens/app](https://github.com/dblens/app) - Database explorer for Mac, Windows & Linux
+- [QwikDev/partytown](https://github.com/QwikDev/partytown) - Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉
+- [vercel/commerce](https://github.com/vercel/commerce) - Next.js Commerce
+- [meta/docusaurus](https://github.com/meta/docusaurus) - Easy to maintain open source documentation websites.
+- [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) - The headless rich text editor framework for web artisans.
+- [supabase/ui](https://github.com/supabase/ui) - Supabase UI Library
+- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log mana
+- [opstrace/opstrace](https://github.com/opstrace/opstrace) - The Open Source Observability Distribution
+- [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) - 🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
+- [pubkey/rxdb](https://github.com/pubkey/rxdb) - The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/
+- [VulcanJS/vulcan-next](https://github.com/VulcanJS/vulcan-next) - The Next starter for GraphQL developers
+- [prisma/orm](https://github.com/prisma/orm) - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
+- [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative
+- [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
+- [tinacms/tinacms](https://github.com/tinacms/tinacms) - TinaCMS is the leading open-source headless CMS that supports Markdown and Visual Editing. Your content is stored in your own GitHub repo 🦙 ❤️
+- [gridaco/grida](https://github.com/gridaco/grida) - Grida — Open Canvas
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more
+- [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
+- [pavlobu/deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer. ⭐️ Star to support our work!
+- [microsoft/playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+- [getmeli/meli](https://github.com/getmeli/meli) - Platform for deploying static sites and frontend applications easily. Automatic SSL, deploy previews, reverse proxy, and more.
+- [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
+- [NangoHQ/nango](https://github.com/NangoHQ/nango) - Connect your agents & product to 1,000 APIs.
+- [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.
+- [abhivaikar/howtheytest](https://github.com/abhivaikar/howtheytest) - A collection of public resources about how software companies test their software
+- [bernaferrari/FigmaToCode](https://github.com/bernaferrari/FigmaToCode) - Generate responsive pages and apps on HTML, Tailwind, Flutter and SwiftUI.
+- [homebridge/homebridge](https://github.com/homebridge/homebridge) - HomeKit support for the impatient.
+- [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) - A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
+- [puncoz-official/nepali-datepicker-reactjs](https://github.com/puncoz-official/nepali-datepicker-reactjs) - Nepali Datepicker (Bikram Sambat) as a ReactJS component
+- [directus/directus](https://github.com/directus/directus) - The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
+- [supabase/supabase](https://github.com/supabase/supabase) - The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
+- [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) - Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
+- [coreui/coreui-icons](https://github.com/coreui/coreui-icons) - CoreUI Free Icons -  Premium designed free icon set with marks in SVG, Webfont and raster formats
+- [tmdh/laravel-kit](https://github.com/tmdh/laravel-kit) - A desktop Laravel admin panel app
+- [avored/laravel-ecommerce](https://github.com/avored/laravel-ecommerce) - AvoRed an Open Source Laravel Shopping Cart
+- [floccusaddon/floccus](https://github.com/floccusaddon/floccus) - :cloud: Sync your bookmarks privately across browsers and devices
+- [pshihn/sockly](https://github.com/pshihn/sockly) - 
+- [sinclairzx81/zero](https://github.com/sinclairzx81/zero) - A 3D renderer written in JavaScript and rendered to the terminal.
+- [caprover/caprover](https://github.com/caprover/caprover) - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids
+- [rstacruz/cheatsheets](https://github.com/rstacruz/cheatsheets) - Cheatsheets for web development - devhints.io
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon is your open-source personal assistant.
+- [coder/code-server](https://github.com/coder/code-server) - VS Code in the browser
+- [vuejs/vue](https://github.com/vuejs/vue) - This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core
+- [adonisjs/core](https://github.com/adonisjs/core) - AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more.
+
+## Vue 
+
+- [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) - 全面ESM+Vue3+Vite+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+- [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) - Collection of handy online tools for developers, with great UX.
+- [gobrightspot/nova-detached-actions](https://github.com/gobrightspot/nova-detached-actions) - A Laravel Nova tool to allow for placing actions in the Nova toolbar detached from the checkbox selection mechanism.
+- [Hanziness/FocusTide](https://github.com/Hanziness/FocusTide) - Modern and customizable productivity timer app that runs in your browser.
+- [InfinetyEs/Nova-Filemanager](https://github.com/InfinetyEs/Nova-Filemanager) - A Filemanager tool for Laravel Nova
+- [wobsoriano/vue-keep](https://github.com/wobsoriano/vue-keep) - Google Keep clone with Vue, Typescript and Firestore
+- [bastienwirtz/homer](https://github.com/bastienwirtz/homer) - A very simple static homepage for your server.
+- [themsaid/wink](https://github.com/themsaid/wink) - A Laravel-based publishing platform
+- [lesspod/lesspod-2.0](https://github.com/lesspod/lesspod-2.0) - Serverless CMS (Currently In Development)
+- [64robots/nova-fields](https://github.com/64robots/nova-fields) - A collection of customizable Nova Fields.
+- [Hoogkamer/vue-org-chart](https://github.com/Hoogkamer/vue-org-chart) - Manage and publish your interactive organization chart (orgchart), 100% free and no install required: just copy a folder to any location
+- [JayeshLab/vue-crypto-dashboard](https://github.com/JayeshLab/vue-crypto-dashboard) - Cryptocurrency Dashboard made with Vue
+- [ivanlori/Vuemmerce](https://github.com/ivanlori/Vuemmerce) - Responsive ecommerce template built with Vue.js and Nuxt.js
+- [rash0/Vue-Ecom](https://github.com/rash0/Vue-Ecom) - ✨ Full StoreFront built with Nuxt 3 + Pinia 2✨
+- [larecipe/larecipe-swagger](https://github.com/larecipe/larecipe-swagger) - Live API Testing Inside Your Documentation
+
+## YAML 
+
+- [k3s-io/k3s-ansible](https://github.com/k3s-io/k3s-ansible) - 
+
+## Zig 
+
+- [vercel-labs/native](https://github.com/vercel-labs/native) - Toolkit for building native desktop apps
+- [justrach/merjs](https://github.com/justrach/merjs) - A Zig-native web framework. File-based routing, SSR, type-safe APIs, WASM client interactivity. No Node. No npm. Just zig build serve.
+- [ziglang/zig](https://github.com/ziglang/zig) - Moved to Codeberg
+- [lightpanda-io/browser](https://github.com/lightpanda-io/browser) - Lightpanda: the headless browser designed for AI and automation
+
+
+## License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [bikramtuladhar](https://github.com/bikramtuladhar) has waived all copyright and related or neighboring rights to this work.
+
