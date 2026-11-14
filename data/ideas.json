@@ -1,5 +1,5 @@
 {
-  "total_repos_covered": 1729,
+  "total_repos_covered": 1732,
   "total_slots": 40,
   "total_ideas": 40,
   "slots": {
@@ -5471,7 +5471,7 @@
       "id": "slot_vue_svelte",
       "name": "Vue, Svelte & Reactive UI Frameworks",
       "icon": "\u2728",
-      "count": 42,
+      "count": 43,
       "repos": [
         {
           "full_name": "BuilderIO/mitosis",
@@ -5774,6 +5774,14 @@
           "url": "https://github.com/yudax42/vue-upload-drop-images",
           "description": "\ud83d\uddbc\ufe0f Drag-and-drop image upload component for Vue",
           "language": "Others",
+          "role": "UI & Presentation Layer",
+          "category_id": "ui-generative-ux"
+        },
+        {
+          "full_name": "YusufCeng1z/ding",
+          "url": "https://github.com/YusufCeng1z/ding",
+          "description": "Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue and plain DOM.",
+          "language": "TypeScript",
           "role": "UI & Presentation Layer",
           "category_id": "ui-generative-ux"
         },
@@ -6239,7 +6247,7 @@
       "id": "slot_postgres_sql",
       "name": "PostgreSQL Extensions, Distributed SQL & Migrations",
       "icon": "\ud83d\udc18",
-      "count": 106,
+      "count": 107,
       "repos": [
         {
           "full_name": "prisma/orm",
@@ -6902,6 +6910,14 @@
           "url": "https://github.com/dolthub/doltgresql",
           "description": "DoltgreSQL - Version Controlled PostgreSQL",
           "language": "Go",
+          "role": "Data Persistence & State Management",
+          "category_id": "data-storage-cache"
+        },
+        {
+          "full_name": "electric-sql/electric-pglite",
+          "url": "https://github.com/electric-sql/electric-pglite",
+          "description": "Embeddable Postgres with real-time, reactive bindings.",
+          "language": "TypeScript",
           "role": "Data Persistence & State Management",
           "category_id": "data-storage-cache"
         },
@@ -10919,7 +10935,7 @@
       "id": "slot_macos_linux",
       "name": "macOS, Linux Kernel, System Utilities & Hardware",
       "icon": "\ud83c\udf4e",
-      "count": 42,
+      "count": 43,
       "repos": [
         {
           "full_name": "canonical/multipass",
@@ -11126,6 +11142,14 @@
           "url": "https://github.com/darlinghq/darling",
           "description": "Darwin/macOS emulation layer for Linux",
           "language": "Objective-C",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
+        },
+        {
+          "full_name": "derekross/omarchy-mobile",
+          "url": "https://github.com/derekross/omarchy-mobile",
+          "description": "Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress)",
+          "language": "Shell",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
         },
@@ -14328,7 +14352,7 @@
           "slot_id": "slot_postgres_sql",
           "slot_name": "PostgreSQL Extensions, Distributed SQL & Migrations",
           "slot_icon": "\ud83d\udc18",
-          "total_alternatives": 106,
+          "total_alternatives": 107,
           "default_repo": {
             "full_name": "prisma/orm",
             "url": "https://github.com/prisma/orm",
@@ -14816,7 +14840,7 @@
           "slot_id": "slot_vue_svelte",
           "slot_name": "Vue, Svelte & Reactive UI Frameworks",
           "slot_icon": "\u2728",
-          "total_alternatives": 42,
+          "total_alternatives": 43,
           "default_repo": {
             "full_name": "BuilderIO/mitosis",
             "url": "https://github.com/BuilderIO/mitosis",
@@ -14938,7 +14962,7 @@
           "slot_id": "slot_postgres_sql",
           "slot_name": "PostgreSQL Extensions, Distributed SQL & Migrations",
           "slot_icon": "\ud83d\udc18",
-          "total_alternatives": 106,
+          "total_alternatives": 107,
           "default_repo": {
             "full_name": "prisma/orm",
             "url": "https://github.com/prisma/orm",
@@ -15060,7 +15084,7 @@
           "slot_id": "slot_postgres_sql",
           "slot_name": "PostgreSQL Extensions, Distributed SQL & Migrations",
           "slot_icon": "\ud83d\udc18",
-          "total_alternatives": 106,
+          "total_alternatives": 107,
           "default_repo": {
             "full_name": "prisma/orm",
             "url": "https://github.com/prisma/orm",
@@ -15209,13 +15233,13 @@
       "monetization": "$12/seat/mo team collaboration SaaS.",
       "primary_slot_name": "Vue, Svelte & Reactive UI Frameworks",
       "primary_slot_icon": "\u2728",
-      "primary_repo_count": 42,
+      "primary_repo_count": 43,
       "slot_details": [
         {
           "slot_id": "slot_vue_svelte",
           "slot_name": "Vue, Svelte & Reactive UI Frameworks",
           "slot_icon": "\u2728",
-          "total_alternatives": 42,
+          "total_alternatives": 43,
           "default_repo": {
             "full_name": "BuilderIO/mitosis",
             "url": "https://github.com/BuilderIO/mitosis",
@@ -15392,13 +15416,13 @@
       "monetization": "Usage-based cloud DBaaS ($99\u2013$1,500/mo per cluster).",
       "primary_slot_name": "PostgreSQL Extensions, Distributed SQL & Migrations",
       "primary_slot_icon": "\ud83d\udc18",
-      "primary_repo_count": 106,
+      "primary_repo_count": 107,
       "slot_details": [
         {
           "slot_id": "slot_postgres_sql",
           "slot_name": "PostgreSQL Extensions, Distributed SQL & Migrations",
           "slot_icon": "\ud83d\udc18",
-          "total_alternatives": 106,
+          "total_alternatives": 107,
           "default_repo": {
             "full_name": "prisma/orm",
             "url": "https://github.com/prisma/orm",
@@ -15914,7 +15938,7 @@
           "slot_id": "slot_postgres_sql",
           "slot_name": "PostgreSQL Extensions, Distributed SQL & Migrations",
           "slot_icon": "\ud83d\udc18",
-          "total_alternatives": 106,
+          "total_alternatives": 107,
           "default_repo": {
             "full_name": "prisma/orm",
             "url": "https://github.com/prisma/orm",
@@ -15975,7 +15999,7 @@
           "slot_id": "slot_postgres_sql",
           "slot_name": "PostgreSQL Extensions, Distributed SQL & Migrations",
           "slot_icon": "\ud83d\udc18",
-          "total_alternatives": 106,
+          "total_alternatives": 107,
           "default_repo": {
             "full_name": "prisma/orm",
             "url": "https://github.com/prisma/orm",
@@ -16063,13 +16087,13 @@
       "monetization": "$29 pro power-user system utility bundle.",
       "primary_slot_name": "macOS, Linux Kernel, System Utilities & Hardware",
       "primary_slot_icon": "\ud83c\udf4e",
-      "primary_repo_count": 42,
+      "primary_repo_count": 43,
       "slot_details": [
         {
           "slot_id": "slot_macos_linux",
           "slot_name": "macOS, Linux Kernel, System Utilities & Hardware",
           "slot_icon": "\ud83c\udf4e",
-          "total_alternatives": 42,
+          "total_alternatives": 43,
           "default_repo": {
             "full_name": "canonical/multipass",
             "url": "https://github.com/canonical/multipass",
@@ -16463,7 +16487,7 @@
           "slot_id": "slot_postgres_sql",
           "slot_name": "PostgreSQL Extensions, Distributed SQL & Migrations",
           "slot_icon": "\ud83d\udc18",
-          "total_alternatives": 106,
+          "total_alternatives": 107,
           "default_repo": {
             "full_name": "prisma/orm",
             "url": "https://github.com/prisma/orm",

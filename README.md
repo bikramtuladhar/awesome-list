@@ -5,10 +5,10 @@
 **Live Interactive Catalog, Idea Swapper & Combiner:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨
 **Full 40 Product Ideas & 1,729-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡
 
-![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1729-blue.svg?style=flat-square) 
+![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1732-blue.svg?style=flat-square) 
 ![Product Ideas](https://img.shields.io/badge/Swappable_Product_Ideas-40_(100%25_Coverage)-emerald.svg?style=flat-square) 
 ![Auto Updated](https://img.shields.io/badge/AI_Classification-Google_Gemini-4285F4.svg?style=flat-square) 
-![Last Updated](https://img.shields.io/badge/Updated-2026-11-13-success.svg?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Updated-2026-11-14-success.svg?style=flat-square)
 
 ---
 
@@ -103,12 +103,12 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 - [🤖 AI & Autonomous Agents (243)](#ai-agents)
 - [🔍 RAG, Vector & Data Ingestion (35)](#rag-data-ingestion)
 - [🚀 SaaS Starters & App Boilerplates (32)](#saas-starters)
-- [🎨 UI Kits, Generative UX & Dashboards (159)](#ui-generative-ux)
+- [🎨 UI Kits, Generative UX & Dashboards (160)](#ui-generative-ux)
 - [⚡ APIs, Workflow Automation & Webhooks (77)](#apis-automation)
-- [💾 Databases, Caching & Realtime State (122)](#data-storage-cache)
+- [💾 Databases, Caching & Realtime State (123)](#data-storage-cache)
 - [🛡️ Security, Privacy & Auth Utilities (87)](#security-privacy)
 - [📦 DevOps, Sandboxes & Cloud Infra (193)](#devops-infra)
-- [🛠️ Developer Tooling & Terminal Utilities (703)](#devtools-terminal)
+- [🛠️ Developer Tooling & Terminal Utilities (704)](#devtools-terminal)
 - [💡 Ready-to-Remix Products & Self-Hosted Apps (78)](#ready-to-remix)
 
 ---
@@ -447,7 +447,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[ivanlori/Vuemmerce](https://github.com/ivanlori/Vuemmerce)** | `Fullstack SaaS Boilerplate` | `Vue` | Responsive ecommerce template built with Vue.js and Nuxt.js | *Launch a paid micro-SaaS in 48 hours* |
 
 
-## <a id="ui-generative-ux"></a>🎨 UI Kits, Generative UX & Dashboards `(159)`
+## <a id="ui-generative-ux"></a>🎨 UI Kits, Generative UX & Dashboards `(160)`
 
 > *Tailwind component kits, generative UI chat widgets, node/canvas editors, and analytics dashboards.*
 
@@ -612,6 +612,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[Hoogkamer/vue-org-chart](https://github.com/Hoogkamer/vue-org-chart)** | `UI & Presentation Layer` | `Vue` | Manage and publish your interactive organization chart (orgchart), 100% free and no install required: just copy a folder to any location | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
 | **[JayeshLab/vue-crypto-dashboard](https://github.com/JayeshLab/vue-crypto-dashboard)** | `UI & Presentation Layer` | `Vue` | Cryptocurrency Dashboard made with Vue | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
 | **[rash0/Vue-Ecom](https://github.com/rash0/Vue-Ecom)** | `UI & Presentation Layer` | `Vue` | ✨ Full StoreFront built with Nuxt 3 + Pinia 2✨ | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
+| **[YusufCeng1z/ding](https://github.com/YusufCeng1z/ding)** | `UI & Presentation Layer` | `TypeScript` | Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue and plain DOM. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
 
 
 ## <a id="apis-automation"></a>⚡ APIs, Workflow Automation & Webhooks `(77)`
@@ -699,7 +700,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[lightpanda-io/browser](https://github.com/lightpanda-io/browser)** | `Workflow & Webhook Automation` | `Zig` | Lightpanda: the headless browser designed for AI and automation | *Orchestrate cross-API actions triggered by webhooks* |
 
 
-## <a id="data-storage-cache"></a>💾 Databases, Caching & Realtime State `(122)`
+## <a id="data-storage-cache"></a>💾 Databases, Caching & Realtime State `(123)`
 
 > *Fast key-value caches, SQLite edge engines, distributed SQL, Valkey/Redis forks, and realtime pub/sub.*
 
@@ -827,6 +828,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[nocodb/nocodb](https://github.com/nocodb/nocodb)** | `Data Persistence & State Management` | `TypeScript` | 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
 | **[directus/directus](https://github.com/directus/directus)** | `Data Persistence & State Management` | `TypeScript` | The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
 | **[supabase/supabase](https://github.com/supabase/supabase)** | `Data Persistence & State Management` | `TypeScript` | The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
+| **[electric-sql/electric-pglite](https://github.com/electric-sql/electric-pglite)** | `Data Persistence & State Management` | `TypeScript` | Embeddable Postgres with real-time, reactive bindings. | *Combine this Data Persistence & State Management with an agent orchestrator and modern UI* |
 
 
 ## <a id="security-privacy"></a>🛡️ Security, Privacy & Auth Utilities `(87)`
@@ -1125,7 +1127,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[justrach/merjs](https://github.com/justrach/merjs)** | `Infrastructure & Execution Sandbox` | `Zig` | A Zig-native web framework. File-based routing, SSR, type-safe APIs, WASM client interactivity. No Node. No npm. Just zig build serve. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
 
 
-## <a id="devtools-terminal"></a>🛠️ Developer Tooling & Terminal Utilities `(703)`
+## <a id="devtools-terminal"></a>🛠️ Developer Tooling & Terminal Utilities `(704)`
 
 > *CLI power tools, TUI interfaces, profilers, debuggers, code formatters, and terminal sharing.*
 
@@ -1834,6 +1836,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[larecipe/larecipe-swagger](https://github.com/larecipe/larecipe-swagger)** | `Developer Productivity & Tooling` | `Vue` | Live API Testing Inside Your Documentation | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[vercel-labs/native](https://github.com/vercel-labs/native)** | `Developer Productivity & Tooling` | `Zig` | Toolkit for building native desktop apps | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[ziglang/zig](https://github.com/ziglang/zig)** | `Developer Productivity & Tooling` | `Zig` | Moved to Codeberg | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
+| **[derekross/omarchy-mobile](https://github.com/derekross/omarchy-mobile)** | `Developer Productivity & Tooling` | `Shell` | Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 
 
 ## <a id="ready-to-remix"></a>💡 Ready-to-Remix Products & Self-Hosted Apps `(78)`

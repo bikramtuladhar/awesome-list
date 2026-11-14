@@ -1,6 +1,6 @@
 # 💡 Complete Product Ideas & Swap Matrix (100% Repository Coverage)
 
-> **Every single one of the 1729 starred repositories** is mapped into **40 Product Ideas** and **40 Interchangeable Functional Slots**.
+> **Every single one of the 1732 starred repositories** is mapped into **40 Product Ideas** and **40 Interchangeable Functional Slots**.
 > You can swap any repository with a similar alternative in the same slot, or combine multiple ideas into an entirely new super-product!
 
 **Interactive Idea Swapper & Combiner:** [Open Live in index.html](https://bikramtuladhar.github.io/awesome-list/) ✨
@@ -28,10 +28,10 @@
 | 15 | **[Usage-Based AI Token Metering, Billing & Feature Flag Engine](#idea-15)** | `FinTech & Monetization` | 💳 Usage Metering, Subscriptions & Billing | **3 repos** |
 | 16 | **[Generative UI Component Studio & Tailwind Theme Builder](#idea-16)** | `Frontend & Design Systems` | 🎨 Tailwind CSS, Component Kits & Design Systems | **40 repos** |
 | 17 | **[Edge-Rendered Next.js E-Commerce & Content Engine](#idea-17)** | `Modern Web & Jamstack` | ⚛️ React, Next.js & Modern Frontend Stacks | **68 repos** |
-| 18 | **[Reactive Real-Time Collaborative Whiteboards & Micro-Apps](#idea-18)** | `Reactive Frontend` | ✨ Vue, Svelte & Reactive UI Frameworks | **42 repos** |
+| 18 | **[Reactive Real-Time Collaborative Whiteboards & Micro-Apps](#idea-18)** | `Reactive Frontend` | ✨ Vue, Svelte & Reactive UI Frameworks | **43 repos** |
 | 19 | **[Visual Node-Graph Workflow Builder & 3D Data Explorer](#idea-19)** | `Visual Programming & 3D` | 📊 Interactive Canvas, 3D WebGL & Data Visualization | **12 repos** |
 | 20 | **[Cross-Platform Offline-First Field Service Mobile Suite](#idea-20)** | `Mobile & Desktop Apps` | 📱 Mobile, iOS, Android & Cross-Platform Apps | **39 repos** |
-| 21 | **[Distributed Graph + Columnar Cloud Database Platform](#idea-21)** | `Database Infrastructure` | 🐘 PostgreSQL Extensions, Distributed SQL & Migrations | **106 repos** |
+| 21 | **[Distributed Graph + Columnar Cloud Database Platform](#idea-21)** | `Database Infrastructure` | 🐘 PostgreSQL Extensions, Distributed SQL & Migrations | **107 repos** |
 | 22 | **[Zero-Config Browser-to-Edge SQLite Analytics Workbench](#idea-22)** | `Local-First Data & Edge` | 🗄️ SQLite Engines, Embedded DBs & Local Storage | **11 repos** |
 | 23 | **[Sub-Millisecond Reactive Cache & Live Query Subscription Engine](#idea-23)** | `High-Speed Caching` | 🚀 In-Memory Cache, Redis/Valkey & KV Engines | **3 repos** |
 | 24 | **[High-Throughput gRPC / REST API Gateway & SSE Push Hub](#idea-24)** | `APIs & Realtime Messaging` | 📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways | **53 repos** |
@@ -42,7 +42,7 @@
 | 29 | **[Zero-Instrumentation eBPF Observability & Privacy Analytics Suite](#idea-29)** | `Observability & Telemetry` | 📈 Observability, eBPF Telemetry, Logs & Analytics | **22 repos** |
 | 30 | **[Continuous API Pentesting, Bot Firewall & SOC2 Audit Appliance](#idea-30)** | `Cybersecurity & Compliance` | 🛡️ Cybersecurity, Pentesting, Bot Defense & Auditing | **47 repos** |
 | 31 | **[Collaborative Browser Terminal Workbench & TUI Command Center](#idea-31)** | `Terminal & CLI Power Tools` | ⌨️ Modern Terminals, Web Shells & TUI Dashboards | **70 repos** |
-| 32 | **[Apple Silicon / Linux Hardware Telemetry & Embedded AI Lab](#idea-32)** | `Systems, OS & Embedded` | 🍎 macOS, Linux Kernel, System Utilities & Hardware | **42 repos** |
+| 32 | **[Apple Silicon / Linux Hardware Telemetry & Embedded AI Lab](#idea-32)** | `Systems, OS & Embedded` | 🍎 macOS, Linux Kernel, System Utilities & Hardware | **43 repos** |
 | 33 | **[Local GitHub Actions Runner, Code Quality & Polyglot Compiler Suite](#idea-33)** | `Developer Productivity` | 🛠️ Git Workflows, Compilers, Linters & Dev Productivity | **37 repos** |
 | 34 | **[One-Click Self-Hosted Business & Household Cloud Appliance](#idea-34)** | `Self-Hosted Products` | 🏠 Turn-Key Self-Hosted Apps, Media & Productivity | **23 repos** |
 | 35 | **[Zero-Overhead PHP Flamegraph Profiler & High-Speed Runtime](#idea-35)** | `PHP Performance & Tooling` | 🐘 PHP Frameworks, Profilers & Server Runtimes | **25 repos** |
@@ -142,7 +142,7 @@
 
 - **🔌 Model Context Protocol (MCP) & Agent Skills (11 options):** [`reactive-resume/reactive-resume`](https://github.com/reactive-resume/reactive-resume), [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review), [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop), [`mastra-ai/mastra`](https://github.com/mastra-ai/mastra), [`microsoft/playwright-mcp`](https://github.com/microsoft/playwright-mcp) *(+6 more swappable options below)*
 - **🔐 Authentication, Passkeys, OIDC & Multi-Tenancy (5 options):** [`pocket-id/pocket-id`](https://github.com/pocket-id/pocket-id), [`supertokens/supertokens-core`](https://github.com/supertokens/supertokens-core), [`teamhanko/hanko`](https://github.com/teamhanko/hanko), [`kamax-matrix/mxisd`](https://github.com/kamax-matrix/mxisd), [`losfair/blueboat`](https://github.com/losfair/blueboat)
-- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
+- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (107 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+102 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 11 Swappable Repositories for 🔌 Model Context Protocol (MCP) & Agent Skills</b></summary>
@@ -643,7 +643,7 @@
 
 - **📄 PDF, Document Processing & Knowledge Graphs (28 options):** [`iamgio/quarkdown`](https://github.com/iamgio/quarkdown), [`jackyzha0/quartz`](https://github.com/jackyzha0/quartz), [`logseq/logseq`](https://github.com/logseq/logseq), [`AppFlowy-IO/AppFlowy`](https://github.com/AppFlowy-IO/AppFlowy), [`avriq/signature-pdf`](https://github.com/avriq/signature-pdf) *(+23 more swappable options below)*
 - **🔐 Authentication, Passkeys, OIDC & Multi-Tenancy (5 options):** [`pocket-id/pocket-id`](https://github.com/pocket-id/pocket-id), [`supertokens/supertokens-core`](https://github.com/supertokens/supertokens-core), [`teamhanko/hanko`](https://github.com/teamhanko/hanko), [`kamax-matrix/mxisd`](https://github.com/kamax-matrix/mxisd), [`losfair/blueboat`](https://github.com/losfair/blueboat)
-- **✨ Vue, Svelte & Reactive UI Frameworks (42 options):** [`BuilderIO/mitosis`](https://github.com/BuilderIO/mitosis), [`f5/unovis`](https://github.com/f5/unovis), [`openreplay/openreplay`](https://github.com/openreplay/openreplay), [`wailsapp/wails`](https://github.com/wailsapp/wails), [`beholdr/maska`](https://github.com/beholdr/maska) *(+37 more swappable options below)*
+- **✨ Vue, Svelte & Reactive UI Frameworks (43 options):** [`BuilderIO/mitosis`](https://github.com/BuilderIO/mitosis), [`f5/unovis`](https://github.com/f5/unovis), [`openreplay/openreplay`](https://github.com/openreplay/openreplay), [`wailsapp/wails`](https://github.com/wailsapp/wails), [`beholdr/maska`](https://github.com/beholdr/maska) *(+38 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 28 Swappable Repositories for 📄 PDF, Document Processing & Knowledge Graphs</b></summary>
@@ -724,7 +724,7 @@
 
 - **🧱 Laravel Ecosystem, Starters & Packages (180 options):** [`hasinhayder/hydra`](https://github.com/hasinhayder/hydra), [`HDInnovations/UNIT3D`](https://github.com/HDInnovations/UNIT3D), [`laravel/sanctum`](https://github.com/laravel/sanctum), [`laravel/socialite`](https://github.com/laravel/socialite), [`snowfire/Beautymail`](https://github.com/snowfire/Beautymail) *(+175 more swappable options below)*
 - **🔐 Authentication, Passkeys, OIDC & Multi-Tenancy (5 options):** [`pocket-id/pocket-id`](https://github.com/pocket-id/pocket-id), [`supertokens/supertokens-core`](https://github.com/supertokens/supertokens-core), [`teamhanko/hanko`](https://github.com/teamhanko/hanko), [`kamax-matrix/mxisd`](https://github.com/kamax-matrix/mxisd), [`losfair/blueboat`](https://github.com/losfair/blueboat)
-- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
+- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (107 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+102 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 180 Swappable Repositories for 🧱 Laravel Ecosystem, Starters & Packages</b></summary>
@@ -957,7 +957,7 @@
 
 - **💳 Usage Metering, Subscriptions & Billing (3 options):** [`getlago/lago`](https://github.com/getlago/lago), [`laravel/cashier-stripe`](https://github.com/laravel/cashier-stripe), [`openmeterio/openmeter`](https://github.com/openmeterio/openmeter)
 - **📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways (53 options):** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch), [`go-chi/chi`](https://github.com/go-chi/chi), [`danielgtaylor/huma`](https://github.com/danielgtaylor/huma), [`hasura/graphql-engine`](https://github.com/hasura/graphql-engine), [`artilleryio/artillery`](https://github.com/artilleryio/artillery) *(+48 more swappable options below)*
-- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
+- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (107 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+102 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 3 Swappable Repositories for 💳 Usage Metering, Subscriptions & Billing</b></summary>
@@ -1138,12 +1138,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **✨ Vue, Svelte & Reactive UI Frameworks (42 options):** [`BuilderIO/mitosis`](https://github.com/BuilderIO/mitosis), [`f5/unovis`](https://github.com/f5/unovis), [`openreplay/openreplay`](https://github.com/openreplay/openreplay), [`wailsapp/wails`](https://github.com/wailsapp/wails), [`beholdr/maska`](https://github.com/beholdr/maska) *(+37 more swappable options below)*
+- **✨ Vue, Svelte & Reactive UI Frameworks (43 options):** [`BuilderIO/mitosis`](https://github.com/BuilderIO/mitosis), [`f5/unovis`](https://github.com/f5/unovis), [`openreplay/openreplay`](https://github.com/openreplay/openreplay), [`wailsapp/wails`](https://github.com/wailsapp/wails), [`beholdr/maska`](https://github.com/beholdr/maska) *(+38 more swappable options below)*
 - **📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways (53 options):** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch), [`go-chi/chi`](https://github.com/go-chi/chi), [`danielgtaylor/huma`](https://github.com/danielgtaylor/huma), [`hasura/graphql-engine`](https://github.com/hasura/graphql-engine), [`artilleryio/artillery`](https://github.com/artilleryio/artillery) *(+48 more swappable options below)*
 - **🚀 In-Memory Cache, Redis/Valkey & KV Engines (3 options):** [`dragonflydb/dragonfly`](https://github.com/dragonflydb/dragonfly), [`RedisLabs/redisraft`](https://github.com/RedisLabs/redisraft), [`paypal/junodb`](https://github.com/paypal/junodb)
 
 <details>
-<summary><b>📦 View all 42 Swappable Repositories for ✨ Vue, Svelte & Reactive UI Frameworks</b></summary>
+<summary><b>📦 View all 43 Swappable Repositories for ✨ Vue, Svelte & Reactive UI Frameworks</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -1185,6 +1185,7 @@
 | **[vueuse/vueuse](https://github.com/vueuse/vueuse)** | `TypeScript` | Collection of essential Vue Composition Utilities for Vue 3 |
 | **[wobsoriano/vue-keep](https://github.com/wobsoriano/vue-keep)** | `Vue` | Google Keep clone with Vue, Typescript and Firestore |
 | **[yudax42/vue-upload-drop-images](https://github.com/yudax42/vue-upload-drop-images)** | `Others` | 🖼️ Drag-and-drop image upload component for Vue |
+| **[YusufCeng1z/ding](https://github.com/YusufCeng1z/ding)** | `TypeScript` | Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue and plain DOM. |
 | **[alpinejs/alpine](https://github.com/alpinejs/alpine)** | `HTML` | A rugged, minimal framework for composing JavaScript behavior in your markup. |
 | **[charlesBochet/cropchat](https://github.com/charlesBochet/cropchat)** | `JavaScript` | Progressive Web Application made with VueJS |
 | **[solidjs/solid-start](https://github.com/solidjs/solid-start)** | `TypeScript` | SolidStart, the Solid app framework |
@@ -1303,12 +1304,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
+- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (107 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+102 more swappable options below)*
 - **📈 Observability, eBPF Telemetry, Logs & Analytics (22 options):** [`ClickHouse/ClickStack`](https://github.com/ClickHouse/ClickStack), [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos) *(+17 more swappable options below)*
 - **🏗️ Terraform, Proxmox, IaC & Server Provisioning (44 options):** [`bregman-arie/devops-exercises`](https://github.com/bregman-arie/devops-exercises), [`khuedoan/homelab`](https://github.com/khuedoan/homelab), [`marco-lancini/offensive-infrastructure`](https://github.com/marco-lancini/offensive-infrastructure), [`MichaelCade/90DaysOfDevOps`](https://github.com/MichaelCade/90DaysOfDevOps), [`semaphoreui/semaphore`](https://github.com/semaphoreui/semaphore) *(+39 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 106 Swappable Repositories for 🐘 PostgreSQL Extensions, Distributed SQL & Migrations</b></summary>
+<summary><b>📦 View all 107 Swappable Repositories for 🐘 PostgreSQL Extensions, Distributed SQL & Migrations</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -1395,6 +1396,7 @@
 | **[dicedb/dicedb](https://github.com/dicedb/dicedb)** | `C` | Open-source, low-latency key/value engine built on Valkey with query subscriptions and hierarchical storage tiers. |
 | **[digitallyinduced/ihp](https://github.com/digitallyinduced/ihp)** | `Haskell` | 🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness |
 | **[dolthub/doltgresql](https://github.com/dolthub/doltgresql)** | `Go` | DoltgreSQL - Version Controlled PostgreSQL |
+| **[electric-sql/electric-pglite](https://github.com/electric-sql/electric-pglite)** | `TypeScript` | Embeddable Postgres with real-time, reactive bindings. |
 | **[jmforsythe/Git-Heat-Map](https://github.com/jmforsythe/Git-Heat-Map)** | `JavaScript` | Visualise a git repository by diff activity |
 | **[mikeroyal/Oracle-Cloud-Guide](https://github.com/mikeroyal/Oracle-Cloud-Guide)** | `Others` | Oracle Cloud Infrastructure Guide |
 | **[ongres/stackgres](https://github.com/ongres/stackgres)** | `Java` | StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there. |
@@ -1932,7 +1934,7 @@
 
 - **📈 Observability, eBPF Telemetry, Logs & Analytics (22 options):** [`ClickHouse/ClickStack`](https://github.com/ClickHouse/ClickStack), [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos) *(+17 more swappable options below)*
 - **☸️ Kubernetes, GitOps, Service Mesh & Cloud Native (136 options):** [`encoredev/encore`](https://github.com/encoredev/encore), [`nitrictech/nitric`](https://github.com/nitrictech/nitric), [`dapr/dapr`](https://github.com/dapr/dapr), [`spacecloud-io/space-cloud`](https://github.com/spacecloud-io/space-cloud), [`GoogleCloudPlatform/terraformer`](https://github.com/GoogleCloudPlatform/terraformer) *(+131 more swappable options below)*
-- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
+- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (107 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+102 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 22 Swappable Repositories for 📈 Observability, eBPF Telemetry, Logs & Analytics</b></summary>
@@ -1978,7 +1980,7 @@
 
 - **🛡️ Cybersecurity, Pentesting, Bot Defense & Auditing (47 options):** [`cerberauth/vulnapi`](https://github.com/cerberauth/vulnapi), [`SentryPeer/SentryPeer`](https://github.com/SentryPeer/SentryPeer), [`cybrota/whispr`](https://github.com/cybrota/whispr), [`rfc-st/humble`](https://github.com/rfc-st/humble), [`aquasecurity/trivy`](https://github.com/aquasecurity/trivy) *(+42 more swappable options below)*
 - **📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways (53 options):** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch), [`go-chi/chi`](https://github.com/go-chi/chi), [`danielgtaylor/huma`](https://github.com/danielgtaylor/huma), [`hasura/graphql-engine`](https://github.com/hasura/graphql-engine), [`artilleryio/artillery`](https://github.com/artilleryio/artillery) *(+48 more swappable options below)*
-- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
+- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (107 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+102 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 47 Swappable Repositories for 🛡️ Cybersecurity, Pentesting, Bot Defense & Auditing</b></summary>
@@ -2141,12 +2143,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🍎 macOS, Linux Kernel, System Utilities & Hardware (42 options):** [`canonical/multipass`](https://github.com/canonical/multipass), [`codesenberg/bombardier`](https://github.com/codesenberg/bombardier), [`GitSquared/edex-ui`](https://github.com/GitSquared/edex-ui), [`GyulyVGC/sniffnet`](https://github.com/GyulyVGC/sniffnet), [`jlevy/the-art-of-command-line`](https://github.com/jlevy/the-art-of-command-line) *(+37 more swappable options below)*
+- **🍎 macOS, Linux Kernel, System Utilities & Hardware (43 options):** [`canonical/multipass`](https://github.com/canonical/multipass), [`codesenberg/bombardier`](https://github.com/codesenberg/bombardier), [`GitSquared/edex-ui`](https://github.com/GitSquared/edex-ui), [`GyulyVGC/sniffnet`](https://github.com/GyulyVGC/sniffnet), [`jlevy/the-art-of-command-line`](https://github.com/jlevy/the-art-of-command-line) *(+38 more swappable options below)*
 - **🦀 Zero-Cost Rust, Zig & C/C++ Systems Building Blocks (34 options):** [`adamritter/fastgron`](https://github.com/adamritter/fastgron), [`AnswerDotAI/gpu.cpp`](https://github.com/AnswerDotAI/gpu.cpp), [`aristocratos/btop`](https://github.com/aristocratos/btop), [`astral-sh/rye`](https://github.com/astral-sh/rye), [`beac0n/ruroco`](https://github.com/beac0n/ruroco) *(+29 more swappable options below)*
 - **⌨️ Modern Terminals, Web Shells & TUI Dashboards (70 options):** [`Slackadays/Clipboard`](https://github.com/Slackadays/Clipboard), [`faressoft/terminalizer`](https://github.com/faressoft/terminalizer), [`withfig/autocomplete`](https://github.com/withfig/autocomplete), [`alebcay/awesome-shell`](https://github.com/alebcay/awesome-shell), [`barthr/redo`](https://github.com/barthr/redo) *(+65 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 42 Swappable Repositories for 🍎 macOS, Linux Kernel, System Utilities & Hardware</b></summary>
+<summary><b>📦 View all 43 Swappable Repositories for 🍎 macOS, Linux Kernel, System Utilities & Hardware</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -2176,6 +2178,7 @@
 | **[charliermarsh/whisper.cpp-cli](https://github.com/charliermarsh/whisper.cpp-cli)** | `Python` | Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux. |
 | **[danielealbano/cachegrand](https://github.com/danielealbano/cachegrand)** | `C` | cachegrand - a modern data ingestion, processing and serving platform built for today's hardware |
 | **[darlinghq/darling](https://github.com/darlinghq/darling)** | `Objective-C` | Darwin/macOS emulation layer for Linux |
+| **[derekross/omarchy-mobile](https://github.com/derekross/omarchy-mobile)** | `Shell` | Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress) |
 | **[francescopace/espectre](https://github.com/francescopace/espectre)** | `Python` | Wi-Fi motion sensing platform for ESP32. C++ SDK, ESPHome, Native, and Matter frontends, browser tools, and a CLI for the full device lifecycle. GPLv3 and commercial licensing. |
 | **[iCHAIT/awesome-macOS](https://github.com/iCHAIT/awesome-macOS)** | `Others` |  A curated list of awesome applications, softwares, tools and shiny things for macOS. |
 | **[luchina-gabriel/OSX-PROXMOX](https://github.com/luchina-gabriel/OSX-PROXMOX)** | `Shell` | Voilà, install macOS on ANY Computer! This is really and magic easiest way! PVE 7.XX ~ 9.XX Support and macOS High Sierra ~ macOS Tahoe Support. |
@@ -2472,7 +2475,7 @@
 
 - **🐍 Python Data Science, Automation & Scripting Libraries (51 options):** [`adithya-s-k/omniparse`](https://github.com/adithya-s-k/omniparse), [`alvin-r/databonsai`](https://github.com/alvin-r/databonsai), [`ameygat/githuballrepo`](https://github.com/ameygat/githuballrepo), [`ashiquem/message-classifier`](https://github.com/ashiquem/message-classifier), [`AuvaLab/itext2kg`](https://github.com/AuvaLab/itext2kg) *(+46 more swappable options below)*
 - **🔬 Deep Learning, Fine-Tuning & ML Framework (88 options):** [`tracel-ai/burn`](https://github.com/tracel-ai/burn), [`AMAI-GmbH/AI-Expert-Roadmap`](https://github.com/AMAI-GmbH/AI-Expert-Roadmap), [`tensorflow/tensorflow`](https://github.com/tensorflow/tensorflow), [`AI4Finance-Foundation/FinGPT`](https://github.com/AI4Finance-Foundation/FinGPT), [`bigscience-workshop/petals`](https://github.com/bigscience-workshop/petals) *(+83 more swappable options below)*
-- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (106 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+101 more swappable options below)*
+- **🐘 PostgreSQL Extensions, Distributed SQL & Migrations (107 options):** [`prisma/orm`](https://github.com/prisma/orm), [`chartdb/chartdb`](https://github.com/chartdb/chartdb), [`directus/directus`](https://github.com/directus/directus), [`achristmascarl/rainfrog`](https://github.com/achristmascarl/rainfrog), [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) *(+102 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 51 Swappable Repositories for 🐍 Python Data Science, Automation & Scripting Libraries</b></summary>
