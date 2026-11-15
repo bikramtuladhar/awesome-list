@@ -5,10 +5,10 @@
 **Live Interactive Catalog, Idea Swapper & Combiner:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨
 **Full 40 Product Ideas & 1,729-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡
 
-![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1732-blue.svg?style=flat-square) 
+![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1734-blue.svg?style=flat-square) 
 ![Product Ideas](https://img.shields.io/badge/Swappable_Product_Ideas-40_(100%25_Coverage)-emerald.svg?style=flat-square) 
 ![Auto Updated](https://img.shields.io/badge/AI_Classification-Google_Gemini-4285F4.svg?style=flat-square) 
-![Last Updated](https://img.shields.io/badge/Updated-2026-11-14-success.svg?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Updated-2026-11-15-success.svg?style=flat-square)
 
 ---
 
@@ -100,7 +100,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 
 ## 📑 Table of Contents
 
-- [🤖 AI & Autonomous Agents (243)](#ai-agents)
+- [🤖 AI & Autonomous Agents (244)](#ai-agents)
 - [🔍 RAG, Vector & Data Ingestion (35)](#rag-data-ingestion)
 - [🚀 SaaS Starters & App Boilerplates (32)](#saas-starters)
 - [🎨 UI Kits, Generative UX & Dashboards (160)](#ui-generative-ux)
@@ -109,11 +109,11 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 - [🛡️ Security, Privacy & Auth Utilities (87)](#security-privacy)
 - [📦 DevOps, Sandboxes & Cloud Infra (193)](#devops-infra)
 - [🛠️ Developer Tooling & Terminal Utilities (704)](#devtools-terminal)
-- [💡 Ready-to-Remix Products & Self-Hosted Apps (78)](#ready-to-remix)
+- [💡 Ready-to-Remix Products & Self-Hosted Apps (79)](#ready-to-remix)
 
 ---
 
-## <a id="ai-agents"></a>🤖 AI & Autonomous Agents `(243)`
+## <a id="ai-agents"></a>🤖 AI & Autonomous Agents `(244)`
 
 > *Agent frameworks, LLM orchestrators, local inference runtimes, multi-agent swarms, and AI coding assistants.*
 
@@ -362,6 +362,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[appwrite/appwrite](https://github.com/appwrite/appwrite)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more | *Remix with headless browser for end-to-end task automation* |
 | **[NangoHQ/nango](https://github.com/NangoHQ/nango)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Connect your agents & product to 1,000 APIs. | *Remix with headless browser for end-to-end task automation* |
 | **[leon-ai/leon](https://github.com/leon-ai/leon)** | `Multi-Agent Coordination & Execution` | `TypeScript` | 🧠 Leon is your open-source personal assistant. | *Remix with headless browser for end-to-end task automation* |
+| **[GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance)** | `Multi-Agent Coordination & Execution` | `Others` | Keep your coding agent up to date with the latest web best practices | *Remix with headless browser for end-to-end task automation* |
 
 
 ## <a id="rag-data-ingestion"></a>🔍 RAG, Vector & Data Ingestion `(35)`
@@ -1839,7 +1840,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[derekross/omarchy-mobile](https://github.com/derekross/omarchy-mobile)** | `Developer Productivity & Tooling` | `Shell` | Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 
 
-## <a id="ready-to-remix"></a>💡 Ready-to-Remix Products & Self-Hosted Apps `(78)`
+## <a id="ready-to-remix"></a>💡 Ready-to-Remix Products & Self-Hosted Apps `(79)`
 
 > *Fully functional open-source apps (ERPs, invoicing, grocery trackers, CRM) ready to fork, reskin, and monetize.*
 
@@ -1923,6 +1924,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[avored/laravel-ecommerce](https://github.com/avored/laravel-ecommerce)** | `Forkable Product Archetype` | `TypeScript` | AvoRed an Open Source Laravel Shopping Cart | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
 | **[bastienwirtz/homer](https://github.com/bastienwirtz/homer)** | `Forkable Product Archetype` | `Vue` | A very simple static homepage for your server. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
 | **[lesspod/lesspod-2.0](https://github.com/lesspod/lesspod-2.0)** | `Forkable Product Archetype` | `Vue` | Serverless CMS (Currently In Development) | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
+| **[homer-dashboard/homer](https://github.com/homer-dashboard/homer)** | `Forkable Product Archetype` | `Vue` | A very simple static homepage for your server. | *Combine this Forkable Product Archetype with an agent orchestrator and modern UI* |
 
 
 ---

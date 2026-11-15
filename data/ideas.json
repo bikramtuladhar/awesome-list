@@ -1,5 +1,5 @@
 {
-  "total_repos_covered": 1732,
+  "total_repos_covered": 1734,
   "total_slots": 40,
   "total_ideas": 40,
   "slots": {
@@ -343,7 +343,7 @@
       "id": "slot_multi_agent",
       "name": "Multi-Agent Orchestrator & Autonomous Swarms",
       "icon": "\ud83e\udd16",
-      "count": 85,
+      "count": 86,
       "repos": [
         {
           "full_name": "e2b-dev/E2B",
@@ -858,6 +858,14 @@
           "category_id": "ai-agents"
         },
         {
+          "full_name": "GoogleChrome/modern-web-guidance",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance",
+          "description": "Keep your coding agent up to date with the latest web best practices",
+          "language": "Others",
+          "role": "Multi-Agent Coordination & Execution",
+          "category_id": "ai-agents"
+        },
+        {
           "full_name": "hatchet-dev/hatchet",
           "url": "https://github.com/hatchet-dev/hatchet",
           "description": "\ud83e\ude93 An orchestration engine for background tasks, AI agents, and durable workflows",
@@ -1031,7 +1039,7 @@
       "id": "slot_ai_coding",
       "name": "AI Coding Copilot, PR Review & Code Gen",
       "icon": "\ud83d\udcbb",
-      "count": 10,
+      "count": 11,
       "repos": [
         {
           "full_name": "mvanhorn/last30days-skill",
@@ -1046,6 +1054,14 @@
           "url": "https://github.com/ruvnet/RuView",
           "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
           "language": "Rust",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
+        },
+        {
+          "full_name": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "description": "",
+          "language": "TypeScript",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
         },
@@ -4919,7 +4935,7 @@
       "id": "slot_react_nextjs",
       "name": "React, Next.js & Modern Frontend Stacks",
       "icon": "\u269b\ufe0f",
-      "count": 68,
+      "count": 69,
       "repos": [
         {
           "full_name": "boxyhq/saas-starter-kit",
@@ -5061,6 +5077,14 @@
           "full_name": "trpc/trpc",
           "url": "https://github.com/trpc/trpc",
           "description": "\ud83e\uddd9\u200d\u2640\ufe0f  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+          "language": "TypeScript",
+          "role": "UI & Presentation Layer",
+          "category_id": "ui-generative-ux"
+        },
+        {
+          "full_name": "YusufCeng1z/ding",
+          "url": "https://github.com/YusufCeng1z/ding",
+          "description": "Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue and plain DOM.",
           "language": "TypeScript",
           "role": "UI & Presentation Layer",
           "category_id": "ui-generative-ux"
@@ -5658,6 +5682,14 @@
           "category_id": "apis-automation"
         },
         {
+          "full_name": "homer-dashboard/homer",
+          "url": "https://github.com/homer-dashboard/homer",
+          "description": "A very simple static homepage for your server.",
+          "language": "Vue",
+          "role": "Forkable Product Archetype",
+          "category_id": "ready-to-remix"
+        },
+        {
           "full_name": "IceWhaleTech/CasaOS",
           "url": "https://github.com/IceWhaleTech/CasaOS",
           "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
@@ -5774,14 +5806,6 @@
           "url": "https://github.com/yudax42/vue-upload-drop-images",
           "description": "\ud83d\uddbc\ufe0f Drag-and-drop image upload component for Vue",
           "language": "Others",
-          "role": "UI & Presentation Layer",
-          "category_id": "ui-generative-ux"
-        },
-        {
-          "full_name": "YusufCeng1z/ding",
-          "url": "https://github.com/YusufCeng1z/ding",
-          "description": "Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue and plain DOM.",
-          "language": "TypeScript",
           "role": "UI & Presentation Layer",
           "category_id": "ui-generative-ux"
         },
@@ -6050,6 +6074,14 @@
           "category_id": "devtools-terminal"
         },
         {
+          "full_name": "tauri-apps/tauri",
+          "url": "https://github.com/tauri-apps/tauri",
+          "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+          "language": "Rust",
+          "role": "UI & Presentation Layer",
+          "category_id": "ui-generative-ux"
+        },
+        {
           "full_name": "adi1090x/termux-desktop",
           "url": "https://github.com/adi1090x/termux-desktop",
           "description": "Setup A Beautiful Desktop/GUI In Termux",
@@ -6160,14 +6192,6 @@
           "language": "TypeScript",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
-        },
-        {
-          "full_name": "tauri-apps/tauri",
-          "url": "https://github.com/tauri-apps/tauri",
-          "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
-          "language": "Rust",
-          "role": "UI & Presentation Layer",
-          "category_id": "ui-generative-ux"
         },
         {
           "full_name": "termux/termux-packages",
@@ -6546,6 +6570,14 @@
           "category_id": "ai-agents"
         },
         {
+          "full_name": "electric-sql/electric-pglite",
+          "url": "https://github.com/electric-sql/electric-pglite",
+          "description": "Embeddable Postgres with real-time, reactive bindings.",
+          "language": "TypeScript",
+          "role": "Data Persistence & State Management",
+          "category_id": "data-storage-cache"
+        },
+        {
           "full_name": "electric-sql/pglite",
           "url": "https://github.com/electric-sql/pglite",
           "description": "Embeddable Postgres with real-time, reactive bindings.",
@@ -6910,14 +6942,6 @@
           "url": "https://github.com/dolthub/doltgresql",
           "description": "DoltgreSQL - Version Controlled PostgreSQL",
           "language": "Go",
-          "role": "Data Persistence & State Management",
-          "category_id": "data-storage-cache"
-        },
-        {
-          "full_name": "electric-sql/electric-pglite",
-          "url": "https://github.com/electric-sql/electric-pglite",
-          "description": "Embeddable Postgres with real-time, reactive bindings.",
-          "language": "TypeScript",
           "role": "Data Persistence & State Management",
           "category_id": "data-storage-cache"
         },
@@ -11074,6 +11098,14 @@
           "category_id": "devtools-terminal"
         },
         {
+          "full_name": "derekross/omarchy-mobile",
+          "url": "https://github.com/derekross/omarchy-mobile",
+          "description": "Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress)",
+          "language": "Shell",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
+        },
+        {
           "full_name": "FelixKratz/SketchyBar",
           "url": "https://github.com/FelixKratz/SketchyBar",
           "description": "A highly customizable macOS status bar replacement",
@@ -11142,14 +11174,6 @@
           "url": "https://github.com/darlinghq/darling",
           "description": "Darwin/macOS emulation layer for Linux",
           "language": "Objective-C",
-          "role": "Developer Productivity & Tooling",
-          "category_id": "devtools-terminal"
-        },
-        {
-          "full_name": "derekross/omarchy-mobile",
-          "url": "https://github.com/derekross/omarchy-mobile",
-          "description": "Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress)",
-          "language": "Shell",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
         },
@@ -12887,7 +12911,7 @@
       "id": "slot_js_ts_core",
       "name": "TypeScript / Node.js Runtime Utilities & SDKs",
       "icon": "\ud83d\udfe8",
-      "count": 90,
+      "count": 89,
       "repos": [
         {
           "full_name": "algolia/autocomplete",
@@ -13564,14 +13588,6 @@
         {
           "full_name": "loggerhead/json4u",
           "url": "https://github.com/loggerhead/json4u",
-          "description": "",
-          "language": "TypeScript",
-          "role": "Developer Productivity & Tooling",
-          "category_id": "devtools-terminal"
-        },
-        {
-          "full_name": "pingdotgg/t3code",
-          "url": "https://github.com/pingdotgg/t3code",
           "description": "",
           "language": "TypeScript",
           "role": "Developer Productivity & Tooling",
@@ -14379,13 +14395,13 @@
       "monetization": "$199\u2013$499/mo B2B growth automation SaaS.",
       "primary_slot_name": "Multi-Agent Orchestrator & Autonomous Swarms",
       "primary_slot_icon": "\ud83e\udd16",
-      "primary_repo_count": 85,
+      "primary_repo_count": 86,
       "slot_details": [
         {
           "slot_id": "slot_multi_agent",
           "slot_name": "Multi-Agent Orchestrator & Autonomous Swarms",
           "slot_icon": "\ud83e\udd16",
-          "total_alternatives": 85,
+          "total_alternatives": 86,
           "default_repo": {
             "full_name": "e2b-dev/E2B",
             "url": "https://github.com/e2b-dev/E2B",
@@ -14440,13 +14456,13 @@
       "monetization": "$15/repo/mo or $99/mo unlimited self-hosted team license.",
       "primary_slot_name": "AI Coding Copilot, PR Review & Code Gen",
       "primary_slot_icon": "\ud83d\udcbb",
-      "primary_repo_count": 10,
+      "primary_repo_count": 11,
       "slot_details": [
         {
           "slot_id": "slot_ai_coding",
           "slot_name": "AI Coding Copilot, PR Review & Code Gen",
           "slot_icon": "\ud83d\udcbb",
-          "total_alternatives": 10,
+          "total_alternatives": 11,
           "default_repo": {
             "full_name": "mvanhorn/last30days-skill",
             "url": "https://github.com/mvanhorn/last30days-skill",
@@ -15023,7 +15039,7 @@
           "slot_id": "slot_react_nextjs",
           "slot_name": "React, Next.js & Modern Frontend Stacks",
           "slot_icon": "\u269b\ufe0f",
-          "total_alternatives": 68,
+          "total_alternatives": 69,
           "default_repo": {
             "full_name": "boxyhq/saas-starter-kit",
             "url": "https://github.com/boxyhq/saas-starter-kit",
@@ -15131,7 +15147,7 @@
           "slot_id": "slot_react_nextjs",
           "slot_name": "React, Next.js & Modern Frontend Stacks",
           "slot_icon": "\u269b\ufe0f",
-          "total_alternatives": 68,
+          "total_alternatives": 69,
           "default_repo": {
             "full_name": "boxyhq/saas-starter-kit",
             "url": "https://github.com/boxyhq/saas-starter-kit",
@@ -15145,7 +15161,7 @@
           "slot_id": "slot_ai_coding",
           "slot_name": "AI Coding Copilot, PR Review & Code Gen",
           "slot_icon": "\ud83d\udcbb",
-          "total_alternatives": 10,
+          "total_alternatives": 11,
           "default_repo": {
             "full_name": "mvanhorn/last30days-skill",
             "url": "https://github.com/mvanhorn/last30days-skill",
@@ -15172,13 +15188,13 @@
       "monetization": "$29/mo hosted storefront or commercial template license.",
       "primary_slot_name": "React, Next.js & Modern Frontend Stacks",
       "primary_slot_icon": "\u269b\ufe0f",
-      "primary_repo_count": 68,
+      "primary_repo_count": 69,
       "slot_details": [
         {
           "slot_id": "slot_react_nextjs",
           "slot_name": "React, Next.js & Modern Frontend Stacks",
           "slot_icon": "\u269b\ufe0f",
-          "total_alternatives": 68,
+          "total_alternatives": 69,
           "default_repo": {
             "full_name": "boxyhq/saas-starter-kit",
             "url": "https://github.com/boxyhq/saas-starter-kit",
@@ -15314,7 +15330,7 @@
           "slot_id": "slot_js_ts_core",
           "slot_name": "TypeScript / Node.js Runtime Utilities & SDKs",
           "slot_icon": "\ud83d\udfe8",
-          "total_alternatives": 90,
+          "total_alternatives": 89,
           "default_repo": {
             "full_name": "algolia/autocomplete",
             "url": "https://github.com/algolia/autocomplete",
@@ -16182,7 +16198,7 @@
           "slot_id": "slot_ai_coding",
           "slot_name": "AI Coding Copilot, PR Review & Code Gen",
           "slot_icon": "\ud83d\udcbb",
-          "total_alternatives": 10,
+          "total_alternatives": 11,
           "default_repo": {
             "full_name": "mvanhorn/last30days-skill",
             "url": "https://github.com/mvanhorn/last30days-skill",
@@ -16514,13 +16530,13 @@
       "monetization": "Pro SDK generator & cloud preview environments ($29/mo).",
       "primary_slot_name": "TypeScript / Node.js Runtime Utilities & SDKs",
       "primary_slot_icon": "\ud83d\udfe8",
-      "primary_repo_count": 90,
+      "primary_repo_count": 89,
       "slot_details": [
         {
           "slot_id": "slot_js_ts_core",
           "slot_name": "TypeScript / Node.js Runtime Utilities & SDKs",
           "slot_icon": "\ud83d\udfe8",
-          "total_alternatives": 90,
+          "total_alternatives": 89,
           "default_repo": {
             "full_name": "algolia/autocomplete",
             "url": "https://github.com/algolia/autocomplete",
@@ -16534,7 +16550,7 @@
           "slot_id": "slot_react_nextjs",
           "slot_name": "React, Next.js & Modern Frontend Stacks",
           "slot_icon": "\u269b\ufe0f",
-          "total_alternatives": 68,
+          "total_alternatives": 69,
           "default_repo": {
             "full_name": "boxyhq/saas-starter-kit",
             "url": "https://github.com/boxyhq/saas-starter-kit",

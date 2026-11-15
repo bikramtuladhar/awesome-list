@@ -1,6 +1,6 @@
 # 💡 Complete Product Ideas & Swap Matrix (100% Repository Coverage)
 
-> **Every single one of the 1732 starred repositories** is mapped into **40 Product Ideas** and **40 Interchangeable Functional Slots**.
+> **Every single one of the 1734 starred repositories** is mapped into **40 Product Ideas** and **40 Interchangeable Functional Slots**.
 > You can swap any repository with a similar alternative in the same slot, or combine multiple ideas into an entirely new super-product!
 
 **Interactive Idea Swapper & Combiner:** [Open Live in index.html](https://bikramtuladhar.github.io/awesome-list/) ✨
@@ -14,8 +14,8 @@
 | 1 | **[On-Premise Voice AI Receptionist & SIP Shield](#idea-01)** | `AI & Voice Automation` | 🎙️ Voice, Speech-to-Text & Audio Engine | **20 repos** |
 | 2 | **[Offline Cross-Platform AI Copilot & Edge Model Runner](#idea-02)** | `Local AI & Edge Compute` | 🧠 Local & Edge LLM Inference Engine | **8 repos** |
 | 3 | **[Universal MCP Server Hub & Enterprise Tool Bridge](#idea-03)** | `AI Agents & MCP` | 🔌 Model Context Protocol (MCP) & Agent Skills | **11 repos** |
-| 4 | **[Autonomous Multi-Agent B2B Research & Outreach Swarm](#idea-04)** | `Autonomous Agent Swarms` | 🤖 Multi-Agent Orchestrator & Autonomous Swarms | **85 repos** |
-| 5 | **[Automated PR Security Reviewer & Codebase Refactoring Bot](#idea-05)** | `AI DevTools` | 💻 AI Coding Copilot, PR Review & Code Gen | **10 repos** |
+| 4 | **[Autonomous Multi-Agent B2B Research & Outreach Swarm](#idea-04)** | `Autonomous Agent Swarms` | 🤖 Multi-Agent Orchestrator & Autonomous Swarms | **86 repos** |
+| 5 | **[Automated PR Security Reviewer & Codebase Refactoring Bot](#idea-05)** | `AI DevTools` | 💻 AI Coding Copilot, PR Review & Code Gen | **11 repos** |
 | 6 | **[Autopilot Video Studio & Visual Defect Inspector](#idea-06)** | `Computer Vision & Media` | 👁️ Computer Vision, Image & Video AI | **27 repos** |
 | 7 | **[Reverse Cloudflare for LLMs (AI Gateway & Semantic Cache)](#idea-07)** | `AI Infrastructure` | ⚡ AI Gateway, LLM Proxy & Token Router | **65 repos** |
 | 8 | **[No-Code Domain LLM Fine-Tuning & Evaluation Workbench](#idea-08)** | `ML & Fine-Tuning` | 🔬 Deep Learning, Fine-Tuning & ML Framework | **88 repos** |
@@ -27,7 +27,7 @@
 | 14 | **[Passkey-First Identity Broker & Multi-Tenant SSO Cloud](#idea-14)** | `Identity & Access Management` | 🔐 Authentication, Passkeys, OIDC & Multi-Tenancy | **5 repos** |
 | 15 | **[Usage-Based AI Token Metering, Billing & Feature Flag Engine](#idea-15)** | `FinTech & Monetization` | 💳 Usage Metering, Subscriptions & Billing | **3 repos** |
 | 16 | **[Generative UI Component Studio & Tailwind Theme Builder](#idea-16)** | `Frontend & Design Systems` | 🎨 Tailwind CSS, Component Kits & Design Systems | **40 repos** |
-| 17 | **[Edge-Rendered Next.js E-Commerce & Content Engine](#idea-17)** | `Modern Web & Jamstack` | ⚛️ React, Next.js & Modern Frontend Stacks | **68 repos** |
+| 17 | **[Edge-Rendered Next.js E-Commerce & Content Engine](#idea-17)** | `Modern Web & Jamstack` | ⚛️ React, Next.js & Modern Frontend Stacks | **69 repos** |
 | 18 | **[Reactive Real-Time Collaborative Whiteboards & Micro-Apps](#idea-18)** | `Reactive Frontend` | ✨ Vue, Svelte & Reactive UI Frameworks | **43 repos** |
 | 19 | **[Visual Node-Graph Workflow Builder & 3D Data Explorer](#idea-19)** | `Visual Programming & 3D` | 📊 Interactive Canvas, 3D WebGL & Data Visualization | **12 repos** |
 | 20 | **[Cross-Platform Offline-First Field Service Mobile Suite](#idea-20)** | `Mobile & Desktop Apps` | 📱 Mobile, iOS, Android & Cross-Platform Apps | **39 repos** |
@@ -49,7 +49,7 @@
 | 36 | **[Ultra-Low-Latency Go Microservice Chassis & Network Proxy](#idea-36)** | `Go Systems Engineering` | 🐹 High-Concurrency Go Libraries & Microservice Tools | **24 repos** |
 | 37 | **[Blazing-Fast Rust & Zig WebAssembly Compute Engine](#idea-37)** | `Rust, Zig & Systems` | 🦀 Zero-Cost Rust, Zig & C/C++ Systems Building Blocks | **34 repos** |
 | 38 | **[Automated Python Data Engineering & Financial Quant Pipeline](#idea-38)** | `Python & Data Science` | 🐍 Python Data Science, Automation & Scripting Libraries | **51 repos** |
-| 39 | **[Universal TypeScript SDK Generator & Edge Runtime Toolkit](#idea-39)** | `TypeScript & Node.js Ecosystem` | 🟨 TypeScript / Node.js Runtime Utilities & SDKs | **90 repos** |
+| 39 | **[Universal TypeScript SDK Generator & Edge Runtime Toolkit](#idea-39)** | `TypeScript & Node.js Ecosystem` | 🟨 TypeScript / Node.js Runtime Utilities & SDKs | **89 repos** |
 | 40 | **[Interactive Engineering Playbook, System Design & Onboarding Portal](#idea-40)** | `Architecture & Developer Education` | 📚 Architecture Playbooks, Engineering Guides & Reference Stacks | **70 repos** |
 
 ---
@@ -175,12 +175,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🤖 Multi-Agent Orchestrator & Autonomous Swarms (85 options):** [`e2b-dev/E2B`](https://github.com/e2b-dev/E2B), [`activepieces/activepieces`](https://github.com/activepieces/activepieces), [`ParadevAI/Paradev`](https://github.com/ParadevAI/Paradev), [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory), [`TrafficGuard/typedai`](https://github.com/TrafficGuard/typedai) *(+80 more swappable options below)*
+- **🤖 Multi-Agent Orchestrator & Autonomous Swarms (86 options):** [`e2b-dev/E2B`](https://github.com/e2b-dev/E2B), [`activepieces/activepieces`](https://github.com/activepieces/activepieces), [`ParadevAI/Paradev`](https://github.com/ParadevAI/Paradev), [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory), [`TrafficGuard/typedai`](https://github.com/TrafficGuard/typedai) *(+81 more swappable options below)*
 - **🕷️ Web Scraper, Headless Browser & Crawler (4 options):** [`apify/crawlee`](https://github.com/apify/crawlee), [`apify/crawlee-python`](https://github.com/apify/crawlee-python), [`codelucas/newspaper`](https://github.com/codelucas/newspaper), [`slotix/dataflowkit`](https://github.com/slotix/dataflowkit)
 - **🔄 Workflow Orchestration, Job Queues & Pipelines (16 options):** [`n8n-io/n8n`](https://github.com/n8n-io/n8n), [`automatisch/automatisch`](https://github.com/automatisch/automatisch), [`kestra-io/kestra`](https://github.com/kestra-io/kestra), [`Netflix/maestro`](https://github.com/Netflix/maestro), [`PrefectHQ/prefect`](https://github.com/PrefectHQ/prefect) *(+11 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 85 Swappable Repositories for 🤖 Multi-Agent Orchestrator & Autonomous Swarms</b></summary>
+<summary><b>📦 View all 86 Swappable Repositories for 🤖 Multi-Agent Orchestrator & Autonomous Swarms</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -248,6 +248,7 @@
 | **[dream-num/univer](https://github.com/dream-num/univer)** | `TypeScript` | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. |
 | **[GooeyAI/goosio](https://github.com/GooeyAI/goosio)** | `Python` | The open-source, drop-in replacement for Composio. A unified API that connects AI agents to hundreds of SaaS tools. |
 | **[google/ax](https://github.com/google/ax)** | `Go` | Agent Executor (AX) is Google's open agentic orchestration runtime |
+| **[GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance)** | `Others` | Keep your coding agent up to date with the latest web best practices |
 | **[hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet)** | `Go` | 🪓 An orchestration engine for background tasks, AI agents, and durable workflows |
 | **[jdagdelen/hyperDB](https://github.com/jdagdelen/hyperDB)** | `Python` | A hyper-fast local vector database for use with LLM Agents. Now accepting SAFEs at $135M cap. |
 | **[matomo-org/device-detector](https://github.com/matomo-org/device-detector)** | `PHP` | The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model. |
@@ -284,17 +285,18 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **💻 AI Coding Copilot, PR Review & Code Gen (10 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`ruvnet/RuView`](https://github.com/ruvnet/RuView), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness), [`yizhiyanhua-ai/fireworks-tech-graph`](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) *(+5 more swappable options below)*
+- **💻 AI Coding Copilot, PR Review & Code Gen (11 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`ruvnet/RuView`](https://github.com/ruvnet/RuView), [`pingdotgg/t3code`](https://github.com/pingdotgg/t3code), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness) *(+6 more swappable options below)*
 - **🛠️ Git Workflows, Compilers, Linters & Dev Productivity (37 options):** [`lindell/multi-gitter`](https://github.com/lindell/multi-gitter), [`usebruno/bruno`](https://github.com/usebruno/bruno), [`artzub/GitHubVisualizer`](https://github.com/artzub/GitHubVisualizer), [`garden-io/garden`](https://github.com/garden-io/garden), [`px0-ai/px0`](https://github.com/px0-ai/px0) *(+32 more swappable options below)*
 - **📦 Docker, Unikernels, MicroVMs & Container Runtimes (66 options):** [`project-copacetic/copacetic`](https://github.com/project-copacetic/copacetic), [`anchore/grype`](https://github.com/anchore/grype), [`clemcer/LoggiFly`](https://github.com/clemcer/LoggiFly), [`containrrr/watchtower`](https://github.com/containrrr/watchtower), [`Cyber-Duck/php-fpm-laravel`](https://github.com/Cyber-Duck/php-fpm-laravel) *(+61 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 10 Swappable Repositories for 💻 AI Coding Copilot, PR Review & Code Gen</b></summary>
+<summary><b>📦 View all 11 Swappable Repositories for 💻 AI Coding Copilot, PR Review & Code Gen</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
 | **[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)** | `Python` | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
 | **[ruvnet/RuView](https://github.com/ruvnet/RuView)** | `Rust` | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. |
+| **[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** | `TypeScript` | Open-source building block |
 | **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** | `Rust` | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
 | **[tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness)** | `Python` | Building the self-learning layer next-gen agents will ship with, learning skills from real work. |
 | **[yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph)** | `Python` | Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns. |
@@ -928,7 +930,7 @@
 
 - **🔐 Authentication, Passkeys, OIDC & Multi-Tenancy (5 options):** [`pocket-id/pocket-id`](https://github.com/pocket-id/pocket-id), [`supertokens/supertokens-core`](https://github.com/supertokens/supertokens-core), [`teamhanko/hanko`](https://github.com/teamhanko/hanko), [`kamax-matrix/mxisd`](https://github.com/kamax-matrix/mxisd), [`losfair/blueboat`](https://github.com/losfair/blueboat)
 - **🚀 In-Memory Cache, Redis/Valkey & KV Engines (3 options):** [`dragonflydb/dragonfly`](https://github.com/dragonflydb/dragonfly), [`RedisLabs/redisraft`](https://github.com/RedisLabs/redisraft), [`paypal/junodb`](https://github.com/paypal/junodb)
-- **⚛️ React, Next.js & Modern Frontend Stacks (68 options):** [`boxyhq/saas-starter-kit`](https://github.com/boxyhq/saas-starter-kit), [`shuding/nextra`](https://github.com/shuding/nextra), [`vercel/commerce`](https://github.com/vercel/commerce), [`vercel/next-forge`](https://github.com/vercel/next-forge), [`Asabeneh/30-Days-Of-JavaScript`](https://github.com/Asabeneh/30-Days-Of-JavaScript) *(+63 more swappable options below)*
+- **⚛️ React, Next.js & Modern Frontend Stacks (69 options):** [`boxyhq/saas-starter-kit`](https://github.com/boxyhq/saas-starter-kit), [`shuding/nextra`](https://github.com/shuding/nextra), [`vercel/commerce`](https://github.com/vercel/commerce), [`vercel/next-forge`](https://github.com/vercel/next-forge), [`Asabeneh/30-Days-Of-JavaScript`](https://github.com/Asabeneh/30-Days-Of-JavaScript) *(+64 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 5 Swappable Repositories for 🔐 Authentication, Passkeys, OIDC & Multi-Tenancy</b></summary>
@@ -983,8 +985,8 @@
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
 - **🎨 Tailwind CSS, Component Kits & Design Systems (40 options):** [`markmead/hyperui`](https://github.com/markmead/hyperui), [`sailboatui/sailboatui`](https://github.com/sailboatui/sailboatui), [`sergejcodes/flowrift`](https://github.com/sergejcodes/flowrift), [`heroui-inc/tailwind-variants`](https://github.com/heroui-inc/tailwind-variants), [`bernaferrari/FigmaToCode`](https://github.com/bernaferrari/FigmaToCode) *(+35 more swappable options below)*
-- **⚛️ React, Next.js & Modern Frontend Stacks (68 options):** [`boxyhq/saas-starter-kit`](https://github.com/boxyhq/saas-starter-kit), [`shuding/nextra`](https://github.com/shuding/nextra), [`vercel/commerce`](https://github.com/vercel/commerce), [`vercel/next-forge`](https://github.com/vercel/next-forge), [`Asabeneh/30-Days-Of-JavaScript`](https://github.com/Asabeneh/30-Days-Of-JavaScript) *(+63 more swappable options below)*
-- **💻 AI Coding Copilot, PR Review & Code Gen (10 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`ruvnet/RuView`](https://github.com/ruvnet/RuView), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness), [`yizhiyanhua-ai/fireworks-tech-graph`](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) *(+5 more swappable options below)*
+- **⚛️ React, Next.js & Modern Frontend Stacks (69 options):** [`boxyhq/saas-starter-kit`](https://github.com/boxyhq/saas-starter-kit), [`shuding/nextra`](https://github.com/shuding/nextra), [`vercel/commerce`](https://github.com/vercel/commerce), [`vercel/next-forge`](https://github.com/vercel/next-forge), [`Asabeneh/30-Days-Of-JavaScript`](https://github.com/Asabeneh/30-Days-Of-JavaScript) *(+64 more swappable options below)*
+- **💻 AI Coding Copilot, PR Review & Code Gen (11 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`ruvnet/RuView`](https://github.com/ruvnet/RuView), [`pingdotgg/t3code`](https://github.com/pingdotgg/t3code), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness) *(+6 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 40 Swappable Repositories for 🎨 Tailwind CSS, Component Kits & Design Systems</b></summary>
@@ -1046,12 +1048,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **⚛️ React, Next.js & Modern Frontend Stacks (68 options):** [`boxyhq/saas-starter-kit`](https://github.com/boxyhq/saas-starter-kit), [`shuding/nextra`](https://github.com/shuding/nextra), [`vercel/commerce`](https://github.com/vercel/commerce), [`vercel/next-forge`](https://github.com/vercel/next-forge), [`Asabeneh/30-Days-Of-JavaScript`](https://github.com/Asabeneh/30-Days-Of-JavaScript) *(+63 more swappable options below)*
+- **⚛️ React, Next.js & Modern Frontend Stacks (69 options):** [`boxyhq/saas-starter-kit`](https://github.com/boxyhq/saas-starter-kit), [`shuding/nextra`](https://github.com/shuding/nextra), [`vercel/commerce`](https://github.com/vercel/commerce), [`vercel/next-forge`](https://github.com/vercel/next-forge), [`Asabeneh/30-Days-Of-JavaScript`](https://github.com/Asabeneh/30-Days-Of-JavaScript) *(+64 more swappable options below)*
 - **🎨 Tailwind CSS, Component Kits & Design Systems (40 options):** [`markmead/hyperui`](https://github.com/markmead/hyperui), [`sailboatui/sailboatui`](https://github.com/sailboatui/sailboatui), [`sergejcodes/flowrift`](https://github.com/sergejcodes/flowrift), [`heroui-inc/tailwind-variants`](https://github.com/heroui-inc/tailwind-variants), [`bernaferrari/FigmaToCode`](https://github.com/bernaferrari/FigmaToCode) *(+35 more swappable options below)*
 - **🗄️ SQLite Engines, Embedded DBs & Local Storage (11 options):** [`buffdb/buffdb`](https://github.com/buffdb/buffdb), [`pawelsalawa/letos`](https://github.com/pawelsalawa/letos), [`pubkey/rxdb`](https://github.com/pubkey/rxdb), [`glommer/pgmicro`](https://github.com/glommer/pgmicro), [`thevahidal/soul`](https://github.com/thevahidal/soul) *(+6 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 68 Swappable Repositories for ⚛️ React, Next.js & Modern Frontend Stacks</b></summary>
+<summary><b>📦 View all 69 Swappable Repositories for ⚛️ React, Next.js & Modern Frontend Stacks</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -1073,6 +1075,7 @@
 | **[SigNoz/signoz](https://github.com/SigNoz/signoz)** | `TypeScript` | SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log mana |
 | **[tinacms/tinacms](https://github.com/tinacms/tinacms)** | `TypeScript` | TinaCMS is the leading open-source headless CMS that supports Markdown and Visual Editing. Your content is stored in your own GitHub repo 🦙 ❤️ |
 | **[trpc/trpc](https://github.com/trpc/trpc)** | `TypeScript` | 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. |
+| **[YusufCeng1z/ding](https://github.com/YusufCeng1z/ding)** | `TypeScript` | Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue and plain DOM. |
 | **[vercel/platforms](https://github.com/vercel/platforms)** | `TypeScript` | A full-stack Next.js app with multi-tenancy. |
 | **[yournextstore/yournextstore](https://github.com/yournextstore/yournextstore)** | `TypeScript` | AI-Native Open-Source Next.js commerce. Powered by Stripe. Ultra fast with typesafe Commerce SDK. Built for AI development (Claude, Codex,   Cursor). |
 | **[aidenybai/react-scan](https://github.com/aidenybai/react-scan)** | `TypeScript` | Scan and fix React performance issues |
@@ -1170,6 +1173,7 @@
 | **[bastienwirtz/homer](https://github.com/bastienwirtz/homer)** | `Vue` | A very simple static homepage for your server. |
 | **[CorentinTh/it-tools](https://github.com/CorentinTh/it-tools)** | `Vue` | Collection of handy online tools for developers, with great UX. |
 | **[frain-dev/convoy](https://github.com/frain-dev/convoy)** | `Go` | The Cloud Native Webhooks Gateway |
+| **[homer-dashboard/homer](https://github.com/homer-dashboard/homer)** | `Vue` | A very simple static homepage for your server. |
 | **[IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)** | `Go` | CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. |
 | **[immich-app/immich](https://github.com/immich-app/immich)** | `TypeScript` | High performance self-hosted photo and video management solution. |
 | **[inspektor-dev/inspektor](https://github.com/inspektor-dev/inspektor)** | `Rust` | Inspektor is a protocol-aware proxy that is used to enforce access policies👮 |
@@ -1185,7 +1189,6 @@
 | **[vueuse/vueuse](https://github.com/vueuse/vueuse)** | `TypeScript` | Collection of essential Vue Composition Utilities for Vue 3 |
 | **[wobsoriano/vue-keep](https://github.com/wobsoriano/vue-keep)** | `Vue` | Google Keep clone with Vue, Typescript and Firestore |
 | **[yudax42/vue-upload-drop-images](https://github.com/yudax42/vue-upload-drop-images)** | `Others` | 🖼️ Drag-and-drop image upload component for Vue |
-| **[YusufCeng1z/ding](https://github.com/YusufCeng1z/ding)** | `TypeScript` | Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue and plain DOM. |
 | **[alpinejs/alpine](https://github.com/alpinejs/alpine)** | `HTML` | A rugged, minimal framework for composing JavaScript behavior in your markup. |
 | **[charlesBochet/cropchat](https://github.com/charlesBochet/cropchat)** | `JavaScript` | Progressive Web Application made with VueJS |
 | **[solidjs/solid-start](https://github.com/solidjs/solid-start)** | `TypeScript` | SolidStart, the Solid app framework |
@@ -1206,7 +1209,7 @@
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
 - **📊 Interactive Canvas, 3D WebGL & Data Visualization (12 options):** [`BabylonJS/Babylon.js`](https://github.com/BabylonJS/Babylon.js), [`mckinsey/vizro`](https://github.com/mckinsey/vizro), [`NoiseByNorthwest/php-spx`](https://github.com/NoiseByNorthwest/php-spx), [`nomic-ai/deepscatter`](https://github.com/nomic-ai/deepscatter), [`reorx/httpstat`](https://github.com/reorx/httpstat) *(+7 more swappable options below)*
-- **🟨 TypeScript / Node.js Runtime Utilities & SDKs (90 options):** [`algolia/autocomplete`](https://github.com/algolia/autocomplete), [`alias-rahil/handwritten.js`](https://github.com/alias-rahil/handwritten.js), [`alyssaxuu/flowy`](https://github.com/alyssaxuu/flowy), [`andreimargeloiu/Hospital-management-nodejs`](https://github.com/andreimargeloiu/Hospital-management-nodejs), [`arianrhodsandlot/nostalgist`](https://github.com/arianrhodsandlot/nostalgist) *(+85 more swappable options below)*
+- **🟨 TypeScript / Node.js Runtime Utilities & SDKs (89 options):** [`algolia/autocomplete`](https://github.com/algolia/autocomplete), [`alias-rahil/handwritten.js`](https://github.com/alias-rahil/handwritten.js), [`alyssaxuu/flowy`](https://github.com/alyssaxuu/flowy), [`andreimargeloiu/Hospital-management-nodejs`](https://github.com/andreimargeloiu/Hospital-management-nodejs), [`arianrhodsandlot/nostalgist`](https://github.com/arianrhodsandlot/nostalgist) *(+84 more swappable options below)*
 - **🔄 Workflow Orchestration, Job Queues & Pipelines (16 options):** [`n8n-io/n8n`](https://github.com/n8n-io/n8n), [`automatisch/automatisch`](https://github.com/automatisch/automatisch), [`kestra-io/kestra`](https://github.com/kestra-io/kestra), [`Netflix/maestro`](https://github.com/Netflix/maestro), [`PrefectHQ/prefect`](https://github.com/PrefectHQ/prefect) *(+11 more swappable options below)*
 
 <details>
@@ -1265,6 +1268,7 @@
 | **[parvardegr/sharing](https://github.com/parvardegr/sharing)** | `JavaScript` | Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app |
 | **[Snapchat/Valdi](https://github.com/Snapchat/Valdi)** | `C++` | Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity. |
 | **[krahets/hello-algo](https://github.com/krahets/hello-algo)** | `Python` | 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现 |
+| **[tauri-apps/tauri](https://github.com/tauri-apps/tauri)** | `Rust` | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. |
 | **[adi1090x/termux-desktop](https://github.com/adi1090x/termux-desktop)** | `CSS` | Setup A Beautiful Desktop/GUI In Termux |
 | **[coding-blocks/DigitalOceanApp](https://github.com/coding-blocks/DigitalOceanApp)** | `Java` | Admin Console for Digital Ocean |
 | **[dblens/app](https://github.com/dblens/app)** | `TypeScript` | Database explorer for Mac, Windows & Linux |
@@ -1279,7 +1283,6 @@
 | **[recloudstream/cloudstream](https://github.com/recloudstream/cloudstream)** | `Kotlin` | Android app for streaming and downloading media. |
 | **[serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)** | `Others` | 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps |
 | **[siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen)** | `TypeScript` | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. |
-| **[tauri-apps/tauri](https://github.com/tauri-apps/tauri)** | `Rust` | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. |
 | **[termux/termux-packages](https://github.com/termux/termux-packages)** | `Shell` | A package build system for Termux. |
 | **[tuanpham-dev/termux-ubuntu](https://github.com/tuanpham-dev/termux-ubuntu)** | `Shell` | This helps you install Ubuntu 20 + XFCE4 desktop on Termux with ease. |
 | **[utmapp/UTM](https://github.com/utmapp/UTM)** | `Swift` | Virtual machines for iOS and macOS |
@@ -1350,6 +1353,7 @@
 | **[Dataherald/dataherald](https://github.com/Dataherald/dataherald)** | `Python` | Interact with your SQL database, Natural Language to SQL using LLMs |
 | **[digitallyinduced/thin-backend](https://github.com/digitallyinduced/thin-backend)** | `JavaScript` | 🔥 Thin Backend is a Blazing Fast, Universal Web App Backend for Making Realtime Single Page Apps |
 | **[Dokploy/dokploy](https://github.com/Dokploy/dokploy)** | `TypeScript` | Open Source Alternative to Vercel, Netlify and Heroku. |
+| **[electric-sql/electric-pglite](https://github.com/electric-sql/electric-pglite)** | `TypeScript` | Embeddable Postgres with real-time, reactive bindings. |
 | **[electric-sql/pglite](https://github.com/electric-sql/pglite)** | `TypeScript` | Embeddable Postgres with real-time, reactive bindings. |
 | **[gridaco/grida](https://github.com/gridaco/grida)** | `TypeScript` | Grida — Open Canvas |
 | **[guanguans/laravel-soar](https://github.com/guanguans/laravel-soar)** | `PHP` | SQL optimizer and rewriter for laravel. - laravel 的 SQL 优化器和重写器。 |
@@ -1396,7 +1400,6 @@
 | **[dicedb/dicedb](https://github.com/dicedb/dicedb)** | `C` | Open-source, low-latency key/value engine built on Valkey with query subscriptions and hierarchical storage tiers. |
 | **[digitallyinduced/ihp](https://github.com/digitallyinduced/ihp)** | `Haskell` | 🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness |
 | **[dolthub/doltgresql](https://github.com/dolthub/doltgresql)** | `Go` | DoltgreSQL - Version Controlled PostgreSQL |
-| **[electric-sql/electric-pglite](https://github.com/electric-sql/electric-pglite)** | `TypeScript` | Embeddable Postgres with real-time, reactive bindings. |
 | **[jmforsythe/Git-Heat-Map](https://github.com/jmforsythe/Git-Heat-Map)** | `JavaScript` | Visualise a git repository by diff activity |
 | **[mikeroyal/Oracle-Cloud-Guide](https://github.com/mikeroyal/Oracle-Cloud-Guide)** | `Others` | Oracle Cloud Infrastructure Guide |
 | **[ongres/stackgres](https://github.com/ongres/stackgres)** | `Java` | StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there. |
@@ -2169,6 +2172,7 @@
 | **[openrecall/openrecall](https://github.com/openrecall/openrecall)** | `Python` | OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memor |
 | **[orbstack/orbstack](https://github.com/orbstack/orbstack)** | `Shell` | Fast, light, simple Docker containers & Linux machines |
 | **[Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term)** | `QML` | A good looking terminal emulator which mimics the old cathode display... |
+| **[derekross/omarchy-mobile](https://github.com/derekross/omarchy-mobile)** | `Shell` | Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress) |
 | **[FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar)** | `C` | A highly customizable macOS status bar replacement |
 | **[google/gvisor](https://github.com/google/gvisor)** | `Go` | Application Kernel for Containers |
 | **[lima-vm/lima](https://github.com/lima-vm/lima)** | `Go` | Linux virtual machines, with a focus on running containers |
@@ -2178,7 +2182,6 @@
 | **[charliermarsh/whisper.cpp-cli](https://github.com/charliermarsh/whisper.cpp-cli)** | `Python` | Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux. |
 | **[danielealbano/cachegrand](https://github.com/danielealbano/cachegrand)** | `C` | cachegrand - a modern data ingestion, processing and serving platform built for today's hardware |
 | **[darlinghq/darling](https://github.com/darlinghq/darling)** | `Objective-C` | Darwin/macOS emulation layer for Linux |
-| **[derekross/omarchy-mobile](https://github.com/derekross/omarchy-mobile)** | `Shell` | Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress) |
 | **[francescopace/espectre](https://github.com/francescopace/espectre)** | `Python` | Wi-Fi motion sensing platform for ESP32. C++ SDK, ESPHome, Native, and Matter frontends, browser tools, and a CLI for the full device lifecycle. GPLv3 and commercial licensing. |
 | **[iCHAIT/awesome-macOS](https://github.com/iCHAIT/awesome-macOS)** | `Others` |  A curated list of awesome applications, softwares, tools and shiny things for macOS. |
 | **[luchina-gabriel/OSX-PROXMOX](https://github.com/luchina-gabriel/OSX-PROXMOX)** | `Shell` | Voilà, install macOS on ANY Computer! This is really and magic easiest way! PVE 7.XX ~ 9.XX Support and macOS High Sierra ~ macOS Tahoe Support. |
@@ -2212,7 +2215,7 @@
 
 - **🛠️ Git Workflows, Compilers, Linters & Dev Productivity (37 options):** [`lindell/multi-gitter`](https://github.com/lindell/multi-gitter), [`usebruno/bruno`](https://github.com/usebruno/bruno), [`artzub/GitHubVisualizer`](https://github.com/artzub/GitHubVisualizer), [`garden-io/garden`](https://github.com/garden-io/garden), [`px0-ai/px0`](https://github.com/px0-ai/px0) *(+32 more swappable options below)*
 - **⌨️ Modern Terminals, Web Shells & TUI Dashboards (70 options):** [`Slackadays/Clipboard`](https://github.com/Slackadays/Clipboard), [`faressoft/terminalizer`](https://github.com/faressoft/terminalizer), [`withfig/autocomplete`](https://github.com/withfig/autocomplete), [`alebcay/awesome-shell`](https://github.com/alebcay/awesome-shell), [`barthr/redo`](https://github.com/barthr/redo) *(+65 more swappable options below)*
-- **💻 AI Coding Copilot, PR Review & Code Gen (10 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`ruvnet/RuView`](https://github.com/ruvnet/RuView), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness), [`yizhiyanhua-ai/fireworks-tech-graph`](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) *(+5 more swappable options below)*
+- **💻 AI Coding Copilot, PR Review & Code Gen (11 options):** [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`ruvnet/RuView`](https://github.com/ruvnet/RuView), [`pingdotgg/t3code`](https://github.com/pingdotgg/t3code), [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk), [`tigerless-labs/autoharness`](https://github.com/tigerless-labs/autoharness) *(+6 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 37 Swappable Repositories for 🛠️ Git Workflows, Compilers, Linters & Dev Productivity</b></summary>
@@ -2548,12 +2551,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🟨 TypeScript / Node.js Runtime Utilities & SDKs (90 options):** [`algolia/autocomplete`](https://github.com/algolia/autocomplete), [`alias-rahil/handwritten.js`](https://github.com/alias-rahil/handwritten.js), [`alyssaxuu/flowy`](https://github.com/alyssaxuu/flowy), [`andreimargeloiu/Hospital-management-nodejs`](https://github.com/andreimargeloiu/Hospital-management-nodejs), [`arianrhodsandlot/nostalgist`](https://github.com/arianrhodsandlot/nostalgist) *(+85 more swappable options below)*
-- **⚛️ React, Next.js & Modern Frontend Stacks (68 options):** [`boxyhq/saas-starter-kit`](https://github.com/boxyhq/saas-starter-kit), [`shuding/nextra`](https://github.com/shuding/nextra), [`vercel/commerce`](https://github.com/vercel/commerce), [`vercel/next-forge`](https://github.com/vercel/next-forge), [`Asabeneh/30-Days-Of-JavaScript`](https://github.com/Asabeneh/30-Days-Of-JavaScript) *(+63 more swappable options below)*
+- **🟨 TypeScript / Node.js Runtime Utilities & SDKs (89 options):** [`algolia/autocomplete`](https://github.com/algolia/autocomplete), [`alias-rahil/handwritten.js`](https://github.com/alias-rahil/handwritten.js), [`alyssaxuu/flowy`](https://github.com/alyssaxuu/flowy), [`andreimargeloiu/Hospital-management-nodejs`](https://github.com/andreimargeloiu/Hospital-management-nodejs), [`arianrhodsandlot/nostalgist`](https://github.com/arianrhodsandlot/nostalgist) *(+84 more swappable options below)*
+- **⚛️ React, Next.js & Modern Frontend Stacks (69 options):** [`boxyhq/saas-starter-kit`](https://github.com/boxyhq/saas-starter-kit), [`shuding/nextra`](https://github.com/shuding/nextra), [`vercel/commerce`](https://github.com/vercel/commerce), [`vercel/next-forge`](https://github.com/vercel/next-forge), [`Asabeneh/30-Days-Of-JavaScript`](https://github.com/Asabeneh/30-Days-Of-JavaScript) *(+64 more swappable options below)*
 - **📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways (53 options):** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch), [`go-chi/chi`](https://github.com/go-chi/chi), [`danielgtaylor/huma`](https://github.com/danielgtaylor/huma), [`hasura/graphql-engine`](https://github.com/hasura/graphql-engine), [`artilleryio/artillery`](https://github.com/artilleryio/artillery) *(+48 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 90 Swappable Repositories for 🟨 TypeScript / Node.js Runtime Utilities & SDKs</b></summary>
+<summary><b>📦 View all 89 Swappable Repositories for 🟨 TypeScript / Node.js Runtime Utilities & SDKs</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -2642,7 +2645,6 @@
 | **[joshcirre/instruckt](https://github.com/joshcirre/instruckt)** | `TypeScript` | Open-source building block |
 | **[khalildh/garment-notation](https://github.com/khalildh/garment-notation)** | `JavaScript` | Open-source building block |
 | **[loggerhead/json4u](https://github.com/loggerhead/json4u)** | `TypeScript` | Open-source building block |
-| **[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** | `TypeScript` | Open-source building block |
 | **[pshihn/sockly](https://github.com/pshihn/sockly)** | `TypeScript` | Open-source building block |
 | **[shubhsk88/realbnb-frontend](https://github.com/shubhsk88/realbnb-frontend)** | `TypeScript` | Open-source building block |
 | **[sinandredemption/kath](https://github.com/sinandredemption/kath)** | `JavaScript` | Open-source building block |
