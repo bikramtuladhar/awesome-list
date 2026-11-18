@@ -5,10 +5,10 @@
 **Live Interactive Catalog, Idea Swapper & Combiner:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨
 **Full 40 Product Ideas & 1,729-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡
 
-![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1734-blue.svg?style=flat-square) 
+![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1738-blue.svg?style=flat-square) 
 ![Product Ideas](https://img.shields.io/badge/Swappable_Product_Ideas-40_(100%25_Coverage)-emerald.svg?style=flat-square) 
 ![Auto Updated](https://img.shields.io/badge/AI_Classification-Google_Gemini-4285F4.svg?style=flat-square) 
-![Last Updated](https://img.shields.io/badge/Updated-2026-11-17-success.svg?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Updated-2026-11-18-success.svg?style=flat-square)
 
 ---
 
@@ -100,20 +100,20 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 
 ## 📑 Table of Contents
 
-- [🤖 AI & Autonomous Agents (244)](#ai-agents)
+- [🤖 AI & Autonomous Agents (245)](#ai-agents)
 - [🔍 RAG, Vector & Data Ingestion (35)](#rag-data-ingestion)
 - [🚀 SaaS Starters & App Boilerplates (32)](#saas-starters)
 - [🎨 UI Kits, Generative UX & Dashboards (160)](#ui-generative-ux)
 - [⚡ APIs, Workflow Automation & Webhooks (77)](#apis-automation)
 - [💾 Databases, Caching & Realtime State (123)](#data-storage-cache)
 - [🛡️ Security, Privacy & Auth Utilities (87)](#security-privacy)
-- [📦 DevOps, Sandboxes & Cloud Infra (193)](#devops-infra)
-- [🛠️ Developer Tooling & Terminal Utilities (704)](#devtools-terminal)
+- [📦 DevOps, Sandboxes & Cloud Infra (194)](#devops-infra)
+- [🛠️ Developer Tooling & Terminal Utilities (706)](#devtools-terminal)
 - [💡 Ready-to-Remix Products & Self-Hosted Apps (79)](#ready-to-remix)
 
 ---
 
-## <a id="ai-agents"></a>🤖 AI & Autonomous Agents `(244)`
+## <a id="ai-agents"></a>🤖 AI & Autonomous Agents `(245)`
 
 > *Agent frameworks, LLM orchestrators, local inference runtimes, multi-agent swarms, and AI coding assistants.*
 
@@ -363,6 +363,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[NangoHQ/nango](https://github.com/NangoHQ/nango)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Connect your agents & product to 1,000 APIs. | *Remix with headless browser for end-to-end task automation* |
 | **[leon-ai/leon](https://github.com/leon-ai/leon)** | `Multi-Agent Coordination & Execution` | `TypeScript` | 🧠 Leon is your open-source personal assistant. | *Remix with headless browser for end-to-end task automation* |
 | **[GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance)** | `Multi-Agent Coordination & Execution` | `Others` | Keep your coding agent up to date with the latest web best practices | *Remix with headless browser for end-to-end task automation* |
+| **[raroque/boop-agent](https://github.com/raroque/boop-agent)** | `Multi-Agent Coordination & Execution` | `TypeScript` | iMessage personal agent: choose Claude Agent SDK (Claude Code) or Codex app-server runtime (Codex/ChatGPT), with memory, sub-agents, automations, integrations. | *Remix with headless browser for end-to-end task automation* |
 
 
 ## <a id="rag-data-ingestion"></a>🔍 RAG, Vector & Data Ingestion `(35)`
@@ -927,7 +928,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[berty/berty](https://github.com/berty/berty)** | `Security, SIP & Audit Protection` | `TypeScript` | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | *Integrate into compliance SaaS for automated audit reports* |
 
 
-## <a id="devops-infra"></a>📦 DevOps, Sandboxes & Cloud Infra `(193)`
+## <a id="devops-infra"></a>📦 DevOps, Sandboxes & Cloud Infra `(194)`
 
 > *Containers, code execution sandboxes, WebAssembly, Kubernetes, Nix, and CI/CD automation.*
 
@@ -1126,9 +1127,10 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[caprover/caprover](https://github.com/caprover/caprover)** | `Infrastructure & Execution Sandbox` | `TypeScript` | Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
 | **[k3s-io/k3s-ansible](https://github.com/k3s-io/k3s-ansible)** | `Infrastructure & Execution Sandbox` | `YAML` | Open source tool | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
 | **[justrach/merjs](https://github.com/justrach/merjs)** | `Infrastructure & Execution Sandbox` | `Zig` | A Zig-native web framework. File-based routing, SSR, type-safe APIs, WASM client interactivity. No Node. No npm. Just zig build serve. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
+| **[gvisor/gvisor](https://github.com/gvisor/gvisor)** | `Infrastructure & Execution Sandbox` | `Go` | Application Kernel for Containers | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
 
 
-## <a id="devtools-terminal"></a>🛠️ Developer Tooling & Terminal Utilities `(704)`
+## <a id="devtools-terminal"></a>🛠️ Developer Tooling & Terminal Utilities `(706)`
 
 > *CLI power tools, TUI interfaces, profilers, debuggers, code formatters, and terminal sharing.*
 
@@ -1838,6 +1840,8 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[vercel-labs/native](https://github.com/vercel-labs/native)** | `Developer Productivity & Tooling` | `Zig` | Toolkit for building native desktop apps | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[ziglang/zig](https://github.com/ziglang/zig)** | `Developer Productivity & Tooling` | `Zig` | Moved to Codeberg | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[derekross/omarchy-mobile](https://github.com/derekross/omarchy-mobile)** | `Developer Productivity & Tooling` | `Shell` | Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
+| **[lerd-env/plugins](https://github.com/lerd-env/plugins)** | `Developer Productivity & Tooling` | `Go` | Approved plugins for Lerd, listed at plugins.lerd.sh | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
+| **[opa334/TrollStore](https://github.com/opa334/TrollStore)** | `Developer Productivity & Tooling` | `Objective-C` | Jailed iOS app that can install IPAs permanently with arbitary entitlements and root helpers because it trolls Apple | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 
 
 ## <a id="ready-to-remix"></a>💡 Ready-to-Remix Products & Self-Hosted Apps `(79)`

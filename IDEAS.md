@@ -1,6 +1,6 @@
 # 💡 Complete Product Ideas & Swap Matrix (100% Repository Coverage)
 
-> **Every single one of the 1734 starred repositories** is mapped into **40 Product Ideas** and **40 Interchangeable Functional Slots**.
+> **Every single one of the 1738 starred repositories** is mapped into **40 Product Ideas** and **40 Interchangeable Functional Slots**.
 > You can swap any repository with a similar alternative in the same slot, or combine multiple ideas into an entirely new super-product!
 
 **Interactive Idea Swapper & Combiner:** [Open Live in index.html](https://bikramtuladhar.github.io/awesome-list/) ✨
@@ -14,7 +14,7 @@
 | 1 | **[On-Premise Voice AI Receptionist & SIP Shield](#idea-01)** | `AI & Voice Automation` | 🎙️ Voice, Speech-to-Text & Audio Engine | **20 repos** |
 | 2 | **[Offline Cross-Platform AI Copilot & Edge Model Runner](#idea-02)** | `Local AI & Edge Compute` | 🧠 Local & Edge LLM Inference Engine | **8 repos** |
 | 3 | **[Universal MCP Server Hub & Enterprise Tool Bridge](#idea-03)** | `AI Agents & MCP` | 🔌 Model Context Protocol (MCP) & Agent Skills | **11 repos** |
-| 4 | **[Autonomous Multi-Agent B2B Research & Outreach Swarm](#idea-04)** | `Autonomous Agent Swarms` | 🤖 Multi-Agent Orchestrator & Autonomous Swarms | **86 repos** |
+| 4 | **[Autonomous Multi-Agent B2B Research & Outreach Swarm](#idea-04)** | `Autonomous Agent Swarms` | 🤖 Multi-Agent Orchestrator & Autonomous Swarms | **87 repos** |
 | 5 | **[Automated PR Security Reviewer & Codebase Refactoring Bot](#idea-05)** | `AI DevTools` | 💻 AI Coding Copilot, PR Review & Code Gen | **11 repos** |
 | 6 | **[Autopilot Video Studio & Visual Defect Inspector](#idea-06)** | `Computer Vision & Media` | 👁️ Computer Vision, Image & Video AI | **27 repos** |
 | 7 | **[Reverse Cloudflare for LLMs (AI Gateway & Semantic Cache)](#idea-07)** | `AI Infrastructure` | ⚡ AI Gateway, LLM Proxy & Token Router | **65 repos** |
@@ -30,7 +30,7 @@
 | 17 | **[Edge-Rendered Next.js E-Commerce & Content Engine](#idea-17)** | `Modern Web & Jamstack` | ⚛️ React, Next.js & Modern Frontend Stacks | **69 repos** |
 | 18 | **[Reactive Real-Time Collaborative Whiteboards & Micro-Apps](#idea-18)** | `Reactive Frontend` | ✨ Vue, Svelte & Reactive UI Frameworks | **43 repos** |
 | 19 | **[Visual Node-Graph Workflow Builder & 3D Data Explorer](#idea-19)** | `Visual Programming & 3D` | 📊 Interactive Canvas, 3D WebGL & Data Visualization | **12 repos** |
-| 20 | **[Cross-Platform Offline-First Field Service Mobile Suite](#idea-20)** | `Mobile & Desktop Apps` | 📱 Mobile, iOS, Android & Cross-Platform Apps | **39 repos** |
+| 20 | **[Cross-Platform Offline-First Field Service Mobile Suite](#idea-20)** | `Mobile & Desktop Apps` | 📱 Mobile, iOS, Android & Cross-Platform Apps | **40 repos** |
 | 21 | **[Distributed Graph + Columnar Cloud Database Platform](#idea-21)** | `Database Infrastructure` | 🐘 PostgreSQL Extensions, Distributed SQL & Migrations | **107 repos** |
 | 22 | **[Zero-Config Browser-to-Edge SQLite Analytics Workbench](#idea-22)** | `Local-First Data & Edge` | 🗄️ SQLite Engines, Embedded DBs & Local Storage | **11 repos** |
 | 23 | **[Sub-Millisecond Reactive Cache & Live Query Subscription Engine](#idea-23)** | `High-Speed Caching` | 🚀 In-Memory Cache, Redis/Valkey & KV Engines | **3 repos** |
@@ -42,11 +42,11 @@
 | 29 | **[Zero-Instrumentation eBPF Observability & Privacy Analytics Suite](#idea-29)** | `Observability & Telemetry` | 📈 Observability, eBPF Telemetry, Logs & Analytics | **22 repos** |
 | 30 | **[Continuous API Pentesting, Bot Firewall & SOC2 Audit Appliance](#idea-30)** | `Cybersecurity & Compliance` | 🛡️ Cybersecurity, Pentesting, Bot Defense & Auditing | **47 repos** |
 | 31 | **[Collaborative Browser Terminal Workbench & TUI Command Center](#idea-31)** | `Terminal & CLI Power Tools` | ⌨️ Modern Terminals, Web Shells & TUI Dashboards | **70 repos** |
-| 32 | **[Apple Silicon / Linux Hardware Telemetry & Embedded AI Lab](#idea-32)** | `Systems, OS & Embedded` | 🍎 macOS, Linux Kernel, System Utilities & Hardware | **43 repos** |
+| 32 | **[Apple Silicon / Linux Hardware Telemetry & Embedded AI Lab](#idea-32)** | `Systems, OS & Embedded` | 🍎 macOS, Linux Kernel, System Utilities & Hardware | **44 repos** |
 | 33 | **[Local GitHub Actions Runner, Code Quality & Polyglot Compiler Suite](#idea-33)** | `Developer Productivity` | 🛠️ Git Workflows, Compilers, Linters & Dev Productivity | **37 repos** |
 | 34 | **[One-Click Self-Hosted Business & Household Cloud Appliance](#idea-34)** | `Self-Hosted Products` | 🏠 Turn-Key Self-Hosted Apps, Media & Productivity | **23 repos** |
 | 35 | **[Zero-Overhead PHP Flamegraph Profiler & High-Speed Runtime](#idea-35)** | `PHP Performance & Tooling` | 🐘 PHP Frameworks, Profilers & Server Runtimes | **25 repos** |
-| 36 | **[Ultra-Low-Latency Go Microservice Chassis & Network Proxy](#idea-36)** | `Go Systems Engineering` | 🐹 High-Concurrency Go Libraries & Microservice Tools | **24 repos** |
+| 36 | **[Ultra-Low-Latency Go Microservice Chassis & Network Proxy](#idea-36)** | `Go Systems Engineering` | 🐹 High-Concurrency Go Libraries & Microservice Tools | **25 repos** |
 | 37 | **[Blazing-Fast Rust & Zig WebAssembly Compute Engine](#idea-37)** | `Rust, Zig & Systems` | 🦀 Zero-Cost Rust, Zig & C/C++ Systems Building Blocks | **34 repos** |
 | 38 | **[Automated Python Data Engineering & Financial Quant Pipeline](#idea-38)** | `Python & Data Science` | 🐍 Python Data Science, Automation & Scripting Libraries | **51 repos** |
 | 39 | **[Universal TypeScript SDK Generator & Edge Runtime Toolkit](#idea-39)** | `TypeScript & Node.js Ecosystem` | 🟨 TypeScript / Node.js Runtime Utilities & SDKs | **89 repos** |
@@ -109,7 +109,7 @@
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
 - **🧠 Local & Edge LLM Inference Engine (8 options):** [`ggml-org/llama.cpp`](https://github.com/ggml-org/llama.cpp), [`microsoft/BitNet`](https://github.com/microsoft/BitNet), [`tetherto/qvac`](https://github.com/tetherto/qvac), [`ar-nelson/spartan-schema`](https://github.com/ar-nelson/spartan-schema), [`bigcode-project/starcoder`](https://github.com/bigcode-project/starcoder) *(+3 more swappable options below)*
-- **📱 Mobile, iOS, Android & Cross-Platform Apps (39 options):** [`noqa-ai/noqa`](https://github.com/noqa-ai/noqa), [`appwrite/appwrite`](https://github.com/appwrite/appwrite), [`StacDev/stac`](https://github.com/StacDev/stac), [`laurent22/joplin`](https://github.com/laurent22/joplin), [`unicodeveloper/awesome-opensource-apps`](https://github.com/unicodeveloper/awesome-opensource-apps) *(+34 more swappable options below)*
+- **📱 Mobile, iOS, Android & Cross-Platform Apps (40 options):** [`noqa-ai/noqa`](https://github.com/noqa-ai/noqa), [`appwrite/appwrite`](https://github.com/appwrite/appwrite), [`StacDev/stac`](https://github.com/StacDev/stac), [`laurent22/joplin`](https://github.com/laurent22/joplin), [`unicodeveloper/awesome-opensource-apps`](https://github.com/unicodeveloper/awesome-opensource-apps) *(+35 more swappable options below)*
 - **🗄️ SQLite Engines, Embedded DBs & Local Storage (11 options):** [`buffdb/buffdb`](https://github.com/buffdb/buffdb), [`pawelsalawa/letos`](https://github.com/pawelsalawa/letos), [`pubkey/rxdb`](https://github.com/pubkey/rxdb), [`glommer/pgmicro`](https://github.com/glommer/pgmicro), [`thevahidal/soul`](https://github.com/thevahidal/soul) *(+6 more swappable options below)*
 
 <details>
@@ -175,12 +175,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🤖 Multi-Agent Orchestrator & Autonomous Swarms (86 options):** [`e2b-dev/E2B`](https://github.com/e2b-dev/E2B), [`activepieces/activepieces`](https://github.com/activepieces/activepieces), [`ParadevAI/Paradev`](https://github.com/ParadevAI/Paradev), [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory), [`TrafficGuard/typedai`](https://github.com/TrafficGuard/typedai) *(+81 more swappable options below)*
+- **🤖 Multi-Agent Orchestrator & Autonomous Swarms (87 options):** [`e2b-dev/E2B`](https://github.com/e2b-dev/E2B), [`activepieces/activepieces`](https://github.com/activepieces/activepieces), [`ParadevAI/Paradev`](https://github.com/ParadevAI/Paradev), [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory), [`TrafficGuard/typedai`](https://github.com/TrafficGuard/typedai) *(+82 more swappable options below)*
 - **🕷️ Web Scraper, Headless Browser & Crawler (4 options):** [`apify/crawlee`](https://github.com/apify/crawlee), [`apify/crawlee-python`](https://github.com/apify/crawlee-python), [`codelucas/newspaper`](https://github.com/codelucas/newspaper), [`slotix/dataflowkit`](https://github.com/slotix/dataflowkit)
 - **🔄 Workflow Orchestration, Job Queues & Pipelines (16 options):** [`n8n-io/n8n`](https://github.com/n8n-io/n8n), [`automatisch/automatisch`](https://github.com/automatisch/automatisch), [`kestra-io/kestra`](https://github.com/kestra-io/kestra), [`Netflix/maestro`](https://github.com/Netflix/maestro), [`PrefectHQ/prefect`](https://github.com/PrefectHQ/prefect) *(+11 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 86 Swappable Repositories for 🤖 Multi-Agent Orchestrator & Autonomous Swarms</b></summary>
+<summary><b>📦 View all 87 Swappable Repositories for 🤖 Multi-Agent Orchestrator & Autonomous Swarms</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -236,6 +236,7 @@
 | **[openai/swarm](https://github.com/openai/swarm)** | `Python` | Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team. |
 | **[qodo-ai/qodo-cover](https://github.com/qodo-ai/qodo-cover)** | `Python` | Qodo-Cover: An AI-Powered Tool for Automated Test Generation and Code Coverage Enhancement! 💻🤖🧪🐞 |
 | **[ragapp/ragapp](https://github.com/ragapp/ragapp)** | `TypeScript` | The easiest way to use Agentic RAG in any enterprise |
+| **[raroque/boop-agent](https://github.com/raroque/boop-agent)** | `TypeScript` | iMessage personal agent: choose Claude Agent SDK (Claude Code) or Codex app-server runtime (Codex/ChatGPT), with memory, sub-agents, automations, integrations. |
 | **[sauravpanda/BrowserAI](https://github.com/sauravpanda/BrowserAI)** | `TypeScript` | Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser |
 | **[nikivdev/code](https://github.com/nikivdev/code)** | `Rust` | Open-source building block |
 | **[tembo/tembo](https://github.com/tembo/tembo)** | `Others` | Open-source building block |
@@ -1244,12 +1245,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **📱 Mobile, iOS, Android & Cross-Platform Apps (39 options):** [`noqa-ai/noqa`](https://github.com/noqa-ai/noqa), [`appwrite/appwrite`](https://github.com/appwrite/appwrite), [`StacDev/stac`](https://github.com/StacDev/stac), [`laurent22/joplin`](https://github.com/laurent22/joplin), [`unicodeveloper/awesome-opensource-apps`](https://github.com/unicodeveloper/awesome-opensource-apps) *(+34 more swappable options below)*
+- **📱 Mobile, iOS, Android & Cross-Platform Apps (40 options):** [`noqa-ai/noqa`](https://github.com/noqa-ai/noqa), [`appwrite/appwrite`](https://github.com/appwrite/appwrite), [`StacDev/stac`](https://github.com/StacDev/stac), [`laurent22/joplin`](https://github.com/laurent22/joplin), [`unicodeveloper/awesome-opensource-apps`](https://github.com/unicodeveloper/awesome-opensource-apps) *(+35 more swappable options below)*
 - **🗄️ SQLite Engines, Embedded DBs & Local Storage (11 options):** [`buffdb/buffdb`](https://github.com/buffdb/buffdb), [`pawelsalawa/letos`](https://github.com/pawelsalawa/letos), [`pubkey/rxdb`](https://github.com/pubkey/rxdb), [`glommer/pgmicro`](https://github.com/glommer/pgmicro), [`thevahidal/soul`](https://github.com/thevahidal/soul) *(+6 more swappable options below)*
 - **👁️ Computer Vision, Image & Video AI (27 options):** [`dailenson/One-DM`](https://github.com/dailenson/One-DM), [`protonemedia/laravel-ffmpeg`](https://github.com/protonemedia/laravel-ffmpeg), [`bloc97/Anime4K`](https://github.com/bloc97/Anime4K), [`gyroflow/gyroflow`](https://github.com/gyroflow/gyroflow), [`IgorShadurin/app.yumcut.com`](https://github.com/IgorShadurin/app.yumcut.com) *(+22 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 39 Swappable Repositories for 📱 Mobile, iOS, Android & Cross-Platform Apps</b></summary>
+<summary><b>📦 View all 40 Swappable Repositories for 📱 Mobile, iOS, Android & Cross-Platform Apps</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -1292,6 +1293,7 @@
 | **[apple/container](https://github.com/apple/container)** | `Swift` | A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. |
 | **[AppScale/gts](https://github.com/AppScale/gts)** | `Python` | AppScale is an easy-to-manage serverless platform for building and running scalable web and mobile applications on any infrastructure. |
 | **[jwise/HoRNDIS](https://github.com/jwise/HoRNDIS)** | `C++` | Android USB tethering driver for Mac OS X |
+| **[opa334/TrollStore](https://github.com/opa334/TrollStore)** | `Objective-C` | Jailed iOS app that can install IPAs permanently with arbitary entitlements and root helpers because it trolls Apple |
 
 </details>
 
@@ -1475,7 +1477,7 @@
 
 - **🚀 In-Memory Cache, Redis/Valkey & KV Engines (3 options):** [`dragonflydb/dragonfly`](https://github.com/dragonflydb/dragonfly), [`RedisLabs/redisraft`](https://github.com/RedisLabs/redisraft), [`paypal/junodb`](https://github.com/paypal/junodb)
 - **📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways (53 options):** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch), [`go-chi/chi`](https://github.com/go-chi/chi), [`danielgtaylor/huma`](https://github.com/danielgtaylor/huma), [`hasura/graphql-engine`](https://github.com/hasura/graphql-engine), [`artilleryio/artillery`](https://github.com/artilleryio/artillery) *(+48 more swappable options below)*
-- **🐹 High-Concurrency Go Libraries & Microservice Tools (24 options):** [`adelapazborrero/slack_jack`](https://github.com/adelapazborrero/slack_jack), [`cgzirim/seek-tune`](https://github.com/cgzirim/seek-tune), [`coder/sshcode`](https://github.com/coder/sshcode), [`coder/wush`](https://github.com/coder/wush), [`commitdev/zero`](https://github.com/commitdev/zero) *(+19 more swappable options below)*
+- **🐹 High-Concurrency Go Libraries & Microservice Tools (25 options):** [`adelapazborrero/slack_jack`](https://github.com/adelapazborrero/slack_jack), [`cgzirim/seek-tune`](https://github.com/cgzirim/seek-tune), [`coder/sshcode`](https://github.com/coder/sshcode), [`coder/wush`](https://github.com/coder/wush), [`commitdev/zero`](https://github.com/commitdev/zero) *(+20 more swappable options below)*
 
 <details>
 <summary><b>📦 View all 3 Swappable Repositories for 🚀 In-Memory Cache, Redis/Valkey & KV Engines</b></summary>
@@ -1501,7 +1503,7 @@
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
 - **📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways (53 options):** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch), [`go-chi/chi`](https://github.com/go-chi/chi), [`danielgtaylor/huma`](https://github.com/danielgtaylor/huma), [`hasura/graphql-engine`](https://github.com/hasura/graphql-engine), [`artilleryio/artillery`](https://github.com/artilleryio/artillery) *(+48 more swappable options below)*
-- **🐹 High-Concurrency Go Libraries & Microservice Tools (24 options):** [`adelapazborrero/slack_jack`](https://github.com/adelapazborrero/slack_jack), [`cgzirim/seek-tune`](https://github.com/cgzirim/seek-tune), [`coder/sshcode`](https://github.com/coder/sshcode), [`coder/wush`](https://github.com/coder/wush), [`commitdev/zero`](https://github.com/commitdev/zero) *(+19 more swappable options below)*
+- **🐹 High-Concurrency Go Libraries & Microservice Tools (25 options):** [`adelapazborrero/slack_jack`](https://github.com/adelapazborrero/slack_jack), [`cgzirim/seek-tune`](https://github.com/cgzirim/seek-tune), [`coder/sshcode`](https://github.com/coder/sshcode), [`coder/wush`](https://github.com/coder/wush), [`commitdev/zero`](https://github.com/commitdev/zero) *(+20 more swappable options below)*
 - **🔐 Authentication, Passkeys, OIDC & Multi-Tenancy (5 options):** [`pocket-id/pocket-id`](https://github.com/pocket-id/pocket-id), [`supertokens/supertokens-core`](https://github.com/supertokens/supertokens-core), [`teamhanko/hanko`](https://github.com/teamhanko/hanko), [`kamax-matrix/mxisd`](https://github.com/kamax-matrix/mxisd), [`losfair/blueboat`](https://github.com/losfair/blueboat)
 
 <details>
@@ -2146,12 +2148,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🍎 macOS, Linux Kernel, System Utilities & Hardware (43 options):** [`canonical/multipass`](https://github.com/canonical/multipass), [`codesenberg/bombardier`](https://github.com/codesenberg/bombardier), [`GitSquared/edex-ui`](https://github.com/GitSquared/edex-ui), [`GyulyVGC/sniffnet`](https://github.com/GyulyVGC/sniffnet), [`jlevy/the-art-of-command-line`](https://github.com/jlevy/the-art-of-command-line) *(+38 more swappable options below)*
+- **🍎 macOS, Linux Kernel, System Utilities & Hardware (44 options):** [`canonical/multipass`](https://github.com/canonical/multipass), [`codesenberg/bombardier`](https://github.com/codesenberg/bombardier), [`GitSquared/edex-ui`](https://github.com/GitSquared/edex-ui), [`GyulyVGC/sniffnet`](https://github.com/GyulyVGC/sniffnet), [`jlevy/the-art-of-command-line`](https://github.com/jlevy/the-art-of-command-line) *(+39 more swappable options below)*
 - **🦀 Zero-Cost Rust, Zig & C/C++ Systems Building Blocks (34 options):** [`adamritter/fastgron`](https://github.com/adamritter/fastgron), [`AnswerDotAI/gpu.cpp`](https://github.com/AnswerDotAI/gpu.cpp), [`aristocratos/btop`](https://github.com/aristocratos/btop), [`astral-sh/rye`](https://github.com/astral-sh/rye), [`beac0n/ruroco`](https://github.com/beac0n/ruroco) *(+29 more swappable options below)*
 - **⌨️ Modern Terminals, Web Shells & TUI Dashboards (70 options):** [`Slackadays/Clipboard`](https://github.com/Slackadays/Clipboard), [`faressoft/terminalizer`](https://github.com/faressoft/terminalizer), [`withfig/autocomplete`](https://github.com/withfig/autocomplete), [`alebcay/awesome-shell`](https://github.com/alebcay/awesome-shell), [`barthr/redo`](https://github.com/barthr/redo) *(+65 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 43 Swappable Repositories for 🍎 macOS, Linux Kernel, System Utilities & Hardware</b></summary>
+<summary><b>📦 View all 44 Swappable Repositories for 🍎 macOS, Linux Kernel, System Utilities & Hardware</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -2191,6 +2193,7 @@
 | **[thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi)** | `Shell` | 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources |
 | **[alsyundawy/Microsoft-Office-For-MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS)** | `Shell` | Installer Microsoft Office For MacOS |
 | **[aristocratos/bashtop](https://github.com/aristocratos/bashtop)** | `Shell` | Linux/OSX/FreeBSD resource monitor |
+| **[gvisor/gvisor](https://github.com/gvisor/gvisor)** | `Go` | Application Kernel for Containers |
 | **[hackclub/some-assembly-required](https://github.com/hackclub/some-assembly-required)** | `Assembly` | 📖 An approachable introduction to Assembly. |
 | **[hyperlight-dev/hyperlight](https://github.com/hyperlight-dev/hyperlight)** | `Rust` | Hyperlight is a lightweight Virtual Machine Manager (VMM) designed to be embedded within applications. It enables safe execution of untrusted code within micro virtual machines with very low latency a |
 | **[lxc/incus-os](https://github.com/lxc/incus-os)** | `Go` | Immutable Linux OS to run Incus |
@@ -2370,12 +2373,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **🐹 High-Concurrency Go Libraries & Microservice Tools (24 options):** [`adelapazborrero/slack_jack`](https://github.com/adelapazborrero/slack_jack), [`cgzirim/seek-tune`](https://github.com/cgzirim/seek-tune), [`coder/sshcode`](https://github.com/coder/sshcode), [`coder/wush`](https://github.com/coder/wush), [`commitdev/zero`](https://github.com/commitdev/zero) *(+19 more swappable options below)*
+- **🐹 High-Concurrency Go Libraries & Microservice Tools (25 options):** [`adelapazborrero/slack_jack`](https://github.com/adelapazborrero/slack_jack), [`cgzirim/seek-tune`](https://github.com/cgzirim/seek-tune), [`coder/sshcode`](https://github.com/coder/sshcode), [`coder/wush`](https://github.com/coder/wush), [`commitdev/zero`](https://github.com/commitdev/zero) *(+20 more swappable options below)*
 - **📡 Realtime Pub/Sub, WebSockets, gRPC & API Gateways (53 options):** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch), [`go-chi/chi`](https://github.com/go-chi/chi), [`danielgtaylor/huma`](https://github.com/danielgtaylor/huma), [`hasura/graphql-engine`](https://github.com/hasura/graphql-engine), [`artilleryio/artillery`](https://github.com/artilleryio/artillery) *(+48 more swappable options below)*
 - **📈 Observability, eBPF Telemetry, Logs & Analytics (22 options):** [`ClickHouse/ClickStack`](https://github.com/ClickHouse/ClickStack), [`openobserve/openobserve`](https://github.com/openobserve/openobserve), [`grafana-cold-storage/phlare`](https://github.com/grafana-cold-storage/phlare), [`pixie-io/pixie`](https://github.com/pixie-io/pixie), [`thanos-io/thanos`](https://github.com/thanos-io/thanos) *(+17 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 24 Swappable Repositories for 🐹 High-Concurrency Go Libraries & Microservice Tools</b></summary>
+<summary><b>📦 View all 25 Swappable Repositories for 🐹 High-Concurrency Go Libraries & Microservice Tools</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -2392,6 +2395,7 @@
 | **[heysphere/node-vs-go](https://github.com/heysphere/node-vs-go)** | `JavaScript` | demo |
 | **[k0sproject/k0smotron](https://github.com/k0sproject/k0smotron)** | `Go` | k0smotron |
 | **[kadeessh/kadeessh](https://github.com/kadeessh/kadeessh)** | `Go` | Kadeessh (formerly Caddy-SSH) is a general-purpose, extensible, modular, memory-safe SSH server built in Go |
+| **[lerd-env/plugins](https://github.com/lerd-env/plugins)** | `Go` | Approved plugins for Lerd, listed at plugins.lerd.sh |
 | **[Melkeydev/go-blueprint](https://github.com/Melkeydev/go-blueprint)** | `Go` | Go-blueprint allows users to spin up a quick Go project using a popular framework |
 | **[moonrepo/moon](https://github.com/moonrepo/moon)** | `Rust` | A build system and monorepo management tool for the web ecosystem, written in Rust. |
 | **[ochinchina/supervisord](https://github.com/ochinchina/supervisord)** | `Go` | a go-lang supervisor implementation |

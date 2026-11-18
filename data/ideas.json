@@ -1,5 +1,5 @@
 {
-  "total_repos_covered": 1734,
+  "total_repos_covered": 1738,
   "total_slots": 40,
   "total_ideas": 40,
   "slots": {
@@ -343,7 +343,7 @@
       "id": "slot_multi_agent",
       "name": "Multi-Agent Orchestrator & Autonomous Swarms",
       "icon": "\ud83e\udd16",
-      "count": 86,
+      "count": 87,
       "repos": [
         {
           "full_name": "e2b-dev/E2B",
@@ -757,6 +757,14 @@
           "full_name": "ragapp/ragapp",
           "url": "https://github.com/ragapp/ragapp",
           "description": "The easiest way to use Agentic RAG in any enterprise",
+          "language": "TypeScript",
+          "role": "Multi-Agent Coordination & Execution",
+          "category_id": "ai-agents"
+        },
+        {
+          "full_name": "raroque/boop-agent",
+          "url": "https://github.com/raroque/boop-agent",
+          "description": "iMessage personal agent: choose Claude Agent SDK (Claude Code) or Codex app-server runtime (Codex/ChatGPT), with memory, sub-agents, automations, integrations.",
           "language": "TypeScript",
           "role": "Multi-Agent Coordination & Execution",
           "category_id": "ai-agents"
@@ -5951,7 +5959,7 @@
       "id": "slot_mobile_cross",
       "name": "Mobile, iOS, Android & Cross-Platform Apps",
       "icon": "\ud83d\udcf1",
-      "count": 39,
+      "count": 40,
       "repos": [
         {
           "full_name": "noqa-ai/noqa",
@@ -6262,6 +6270,14 @@
           "url": "https://github.com/jwise/HoRNDIS",
           "description": "Android USB tethering driver for Mac OS X",
           "language": "C++",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
+        },
+        {
+          "full_name": "opa334/TrollStore",
+          "url": "https://github.com/opa334/TrollStore",
+          "description": "Jailed iOS app that can install IPAs permanently with arbitary entitlements and root helpers because it trolls Apple",
+          "language": "Objective-C",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
         }
@@ -10959,7 +10975,7 @@
       "id": "slot_macos_linux",
       "name": "macOS, Linux Kernel, System Utilities & Hardware",
       "icon": "\ud83c\udf4e",
-      "count": 43,
+      "count": 44,
       "repos": [
         {
           "full_name": "canonical/multipass",
@@ -11248,6 +11264,14 @@
           "language": "Shell",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
+        },
+        {
+          "full_name": "gvisor/gvisor",
+          "url": "https://github.com/gvisor/gvisor",
+          "description": "Application Kernel for Containers",
+          "language": "Go",
+          "role": "Infrastructure & Execution Sandbox",
+          "category_id": "devops-infra"
         },
         {
           "full_name": "hackclub/some-assembly-required",
@@ -12015,7 +12039,7 @@
       "id": "slot_go_systems",
       "name": "High-Concurrency Go Libraries & Microservice Tools",
       "icon": "\ud83d\udc39",
-      "count": 24,
+      "count": 25,
       "repos": [
         {
           "full_name": "adelapazborrero/slack_jack",
@@ -12117,6 +12141,14 @@
           "full_name": "kadeessh/kadeessh",
           "url": "https://github.com/kadeessh/kadeessh",
           "description": "Kadeessh (formerly Caddy-SSH) is a general-purpose, extensible, modular, memory-safe SSH server built in Go",
+          "language": "Go",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
+        },
+        {
+          "full_name": "lerd-env/plugins",
+          "url": "https://github.com/lerd-env/plugins",
+          "description": "Approved plugins for Lerd, listed at plugins.lerd.sh",
           "language": "Go",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
@@ -14293,7 +14325,7 @@
           "slot_id": "slot_mobile_cross",
           "slot_name": "Mobile, iOS, Android & Cross-Platform Apps",
           "slot_icon": "\ud83d\udcf1",
-          "total_alternatives": 39,
+          "total_alternatives": 40,
           "default_repo": {
             "full_name": "noqa-ai/noqa",
             "url": "https://github.com/noqa-ai/noqa",
@@ -14395,13 +14427,13 @@
       "monetization": "$199\u2013$499/mo B2B growth automation SaaS.",
       "primary_slot_name": "Multi-Agent Orchestrator & Autonomous Swarms",
       "primary_slot_icon": "\ud83e\udd16",
-      "primary_repo_count": 86,
+      "primary_repo_count": 87,
       "slot_details": [
         {
           "slot_id": "slot_multi_agent",
           "slot_name": "Multi-Agent Orchestrator & Autonomous Swarms",
           "slot_icon": "\ud83e\udd16",
-          "total_alternatives": 86,
+          "total_alternatives": 87,
           "default_repo": {
             "full_name": "e2b-dev/E2B",
             "url": "https://github.com/e2b-dev/E2B",
@@ -15371,13 +15403,13 @@
       "monetization": "$35/field-technician/mo B2B fleet subscription.",
       "primary_slot_name": "Mobile, iOS, Android & Cross-Platform Apps",
       "primary_slot_icon": "\ud83d\udcf1",
-      "primary_repo_count": 39,
+      "primary_repo_count": 40,
       "slot_details": [
         {
           "slot_id": "slot_mobile_cross",
           "slot_name": "Mobile, iOS, Android & Cross-Platform Apps",
           "slot_icon": "\ud83d\udcf1",
-          "total_alternatives": 39,
+          "total_alternatives": 40,
           "default_repo": {
             "full_name": "noqa-ai/noqa",
             "url": "https://github.com/noqa-ai/noqa",
@@ -15588,7 +15620,7 @@
           "slot_id": "slot_go_systems",
           "slot_name": "High-Concurrency Go Libraries & Microservice Tools",
           "slot_icon": "\ud83d\udc39",
-          "total_alternatives": 24,
+          "total_alternatives": 25,
           "default_repo": {
             "full_name": "adelapazborrero/slack_jack",
             "url": "https://github.com/adelapazborrero/slack_jack",
@@ -15635,7 +15667,7 @@
           "slot_id": "slot_go_systems",
           "slot_name": "High-Concurrency Go Libraries & Microservice Tools",
           "slot_icon": "\ud83d\udc39",
-          "total_alternatives": 24,
+          "total_alternatives": 25,
           "default_repo": {
             "full_name": "adelapazborrero/slack_jack",
             "url": "https://github.com/adelapazborrero/slack_jack",
@@ -16103,13 +16135,13 @@
       "monetization": "$29 pro power-user system utility bundle.",
       "primary_slot_name": "macOS, Linux Kernel, System Utilities & Hardware",
       "primary_slot_icon": "\ud83c\udf4e",
-      "primary_repo_count": 43,
+      "primary_repo_count": 44,
       "slot_details": [
         {
           "slot_id": "slot_macos_linux",
           "slot_name": "macOS, Linux Kernel, System Utilities & Hardware",
           "slot_icon": "\ud83c\udf4e",
-          "total_alternatives": 43,
+          "total_alternatives": 44,
           "default_repo": {
             "full_name": "canonical/multipass",
             "url": "https://github.com/canonical/multipass",
@@ -16347,13 +16379,13 @@
       "monetization": "Open-core enterprise support & managed edge binary distribution.",
       "primary_slot_name": "High-Concurrency Go Libraries & Microservice Tools",
       "primary_slot_icon": "\ud83d\udc39",
-      "primary_repo_count": 24,
+      "primary_repo_count": 25,
       "slot_details": [
         {
           "slot_id": "slot_go_systems",
           "slot_name": "High-Concurrency Go Libraries & Microservice Tools",
           "slot_icon": "\ud83d\udc39",
-          "total_alternatives": 24,
+          "total_alternatives": 25,
           "default_repo": {
             "full_name": "adelapazborrero/slack_jack",
             "url": "https://github.com/adelapazborrero/slack_jack",
