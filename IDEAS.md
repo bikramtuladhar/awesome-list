@@ -2177,6 +2177,7 @@
 | **[derekross/omarchy-mobile](https://github.com/derekross/omarchy-mobile)** | `Shell` | Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress) |
 | **[FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar)** | `C` | A highly customizable macOS status bar replacement |
 | **[google/gvisor](https://github.com/google/gvisor)** | `Go` | Application Kernel for Containers |
+| **[gvisor/gvisor](https://github.com/gvisor/gvisor)** | `Go` | Application Kernel for Containers |
 | **[lima-vm/lima](https://github.com/lima-vm/lima)** | `Go` | Linux virtual machines, with a focus on running containers |
 | **[openai/tart](https://github.com/openai/tart)** | `Swift` | macOS and Linux VMs on Apple Silicon to use in CI and other automations |
 | **[AsahiLinux/linux](https://github.com/AsahiLinux/linux)** | `C` | Linux kernel source tree |
@@ -2193,7 +2194,6 @@
 | **[thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi)** | `Shell` | 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources |
 | **[alsyundawy/Microsoft-Office-For-MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS)** | `Shell` | Installer Microsoft Office For MacOS |
 | **[aristocratos/bashtop](https://github.com/aristocratos/bashtop)** | `Shell` | Linux/OSX/FreeBSD resource monitor |
-| **[gvisor/gvisor](https://github.com/gvisor/gvisor)** | `Go` | Application Kernel for Containers |
 | **[hackclub/some-assembly-required](https://github.com/hackclub/some-assembly-required)** | `Assembly` | 📖 An approachable introduction to Assembly. |
 | **[hyperlight-dev/hyperlight](https://github.com/hyperlight-dev/hyperlight)** | `Rust` | Hyperlight is a lightweight Virtual Machine Manager (VMM) designed to be embedded within applications. It enables safe execution of untrusted code within micro virtual machines with very low latency a |
 | **[lxc/incus-os](https://github.com/lxc/incus-os)** | `Go` | Immutable Linux OS to run Incus |
