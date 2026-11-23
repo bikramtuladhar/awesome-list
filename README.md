@@ -5,10 +5,10 @@
 **Live Interactive Catalog, Idea Swapper & Combiner:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨
 **Full 40 Product Ideas & 1,729-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡
 
-![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1738-blue.svg?style=flat-square) 
+![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1739-blue.svg?style=flat-square) 
 ![Product Ideas](https://img.shields.io/badge/Swappable_Product_Ideas-40_(100%25_Coverage)-emerald.svg?style=flat-square) 
 ![Auto Updated](https://img.shields.io/badge/AI_Classification-Google_Gemini-4285F4.svg?style=flat-square) 
-![Last Updated](https://img.shields.io/badge/Updated-2026-11-22-success.svg?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Updated-2026-11-23-success.svg?style=flat-square)
 
 ---
 
@@ -108,7 +108,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 - [💾 Databases, Caching & Realtime State (123)](#data-storage-cache)
 - [🛡️ Security, Privacy & Auth Utilities (87)](#security-privacy)
 - [📦 DevOps, Sandboxes & Cloud Infra (194)](#devops-infra)
-- [🛠️ Developer Tooling & Terminal Utilities (706)](#devtools-terminal)
+- [🛠️ Developer Tooling & Terminal Utilities (707)](#devtools-terminal)
 - [💡 Ready-to-Remix Products & Self-Hosted Apps (79)](#ready-to-remix)
 
 ---
@@ -1130,7 +1130,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[gvisor/gvisor](https://github.com/gvisor/gvisor)** | `Infrastructure & Execution Sandbox` | `Go` | Application Kernel for Containers | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
 
 
-## <a id="devtools-terminal"></a>🛠️ Developer Tooling & Terminal Utilities `(706)`
+## <a id="devtools-terminal"></a>🛠️ Developer Tooling & Terminal Utilities `(707)`
 
 > *CLI power tools, TUI interfaces, profilers, debuggers, code formatters, and terminal sharing.*
 
@@ -1842,6 +1842,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[derekross/omarchy-mobile](https://github.com/derekross/omarchy-mobile)** | `Developer Productivity & Tooling` | `Shell` | Omarchy Mobile: native Omarchy on mobile phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress) | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[lerd-env/plugins](https://github.com/lerd-env/plugins)** | `Developer Productivity & Tooling` | `Go` | Approved plugins for Lerd, listed at plugins.lerd.sh | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[opa334/TrollStore](https://github.com/opa334/TrollStore)** | `Developer Productivity & Tooling` | `Objective-C` | Jailed iOS app that can install IPAs permanently with arbitary entitlements and root helpers because it trolls Apple | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
+| **[sa4hnd/YouDash](https://github.com/sa4hnd/YouDash)** | `Developer Productivity & Tooling` | `Objective-C` | YouDash brings native YouTube to Apple CarPlay with YouMod ad blocking, responsive layouts, and an on-screen keyboard. Open-source iOS integration. Formerly YouTube Car. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 
 
 ## <a id="ready-to-remix"></a>💡 Ready-to-Remix Products & Self-Hosted Apps `(79)`

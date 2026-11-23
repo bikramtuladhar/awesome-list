@@ -1,6 +1,6 @@
 # 💡 Complete Product Ideas & Swap Matrix (100% Repository Coverage)
 
-> **Every single one of the 1738 starred repositories** is mapped into **40 Product Ideas** and **40 Interchangeable Functional Slots**.
+> **Every single one of the 1739 starred repositories** is mapped into **40 Product Ideas** and **40 Interchangeable Functional Slots**.
 > You can swap any repository with a similar alternative in the same slot, or combine multiple ideas into an entirely new super-product!
 
 **Interactive Idea Swapper & Combiner:** [Open Live in index.html](https://bikramtuladhar.github.io/awesome-list/) ✨
@@ -30,7 +30,7 @@
 | 17 | **[Edge-Rendered Next.js E-Commerce & Content Engine](#idea-17)** | `Modern Web & Jamstack` | ⚛️ React, Next.js & Modern Frontend Stacks | **69 repos** |
 | 18 | **[Reactive Real-Time Collaborative Whiteboards & Micro-Apps](#idea-18)** | `Reactive Frontend` | ✨ Vue, Svelte & Reactive UI Frameworks | **43 repos** |
 | 19 | **[Visual Node-Graph Workflow Builder & 3D Data Explorer](#idea-19)** | `Visual Programming & 3D` | 📊 Interactive Canvas, 3D WebGL & Data Visualization | **12 repos** |
-| 20 | **[Cross-Platform Offline-First Field Service Mobile Suite](#idea-20)** | `Mobile & Desktop Apps` | 📱 Mobile, iOS, Android & Cross-Platform Apps | **40 repos** |
+| 20 | **[Cross-Platform Offline-First Field Service Mobile Suite](#idea-20)** | `Mobile & Desktop Apps` | 📱 Mobile, iOS, Android & Cross-Platform Apps | **41 repos** |
 | 21 | **[Distributed Graph + Columnar Cloud Database Platform](#idea-21)** | `Database Infrastructure` | 🐘 PostgreSQL Extensions, Distributed SQL & Migrations | **107 repos** |
 | 22 | **[Zero-Config Browser-to-Edge SQLite Analytics Workbench](#idea-22)** | `Local-First Data & Edge` | 🗄️ SQLite Engines, Embedded DBs & Local Storage | **11 repos** |
 | 23 | **[Sub-Millisecond Reactive Cache & Live Query Subscription Engine](#idea-23)** | `High-Speed Caching` | 🚀 In-Memory Cache, Redis/Valkey & KV Engines | **3 repos** |
@@ -109,7 +109,7 @@
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
 - **🧠 Local & Edge LLM Inference Engine (8 options):** [`ggml-org/llama.cpp`](https://github.com/ggml-org/llama.cpp), [`microsoft/BitNet`](https://github.com/microsoft/BitNet), [`tetherto/qvac`](https://github.com/tetherto/qvac), [`ar-nelson/spartan-schema`](https://github.com/ar-nelson/spartan-schema), [`bigcode-project/starcoder`](https://github.com/bigcode-project/starcoder) *(+3 more swappable options below)*
-- **📱 Mobile, iOS, Android & Cross-Platform Apps (40 options):** [`noqa-ai/noqa`](https://github.com/noqa-ai/noqa), [`appwrite/appwrite`](https://github.com/appwrite/appwrite), [`StacDev/stac`](https://github.com/StacDev/stac), [`laurent22/joplin`](https://github.com/laurent22/joplin), [`unicodeveloper/awesome-opensource-apps`](https://github.com/unicodeveloper/awesome-opensource-apps) *(+35 more swappable options below)*
+- **📱 Mobile, iOS, Android & Cross-Platform Apps (41 options):** [`noqa-ai/noqa`](https://github.com/noqa-ai/noqa), [`appwrite/appwrite`](https://github.com/appwrite/appwrite), [`StacDev/stac`](https://github.com/StacDev/stac), [`laurent22/joplin`](https://github.com/laurent22/joplin), [`unicodeveloper/awesome-opensource-apps`](https://github.com/unicodeveloper/awesome-opensource-apps) *(+36 more swappable options below)*
 - **🗄️ SQLite Engines, Embedded DBs & Local Storage (11 options):** [`buffdb/buffdb`](https://github.com/buffdb/buffdb), [`pawelsalawa/letos`](https://github.com/pawelsalawa/letos), [`pubkey/rxdb`](https://github.com/pubkey/rxdb), [`glommer/pgmicro`](https://github.com/glommer/pgmicro), [`thevahidal/soul`](https://github.com/thevahidal/soul) *(+6 more swappable options below)*
 
 <details>
@@ -1245,12 +1245,12 @@
 
 ### 🔄 Modular Stack (Swap any component with your starred alternatives):
 
-- **📱 Mobile, iOS, Android & Cross-Platform Apps (40 options):** [`noqa-ai/noqa`](https://github.com/noqa-ai/noqa), [`appwrite/appwrite`](https://github.com/appwrite/appwrite), [`StacDev/stac`](https://github.com/StacDev/stac), [`laurent22/joplin`](https://github.com/laurent22/joplin), [`unicodeveloper/awesome-opensource-apps`](https://github.com/unicodeveloper/awesome-opensource-apps) *(+35 more swappable options below)*
+- **📱 Mobile, iOS, Android & Cross-Platform Apps (41 options):** [`noqa-ai/noqa`](https://github.com/noqa-ai/noqa), [`appwrite/appwrite`](https://github.com/appwrite/appwrite), [`StacDev/stac`](https://github.com/StacDev/stac), [`laurent22/joplin`](https://github.com/laurent22/joplin), [`unicodeveloper/awesome-opensource-apps`](https://github.com/unicodeveloper/awesome-opensource-apps) *(+36 more swappable options below)*
 - **🗄️ SQLite Engines, Embedded DBs & Local Storage (11 options):** [`buffdb/buffdb`](https://github.com/buffdb/buffdb), [`pawelsalawa/letos`](https://github.com/pawelsalawa/letos), [`pubkey/rxdb`](https://github.com/pubkey/rxdb), [`glommer/pgmicro`](https://github.com/glommer/pgmicro), [`thevahidal/soul`](https://github.com/thevahidal/soul) *(+6 more swappable options below)*
 - **👁️ Computer Vision, Image & Video AI (27 options):** [`dailenson/One-DM`](https://github.com/dailenson/One-DM), [`protonemedia/laravel-ffmpeg`](https://github.com/protonemedia/laravel-ffmpeg), [`bloc97/Anime4K`](https://github.com/bloc97/Anime4K), [`gyroflow/gyroflow`](https://github.com/gyroflow/gyroflow), [`IgorShadurin/app.yumcut.com`](https://github.com/IgorShadurin/app.yumcut.com) *(+22 more swappable options below)*
 
 <details>
-<summary><b>📦 View all 40 Swappable Repositories for 📱 Mobile, iOS, Android & Cross-Platform Apps</b></summary>
+<summary><b>📦 View all 41 Swappable Repositories for 📱 Mobile, iOS, Android & Cross-Platform Apps</b></summary>
 
 | Repository | Language | Description |
 | :--- | :--- | :--- |
@@ -1267,6 +1267,7 @@
 | **[guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm)** | `C` | llama and other  large language models on iOS and MacOS offline using GGML library. |
 | **[liriliri/aya](https://github.com/liriliri/aya)** | `TypeScript` | Android ADB desktop app |
 | **[parvardegr/sharing](https://github.com/parvardegr/sharing)** | `JavaScript` | Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app |
+| **[sa4hnd/YouDash](https://github.com/sa4hnd/YouDash)** | `Objective-C` | YouDash brings native YouTube to Apple CarPlay with YouMod ad blocking, responsive layouts, and an on-screen keyboard. Open-source iOS integration. Formerly YouTube Car. |
 | **[Snapchat/Valdi](https://github.com/Snapchat/Valdi)** | `C++` | Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity. |
 | **[krahets/hello-algo](https://github.com/krahets/hello-algo)** | `Python` | 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现 |
 | **[tauri-apps/tauri](https://github.com/tauri-apps/tauri)** | `Rust` | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. |

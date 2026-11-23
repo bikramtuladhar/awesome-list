@@ -1,5 +1,5 @@
 {
-  "total_repos_covered": 1738,
+  "total_repos_covered": 1739,
   "total_slots": 40,
   "total_ideas": 40,
   "slots": {
@@ -5959,7 +5959,7 @@
       "id": "slot_mobile_cross",
       "name": "Mobile, iOS, Android & Cross-Platform Apps",
       "icon": "\ud83d\udcf1",
-      "count": 40,
+      "count": 41,
       "repos": [
         {
           "full_name": "noqa-ai/noqa",
@@ -6062,6 +6062,14 @@
           "url": "https://github.com/parvardegr/sharing",
           "description": "Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app",
           "language": "JavaScript",
+          "role": "Developer Productivity & Tooling",
+          "category_id": "devtools-terminal"
+        },
+        {
+          "full_name": "sa4hnd/YouDash",
+          "url": "https://github.com/sa4hnd/YouDash",
+          "description": "YouDash brings native YouTube to Apple CarPlay with YouMod ad blocking, responsive layouts, and an on-screen keyboard. Open-source iOS integration. Formerly YouTube Car.",
+          "language": "Objective-C",
           "role": "Developer Productivity & Tooling",
           "category_id": "devtools-terminal"
         },
@@ -14325,7 +14333,7 @@
           "slot_id": "slot_mobile_cross",
           "slot_name": "Mobile, iOS, Android & Cross-Platform Apps",
           "slot_icon": "\ud83d\udcf1",
-          "total_alternatives": 40,
+          "total_alternatives": 41,
           "default_repo": {
             "full_name": "noqa-ai/noqa",
             "url": "https://github.com/noqa-ai/noqa",
@@ -15403,13 +15411,13 @@
       "monetization": "$35/field-technician/mo B2B fleet subscription.",
       "primary_slot_name": "Mobile, iOS, Android & Cross-Platform Apps",
       "primary_slot_icon": "\ud83d\udcf1",
-      "primary_repo_count": 40,
+      "primary_repo_count": 41,
       "slot_details": [
         {
           "slot_id": "slot_mobile_cross",
           "slot_name": "Mobile, iOS, Android & Cross-Platform Apps",
           "slot_icon": "\ud83d\udcf1",
-          "total_alternatives": 40,
+          "total_alternatives": 41,
           "default_repo": {
             "full_name": "noqa-ai/noqa",
             "url": "https://github.com/noqa-ai/noqa",
