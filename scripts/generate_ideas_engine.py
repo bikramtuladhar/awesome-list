@@ -680,14 +680,14 @@ def generate_ideas_markdown(payload):
     lines = [
         "# 💡 Complete Product Ideas & Swap Matrix (100% Repository Coverage)",
         "",
-        f"> **Every single one of the {payload['total_repos_covered']} starred repositories** is mapped into **{payload['total_ideas']} Product Ideas** and **{payload['total_slots']} Interchangeable Functional Slots**.",
+        f"> **Every single one of the {payload['total_repos_covered']:,} starred repositories** is mapped into **{payload['total_ideas']} Product Ideas** and **{payload['total_slots']} Interchangeable Functional Slots**.",
         "> You can swap any repository with a similar alternative in the same slot, or combine multiple ideas into an entirely new super-product!",
         "",
         "**Interactive Idea Swapper & Combiner:** [Open Live in index.html](https://bikramtuladhar.github.io/awesome-list/) ✨",
         "",
         "---",
         "",
-        "## 🧭 Quick Overview: 40 Product Ideas & Covered Repositories",
+        f"## 🧭 Quick Overview: {payload['total_ideas']} Product Ideas & Covered Repositories",
         "",
         "| # | Product Idea | Domain | Primary Swappable Slot | Alternatives in Your Stars |",
         "| :--- | :--- | :--- | :--- | :---: |"
@@ -761,6 +761,7 @@ def main():
     with open(IDEAS_MD_FILE, "w", encoding="utf-8") as f:
         f.write(md_content)
     print(f"✅ Generated {IDEAS_MD_FILE} ({len(md_content)} bytes)")
+    return payload
 
 if __name__ == "__main__":
     main()
