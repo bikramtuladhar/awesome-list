@@ -36,28 +36,37 @@ jobs:
 
     - name: Extract repository details
       run: |
-        echo "REPOSITORY_NAME=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
         echo "OWNER=${GITHUB_REPOSITORY_OWNER}" >> $GITHUB_ENV
 
     - name: Fetch raw stars by language
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REPOSITORY: ${{ env.REPOSITORY_NAME }}
         USERNAME: ${{ env.OWNER }}
       run: |
-        starred --username ${USERNAME} --repository ${REPOSITORY} --sort --token ${GITHUB_TOKEN} --filename languages.md --message 'chore(data): update raw stars by language'
+        starred --username "${USERNAME}" --sort --token "${GITHUB_TOKEN}" > languages.md.tmp || true
+        if grep -q '^# Awesome Stars' languages.md.tmp && grep -q '^- \[' languages.md.tmp; then
+          mv languages.md.tmp languages.md
+          echo "✅ Updated languages.md via starred"
+        else
+          echo "::warning::starred failed for languages.md ($(head -n 1 languages.md.tmp)); falling back to REST API fetcher"
+          rm -f languages.md.tmp
+          python scripts/fetch_stars.py --username "${USERNAME}" --languages languages.md
+        fi
 
     - name: Fetch raw stars by topic
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REPOSITORY: ${{ env.REPOSITORY_NAME }}
         USERNAME: ${{ env.OWNER }}
       run: |
-        starred --username ${USERNAME} --repository ${REPOSITORY} --sort --token ${GITHUB_TOKEN} --message 'chore(data): update raw stars by topic' --topic --topic_limit 500 --filename topics.md
-
-    - name: Pull latest remote changes from starred commits
-      run: |
-        git pull --rebase origin master || true
+        starred --username "${USERNAME}" --sort --token "${GITHUB_TOKEN}" --topic --topic_limit 500 > topics.md.tmp || true
+        if grep -q '^# Awesome Stars' topics.md.tmp && grep -q '^- \[' topics.md.tmp; then
+          mv topics.md.tmp topics.md
+          echo "✅ Updated topics.md via starred"
+        else
+          echo "::warning::starred failed for topics.md ($(head -n 1 topics.md.tmp)); falling back to REST API fetcher"
+          rm -f topics.md.tmp
+          python scripts/fetch_stars.py --username "${USERNAME}" --topics topics.md
+        fi
 
     - name: Run AI Classification & Product Catalog Generator
       env:
@@ -79,15 +88,20 @@ jobs:
 
     - name: Setup GitHub Pages
       uses: actions/configure-pages@v4
-      continue-on-error: true
 
     - name: Upload artifact for GitHub Pages
       uses: actions/upload-pages-artifact@v3
       with:
         path: .
-      continue-on-error: true
 
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: awesome-stars
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
-      continue-on-error: true

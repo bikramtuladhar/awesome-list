@@ -15,7 +15,7 @@ import json
 import re
 import urllib.request
 import urllib.error
-from datetime import datetime
+from datetime import datetime, timezone
 from collections import defaultdict
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -382,34 +382,22 @@ def load_existing_db():
     return {}
 
 def parse_markdown_sources():
-    """Extract all repos from languages.md / README.md, data/repos.json, and topics.md"""
+    """Extract all current starred repos from languages.md (authoritative),
+    falling back to README.md or data/repos.json only if languages.md is absent,
+    and augment with fresh topics from topics.md."""
     repos = {}
-    
-    # 1. Seed with data/repos.json if available
-    existing = load_existing_db()
-    for full_name, r in existing.items():
-        repos[full_name] = {
-            "id": r.get("id", full_name.replace("/", "-").lower()),
-            "name": r.get("name", full_name.split("/")[-1]),
-            "full_name": full_name,
-            "url": r.get("url", f"https://github.com/{full_name}"),
-            "description": r.get("description", ""),
-            "language": r.get("language", "General"),
-            "topics": set(r.get("topics", [])),
-            "stars": r.get("stars", 0)
-        }
 
-    # 2. Parse languages.md (or fallback to README.md)
+    # 1. Parse languages.md (authoritative current star list), or fallback to README.md
     source_file = LANGUAGES_FILE if os.path.exists(LANGUAGES_FILE) else README_FILE
     if os.path.exists(source_file):
         with open(source_file, "r", encoding="utf-8") as f:
             content = f.read()
-            
+
         current_lang = "General"
         for line in content.splitlines():
             m_h2 = re.match(r'^##\s+(?:<a id="[^"]+"></a>[^\s]+\s+)?(.+)', line)
             if m_h2:
-                lang_name = m_h2.group(1).strip()
+                lang_name = m_h2.group(1).strip().replace("# #", "#")
                 # Clean up if it's our new category header
                 if not any(cat["id"] in line for cat in CATEGORIES):
                     current_lang = lang_name
@@ -452,20 +440,35 @@ def parse_markdown_sources():
                             "stars": 0
                         }
 
-    # 3. Augment with topics.md
+    # 2. Fallback to data/repos.json only if markdown parsing yielded nothing
+    if not repos:
+        existing = load_existing_db()
+        for full_name, r in existing.items():
+            repos[full_name] = {
+                "id": r.get("id", full_name.replace("/", "-").lower()),
+                "name": r.get("name", full_name.split("/")[-1]),
+                "full_name": full_name,
+                "url": r.get("url", f"https://github.com/{full_name}"),
+                "description": r.get("description", ""),
+                "language": r.get("language", "General"),
+                "topics": set(r.get("topics", [])),
+                "stars": r.get("stars", 0)
+            }
+
+    # 3. Augment with fresh topics from topics.md
     if os.path.exists(TOPICS_FILE):
         with open(TOPICS_FILE, "r", encoding="utf-8") as f:
             current_topic = ""
             for line in f:
                 m_h2 = re.match(r'^##\s+(.+)', line)
                 if m_h2:
-                    current_topic = m_h2.group(1).strip().lower()
+                    current_topic = m_h2.group(1).strip().replace("# #", "#").lower()
                 m_repo = re.match(r'^- \[([^\]]+)\]\((https://github\.com/[^\)]+)\)', line)
                 if m_repo and current_topic:
                     full_name = m_repo.group(1).strip()
                     if full_name in repos:
                         repos[full_name]["topics"].add(current_topic)
-                        
+
     return repos
 
 def classify_repo_heuristics(repo_data):
@@ -571,28 +574,29 @@ Respond with ONLY a valid JSON object mapping full_name to:
         print(f"Notice: Gemini API call skipped or returned: {e}")
         return {}
 
-def build_readme(categorized_repos, total_count):
+def build_readme(categorized_repos, total_count, idea_count=40):
     """Generates the revamped product-focused README.md"""
-    now = datetime.utcnow().strftime("%Y-%m-%d")
-    
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    badge_date = now.replace("-", "--")
+
     lines = [
         "# ⚡ Awesome Product Remix & Builder Stacks [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)",
         "",
-        "> A curated, AI-classified collection of **1,700+ starred developer tools**, organized as architectural building blocks to remix, fork, and launch new products.",
+        f"> A curated, AI-classified collection of **{total_count:,} starred developer tools**, organized as architectural building blocks to remix, fork, and launch new products.",
         "",
         f"**Live Interactive Catalog, Idea Swapper & Combiner:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨",
-        f"**Full 40 Product Ideas & 1,729-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡",
+        f"**Full {idea_count} Product Ideas & {total_count:,}-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡",
         "",
         f"![Total Tools](https://img.shields.io/badge/Cataloged_Tools-{total_count}-blue.svg?style=flat-square) ",
-        "![Product Ideas](https://img.shields.io/badge/Swappable_Product_Ideas-40_(100%25_Coverage)-emerald.svg?style=flat-square) ",
+        f"![Product Ideas](https://img.shields.io/badge/Swappable_Product_Ideas-{idea_count}_(100%25_Coverage)-emerald.svg?style=flat-square) ",
         "![Auto Updated](https://img.shields.io/badge/AI_Classification-Google_Gemini-4285F4.svg?style=flat-square) ",
-        f"![Last Updated](https://img.shields.io/badge/Updated-{now}-success.svg?style=flat-square)",
+        f"![Last Updated](https://img.shields.io/badge/Updated-{badge_date}-success.svg?style=flat-square)",
         "",
         "---",
         "",
         "## 💡 Featured Product Remix Recipes",
         "",
-        "How to combine tools from this list into actionable products (see **[IDEAS.md](IDEAS.md)** for all 40 ideas covering 100% of repositories with swappable alternatives):",
+        f"How to combine tools from this list into actionable products (see **[IDEAS.md](IDEAS.md)** for all {idea_count} ideas covering 100% of repositories with swappable alternatives):",
         ""
     ]
     
@@ -744,7 +748,7 @@ def build_index_html(all_repos_json_str, total_count):
             Awesome Product Remix
             <span class="bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs px-2 py-0.5 rounded-full font-semibold border border-emerald-500/20">AI Classified</span>
           </h1>
-          <p class="text-xs text-slate-500 dark:text-slate-400">1,700+ Developer Tools Ready to Stitch & Launch</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400">{total_count:,} Developer Tools Ready to Stitch & Launch</p>
         </div>
       </div>
       
@@ -1154,28 +1158,28 @@ def build_index_html(all_repos_json_str, total_count):
 
 def main():
     print("🚀 Starting Awesome Product Remix & Builder Stacks Engine...")
-    
+
     # 1. Load existing DB
     existing_db = load_existing_db()
     print(f"📦 Loaded {len(existing_db)} existing cached repositories.")
-    
+
     # 2. Parse sources
     parsed_repos = parse_markdown_sources()
     print(f"📄 Found {len(parsed_repos)} repositories from markdown files.")
-    
+
     # 3. Classify & Enrich
     gemini_api_key = os.environ.get("GEMINI_API_KEY", "").strip()
-    categorized_repos = defaultdict(list)
     all_repos_list = []
-    
     unclassified_batch = []
-    
+
     for full_name, repo_data in parsed_repos.items():
         if full_name in existing_db and existing_db[full_name].get("category_id"):
-            entry = existing_db[full_name]
-            # Ensure topics are set
-            entry["topics"] = list(repo_data["topics"])
-            cat_id = entry["category_id"]
+            entry = dict(existing_db[full_name])
+            # Refresh live metadata & topics from freshly fetched markdown
+            entry["url"] = repo_data["url"]
+            entry["description"] = repo_data["description"]
+            entry["language"] = repo_data["language"]
+            entry["topics"] = sorted(repo_data["topics"])
         else:
             cat_id, role, remix_ideas = classify_repo_heuristics(repo_data)
             entry = {
@@ -1185,54 +1189,56 @@ def main():
                 "url": repo_data["url"],
                 "description": repo_data["description"],
                 "language": repo_data["language"],
-                "topics": list(repo_data["topics"]),
+                "topics": sorted(repo_data["topics"]),
                 "category_id": cat_id,
                 "role": role,
                 "remix_ideas": remix_ideas
             }
             if gemini_api_key:
                 unclassified_batch.append(entry)
-                
-        categorized_repos[cat_id].append(entry)
+
         all_repos_list.append(entry)
 
     # Optional Gemini AI enrichment if API key is present
     if gemini_api_key and unclassified_batch:
         print(f"🤖 Calling Google Gemini API to enrich {len(unclassified_batch)} new repos...")
+        valid_cat_ids = {c["id"] for c in CATEGORIES}
         for i in range(0, min(len(unclassified_batch), 50), 10):
             batch = unclassified_batch[i:i+10]
             gemini_results = call_gemini_batch_classification(batch, gemini_api_key)
             for repo in batch:
                 if repo["full_name"] in gemini_results:
                     res = gemini_results[repo["full_name"]]
-                    if res.get("category_id") in [c["id"] for c in CATEGORIES]:
+                    if res.get("category_id") in valid_cat_ids:
                         repo["category_id"] = res["category_id"]
                     if res.get("role"):
                         repo["role"] = res["role"]
                     if res.get("remix_ideas"):
                         repo["remix_ideas"] = res["remix_ideas"]
 
+    # Group by final category_id (after optional Gemini enrichment)
+    categorized_repos = defaultdict(list)
+    for entry in all_repos_list:
+        categorized_repos[entry["category_id"]].append(entry)
+
     # 4. Save to data/repos.json
     db_payload = {
-        "generated_at": datetime.utcnow().isoformat(),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "total_count": len(all_repos_list),
         "repos": all_repos_list
     }
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(db_payload, f, indent=2)
-    print(f"✅ Saved database to {DATA_FILE}")
+    print(f"✅ Saved database to {DATA_FILE} ({len(all_repos_list)} repos)")
 
-    # 5. Generate README.md
-    readme_content = build_readme(categorized_repos, len(all_repos_list))
-    with open(README_FILE, "w", encoding="utf-8") as f:
-        f.write(readme_content)
-    print(f"✅ Generated revamped {README_FILE}")
-
-    # 6. Generate 100%-coverage Ideas Matrix (data/ideas.json & IDEAS.md) and 3-Tab Web App (index.html)
+    # 5. Generate 100%-coverage Ideas Matrix (data/ideas.json & IDEAS.md) and 3-Tab Web App (index.html)
+    idea_count = 40
     try:
         import generate_ideas_engine
         import build_web_app
-        generate_ideas_engine.main()
+        ideas_payload = generate_ideas_engine.main()
+        if isinstance(ideas_payload, dict) and ideas_payload.get("total_ideas"):
+            idea_count = ideas_payload["total_ideas"]
         build_web_app.main()
     except Exception as e:
         print(f"Fallback to single-tab index.html: {e}")
@@ -1240,6 +1246,12 @@ def main():
         with open(INDEX_FILE, "w", encoding="utf-8") as f:
             f.write(html_content)
         print(f"✅ Generated interactive web catalog {INDEX_FILE}")
+
+    # 6. Generate README.md with exact synced repo & idea counts
+    readme_content = build_readme(categorized_repos, len(all_repos_list), idea_count=idea_count)
+    with open(README_FILE, "w", encoding="utf-8") as f:
+        f.write(readme_content)
+    print(f"✅ Generated revamped {README_FILE}")
 
     print("\n🎉 Total Revamp Complete!")
     for cat in CATEGORIES:
