@@ -738,7 +738,7 @@
 | **[crater-invoice-inc/crater](https://github.com/crater-invoice-inc/crater)** | `PHP` | Open Source Invoicing Solution for Individuals & Businesses |
 | **[invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja)** | `PHP` | A source-available invoice, quote, project and time-tracking app built with Laravel |
 | **[lakasir/lakasir](https://github.com/lakasir/lakasir)** | `PHP` | POS open-source, simple things only need simple solutions |
-| **[lubusIN/gymie](https://github.com/lubusIN/gymie)** | `PHP` | Gym & Club Management System |
+| **[lubusIN/gymie](https://github.com/lubusIN/gymie)** | `PHP` | Open-source gym & club management system. |
 | **[monicahq/monica](https://github.com/monicahq/monica)** | `PHP` | Personal CRM and backend for your agents. Remember everything about your friends, family and business relationships. |
 | **[sudarakas/realproperty](https://github.com/sudarakas/realproperty)** | `Blade` | Real Estate Management Platform - Based on Laravel Framework |
 
@@ -1734,7 +1734,7 @@
 | **[mistio/mist-ce](https://github.com/mistio/mist-ce)** | `Python` | Mist is an open source, multicloud management platform |
 | **[nginx/kubernetes-ingress](https://github.com/nginx/kubernetes-ingress)** | `Go` | NGINX and  NGINX Plus Ingress Controllers for Kubernetes |
 | **[numaproj/numaflow](https://github.com/numaproj/numaflow)** | `Rust` | Kubernetes-native platform to run massively parallel data/streaming jobs |
-| **[prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)** | `Python` | This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment for |
+| **[prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)** | `Python` | Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment. |
 | **[restatedev/restate](https://github.com/restatedev/restate)** | `Rust` | Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD. |
 | **[roboll/helmfile](https://github.com/roboll/helmfile)** | `Go` | Deploy Kubernetes Helm Charts |
 | **[serverless/aws-ai-stack](https://github.com/serverless/aws-ai-stack)** | `JavaScript` | AWS AI Stack – A ready-to-use, full-stack boilerplate project for building serverless AI applications on AWS |
@@ -2182,7 +2182,7 @@
 | **[TimeToogo/tunshell](https://github.com/TimeToogo/tunshell)** | `Rust` | Remote shell into ephemeral environments 🐚 🦀 |
 | **[TomWright/dasel](https://github.com/TomWright/dasel)** | `Go` | Unified querying, transformation, and modification of JSON, TOML, YAML, XML, INI, HCL, KDL and CSV. |
 | **[vitonsky/arrival-time](https://github.com/vitonsky/arrival-time)** | `TypeScript` | Simple and powerful progress time estimation (ETA) for JavaScript |
-| **[bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon)** | `Others` | CLI to execute commands and log results to healthchecks.io |
+| **[bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon)** | `Rust` | CLI to execute commands and log results to healthchecks.io |
 | **[charmbracelet/freeze](https://github.com/charmbracelet/freeze)** | `Go` | Generate images of code and terminal output 📸 |
 | **[ChrisBuilds/terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects)** | `Python` | TerminalTextEffects (TTE) is a terminal visual effects engine, application, and Python library. |
 | **[crunchprank/dig-dug](https://github.com/crunchprank/dig-dug)** | `Shell` | Mass / Batch domain dig to .CSV bash script |

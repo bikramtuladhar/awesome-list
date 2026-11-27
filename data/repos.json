@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:40:35.082049+00:00",
+  "generated_at": "2026-11-27T08:53:52.836783+00:00",
   "total_count": 1742,
   "repos": [
     {
@@ -15040,23 +15040,6 @@
       ]
     },
     {
-      "id": "bikramtuladhar-task-mon",
-      "name": "task-mon",
-      "full_name": "bikramtuladhar/task-mon",
-      "url": "https://github.com/bikramtuladhar/task-mon",
-      "description": "CLI to execute commands and log results to healthchecks.io",
-      "language": "Others",
-      "topics": [
-        "others"
-      ],
-      "category_id": "devtools-terminal",
-      "role": "Developer Productivity & Tooling",
-      "remix_ideas": [
-        "Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI",
-        "Remix into a developer utility or specialized SaaS workflow"
-      ]
-    },
-    {
       "id": "awesome-foss-awesome-sysadmin",
       "name": "awesome-sysadmin",
       "full_name": "awesome-foss/awesome-sysadmin",
@@ -19520,7 +19503,7 @@
       "name": "gymie",
       "full_name": "lubusIN/gymie",
       "url": "https://github.com/lubusIN/gymie",
-      "description": "Gym & Club Management System",
+      "description": "Open-source gym & club management system.",
       "language": "PHP",
       "topics": [
         "crm",
@@ -21449,7 +21432,9 @@
       "description": "Keep asking OCI for a free-tier A1.Flex ARM instance until capacity shows up. One Python file, official API only.",
       "language": "Python",
       "topics": [
-        "others"
+        "a1-flexpython",
+        "free-tieralways-free",
+        "oracle-cloudoci"
       ],
       "category_id": "devtools-terminal",
       "role": "Developer Productivity & Tooling",
@@ -25773,7 +25758,7 @@
       "name": "prowler",
       "full_name": "prowler-cloud/prowler",
       "url": "https://github.com/prowler-cloud/prowler",
-      "description": "This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world\u2019s most widely used open-source cloud security platform that automates security and compliance across any cloud environment for",
+      "description": "Prowler is the world\u2019s most widely used open-source cloud security platform that automates security and compliance across any cloud environment.",
       "language": "Python",
       "topics": [
         "aws",
@@ -27727,6 +27712,7 @@
         "open-source",
         "postgresql",
         "rust",
+        "rustrak",
         "self-hosted",
         "selfhosted",
         "sentry",
@@ -28956,6 +28942,23 @@
         "healthchecksio",
         "heartbeat",
         "monitoring"
+      ],
+      "category_id": "devtools-terminal",
+      "role": "Developer Productivity & Tooling",
+      "remix_ideas": [
+        "Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI",
+        "Remix into a developer utility or specialized SaaS workflow"
+      ]
+    },
+    {
+      "id": "bikramtuladhar-task-mon",
+      "name": "task-mon",
+      "full_name": "bikramtuladhar/task-mon",
+      "url": "https://github.com/bikramtuladhar/task-mon",
+      "description": "CLI to execute commands and log results to healthchecks.io",
+      "language": "Rust",
+      "topics": [
+        "others"
       ],
       "category_id": "devtools-terminal",
       "role": "Developer Productivity & Tooling",
