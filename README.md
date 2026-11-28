@@ -1,14 +1,14 @@
 # ⚡ Awesome Product Remix & Builder Stacks [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> A curated, AI-classified collection of **1,742 starred developer tools**, organized as architectural building blocks to remix, fork, and launch new products.
+> A curated, AI-classified collection of **1,745 starred developer tools**, organized as architectural building blocks to remix, fork, and launch new products.
 
 **Live Interactive Catalog, Idea Swapper & Combiner:** [Explore Live on GitHub Pages](https://bikramtuladhar.github.io/awesome-list/) ✨
-**Full 40 Product Ideas & 1,742-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡
+**Full 40 Product Ideas & 1,745-Repo Swap Matrix:** [Browse IDEAS.md](IDEAS.md) 💡
 
-![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1742-blue.svg?style=flat-square) 
+![Total Tools](https://img.shields.io/badge/Cataloged_Tools-1745-blue.svg?style=flat-square) 
 ![Product Ideas](https://img.shields.io/badge/Swappable_Product_Ideas-40_(100%25_Coverage)-emerald.svg?style=flat-square) 
 ![Auto Updated](https://img.shields.io/badge/AI_Classification-Google_Gemini-4285F4.svg?style=flat-square) 
-![Last Updated](https://img.shields.io/badge/Updated-2026--11--27-success.svg?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Updated-2026--11--28-success.svg?style=flat-square)
 
 ---
 
@@ -100,7 +100,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 
 ## 📑 Table of Contents
 
-- [🤖 AI & Autonomous Agents (245)](#ai-agents)
+- [🤖 AI & Autonomous Agents (247)](#ai-agents)
 - [🔍 RAG, Vector & Data Ingestion (35)](#rag-data-ingestion)
 - [🚀 SaaS Starters & App Boilerplates (32)](#saas-starters)
 - [🎨 UI Kits, Generative UX & Dashboards (160)](#ui-generative-ux)
@@ -108,12 +108,12 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 - [💾 Databases, Caching & Realtime State (124)](#data-storage-cache)
 - [🛡️ Security, Privacy & Auth Utilities (87)](#security-privacy)
 - [📦 DevOps, Sandboxes & Cloud Infra (193)](#devops-infra)
-- [🛠️ Developer Tooling & Terminal Utilities (709)](#devtools-terminal)
+- [🛠️ Developer Tooling & Terminal Utilities (710)](#devtools-terminal)
 - [💡 Ready-to-Remix Products & Self-Hosted Apps (78)](#ready-to-remix)
 
 ---
 
-## <a id="ai-agents"></a>🤖 AI & Autonomous Agents `(245)`
+## <a id="ai-agents"></a>🤖 AI & Autonomous Agents `(247)`
 
 > *Agent frameworks, LLM orchestrators, local inference runtimes, multi-agent swarms, and AI coding assistants.*
 
@@ -277,6 +277,8 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)** | `Autonomous Agent / LLM Runtime` | `Python` | Clone a voice in 5 seconds to generate arbitrary speech in real-time | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
 | **[ubicloud/ubicloud](https://github.com/ubicloud/ubicloud)** | `Local LLM Inference Runtime` | `Ruby` | Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services. | *Power an on-premise private AI assistant* |
 | **[huginn/huginn](https://github.com/huginn/huginn)** | `Multi-Agent Coordination & Execution` | `Ruby` | Create agents that monitor and act on your behalf.  Your agents are standing by! | *Remix with headless browser for end-to-end task automation* |
+| **[thePM001/AEP-agent-element-protocol](https://github.com/thePM001/AEP-agent-element-protocol)** | `Multi-Agent Coordination & Execution` | `Rust` | AEP (Agent Element Protocol) v2.9 \| Deterministic zero-trust total control and governance protocol for AI agents. \| Reduce hallucinations to zero through architecture in all constrained domains of app | *Remix with headless browser for end-to-end task automation* |
+| **[xerj-org/xerj](https://github.com/xerj-org/xerj)** | `Multi-Agent Coordination & Execution` | `Rust` | AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory a | *Remix with headless browser for end-to-end task automation* |
 | **[rustrak/rustrak](https://github.com/rustrak/rustrak)** | `Multi-Agent Coordination & Execution` | `Rust` | Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL. | *Remix with headless browser for end-to-end task automation* |
 | **[ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)** | `Multi-Agent Coordination & Execution` | `Rust` | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. | *Remix with headless browser for end-to-end task automation* |
 | **[run-llama/liteparse](https://github.com/run-llama/liteparse)** | `Autonomous Agent / LLM Runtime` | `Rust` | A fast, helpful, and open-source document parser | *Combine this Autonomous Agent / LLM Runtime with an agent orchestrator and modern UI* |
@@ -362,7 +364,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[novuhq/novu](https://github.com/novuhq/novu)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The open-source communication infrastructure for agents and products | *Remix with headless browser for end-to-end task automation* |
 | **[SigNoz/signoz](https://github.com/SigNoz/signoz)** | `Multi-Agent Coordination & Execution` | `TypeScript` | SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log mana | *Remix with headless browser for end-to-end task automation* |
 | **[appwrite/appwrite](https://github.com/appwrite/appwrite)** | `Multi-Agent Coordination & Execution` | `TypeScript` | The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more | *Remix with headless browser for end-to-end task automation* |
-| **[NangoHQ/nango](https://github.com/NangoHQ/nango)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Connect your agents & product to 1,000 APIs. | *Remix with headless browser for end-to-end task automation* |
+| **[NangoHQ/nango](https://github.com/NangoHQ/nango)** | `Multi-Agent Coordination & Execution` | `TypeScript` | Connect your agents to 1,600+ APIs. | *Remix with headless browser for end-to-end task automation* |
 | **[leon-ai/leon](https://github.com/leon-ai/leon)** | `Multi-Agent Coordination & Execution` | `TypeScript` | 🧠 Leon is your open-source personal assistant. | *Remix with headless browser for end-to-end task automation* |
 
 
@@ -455,7 +457,6 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 
 | Tool & Repository | Role / Building Block | Language | Description | Remix Suggestion |
 | :--- | :--- | :--- | :--- | :--- |
-| **[markmead/hyperui](https://github.com/markmead/hyperui)** | `UI Component Library` | `Astro` | Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀 | *Style custom AI dashboards and widgets* |
 | **[Hasnayeen/invobook](https://github.com/Hasnayeen/invobook)** | `UI Component Library` | `Blade` | Self-hosted app for Time Tracking, Invoice Generation, Project & Client Management, built with Laravel & Filament. | *Style custom AI dashboards and widgets* |
 | **[Qoraiche/laravel-mail-editor](https://github.com/Qoraiche/laravel-mail-editor)** | `UI & Presentation Layer` | `Blade` | MailEclipse :zap: Laravel Mail Editor | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
 | **[NoiseByNorthwest/php-spx](https://github.com/NoiseByNorthwest/php-spx)** | `UI & Presentation Layer` | `C` | A simple & straight-to-the-point PHP profiling extension with its built-in web UI | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
@@ -577,6 +578,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[trpc/trpc](https://github.com/trpc/trpc)** | `UI & Presentation Layer` | `TypeScript` | 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
 | **[chakra-ui/zag](https://github.com/chakra-ui/zag)** | `UI Component Library` | `TypeScript` | Build your design system in React, Solid, Vue, Svelte or Vanilla. Powered by finite state machines | *Style custom AI dashboards and widgets* |
 | **[ruilisi/fortune-sheet](https://github.com/ruilisi/fortune-sheet)** | `UI & Presentation Layer` | `TypeScript` | A drop-in javascript spreadsheet library that provides rich features like Excel and Google Sheets | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
+| **[markmead/hyperui](https://github.com/markmead/hyperui)** | `UI Component Library` | `TypeScript` | Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀 | *Style custom AI dashboards and widgets* |
 | **[meta/lexical](https://github.com/meta/lexical)** | `UI & Presentation Layer` | `TypeScript` | Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
 | **[mantinedev/mantine](https://github.com/mantinedev/mantine)** | `UI Component Library` | `TypeScript` | A fully featured React components library | *Style custom AI dashboards and widgets* |
 | **[dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator)** | `UI & Presentation Layer` | `TypeScript` | A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. | *Combine this UI & Presentation Layer with an agent orchestrator and modern UI* |
@@ -1132,7 +1134,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[justrach/merjs](https://github.com/justrach/merjs)** | `Infrastructure & Execution Sandbox` | `Zig` | A Zig-native web framework. File-based routing, SSR, type-safe APIs, WASM client interactivity. No Node. No npm. Just zig build serve. | *Combine this Infrastructure & Execution Sandbox with an agent orchestrator and modern UI* |
 
 
-## <a id="devtools-terminal"></a>🛠️ Developer Tooling & Terminal Utilities `(709)`
+## <a id="devtools-terminal"></a>🛠️ Developer Tooling & Terminal Utilities `(710)`
 
 > *CLI power tools, TUI interfaces, profilers, debuggers, code formatters, and terminal sharing.*
 
@@ -1381,6 +1383,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[deepseek-ai/DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2)** | `Developer Productivity & Tooling` | `Others` | DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[superkoda/superkoda](https://github.com/superkoda/superkoda)** | `Developer Productivity & Tooling` | `Others` | Business apps you can change by asking. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[octoherd/octoherd](https://github.com/octoherd/octoherd)** | `Developer Productivity & Tooling` | `Others` | Manage multiple repository updates all at once. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
+| **[bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon)** | `Developer Productivity & Tooling` | `Others` | CLI to execute commands and log results to healthchecks.io | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[dtinth/superwhite](https://github.com/dtinth/superwhite)** | `Developer Productivity & Tooling` | `Others` | display a very bright white color on HDR-enabled displays | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)** | `Developer Productivity & Tooling` | `Others` | Master the command line, in one page | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[coreruleset/google-oauth2-plugin](https://github.com/coreruleset/google-oauth2-plugin)** | `Developer Productivity & Tooling` | `Others` | Plugin to suppress false positives with Google OAuth2 online authorization service callbacks. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
@@ -1654,6 +1657,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[bashly-framework/bashly](https://github.com/bashly-framework/bashly)** | `Developer Productivity & Tooling` | `Ruby` | Bash command line framework and CLI generator | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[postalserver/postal](https://github.com/postalserver/postal)** | `Developer Productivity & Tooling` | `Ruby` | 📮 A fully featured open source mail delivery platform for incoming & outgoing e-mail | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[burke/minidev](https://github.com/burke/minidev)** | `Developer Productivity & Tooling` | `Ruby` | Like dev, only lots worse! | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
+| **[anomalyco/opencode-rune](https://github.com/anomalyco/opencode-rune)** | `Developer Productivity & Tooling` | `Rust` | OpenCode (Rune) desktop client and embeddable Rune session crates | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[shipfastlabs/pun](https://github.com/shipfastlabs/pun)** | `Developer Productivity & Tooling` | `Rust` | The ultrafast unified PHP toolchain | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[ruvnet/RuView](https://github.com/ruvnet/RuView)** | `Developer Productivity & Tooling` | `Rust` | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** | `Developer Productivity & Tooling` | `Rust` | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
@@ -1671,7 +1675,6 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[cloudflare/pingora](https://github.com/cloudflare/pingora)** | `Developer Productivity & Tooling` | `Rust` | A library for building fast, reliable and evolvable network services. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[orf/gping](https://github.com/orf/gping)** | `Developer Productivity & Tooling` | `Rust` | Ping, but with a graph | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[dimo414/task-mon](https://github.com/dimo414/task-mon)** | `Developer Productivity & Tooling` | `Rust` | CLI to execute commands and log results to healthchecks.io | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[bikramtuladhar/task-mon](https://github.com/bikramtuladhar/task-mon)** | `Developer Productivity & Tooling` | `Rust` | CLI to execute commands and log results to healthchecks.io | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[oxc-project/oxc](https://github.com/oxc-project/oxc)** | `Developer Productivity & Tooling` | `Rust` | ⚓ A collection of high-performance JavaScript tools. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[awslabs/mountpoint-s3](https://github.com/awslabs/mountpoint-s3)** | `Developer Productivity & Tooling` | `Rust` | A simple, high-throughput file client for mounting an Amazon S3 bucket as a local file system. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[samwho/spacer](https://github.com/samwho/spacer)** | `Developer Productivity & Tooling` | `Rust` | CLI tool to insert spacers when command output stops | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
@@ -1716,7 +1719,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[wfxr/forgit](https://github.com/wfxr/forgit)** | `Developer Productivity & Tooling` | `Shell` | :zzz: A utility tool powered by fzf for using git interactively. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[fabianlee/kustomize-overlays-with-reload](https://github.com/fabianlee/kustomize-overlays-with-reload)** | `Developer Productivity & Tooling` | `Shell` | Open source tool | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[titzer/virgil](https://github.com/titzer/virgil)** | `Developer Productivity & Tooling` | `Shell` | A fast and lightweight native programming language | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[tuanpham-dev/termux-ubuntu](https://github.com/tuanpham-dev/termux-ubuntu)** | `Developer Productivity & Tooling` | `Shell` | This helps you install Ubuntu 20 + XFCE4 desktop on Termux with ease. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
+| **[tuanpham-dev/termux-ubuntu](https://github.com/tuanpham-dev/termux-ubuntu)** | `Developer Productivity & Tooling` | `Shell` | Archived: use Kestrel instead, a no-root Linux desktop app for Android with GPU acceleration: https://github.com/tuanpham-dev/kestrel | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[MFDGaming/ubuntu-in-termux](https://github.com/MFDGaming/ubuntu-in-termux)** | `Developer Productivity & Tooling` | `Shell` | This is a script by which you can install Ubuntu in your termux application without a rooted device | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)** | `Developer Productivity & Tooling` | `Shell` | Hestia Control Panel \| A lightweight and powerful control panel for the modern web. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[nvm-sh/nvm](https://github.com/nvm-sh/nvm)** | `Developer Productivity & Tooling` | `Shell` | Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
@@ -1728,7 +1731,7 @@ How to combine tools from this list into actionable products (see **[IDEAS.md](I
 | **[PeachFlame/cPanel-fixperms](https://github.com/PeachFlame/cPanel-fixperms)** | `Developer Productivity & Tooling` | `Shell` | A script to fix permissions & ownership, on files & directories, for cPanel accounts. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[aristocratos/bashtop](https://github.com/aristocratos/bashtop)** | `Developer Productivity & Tooling` | `Shell` | Linux/OSX/FreeBSD resource monitor | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)** | `Developer Productivity & Tooling` | `Shell` | 📖 A collection of pure bash alternatives to external processes. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
-| **[ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)** | `Developer Productivity & Tooling` | `Shell` | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
+| **[ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)** | `Developer Productivity & Tooling` | `Shell` | 🙃   A delightful community-driven (with 2,600+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[Powerlevel9k/powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k)** | `Developer Productivity & Tooling` | `Shell` | Powerlevel9k was a tool for building a beautiful and highly functional CLI, customized for you. P9k had a substantial impact on CLI UX, and its legacy is now continued by P10k. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[termux/termux-packages](https://github.com/termux/termux-packages)** | `Developer Productivity & Tooling` | `Shell` | A package build system for Termux. | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
 | **[leaningtech/webvm](https://github.com/leaningtech/webvm)** | `Developer Productivity & Tooling` | `Svelte` | Virtual Machine for the Web | *Combine this Developer Productivity & Tooling with an agent orchestrator and modern UI* |
